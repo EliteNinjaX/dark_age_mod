@@ -2,7 +2,7 @@
 	country="PER"
 	2={
 		first_name="Khosrow"
-		family = c:PER.fam:Sasan
+		family_name="Sasan"
 		birth_date=1248.10.8
 		culture="median"
 		religion="zoroaster"
@@ -21,7 +21,7 @@
 	}
 	13={
 		first_name="Kavad"
-		family = c:PER.fam:Sasan
+		family_name="Sasan"
 		birth_date=1224.12.11
 		culture="median"
 		religion="zoroaster"
