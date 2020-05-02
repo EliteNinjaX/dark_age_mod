@@ -2,7 +2,7 @@
 	country="EVS"
 	20={
 		first_name="Elemund"
-		family_name="Elemunding"
+		family = c:EVS.fam:Elemunding
 		birth_date=1254.9.22
 		culture="gepids"
 		religion="germanic_religion"

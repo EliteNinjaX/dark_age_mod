@@ -2,7 +2,7 @@
 	country="BUR"
 	11={
 		first_name="Sigismund"
-		family_name="Gundobad"
+		family = c:BUR.fam:Gundobad
 		birth_date=1256.5.15
 		culture="burgundian"
 		religion="arian"

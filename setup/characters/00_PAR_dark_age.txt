@@ -2,7 +2,7 @@
 	country="PAR"
 	10={
 		first_name="Childebert"
-		family_name="Merovingian"
+		family = c:PAR.fam:Merovingian
 		birth_date=1254.9.22
 		culture="franks"
 		religion="chalcedonian"

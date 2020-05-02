@@ -2,7 +2,7 @@
 	country="SUE"
 	21={
 		first_name="Veremund"
-		family_name="Suebi"
+		family = c:SUE.fam:Suebi
 		birth_date=1252.11.27
 		culture="suebian"
 		religion="arian"

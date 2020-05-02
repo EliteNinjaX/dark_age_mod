@@ -1,7 +1,7 @@
 family={
 	families={
 		#Numbers do not have to appear in numerical order but do have to be unique:
-		#Current first free ID is your moms ass.
+		#Current first free ID 11.
 		#Easter Roman Families on Start:
 		0={
 			key="Justinian"
@@ -30,6 +30,54 @@ family={
 			key="Sasan"
 			owner=PER
 			culture = median
+			prestige=300
+			color = 0
+		}
+		#VGO
+		4={
+			key="Gothica"
+			owner=VGO
+			culture = gothonic
+			prestige=300
+			color = 0
+		}
+		#BUR
+		5={
+			key="Gundobad"
+			owner=BUR
+			culture = burgundian
+			prestige=300
+			color = 0
+		}
+		#EVS
+		6={
+			key="Elemunding"
+			owner=EVS
+			culture = gepids
+			prestige=300
+			color = 0
+		}
+		#PAR
+		7={
+			key="Merovingian"
+			owner=PAR
+			culture = franks
+			prestige=300
+			color = 0
+		}
+		#OGO
+		9={
+			key="Theodoric"
+			owner=OGO
+			culture = gothonic
+			prestige=300
+			color = 0
+		}
+		#SUE
+		10={
+			key="Suebi"
+			owner=SUE
+			culture = suebian
 			prestige=300
 			color = 0
 		}
@@ -419,6 +467,7 @@ country = {
 #Ostrogothic Kingdom
 
 		OGO = {
+		family = 9
 			government = despotic_monarchy
 			primary_culture = gothonic
 			religion = arian
@@ -1009,6 +1058,7 @@ country = {
 		}
 
 		PAR = {
+		family = 7
 			government = despotic_monarchy
 			primary_culture = franks
 			religion = chalcedonian
@@ -1066,6 +1116,7 @@ country = {
 		### IBERIA
 
 		VGO = {
+		family = 4
 			government = despotic_monarchy
 			primary_culture = gothonic
 			religion = arian
@@ -1110,6 +1161,7 @@ country = {
 		}
 		
 		SUE = {
+		family = 10
 			government = tribal_kingdom
 			primary_culture = suebian
 			religion = arian
@@ -1131,6 +1183,7 @@ country = {
 		#Gepids
 		
 		EVS = {
+			family = 6
 			government = tribal_kingdom
 			primary_culture = gepids
 			religion = germanic_religion
@@ -1472,6 +1525,7 @@ country = {
 		}
 		
 		BUR = {
+		family = 5
 			government = despotic_monarchy
 			primary_culture = burgundian
 			religion = arian

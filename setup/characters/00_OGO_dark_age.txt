@@ -2,7 +2,7 @@
 	country="OGO"
 	5={
 		first_name="Athalaric"
-		family_name="Theodoric"
+		family = c:OGO.fam:Theodoric
 		birth_date=1268.12.15
 		culture="gothonic"
 		religion="arian"
@@ -22,7 +22,7 @@
 	}
 	6={
 		first_name="Theodahad"
-		family_name="Theodoric"
+		family = c:OGO.fam:Theodoric
 		birth_date=1240.12.29
 		culture="gothonic"
 		religion="arian"
@@ -62,7 +62,7 @@
 	}
 	18={
 		first_name="Amalasuntha"
-		family_name="Theodoric"
+		family = c:OGO.fam:Theodoric
 		female=yes
 		birth_date=1248.2.22
 		culture="gothonic"

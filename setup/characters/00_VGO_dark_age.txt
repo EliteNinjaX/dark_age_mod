@@ -2,7 +2,7 @@
 	country="VGO"
 	12={
 		first_name="Amalaric"
-		family_name="Gothica"
+		family = c:VGO.fam:Gothica
 		birth_date=1254.9.22
 		culture="gothonic"
 		religion="arian"

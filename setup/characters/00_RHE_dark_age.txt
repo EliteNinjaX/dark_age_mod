@@ -2,7 +2,7 @@
 	country="RHE"
 	9={
 		first_name="Theuderic"
-		family_name="Merovingian"
+		family = c:PAR.fam:Merovingian
 		birth_date=1252.11.27
 		culture="franks"
 		religion="chalcedonian"
