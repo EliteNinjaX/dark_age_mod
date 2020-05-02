@@ -1,0 +1,106 @@
+﻿country_decisions = {
+	
+	# Form Brettonia
+	form_britannia = {
+		
+		potential = {
+			OR = {
+				country_culture = briton
+				country_culture = brittania
+			}
+			NOT = {
+				tag = BRA
+			}
+			capital_scope = {
+					region = britain_region
+			}
+		}
+		
+		highlight = {
+			OR = {
+				is_in_area = britannia_secunda_meridionalis_area
+				is_in_area = britannia_secunda_septentrionalis_area
+				is_in_area = dobunnia_area
+				is_in_area = cornovia_area
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_britannia_exists
+			}
+			NOT = {
+				any_country = {
+					tag = BRA
+				}
+			}
+		}
+		
+		ai_allow = {
+			area:britannia_secunda_meridionalis_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+			area:britannia_secunda_septentrionalis_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+			area:dobunnia_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+			area:cornovia_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+		}
+		
+		effect = {
+			change_country_name = "BRITANNIA_NAME"
+			tribal_formable_government_change_effect = yes
+			hidden_effect = {
+				change_country_adjective = "BRITANNIA_ADJECTIVE"
+				change_country_color =  "samnite_red"
+				change_country_tag = BRA
+			}
+			capital_scope = {
+				if = {
+					limit = {
+						root = {
+							is_tribal = yes
+						}
+					}
+					capital_formable_tribal_effect = yes
+				}
+				else = {
+					capital_formable_medium_effect = yes
+				}
+				formable_capital_modifier_normal_effect = yes
+			}
+			custom_tooltip = "form_britain_claims_tooltip"
+			hidden_effect = {
+				every_province = {
+					limit = {
+						region = britain_region
+						NOT = { owner = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
+

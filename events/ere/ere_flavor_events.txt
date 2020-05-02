@@ -1,0 +1,87 @@
+﻿namespace = ere_flavor_events
+
+ere_flavor_events.1 = {
+	
+	type = country_event
+	title = "ere_flavor_events.1.t"
+	desc = "ere_flavor_events.1.desc"
+	picture = romans_marching
+	goto_location = root
+	trigger = {
+		tag = ERE
+		current_date > 1281.1.1	
+		NOT = {
+			has_variable = ere_flavor_100_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = ere_flavor_100_flag
+		}
+	}
+	
+	option = {
+		name = "ere_flavor_events.1.a"
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = 1
+		make_subject = { 
+			target = IBR
+			type = feudatory 
+		}
+		C:PER = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = 1676
+				target = IBR
+			}
+			create_unit = {
+				name = "Persian Army 1"
+				location = p:994
+				while = {
+					count = 15
+					add_subunit = heavy_infantry
+				}
+				while = {
+					count = 5
+					add_subunit = horse_archers
+				}
+				while = {
+					count = 5
+					add_subunit = heavy_cavalry
+				}
+			}
+			create_unit = {
+				name = "Persian Army 2"
+				location = p:1686
+				while = {
+					count = 15
+					add_subunit = heavy_infantry
+				}
+				while = {
+					count = 5
+					add_subunit = horse_archers
+				}
+				while = {
+					count = 5
+					add_subunit = heavy_cavalry
+				}
+			}
+		}
+	}
+	option = {
+		name = "ere_flavor_events.1.b"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -1
+		C:PER = {
+			make_subject = { 
+				target = LAZ
+				type = feudatory 
+			}		
+		}
+	}
+}

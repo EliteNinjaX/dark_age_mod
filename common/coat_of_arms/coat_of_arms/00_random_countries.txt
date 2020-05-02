@@ -1,0 +1,479 @@
+template = {	
+	flag_type_simple_emblem = {
+		pattern = list "simple"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list1"
+		}
+	}
+	
+	flag_type_simple_emblem_reversed = {
+		pattern = list "simple"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list1"
+			instance = { scale = { -1.0 1.0 }  }
+		}
+	}
+	
+	flag_type_simple_emblem_divisions = {
+		pattern = list "divisions"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_simple_emblem_divisions_reversed = {
+		pattern = list "divisions"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { -1.0 1.0 }  }
+		}
+	}
+	
+	#flag_type_simple_emblem_metals = {
+	#	pattern = "pattern_solid.tga"
+	#	color2 = list "triggered_colors_list2"
+	#	color2 = list "standard_colors_list"
+	#	
+	#	colored_emblem = {
+	#		texture = list "symbols"
+	#		color1 = list "standard_colors_list"
+	#		color2 = list "triggered_colors_list2"
+	#	}
+	#}
+	
+	#flag_type_simple_emblem_metals_reversed = {
+	#	pattern = "pattern_solid.tga"
+	#	color2 = list "triggered_colors_list2"
+	#	color2 = list "standard_colors_list"
+	#	
+	#	colored_emblem = {
+	#		texture = list "symbols"
+	#		color1 = list "standard_colors_list"
+	#		color2 = list "triggered_colors_list2"
+	#		instance = { scale = { -1.0 1.0 }  }
+	#	}
+	#}
+	
+	flag_type_bordered_emblem = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { 0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { rotation = 90 scale = { -1 1 }  }
+			instance = { rotation = 270 scale = { -1 1 }   }
+			instance = { rotation = 0  }
+			instance = { rotation = 180  }
+		}
+	}
+	
+	flag_type_bordered_emblem_reversed = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { -0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { rotation = 90 scale = { -1 1 }  }
+			instance = { rotation = 270 scale = { -1 1 }   }
+			instance = { rotation = 0  }
+			instance = { rotation = 180  }
+		}
+	}
+	
+	flag_type_bordered_emblem_vertical = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { 0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			#instance = { rotation = 0  }
+			#instance = { rotation = 180  }
+			instance = { rotation = 90  }
+			instance = { rotation = 270  }
+		}
+	}
+	
+	flag_type_bordered_emblem_vertical_reversed = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { -0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			#instance = { rotation = 0  }
+			#instance = { rotation = 180  }
+			instance = { rotation = 90  }
+			instance = { rotation = 270  }
+		}
+	}
+	
+	flag_type_bordered_emblem_horizontal = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { 0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { rotation = 0  }
+			instance = { rotation = 180  }
+			#instance = { rotation = 90  }
+			#instance = { rotation = 270  }
+		}
+	}
+	
+	flag_type_bordered_emblem_horizontal_reversed = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { -0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { rotation = 0  }
+			instance = { rotation = 180  }
+			#instance = { rotation = 90  }
+			#instance = { rotation = 270  }
+		}
+	}
+	
+	flag_type_bordered_emblem_top = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { 0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { rotation = 0  }
+			#instance = { rotation = 180  }
+			#instance = { rotation = 90  }
+			#instance = { rotation = 270  }
+		}
+	}
+	
+	flag_type_bordered_emblem_top_reversed = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { -0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { rotation = 0  }
+			#instance = { rotation = 180  }
+			#instance = { rotation = 90  }
+			#instance = { rotation = 270  }
+		}
+	}
+	
+	flag_type_bordered_emblem_bottom = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { 0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			#instance = { rotation = 0  }
+			instance = { rotation = 180  }
+			#instance = { rotation = 90  }
+			#instance = { rotation = 270  }
+		}
+	}
+	
+	flag_type_bordered_emblem_bottom_reversed = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { scale = { -0.75 0.75 }  }
+		}
+		colored_emblem = {
+			texture = list "borders"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			#instance = { rotation = 0  }
+			instance = { rotation = 180  }
+			#instance = { rotation = 90  }
+			#instance = { rotation = 270  }
+		}
+	}
+	
+	flag_type_tricolor = {
+		pattern = list "tricolors"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+	}
+	
+	flag_type_central_emblem = {
+		pattern = list "central_emblem"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+			instance = { scale = { 0.33 0.33 }  }
+		}
+	}
+	
+	flag_type_doublet_horizontal_01 = { #_
+		pattern = list "doublet_horizontal"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			instance = { position = { 0.25 0.5 } scale = { 0.5 0.5 }  }
+			instance = { position = { 0.75 0.5 } scale = { -0.5 0.5 }  }
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list1"
+		}
+	}
+	
+	flag_type_doublet_vertical_01 = { #|
+		pattern = list "doublet_vertical"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			instance = { position = { 0.5 0.25 } scale = { 0.5 0.5 }  }
+			#instance = { position = { 0.5 0.75 } scale = { 0.5 0.5 }  }
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+		}
+		colored_emblem = {
+			texture = list "symbols"
+			#instance = { position = { 0.5 0.25 } scale = { 0.5 0.5 }  }
+			instance = { position = { 0.5 0.75 } scale = { 0.5 0.5 }  }
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list1"
+		}
+	}
+	
+	
+	flag_type_triplet_horizontal_01 = { #|
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			instance = { position = { 0.17 0.5 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.50 0.5 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.83 0.5 } scale = { 0.33 0.33 }  }
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+		}
+	}
+	flag_type_triplet_horizontal_02 = { #|
+		pattern = "pattern_horizontal_bar_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			instance = { position = { 0.17 0.5 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.50 0.5 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.83 0.5 } scale = { 0.33 0.33 }  }
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+	}
+	flag_type_triplet_horizontal_03 = { #|
+		pattern = "pattern_horizontal_split_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			instance = { position = { 0.17 0.25 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.50 0.25 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.83 0.25 } scale = { 0.33 0.33 }  }
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_triplet_vertical_01 = { #_
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			instance = { position = { 0.5 0.17 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.5 0.50 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.5 0.83 } scale = { 0.33 0.33 }  }
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+		}
+	}
+	flag_type_triplet_vertical_02 = { #_
+		pattern = "pattern_vertical_bar_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			instance = { position = { 0.5 0.17 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.5 0.50 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.5 0.83 } scale = { 0.33 0.33 }  }
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+	}
+	
+	flag_type_quadrants_01 = { #\
+		pattern = "pattern_checkers_2x2_reversed.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			instance = { position = { 0.25 0.25 } scale = { -0.5 0.5 }  }
+			#instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
+			#instance = { position = { 0.25 0.75 } scale = { -0.5 0.5 }  }
+			instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+	}
+	
+	flag_type_quadrants_02 = { #/
+		pattern = "pattern_checkers_2x2.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		colored_emblem = {
+			texture = list "symbols"
+			#instance = { position = { 0.25 0.25 } scale = { -0.5 0.5 }  }
+			instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
+			instance = { position = { 0.25 0.75 } scale = { -0.5 0.5 }  }
+			#instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+	}
+}

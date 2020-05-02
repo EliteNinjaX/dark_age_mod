@@ -1,0 +1,27 @@
+﻿namespace = welcome_events
+
+welcome_events.1 = {
+	
+	type = country_event
+	title = "welcome_events.1.t"
+	desc = "welcome_events.1.desc"
+	picture = religious_rite
+	goto_location = root
+	trigger = {
+		is_ai = no
+		current_date > 1280.11.1	
+		NOT = {
+			has_variable = welcome100_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = welcome100_flag
+		}
+	}
+	
+    option = {
+        name = welcome_events.1.a
+	}
+}

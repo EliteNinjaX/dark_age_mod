@@ -1,0 +1,155 @@
+﻿easter_roman_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_group_modifier = 0.1
+		global_export_commerce_modifier = 0.2
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.10
+	}
+	
+	trigger = {
+		tag = ERE
+	}
+}
+
+westen_roman_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_group_modifier = 0.1
+		integrate_speed = 0.1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = WRE
+	}
+}
+
+roman_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_group_modifier = 0.1
+		integrate_speed = 0.1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = ROM
+	}
+}
+
+persian_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.05
+		discipline = 0.05
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = PER
+	}
+}
+
+ostrogoth_heritage = {
+	modifier = {
+		#good
+		siege_ability = 0.05
+		diplomatic_reputation = 2
+		
+		#bad
+		global_defensive = -0.1
+	}
+	
+	trigger = {
+		tag = OGO
+	}
+}
+
+frank_heritage = {
+	modifier = {
+		#good
+		manpower_recovery_speed = 0.05
+		integrate_speed = 0.1
+		
+		#bad
+		naval_morale_modifier = -0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = RHE
+			tag = PAR
+			tag = SOI
+		}
+	}
+}
+
+
+
+vandal_heritage = {
+	modifier = {
+		#good
+		global_export_commerce_modifier = 0.1
+		navy_maintenance_cost = -0.4
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = VAN
+	}
+}
+
+visigoth_heritage = {
+	modifier = {
+		#good
+		diplomatic_relations = 2
+		global_manpower_modifier = 0.05
+		
+		#bad
+		diplomatic_reputation = -2
+	}
+	
+	trigger = {
+		tag = VGO
+	}
+}
+
+avar_heritage = {
+	modifier = {
+		#good
+		heavy_cavalry_morale = 0.1
+		global_freemen_happyness = 0.1
+		
+		#bad
+		global_import_commerce_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = AVA
+	}
+}
+
+caliphate_heritage = {
+	modifier = {
+		#good
+		global_freemen_happyness = 0.2
+		light_cavalry_morale = 0.1
+		
+		#bad
+		heavy_infantry_maintenance_cost = 0.05
+	}
+	
+	trigger = {
+		tag = UMY
+	}
+}

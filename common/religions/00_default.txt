@@ -1,0 +1,184 @@
+﻿roman_pantheon = { # Hellenic
+	color = hsv { 0.65  0.7  0.8 }
+	global_citizen_happyness = 0.1
+	religion_category = pantheon
+}
+egyptian_pantheon = { # Kemetic
+	color = hsv { 0.15  1  0.7 }
+	ruler_popularity_gain = 0.1
+	religion_category = pantheon
+}
+carthaginian_pantheon = { # Canaanite
+	color = hsv { 0.75 0.9 0.73 }
+	navy_maintenance_cost = -0.1
+	religion_category = pantheon
+}
+shamanism = { # Zalmoxian
+	color = hsv { 0.0 0.5 1.0 }
+	global_tribesmen_output = 0.05
+	religion_category = pantheon
+}
+caucasian_religion = { # Armazic
+	color = { 0.3 0.1 0.4  }
+	global_defensive = 0.1
+	religion_category = pantheon
+}
+mesopotamian_religion = { # Chaldean
+	color = hsv { 0.05 1.0 0.5 }
+	global_monthly_civilization = 0.01
+	religion_category = pantheon
+}
+armenian_religion = { # Khaldic
+	color = { 0.3 0.1 0.2  }
+	global_freemen_output = 0.1
+	religion_category = pantheon
+}
+anatolian_religion = { # Cybelene
+	color = { 0.3 0.4 0.2  }
+	happiness_for_wrong_culture_modifier= 0.05
+	religion_category = pantheon
+}
+druidism = { # Druidic
+	color = hsv { 0.3 0.7 0.4 }
+	happiness_for_same_religion_modifier = 0.05
+	religion_category = pantheon
+}
+animism = { # Iberic
+	color = hsv { 0.07 1.0 1.0 }
+	global_import_commerce_modifier = 0.1
+	religion_category = pantheon
+}
+judaism = { # Jewish
+	color = hsv { 0.65 1.0 1.0 }
+	global_pop_assimilation_speed_modifier = 0.2
+	omen_duration = 0.5
+	omen_power = 0.15
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+zoroaster = { # Zoroastriniams
+	color = hsv { 0.52 0.77 0.72 }
+	army_maintenance_cost = -0.05
+	religion_category = firetemples
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+berber_religion = { # Megalithic
+	color = hsv { 0.05  0.5  0.4 }
+	happiness_for_same_religion_modifier = 0.05
+	religion_category = pantheon
+}
+germanic_religion = { # Tuistic
+	color = hsv { 0.05 0.7 0.3 }
+	start_migration_cost_modifier = -0.1
+	religion_category = pantheon
+}
+indo_iranian_religion = { # Heptadic
+	color = hsv { 0.2 0.5 0.8 }
+	monthly_military_experience_modifier = 0.05
+	religion_category = pantheon
+}
+arabian_pantheon = { # Arabic
+	color = hsv { 0.3 0.7 0.6 }
+	global_tribesmen_happyness = 0.1
+	religion_category = pantheon
+}
+buddhism = { # Buddhism
+	color = hsv { 0.15 0.7 1 }
+	global_pop_conversion_speed_modifier = 0.3
+	religion_category = sages
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+hindu = { # Hinduism
+	color = hsv { 0.05 1 0.9 }
+	diplomatic_reputation = 1
+	religion_category = pantheon
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+eastern_animism = { # Ritualist
+	color = hsv { 0.03 0.7 0.7 }
+	diplomatic_relations = 1
+	religion_category = pantheon
+}
+bon_religion = { # Bon
+	color = hsv { 0.95 1.0 0.8 }
+	build_cost = -0.1
+	religion_category = pantheon
+}
+matrist_religion = { # Matrist
+	color = hsv { 0.5 0.4 0.7 }
+	manpower_recovery_speed = 0.05
+	religion_category = pantheon
+}
+jainism = { # Jain
+	color = hsv { 0.7 0.2 0.2 }
+	global_pop_promotion_speed_modifier = 0.25
+	religion_category = sages
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+nestorian = {
+	color = hsv { 1 0.8 0.5 }
+	global_citizen_happyness = 0.1
+	omen_duration = 0.5
+	omen_power = 0.15
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+	
+}
+chalcedonian = {
+	color = hsv { 1 0.7 0.6 }
+	global_citizen_happyness = 0.1
+	omen_duration = 0.5
+	omen_power = 0.15
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+miaphysite = {
+	color = hsv { 0.9 0.9 0.9 }
+	build_cost = -0.1
+	omen_duration = 0.5
+	omen_power = 0.15
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+arian = {
+	color = hsv { 0.9 0.8 0.7 }
+	manpower_recovery_speed = 0.1
+	omen_duration = 0.5
+	omen_power = 0.15
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+islam = {
+	color = hsv { 0.2 0.1 0.33 }
+	manpower_recovery_speed = 0.1
+	omen_duration = 0.5
+	omen_power = 0.15
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+slavic = {
+	color = hsv { 0.1 0.8 1.0 }
+	global_tribesmen_output = 0.05
+	religion_category = pantheon
+}
+tengri = {
+	color = hsv { 0.49 1.0 0.5 }
+	global_tribesmen_happyness = 0.1
+	religion_category = pantheon
+}

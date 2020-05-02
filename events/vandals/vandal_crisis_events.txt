@@ -1,0 +1,47 @@
+﻿namespace = vandal_crisis_events
+
+vandal_crisis_events.1 = {
+	
+	type = country_event
+	title = "vandal_crisis_events.1.t"
+	desc = "vandal_crisis_events.1.desc"
+	picture = celtic_chiefs
+	goto_location = root
+	trigger = {
+		tag = VAN
+		current_date > 1281.1.1	
+		NOT = {
+			has_variable = vandal_crisis_100_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = vandal_crisis_100_flag
+		}
+	}
+	
+	option = {
+		name = "vandal_crisis_events.1.a"
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = 1
+		set_variable = {    
+			name = vandal_crisis_tolerance_flag
+		}		
+	}
+	option = {
+		name = "vandal_crisis_events.1.b"
+		ai_chance = {
+			factor = 0
+		}
+		char:1 = {
+			set_character_religion = arian
+		}
+		add_stability = -2		
+		set_variable = {    
+			name = vandal_crisis_persecution_flag
+		}			
+	}
+}

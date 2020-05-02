@@ -1,0 +1,24 @@
+﻿"VGO"={
+	country="VGO"
+	12={
+		first_name="Amalaric"
+		family_name="Gothica"
+		birth_date=1254.9.22
+		culture="gothonic"
+		religion="arian"
+		no_stats=yes
+		add_martial=9
+		add_charisma=6
+		add_finesse=7
+		add_zeal=7
+		no_traits=yes
+		add_trait="lustful"
+		add_trait="intelligent"
+		add_gold=400
+		add_popularity=80
+		c:VGO={
+			set_as_ruler=char:12
+		}
+		dna="Pzg/OJJVklUEWQRZAnACcAKNAo0BXwFfApUClQKJAokCkAKQAnECcQJvAm8BVQFVApICkgJ3AncCcwJzAoICggKNAo0CkAKQAm0CbQA8ADwCdgJ2AnkCeQKBAoECbAJsAnICcgJvAm8CmQKZAokCiQKIAogChwKHA7IDsgKBAoECfAJ8AnoCegKMAowCegJ6A64DrgFOAU4AMQAxAmkCaQJ4AngDrAOsAmcCZwOpA6kCZgJmAmwCbAJ+An4BVQFVAmgCaAJ3AncCZgJmAm4CbgKFAoUCggKCAn4CfgTTBNMCawJrAmoCagFJAUkAIgAiAJkAmQFjAWMACgAKAToBOgFZAVkA0ADQAsMCwwDtAO0DeAN4AVYBVgAAAAAANwA3AEsASwFAAUABWwFbAAIAAgK7ArsBbQFtAE0ATQAAAAAAXQBdALcAtwDIAMgBQAFAAH4AfgDaANoCjwKPASIBIgA0ADQBEAEQACYAJgNOA04EnQSdAAAAAAQfBB8HxAfEALQAtAQTBBMFmgWaDbMNswAAAAAAAAAAAAAAAA=="
+	}
+}

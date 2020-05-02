@@ -1,0 +1,23 @@
+﻿"EVS"={
+	country="EVS"
+	20={
+		first_name="Elemund"
+		family_name="Elemunding"
+		birth_date=1254.9.22
+		culture="gepids"
+		religion="germanic_religion"
+		no_stats=yes
+		add_martial=7
+		add_charisma=8
+		add_finesse=8
+		add_zeal=7
+		no_traits=yes
+		add_trait="brave"
+		add_gold=300
+		add_popularity=90
+		c:EVS={
+			set_as_ruler=char:20
+		}
+		dna="jcCNwIpailpfZl9mAoYChgJyAnICiQKJApECkQKHAocCkAKQAowCjAKVApUBWQFZApACkAJyAnICbQJtAo8CjwKDAoMCiQKJAVEBUQKMAowAJgAmApUClQKDAoMAWwBbAnwCfAKVApUCdgJ2ApUClQJnAmcCaAJoAm8CbwJwAnACeAJ4BNUE1QKLAosCkgKSA5sDmwJ1AnUCgwKDAWEBYQJ8AnwCbwJvBOEE4QKTApMCiQKJAn8CfwJ6AnoCagJqAo8CjwJqAmoCkgKSAowCjAS4BLgCbQJtAo4CjgOjA6MCcAJwBN4E3gP0A/QA9gD2AH0AfQA7ADsC4ALgAPMA8wBnAGcAbgBuARQBFAFiAWIAhgCGATcBNwAAAAAAQgBCAFQAVAEsASwA3wDfAJgAmAA+AD4DuwO7AUkBSQAAAAACwwLDAV0BXQCaAJoAIgAiAsQCxABhAGEAmgCaAJUAlQCvAK8AgACAAPQA9ATmBOYM3QzdAAAAAAQjBCMHDwcPAAkACQQKBAoF6AXoDd0N3QAAAAAAAAAAAAAAAA=="
+	}
+}

@@ -1,0 +1,132 @@
+﻿country_decisions = {
+	
+	# Form WRE
+	form_wre = {
+		
+		potential = {
+			num_of_cities >= 1
+			OR = {
+				country_culture_group = latin
+			}
+			NOR = {
+				tag = ERE
+				tag = PER
+				tag = WRE
+				}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			OR = {
+				province_id = 1 #Rome
+				province_id = 142 #Ravenna
+				province_id = 7 #Naples
+				province_id = 84 #Syracuse
+				province_id = 3256 #Carthage
+				province_id = 3515 #Aleria
+				province_id = 3481 #Sulcis
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_wre_exists
+				NOT = {
+					any_country = {
+						tag = WRE
+					}
+				}
+			}
+			OR = {
+				is_monarchy = yes
+				is_republic = yes
+			}
+			OR = {
+			country_culture_group = latin
+				}
+		}
+		
+		ai_allow = {
+			owns = 1 #Rome
+			owns = 142 #Ravenna
+			owns = 7 #Naples
+			owns = 84 #Syracuse
+			owns = 3256 #Carthage
+			owns = 3515 #Aleria
+			owns = 3481 #Sulcis
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "WRE_NAME"
+			hidden_effect = {
+				change_country_flag = WRE
+				change_country_adjective = "WRE_ADJECTIVE"
+				change_country_color = "roman_red"
+				change_country_tag = WRE
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 1
+						}
+					}
+				}
+				set_capital = 1
+			}
+			p:1 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_country_modifier = {
+				name = formable_country_huge_modifier
+				duration = 7600
+			}
+			custom_tooltip = "form_WRE_claims_tooltip"
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							region = aquitaine_region
+							region = armorica_region
+							region = belgica_region
+							region = central_gaul_region
+							region = transalpine_gaul_region
+							region = germania_superior_region
+							region = transalpine_gaul_region
+							region = cisalpine_gaul_region
+							region = central_italy_region
+							region = rhaetia_region
+							region = magna_graecia_region
+							region = africa_region
+							region = numidia_region
+							region = mauretainia_region
+							region = baetica_region
+							region = contestania_region
+							region = lusitania_region
+							region = tarraconensis_region
+							region = gallaecia_region
+							region = britain_region
+						}
+						NOT = { owner = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+			if = {
+				is_monarchy = yes
+				change_government = imperium
+			}
+			add_3_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
+

@@ -1,0 +1,63 @@
+﻿country_decisions = {
+	embrace_latin = {
+		potential = {
+			num_of_cities >= 20
+			OR = {
+				tag = VGO
+				tag = RHE
+				tag = PAR
+				tag = SOI
+				tag = BUR
+				tag = VAN
+				tag = OGO
+			}
+			NOT = {
+				country_culture_group = latin
+				tag = HRE
+				tag = FRA
+			}
+		}
+		allow = {
+			stability >= 30
+		}
+		effect = {
+			if = {
+				limit = {
+					tag = VGO
+				}
+				add_stability = -30
+				set_primary_culture = hispania
+			}
+			if = {
+				limit = {
+					tag = VAN
+				}
+				add_stability = -30
+				set_primary_culture = africa
+			}
+			if = {
+				limit = {
+					OR = {
+						tag = RHE
+						tag = PAR
+						tag = SOI
+						tag = BUR
+					}
+				}
+				add_stability = -30
+				set_primary_culture = gaul
+			}
+			if = {
+				limit = {
+					tag = OGO
+				}
+				add_stability = -30
+				set_primary_culture = roman
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	}

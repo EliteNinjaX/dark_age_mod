@@ -1,0 +1,24 @@
+﻿"PAR"={
+	country="PAR"
+	10={
+		first_name="Childebert"
+		family_name="Merovingian"
+		birth_date=1254.9.22
+		culture="franks"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=8
+		add_charisma=4
+		add_finesse=6
+		add_zeal=7
+		no_traits=yes
+		add_trait="brave"
+		add_trait="prominent"
+		add_gold=200
+		add_popularity=60
+		c:PAR={
+			set_as_ruler=char:10
+		}
+		dna="b1tvW4dlh2Useyx7AmwCbAJ9An0EywTLAn0CfQKBAoEClgKWAncCdwKBAoECaQJpAnoCegJ1AnUCcAJwAnkCeQKTApMChwKHAncCdwJsAmwCbQJtAnACcAJpAmkCkAKQAmYCZgJ9An0CawJrApYClgKAAoACcAJwBLoEugKJAokDpQOlAmsCawJwAnACeQJ5AoQChAJ/An8CcQJxAmkCaQKCAoIDsgOyAocChwKLAosCdgJ2ApMCkwKZApkDrQOtAoUChQJrAmsCiAKIAnECcQJtAm0ChgKGBNsE2wKWApYCeQJ5AoMCgwIMAgwATgBOAPEA8QFYAVgAEgASAA0ADQKiAqICmQKZAGcAZwC6ALoAqgCqANsA2wAAAAABWgFaAMoAygCEAIQBKgEqACsAKwBYAFgC9gL2AsgCyAAAAAACkwKTAsgCyAKkAqQAAQABAT0BPQM0AzQAywDLAEwATAAWABYAQgBCAysDKwMqAyoC0gLSAAAAAALBAsEHBQcFAMEAwQSNBI0FrwWvDVcNVwAAAAAAAAAAAAAAAA=="
+	}
+}

@@ -1,0 +1,23 @@
+﻿"BUR"={
+	country="BUR"
+	11={
+		first_name="Sigismund"
+		family_name="Gundobad"
+		birth_date=1256.5.15
+		culture="burgundian"
+		religion="arian"
+		no_stats=yes
+		add_martial=8
+		add_charisma=6
+		add_finesse=8
+		add_zeal=8
+		no_traits=yes
+		add_trait="scholar"
+		add_gold=200
+		add_popularity=70
+		c:BUR={
+			set_as_ruler=char:11
+		}
+		dna="QkpCSp5Pnk9CX0JfApUClQJ4AngCfQJ9AmYCZgJrAmsCjAKMAoQChAKFAoUChwKHAVQBVAJ/An8CawJrApICkgFOAU4CiAKIAo8CjwA2ADYCfwJ/Am0CbQJ9An0CdgJ2AnUCdQFZAVkCiAKIApICkgJmAmYClgKWAnECcQKBAoEE2wTbAnMCcwJ6AnoBUgFSAmgCaAJsAmwDngOeA6YDpgKTApMCjQKNACkAKQKDAoMCbgJuAVUBVQKVApUCkAKQAooCigJ+An4CcwJzAncCdwJ8AnwClQKVAoACgAJ/An8CjwKPAm4CbgKaApoAlwCXAWcBZwCiAKIBZwFnARsBGwElASUBVwFXAWUBZQFvAW8DRQNFAMAAwAAAAAAAFgAWAT8BPwDYANgBQQFBAWcBZwF6AXoABwAHAS4BLgAAAAAAyQDJApkCmQAGAAYC5ALkAEcARwLGAsYA1QDVAQIBAgKTApMAXQBdAEQARANcA1wGvga+AAAAAAMhAyEH0wfTAOkA6QQrBCsFnwWfDeUN5QAAAAAAAAAAAAAAAA=="
+	}
+}

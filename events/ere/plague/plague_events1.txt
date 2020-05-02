@@ -1,0 +1,36 @@
+﻿namespace = plague_events
+
+plague_events.1 = {
+	
+	type = country_event
+	title = "plague_events.1.t"
+	desc = "plague_events.1.desc"
+	picture = natural_disaster
+	goto_location = root
+	trigger = {
+		owns = 1453
+		current_date > 1295.5.1	
+		NOT = {
+			has_variable = plague100_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = plague100_flag
+		}
+	}
+	
+    option = {
+        name = plague_events.1.a
+            every_province = {
+                limit = {
+                        OR = {
+							region = aegyptus_region
+							region = thrace_region
+						}
+                }
+                province_pop_disaster_major
+            }        
+    }
+}

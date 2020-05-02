@@ -1,0 +1,115 @@
+﻿country_decisions = {
+	
+	# Form Italy
+	form_italy = {		
+	
+		potential = {
+			country_culture = lombards
+			NOT = {
+				tag = ITY
+			}
+			capital_scope = {
+				OR = {
+					is_in_area = central_italy_region
+					is_in_area = cisalpine_gaul_region
+				}
+			}
+		}
+		
+		highlight = {
+			OR = {
+				is_in_area = liguria_area
+				is_in_area = pisae_area
+				is_in_area = aemilla_area
+				is_in_area = north_etruria_area
+				is_in_area = south_etruria_area
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_italy_exists
+			}
+			NOT = {
+				any_country = {
+					tag = ITY
+				}
+			}
+			can_form_nation_trigger = yes
+		}
+		
+		ai_allow = {
+			area:liguria_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+			area:pisae_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+			area:aemilla_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+			area:north_etruria_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+			area:south_etruria_area = {
+				any_area_province = {
+					count = all
+					owner = root
+				}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
+			change_country_name = "ITALY_NAME"
+			tribal_formable_government_change_effect = yes
+			hidden_effect = {
+				change_country_adjective = "ITALY_ADJECTIVE"
+				change_country_color =  "syracuse_yellow"
+				change_country_tag = ITY
+			}
+			capital_scope = {
+				if = {
+					limit = {
+						root = {
+							is_tribal = yes
+						}
+					}
+					capital_formable_tribal_effect = yes
+				}
+				else = {
+					capital_formable_medium_effect = yes
+				}
+				formable_capital_modifier_normal_effect = yes
+			}
+			custom_tooltip = "form_italy_claims_tooltip"
+			hidden_effect = {
+				every_province = {
+					limit = {
+						region = central_italy_region
+						NOT = { owner = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+			add_3_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
+

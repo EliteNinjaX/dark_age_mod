@@ -1,0 +1,90 @@
+﻿country_decisions = {
+	
+	# Form HRE
+	form_hre = {
+		
+		potential = {
+			num_of_cities >= 1
+			country_culture_group = germanic
+			OR = {
+				is_ai = no
+				num_of_cities >= 8
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			OR = {
+				province_id = 1 #Rome
+				province_id = 142 #Ravenna
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_hre_exists
+				NOT = {
+					any_country = {
+						tag = HRE
+					}
+				}
+			}
+			is_monarchy = yes
+			religion = chalcedonian
+			num_of_cities >= 500
+		}
+		
+		ai_allow = {
+			owns = 1 #Rome
+			owns = 142 #Ravenna
+		}
+		
+		effect = {
+			custom_tooltip = "tier_3_formable_tooltip"
+			change_country_name = "HRE_NAME"
+			hidden_effect = {
+				change_country_adjective = "HRE_ADJECTIVE"
+				change_country_color =  "dark_grey"
+				change_country_tag = HRE
+			}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			add_country_modifier = {
+				name = formable_country_huge_modifier
+				duration = 7600
+			}
+			custom_tooltip = "form_HRE_claims_tooltip"
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							region = aquitaine_region
+							region = armorica_region
+							region = belgica_region
+							region = central_gaul_region
+							region = transalpine_gaul_region
+							region = germania_superior_region
+							region = transalpine_gaul_region
+							region = cisalpine_gaul_region
+							region = central_italy_region
+						}
+						NOT = { owner = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+			monarchy_republic_into_imperium_formable_effect = yes
+			add_3_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
+

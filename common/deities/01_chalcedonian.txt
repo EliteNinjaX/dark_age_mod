@@ -1,0 +1,27 @@
+﻿### General Deity Checks ###
+deity_matthew = {
+	trigger = {
+		religion = chalcedonian
+	}
+	icon = deity_war
+	passive_modifier = { experience_decay = deity_experience_decay_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = chalcedonian
+	deity_category = war #This Deity uses a War slot.
+	
+	on_activate = {
+		if = {
+			limit = { manpower_percentage < 0.8 }
+			add_manpower = 1.5
+		}
+		else = {
+			add_military_experience = 2
+		}
+	}
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+### Exclusive Deity Checks ###

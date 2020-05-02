@@ -1,0 +1,74 @@
+﻿slavic = {
+	color = hsv { 0.1 0.5 1.0 }
+
+	male_names = {
+		Aleksandru Athanasi 
+		Berislav Blazh Bogdan Bogumil Bogumir Boguslav Borislav Borisu Borivoi Bozhidar Bozho Bratomil Bratoslav Bronislav 
+		Chedomir Chestimir 
+		Dalibor Dedomir Desislav Dmitrei Dobrogost Dobromil Dragomir Dragutin 
+		Georgei Grigorii 
+		Kazimir Krasimir Kyrilu 
+		Liudevit Lyubomir Lyudmil
+		Mechislav Mislav Moimir Mstislav 
+		Nikola Ninoslav 
+		Premislav Pridbor 
+		Radomir Radoslav 
+		Samo Stanislav Svetopolk 
+		Tikhomir Tomislav 
+		Vasilii Veceslav Velimir Vitilsav Vitomir Vlad Vladimir Vladimeru Vlastislav Vsevolod 
+		Yaromil Yaropolk 
+		Zvonimir Zdislav		
+	}
+
+	female_names = {
+		Bogdana Bozhena 
+		Desislava Dragoslava 
+		Elena 
+		Lyudmila 
+		Militsa Miloslava Miroslava 
+		Radoslava 
+		Slavitsa Stanislava 
+		Tomislava 
+		Yaroslava
+	}
+
+	family = {
+		Antonovus.Antonov.Antonovi.Antonovian
+		Baranus.Baran.Barani.Baranian
+		Bendus.Benda.Bendi.Bendian
+		Bogdus.Bogdan.Bogdi.Bogdian
+		Cybuikus.Cybuika.Cybuiki.Cybuikian
+		Dubinskus.Dubinsky.Dubinski.Dubinskian
+		Dvorakus.Dvorak.Dvoraki.Dvorakian
+		Erbenus.Erben.Erbeni.Erbenian
+		Gornus.Gorny.Gorni.Gornian
+		Husus.Hus.Husi.Husian
+		Ivanovus.Ivanov.Ivani.Ivanian
+		Jandus.Janda.Jandi.Jandian
+		Korbelus.Korbel.Korbeli.Korbelian
+		Lopatinus.Lopatin.Lopatini.Lopatinian
+		Malikus.Malik.Maliki.Malikian
+		Novius.Novy.Novi.Novyan
+		Petrovus.Petrov.Petrovi.Petrovian
+		Sobolus.Sobol.Soboli.Sobolian
+		Timkous.Timko.Timkoi.Timkoian
+		Wachus.Wach.Wachi.Wachian
+		Zemus.Zeman.Zemi.Zemian
+	}
+	culture = {
+		slavic = {}
+		lechite = {}
+		polanes = {}
+		antes = {}
+		south_slavs = {}
+	}
+	
+	barbarian_names = { POLANES VENEDI SAMBIA PECHORY }
+	
+	
+	
+	graphical_culture = german_gfx
+	ethnicities = {
+		10 = germanic
+	}
+}

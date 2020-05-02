@@ -1,0 +1,76 @@
+﻿country_decisions = {
+	
+	# Form Francia
+	form_francia = {
+		
+		potential = {
+			num_of_cities >= 5
+			country_culture = franks
+			NOT = {
+				tag = FRA
+				tag = HRE
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+				is_tier_2_formable_trigger = yes
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_francia_exists
+				NOT = {
+					any_country = {
+						tag = FRA
+					}
+				}
+			}
+			OR = {
+				is_monarchy = yes
+				is_republic = yes
+			}
+			num_of_cities >= 300
+			can_form_nation_trigger = yes
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "FRANCIA_NAME"
+			hidden_effect = {
+				change_country_adjective = "FRANCIA_ADJECTIVE"
+				change_country_tag = FRA
+			}
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			add_country_modifier = {
+				name = formable_country_huge_modifier
+				duration = 7600
+			}
+			custom_tooltip = "form_francia_claims_tooltip"
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							region = aquitaine_region
+							region = armorica_region
+							region = belgica_region
+							region = central_gaul_region
+							region = transalpine_gaul_region
+							region = germania_superior_region
+						}
+						NOT = { owner = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+} 
+

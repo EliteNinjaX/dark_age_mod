@@ -1,0 +1,162 @@
+﻿REB = "setup/countries/rebels.txt"
+PIR = "setup/countries/pirates.txt"
+BAR = "setup/countries/barbarians.txt"
+MER = "setup/countries/mercenaries.txt"
+
+#Successors
+VAN = "setup/countries/successors/vandals.txt"
+VGO = "setup/countries/successors/visigoths.txt"
+OGO = "setup/countries/successors/ostrogoths.txt"
+
+#GAUL
+SOI = "setup/countries/west/soissons.txt"
+PAR = "setup/countries/west/paris.txt"
+RHE = "setup/countries/west/rheims.txt"
+BRI = "setup/countries/west/britons.txt"
+BUR = "setup/countries/west/burgundians.txt"
+SUE = "setup/countries/west/suebians.txt"
+BAS = "setup/countries/west/basques.txt"
+
+#BERBERS
+ALT = "setup/countries/southwest/altava.txt"
+HOD = "setup/countries/southwest/hodna.txt"
+QUA = "setup/countries/southwest/quarsenis.txt"
+NOM = "setup/countries/southwest/nomentcha.txt"
+CAP = "setup/countries/southwest/capsa.txt"
+DOR = "setup/countries/southwest/dorsal.txt"
+MRI = "setup/countries/southwest/mauri.txt"
+
+#ARABS
+UMY = "setup/countries/east/umayyad.txt"
+
+#BRITAIN
+BER = "setup/countries/britain/bernicia.txt"
+BRY = "setup/countries/britain/bryneich.txt"
+CAI = "setup/countries/britain/cait.txt"
+CEB = "setup/countries/britain/ce.txt"
+CEL = "setup/countries/britain/celemion.txt"
+CER = "setup/countries/britain/ceredigon.txt"
+CRN = "setup/countries/britain/cerniw.txt"
+CON = "setup/countries/britain/connacht.txt"
+DUM = "setup/countries/britain/dumnonia.txt"
+DYF = "setup/countries/britain/dyfed.txt"
+EAN = "setup/countries/britain/eastanglia.txt"
+EBR = "setup/countries/britain/ebrave.txt"
+FIB = "setup/countries/britain/fib.txt"
+FOR = "setup/countries/britain/fortriu.txt"
+GAL = "setup/countries/britain/galloway.txt"
+GOW = "setup/countries/britain/gowrie.txt"
+GWE = "setup/countries/britain/gwent.txt"
+GWY = "setup/countries/britain/gwynedd.txt"
+KEN = "setup/countries/britain/kent.txt"
+LIN = "setup/countries/britain/lindsey.txt"
+LON = "setup/countries/britain/londoninium.txt"
+LUI = "setup/countries/britain/luitcoyt.txt"
+MCA = "setup/countries/britain/mercia.txt"
+MUN = "setup/countries/britain/munster.txt"
+ORI = "setup/countries/britain/oriel.txt"
+OSR = "setup/countries/britain/osraige.txt"
+POW = "setup/countries/britain/powys.txt"
+RHD = "setup/countries/britain/rheged.txt"
+STR = "setup/countries/britain/strathelyde.txt"
+SUS = "setup/countries/britain/sussex.txt"
+ULA = "setup/countries/britain/ulaid.txt"
+WES = "setup/countries/britain/wessex.txt"
+
+#INDIA
+ALC = "setup/countries/india/alchonhunxionites.txt"
+ANU = "setup/countries/india/anuradhapura.txt"
+ASA = "setup/countries/india/assaka.txt"
+AUL = "setup/countries/india/aulikaramalwa.txt"
+BHO = "setup/countries/india/bhoja.txt"
+GAN = "setup/countries/india/ganga.txt"
+GUP = "setup/countries/india/gupta.txt"
+KAD = "setup/countries/india/kadamba.txt"
+KAL = "setup/countries/india/kalabhra.txt"
+KAS = "setup/countries/india/kashmir.txt"
+MAI = "setup/countries/india/maitrakavalabhi.txt"
+NAL = "setup/countries/india/nala.txt"
+NEZ = "setup/countries/india/nezakhunxionites.txt"
+PAL = "setup/countries/india/pallava.txt"
+RAI = "setup/countries/india/raisindh.txt"
+VAK = "setup/countries/india/vakataka.txt"
+VAR = "setup/countries/india/varanasi.txt"
+VIS = "setup/countries/india/vishnukundina.txt"
+
+#SLAVS
+SKN = "setup/countries/slavs/sklaveni.txt"
+ANS = "setup/countries/slavs/antes.txt"
+VEL = "setup/countries/slavs/veleti.txt"
+VEN = "setup/countries/slavs/venedi.txt"
+POL = "setup/countries/slavs/polanes.txt"
+CRO = "setup/countries/slavs/croatia.txt"
+SLA = "setup/countries/slavs/slavonia.txt"
+RAS = "setup/countries/slavs/rashka.txt"
+
+
+#NOMADIC
+AVA = "setup/countries/nomadic/avars.txt"
+ALA = "setup/countries/nomadic/alans.txt"
+BUL = "setup/countries/nomadic/bulgars.txt"
+TUR = "setup/countries/nomadic/turks.txt"
+
+#East
+
+ERE = "setup/countries/east/eastrome.txt"
+PER = "setup/countries/east/persia.txt"
+ALB = "setup/countries/east/albania.txt"
+IBR = "setup/countries/east/iberia.txt"
+LAZ = "setup/countries/east/lazica.txt"
+PSS = "setup/countries/bactria/pissuri.txt" #Hephthalites
+
+#Emergent States
+EGY = "setup/countries/rebels/egypt.txt"
+SYR = "setup/countries/rebels/syria.txt"
+ATH = "setup/countries/rebels/athens.txt"
+ILY = "setup/countries/rebels/illyria.txt"
+
+#Gepids
+EVS = "setup/countries/illyria_dacia/eravisci.txt"
+
+#Germania
+LTG = "setup/countries/gaul/latobrigi.txt"
+CHC = "setup/countries/germania/chaucia.txt"
+POM = "setup/countries/slavs/pomeranians.txt"
+CMB = "setup/countries/germania/cimbria.txt" #Saxons
+SXS = "setup/countries/germania/saxones.txt" #Frisia
+THU = "setup/countries/slavs/thuringia.txt"
+ANG = "setup/countries/germania/anglia.txt"
+
+#Goths
+GTH = "setup/countries/germania/gothonia.txt"
+
+#Arabia
+HMJ = "setup/countries/arabia/himjar.txt"
+NBT = "setup/countries/arabia/nabatea.txt"
+HIJ = "setup/countries/arabia/hijaz.txt"
+QUR = "setup/countries/arabia/quraysh.txt"
+TAB = "setup/countries/arabia/tabuk.txt"
+THQ = "setup/countries/arabia/thaqif.txt"
+YAT = "setup/countries/arabia/yathrib.txt"
+LAK = "setup/countries/arabia/lakhmids.txt"
+GHA = "setup/countries/arabia/ghassanids.txt"
+AAN = "setup/countries/west/andalus.txt"
+
+#Africa
+AXM = "setup/countries/africa/aksum.txt"
+
+#Lombards
+BEN = "setup/countries/lombards/benevento.txt"
+LOM = "setup/countries/lombards/lombardy.txt"
+SPO = "setup/countries/lombards/spoleto.txt"
+TUS = "setup/countries/lombards/tuscany.txt"
+
+#Exarchs
+AFR = "setup/countries/exarch/africa.txt"
+RAV = "setup/countries/exarch/ravenna.txt"
+SPA = "setup/countries/exarch/spania.txt"
+
+#Emergent
+WRE = "setup/countries/west/westroman.txt"
+CAR = "setup/countries/west/carthage.txt"
+SAR = "setup/countries/west/sardinia.txt"

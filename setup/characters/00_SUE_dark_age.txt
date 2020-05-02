@@ -1,0 +1,23 @@
+﻿"SUE"={
+	country="SUE"
+	21={
+		first_name="Veremund"
+		family_name="Suebi"
+		birth_date=1252.11.27
+		culture="suebian"
+		religion="arian"
+		no_stats=yes
+		add_martial=7
+		add_charisma=8
+		add_finesse=8
+		add_zeal=7
+		no_traits=yes
+		add_trait="brave"
+		add_gold=300
+		add_popularity=90
+		c:SUE={
+			set_as_ruler=char:21
+		}
+		dna="cj9yP5xUnFQSYxJjAm8CbwFOAU4CjQKNAn8CfwKGAoYCkQKRApACkAKJAokDqQOpApICkgFPAU8CaQJpAoECgQJyAnICkwKTAnwCfAJyAnICfQJ9AooCigOoA6gChwKHAnICcgJ0AnQCgAKAApUClQKKAooDpQOlAnMCcwKHAocCZgJmAmcCZwKAAoACggKCAn4CfgJoAmgCegJ6AnwCfAKGAoYChgKGA6wDrAJwAnACbgJuAm0CbQJrAmsAOQA5AoMCgwOpA6kCdgJ2AoICggJ5AnkClQKVA6YDpgOfA58ClAKUAnICcgIAAgAA1wDXAEwATAB8AHwBBQEFAP8A/wCcAJwA7gDuAQMBAwAVABUA8gDyAN0A3QAAAAAA0QDRADUANQC1ALUAxADEAUUBRQK9Ar0AfwB/AHAAcAAAAAABJgEmAuUC5QK7ArsBVwFXARsBGwDdAN0BfgF+AFsAWwDNAM0AgQCBAH0AfQNbA1sHzwfPAAAAAASaBJoHyAfIABIAEgSDBIMFtAW0DW0NbQAAAAAAAAAAAAAAAA=="
+	}
+}

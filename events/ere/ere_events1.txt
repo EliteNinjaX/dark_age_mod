@@ -1,0 +1,30 @@
+﻿namespace = ere_events
+
+ere_events.1 = {
+	
+	type = country_event
+	title = "ere_events.1.t"
+	desc = "ere_events.1.desc"
+	picture = revolt
+	goto_location = root
+	trigger = {
+		tag = ERE
+		current_date > 1285.2.1	
+		NOT = {
+			has_variable = rome100_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = rome100_flag
+		}
+	}
+	
+	option = {
+		name = "ere_events.1.a"
+		p:1453 = {
+		province_pop_disaster_medium
+		}
+	}
+}

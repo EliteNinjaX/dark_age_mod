@@ -1,0 +1,116 @@
+﻿country_decisions = {
+	
+	# Form England
+	form_england = {
+		
+		potential = {
+			num_of_cities >= 1
+			country_culture = anglosaxon
+		}
+		
+		highlight = {
+			OR = {
+				is_in_area = durotrigia_area
+				is_in_area = cantiacia_area
+				is_in_area = icenia_area
+				is_in_area = dobunnia_area
+				is_in_area = cornovia_area
+				is_in_area = coritania_area
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_england_exists
+				NOT = {
+					any_country = {
+						tag = ENG
+					}
+				}
+			}
+			num_of_cities >= 50
+			can_form_nation_trigger = yes
+		}
+		
+		ai_allow = {
+			area:durotrigia_area = {
+				any_area_province = {
+					count = all
+					owned_or_subject_owned = root
+				}
+			}
+			area:cantiacia_area = {
+				any_area_province = {
+					count = all
+					owned_or_subject_owned = root
+				}
+			}
+			area:icenia_area = {
+				any_area_province = {
+					count = all
+					owned_or_subject_owned = root
+				}
+			}
+			area:dobunnia_area = {
+				any_area_province = {
+					count = all
+					owned_or_subject_owned = root
+				}
+			}
+			area:cornovia_area = {
+				any_area_province = {
+					count = all
+					owned_or_subject_owned = root
+				}
+			}
+			area:coritania_area = {
+				any_area_province = {
+					count = all
+					owned_or_subject_owned = root
+				}
+			}
+		}
+		
+		effect = {
+			change_country_name = "ENGLAND_NAME"
+			hidden_effect = {
+				change_country_adjective = "ENGLAND_ADJECTIVE"
+				change_country_color =  "ck2_red"
+				change_country_tag = ENG
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 2022
+						}
+					}
+				}
+				set_capital = 2022
+			}
+			p:2022 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_country_modifier = {
+				name = formable_country_huge_modifier
+				duration = 7600
+			}
+			custom_tooltip = "form_england_claims_tooltip"
+			hidden_effect = {
+				every_province = {
+					limit = {
+						region = britain_region
+						NOT = { owner = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

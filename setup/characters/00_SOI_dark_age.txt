@@ -1,0 +1,24 @@
+﻿"SOI"={
+	country="SOI"
+	8={
+		first_name="Clotaire"
+		family_name="Merovingian"
+		birth_date=1252.1.3
+		culture="franks"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=9
+		add_charisma=8
+		add_finesse=7
+		add_zeal=8
+		no_traits=yes
+		add_trait="brave"
+		add_trait="prominent"
+		add_gold=200
+		add_popularity=80
+		c:SOI={
+			set_as_ruler=char:8
+		}
+		dna="P3s/e5pgmmACpQKlApICkgJnAmcCkQKRApICkgJzAnMCcwJzApgCmAJ/An8DsQOxAmcCZwKGAoYBYgFiAnsCewJzAnMCaAJoApMCkwKQApAClAKUAooCigKWApYChQKFAmsCawFaAVoCfAJ8AnsCewKLAosCeQJ5Ao4CjgFSAVIASwBLAU4BTgKLAosCbgJuAoECgQOfA58DngOeAnICcgKIAogCfgJ+AowCjAJyAnIDpgOmAo0CjQTaBNoANgA2AmYCZgKQApACbAJsAoECgQJ0AnQClgKWAmYCZgJnAmcClAKUApkCmQKBAoEBcQFxAu4C7gL6AvoAfAB8ABwAHAFYAVgAOAA4AAcABwKbApsBCgEKASoBKgAAAAAA+gD6As4CzgEeAR4BbgFuANMA0wKjAqMAwwDDALQAtAAAAAAAywDLAQoBCgLGAsYA/AD8AKkAqQBtAG0AyQDJApsCmwA9AD0APAA8AvwC/ACzALMJ4wnjAAAAAAFCAUIHNgc2AIoAigSGBIYFVgVWDcQNxAAAAAAAAAAAAAAAAA=="
+	}
+}

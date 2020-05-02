@@ -1,0 +1,5 @@
+# Colors are mostly used by flags, but are seperated because they can be used by other parts as well. 
+
+colors = {
+	aoe_purple = rgb { 102 2 85 }
+}

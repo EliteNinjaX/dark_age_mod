@@ -1,0 +1,4 @@
+﻿manintain_latin_modifier = {
+	happiness_for_wrong_culture_group_modifier = -0.05
+	global_pop_assimilation_speed = 2
+}

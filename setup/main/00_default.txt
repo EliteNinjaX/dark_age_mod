@@ -1,0 +1,2040 @@
+country = {
+	countries = {
+	
+#Easten Roman Empire
+		
+		ERE = {
+			government = imperium
+			primary_culture = roman
+			religion = chalcedonian
+			diplomatic_stance=trading_stance
+
+			capital = 1453
+		
+			own_control_core = 	{
+				341 345 1453
+				371 373 379 381 382 383 384 385 386 380 428 369 #Macedonia
+				393 400 405 408 411 412 3125 3175 3356 #Upper Macedonia
+				356 363 364 365 366 374 376 377 378 #Chalkidiki
+				388 389 390 391 392 394 395 396 398 404 420 #Thessaly
+				399 #Lamia
+				469 #Thaumakoi
+				401 #Hypate
+				466 #Oichalia
+				475 #Kallipolis
+				402 #Oupous
+				418 434 435 436 439 444 460 7890 7893 7894 #Achaea
+				263 277 375 387 437 447 454 1835 1964 7905 #Aegean Islands
+				342 346 347 348 349 350 352 353 354 #Europa
+				357 360 362 1774 490 492 494 #Rhodope
+				343 4314 4154 489 495 482 481 480 #Haemimontus
+				4247 4248 4249 #Parts of Moesia Orientalis
+				4520 4519 4518 4517 4516 4515 4514 4512 4255 4254 4250 #Scythia
+				4309 4311 484 4313 478 485 486 487 488 3853 496 
+				479 491 493 4307 4310 4312
+				397
+				414 4306  #Chalkidiki
+				497 498 4153 4302 4303 4304 4305 #macedonia_salutaris_region
+				413 416 
+				270 297 #Islands of Imbros and Lemnos granted by Antigonus to Athens after liberation.
+				426
+				470
+				456 457 461
+				459 462 463
+				419 421 425 464 465 467 474 476
+				431 432 473
+				403 409 410
+				423 424 468 406 458
+				472 443 1915
+				1903 452
+				1970 1653 1996
+				438
+				440
+				449
+				446 
+				451
+				448
+				441
+				433
+				417
+				427 429 430 450 471
+				358
+				351
+				368
+				359
+				367
+				361 372
+				355
+				370
+				344
+				1973
+				266 280 1985 1989
+				243 246
+				234 235 236 239 241 242
+				207 208 209 233 238
+				255 256 257 258 259 260 261 268 279 281 282 283 284 285
+				286 287 288 289 290 291 310 1972 1974	
+				1810 1812
+				240
+				1987
+				245 248 249
+				252
+				1795
+				1798
+				1981
+				1807
+				237 244 247 
+				407 #Chalchis, Macedonian Fortress
+				1967 1968 1977 1980 1984 #Caria
+				219 221 223 224 225 322 323 324 325 326 327 329 #bithynia_superior_region
+				178 179 182 230 1777 1925 1926 1928 1930 1937 1939 #phrygia_parorea_region
+				183 227 302 312 313 314 315 316 317 318 319 328#phrygia_epiktetos
+				184 185 186 187 309 311 339 1936 1941 1942 1943 1944 #phrygia_region
+				276 278 #aeolia_region
+				250 265 269 271 272 273 303 304 306 337 320 321 #mysia_abrettene_region
+				251 253 254 262 264 267 #mysia_region
+				274 275 292 293 296 298 299 300 301 305 307 308 #lydia_region
+				294 1969 #ionia_region
+				295 1945 1946 1947 1948 1952 1962 1963 1966 #inland_caria_region
+				156 159 160 161 171 1960 1991 1992 1993 1995 1998 #lycia_region
+				162 164 165 1784 1901 1904 1905 1906 1908 1910 #pamphylia_region
+				166 167 168 1885 1911 1927 1931 1933 1949 1988 #pisidia_region
+				170 1935 1953 1956 1957 1958 1959 1961 1986 1990 1997 #milyas_region
+				174 176 177 180 181 191 1914 1916 1934 1965 1971 #lycaonia_region
+				169 1785 1917 1918 1919 1920 1921 1922 1924 1950 1955 1975 #isauria_region
+				175 188 189 190 192 193 226 228 229 1811 #galatia_region
+				442 #Aigina
+				1780 1872 1882 1883 1887 1889 1890 1892 1894 1896 1897 #cilicia_trachea_region
+				795 796 1873 1874 1875 1876 1877 1878 1879 1880 1881 1884 #cilicia_pedias_region
+				792 794 805 808 811 812 852 1870 1871 #syria_cyrrestice_region
+				787 789 790 791 793 797 798 813 814 847 851 #syria_region
+				767 768 769 771 783 784 785 786 788 #south_phoenicia
+				740 741 742 743 744 745 746 748 749 #north_phoenicia
+				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
+				772 761 762 770 774 776 777 778 781 782 799 816 #apamene_region
+				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
+				673 675 718 721 722 723 732 733 734 735 736 737 739 #decapolis_region
+				648 669 672 674 666 668 667 670 677 #galilee_region
+				663 664 665 #samaria_region
+				660 662 661 690 693 #philistia_region
+				817 818 819 820 821 837 844 848 849 854 853 879 #osroene_region
+				334 338 333 336 332 335 331 330 #Cyprus
+				157 158 163 1852 1854 1859 1860 1861 1865 1886 1898 1929 #cappadocia_melitene_region
+				155 172 1802 1803 1893 1902 1976 1979 1982 1983 1994 1999 #cappadocia_cataonia_region
+				173 205 1813 1888 1900 1938 1940 1951 1954 1978 #cappadocia_garsauritis_region
+				1820 1832 1836 1849 1891 1899 1907 1909 1923 1932 #cappadocia_saravene
+				1794 1796 1799 1800 1805 1817 1818 1912 1913 #cappadocia_region
+				1788 1789 1790 1833 1834 1838 1839 1840 1845 1846 #pontus_colopene_region
+				203 1791 1792 1804 1819 1821 1822 1823 1824 1826 1831 1837 #pontus_region
+				1808 1809
+				1786 1787 1793 1801 1806
+				198 199 200 201 217 218 232 1829 1830 1827 1828 #paphlagonia_superior_region
+				194 195 196 197 202 204 222 231 1825 1841 #galatia_trocmi_region
+				210 213 214 215 216 220 #heracleotis_region
+				206 211 212 1814 1815 1816 #paphlagonia_inferior_region
+				4513
+				683 684 685 686 687 688 689 691 692 711 713 715 #judea_region
+				681 710 712 714 716 717 720 731
+				671 676 678 679 680 682 719
+				747
+				779 780
+				766
+				836 838 839 1862 1863 1864 1867 1868 1869 1895
+				807 809 810
+				3360 3341 3343 3342 3344 3345 3346 3347 3348 3349 3350 3351 3352 3353 3357 3354 3358 3359 3362 3361 3363 3364 3365 3366 3367 3340
+				4237 4236 4238 4239 4245 4240 4241 4259 4244 4253 4252 4246 4242 4243 4258 4251 4256 4257
+				4227 4226 4224 4223 4217 4220 4221 4222 4115 4116 4230 4228 4225 4232 4229 4234 4235 4233 4231
+				477 4097 499
+				4219 4202 4112 4111 4213 4212 4218
+				4096 4152 4108 4098 4095 4099 4113 4093 4100 4101 4119 4114 4110 4109 4117
+				4092 1144 4094
+				415 422 3192 455 2264 2213 2336 1445
+				4090 4091 4089 4102
+				4106 4103 4127
+				4206 4120 4203 4118 4205 4204 4122 4121
+				500 501	502	503	504 507 508 509 510 511 512 513 514 515 516 517 518 519
+				520 521	522	523	524	525 526 527 528 529 530 531 532 533 534 535 536 537 538 539
+				540 541 542 543 544 545 546 547 548 550
+				655 5549
+				453 445 3478 3477 3476 3380 3379 3378 3377 3376 3375 3374 3373 3372 3371 3370 3369 3368 
+				
+				656 657 658 659 694 695 696 697 701 #Philistia
+				576 577 591 592 #aswan_region
+				575 578 583 584 585 586 587 588 589 590 #troglodytica_region
+				564 566 579 580 581 582 565 647 649 650 #myos_hormos_region
+				505 506 1600 1604 1675 1682 1684 1693 1709 1710 #sinai_region
+				549 551 552 554 553 555 556 557 558 559 560 561 #hema_nome_region
+				562 563 567 568 569 570 571 572 573 574 #luxor_region
+				5501 5502 5500 5503 5504 5505 5512 5509 5510 5511 5522 #kharga_region
+				5513 5507 5516 5508 5515 5517 5506 #khargana_region
+				5537 5555 5538 5539 5540 5551 5550 5554 5552 5553 5556 5536 #ammon_region
+				5544 5542 5543 5541 5531 5535 5533 5532 5548 5546 5547 5534 #parva_region
+				5526 5525 5524 5523 5528 5545 5527 5529 5530 5514 #farfara_region
+				4195 4198 4197 4199 4196 4194 4124
+				4216 4215
+				4208 4214 4209 4207
+				4200 4201
+				1688 1708 703 704 709 708 729 700 707 706 705 698 702 699
+				1732 1733 1734 1775 1797
+				840 858 859 860 877 878 1853 1855 1856 1857 1858 1866 #sophene_region
+				1779 1781 1782 1783 1842 1843 1844 1847 1848 1850 1851 #armenia_minor_region
+				1763 1765 1766 1767 1768 1769 1770 1771 1772 1773 1776 1778 7844 7845 #armenia_maior_region
+				591 592 593 594 595 596 597 598 5518 5519 5520 #this is a mess tbh
+				4539 4540 4541 4543 4544 4550 4549
+				1731 1730 1729 1727
+				827 826 825 824 823 874 822 855 872 871 856 841 1764
+				7597
+				4190 4193
+				845 1761 1757 1758 1759 1760 1762 1698
+				483 4037 857 870
+				4538
+				7668 7689 7690 7688 7691 6431 6433 6420
+				7799 7802 7798 7803 7760 7765 #Extra
+				
+			}
+			
+		}
+
+		PER = {
+			government = aristocratic_monarchy
+			primary_culture = median
+			religion = zoroaster
+			capital = 912
+			
+			own_control_core = {
+				3435 6727 7222 7223  #New
+				3441 6728 6729 3445 3448 6656 3447 3446 3450 3454 #parthia
+				3468 3467 3462 3444 3465 3466 3451 3464 #vishpauzatis
+				3436 3437 3438 3440 3449 3455 3469 
+				6556 6545 6542 6543 6544 6663 6664 #oxiana
+				6521 6522 6523 6524 6620 #Mauryan Gedrosia
+				6645 6621 6639 6640 6615 6624 6623 #sattagydia
+				6643 6644 6642 6628 6631 6638   #bamyan
+				6541 6555 6610 6554 6548 6573 6547 6632 6553 6572 6622 6633 #arachosia
+				6561 6552 6570 6551 6550 6569 6549 6594 6595 6546 #pactya
+				900 902 903 904 909 901 910 915 917 918 919 922 #babylonia_region
+				898 899 911 912 913 914 916 924 926 927 929 960 #asoristan_region
+				828 829 905 906 907 908 953 954 #euphrates_region
+				896 897 979 925 928 933 934 961 962 973 974 976 #beth_daraye_region
+				920 921 923 930 931 932 935 936 939 937 938 968 #veh_kavad_region
+				943 945 946 947 948 949 950 967 970 972 975 980 4969 #susiana_region
+				885 888 889 890 959 981 982 983 1603 #garamig_region
+				835 883 891 892 893 894 895 955 956 977 #tigris_region
+				830 831 832 873 875 876 #upper_mesopotamia_region
+				773 861 862 863 864 866 867 868 882 986 #niniveh_region
+				833 834 842 843 869 #corduene_region
+				940 941 942 944 964 965 969 971 #meshan_region
+				951 952 966 4779 4780 4785 4784 4786 4782 4787 #pars_region
+				1594 1596 1597 1598 1599 1601 1602 3393 4965 4968 4966 4967 4971 4970 #kossioi
+				1595 4963 4964 4981 4982 4980 4979 3391 4976 4974 3392 4975 #ecbatana
+				4991 4999 3381 3396 3382 4983 3395 3394 3452 4992 4993 3453 # rhagai
+				4799 4953 4950 4948 4949 4798 4951 3405 3406 6511 4978 #persepolis
+				4781 4796 4792 4794 4795 4788 4789 4793 4790 4797 4962 #veshapur
+				3442 3443 6509 3433 3398 4973 6510 6507 3397 4972 #aspadana
+				4977 3399 3431 6508 3419 3418 3417 3428 3420 3430 #media_felix
+				4956 4957 4955 3411 3410 3408 3409 3402 3400 3401 3404 3403#utia
+				3407 3422 3423 3421 3429 3414 3413 3412 3416 3473 #ardashir
+				6500 6501 6505 6502 6503 6504 3475 3474 3472 3471 3470 3460 #namek
+				4791 6512 6582 4958 6514 6580 6583 6581 6515 6578 6579 6516 #harmozeia
+				4994 3459 3458 4995 3457 3456 3439 #parthia_komishene
+				6587 6576 6528 6529 4961 4960 4959 3415 3426 3427 3424 3425 #carmania
+				6605 6562 6566 6604 6606 6599 6597 6603 6600 6598 6601 6602 #sagartia
+				4997 4998 4996 3434 7638 7639 #hyrcania
+				6574 6586 6584 6577 6575 6585 6589 6591 6588 6590 6607 6560 #Drangiana
+				6559 6558 6565 6557 6564 6646 6647 6596 6568 6567 6563 # Aria
+				6518 # Aria
+				6513 6530 6592 6593 6517 6520 #Gedrosiana
+				6954 6955 6956 6957 6958 6959 6960 6961 6962 6963 6964 #Media Choromithrene
+				3461 3463 7224 7225 #New
+				7199 7200 7201 7204 7203 7198 7197 7196 5408 5409 5410
+				7202
+				7209 7208 7210 7211 7207 7206 7205 7213 7212 7215 7214 7217 7216 5429 5430 5415 5416 5417 5418 5419 5420 5421
+				865 880 881 884 886 887 957 958 984 985 1578 #adiabene_region
+				1514 1515 1516 1517 1520 1521 1522 1523 1524 1525 1526 1565 #media_atropatene_region
+				1620 1621 1622 1624 1625 1626 1627 1628 1629 1593 3390 3387 #kadousioi_region
+				1510 1512 1513 1552 1553 1554 1555 1556 1557 1558 1574 3386 #media_region
+				1618 1619 1630 1631 1632 1638 1648 1649 1652 1654 #paytankert_region
+				1505 1506 1507 1508 1509 1511 1518 1519 #parskahayk_region
+				4985 4986 4987 4989 3389 4988 3383 3388 4984 3385 3384 4990 # Amardioi
+				846 987 988 989 991 992 995 996 998 999 1560 1561 #vaspurakan_region
+				1501 1538 1540 1542 1550 1613 1615 1623 1668 1669 #syunik_region
+				1614 1616 1617 1639 1640 1650 1663 1664 1665 1666 1667 #artshak_region
+				1581 1744 1747 1751 #upper_armenia_region
+				1571 1572 1573 1575 1577 1588 1589 1590 1591 1592 1605 1606 #ayrarat_region
+				1549 1568 1569 1570 1576 1579 1580 1582 1583 1585#syracene_region
+				1533 1535 1536 1537 1541 1543 1544 1545 1546 1547 1548 1551 #soducene_region
+				1500 1527 1528 1529 1530 1531 1532 1534 1539 1559 #parsatunik_region
+				997 1502 1503 1504 #North of Lake Urmia
+				978 990 993 994 1562 1563 1564 1566 1567 1736 #tarawn_region
+				483 4037
+				1728 1756 1753 1752 1587 1586 1702 1755 1754 1697 1701
+				1609 1607 1610 1686 1677 3432
+			}
+		}
+
+#AFRICA
+
+		VAN = {
+			government = despotic_monarchy
+			primary_culture = vandal
+			religion = arian
+			diplomatic_stance=warmongering_stance
+			
+			capital = 3256
+			
+			own_control_core = { 	
+				92 93 94 95 96  
+				3260 3263 3266 3261 3256 3259 3251 3250 3253 3252
+				3245 3244 3249 3270 3241 3240 3242 3243 3272 3274 3275
+				3279 3286 3282 3281 3283 3287 3285 1470
+				3485 3483 3481 3484 3490 3482 3492
+				3262 3230 3229 3264 3265 3267 3271
+				3225 3226 3227
+				3161 3160 3150 3145 3238 3212 3273 3236 3200 3239 3211
+				3486 3487 3488 3489 3503 3504 3506 3505 3500 3499 3497 3494 3493 
+				1471 # Melita (Malta)
+				3146 3147 3148 3149 3156 3158 3159 3162 3163 3164 3165 3166 3167
+				3177 3178 3179 3180 3181 3182 3183 3184 3203 3204
+				3206 3207 3213 3215 3217 3218 3219 3220 3221 3223 3224 3228 3231 3232 3233 3355
+				3234      
+				3269 3268  
+				3208 3205 3198 3209 3246 3210 3197 3247 3214 3237 3216 3235 3248 3201 3199 3194 3195
+				3501 3496 3502 3498
+				3491 3495
+				3257 3258
+				3278
+				3277
+				3276
+				3280 3284
+				3288 3289 #africa_meridionalis_region
+				3291 3293 3294 3295 3296 3297 3298 #tripolitania_occidentalis_region
+				3299 3300 #tripolitania_occidentalis_region
+				3301 3302 3303 3304 3305 3306 3324 3325 #tripolitania_centralis_region
+				3254 3255
+				1465 1464 1466 1467 1468 1469
+				3507 3515 3514 3513 3516
+				3508 3509 3510 3511 3512
+				3126 3143 3144 3140
+				3326 3327 3329 3330 3332 3333 3334 3335 3336 3337 3338 3339
+				3085 3061
+				#Sicania
+				7842 7843
+			}
+		}
+
+		HOD = {
+			government = tribal_kingdom
+			primary_culture = berber
+			religion = chalcedonian
+			capital = 3152
+
+			own_control_core = 	{
+				3152 3155 3154 3153 3173 3170 3172 3171 3169 3176 3174 3168 3185
+				3187 3188 3186 3193 3189 3191 3190 3196 3202 3290 3292
+			}
+		}
+		
+		ALT = {
+			government = tribal_kingdom
+			primary_culture = berber
+			religion = berber_religion
+			capital = 3092
+
+			own_control_core = 	{
+				3099 3098 3100 3101 3109 3102 3103 3104 3105 3127 3128 3117 3115 3119 3118 
+				3116 3113 3114 3111 3112 3110 3108 3106 3107
+				3097 3096 3095 3092 3093 3094 3089 3088 3091 3090 3086 3087 3083 3080 
+			}
+		}
+		
+		QUA = {
+			government = tribal_kingdom
+			primary_culture = berber
+			religion = chalcedonian
+			capital = 3122
+
+			own_control_core = 	{
+				3151 3157 3133 3134 3139 3141 3135 3142 3132 3131 3130 3129
+				3137 3138 3136 3124 3123 3122 3121 3120
+			}
+		}		
+
+		MRI = {
+			government = tribal_kingdom
+			primary_culture = socossian
+			religion = berber_religion
+			capital = 3068
+
+			own_control_core = 	{
+				3064 3078 3077 3076 3062 3065 3066 3074 3075 3072 3073 3070 3063 3079 3067 3069 3071
+				3068 6476 6485 6490 6492 6480 6479 6481 6486 6475 6491 6477 7221 6301 6478
+			}
+		}		
+		
+#Ostrogothic Kingdom
+
+		OGO = {
+			government = despotic_monarchy
+			primary_culture = gothonic
+			religion = arian
+			diplomatic_stance=trading_stance
+			capital = 142 
+		
+			own_control_core = 	{
+				1 2 3 4 5 6 7 8 15 16 18 19 20 24 25 26 27 31 37 40 36 39 50 14 
+				17 21 22 102 120 124 131 130 136 135 134 126 114 127 112 113 115 116 125 129 128 137
+				33 32 41 42 46 43 44 10 45 1716 1718
+				30 1712
+				38
+				1713 9
+				106 108 109 111
+				138 139 140
+				23 105 107
+				103 104 110 118 119 123 122 132
+				66 67 68 69 58
+				62 63 64 65 57
+				60 70 71 59 53 47 11 12 13 61
+				51 77 76 79 74
+				117
+				121 133 142 147 148
+				75
+				3545 3544
+				3546 3547
+				3549 3552 141 154
+				3553 3556 3557 3550
+				3551 3563 3548 3564 3559 3535 3534 3560 3562 3555 3558
+				3571 3568 3566 3567 3569 3565 3554 3574 3572 3578 3577 3570 3573 3575 3580 3579
+				3661 3662 3583 3585 3586 3584 3582 3581
+				146 149 151 152 153 3576 3587 3588 3591
+				3589 3590 3592 150 144 145 143 3593 3595 3594 3596
+				3598 3597 3599 3600 3603 3601 3604 3602 3605 3606 3607
+				4019 4018 4020 4021 4022
+				4025 4026 4024 3671 4047 3672 3673 4131
+				3660 3659 3663 3658 3656 3655 3654 3666 3665 
+				3667 3668 3669 3664
+				55
+				56
+				52
+				54
+				78
+				73
+				72
+				48 35 49 29
+				28 34
+				88 98 89 99 100 1472
+				82 83 84 85 86 101 87 81 80
+				4027 4028 4039 4175 4030 4029 4137 4136 4031 4048 4134 4135 4143 4133 4140
+				4033 4032 4034 4023 4036 4050 4035 
+				4038 4044 4045 4042 4046 4041 4177 4181 4176 4040
+				4077 4076 4075 4072 4043 4073 4074 4178 4183
+				4054 4053 4052 4049 4055 4056 4051
+				4061 4070 4071 4065 4068 4069
+				4066 4063 4067 4081 4084 4062 4064 4059 4060 4058 4057
+				4083 4082 4085
+				4078
+				3529 3524 3536 3530 3532
+				3518 3520 2324 3522
+				3542 3540
+				3541
+				2325 3543 3517
+				3521
+				3561 3618 3657
+				3523 2319 2323
+				3617 3619 3616 3615 3613 3612 3611 3610 3537 3608
+				3670
+				97 90 91
+				4182 4180 4179 4184 4185 4186 4187 4188 4191 4192
+				4086 4107 4080 4079 4125 4123 4126 4130 4129 4128
+				4170 4171 
+				4172 
+				4174 4173
+				4167 4168 4169 4165
+				4157 4158 4159 4156 4164 4161 4160 4162 4163 4166 
+				4155 4149 4148 4150 4151 4139 4132 4138
+				4141 4142 4144 4146 4147
+				3647 3646 3763 3648 3649 3650 3651 3652 3653 4145 3918 3674
+				3643 3644 3764 3762 3645
+				3640 3641 3751 3642 3753
+				3752 3757 3755 3754 3749 3748
+				3760 3761 3756 3759 3758
+				3774 3773 3765
+				4105 4104 4087 4088 4091
+				4189 # Sirmium was Ostrogothic after 504, it was retaken by ERE in 567
+				#Sicania
+				7841
+				#Syracuse
+				7840 7837
+				#Siculia
+				7838 7839
+			}
+			
+		}
+
+
+		
+#Black Sea
+
+		GTH = {
+			government = tribal_chiefdom
+			primary_culture = gothonic
+			religion = germanic_religion
+			
+			capital = 4547
+			
+			own_control_core = {
+				4538 4537 4536 4534 4542 4548 4546 4545 4535 4547 4533 
+			}
+			
+		}
+
+	
+		#IRELAND
+
+		OSR = {
+			government = tribal_kingdom
+			primary_culture = hibernian
+			religion = chalcedonian
+			centralization=50
+
+			capital = 2186
+
+			own_control_core = 	{
+				2186 2187
+			}
+		}
+
+		ORI = {
+			government = tribal_kingdom
+			primary_culture = hibernian
+			religion = druidism
+			centralization=50
+
+			capital = 2193
+
+			own_control_core = 	{
+				2193 2168 2170 2205 2172
+			}
+		}
+
+		CON = {
+			government = tribal_kingdom
+			primary_culture = hibernian
+			religion = druidism
+			centralization=50
+
+			capital = 2197
+
+			own_control_core = 	{
+				2198 2184 2166 2169 2199 2197 2200
+			}
+		}
+
+		MUN = {
+			government = despotic_monarchy
+			primary_culture = hibernian
+			religion = chalcedonian
+
+			capital = 2161
+
+			own_control_core = 	{
+				2183 2180 2179 2176 2161 2177 2162 2178 
+			}
+		}
+
+		ULA = {
+			government = tribal_kingdom
+			primary_culture = hibernian
+			religion = druidism
+			centralization=50
+
+			capital = 2195
+
+			own_control_core = 	{
+				2195 2208 2173 2207 2174 2203 2204 2175 2171 2202 2206
+			}
+		}		
+
+#BRITAIN
+
+		WES = {
+			government = despotic_monarchy
+			primary_culture = anglosaxon
+			religion = germanic_religion
+
+			capital = 2007
+
+			own_control_core = 	{
+				2007 2010 2013 2014 2011 2017
+			}
+		}
+		
+		DUM = {
+			government = despotic_monarchy
+			primary_culture = brittania
+			religion = druidism
+
+			capital = 2006
+
+			own_control_core = 	{
+				2005 2006 2008 2012 2009 2024
+			}
+		}
+		
+		CEL = {
+			government = despotic_monarchy
+			primary_culture = brittania
+			religion = druidism
+
+			capital = 2039
+
+			own_control_core = 	{
+				2039 2041 2049 2061 2025 2026 2043 2045 2015 2016
+			}
+		}		
+ 		
+#Germanic Britain
+
+		LIN = {
+			government = despotic_monarchy
+			primary_culture = anglosaxon
+			religion = germanic_religion
+
+			capital = 3057
+
+			own_control_core = 	{
+				3057 2057 2058 2063 2067 2068 2069
+			}
+		}
+
+		SUS = {
+			government = despotic_monarchy
+			primary_culture = anglosaxon
+			religion = germanic_religion
+
+			capital = 2020
+
+			own_control_core = 	{
+				2020 2019
+			}
+		}
+
+		
+		LON = {
+			government = tribal_kingdom
+			primary_culture = brittania
+			religion = chalcedonian
+			centralization=50
+
+			capital = 2022
+
+			own_control_core = 	{
+				2028 2029 2030 2036 2038 2042 2027 2018 2022 2051
+			}
+		}		
+
+		EAN = {
+			government = despotic_monarchy
+			primary_culture = anglosaxon
+			religion = germanic_religion
+
+			capital = 2032
+
+			own_control_core = 	{
+				2031 2032 2033 2035 2037 2052 2034
+			}
+		}
+
+#Midlands
+
+		EBR = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = druidism
+			centralization=50
+
+			capital = 2076
+
+			own_control_core = 	{
+				2075 2076 2079 3058 2078
+			}
+		}
+		
+		RHD = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = druidism
+			centralization=25
+
+			capital = 2077
+
+			own_control_core = 	{
+				2070 2071 2072 2073 2074 2077 2080 2081 2088 5434 2047 2082 2084 2083 5432 3059 3060
+			}
+		}
+		
+#Picts
+
+		BER = {
+			government = tribal_kingdom
+			primary_culture = pict
+			religion = druidism
+			centralization=25
+
+			capital = 2111
+
+			own_control_core = 	{
+				2111 2090 2089 2086 2114
+			}
+		}
+		
+		STR = {
+			government = tribal_kingdom
+			primary_culture = pict
+			religion = druidism
+			centralization=25
+
+			capital = 2112
+
+			own_control_core = 	{
+				2112 2091 2124 2113
+			}
+		}
+
+		GAL = {
+			government = tribal_kingdom
+			primary_culture = pict
+			religion = druidism
+			centralization=25
+
+			capital = 2110
+
+			own_control_core = 	{
+				2109 2110
+			}
+		}
+
+		GOW = {
+			government = tribal_kingdom
+			primary_culture = pict
+			religion = druidism
+			centralization=25
+
+			capital = 2116
+
+			own_control_core = 	{
+				2116 2133 7740
+			}
+		}
+		
+#Wales
+
+		GWE = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = chalcedonian
+			centralization=50
+
+			capital = 2040
+
+			own_control_core = 	{
+				2040 2092 2093 2098 2097
+			}
+		}
+
+		DYF = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = chalcedonian
+			centralization=50
+
+			capital = 2095
+
+			own_control_core = 	{
+				2094 2095 2099
+			}
+		}
+
+		CER = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = chalcedonian
+			centralization=50
+
+			capital = 2103
+
+			own_control_core = 	{
+				2103 2096
+			}
+		}
+
+		GWY = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = chalcedonian
+			centralization=50
+
+			capital = 2106
+
+			own_control_core = 	{
+				2106 2104 2105
+			}
+		}
+
+		POW = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = chalcedonian
+			centralization=50
+
+			capital = 2102
+
+			own_control_core = 	{
+				2107 2102 2101 2050 2048 2060 2059 2046 2100
+			}
+		}
+		
+		CRN = {
+			government = despotic_monarchy
+			primary_culture = brittania
+			religion = chalcedonian
+
+			capital = 2002
+
+			own_control_core = 	{
+				2000 2001 2002 2003 2004
+			}
+		}
+
+		KEN = {
+			government = despotic_monarchy
+			primary_culture = anglosaxon
+			religion = germanic_religion
+
+			capital = 2023
+
+			own_control_core = 	{
+				2023 2021
+			}
+		}
+		
+		MCA = {
+			government = despotic_monarchy
+			primary_culture = anglosaxon
+			religion = germanic_religion
+
+			capital = 2054
+
+			own_control_core = 	{
+				2055 2054 2044 2053 2062
+			}
+		}
+
+		LUI = {
+			government = despotic_monarchy
+			primary_culture = brittania
+			religion = druidism
+
+			capital = 5433
+
+			own_control_core = 	{
+				2065 5433 2066 2064 2056
+			}
+		}
+		
+		BRY = {
+			government = despotic_monarchy
+			primary_culture = briton
+			religion = druidism
+
+			capital = 2085
+
+			own_control_core = 	{
+				2087 2085
+			}
+		}
+		
+		FIB = {
+			government = tribal_kingdom
+			primary_culture = pict
+			religion = druidism
+			centralization=25
+			capital = 2115
+
+			own_control_core = 	{
+				2115
+			}
+		}
+
+		FOR = {
+			government = tribal_kingdom
+			primary_culture = pict
+			religion = druidism
+			centralization=25
+			capital = 2125
+
+			own_control_core = 	{
+				2125 2123
+			}
+		}
+
+		CAI = {
+			government = tribal_kingdom
+			primary_culture = pict
+			religion = druidism
+			centralization=25
+			capital = 2131
+
+			own_control_core = 	{
+				2120 2131 2122 2121 2129 2130 2128 2119 2118 2127 2126 2117 6311 7739 2132
+			}
+		}		
+			
+		#GAUL
+
+		BRI = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = druidism
+			centralization=50
+
+			capital = 2150 
+
+			own_control_core = 	{
+				2150 2155 2152 2151 2160 2158 2159 2157
+				2156 2146 2142 2141
+				2148 2154 2149 
+			}
+		}
+		
+		RHE = {
+			government = despotic_monarchy
+			primary_culture = franks
+			religion = chalcedonian
+
+			capital = 3049
+
+			own_control_core = 	{
+				2284 2298 2299 2371 2373 2375 2300 1719 2342 2376 2374 2372 2370
+				2285 2295 2296 2286 3309
+				3049 3051 3703 3684
+				3690 3724 3725 3723 3722 3726 3721 3730 3689 3685 3729 3728 3688 3001 2455 2494 3050 3686 3687
+				2454 3691 3692 3694 3695 3696
+				2453 3002 2499 3017 2497 2498
+				3023 3025 3021 3020 3024 3019 3022 3018
+				3697 3693 3053 3054 3052 3738 3735
+				3788 3793 3789 3794 3795 3796 3797 3700 3699 3698 3056 3701 3702 3798 3055 3737
+				3791 3790 3787 3785 3777 3776 3851 3850 3854
+				3802 3804 3800 3801 3803 3805
+				3016 3733 3734 3736
+				3634 3635 3732 3731
+				3744 3745 3746 3741 
+				3636 3637 3639 3739
+				3638 3740 3747 3750
+				3743 3742 3770 3771 3772 3769 3775
+				3781 3779 3778 3783 3784 3786 3792
+				3826 3825 3824 3949 3823 3799 3947 3948 3822 3807 3806
+				7732 7738
+			}
+		}
+		
+		SOI = {
+			government = despotic_monarchy
+			primary_culture = franks
+			religion = chalcedonian
+
+			capital = 3045
+
+			own_control_core = 	{
+				2282 2287 2327 2329 2328 2338 2339
+				2270 2269 2268 2280 2294 2293 2326 2335 2292				
+				2229 2232 2231 2290 3000 2291 2230 2333 2334
+				2392  
+				2385 2386 2384 2387 2388 2389
+				2344 2340 2404 2330 2341 2331 2283 2378 2343 2332 3307 1721 2337 2346 2383 2379 2382
+				3681 3682 3719 3718 3727 3720 3717 3716
+				3714 3715
+				3708 3709 3710 3706 3707 3680
+				3028 3675 3677 3843 3844 3678 3713 3711 3712 3676 3845 3849
+				2265 2263 2262 2267 2254 2255
+				2289 2234
+				3026 3029 3030 3027 3040 3039 3038 3041 3046 3042 3045 3047 3043 3044
+				3679 3705 3704 3683 3048
+				2493 2452 2451
+ 			}
+		}
+
+		PAR = {
+			government = despotic_monarchy
+			primary_culture = franks
+			religion = chalcedonian
+
+			capital = 2474
+
+			own_control_core = 	{
+				2347 2368 2367 2412 2414 2416 2408 2407 2411 2406 2410 2409 2377 2381 2380
+				2394 2395 2421 2423 2349 2420 2419 2405 2422
+				2212 2153 2147 2209 3308 2352 2400 
+				2143 2145 2215 2144 2403
+				2136 2139 2140 2137 2135 2134 2216 5431
+				2138 2220 2221
+				2214 2217
+				2351 2459 2456 2401 2402
+				2441 2478 2350 2457 2425 2424 2426 2458 2460 2461
+				2442 2462 2463 2464 2219 2465 2466
+				2222 2218 2467 2223
+				2468 2470 2471 3034
+				2443 2473 2474 2469 2472 2444
+				2475 2477 2476 2481 2483 2485
+				2448 2482 2486 2488 2489 2480 2353 2418 2417 2479
+				2440 2431 2430 2415
+				2449 3005 3008 3006 3007 2496
+				2450 2487 2490 2491 2495
+				2492 2447 2484
+				2446 2445 3032
+				3035 3033
+				3037 3036 
+				3031
+				2226 2391 2390 2345 2396 2399 2397 2228 2225 2224 2227 2398 2211 2210 2393
+				2432
+			}
+		}
+		
+		#Lombards
+		
+		LTG = {
+			government = tribal_chiefdom
+			primary_culture = lombards
+			religion = germanic_religion
+			centralization=75
+
+			capital = 3814
+
+			own_control_core = 	{
+				3767 3768 3766 
+				3938 3939 3931 3935 3937 3914 3916 3923 3933 3917 3819 3934 3817 3818 3936
+				3932 3930 3922 3921 3920 3926 3928 3929 3940 4009 4008
+				3815 3812 3816 3814 3813 3808 3809 3811 3820
+				3919 3924 3927 3925 4017 
+			}
+		}
+		
+		### IBERIA
+
+		VGO = {
+			government = despotic_monarchy
+			primary_culture = gothonic
+			religion = arian
+			
+			capital = 1009
+			
+			own_control_core = {
+				1000 1001 1006 1341 1340 1339 1415 1359 1358 1338 1335 1416 1417 1414 1410 1412 1357 1356 1409 1344 1345 1342 1036 1035 1034 1029 1235 1236 1216 1253 1252 1251 1038 1259 1260 
+				1013 1089 1090 1015 1212 1213 1214 1230 1215 1229 1228 1217 1231 1266 1232 1268 1028 1233 1211 1209 1210 1207 1224 1270
+				1033 1037 1248 1249 1250 1030 1264 1262 1265 1255 1254 1241 1063 1012 1239 1244 1240 1245 1246 1010 1066 1065 1067 1069 1064 
+				1041 1174 1183 1182 1181 1189 1021 1191 1192 1184 1175 1218 1092 1018 1019 1091 1227 1226 1219
+				1070 1071 1011 1002 1003 1060 2257 1004 1054 1008 1007 1009 1053 1052 1061 1057 1062				
+				1074 1014 1073 1075 1076 1077 1080 1081 1088 1072 1016				 
+				1158 1303 1321 1322 1318 1320 1328 1327 1329 1326 1331 1332 1413 1325 1422 1323 1428 1429 1425 1427 1423 1426 1432 1431 1400 1435				 
+				1162 1161 1043 1173 1179 1180 1046 1176 1194 1196 1199 1197 1202 1201 1437 1438 1200 1455 1462 1461 1454 340 1434
+				1056 1068 1005 1058 1059 1055 1274 1275f 1277 1273 1280 1281 1279 1039 1040 1397 1285 1385 1392 1391 1396 1398 1390 1389			 
+				1178   
+				1223 1225 1222 1221 1220 1269 1272 1271 1027 1256 1022 1177 1193 1195 1206 1205 1023 1204 1203 1208 1024 1025 1456 1463 1457 1452 1458 1243 1247 1242 1234 1237 1238 1267 1263 1261 1031 1032 1362 1366 1367 1283 1282 1278 1276 1284 1347 1348
+				1257 1258 1026 1450 1451 1443 1449 1448 1447
+				1312 1308 1315 1309 1310 1311 1430 1433 1307 1306 1305 1301 1304 1198 1160 1049 1159 1302 1300 
+				1337 1334 1333 1336 1330 1324 1411 1405 1404 1408 1407 1436 1406 1440 1441 1444 1439 1459 1460 1420 1421 1419 1418 1401 1402 1403 1424 1093 1187 1190 1186
+				1350 1361 1363 1364 1349 1352 1351 1346 1343 1353 1360 1354 1365 1388 1375 1369 1368 1370 1374 1355 1373 1372 1442 1377 1376 1378 1446 1379 1386 1371
+				1381 1384 1399 1286 1287 1382 1395 1394 1393 1383 1380 1387 
+				2256 2259 2258 1079 2260 2313 2318 2314 2315 2312 2261 2253 2276 2266 2252 2251 2277 2248 2246 2247 2249 2243 2239 2244 2238 2275 2278 2279 2271 2273 2274 2250 2242 2288 2272 2281 2237 2241 2245 2236 2235 2233 2311 2316 2317 2297
+				}
+		}		
+
+		BAS = {
+			government = tribal_chiefdom
+			primary_culture = vasconian
+			religion = druidism
+			centralization= 50
+			
+			capital = 1084
+			
+			own_control_core = {
+			1044 1111 1113 1115 1108 1020 1103 1109 1185 1110 1112 
+			1188 1102 1104 1107 1106 1101 1096 1094 1100 1097 1105
+			1086 1095 1098 1099 1083 1017 1078 1082 1085 1087 1084
+			2240
+			}
+		}
+		
+		SUE = {
+			government = tribal_kingdom
+			primary_culture = suebian
+			religion = arian
+			centralization= 80
+			
+			capital = 1051
+			
+			own_control_core = {
+			1128 1125 1124 1118 1114 1116 1117 1119 1122 1123 1126 
+			1138 1137 1136 1130 1131 1132 1133 1134 1135 1047 1141 1140 1139 1129
+			1151 1155 1150 1149 1148 1143 1147 1146 1048 1154 1152 1142
+			1166 1165 1145 1127 1121 1045 1120 1042 1171 1168 1170 1169
+			1289 1156 1157 1163 1164 1172 1167 1050 1153 1051 1288
+			1291 1293 1294 1297 1316 1319 1317 1314 1313 1298 1296 1295 1292
+			1299 1290
+			}
+		}		
+		
+		#Gepids
+		
+		EVS = {
+			government = tribal_kingdom
+			primary_culture = gepids
+			religion = germanic_religion
+			centralization=50
+
+			capital = 4850
+
+			own_control_core = 	{
+				4843 4842 4846 4845 4844 4850 4849 4855 4854 4853 4852 4867 4874 4876 
+				4826 4831 4827 4828 4833 4832 4835 4834 4837 4829 4838 4840 4841 4836 4839 4861 4860 4851 4856 4857 4858 4859 4877 4881 4882 4880 4884 4883
+				4907 4906 4908 4905 4885 4927 4926 4886 4879 4878 4888 4875 4873 4870 4872 4871 4866 4869 4868 4848 4847
+			}
+		}
+		
+		
+		SKN = {
+			government = tribal_kingdom
+			primary_culture = slavic
+			religion = slavic
+
+			capital = 4801
+
+			own_control_core = 	{
+				4818 4820 4822 4821 4823 4819 4816 4817 4810 4815 4809 4813 #Getia Occidentalis
+				4814 4812 4811 4807 4808 4805 4824 4803 4806 4804 4802 4801 #Getia Orientalis
+				4825 4913 4911 4912 4923 4924
+				4276 4267 4266 4268 4270 4278 4279 4277
+				4210 4262 4263 4211 4275 4274
+				4260 4261 4265 4264 
+				4291 4286 4289 4290 4288 4285 4284 4282 4283 4296
+				4281 4287 4280 4273 4272 4299 4292 4295 4269 4271
+				4294 4293
+				4298 4500 4501 4502 4909
+				4505 4297 4503 4504
+				4508 4507 4506 4511 4510 4509 4830 4910
+			}
+		}
+		
+		#Arabia
+
+		HIJ = {
+			government = tribal_kingdom
+			primary_culture = nabatean
+			religion = arabian_pantheon
+
+			capital = 4622
+			
+			own_control_core = 	{
+				4715 4605 4606 4607 4637
+				4608 4610 4621 4609 4622 4615 4616 4714 4716 4717 4718 7559 7560 4721
+			}
+		}		
+
+		TAB = {
+			government = tribal_kingdom
+			primary_culture = nabatean
+			religion = arabian_pantheon
+
+			capital = 727
+			
+			own_control_core = 	{
+				730 728 727 4600 724 725 4602 726 4612 4613
+				4603 4604 4611 4601 4713
+			}
+		}		
+
+		YAT = {
+			government = tribal_kingdom
+			primary_culture = thamudi
+			religion = arabian_pantheon
+
+			capital = 4719
+			
+			own_control_core = 	{
+				4720 4719 4618 4617 4619 4620 4625 4626 4627 4628 4653 4624 4623
+			}
+		}
+		
+		QUR = {
+			government = tribal_kingdom
+			primary_culture = taif
+			religion = arabian_pantheon
+
+			capital = 7576
+			
+			own_control_core = 	{
+				7574 4629 7575 4631 7576 4632 7577 4633 4630
+			}
+		}		
+
+		THQ = {
+			government = tribal_kingdom
+			primary_culture = thamudi
+			religion = arabian_pantheon
+
+			capital = 4634
+			
+			own_control_core = 	{
+				7578 4634 4635 7601
+			}
+		}
+		
+		HMJ = {
+			government = tribal_kingdom
+			primary_culture = himjar
+			religion = judaism
+
+			capital = 4680
+			
+			own_control_core = 	{
+				4680 4643 4644 4645 4646 4648 4649 4684 4647 4651 4652 4650 4642 4691
+				4682 4696 4664 4666 4683 4689 4686 4688 4641 4665 4667
+				4662 4693 4698 4694 4687 4692 4695 4661 4697 4663 4681 4656 4660 4659 4654 4655
+				4676 4677 4712 4657 4658 4685 4679 4678 4710 4711 4675 4703 4704 4705
+				4668 4700 4672 4674 4673 4690 4701 4702 4640 4699 4639 4671 4670 4669 4638 4636 3480 3479
+			}
+		}
+		
+		UMY = {
+			government = imperium
+			primary_culture = thamudi
+			religion = islam
+
+			capital = 7575
+			
+			own_control_core = 	{
+			}
+		}
+		
+		
+		NBT = {
+			government = despotic_monarchy
+			primary_culture = meroitic
+			religion = egyptian_pantheon
+
+			capital = 5521
+			
+			own_control_core = 	{
+				599 5521 600 601 602 603 604 7580 7579 7581 606 7582 605 607
+			}
+		}
+
+		
+		#North Mesopotamia
+		
+		IBR = {
+			government = despotic_monarchy
+			primary_culture = ibero
+			religion = caucasian_religion
+
+			capital = 1676
+
+			own_control_core = 	{
+				1676 1679 1680 1681 1683 1685 1689 1690 1691 1692 1694 #caucasian_iberia_region
+				1612 #kahetia_region
+				1695 1696 1699 1700 #gugark_region		
+				1703 1704 1673
+				1678 1687
+			}
+			
+		}
+		
+		LAZ = {
+			government = despotic_monarchy
+			primary_culture = colchian
+			religion = caucasian_religion
+
+			capital = 1737
+
+			own_control_core = 	{
+				1706 1737 1711 1714 1715 1717 1735 #colchis_region
+				1705 1707 1746 1748 1749 #suaneti_region
+				1739 1740 1750 #abasgoi_region
+				1722 1723 1724 1725 1726 #bekhyria_region
+				1720 1738 1741
+			}
+			
+		}
+		
+		ALB = {
+			government = tribal_chiefdom
+			primary_culture = albanian
+			religion = caucasian_religion
+
+			capital = 1636
+
+			own_control_core = 	{
+				1633 1634 1635 1636 1642 1644 1645 1647 1655 1656 1662 #caucasian_albania_region
+				1584 1608 1637 1646 1651 1661 1670 1671 1672 #arran_region
+				1641 1643 1659 1660 5435 7603 7604 7605
+				1611 1657 1658 7621
+			}
+		
+		}
+			
+		
+		# Ethiopia and Nubia
+		
+
+		AXM = {
+			government = despotic_monarchy
+			primary_culture = aksumite
+			religion = arabian_pantheon
+			
+			capital = 7506
+			
+			own_control_core = {
+				7506 7509 7515 7540 7508 7593 651
+				7536 7538 7537 7512 7539
+				7505 7510 7514 7511
+				7503 7504 7507 7513
+				7516 7517 7518 7519 7520 7521 7502
+			}
+		}    
+		
+		### Germania
+		
+		CHC = {
+			government = tribal_chiefdom
+			primary_culture = saxonian
+			religion = germanic_religion
+			centralization=75
+			
+			capital = 3837
+			
+			own_control_core = {
+				3837 3890 3888 3855 3889
+				3838 3840 3829
+				3972 3962 3964 3973
+				3970 3971 3969 3968 3975 3907 3893
+				3895 3892 3891 3858
+				3835 3782 3780
+				3839 3842 3841
+				3830 3831
+				3977 3963 3828 3965 3827
+				3974 3978 3976 3967 3966 3900
+				3959 3961 3960 3958
+			}
+		}
+		
+		POM = {
+			government = tribal_chiefdom
+			primary_culture = pomeranian
+			religion = germanic_religion
+			centralization=-50
+			
+			capital = 3897
+			
+			own_control_core = {
+				3896 3901 3897 3898 3899 3903 3904 3902
+			}
+		}
+
+#Jutes		
+		CMB = {
+			government = tribal_chiefdom
+			primary_culture = jutes
+			religion = germanic_religion
+			centralization=75
+			
+			capital = 3877
+			
+			own_control_core = {
+				3877 3871 3873 3878 3880 3879
+				3869 3872 3870
+				3876 3875 3874 3867 3866
+			}
+		}
+		
+		ANG = {
+			government = tribal_chiefdom
+			primary_culture = anglian
+			religion = germanic_religion
+			centralization=75
+			
+			capital = 3861
+			
+			own_control_core = {
+				3861 3857 3860 3859 3862
+				3864 3863 3856
+				3865 3868
+			}
+		}
+	
+#Frisia	
+		SXS = {
+			government = tribal_chiefdom
+			primary_culture = frisian
+			religion = germanic_religion
+			centralization=75
+			
+			capital = 3836
+			
+			own_control_core = {
+				3836 3833 3847
+				3834 3832 3852 3846 3848
+			}
+		}
+		
+		THU = {
+			government = tribal_chiefdom
+			primary_culture = irminonic
+			religion = germanic_religion
+			centralization=50
+			
+			capital = 3955
+			
+			own_control_core = {
+				3957 3955 3950 3988 3951 3990 3981 3954 3956 3953 3952
+				3821 3946 3945 3913 3912 3944 3943 3942
+			}
+		}
+		
+		#Hephthalites
+		
+		PSS = {
+			government = tribal_chiefdom
+			primary_culture = hephthalites
+			religion = indo_iranian_religion
+			centralization=75
+			capital = 6658
+			
+			own_control_core = {
+				5437 6660 6666 6658 6659 6657 5398 6726
+				5391 6810 5393 5392 6806 6807 6809 6796 5452 5453 5456 5455 5454 5475 5474 5472 5476
+				6803 6797 6798 6804 6805 6799 5395 6800 5394 6801 5396 6802 5397 6708 6718 6707 6709
+				5477 5480 5481 5479 5483 5484 5482 5486 5485 5487 5488 5489
+				7227 7228 7230 7232 7233 7234 7235 7237 7239 7243 7244 7236 #transoxus_region
+				6731 6732 6730 6734 6735 6739 #Ferghana
+				6720 6759 #Pamir
+				6682 6705 6733 6703 6704 6722 6721 6702 6700 6701 6698 6699 #Cyropolis
+				6717 6710 6715 6711 6706 6716 6714 6712 6713 6671 6662 6661 6723
+				6651 6679 6649 6680 6677 6650 6627 6648 6693 6692 6681 6678 #Candara
+				6670 6665 6667 6653 6652 6669 6685 6684 6724 6668 6683 #margiana
+				6672 6676 6675 6674 6673 6635 6636 6630 6629 6637 6634 6655 #bactria
+				7226 7229 7231 7238 7240 7241 7242 #New
+				6719 6689 6654 6690 6686 6691 6697 6688 6687 6694 6696 6695 #bactriana
+			}
+		}
+		
+		BUR = {
+			government = despotic_monarchy
+			primary_culture = burgundian
+			religion = arian
+			
+			capital = 3621
+			
+			own_control_core = {
+				2304 2306 2307 2305 2303 3624 3623 3621 3539
+				2301 2302 2364 2356 2357
+				2355 2361 2359 2358 2363 2427 3010 3011 3009
+				3622 3626
+				3629 3630 3625 3627 3628
+				3531 3538
+				3609 3620
+				3614
+				3633 3632 3631 
+				3012
+				2348 2366 2369 2365 2360 2435 2437 2438 2434 2413 2439 2362
+				2354 2429 2436 2433 3004 3003 3015 3014 3013 2428
+				2308 2309 2320 2321 2322 3528 3527 3533 3525 3526 2310 3519				
+			}
+		}
+#India
+
+		AUL = {
+			government = tribal_kingdom
+			primary_culture = magadhi
+			religion = hindu
+			diplomatic_stance=appeasement_stance
+			capital = 4378 # Pataliputra
+			
+			own_control_core = {
+				4493 4492 4476 7424 7421 7426 4486 7301 7304 7450 4475 7425 7433 7441 4482 4498 4479
+				7300 4497 7418 4499 7427 7429 7430 4478 7419 7416
+				7417 4480 7442 7428 4473 7438 7448 7436 7439 7434 7435 7466
+				7437 7440 7309 7443 4481 4484 7388 7387 4472 4439 7389 4438
+				4372 4375 4374 4373 4377 4371 4378 4349 4381 4382
+				4385 4386 4350 4348 4351 4383 4319 4330 4321
+				4422 4405 4406 4407 4413 4421 4423 4452 4454 4404 4412
+				4408 4387 4417 4411 4402 4403 7402 4419 7385 7386
+				4415 4409 4410 4414 4416 4401 4418 7485 4392 7390
+				4388 4393 4397 4395 4380 4396 4399 4398 4384 4331 7399
+				7431 4491 4495 7432 4496 6843 7658 4487 4488 7413 7310
+				
+			}
+			
+		}
+
+		ANU = {
+			government = despotic_monarchy
+			primary_culture = lankan
+			religion = hindu
+		
+			capital = 6950
+		
+			own_control_core = 	{ 
+				6979 6974 6978 6967 6973 6950 6975 6976 6968 6972 6969 # north tambapamni
+				6951 6965 6952 6953 6977 6966 6982 6971 6980 6981 6970 # south tambapamni
+			}
+		}
+		
+		KAL = {
+			government = despotic_monarchy
+			primary_culture = tamil
+			religion = hindu
+		
+			capital = 6947
+		
+			own_control_core = 	{ 
+				6903 6914 6912 6922 6923 6921 6915 6925 6948 6924 6926 # South Pandiya
+				6918 6920 6913 6919 6917 6942 6941 6947 6946 # Malayas
+				6931 6929 6932 # 
+				6911 6902 6901 6900 6899
+				6916 6898 6909 6897 6896 6904 6895 6905 6906 6894 6908 6893 6892
+				6935 6936 6934 6933 6994 6988 6993 6992 6928 6927 6930 6991 6990 6989 6995
+				6910 6907 6940 6944 6943 6945 6938 6939 6949 6937
+			}
+		}
+
+		PAL = {
+			government = despotic_monarchy
+			primary_culture = tamil
+			religion = hindu
+			
+			capital = 7028
+		
+			own_control_core = 	{ 
+				6996 6987 6986 6983 6984 6985 6999 # South Tondainadu
+				7028 7000 7001 6998 7027
+				7032 7031 7033 7008 7007 7025 7034 7014 7024 7002 7012 7003
+				7026 7051 7013 7048 7091 7021 7047 7119
+				7039 7043 7050
+			}
+		}
+
+		
+		KAD = {
+			government = tribal_kingdom
+			primary_culture = tamil
+			religion = hindu
+			centralization=50
+			capital = 6881
+		
+			own_control_core = 	{ 
+				6890 6889 6886 6888 6891
+				7015 6881 6882 6883 6884 6887 6885 7089 7088 7023
+				7035 7038   
+				7010 7020 7036 7037 
+				7005 7073
+				6880 6878 7052 7059 6875 7061 7104
+				7108 7107 7112 7090 7109 7110 7113 7072 7087
+				7006 7111 7069 7071 7092 7120 7070
+			}
+		}
+		
+		ASA = {
+			government = tribal_kingdom
+			primary_culture = telugu
+			religion = hindu
+			centralization=50
+			capital = 7127
+		
+			own_control_core = 	{ 
+				7074 7102 7105 7106 7127 7143 7146 7160 7161 7078
+				7053 7142 7098
+				7103 7101 7060
+				7153 7144
+			}
+		}
+		
+		VIS = {
+			government = tribal_kingdom
+			primary_culture = telugu
+			religion = hindu
+			centralization=50
+			capital = 7019
+		
+			own_control_core = 	{ 
+				7040 7046 7084 7045 7041 7044 7054 7056
+				7099 7150 7133 7058 7055 7149 7145 7155 7148 7057 7152 7156 7079
+				7154 7118 7049 7042 7019
+			}
+		}
+		
+		NAL = {
+			government = tribal_kingdom
+			primary_culture = kalingan
+			religion = hindu
+			centralization=-10
+			capital = 7134
+		
+			own_control_core = 	{ 
+				7122 7123 7134 7135 7136 7141 7176
+				7166 7169 7175 7140 7095 7096
+				7130 7132 7068 7139 7455 7131 7168
+				}
+		}
+		
+		BHO = {
+			government = tribal_kingdom
+			primary_culture = maharashtran
+			religion = hindu
+			centralization=50
+			capital = 6871
+		
+			own_control_core = 	{ 
+				6874 6873 6872 6871 6876 6877 6879
+				6869 6864 6868 6867 6870
+				6860 6861 6862 6866
+			}
+		}
+		
+		GAN = {
+			government = tribal_kingdom
+			primary_culture = tamil
+			religion = hindu
+			centralization=50
+			capital = 7011
+		
+			own_control_core = 	{ 
+				7017 7009 7016 7018 7011 7030 7029 7004 7022
+			}
+		}
+
+		MAI = {
+			government = tribal_kingdom
+			primary_culture = saurashtran
+			religion = hindu
+			centralization=50
+			capital = 6831
+		
+			own_control_core = 	{ 
+			6813 6814 6816 6817 6818 6819 6823 6824 6828 6829 6834 4494 6820
+			6830 6831 6832 6835 6836 6837 6838 6839 6846 6847 6825 6833
+			6840 6841 6842 6844 6845 4489 6826 6850 6851 6853 6856
+			6857 7220 7412 7414 7415 6854 6855 6858 6859
+
+			}
+		}
+		RAI = {
+			government = tribal_kingdom
+			primary_culture = sindhi
+			religion = hindu
+			centralization=50
+			capital = 7660
+		
+			own_control_core = 	{ 
+			6526 6527 6531 6532 6536 6815 6821 6822 6848 6849 6852 4353 4354 4356
+			4357 4358 4359 4360 4363 6827 7660 4352 4355 4361 4362 4364 4365 4366
+			4368 4369 4376 6533 6534 6535 6537 6538 6539 6540 6571 6616 6617 6618 6619 6525
+			}
+		}
+		GUP = {
+			government = aristocratic_monarchy
+			primary_culture = magadhi
+			religion = hindu
+			capital = 7400
+		
+			own_control_core = 	{ 
+			4431 4432 4467 4468 4471 7320 7321 7453 7467 7468 7475 #east_cedi_region
+			4477 7451 7454 7458 7459 4483 7312
+			4470 4474 7302 7303 7449 7461 7462 7463 7464 7469 7329
+			7330 7336 7358 7359 7393 7394 7395 7396 7397 7324 7325 7326 7335 7398 7493 7497 7498 7499 7651 7322 7323
+			7343 7344 7346 7383 7650 7652 7653 7654 7655 7656 4448 4459 4460 4461 4464 7360 7479 7481
+			7486 7487 7488 7489 4440 4442 4443 4444 4445 4462 4463 7338 7367 7400 7480 7659 4446
+			4447 7327 7328 7337 7345 7364 7365 7368 7392 7177 7178 7362 7363 7366 7391 
+			4441 4449 4450 4457 4458 7369 7372 7384 7477 7478 4428 4429 4430 4433 4465 7370
+			7371 7373 7473 7474 7476 4434 4435 4466 4485 7219 7376 7409 7470 7471 7472 4425 4426 4427
+			4436 7218 7375 7404 7408 7410 7411 4420 4469 7305 7306 7307 7308 7444 7445 7446 7447 7460 7465
+			7080 7083 7081 7172 7082 7085 7171 7137 7138
+			7170 7167 7173 7174 7179 7180 7181 7086 7100
+			7339 7341 7342 7347 7348 7349 7350 7351 7352 7353 7354 7355 #kamarupa_region
+			}
+		}
+		
+		VAR = {
+			government = tribal_kingdom
+			primary_culture = shauraseni
+			religion = hindu
+			centralization=50
+			capital = 4451
+		
+			own_control_core = 	{ 
+			4437 4451 4455 7374 7379 7380 7382 7482 7483 7484 4424 4453 4456 7377 7378 7381 7403 7405
+			7406 7407
+			}
+		}
+		
+		ALC = {
+			government = tribal_kingdom
+			primary_culture = gandhari
+			religion = hindu
+			centralization=50
+			capital = 4300
+		
+			own_control_core = 	{ 
+			6626 6625 6611 6613 6612 6609 6641 6614 6608
+			4300 4301 4323 4324 4325 4367 4370 4490 6751 6997 7319 7657 4308 4316 4317 4318 4320
+			4322 4326 4327 4328 4329 7314 7492 4315 4340 4342 4344
+			4345 4346 4347 4379 4389 4391 4394 4400
+			}
+		}
+
+		VAK = {
+			government = tribal_kingdom
+			primary_culture = vidharban
+			religion = hindu
+			centralization=50
+			capital = 7452
+		
+			own_control_core = 	{ 
+			7147 7157 7158 7163 7164 7165
+			7067 7075 7076 7077 7094 7115 7124 7129 7151 7162 7317 7456
+			7159 7062 7063 7064 7065 7114 7117 7125 7126 7128 7182
+			7121 7097 7318 7452 7457 7313 7422 7311 7316 7315 7420
+			7423 7116 7093 7066 6865 6863
+			}
+		}	
+
+		KAS = {
+			government = despotic_monarchy
+			primary_culture = gandhari
+			religion = hindu
+		
+			capital = 4334
+		
+			own_control_core = 	{ 
+			3810 4332 4333 4334 4335 4336 4337 4338 4339 4341 4343 7361 			
+			}
+		}
+		
+#FRONTIER
+
+		ALA = {
+			government = tribal_kingdom
+			primary_culture = alans
+			religion = indo_iranian_religion
+			centralization = 75
+			
+			capital = 7611
+			
+			own_control_core = {
+				7632 7633 7602 7623 7624 7626 1674 7625 7628 7627 7629 7622 7631 5871
+				5869 5867 5866 5868 5870 5872 5924 5875 5873 5874
+				7606 7619 7620 7607 7611 7610 7609
+				7630 5929 5926 5928 5930
+				7615 7614 7616 7608 7600 4567 4568 1745 1743 1742 4566 4565 4564 4562 4563
+			}
+		}
+		
+		ANS = {
+			government = tribal_chiefdom
+			primary_culture = slavic
+			religion = slavic
+			centralization = 75
+			
+			capital = 4800
+			
+			own_control_core = {
+				4800 4521 4919 4522 4523 4524 4918 4920 4917 4922 4921 4925 4916 4929 4915
+				4936 4937 4934 4928 4525
+				4932 4931 4930 4933 4935 4914 4938 4939 4940 4942 4941 4943 4944
+			}
+		}
+		
+		VEL = {
+			government = tribal_chiefdom
+			primary_culture = slavic
+			religion = slavic
+			centralization = 75
+			
+			capital = 3987
+			
+			own_control_core = {
+				3982 3987 3909 3989 3996 3994 3986 3984 3999 3995 4000 3894 3905 3906 3985 3983
+			}
+		}
+		
+		VEN = {
+			government = tribal_chiefdom
+			primary_culture = slavic
+			religion = slavic
+			centralization = 75
+			
+			capital = 4901
+			
+			own_control_core = {
+				3991 3910 3997 3993 3979 3992 3998 4001 4002 3980 3911 3941 3915 4003 4005 4004
+				4007 4006 4010 4011 4012 4013 4014 4015 4016 4762 4767 4770 4769 4761 4776 4775
+				4774 4773 4771 4778 4898 4899 4901 4902 4900 4772 4903 4777 4904 6276 6272 6274
+				6273 6271 6270 6269
+			}
+		}
+
+		BUL = {
+			government = tribal_chiefdom
+			primary_culture = bulgars
+			religion = tengri
+			centralization = 75
+			
+			capital = 6251
+			
+			own_control_core = {
+				4892 4889 4894 4897 4893 4890 4891 4947 4887 4895 4896 4946 4945 6254
+				6259 6266 6265 6260 6255 6261 6263 6268 6264 6291 6294 6251 6246 6238
+				6047 6250 6245 6247 6252 6257 6249 6248 6244 6241 6243 6253 6256 6258
+				6262 6292 6298 6296 6297 6295 6240
+			}
+		}
+
+		AVA = {
+			government = tribal_kingdom
+			primary_culture = avars
+			religion = tengri
+			
+			capital = 7187 
+			
+			own_control_core = {
+				4551 4552 4532 4553 
+				7187 7188 7191 7190 7192 7193
+				4527 7186 4526 7185 7189 7194 7195
+				4529 4530 4531 4528
+				6154 4554 6149 6153 6148 6147 6146 6145 6144 6118 6123
+				6119 6102 6103 6100 6097 6096 6088 6086 6085 6084 6070
+				6124 6098
+				6142 6139 6130 6129 6141 6122 6121 6128 6117 6107 6108 6105 6104 6106 
+				6099 6101 6110 6112 6093 6094 6095 6087 6083
+				6140 6143 6150 6152 6156 6157 6155 6163 4555 4556
+			}
+		}
+		
+		TUR = {
+			government = tribal_chiefdom
+			primary_culture = turks
+			religion = tengri
+			centralization = 75
+			
+			capital = 6789 
+			
+			own_control_core = {
+				7274 7275 7277 7276 7278 7245 7263 7267 7264 7268 7270
+				7273 6789 6790 6791 7265 7271 7266 6792 6777 6786 6793 6794 6795
+				6785 6784 6783 6782 6781 6780 6779 6778 6787 6788 6736 6737 6740 6738
+				6773 6775 6774
+			}
+		}
+
+#Emergent Factions		
+		
+		SPA = {
+			government = aristocratic_monarchy
+			primary_culture = hispania
+			religion = chalcedonian
+			
+			capital = 1036 
+			
+			own_control_core = {
+			}
+		}
+		
+		SYR = {
+			government = aristocratic_monarchy
+			primary_culture = aramaic
+			religion = miaphysite
+			
+			capital = 750 
+			
+			own_control_core = {
+			}
+		}
+		
+		EGY = {
+			government = aristocratic_monarchy
+			primary_culture = egyptian
+			religion = miaphysite
+			
+			capital = 516 
+			
+			own_control_core = {
+			}
+		}
+		
+#Lombard Kingdoms
+
+		BEN = {
+			government = aristocratic_monarchy
+			primary_culture = lombards
+			religion = chalcedonian
+			diplomatic_stance=warmongering_stance
+
+			capital = 41
+
+			own_control_core = 	{
+			}
+		}
+
+		SPO = {
+			government = aristocratic_monarchy
+			primary_culture = lombards
+			religion = chalcedonian
+			diplomatic_stance=warmongering_stance
+
+			capital = 119
+
+			own_control_core = 	{
+			}
+		}
+
+		TUS = {
+			government = aristocratic_monarchy
+			primary_culture = lombards
+			religion = chalcedonian
+			diplomatic_stance=warmongering_stance
+
+			capital = 138
+
+			own_control_core = 	{
+			}
+		}
+
+		LOM = {
+			government = aristocratic_monarchy
+			primary_culture = lombards
+			religion = chalcedonian
+			diplomatic_stance=warmongering_stance
+
+			capital = 3572
+
+			own_control_core = 	{
+			}
+		}
+		
+	#Exarchs
+
+		RAV = {
+			government = aristocratic_monarchy
+			primary_culture = roman
+			religion = chalcedonian
+			diplomatic_stance=trading_stance
+
+			capital = 142
+
+			own_control_core = 	{
+			}
+		}
+		
+		WRE = {
+			government = imperium
+			primary_culture = roman
+			religion = chalcedonian
+			diplomatic_stance=trading_stance
+
+			capital = 1
+
+			own_control_core = 	{
+			}
+		}
+		
+		AFR = {
+			government = aristocratic_monarchy
+			primary_culture = africa
+			religion = chalcedonian
+			diplomatic_stance=trading_stance
+
+			capital = 3256
+
+			own_control_core = 	{
+			}
+		}
+		
+		SAR = {
+			government = despotic_monarchy
+			primary_culture = africa
+			religion = chalcedonian
+
+			capital = 3484
+
+			own_control_core = 	{
+			}
+		}
+
+		CAR = {
+			government = aristocratic_monarchy
+			primary_culture = africa
+			religion = chalcedonian
+			diplomatic_stance=trading_stance
+
+			capital = 3256
+
+			own_control_core = 	{
+			}
+		}
+		
+		SPA = {
+			government = aristocratic_monarchy
+			primary_culture = hispania
+			religion = chalcedonian
+			diplomatic_stance=trading_stance
+
+			capital = 1036
+
+			own_control_core = 	{
+			}
+		}
+
+		#Balkan Slavs
+		CRO = {
+			government = tribal_kingdom
+			primary_culture = south_slavs
+			religion = slavic
+
+			capital = 4067
+
+			own_control_core = 	{
+			}
+		}
+		
+		SLA = {
+			government = tribal_kingdom
+			primary_culture = south_slavs
+			religion = slavic
+
+			capital = 4178
+
+			own_control_core = 	{
+			}
+		}
+		
+		RAS = {
+			government = tribal_kingdom
+			primary_culture = south_slavs
+			religion = slavic
+
+			capital = 422
+
+			own_control_core = 	{
+			}
+		}
+		
+		AAN = {
+			government = despotic_monarchy
+			primary_culture = berber
+			religion = islam
+
+			capital = 3064
+
+			own_control_core = 	{
+			}
+		}		
+	}
+}

@@ -1,0 +1,358 @@
+﻿namespace = aoe_startup_events
+
+aoe_startup_events.1 = {
+	
+	type = country_event
+	title = "aoe_startup_events.1.t"
+	desc = "aoe_startup_events.1.desc"
+	picture = romans_marching
+	goto_location = root
+	trigger = {
+		tag = ERE
+		NOT = {
+			has_variable = ere_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = ere_1_flag
+		}
+	}
+	
+	option = {
+		name = aoe_startup_events.1.a
+		add_truce = {
+			target = VAN
+			duration = 1825
+		}
+		add_truce = {
+			target = OGO
+			duration = 1825
+		}
+	}
+}
+
+aoe_startup_events.2 = { 
+	
+	type = country_event
+	title = "aoe_startup_events.2.t" 
+	desc = "aoe_startup_events.2.desc"
+	picture = great_city
+	goto_location = root
+	trigger = {
+		tag = PER
+		NOT = {
+			has_variable = persia_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {
+			name = persia_1_flag
+		}
+	}
+	
+	option = {
+		name = aoe_startup_events.2.a
+		every_province = {
+			limit = {
+				region = assyria_region
+				NOT = { 
+					owned_or_subject_owned = ROOT
+				}
+				exists = owner
+				owner = {
+					tag = ERE
+				}
+			}
+		add_claim = ROOT
+		}		
+	}
+}
+ 
+aoe_startup_events.3 = {
+	
+	type = country_event
+	title = "aoe_startup_events.3.t"
+	desc = "aoe_startup_events.3.desc"
+	picture = celtic_chiefs
+	goto_location = root
+	trigger = {
+	OR = {	
+			tag = SOI
+			tag = PAR
+			tag = RHE
+			}
+		
+		NOT = {
+			has_variable = frank_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = frank_1_flag
+		}
+	}
+	
+	option = {
+		name = aoe_startup_events.3.a
+			add_country_modifier = {
+				name = tolerant_policies_modifier
+				duration = 18250
+			}
+			every_province = {
+				limit = {
+					dominant_province_culture = franks
+					NOT = { 
+						owned_or_subject_owned = ROOT
+					}
+					exists = owner
+			}
+				add_claim = ROOT
+		}	
+	}
+}
+
+aoe_startup_events.4 = {
+	
+	type = country_event
+	title = "aoe_startup_events.4.t"
+	desc = "aoe_startup_events.4.desc"
+	picture = farming
+	goto_location = root
+	trigger = {
+	OR = {	
+			tag = OGO
+			tag = VGO
+			}
+		
+		NOT = {
+			has_variable = goth_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = goth_1_flag
+		}
+	}
+	
+	option = {
+		name = aoe_startup_events.4.a
+			add_country_modifier = {
+				name = tolerant_policies_modifier
+				duration = 18250
+			}
+		add_truce = {
+			target = ERE
+			duration = 3650
+		}
+		add_truce = {
+			target = VAN
+			duration = 3650
+		}		
+	}
+
+}
+
+aoe_startup_events.5 = {
+	
+	type = country_event
+	title = "aoe_startup_events.5.t"
+	desc = "aoe_startup_events.5.desc"
+	picture = revolt
+	goto_location = root
+	trigger = {
+	OR = {	
+			tag = BER
+			tag = BRY
+			tag = CAI
+			tag = CEB
+			tag = CEL
+			tag = CER
+			tag = CRN
+			tag = CON
+			tag = DUM
+			tag = DYF
+			tag = EAN
+			tag = EBR
+			tag = FIB
+			tag = FOR
+			tag = GAL
+			tag = GOW
+			tag = GWE
+			tag = GWY
+			tag = KEN
+			tag = LIN
+			tag = LON
+			tag = LUI
+			tag = MCA
+			tag = MUN
+			tag = ORI
+			tag = OSR
+			tag = POW
+			tag = RHD
+			tag = STR
+			tag = SUS
+			tag = ULA
+			tag = WES
+			}
+		
+		NOT = {
+			has_variable = britain_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = britain_1_flag
+		}
+	}
+	
+	option = {
+		name = aoe_startup_events.5.a
+		
+	}
+
+}
+
+aoe_startup_events.6 = {
+	
+	type = country_event
+	title = "aoe_startup_events.6.t"
+	desc = "aoe_startup_events.6.desc"
+	picture = naval_battle
+	goto_location = root
+	trigger = {
+	OR = {	
+			tag = VAN
+			}
+		
+		NOT = {
+			has_variable = vandal_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = vandal_1_flag
+		}
+	}
+	
+	option = {
+		name = aoe_startup_events.6.a
+			add_country_modifier = {
+				name = tolerant_policies_modifier
+				duration = 18250
+			}
+		add_truce = {
+			target = ERE
+			duration = 3650
+		}			
+	}
+}  
+ 
+aoe_startup_events.7 = {
+	
+	type = country_event
+	title = "aoe_startup_events.7.t"
+	desc = "aoe_startup_events.7.desc"
+	picture = celtic_chiefs
+	goto_location = root
+	trigger = {
+	OR = {	
+			tag = SKN
+			tag = LTG
+			tag = ANS
+			tag = TUR
+			tag = BUL
+			}
+		
+		NOT = {
+			has_variable = migration_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = migration_1_flag
+		}
+	}
+	
+	option = {
+		name = aoe_startup_events.7.a
+			add_country_modifier = {
+				name = fierce_warriors_modifier
+				duration = 18250
+			}		
+	}
+}
+
+aoe_startup_events.8 = {
+	
+	type = country_event
+	title = "aoe_startup_events.8.t"
+	desc = "aoe_startup_events.8.desc"
+	picture = celtic_chiefs
+	goto_location = root
+	trigger = {
+			tag = AVA		
+		NOT = {
+			has_variable = avars_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = avars_1_flag
+		}
+	}
+	
+	option = {
+		name = aoe_startup_events.8.a
+			add_country_modifier = {
+				name = avars_modifier
+				duration = 18250
+			}		
+	}
+}
+
+#aoe_startup_events.9 = {
+#	
+#	type = country_event
+#	title = "aoe_startup_events.9.t"
+#	desc = "aoe_startup_events.9.desc"
+#	picture = great_city
+#	goto_location = root
+#	trigger = {
+#	OR = {	
+#		tag = HMJ
+#		tag = NBT
+#		tag = HIJ
+#		tag = QUR
+#		tag = TAB
+#		tag = THQ
+#		tag = YAT
+#	}
+#		
+#		NOT = {
+#			has_variable = arabstartup_1_flag
+#		}
+#	}
+#	
+#	immediate = {
+#		set_variable = {    
+#			name = arabstartup_1_flag
+#		}
+#	}
+#	
+#	option = {
+#		name = aoe_startup_events.9.a
+#			add_country_modifier = {
+#				name = superpower_modifier
+#				duration = 36500
+#			}		
+#	}
+#}

@@ -1,0 +1,501 @@
+﻿namespace = rel_flavor_chalcedonian
+
+# Ceremony to convince the people of <province> to Christianity
+rel_flavor_chalcedonian.1 = {
+	type = country_event
+	title = "rel_flavor_chalcedonian.1.t"
+	desc = "rel_flavor_chalcedonian.1.desc"
+	picture = religious_rite
+
+	left_portrait = current_ruler
+	right_portrait = scope:random_advisor
+
+	goto_location = scope:country_province
+	
+	trigger = {
+		religion = chalcedonian
+		any_owned_province = {
+			any_pops_in_province = {
+				pop_religion = chalcedonian
+			}
+			any_pops_in_province = {
+				NOT = { pop_religion = chalcedonian }
+			}
+		}
+		any_character = {
+			has_any_office = yes
+			is_ruler = no
+			has_religion = chalcedonian
+		}
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				any_pops_in_province = {
+					pop_religion = chalcedonian
+				}
+				any_pops_in_province = {
+					NOT = { pop_religion = chalcedonian }
+				}
+			}
+			weight = {
+				modifier = {
+					factor = 10
+					any_pops_in_province = {
+						count >= 5
+						pop_religion = chalcedonian 
+					}
+				}
+				modifier = {
+					factor = 10
+					any_pops_in_province = {
+						count >= 5
+						NOT = { pop_religion = chalcedonian }
+					}
+				}
+				modifier = {
+					factor = 10
+					any_pops_in_province = {
+						count >= 5
+						pop_religion = chalcedonian
+					}
+					any_pops_in_province = {
+						count >= 5
+						NOT = { pop_religion = chalcedonian }
+					}
+				}
+			}
+			save_scope_as = country_province
+		}
+		random_character = {
+			limit = {
+				has_any_office = yes
+				is_ruler = no
+				has_religion = chalcedonian
+			}
+			weight = {
+				modifier = {
+					factor = 10
+					has_priest_office_trigger = yes
+				}
+			}
+			save_scope_as = random_advisor
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.1.a"
+		add_religious_power = subtract_rel_power_large
+		add_treasury = {
+			subtract = root.has_monthly_income
+			multiply = 4
+		}
+		scope:random_advisor = {
+			add_loyalty = loyalty_large
+		}
+		scope:country_province = {
+			ordered_pops_in_province = {
+				limit = {
+					NOT = { pop_religion = chalcedonian }
+				}
+				order_by = pop_hapiness
+				max = 3
+				check_range_bounds = no
+				set_pop_religion = chalcedonian
+			}
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.1.b"
+		add_religious_power = subtract_rel_power_small
+		scope:random_advisor = {
+			add_loyalty = loyalty_medium
+		}
+		scope:country_province = {
+			ordered_pops_in_province = {
+				limit = {
+					NOT = { pop_religion = chalcedonian }
+				}
+				order_by = pop_hapiness
+				max = 1
+				check_range_bounds = no
+				set_pop_religion = chalcedonian
+			}
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.1.c"
+		if = {
+			limit = {
+				is_monarchy = yes
+			}
+			add_legitimacy = subtract_legitimacy_large
+		}
+		current_ruler = {
+			add_popularity = subtract_popularity_medium
+		}
+		scope:random_advisor = {
+			add_loyalty = subtract_loyalty_medium
+		}
+	}
+}
+
+# Terrible leadership
+rel_flavor_chalcedonian.2 = {
+	type = country_event
+	title = "rel_flavor_chalcedonian.2.t"
+	desc = "rel_flavor_chalcedonian.2.desc"
+	picture = persepolis
+
+	left_portrait = current_ruler
+	right_portrait = scope:random_advisor
+
+	trigger = {
+		religion = chalcedonian
+		NOT = { has_variable = rel_flavor_chalcedonian_2_cooldown }
+		current_ruler = {
+			popularity <= 60
+			char_is_bad_leader_trigger = yes
+		}
+		any_character = {
+			has_any_office = yes
+			is_ruler = no
+			has_religion = chalcedonian
+			NOT = { is_friend = root.current_ruler }
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = rel_flavor_chalcedonian_2_cooldown
+			days = 1825
+		}
+		random_character = {
+			limit = {
+				has_any_office = yes
+				is_ruler = no
+				has_religion = chalcedonian
+				NOT = { is_friend = root.current_ruler }
+			}
+			weight = {
+				modifier = {
+					factor = 10
+					has_priest_office_trigger = yes
+				}
+			}
+			save_scope_as = random_advisor
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.2.a"
+		add_religious_power = subtract_rel_power_large
+		current_ruler = {
+			add_popularity = popularity_small
+			character_remove_a_bad_leader_trait_effect = yes
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.2.b"
+		if = {
+			limit = {
+				is_monarchy = yes
+			}
+			add_legitimacy = subtract_legitimacy_medium
+		}
+		current_ruler = {
+			add_popularity = subtract_popularity_medium
+		}
+	}
+}
+
+# The Magi wants control
+rel_flavor_chalcedonian.3 = {
+	type = country_event
+	title = "rel_flavor_chalcedonian.3.t"
+	desc = "rel_flavor_chalcedonian.3.desc"
+	picture = religious_rite
+
+	left_portrait = current_ruler
+	right_portrait = scope:random_advisor
+	right_portrait = scope:random_advisor_2
+
+	trigger = {
+		religion = chalcedonian
+		NOT = { has_variable = rel_flavor_chalcedonian_3_cooldown }
+		OR = {
+			AND = {
+				is_monarchy = yes
+				NOT = { has_law = encourage_cults_monarchy }
+			}
+			AND = {
+				is_tribal = yes
+				NOT = { has_law = power_to_the_priests_law }
+			}
+		}
+		any_character = {
+			has_any_office = yes
+			is_ruler = no
+			has_religion = chalcedonian
+			has_priest_office_trigger = yes
+		}
+		any_character = {
+			has_any_office = yes
+			is_ruler = no
+			NOT = {
+				has_priest_office_trigger = yes
+			}
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = rel_flavor_chalcedonian_3_cooldown
+			days = 7300
+		}
+		random_character = {
+			limit = {
+				has_any_office = yes
+				is_ruler = no
+				has_religion = chalcedonian
+				has_priest_office_trigger = yes
+			}
+			save_scope_as = random_advisor
+		}
+		random_character = {
+			limit = {
+				has_any_office = yes
+				is_ruler = no
+				NOT = {
+					has_priest_office_trigger = yes
+				}
+			}
+			save_scope_as = random_advisor_2
+			add_rival = scope:random_advisor
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.3.a"
+		add_civic_power = subtract_civ_power_large
+		positive_religious_caste_effect = yes
+		scope:random_advisor = {
+			add_loyalty = loyalty_large
+		}
+		scope:random_advisor_2 = {
+			add_loyalty = subtract_loyalty_large
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.3.b"
+		add_religious_power = subtract_rel_power_medium
+		scope:random_advisor_2 = {
+			add_loyalty = loyalty_large
+		}
+		scope:random_advisor = {
+			add_loyalty = subtract_loyalty_large
+		}
+	}
+}
+
+# Religious leader inspired to become better
+rel_flavor_chalcedonian.4 = {
+	type = country_event
+	title = "rel_flavor_chalcedonian.4.t"
+	desc = "rel_flavor_chalcedonian.4.desc"
+	picture = greek_court
+
+	left_portrait = current_ruler
+	right_portrait = scope:random_advisor
+
+	trigger = {
+		religion = chalcedonian
+		NOT = { has_variable = rel_flavor_chalcedonian_4_cooldown }
+		current_ruler = {
+			char_is_religious_trigger = yes
+		}
+		any_character = {
+			is_ruler = no
+			has_religion = chalcedonian
+			has_priest_office_trigger = yes
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = rel_flavor_chalcedonian_4_cooldown
+			days = 10950
+		}
+		random_character = {
+			limit = {
+				is_ruler = no
+				has_religion = chalcedonian
+				has_priest_office_trigger = yes
+			}
+			save_scope_as = random_advisor
+		}
+		hidden_effect = {
+			current_ruler = {
+				random_list = {
+					1 = {
+						trigger = {
+							NOT = { has_trait = tolerant }
+						}
+						set_variable = {
+							name = tolerant_trait_flag
+						}
+					}
+					1 = {
+						trigger = {
+							NOT = { has_trait = merciful }
+						}
+						set_variable = {
+							name = merciful_trait_flag 
+						}
+					}
+					1 = {
+						trigger = {
+							NOT = {	has_trait = founder }
+						}
+						set_variable = {
+							name = founder_trait_flag
+						}
+					}
+					1 = {
+						trigger = {
+							NOT = { has_trait = benefactor }
+						}
+						set_variable = {
+							name = benefactor_trait_flag
+						}
+					}
+					1 = {
+						trigger = {
+							NOT = { has_trait = forgiving }
+						}
+						set_variable = {
+							name = forgiving_trait_flag
+						}
+					}
+					1 = {
+						trigger = {
+							NOT = { has_trait = confident }
+						}
+						set_variable = {
+							name = confident_trait_flag
+						}
+					}
+					1 = {
+						trigger = {
+							NOT = { has_trait = kindly }
+						}
+						set_variable = {
+							name = kindly_trait_flag 
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.4.a"
+		add_religious_power = subtract_rel_power_medium
+		current_ruler = {
+			switch = {
+				trigger = has_variable
+				tolerant_trait_flag = { add_trait = tolerant }
+				merciful_trait_flag = { add_trait = merciful }
+				founder_trait_flag = { add_trait = founder }
+				benefactor_trait_flag = { add_trait = benefactor }
+				forgiving_trait_flag = { add_trait = forgiving }
+				confident_trait_flag = { add_trait = confident }
+				kindly_trait_flag = { add_trait = kindly }
+			}
+		}
+		scope:random_advisor = {
+			add_loyalty = loyalty_medium
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.4.b"
+		scope:random_advisor = {
+			add_loyalty = subtract_loyalty_medium
+		}
+	}
+}
+
+# Bless the troops
+rel_flavor_chalcedonian.5 = {
+	type = country_event
+	title = "rel_flavor_chalcedonian.5.t"
+	desc = "rel_flavor_chalcedonian.5.desc"
+	picture = greek_court
+
+	left_portrait = current_ruler
+	right_portrait = scope:random_advisor
+
+	trigger = {
+		religion = chalcedonian
+		NOT = { has_variable = rel_flavor_chalcedonian_5_cooldown }
+		any_character = {
+			has_any_office = yes
+			is_ruler = no
+			has_religion = chalcedonian
+			has_priest_office_trigger = yes
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = rel_flavor_chalcedonian_5_cooldown 
+			days = 3650
+		}
+		random_character = {
+			limit = {
+				has_any_office = yes
+				is_ruler = no
+				has_religion = chalcedonian
+				has_priest_office_trigger = yes
+			}
+			save_scope_as = random_advisor
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.5.a"
+		add_religious_power = subtract_rel_power_medium
+		add_country_modifier = {
+			name = country_improvement_zoroastrianism_war
+			duration = 3650
+		}
+		scope:random_advisor = {
+			add_loyalty = loyalty_medium
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.5.b"
+		add_religious_power = subtract_rel_power_medium
+		add_country_modifier = {
+			name = country_improvement_zoroastrianism_stability
+			duration = 3650
+		}
+		scope:random_advisor = {
+			add_loyalty = loyalty_medium
+		}
+	}
+
+	option = {
+		name = "rel_flavor_chalcedonian.5.c"
+		scope:random_advisor = {
+			add_loyalty = subtract_loyalty_large
+		}
+	}
+}

@@ -1,0 +1,24 @@
+﻿"RHE"={
+	country="RHE"
+	9={
+		first_name="Theuderic"
+		family_name="Merovingian"
+		birth_date=1252.11.27
+		culture="franks"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=7
+		add_charisma=5
+		add_finesse=7
+		add_zeal=8
+		no_traits=yes
+		add_trait="brave"
+		add_trait="prominent"
+		add_gold=200
+		add_popularity=80
+		c:RHE={
+			set_as_ruler=char:9
+		}
+		dna="92T3ZIFMgUw0bTRtApkCmQKLAosCiwKLAoUChQKKAooCeQJ5AmwCbAJpAmkCegJ6AnsCewKSApICfAJ8ApkCmQKLAosChQKFApUClQKKAooCcwJzA7IDsgTABMACfgJ+AoQChAKEAoQBTwFPApgCmAKRApECmAKYAoMCgwA4ADgBXwFfAnECcQKSApIClwKXAooCigJ+An4CZgJmA6gDqAJ9An0CdwJ3Am4CbgJvAm8CiAKIAo8CjwJyAnIChgKGAocChwJoAmgCdgJ2AnoCegJ7AnsCjAKMApQClAJ2AnYCbwJvAowCjAKhAqEBJgEmAPYA9gFaAVoAugC6AS0BLQBhAGEA8gDyADoAOgD7APsEtwS3AT8BPwAAAAAAfAB8AFEAUQBCAEIA9AD0AIoAigBsAGwAVgBWARYBFgAAAAABVgFWAT8BPwFHAUcAVwBXAMUAxQSqBKoAsgCyAJoAmgDfAN8DWwNbAysDKwMyAzIJ+wn7AAAAAADPAM8Hdgd2AOoA6gTUBNQF5QXlDfsN+wAAAAAAAAAAAAAAAA=="
+	}
+}

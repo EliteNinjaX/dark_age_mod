@@ -1,0 +1,554 @@
+template = {
+	
+	flag_type_checkers = {
+		pattern = "pattern_solid.tga"
+		color1 = list "triggered_colors_list1"
+		
+		#checkers
+		colored_emblem = {
+			texture = list "checkers"
+			color1 = list "triggered_colors_list1"
+			color2 = list "triggered_colors_list2"
+		}
+	}
+	
+	flag_type_checkers_quadrants_01 = {
+		pattern = "pattern_checkers_2x2.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.25 0.25 } scale = { -0.5 0.5 }  }
+			#instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
+			#instance = { position = { 0.25 0.75 } scale = { -0.5 0.5 }  }
+			instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }
+		}
+	}
+	
+	flag_type_checkers_quadrants_02 = {
+		pattern = "pattern_checkers_2x2_reversed.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color2 = list "triggered_colors_list3"
+			color1 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			#instance = { position = { 0.25 0.25 } scale = { -0.5 0.5 }  }
+			instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
+			instance = { position = { 0.25 0.75 } scale = { -0.5 0.5 }  }
+			#instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }
+		}
+	}
+	
+	flag_type_checkers_canton_01 = {
+		pattern = "pattern_canton_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+			instance = { rotation = 180  }
+		}
+	}
+	
+	flag_type_checkers_canton_02 = {
+		pattern = "pattern_canton_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list2"
+		color3 = list "triggered_colors_list3"
+		
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.25 0.25 } scale = { -0.5 0.5 }  }
+			#instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
+			#instance = { position = { 0.25 0.75 } scale = { -0.5 0.5 }  }
+			#instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }
+		}
+	}
+	
+	flag_type_checkers_half_horizontal_01 = {
+		pattern = "pattern_horizontal_split_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.17 0.25 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.50 0.25 } scale = { 0.33 0.33 }  }
+			instance = { position = { 0.83 0.25 } scale = { 0.33 0.33 }  }
+		}
+	}
+	
+	flag_type_checkers_half_horizontal_02 = {
+		pattern = "pattern_horizontal_split_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.25 0.25 } scale = { -0.5 0.5 }  }
+			instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
+		}
+	}
+	
+	flag_type_checkers_half_horizontal_03 = {
+		pattern = "pattern_horizontal_split_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+			instance = { rotation = 180  }
+		}
+		
+		##symbol
+		#colored_emblem = {
+		#	texture = list "symbols"
+		#	color1 = list "triggered_colors_list2"
+		#	color2 = list "triggered_colors_list3"
+		#	instance = { position = { 0.17 0.25 } scale = { 0.33 0.33 }  }
+		#	instance = { position = { 0.50 0.25 } scale = { 0.33 0.33 }  }
+		#	instance = { position = { 0.83 0.25 } scale = { 0.33 0.33 }  }
+		#}
+	}
+	
+	flag_type_checkers_half_horizontal_04 = {
+		pattern = "pattern_horizontal_split_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+			instance = { rotation = 180  }
+		}
+		
+		##symbol
+		#colored_emblem = {
+		#	texture = list "symbols"
+		#	color1 = list "triggered_colors_list2"
+		#	color2 = list "triggered_colors_list3"
+		#	instance = { position = { 0.25 0.25 } scale = { -0.5 0.5 }  }
+		#	instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
+		#}
+	}
+	
+	flag_type_checkers_bar_diagonal_01 = {
+		pattern = "pattern_diagonal_line_fat_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+		}
+		
+		##symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.8 0.2 } scale = {  0.4 0.4 } rotation = 45  }
+			instance = { position = { 0.2 0.8 } scale = { -0.4 0.4 } rotation = 225 }
+		}
+	}
+	
+	flag_type_checkers_bar_diagonal_02 = {
+		pattern = "pattern_diagonal_line_fat_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+		
+		##symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.2 0.2 } scale = {  0.4 0.4 } rotation = -45  }
+			instance = { position = { 0.8 0.8 } scale = { 0.4 0.4 } rotation = -225 }
+		}
+	}
+	
+	flag_type_checkers_bar_diagonal_03 = {
+		pattern = "pattern_diagonal_line_fat_03.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_diagonal_04 = {
+		pattern = "pattern_diagonal_line_fat_04.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_horizontal_01 = {
+		pattern = "pattern_horizontal_bar_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_horizontal_02 = {
+		pattern = "pattern_horizontal_bar_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_horizontal_03 = {
+		pattern = "pattern_horizontal_bar_03.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_horizontal_04 = {
+		pattern = "pattern_horizontal_bar_04.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_vertical_01 = {
+		pattern = "pattern_vertical_bar_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_vertical_02 = {
+		pattern = "pattern_vertical_bar_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_vertical_03 = {
+		pattern = "pattern_vertical_bar_03.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_bar_vertical_04 = {
+		pattern = "pattern_vertical_bar_04.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers_diagonals"
+			color2 = list "triggered_colors_list2"
+			color1 = list "triggered_colors_list3"
+		}
+	}
+	
+	flag_type_checkers_half_vertical_01 = {
+		pattern = "pattern_vertical_split_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.25 0.17 } scale = { -0.33 0.33 }  }
+			instance = { position = { 0.25 0.50 } scale = { -0.33 0.33 }  }
+			instance = { position = { 0.25 0.83 } scale = { -0.33 0.33 }  }
+		}
+	}
+	
+	flag_type_checkers_half_vertical_02 = {
+		pattern = "pattern_vertical_split_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.25 0.25 } scale = { -0.4 0.4 }  }
+			instance = { position = { 0.25 0.75 } scale = { -0.4 0.4 }  }
+		}
+	}
+	
+	flag_type_checkers_half_vertical_03 = {
+		pattern = "pattern_vertical_split_01.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.25 0.5 } scale = { -0.5 0.5 }  }
+		}
+	}
+	
+	flag_type_checkers_half_vertical_04 = {
+		pattern = "pattern_vertical_split_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.75 0.17 } scale = { -0.33 0.33 }  }
+			instance = { position = { 0.75 0.50 } scale = { -0.33 0.33 }  }
+			instance = { position = { 0.75 0.83 } scale = { -0.33 0.33 }  }
+		}
+	}
+	
+	flag_type_checkers_half_vertical_05 = {
+		pattern = "pattern_vertical_split_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.75 0.25 } scale = { 0.4 0.4 }  }
+			instance = { position = { 0.75 0.75 } scale = { 0.4 0.4 }  }
+		}
+	}
+	
+	flag_type_checkers_half_vertical_06 = {
+		pattern = "pattern_vertical_split_02.tga"
+		color1 = list "triggered_colors_list1"
+		color2 = list "triggered_colors_list3"
+		color3 = list "triggered_colors_list2"
+		
+		#checkers
+		colored_emblem = {
+			mask  = { 2 }
+			texture = list "checkers"
+			color1 = list "triggered_colors_list3"
+			color2 = list "triggered_colors_list2"
+		}
+		
+		#symbol
+		colored_emblem = {
+			texture = list "symbols"
+			color1 = list "triggered_colors_list2"
+			color2 = list "triggered_colors_list3"
+			instance = { position = { 0.75 0.5 } scale = { 0.5 0.5 }  }
+		}
+	}
+}

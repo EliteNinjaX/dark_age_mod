@@ -1,0 +1,15 @@
+﻿color = rgb { 14  20  31 }
+color2 = rgb { 110 112 142 }
+
+ship_names = {
+Gaiseric
+Geilamir
+Gelimer
+Geilar
+Gento
+Gibamund
+Gunthamund
+Hilderic
+Huneric
+Thrasamund 
+}
