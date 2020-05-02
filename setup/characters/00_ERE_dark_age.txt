@@ -130,12 +130,12 @@
 		add_popularity=90
 		dna="WeNZ4694r3jXq9erAmsCawKTApMCggKCAVsBWwKXApcClgKWA6ADoAKUApQCeQJ5AogCiAJoAmgCiwKLAo8CjwOaA5oBYgFiAnUCdQFQAVACggKCApECkQJ4AngCZgJmAoICggJ+An4CdAJ0AnICcgKXApcCfAJ8ApkCmQBHAEcCkAKQAnoCegJ3AncCeAJ4AEsASwJmAmYChAKEAo4CjgKAAoACfAJ8ApYClgKVApUCbgJuApUClQJ4AngCkAKQAoQChAKGAoYBUwFTAo8CjwKQApACcgJyAEgASAJ1AnUClQKVApQClAKpAqkAnwCfAIYAhgDiAOIAawBrAWkBaQK/Ar8BdwF3AvsC+wB8AHwDGwMbAroCugAAAAAAmgCaAK8ArwCsAKwAnACcAWwBbABhAGECHgIeAAIAAgAAAAABBQEFAM0AzQAtAC0ChAKEAL8AvwCzALMC+gL6ACoAKgBlAGUABAAEAEwATAFSAVIL0QvRAAAAAADwAPABIAEgAJsAmwmtCa0BFgEWAMsAywAAAAAAAAAAAAAAAA=="
 	}
-	1={
+1={
 		first_name="Matthew"
 		family_name="the Evangelist"
 		birth_date=1.1.2
 		death_date=120.1.2
-		culture="greek"
+		culture="hebrew"
 		religion="chalcedonian"
 		no_stats=yes
 		add_martial=5

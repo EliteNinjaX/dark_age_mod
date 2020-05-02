@@ -1,21 +1,18 @@
 ﻿l_english:
  ### Mod ###
  ### Chalcedonian ###
- ## Default ##
- omen_deus_vult:0 "DEUS VULT!"
- omen_deus_vult_desc:1 "#Y Chalcedonian Omen#!\n When our nation grows, so too does Christianity. God wills it! DEUS VULT!"
- omen_matthew:0 "Predictions of Matthew"
- omen_matthew_desc:1 "#Y Chalcedonian Omen#!\nJust as Deborah were once guided by God to attack the King of Canaan, we must be certain of the battles we wage and not listen to false prophets or take their advice. However, when we are certain that a battle must be fought, our men must engage with strength and discipline so our people will be victorious."
- omen_thomas:0 "Children of Thomas"
+ #matthew
+ omen_matthew_desc:1 "#Y Matthew the Apostle#!\nMatthew, sometimes know as Levi, started as a a tax collector for the Romans. As a Jew, stepping into this profession was essentially an act of betrayal to his people. However, after Jesus calls him, Matthew hosts a gathering at his house. When the Pharisees ask why Jesus eats with tax collectors and sinners, Jesus said,‘It is not the healthy who need a doctor, but the sick.'. Matthew latter become one of the Four Evangelists, or bringer of the good news about coming of the Kingdom of God."
+ #thomas
  omen_thomas_desc:1 "#Y Chalcedonian Omen#!\nWe will call upon all of God's children, be they young or old, to come together and fight in defense of our people. With recruits from all across our nation coming to arms, our forces are sure to be bolstered and strengthened."
- omen_john:0 "Visions of John"
+ #john
  omen_john_desc:1 "#Y Chalcedonian Omen#!\nAs the great Samuel once led and inspired the people of God, we need to lead our people with wisdom and knowledge. Following the teachings of God, we will move forward with greater insight to the benefit of everyone under our care."
- omen_peter:1 "Peter's Wealth"
+ #peter
  omen_peter_desc:2 "#Y Chalcedonian Omen#!\nLike great David himself, legendary for his riches and treasures, we will seek the pursuit of wealth. To protect and care for the followers of God, it is important that we have the funding necessary to compete with our neighbors, foes and enemies."
- omen_simon:1 "Simon's Wisdom"
+ #simon
  omen_simon_desc:2 "#Y Chalcedonian Omen#!\nThough we do not seek to bring war and famine to our foes, sometimes it is a necessary evil for the sake of our people. In times like these we emulate the wisdom of Solomon himself, so we can knowingly resolve these crises with the best kind of results."
- omen_bartholomew:0 "Foresight of Bartholomew"
+ #bartholomew
  omen_bartholomew_desc:1 "#Y Chalcedonian Omen#!\nAs Caleb and Joshua once saw opportunity where most of their peers only saw adversaries, our people need to try find solutions where others will not. For as long as we have God on our side, and follow his words, we are sure to succeed."
- omen_philip:1 "Philip's Blessing"
+ #philip
  omen_philip_desc:2 "#Y Chalcedonian Omen#!\nAbraham is well known for being blessed by God with children, when nobody believed such a miracle could happen. We will pray to God to receive blessings akin to that, so our people may flourish once more."
 
