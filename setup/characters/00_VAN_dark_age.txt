@@ -2,7 +2,7 @@
 	country="VAN"
 	3={
 		first_name="Hilderic"
-		family_name="Gaiseric"
+		family = c:VAN.fam:Gaiseric
 		birth_date=1226.10.6
 		culture="vandal"
 		religion="chalcedonian"
@@ -24,7 +24,7 @@
 	}
 	4={
 		first_name="Gelimer"
-		family_name="Gaiseric"
+		family = c:VAN.fam:Gaiseric
 		birth_date=1232.9.20
 		culture="vandal"
 		religion="arian"
@@ -59,7 +59,7 @@
 	}
 	23={
 		first_name="Tzazo"
-		family_name="Gaiseric"
+		family = c:VAN.fam:Gaiseric
 		birth_date=1232.9.20
 		culture="vandal"
 		religion="arian"

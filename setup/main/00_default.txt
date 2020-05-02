@@ -10,6 +10,22 @@ family={
 			prestige=300
 			color = 0
 		}
+		#Vandals
+		1={
+			key="Gaiseric"
+			owner=VAN
+			culture = vandal
+			prestige=300
+			color = 0
+		}
+		2={
+			key="Gothica"
+			owner=VAN
+			culture = vandal
+			prestige=300
+			color = 0
+		}
+		}
 		}
 		}
 		
@@ -294,6 +310,8 @@ country = {
 #AFRICA
 
 		VAN = {
+			family = 1
+			family = 2
 			government = despotic_monarchy
 			primary_culture = vandal
 			religion = arian
