@@ -25,6 +25,13 @@ family={
 			prestige=300
 			color = 0
 		}
+		#PER
+		3={
+			key="Sasan"
+			owner=PER
+			culture = median
+			prestige=300
+			color = 0
 		}
 		}
 		}
@@ -231,6 +238,7 @@ country = {
 		}
 
 		PER = {
+			family = 3
 			government = aristocratic_monarchy
 			primary_culture = median
 			religion = zoroaster
