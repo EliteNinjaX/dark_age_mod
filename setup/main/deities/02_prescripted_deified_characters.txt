@@ -3,7 +3,7 @@ deity_manager = {
         1351 = {
             key = omen_matthew
             deity = deity_matthew
-            deify_ruler = 39
+            deify_ruler = 1
             deify_ruler_permanent = yes
             is_universal_deity = yes
         }

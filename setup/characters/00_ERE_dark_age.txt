@@ -2,7 +2,7 @@
 	country="ERE"
 	0={
 		first_name="Flavius"
-		family_name="Justinian"
+		family = c:ERE.fam:Justinian
 		birth_date=1254.9.22
 		culture="illyria"
 		religion="chalcedonian"
@@ -22,7 +22,7 @@
 		}
 		dna="Os06zYd1h3Xfld+VA6UDpQJvAm8CdwJ3Am4CbgJuAm4CbgJuAoMCgwJ9An0CcwJzApECkQKQApACiwKLApQClAJ/An8DrQOtAnACcAJ/An8ChQKFAmkCaQJtAm0CggKCAnQCdAKVApUCdQJ1AnwCfAJqAmoCbAJsAoACgAKAAoACdwJ3AooCigJzAnMCeAJ4AnoCegJzAnMCaQJpAnsCewJoAmgCbgJuAnoCegJ7AnsChQKFApcClwKDAoMCgAKAA5wDnAJqAmoCcQJxAnkCeQKXApcCawJrAngCeAKMAowCawJrAnUCdQKpAqkADQANAL8AvwAcABwBdwF3AMMAwwBLAEsCrgKuArYCtgCeAJ4DJwMnAp8CnwAAAAAAZwBnAPkA+QDwAPAACQAJAKIAogLsAuwDdgN2ApICkgAAAAABcgFyAGIAYgAaABoBHAEcAMwAzATTBNMAMgAyAJEAkQKWApYDAQMBAPEA8QTwBPADoQOhAAAAAAKsAqwBXgFeAFIAUglJCUkBKwErAOoA6gAAAAAAAAAAAAAAAA=="
 	}
-	1={
+	27={
 		first_name="Flavius"
 		family_name="Belisarius"
 		birth_date=1252.11.27
@@ -130,7 +130,7 @@
 		add_popularity=90
 		dna="WeNZ4694r3jXq9erAmsCawKTApMCggKCAVsBWwKXApcClgKWA6ADoAKUApQCeQJ5AogCiAJoAmgCiwKLAo8CjwOaA5oBYgFiAnUCdQFQAVACggKCApECkQJ4AngCZgJmAoICggJ+An4CdAJ0AnICcgKXApcCfAJ8ApkCmQBHAEcCkAKQAnoCegJ3AncCeAJ4AEsASwJmAmYChAKEAo4CjgKAAoACfAJ8ApYClgKVApUCbgJuApUClQJ4AngCkAKQAoQChAKGAoYBUwFTAo8CjwKQApACcgJyAEgASAJ1AnUClQKVApQClAKpAqkAnwCfAIYAhgDiAOIAawBrAWkBaQK/Ar8BdwF3AvsC+wB8AHwDGwMbAroCugAAAAAAmgCaAK8ArwCsAKwAnACcAWwBbABhAGECHgIeAAIAAgAAAAABBQEFAM0AzQAtAC0ChAKEAL8AvwCzALMC+gL6ACoAKgBlAGUABAAEAEwATAFSAVIL0QvRAAAAAADwAPABIAEgAJsAmwmtCa0BFgEWAMsAywAAAAAAAAAAAAAAAA=="
 	}
-	39={
+	1={
 		first_name="matthew"
 		family_name="Hezekiate"
 		birth_date=1.1.2

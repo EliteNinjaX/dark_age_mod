@@ -1,9 +1,28 @@
+family={
+	families={
+		#Numbers do not have to appear in numerical order but do have to be unique:
+		#Current first free ID is your moms ass.
+		#Easter Roman Families on Start:
+		0={
+			key="Justinian"
+			owner=ERE
+			culture = roman
+			prestige=300
+			color = 0
+		}
+		}
+		}
+		
+		
+
+#Country Files
 country = {
 	countries = {
 	
 #Easten Roman Empire
 		
 		ERE = {
+		 family = 0
 			government = imperium
 			primary_culture = roman
 			religion = chalcedonian
