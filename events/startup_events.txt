@@ -22,7 +22,9 @@ aoe_startup_events.1 = {
 	
 	option = {
 		name = aoe_startup_events.1.a
-		add_truce = {
+		custom_tooltip = aoe_startup_events.1.b
+		hidden_effect = {
+			add_truce = {
 			target = VAN
 			duration = 1825
 		}
@@ -30,6 +32,7 @@ aoe_startup_events.1 = {
 			target = OGO
 			duration = 1825
 		}
+			}
 	}
 }
 

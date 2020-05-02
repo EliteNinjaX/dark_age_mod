@@ -114,7 +114,7 @@
 	}
 	19={
 		first_name="Germanus"
-		family_name="Justinian"
+		family = c:ERE.fam:Justinian
 		birth_date=1258.1.19
 		culture="illyria"
 		religion="chalcedonian"
