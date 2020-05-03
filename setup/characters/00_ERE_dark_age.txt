@@ -7,6 +7,7 @@
 		culture="illyria"
 		religion="chalcedonian"
 		marry_character=char:14
+		father="char:28"
 		no_stats=yes
 		add_martial=7
 		add_charisma=9
@@ -129,5 +130,45 @@
 		add_gold=200
 		add_popularity=90
 		dna="WeNZ4694r3jXq9erAmsCawKTApMCggKCAVsBWwKXApcClgKWA6ADoAKUApQCeQJ5AogCiAJoAmgCiwKLAo8CjwOaA5oBYgFiAnUCdQFQAVACggKCApECkQJ4AngCZgJmAoICggJ+An4CdAJ0AnICcgKXApcCfAJ8ApkCmQBHAEcCkAKQAnoCegJ3AncCeAJ4AEsASwJmAmYChAKEAo4CjgKAAoACfAJ8ApYClgKVApUCbgJuApUClQJ4AngCkAKQAoQChAKGAoYBUwFTAo8CjwKQApACcgJyAEgASAJ1AnUClQKVApQClAKpAqkAnwCfAIYAhgDiAOIAawBrAWkBaQK/Ar8BdwF3AvsC+wB8AHwDGwMbAroCugAAAAAAmgCaAK8ArwCsAKwAnACcAWwBbABhAGECHgIeAAIAAgAAAAABBQEFAM0AzQAtAC0ChAKEAL8AvwCzALMC+gL6ACoAKgBlAGUABAAEAEwATAFSAVIL0QvRAAAAAADwAPABIAEgAJsAmwmtCa0BFgEWAMsAywAAAAAAAAAAAAAAAA=="
+	}
+	27={
+		first_name="Justin"
+		family = c:ERE.fam:Justinian
+		birth_date=1273.10.12
+		culture="illyria"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=9
+		add_charisma=6
+		add_finesse=13
+		add_zeal=5
+		no_traits=yes
+		add_trait="tolerant"
+		add_trait="prominent"
+		add_trait="proud"
+		add_gold=200
+		add_popularity=90
+		dna="DPAM8LxmvGYZkhmSAnsCewJqAmoChAKEAn0CfQKOAo4BXgFeAmwCbAJtAm0DmgOaAo4CjgKGAoYCbAJsAoYChgJrAmsCgQKBAn8CfwAcABwCewJ7BLUEtQJrAmsCZwJnAooCigJvAm8CiQKJBMIEwgKNAo0ClwKXApUClQJvAm8CkwKTAm0CbQKJAokCeAJ4AoMCgwKXApcASwBLAn0CfQKJAokCZgJmAm0CbQJyAnICgwKDAmcCZwKTApMCfAJ8AVUBVQKWApYCmAKYA6ADoAKGAoYCZwJnAnYCdgJwAnACfQJ9ApUClQKZApkACgAKAq8CrwEBAQEAcQBxAJEAkQBbAFsAOwA7AOUA5QCVAJUDGQMZAGUAZQAAAAABNwE3AtEC0QKNAo0BOAE4AMUAxQByAHIB0AHQAQMBAwAAAAABKgEqAKgAqAAZABkBAQEBAQEBAQFxAXEA9QD1AEMAQwAMAAwA6QDpAzcDNwCqAKoHeAd4AAAAAAHnAecBYAFgACYAJgk1CTUBOwE7ALEAsQAAAAAAAAAAAAAAAA=="
+	}
+#I don't know why but this does not work.
+#	28={
+#		first_name="Justin"
+#		family = c:ERE.fam:Justinian
+#		birth_date=1203.2.2
+#		death_date=1280.8.1
+#		culture="illyria"
+#		religion="chalcedonian"
+#		dna="Fv8W/7ptum3i7uLuAoUChQJ8AnwCfgJ+AnoCegJyAnICdwJ3AnwCfAJ+An4ChwKHAocChwKTApMCagJqAmcCZwKTApMCeAJ4AoQChAJrAmsCfAJ8AnECcQJyAnICgAKAAm0CbQKTApMBYQFhAmcCZwJ0AnQCbwJvAnMCcwFiAWICdQJ1AmsCawJpAmkCkgKSA5kDmQJsAmwCawJrAo0CjQJwAnACgQKBAoMCgwJ0AnQCcQJxApgCmASzBLMCawJrAn8CfwKEAoQCjAKMAnwCfAJpAmkCZgJmApECkQJxAnECaAJoAmoCagJrAmsASwBLAuQC5AE6AToC9wL3AV0BXQA/AD8BeAF4AN4A3gBMAEwAHgAeAUkBSQAAAAABeAF4AB4AHgKxArEACgAKAvgC+ACnAKcB4wHjATgBOAAAAAAAcQBxAXEBcQF7AXsBfwF/AVkBWQKKAooCigKKAGEAYQAAAAAE2wTbAIIAggDnAOcKZgpmAAAAAAEnAScBoAGgAL4AvgkfCR8BPQE9AL4AvgAAAAAAAAAAAAAAAA=="
+#	}
+	28={
+		first_name="Vigilantia"
+		family = c:ERE.fam:Justinian
+		birth_date=1205.1.1
+		female=yes
+		culture="illyria"
+		religion="chalcedonian"
+		add_gold=200
+		add_popularity=90
+		dna="Heod6rh3uHdkW2RbAogCiAJmAmYCjwKPAnYCdgJuAm4CagJqA5oDmgJ8AnwBXQFdAnsCewJmAmYCiwKLAo8CjwKRApECcAJwAo0CjQJ1AnUCZwJnAo8CjwKZApkCfAJ8AVABUATXBNcCZwJnApUClQKVApUChgKGApkCmQKHAocCjQKNAoMCgwJzAnMCfQJ9AoUChQKGAoYCcAJwAngCeAA3ADcCggKCAmcCZwKZApkCfAJ8ApgCmAKLAosCZgJmAVsBWwJuAm4CZgJmAVMBUwJ0AnQCaAJoAogCiAKXApcClQKVAn8CfwJdAl0C7wLvAC0ALQLYAtgBYwFjAIsAiwElASUBXgFeAVQBVAF3AXcA+QD5AQEBAQAAAAAC2ALYAI4AjgCBAIEAJwAnAFgAWABEAEQAVgBWAPAA8AAAAAAA/wD/AQkBCQAxADEBdgF2AN4A3gMWAxYCugK6BIkEiQB0AHQBUAFQAM8AzwERAREF4wXjAAAAAANhA2EBlwGXANYA1gkyCTIBXwFfAF8AXwAAAAAAAAAAAAAAAA=="
 	}
 }
