@@ -7,5 +7,12 @@ deity_manager = {
             deify_ruler_permanent = yes
             is_universal_deity = yes
         }
+		 1352 = {
+            key = omen_mark
+            deity = deity_mark
+            deify_ruler = 26
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
     }
 }

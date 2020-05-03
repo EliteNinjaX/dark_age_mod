@@ -1,0 +1,37 @@
+﻿"Test_ERE"={
+	country="ERE"
+1={
+		first_name="Matthew"
+		family_name="the Evangelist"
+		birth_date=1.1.2
+		death_date=120.1.2
+		culture="hebrew"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=5
+		add_charisma=12
+		add_finesse=12
+		add_zeal=12
+		add_trait="devout"
+		add_trait="scholar"
+		add_trait="silver_tongued"
+		dna="Kdwp3JqGmoa5v7m/AosCiwJnAmcChAKEAoACgAJ0AnQCkwKTApgCmAKBAoECeAJ4AmYCZgKBAoEARQBFAo0CjQKQApACkgKSAooCigOfA58CawJrAmcCZwJ7AnsCkAKQAocChwKYApgCgQKBAoECgQKBAoECZwJnAnMCcwJ4AngCiwKLAnsCewKLAosCeAJ4ApYClgJsAmwCaQJpAoICggKBAoEBVgFWAnoCegJuAm4CeQJ5AmYCZgJ8AnwCbwJvAnACcAJ7AnsCiAKIAD0APQKSApICbwJvAmkCaQJmAmYClAKUAo4CjgLpAukBTAFMAqoCqgFwAXABRAFEAVcBVwCXAJcCnAKcAEkASQB7AHsACgAKAIkAiQAAAAAAigCKAXsBewEBAQEBYAFgAoECgQA1ADUClwKXAA4ADgAAAAABXQFdAC8ALwBEAEQBSgFKAAwADADOAM4BGQEZA3QDdAEyATIASwBLAVABUABiAGIKXwpfAAAAAASmBKYF/wX/AHwAfAXzBfMClwKXAvUC9QAAAAAAAAAAAAAAAA=="
+	}
+	26={
+		first_name="Mark"
+		family_name="the Evangelist"
+		birth_date=5.1.1
+		death_date=68.1.1
+		culture="greek"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=5
+		add_charisma=12
+		add_finesse=12
+		add_zeal=12
+		add_trait="devout"
+		add_trait="scholar"
+		add_trait="silver_tongued"
+		dna="TOJM4ol+iX7iyeLJAmgCaAJyAnICiAKIAn4CfgJvAm8ChAKEAnYCdgOeA54BWAFYAVIBUgKDAoMCegJ6AmwCbAKIAogCggKCApECkQJ6AnoChwKHAnkCeQJoAmgChwKHAm4CbgKJAokCdQJ1AnUCdQKPAo8DrgOuApACkAJ2AnYCfAJ8AWIBYgFeAV4ChwKHAmgCaAJnAmcCbgJuAmsCawJwAnACigKKAoUChQJ1AnUCgwKDAnQCdAFOAU4CawJrAo0CjQFVAVUCdwJ3AWQBZAKYApgDogOiAoACgAKBAoECgwKDAn4CfgLRAtEAkwCTAXEBcQCtAK0CwALAAVMBUwBdAF0BLgEuAPoA+gFRAVEAKQApABcAFwAAAAAATwBPAGoAagCWAJYBCgEKAKkAqQK2ArYAwQDBAK8ArwAAAAAA4QDhAvkC+QD3APcAuQC5AvsC+wNZA1kAtQC1APMA8wBGAEYAFQAVA3ADcAFVAVUKxwrHAAAAAAPGA8YFSgVKAJgAmAVLBUsCEQIRAo8CjwAAAAAAAAAAAAAAAA=="
+	}
+}

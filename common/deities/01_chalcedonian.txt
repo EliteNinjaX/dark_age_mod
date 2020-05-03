@@ -12,11 +12,27 @@ deity_matthew = {
 	on_activate = {
 		add_research = {
 			technology = religious_tech
-			value = 10
-   
-		  
-							  
+			value = 10					  
 		}
+	}
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mark = {
+	trigger = {
+		religion = chalcedonian
+	}
+	icon = deity_eloquence
+	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = chalcedonian
+	deity_category = culture #This Deity uses a Culture Slot
+	
+	on_activate = {
+		add_1_free_province_investments = yes
 	}
 	
 	deification_trigger = {
