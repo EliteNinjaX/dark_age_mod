@@ -1,0 +1,24 @@
+﻿"MUN"={
+	country="MUN"
+	25={
+		first_name="Crimthann"
+		family = c:MUN.fam:Eoganachta
+		birth_date=1254.1.10
+		culture="hibernian"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=12
+		add_charisma=12
+		add_finesse=12
+		add_zeal=12
+		no_traits=yes
+		add_trait="ambitious"
+		add_trait="intelligent"
+		add_gold=300
+		add_popularity=80
+		c:MUN={
+			set_as_ruler=char:25
+		}
+		dna="GvEa8XJqcmr1//X/ApcClwJqAmoChQKFAoYChgKKAooChgKGAnICcgKRApECcAJwAo0CjQJ2AnYBTAFMAosCiwKRApECgAKAApMCkwJ/An8CkQKRAnECcQJqAmoCfAJ8AVgBWAJxAnECmQKZApkCmQKNAo0E1QTVAo0CjQJsAmwAOAA4AVABUAKMAowCigKKA7IDsgJ1AnUChwKHAmkCaQJqAmoCdQJ1AoMCgwJ6AnoChwKHA6ADoAKZApkCgwKDApICkgJvAm8ChAKEAnQCdAKXApcCmAKYBL8EvwFSAVICjAKMAnACcAK/Ar8BAgECABsAGwB5AHkA8wDzAI4AjgKcApwBGQEZATEBMQFSAVIAlACUAp8CnwAAAAABfwF/AF0AXQDsAOwBdAF0AS0BLQB1AHUCZQJlADEAMQAAAAABWAFYACwALACbAJsAGwAbAFAAUAD6APoAOwA7ADsAOwAPAA8BEgESAxMDEwEKAQoMXAxcAAAAAAO6A7oIXgheAOAA4ATqBOoGOgY6CWsJawAAAAAAAAAAAAAAAA=="
+	}
+	}

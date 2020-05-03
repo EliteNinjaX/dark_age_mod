@@ -81,6 +81,14 @@ family={
 			prestige=300
 			color = 0
 		}
+		#MUN
+		11={
+			key="Eoganachta"
+			owner=MUN
+			culture = hibernian
+			prestige=300
+			color = 0
+		}
 		}
 		}
 		
@@ -624,6 +632,7 @@ country = {
 		}
 
 		MUN = {
+			family = 11
 			government = despotic_monarchy
 			primary_culture = hibernian
 			religion = chalcedonian
@@ -631,7 +640,7 @@ country = {
 			capital = 2161
 
 			own_control_core = 	{
-				2183 2180 2179 2176 2161 2177 2162 2178 
+				2183 2180 2179 2176 2161 2177 2162 2178 2181 2182 2163
 			}
 		}
 
