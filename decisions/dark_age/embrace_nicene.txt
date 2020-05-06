@@ -6,7 +6,11 @@
 		}
 		allow = {
 			stability >= 15
+			christian_conversion_trigger = {
+				RELIGION = egyptian_pantheon
+			}
 		}
+			
 		effect = {
 				add_stability = -15
 				set_country_religion = chalcedonian
@@ -18,9 +22,8 @@
 					set_character_religion = chalcedonian
 				}
 				}
-			}		
+			}
 		ai_will_do = {
 			factor = 0
 		}
-	}
 	}

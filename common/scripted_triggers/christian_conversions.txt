@@ -1,0 +1,55 @@
+﻿christian_conversion_trigger = { #Used by all decisions to change Religion
+	
+	trigger_if = {
+		limit = { is_monarchy = yes }
+		custom_tooltip = {
+			text = heretic_high_priest_monarchy_tooltip
+			any_character = {
+				has_office = office_high_priest_monarchy
+				has_religion = $RELIGION$
+			}
+		}
+	}
+	trigger_else_if = {
+		limit = { is_republic = yes }
+		custom_tooltip = {
+			text = heretic_high_priest_republic_tooltip
+			any_character = {
+				has_office = office_pontifex
+				has_religion = $RELIGION$
+			}
+		}
+	}
+	trigger_else = {
+		custom_tooltip = {
+			text = heretic_high_priest_tribe_tooltip
+			any_character = {
+				has_office = office_high_priest
+				has_religion = $RELIGION$
+			}
+		}
+	}
+	trigger_if = { #monarchy
+		limit = { is_monarchy = yes }
+		legitimacy >= 70
+	}
+	trigger_else_if = { #Republic
+		limit = { is_republic = yes }
+		custom_tooltip = {
+			text = ruling_party_support_tooltip
+			current_ruler.character_party.party_support >= 50
+		}
+	}
+	trigger_else = { #Tribe
+		any_character = {
+			count = all
+			OR = {
+				is_clan_chief = no
+				loyalty >= 60
+			}
+		}
+	}
+	NOT = {
+		has_country_modifier = recent_convert_modifier
+	}
+}
