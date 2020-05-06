@@ -2,20 +2,20 @@
 	color = hsv { 0.05 0.7 0.3 }
 	male_names = {
 		Acthram Acthrauc Actmund Actobald Actogais Actogast Actoleik Actomar
-		Actrand Actric Actwald Agenaric Aginaric Aktumer Amalaric Alaric Arbogais Arbogan
+		Actrand Actric Actwald Agenaric Aginaric Aktumer Arbogais Arbogan
 		Arbogast Arbolaik Arbomund Arbram Arbrand Arbrauc Arbric Arbwald Ariogaesus Ariogais Ascaric Ascobald Ascogast Ascoger Ascohram
 		Ascohrauc Ascoht Ascoleik Ascomund Ascorand Ascoric Ascowald
 		Baldhrauc Baldo Baldogais Baldogast Baldric Baldwald Bauto
 		Casthrauc Castleik Castrand Castric Charietto Chariovalda
-		Childebert Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
+		Chrocus Danko Duomact Duomeid Duomogan Duomogar Duomogast
 		Duomolaik Duomorand Duomorauc Duomoric Edobich Eidgais
 		Eidgast Eidhram Eidhrauc Eidleik Eidmund Eidobald Eidoht
-		Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Gelimer Geno Genobald Genobaud
+		Eidowald Eidrand Eidric Erbemar Erbo Erpmund Flavius Geno Genobald Genobaud
 		Genomund Genoram Genorand Genric Genwald Gerand Gerhram
 		Gerhrauc Geric Gero Gerogast Gerolaik Gerorauc Gerwald
 		Gundhram Gundleik Gundmar Gundobald Gundogan Gundogar Gundogast
 		Gundomund Gundowald Gundrand Gundrauc Gundric Hariowald Heri
-		Hildeid Hilderic Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
+		Hildeid Hildgan Hildhram Hildobald Hildogais Hildogast Hildoht
 		Hildoleik Hildomund Hildrand Hildrauc Hildric Hildwald Hrambald
 		Hramgast Hramleik Hramo Hramric Hramund Hramwald Hraucwald
 		Hraugmund Hraugram Hraugric Hroco Ingast Ingbald Inger Ingmund
@@ -38,8 +38,8 @@
 		Theodo Theodobald Theodogais Theodogan Theodogast Theodogund
 		Theodoht Theodomer Theodomund Theodoram Theodorand Theodoric
 		Theodrauc Theodwald Thumelicus Thuribald Thurigais Thurigast
-		Thurisegan Theuderic Thuriseid Thuriserand Thuriseric Thurismund
-		Thurisoht Thuriswald Totila Tuombald Tuomo Tuomogund Tuomoleik
+		Thurisegan Thuriseid Thuriserand Thuriseric Thurismund
+		Thurisoht Thuriswald Tuombald Tuomo Tuomogund Tuomoleik
 		Tuomomund Tuomwald Ukromer Vakromar Valao Vangio Walao
 		Walbald Waldmund Waldo Waldogast Waldrand Walgar Walgast
 		Walha Walmund Walogan Walolaik Walorand Walram Walrauc Walric Windo
@@ -58,7 +58,6 @@
 		Tuome.Tuoma.Tuomes.Tuomid
 		Andicus.Andica.Andices.Andicid
 		Dagaricus.Dagarica.Dagarices.Dagaricid
-		Gaiseric.Gaiseric.Gaiseric.Gaiseric
 		Gelimerus.Gelimera.Gelimeres.Gelimerian
 		Geroldus.Gerolda.Geroldes.Geroldian
 		Malaricus.Malarica.Malarici.Malaricid
@@ -80,8 +79,6 @@
 		Ingohdres.Ingohdra.Ingohdres.Ingohdrid
 		Ingrammus.Ingramma.Ingrammii.Ingrammid
 		Malactus.Malacta.Malactii.Malactian
-		Merovingian.Merovingian.Merovingian.Merovingian
-		Gothica.Gothica.Gothica.Gothican
 	}
 	culture = {
 		saxonian = {}

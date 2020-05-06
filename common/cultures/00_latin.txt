@@ -4,7 +4,7 @@
 	use_latin_name_rules = yes
 	
 	male_names = {
-		Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Opiter 
+		Appius Agrippa Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Opiter 
 		Publius Postumus Proculus Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Volero Volumnius Octavius
 		Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus
 	}
@@ -25,7 +25,7 @@
 		Antius.Antia.Antii.Antian
 		Antistius.Antistia.Antistii.Antistian
 		Antonius.Antonia.Antonii.Antonian
-		Appuleius.Appuleia.Appulii.Appulian
+		Appuleius.Appuleia.Appuleii.Appuleian
 		Apronius.Apronia.Apronii.Apronian
 		Aquillius.Aquillia.Aquillii.Aquillian
 		Atilius.Atilia.Atilii.Atilian
@@ -34,7 +34,6 @@
 		Aulius.Aulia.Aulii.Aulian
 		Blossius.Blossia.Blossii.Blossian
 		Aurelius.Aurelia.Aurelii.Aurelian
-		Belisarius.Belisarius.Belisarii.Belisarian
 		Caecinus.Caecina.Caecinii.Caecinian
 		Caecilius.Caecilia.Caecilii.Caecilian
 		Calavius.Calavia.Calavii.Calavian
@@ -53,6 +52,7 @@
 		Coruncanius.Coruncania.Coruncanii.Coruncanian
 		Curiatius.Curiatia.Curiatii.Curiatian
 		Curtius.Curtia.Curtii.Curtian
+		Curius.Curia.Curii.Curian
 		Decius.Decia.Decii.Decian
 		Domitius.Domitia.Domitii.Domitian
 		Fabius.Fabia.Fabii.Fabian
@@ -962,12 +962,9 @@
 		samnite = {}
 		messapian = {}
 		sardonian = {}
-		histrian = {}
-		liburnian = {}
 		siculian = {}
 		bruttian = {}
 		lucanian = {}
-		catari = {}
 		hispania = {}
 		gaul = {}
 		brittania = {}
