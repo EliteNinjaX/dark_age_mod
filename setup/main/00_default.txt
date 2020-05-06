@@ -2251,10 +2251,10 @@ country = {
 			religion = druidism
 			centralization=50
 
-			capital = 2170
+			capital = 2193
 
 			own_control_core = 	{
-			2170 2205 2172
+				2193 2168 2170 2205 2172
 			}
 		}
 
@@ -2749,7 +2749,7 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = lombards
 			religion = germanic_religion
-			centralization= -100
+			centralization=75
 
 			capital = 3814
 
@@ -3533,7 +3533,7 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = bulgars
 			religion = tengri
-			centralization = -100
+			centralization = 75
 			
 			capital = 6251
 			
@@ -3546,10 +3546,9 @@ country = {
 		}
 
 		AVA = {
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = avars
 			religion = tengri
-			centralization = -100
 			
 			capital = 7187 
 			
