@@ -601,7 +601,7 @@ country = {
 			capital = 2186
 
 			own_control_core = 	{
-				2186 2187
+				2186 2187 2164
 			}
 		}
 
@@ -619,9 +619,9 @@ country = {
 		}
 
 		CON = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = hibernian
-			religion = druidism
+			religion = chalcedonian
 			centralization=50
 
 			capital = 2197
@@ -643,6 +643,30 @@ country = {
 				2183 2180 2179 2176 2161 2177 2162 2178 2181 2182 2163
 			}
 		}
+		
+		LEI = {
+			government = tribal_kingdom
+			primary_culture = hibernian
+			religion = druidism
+
+			capital = 2165
+
+			own_control_core = 	{
+				2165 2189 2188 2192
+			}
+		}
+		
+		MEA = {
+			government = tribal_kingdom
+			primary_culture = hibernian
+			religion = druidism
+
+			capital = 2193
+
+			own_control_core = 	{
+				2167 2190 2193 2168
+			}
+		}
 
 		ULA = {
 			government = tribal_kingdom
@@ -655,7 +679,19 @@ country = {
 			own_control_core = 	{
 				2195 2208 2173 2207 2174 2203 2204 2175 2171 2202 2206
 			}
-		}		
+		}
+#MAN is too powerful. It crashs the game and I don't know why
+	#	MAN = {
+	#		government = tribal_kingdom
+	#		primary_culture = manavian
+	#		religion = druidism
+#
+#			capital = 2108
+#
+#			own_control_core = 	{
+#				2108
+#			}
+#		}
 
 #BRITAIN
 

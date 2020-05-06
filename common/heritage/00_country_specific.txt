@@ -124,6 +124,21 @@ visigoth_heritage = {
 	}
 }
 
+test1_heritage = {
+	modifier = {
+		#good
+		global_pop_conversion_speed_modifier = 0.25
+		global_commerce_modifier = 0.1
+		
+		#bad
+		increase_legitimacy_cost_modifier = 0.15
+	}
+	
+	trigger = {
+		tag = MUN
+	}
+}
+
 avar_heritage = {
 	modifier = {
 		#good
