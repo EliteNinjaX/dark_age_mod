@@ -1,7 +1,12 @@
 ﻿### General Deity Checks ###
 deity_matthew = {
 	trigger = {
-		religion = chalcedonian
+	OR = {
+			religion = chalcedonian
+			religion = miaphysite
+			religion = nestorian
+			religion = arian
+		}
 	}
 	icon = deity_wealth
 	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
@@ -40,4 +45,26 @@ deity_mark = {
 	}
 }
 
+deity_constantine = {
+	trigger = {
+		religion = chalcedonian
+	}
+	icon = deity_war
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
+
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+	religion = chalcedonian
+	deity_category = war #This Deity uses a War slot.
+	
+	on_activate = {
+		add_1_free_province_investments = yes
+	}
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
 ### Exclusive Deity Checks ###
