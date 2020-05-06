@@ -2,7 +2,8 @@
 	country="ERE"
 1={
 		first_name="Matthew"
-		family_name=""
+		family_name=" "
+		nickname="'the Apostle'"
 		birth_date=1.1.2
 		death_date=120.1.2
 		culture="hebrew"
@@ -19,8 +20,8 @@
 	}
 	26={
 		first_name="Mark"
-		family_name=""
-		nickname="the Evangelist"
+		family_name=" "
+		nickname="'the Evangelist'"
 		birth_date=5.1.1
 		death_date=68.1.1
 		culture="greek"
@@ -43,6 +44,7 @@
 		death_date=1090.5.22
 		culture="roman"
 		religion="chalcedonian"
+		no_stats=yes
 		add_martial=16
 		add_charisma=14
 		add_finesse=16
@@ -54,5 +56,23 @@
 		add_trait="devout"
 		add_trait="silver_tongued"
 		dna="A+cD55VxlXH+vP68AoACgAJpAmkChgKGAnUCdQKSApICmQKZAogCiAJ5AnkAHgAeAnwCfAObA5sCcAJwApMCkwKOAo4CigKKBNQE1ATXBNcCcAJwApQClAJuAm4CeQJ5AEoASgKHAocCbgJuAnUCdQKKAooCkAKQAn8CfwBJAEkCjgKOAWIBYgKBAoEChwKHAn0CfQJnAmcCegJ6AmkCaQJ9An0CkAKQAmsCawJ+An4BYQFhAnoCegJ7AnsCcwJzAnoCegKOAo4CfgJ+AnICcgKFAoUCbQJtAmsCawJ1AnUCdwJ3AnkCeQI7AjsBUAFQAHoAegF0AXQAVABUAqkCqQCoAKgBNQE1AAYABgEtAS0BOAE4AJcAlwAAAAAA4wDjAH4AfgFXAVcAHAAcApECkQCkAKQAPQA9AN8A3wAAAAABZwFnAPQA9ABGAEYAEQARAQQBBAT9BP0AyADIAxgDGAAhACEDHQMdAAAAAAC7ALsCVQJVAAAAAAKjAqMBdQF1ALUAtQmECYQB1QHVAKAAoAAAAAAAAAAAAAAAAA=="
+	}
+	43={
+		first_name="Blessed Virgin Mary"
+		nickname="Mother of Jesus"
+		family = " "
+		birth_date=5.1.1
+		death_date=40.1.1
+		female=yes
+		add_martial=03
+		add_charisma=16
+		add_finesse=05
+		add_zeal=30
+		no_stats=yes
+		no_traits=yes
+		add_trait="devout"
+		culture="hebrew"
+		religion="chalcedonian"
+		dna="Heod6rh3uHdkW2RbAogCiAJmAmYCjwKPAnYCdgJuAm4CagJqA5oDmgJ8AnwBXQFdAnsCewJmAmYCiwKLAo8CjwKRApECcAJwAo0CjQJ1AnUCZwJnAo8CjwKZApkCfAJ8AVABUATXBNcCZwJnApUClQKVApUChgKGApkCmQKHAocCjQKNAoMCgwJzAnMCfQJ9AoUChQKGAoYCcAJwAngCeAA3ADcCggKCAmcCZwKZApkCfAJ8ApgCmAKLAosCZgJmAVsBWwJuAm4CZgJmAVMBUwJ0AnQCaAJoAogCiAKXApcClQKVAn8CfwJdAl0C7wLvAC0ALQLYAtgBYwFjAIsAiwElASUBXgFeAVQBVAF3AXcA+QD5AQEBAQAAAAAC2ALYAI4AjgCBAIEAJwAnAFgAWABEAEQAVgBWAPAA8AAAAAAA/wD/AQkBCQAxADEBdgF2AN4A3gMWAxYCugK6BIkEiQB0AHQBUAFQAM8AzwERAREF4wXjAAAAAANhA2EBlwGXANYA1gkyCTIBXwFfAF8AXwAAAAAAAAAAAAAAAA=="
 	}
 }

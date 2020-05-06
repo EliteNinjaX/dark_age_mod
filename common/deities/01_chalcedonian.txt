@@ -28,7 +28,12 @@ deity_matthew = {
 
 deity_mark = {
 	trigger = {
-		religion = chalcedonian
+	OR = {
+			religion = chalcedonian
+			religion = miaphysite
+			religion = nestorian
+			religion = arian
+		}
 	}
 	icon = deity_eloquence
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
@@ -61,6 +66,33 @@ deity_constantine = {
 	
 	on_activate = {
 		add_1_free_province_investments = yes
+	}
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mary = {
+	trigger = {
+	OR = {
+			religion = chalcedonian
+			religion = miaphysite
+			religion = nestorian
+			religion = arian
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
+	omen = { hostile_attrition = omen_hostile_attrition_svalue } #Bonus from Omen
+	religion = chalcedonian
+	deity_category = fertility #This Deity uses an Economy Slot
+	
+	on_activate = {
+		add_research = {
+			technology = religious_tech
+			value = 10					  
+		}
 	}
 	
 	deification_trigger = {
