@@ -50,8 +50,8 @@
  NOM_ADJ:0 "Nomentchan"
  QUA:0 "Quarsenis"
  QUA_ADJ:0 "Quarsenisian" 
- ERE:0 "Eastern Roman Empire"
- ERE_ADJ:0 "East Roman"  
+ ERE:0 "Roman Empire"
+ ERE_ADJ:0 "Roman"  
  UMY:0 "Rashidun Caliphate"
  UMY_ADJ:0 "Rashidun" 
 
@@ -104,12 +104,6 @@
  MCA_ADJ:0 "Mercian"
  MUN:0 "Munster"
  MUN_ADJ:0 "Munsterian" 
- LEI:0 "Leinster"
- LEI_ADJ:0 "Leinsterian" 
- MEA:0 "Meath"
- MEA_ADJ:0 "Meathian"
- MAN:0 "Man"
- MAN_ADJ:0 "MAN" 
  ORI:0 "Oriel"    
  ORI_ADJ:0 "Orielian"  
  OSR:0 "Osraige"
@@ -255,9 +249,9 @@
 #Exarchs
  SPA:0 "Spania"
  SPA_ADJ:0 "Spania"
- AFR:0 "Africa"
+ AFR:0 "Exarchate Of Africa"
  AFR_ADJ:0 "African"
- RAV:0 "Ravenna"
+ RAV:0 "Exarchate Of Ravenna"
  RAV_ADJ:0 "Ravennan"
 
 #Slavs
