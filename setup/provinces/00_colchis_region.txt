@@ -650,7 +650,7 @@
 1720={ #Phasis
 	terrain="plains"
 	culture="colchian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -666,11 +666,11 @@
 		amount=4
 	}
 	slaves={
-		religion="caucasian_religion"
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=2
+		religion="caucasian_religion"
+		amount=1
 	}
 }
 
@@ -706,7 +706,7 @@
 	}
 	freemen={
 		culture="greco_pontic"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	slaves={
@@ -875,7 +875,7 @@
 	}
 	freemen={
 		culture="greco_pontic"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
@@ -886,7 +886,7 @@
 1732={ #Hyssus
 	terrain="forest"
 	culture="greco_pontic"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
 	barbarian_power=0
@@ -937,7 +937,7 @@
 	province_rank="settlement"
 	citizen={
 		culture="greco_pontic"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	citizen={
@@ -945,7 +945,7 @@
 	}
 	freemen={
 		culture="greco_pontic"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
@@ -959,7 +959,7 @@
 1738={ #Gyenos
 	terrain="forest"
 	culture="colchian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
 	barbarian_power=0
@@ -1020,7 +1020,7 @@
 1741={ #Dioscurias
 	terrain="hills"
 	culture="colchian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=35
 	barbarian_power=0
@@ -1325,7 +1325,7 @@
 4567={ #Torikos
 	terrain="plains"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -1338,7 +1338,7 @@
 4568={ #Palaia Achaia
 	terrain="hills"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0

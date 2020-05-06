@@ -994,7 +994,7 @@
 5866={ #Zabender
 	terrain="forest"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -1010,7 +1010,7 @@
 5867={ #Suthrander
 	terrain="forest"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1023,7 +1023,7 @@
 5868={ #Lotin
 	terrain="plains"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -1045,7 +1045,7 @@
 5869={ #Magrai
 	terrain="forest"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1058,7 +1058,7 @@
 5870={ #Kurema
 	terrain="plains"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1074,7 +1074,7 @@
 5871={ #Zarem
 	terrain="forest"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -1087,7 +1087,7 @@
 5872={ #Shiech
 	terrain="plains"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -1100,7 +1100,7 @@
 5873={ #Molliuch
 	terrain="plains"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -1116,7 +1116,7 @@
 5874={ #Recrassia
 	terrain="marsh"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1129,7 +1129,7 @@
 5875={ #Ashawm
 	terrain="forest"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1145,7 +1145,7 @@
 7602={ #Endzhara
 	terrain="mountain"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -1241,7 +1241,7 @@
 7623={ #Terekata
 	terrain="mountain"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -1257,7 +1257,7 @@
 7624={ #Contani
 	terrain="mountain"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -1273,7 +1273,7 @@
 7625={ #Didai
 	terrain="mountain"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -1289,7 +1289,7 @@
 7626={ #Arukai
 	terrain="forest"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -1305,7 +1305,7 @@
 7627={ #Verks
 	terrain="mountain"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -1321,7 +1321,7 @@
 7632={ #Irmana
 	terrain="forest"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -1334,7 +1334,7 @@
 7633={ #Kayit
 	terrain="forest"
 	culture="alans"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0

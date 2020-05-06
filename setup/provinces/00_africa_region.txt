@@ -1,7 +1,7 @@
 ﻿1470={ #Cossyra
 	terrain="plains"
 	culture="africa"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -295,11 +295,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="africa"
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
-		culture="africa"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -322,12 +322,12 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		culture="africa"
+		religion="chalcedonian"
+		amount=1
 	}
 	freemen={
-		culture="africa"
-		religion="carthaginian_pantheon"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -337,7 +337,7 @@
 3230={ #Thabraca
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -346,12 +346,12 @@
 		amount=1
 	}
 	freemen={
+		amount=1
+	}
+	freemen={
 		culture="berber"
 		religion="berber_religion"
 		amount=4
-	}
-	freemen={
-		amount=1
 	}
 	slaves={
 		amount=2
@@ -373,10 +373,10 @@
 		amount=1
 	}
 	freemen={
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -481,7 +481,7 @@
 		amount=3
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -512,11 +512,11 @@
 	}
 	tribesmen={
 		culture="africa"
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -524,7 +524,7 @@
 3240={ #Seressi
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -546,7 +546,7 @@
 3241={ #Furnos Maius
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -572,7 +572,7 @@
 3242={ #Abthugni
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -588,7 +588,7 @@
 3243={ #Feradi Maius
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -610,7 +610,7 @@
 3244={ #Pupput
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -632,7 +632,7 @@
 3245={ #Curubis
 	terrain="farmland"
 	culture="vandal"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="spices"
 	civilization_value=40
 	barbarian_power=0
@@ -714,7 +714,7 @@
 3249={ #Ziqua
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -733,7 +733,7 @@
 3250={ #Uthina
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -752,7 +752,7 @@
 3251={ #Membressa
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -774,7 +774,7 @@
 3252={ #Carpis
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -796,7 +796,7 @@
 3253={ #Nepheris
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -818,7 +818,7 @@
 3254={ #Kerkouane
 	terrain="farmland"
 	culture="vandal"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -837,7 +837,7 @@
 3255={ #Missua
 	terrain="farmland"
 	culture="vandal"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -859,18 +859,18 @@
 3256={ #Carthago
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=32
-	}
-	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
+	}
+	citizen={
+		amount=32
 	}
 	freemen={
 		amount=8
@@ -886,7 +886,7 @@
 3257={ #Utica
 	terrain="farmland"
 	culture="vandal"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -908,7 +908,7 @@
 3258={ #Hippo Diarrhytus
 	terrain="plains"
 	culture="vandal"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -927,7 +927,7 @@
 3259={ #Uzali Sar
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -949,7 +949,7 @@
 3260={ #Matar
 	terrain="farmland"
 	culture="vandal"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -968,7 +968,7 @@
 3261={ #Rucuma
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -987,7 +987,7 @@
 3262={ #Kinna Thabracania
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -1009,7 +1009,7 @@
 3263={ #Rucuma
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1028,7 +1028,7 @@
 3264={ #Septimia
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1050,7 +1050,7 @@
 3265={ #Thimida Bure
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -1082,7 +1082,7 @@
 3266={ #Ureu
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -1104,7 +1104,7 @@
 3267={ #Numluli
 	terrain="forest"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -1140,20 +1140,20 @@
 		amount=2
 	}
 	citizen={
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="africa"
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
 		amount=2
-	}
-	freemen={
-		culture="africa"
-		religion="carthaginian_pantheon"
-		amount=1
-	}
-	freemen={
-		religion="carthaginian_pantheon"
-		amount=1
 	}
 	slaves={
 		amount=2
@@ -1175,16 +1175,16 @@
 		amount=1
 	}
 	freemen={
-		amount=3
+		religion="chalcedonian"
+		amount=1
 	}
 	freemen={
 		culture="africa"
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
-		religion="carthaginian_pantheon"
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -1197,7 +1197,7 @@
 3270={ #Bisica Lucana
 	terrain="forest"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1219,7 +1219,7 @@
 3271={ #Thignica
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1251,7 +1251,7 @@
 3272={ #Muzuc
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1295,7 +1295,7 @@
 3274={ #Mediccera
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1314,7 +1314,7 @@
 3275={ #Ulizibbira
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1336,7 +1336,7 @@
 3276={ #Hadrametum
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1358,7 +1358,7 @@
 3277={ #Leptis Minor
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1380,7 +1380,7 @@
 3278={ #Thapsus
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -1399,17 +1399,17 @@
 3279={ #Vicus Augusti
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="elephants"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
-	}
-	citizen={
 		religion="berber_religion"
 		amount=1
+	}
+	citizen={
+		amount=3
 	}
 	freemen={
 		amount=2
@@ -1427,7 +1427,7 @@
 3280={ #Acholla
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1449,7 +1449,7 @@
 3281={ #Bararus
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1471,7 +1471,7 @@
 3282={ #Thysdrus
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1490,7 +1490,7 @@
 3283={ #Usula
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1512,7 +1512,7 @@
 3284={ #Cercina
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -1528,17 +1528,17 @@
 3285={ #Thaenae
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
-	}
-	citizen={
 		religion="berber_religion"
 		amount=1
+	}
+	citizen={
+		amount=4
 	}
 	freemen={
 		amount=1
@@ -1556,7 +1556,7 @@
 3286={ #Aeliae
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1585,7 +1585,7 @@
 3287={ #Taparura
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="elephants"
 	civilization_value=40
 	barbarian_power=0
@@ -1607,17 +1607,17 @@
 3288={ #Macomades Minores
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
-	}
-	citizen={
 		religion="berber_religion"
 		amount=1
+	}
+	citizen={
+		amount=4
 	}
 	freemen={
 		amount=1
@@ -1638,17 +1638,17 @@
 3289={ #Bennafa
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=5
-	}
-	citizen={
 		religion="berber_religion"
 		amount=1
+	}
+	citizen={
+		amount=5
 	}
 	freemen={
 		religion="berber_religion"
@@ -1687,7 +1687,7 @@
 3291={ #Tacape
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -1725,7 +1725,7 @@
 3293={ #Gigthis
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -1757,7 +1757,7 @@
 3294={ #Tipasa
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -1776,7 +1776,7 @@
 3295={ #Gergis
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -1798,7 +1798,7 @@
 3296={ #Zitha
 	terrain="farmland"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1817,7 +1817,7 @@
 3297={ #Putea Pallene
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -1838,7 +1838,7 @@
 3298={ #Zouchis
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1862,7 +1862,7 @@
 3299={ #Pisida
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -1889,7 +1889,7 @@
 3300={ #Locri
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0

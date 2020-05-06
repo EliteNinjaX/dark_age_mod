@@ -451,7 +451,7 @@
 5000={ #
 	terrain=""
 	culture="syracusan"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
 	barbarian_power=0
@@ -471,7 +471,7 @@
 5002={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -481,7 +481,7 @@
 5003={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -491,7 +491,7 @@
 5004={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -501,7 +501,7 @@
 5005={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -511,7 +511,7 @@
 5006={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -521,7 +521,7 @@
 5007={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -531,7 +531,7 @@
 5008={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -541,7 +541,7 @@
 5009={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -551,7 +551,7 @@
 5010={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -561,7 +561,7 @@
 5011={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -571,7 +571,7 @@
 5012={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -581,7 +581,7 @@
 5013={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -591,7 +591,7 @@
 5014={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -601,7 +601,7 @@
 5015={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -611,7 +611,7 @@
 5016={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -621,7 +621,7 @@
 5017={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -631,7 +631,7 @@
 5018={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -641,7 +641,7 @@
 5019={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -661,7 +661,7 @@
 5021={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -671,7 +671,7 @@
 5022={ #
 	terrain=""
 	culture="gaul"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -681,7 +681,7 @@
 5023={ #Transpadanan Alps
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -691,7 +691,7 @@
 5024={ #
 	terrain=""
 	culture="gaul"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -701,7 +701,7 @@
 5025={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -711,7 +711,7 @@
 5026={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -721,7 +721,7 @@
 5027={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -731,7 +731,7 @@
 5028={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -741,7 +741,7 @@
 5029={ #Insubrian Alps
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=4
 	barbarian_power=0
@@ -751,7 +751,7 @@
 5030={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -761,7 +761,7 @@
 5031={ #Histria Mons
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -771,7 +771,7 @@
 5032={ #
 	terrain=""
 	culture="letobician"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -781,7 +781,7 @@
 5033={ #
 	terrain=""
 	culture="rhaetian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -791,7 +791,7 @@
 5034={ #
 	terrain=""
 	culture="letobician"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -801,7 +801,7 @@
 5035={ #
 	terrain=""
 	culture="carnian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -811,7 +811,7 @@
 5036={ #
 	terrain=""
 	culture="carnian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -821,7 +821,7 @@
 5037={ #
 	terrain=""
 	culture="noric"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -831,7 +831,7 @@
 5038={ #
 	terrain=""
 	culture="noric"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -841,7 +841,7 @@
 5039={ #
 	terrain=""
 	culture="rhaetian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -851,7 +851,7 @@
 5040={ #
 	terrain=""
 	culture="rhaetian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -861,7 +861,7 @@
 5041={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -871,7 +871,7 @@
 5042={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -881,7 +881,7 @@
 5043={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -891,7 +891,7 @@
 5044={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -901,7 +901,7 @@
 5045={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -911,7 +911,7 @@
 5046={ #
 	terrain=""
 	culture="burgundian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -921,7 +921,7 @@
 5047={ #Arverni Highland
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -931,7 +931,7 @@
 5048={ #
 	terrain=""
 	culture="gaul"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -941,7 +941,7 @@
 5049={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -951,7 +951,7 @@
 5050={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -961,7 +961,7 @@
 5051={ #
 	terrain=""
 	culture="ilergetian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -971,7 +971,7 @@
 5052={ #
 	terrain=""
 	culture="aquitani"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -981,7 +981,7 @@
 5053={ #
 	terrain=""
 	culture="ilergetian"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -991,7 +991,7 @@
 5054={ #
 	terrain=""
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1001,7 +1001,7 @@
 5055={ #
 	terrain=""
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1011,7 +1011,7 @@
 5056={ #
 	terrain=""
 	culture="peloponnesian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=6
 	barbarian_power=0
@@ -1021,7 +1021,7 @@
 5057={ #
 	terrain=""
 	culture="peloponnesian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1031,7 +1031,7 @@
 5058={ #
 	terrain=""
 	culture="peloponnesian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=6
 	barbarian_power=0
@@ -1041,7 +1041,7 @@
 5059={ #
 	terrain=""
 	culture="achaean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=6
 	barbarian_power=0
@@ -1051,7 +1051,7 @@
 5060={ #
 	terrain=""
 	culture="peloponnesian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=6
 	barbarian_power=0
@@ -1061,7 +1061,7 @@
 5061={ #
 	terrain=""
 	culture="achaean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=6
 	barbarian_power=0
@@ -1071,7 +1071,7 @@
 5062={ #
 	terrain=""
 	culture="athenian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=60
 	barbarian_power=0
@@ -1081,7 +1081,7 @@
 5063={ #
 	terrain=""
 	culture="boeotian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1091,7 +1091,7 @@
 5064={ #
 	terrain=""
 	culture="boeotian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1101,7 +1101,7 @@
 5065={ #
 	terrain=""
 	culture="aetolian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1111,7 +1111,7 @@
 5066={ #
 	terrain=""
 	culture="thessalian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1121,7 +1121,7 @@
 5067={ #
 	terrain=""
 	culture="epirote"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1131,7 +1131,7 @@
 5068={ #Upper Epirus
 	terrain=""
 	culture="epirote"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -1141,7 +1141,7 @@
 5069={ #
 	terrain=""
 	culture="thessalian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=3
 	barbarian_power=0
@@ -1151,7 +1151,7 @@
 5070={ #
 	terrain=""
 	culture="epirote"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1161,7 +1161,7 @@
 5071={ #
 	terrain=""
 	culture="thessalian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1171,7 +1171,7 @@
 5072={ #
 	terrain=""
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1181,7 +1181,7 @@
 5073={ #
 	terrain=""
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1191,7 +1191,7 @@
 5074={ #
 	terrain=""
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1201,7 +1201,7 @@
 5075={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1211,7 +1211,7 @@
 5076={ #Upper Macedonia
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1221,7 +1221,7 @@
 5077={ #
 	terrain=""
 	culture="taulantian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1231,7 +1231,7 @@
 5078={ #
 	terrain=""
 	culture="taulantian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1241,7 +1241,7 @@
 5079={ #Dalmatian Mountains
 	terrain=""
 	culture="taulantian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1251,7 +1251,7 @@
 5080={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1261,7 +1261,7 @@
 5081={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1271,7 +1271,7 @@
 5082={ #
 	terrain=""
 	culture="taulantian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1281,7 +1281,7 @@
 5083={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1291,7 +1291,7 @@
 5084={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1301,7 +1301,7 @@
 5085={ #Dalmatia
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1311,7 +1311,7 @@
 5086={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1321,7 +1321,7 @@
 5087={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1331,7 +1331,7 @@
 5088={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1341,7 +1341,7 @@
 5089={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1351,7 +1351,7 @@
 5090={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1361,7 +1361,7 @@
 5091={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1371,7 +1371,7 @@
 5092={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1381,7 +1381,7 @@
 5093={ #Upper Dardania
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -1391,7 +1391,7 @@
 5094={ #
 	terrain=""
 	culture="thracian"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1401,7 +1401,7 @@
 5095={ #
 	terrain=""
 	culture="thracian"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1411,7 +1411,7 @@
 5096={ #
 	terrain=""
 	culture="dardanian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1421,7 +1421,7 @@
 5097={ #
 	terrain=""
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1431,7 +1431,7 @@
 5098={ #
 	terrain=""
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1441,7 +1441,7 @@
 5099={ #
 	terrain=""
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1451,7 +1451,7 @@
 5100={ #
 	terrain=""
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1461,7 +1461,7 @@
 5101={ #
 	terrain=""
 	culture="thracian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=3
 	barbarian_power=0
@@ -1471,7 +1471,7 @@
 5102={ #
 	terrain=""
 	culture="thracian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=4
 	barbarian_power=0
@@ -1481,7 +1481,7 @@
 5103={ #Upper Thrace
 	terrain=""
 	culture="thracian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=3
 	barbarian_power=0
@@ -1491,7 +1491,7 @@
 5104={ #
 	terrain=""
 	culture="thracian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=3
 	barbarian_power=0
@@ -1501,7 +1501,7 @@
 5105={ #
 	terrain=""
 	culture="thracian"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1511,7 +1511,7 @@
 5106={ #
 	terrain=""
 	culture="thracian"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1521,7 +1521,7 @@
 5107={ #
 	terrain=""
 	culture="thracian"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1531,7 +1531,7 @@
 5108={ #
 	terrain=""
 	culture="thracian"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1541,7 +1541,7 @@
 5109={ #
 	terrain=""
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1551,7 +1551,7 @@
 5110={ #Carpathia
 	terrain=""
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1561,7 +1561,7 @@
 5111={ #
 	terrain=""
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1571,7 +1571,7 @@
 5112={ #
 	terrain=""
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1581,7 +1581,7 @@
 5113={ #
 	terrain=""
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1591,7 +1591,7 @@
 5114={ #Caucoenia
 	terrain=""
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1601,7 +1601,7 @@
 5115={ #
 	terrain=""
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1611,7 +1611,7 @@
 5116={ #
 	terrain=""
 	culture="letobician"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1621,7 +1621,7 @@
 5117={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1631,7 +1631,7 @@
 5118={ #
 	terrain=""
 	culture="illyria"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1641,7 +1641,7 @@
 5119={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1651,7 +1651,7 @@
 5120={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1661,7 +1661,7 @@
 5121={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1671,7 +1671,7 @@
 5122={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1681,7 +1681,7 @@
 5123={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1691,7 +1691,7 @@
 5124={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1701,7 +1701,7 @@
 5125={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1711,7 +1711,7 @@
 5126={ #
 	terrain=""
 	culture="noric"
-	religion="roman_pantheon"
+	religion="arian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1721,7 +1721,7 @@
 5127={ #
 	terrain=""
 	culture="carnian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1731,7 +1731,7 @@
 5128={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1741,7 +1741,7 @@
 5129={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1751,7 +1751,7 @@
 5130={ #
 	terrain=""
 	culture="roman"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1761,7 +1761,7 @@
 5131={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1771,7 +1771,7 @@
 5132={ #
 	terrain=""
 	culture="gothonic"
-	religion="druidism"
+	religion="arian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1781,7 +1781,7 @@
 5133={ #
 	terrain=""
 	culture="aquitani"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1791,7 +1791,7 @@
 5134={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1801,7 +1801,7 @@
 5135={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1811,7 +1811,7 @@
 5136={ #Abnoba Mons
 	terrain=""
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1821,7 +1821,7 @@
 5137={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1831,7 +1831,7 @@
 5138={ #
 	terrain=""
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1841,7 +1841,7 @@
 5139={ #
 	terrain=""
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1921,7 +1921,7 @@
 5147={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=3
 	barbarian_power=0
@@ -1931,7 +1931,7 @@
 5148={ #
 	terrain=""
 	culture="syracusan"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
 	barbarian_power=0
@@ -1941,7 +1941,7 @@
 5149={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -1951,7 +1951,7 @@
 5150={ #
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -2011,7 +2011,7 @@
 5156={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2041,7 +2041,7 @@
 5159={ #
 	terrain=""
 	culture="ionian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
 	barbarian_power=0
@@ -2051,7 +2051,7 @@
 5160={ #
 	terrain=""
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -2061,7 +2061,7 @@
 5161={ #
 	terrain=""
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -2071,7 +2071,7 @@
 5162={ #
 	terrain=""
 	culture="lycian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2081,7 +2081,7 @@
 5163={ #
 	terrain=""
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -2091,7 +2091,7 @@
 5164={ #
 	terrain=""
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2101,7 +2101,7 @@
 5165={ #
 	terrain=""
 	culture="pamphylian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2111,7 +2111,7 @@
 5166={ #
 	terrain=""
 	culture="cilician"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
 	barbarian_power=0
@@ -2121,7 +2121,7 @@
 5167={ #
 	terrain=""
 	culture="cilician"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
 	barbarian_power=0
@@ -2131,7 +2131,7 @@
 5168={ #
 	terrain=""
 	culture="cilician"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
 	barbarian_power=0
@@ -2141,7 +2141,7 @@
 5169={ #
 	terrain=""
 	culture="lycaonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2151,7 +2151,7 @@
 5170={ #
 	terrain=""
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2161,7 +2161,7 @@
 5171={ #
 	terrain=""
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2171,7 +2171,7 @@
 5172={ #
 	terrain=""
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2181,7 +2181,7 @@
 5173={ #
 	terrain=""
 	culture="paphlagonian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2191,7 +2191,7 @@
 5174={ #
 	terrain=""
 	culture="pontic"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2201,7 +2201,7 @@
 5175={ #
 	terrain=""
 	culture="pontic"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2211,7 +2211,7 @@
 5176={ #
 	terrain=""
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -2231,7 +2231,7 @@
 5178={ #
 	terrain=""
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -2241,7 +2241,7 @@
 5179={ #
 	terrain=""
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -2251,7 +2251,7 @@
 5180={ #
 	terrain=""
 	culture="cilician"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
 	barbarian_power=0
@@ -2261,7 +2261,7 @@
 5181={ #
 	terrain=""
 	culture="cilician"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
 	barbarian_power=0
@@ -2271,7 +2271,7 @@
 5182={ #
 	terrain=""
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2281,7 +2281,7 @@
 5183={ #
 	terrain=""
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2291,7 +2291,7 @@
 5184={ #Mons Orospeda
 	terrain=""
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2301,7 +2301,7 @@
 5185={ #
 	terrain=""
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2311,7 +2311,7 @@
 5186={ #
 	terrain=""
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=2
 	barbarian_power=0
@@ -2321,7 +2321,7 @@
 5187={ #
 	terrain=""
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=3
 	barbarian_power=0
@@ -2331,7 +2331,7 @@
 5188={ #
 	terrain=""
 	culture="lusitanian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2341,7 +2341,7 @@
 5189={ #
 	terrain=""
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2351,7 +2351,7 @@
 5190={ #
 	terrain=""
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2711,7 +2711,7 @@
 5226={ #Syrian Desert
 	terrain=""
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2781,7 +2781,7 @@
 5233={ #Kossioia
 	terrain=""
 	culture="cossian"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2791,7 +2791,7 @@
 5234={ #
 	terrain=""
 	culture="cossian"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2801,7 +2801,7 @@
 5235={ #
 	terrain=""
 	culture="cossian"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3231,7 +3231,7 @@
 5278={ #
 	terrain=""
 	culture="saka"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3241,7 +3241,7 @@
 5279={ #
 	terrain=""
 	culture="saka"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3251,7 +3251,7 @@
 5280={ #Talas Highland
 	terrain=""
 	culture="hephthalites"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=4
 	barbarian_power=0
@@ -3261,7 +3261,7 @@
 5281={ #
 	terrain=""
 	culture="turks"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3271,7 +3271,7 @@
 5282={ #
 	terrain=""
 	culture="turks"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3281,7 +3281,7 @@
 5283={ #Caledonian Highland
 	terrain=""
 	culture="taexalian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3291,7 +3291,7 @@
 5284={ #North Caledonian Mountains
 	terrain=""
 	culture="pict"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3311,7 +3311,7 @@
 5286={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3371,7 +3371,7 @@
 5292={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3381,7 +3381,7 @@
 5293={ #Troikon Oros
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=2
 	barbarian_power=0
@@ -3391,7 +3391,7 @@
 5294={ #Desert of Klysma
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=2
 	barbarian_power=0
@@ -3441,7 +3441,7 @@
 5299={ #
 	terrain=""
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3481,7 +3481,7 @@
 5303={ #Mesopotamian Desert
 	terrain=""
 	culture="babylonian"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3671,7 +3671,7 @@
 5322={ #
 	terrain=""
 	culture="siraci"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3711,7 +3711,7 @@
 5326={ #
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -3731,7 +3731,7 @@
 5328={ #
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3741,7 +3741,7 @@
 5329={ #
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3751,7 +3751,7 @@
 5330={ #
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3761,7 +3761,7 @@
 5331={ #
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3771,7 +3771,7 @@
 5332={ #
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3781,7 +3781,7 @@
 5333={ #Desert of Aswan
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3791,7 +3791,7 @@
 5334={ #Desert of Luxor
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=2
 	barbarian_power=0
@@ -3831,7 +3831,7 @@
 5338={ #Farfara
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=2
 	barbarian_power=0
@@ -3841,7 +3841,7 @@
 5339={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3851,7 +3851,7 @@
 5340={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3861,7 +3861,7 @@
 5341={ #Desert of Kharga
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=2
 	barbarian_power=0
@@ -3871,7 +3871,7 @@
 5342={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3951,7 +3951,7 @@
 5350={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3971,7 +3971,7 @@
 5352={ #Troglodytica
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3981,7 +3981,7 @@
 5353={ #Pendactylos Mons
 	terrain=""
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3991,7 +3991,7 @@
 5354={ #
 	terrain=""
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4001,7 +4001,7 @@
 5355={ #Upper Blue Nile
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4201,7 +4201,7 @@
 5375={ #
 	terrain=""
 	culture="zhangzhung"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4211,7 +4211,7 @@
 5376={ #
 	terrain=""
 	culture="saka"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4221,7 +4221,7 @@
 5377={ #
 	terrain=""
 	culture="hephthalites"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4231,7 +4231,7 @@
 5378={ #Tarim
 	terrain=""
 	culture="hephthalites"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4241,7 +4241,7 @@
 5379={ #
 	terrain=""
 	culture="turks"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4331,7 +4331,7 @@
 5389={ #
 	terrain=""
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4371,7 +4371,7 @@
 5440={ #Syria Deserta
 	terrain="desert"
 	culture="assyrian"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4471,7 +4471,7 @@
 5882={ #Multen
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -4481,7 +4481,7 @@
 5883={ #Fors
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -4571,7 +4571,7 @@
 5942={ #
 	terrain=""
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4581,7 +4581,7 @@
 5943={ #
 	terrain=""
 	culture="aksumite"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4591,7 +4591,7 @@
 5944={ #
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4601,7 +4601,7 @@
 5945={ #
 	terrain=""
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4611,7 +4611,7 @@
 5946={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4761,7 +4761,7 @@
 5961={ #
 	terrain=""
 	culture="zhangzhung"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4771,7 +4771,7 @@
 5962={ #Karakoram
 	terrain=""
 	culture="saka"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4781,7 +4781,7 @@
 5963={ #
 	terrain=""
 	culture="saka"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4811,7 +4811,7 @@
 5966={ #
 	terrain=""
 	culture="hephthalites"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4821,7 +4821,7 @@
 5967={ #
 	terrain=""
 	culture="hephthalites"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4831,7 +4831,7 @@
 5968={ #
 	terrain=""
 	culture="hephthalites"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4841,7 +4841,7 @@
 5969={ #
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -4851,7 +4851,7 @@
 5970={ #
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4861,7 +4861,7 @@
 5971={ #
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -4871,7 +4871,7 @@
 5972={ #
 	terrain=""
 	culture="aestian"
-	religion="matrist_religion"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4881,7 +4881,7 @@
 5973={ #
 	terrain=""
 	culture="aestian"
-	religion="matrist_religion"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4921,7 +4921,7 @@
 5977={ #
 	terrain=""
 	culture="briton"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4931,7 +4931,7 @@
 5978={ #
 	terrain=""
 	culture="briton"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4941,7 +4941,7 @@
 5979={ #
 	terrain=""
 	culture="brigantic"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4951,7 +4951,7 @@
 5980={ #
 	terrain=""
 	culture="briton"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4961,7 +4961,7 @@
 5981={ #
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -5091,7 +5091,7 @@
 5994={ #Desert of Philoteris
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -5101,7 +5101,7 @@
 5995={ #Oasis Parva
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -5111,7 +5111,7 @@
 5996={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -5121,7 +5121,7 @@
 5997={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -5131,7 +5131,7 @@
 5998={ #
 	terrain=""
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -5141,7 +5141,7 @@
 5999={ #
 	terrain=""
 	culture="illyria"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -5341,7 +5341,7 @@
 6064={ #Aral
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -7021,7 +7021,7 @@
 6497={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7031,7 +7031,7 @@
 6498={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7041,7 +7041,7 @@
 6499={ #
 	terrain=""
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7051,7 +7051,7 @@
 7279={ #Masht
 	terrain=""
 	culture="hephthalites"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7061,7 +7061,7 @@
 7280={ #
 	terrain=""
 	culture="khazars"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7071,7 +7071,7 @@
 7281={ #
 	terrain=""
 	culture="hephthalites"
-	religion="eastern_animism"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7241,7 +7241,7 @@
 7299={ #Sarmatia
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7261,7 +7261,7 @@
 7640={ #Caspica
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7271,7 +7271,7 @@
 7641={ #Alania
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7301,7 +7301,7 @@
 7644={ #Pontic Steppe
 	terrain=""
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7391,7 +7391,7 @@
 7733={ #Vesuvius Volcano
 	terrain=""
 	culture="roman"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
 	barbarian_power=0
@@ -7401,7 +7401,7 @@
 7734={ #Methana Volcano
 	terrain=""
 	culture="peloponnesian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
 	barbarian_power=0
@@ -7411,7 +7411,7 @@
 7735={ #Argaios Mons Volcano
 	terrain=""
 	culture="lycaonian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
 	barbarian_power=0
@@ -7441,7 +7441,7 @@
 7751={ #Mesogis Mons
 	terrain=""
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7451,7 +7451,7 @@
 7752={ #Tmolus Mons
 	terrain=""
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7461,7 +7461,7 @@
 7753={ #Tempsis Mons
 	terrain=""
 	culture="ionian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7471,7 +7471,7 @@
 7754={ #Sipylos Mons
 	terrain=""
 	culture="lydian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7481,7 +7481,7 @@
 7755={ #Olympus Mons
 	terrain=""
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7491,7 +7491,7 @@
 7756={ #Kadmons Mons
 	terrain=""
 	culture="carian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7501,7 +7501,7 @@
 7757={ #
 	terrain=""
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7511,7 +7511,7 @@
 7758={ #
 	terrain=""
 	culture="isaurian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7521,7 +7521,7 @@
 7759={ #
 	terrain=""
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7531,7 +7531,7 @@
 7761={ #Sophon Mons
 	terrain=""
 	culture="bithynian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7541,7 +7541,7 @@
 7762={ #
 	terrain=""
 	culture="bithynian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7551,7 +7551,7 @@
 7764={ #
 	terrain=""
 	culture="bithynian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7571,7 +7571,7 @@
 7797={ #Parnassus Mons
 	terrain=""
 	culture="boeotian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7581,7 +7581,7 @@
 7800={ #
 	terrain=""
 	culture="athenian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7591,7 +7591,7 @@
 7801={ #
 	terrain=""
 	culture="aetolian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7741,7 +7741,7 @@
 7861={ #Strongyle Volcano
 	terrain=""
 	culture="syracusan"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
 	barbarian_power=0
@@ -7751,7 +7751,7 @@
 7895={ #Arachnaion Mons
 	terrain=""
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=6
 	barbarian_power=0
@@ -7761,7 +7761,7 @@
 7900={ #Dirphys Mons
 	terrain=""
 	culture="euboean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=6
 	barbarian_power=0

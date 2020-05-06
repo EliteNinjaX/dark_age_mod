@@ -1,7 +1,7 @@
 ﻿6132={ #Solyots
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
 	barbarian_power=0
@@ -14,7 +14,7 @@
 6133={ #Dyrghet
 	terrain="forest"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
 	barbarian_power=0
@@ -30,7 +30,7 @@
 6134={ #Annike
 	terrain="forest"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
 	barbarian_power=0
@@ -43,7 +43,7 @@
 6135={ #Thense
 	terrain="forest"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
 	barbarian_power=0
@@ -56,7 +56,7 @@
 6136={ #Skurtisk
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -69,7 +69,7 @@
 6137={ #Voynor
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
 	barbarian_power=0
@@ -85,7 +85,7 @@
 6138={ #Ghart
 	terrain="forest"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
 	barbarian_power=0
@@ -98,7 +98,7 @@
 6140={ #Tahent
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=5
 	barbarian_power=0
@@ -114,7 +114,7 @@
 6143={ #Aghonor
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=5
 	barbarian_power=0
@@ -127,7 +127,7 @@
 6148={ #Nynt
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
 	barbarian_power=0
@@ -146,7 +146,7 @@
 6149={ #Ghahko
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wood"
 	civilization_value=5
 	barbarian_power=0
@@ -165,7 +165,7 @@
 6150={ #Kihkyengra
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
 	barbarian_power=0
@@ -178,7 +178,7 @@
 6151={ #Alkhyent
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -191,7 +191,7 @@
 6152={ #Kilgad
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -204,7 +204,7 @@
 6153={ #Uldan
 	terrain="plains"
 	culture="avars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
 	barbarian_power=0
@@ -226,7 +226,7 @@
 6154={ #Rynek
 	terrain="plains"
 	culture="avars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
 	barbarian_power=0
@@ -242,7 +242,7 @@
 6155={ #Kisko
 	terrain="plains"
 	culture="avars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
 	barbarian_power=0
@@ -255,7 +255,7 @@
 6156={ #Aihkohna
 	terrain="plains"
 	culture="avars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
 	barbarian_power=0
@@ -268,7 +268,7 @@
 6157={ #Shgaritat
 	terrain="plains"
 	culture="avars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
 	barbarian_power=0
@@ -284,7 +284,7 @@
 6158={ #Unige
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
 	barbarian_power=0
@@ -297,7 +297,7 @@
 6159={ #Stat
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -310,7 +310,7 @@
 6160={ #Verhyn
 	terrain="forest"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="vegetables"
 	civilization_value=5
 	barbarian_power=0
@@ -323,7 +323,7 @@
 6161={ #Yakkant
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
 	barbarian_power=0
@@ -336,7 +336,7 @@
 6162={ #Ygast
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
 	barbarian_power=0
@@ -349,7 +349,7 @@
 6163={ #Vyonots
 	terrain="plains"
 	culture="avars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=5
 	barbarian_power=0
@@ -365,7 +365,7 @@
 6164={ #Shchor
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
 	barbarian_power=0
@@ -381,7 +381,7 @@
 6165={ #Vel
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -394,7 +394,7 @@
 6166={ #Gyrones
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
 	barbarian_power=0
@@ -407,7 +407,7 @@
 6167={ #Stetta
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
 	barbarian_power=0
@@ -420,7 +420,7 @@
 6168={ #Ushkan
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
 	barbarian_power=0
@@ -433,7 +433,7 @@
 6169={ #Veryi
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
 	barbarian_power=0
@@ -446,7 +446,7 @@
 6170={ #Dolom
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=5
 	barbarian_power=0
@@ -459,7 +459,7 @@
 6171={ #Galligh
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
 	barbarian_power=0
@@ -472,7 +472,7 @@
 6172={ #Uron
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="vegetables"
 	civilization_value=5
 	barbarian_power=0
@@ -485,7 +485,7 @@
 6173={ #Sythachka
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
 	barbarian_power=0
@@ -498,7 +498,7 @@
 6174={ #Scytte
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
 	barbarian_power=0
@@ -511,7 +511,7 @@
 6175={ #Shashcha
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
 	barbarian_power=0
@@ -524,7 +524,7 @@
 6176={ #Molon
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
 	barbarian_power=0
@@ -537,7 +537,7 @@
 6177={ #Ishkenk
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
 	barbarian_power=0
@@ -553,7 +553,7 @@
 6178={ #Ganka
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cloth"
 	civilization_value=5
 	barbarian_power=0
@@ -569,7 +569,7 @@
 6179={ #Yoro
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
 	barbarian_power=0
@@ -582,7 +582,7 @@
 6180={ #Vygriya
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
 	barbarian_power=0
@@ -595,7 +595,7 @@
 6181={ #Achkach
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
 	barbarian_power=0
@@ -608,7 +608,7 @@
 6182={ #Ighkoy
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
 	barbarian_power=0
@@ -621,7 +621,7 @@
 6183={ #Yuty
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
 	barbarian_power=0
@@ -634,7 +634,7 @@
 6184={ #Yovolat
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
 	barbarian_power=0
@@ -647,7 +647,7 @@
 6185={ #Ollo
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="salt"
 	civilization_value=5
 	barbarian_power=0
@@ -660,7 +660,7 @@
 6186={ #Urgenkh
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cloth"
 	civilization_value=5
 	barbarian_power=0
@@ -673,7 +673,7 @@
 6187={ #Zhutikka
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="base_metals"
 	civilization_value=5
 	barbarian_power=0
@@ -686,7 +686,7 @@
 6188={ #Vyrni
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="base_metals"
 	civilization_value=5
 	barbarian_power=0
@@ -702,7 +702,7 @@
 6189={ #Arn
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wood"
 	civilization_value=5
 	barbarian_power=0
@@ -715,7 +715,7 @@
 6190={ #Kichpa
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="earthware"
 	civilization_value=5
 	barbarian_power=0
@@ -728,7 +728,7 @@
 6191={ #Khang
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="vegetables"
 	civilization_value=5
 	barbarian_power=0
@@ -741,7 +741,7 @@
 6192={ #Syutnich
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
 	barbarian_power=0
@@ -754,7 +754,7 @@
 6193={ #Zhev
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
 	barbarian_power=0
@@ -773,7 +773,7 @@
 6194={ #Urzhev
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="vegetables"
 	civilization_value=5
 	barbarian_power=0
@@ -786,7 +786,7 @@
 6195={ #Urvolat
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
 	barbarian_power=0
@@ -799,7 +799,7 @@
 6196={ #Volat
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
 	barbarian_power=0
@@ -815,7 +815,7 @@
 6197={ #Urghno
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
 	barbarian_power=0
@@ -828,7 +828,7 @@
 6198={ #Urgast
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="vegetables"
 	civilization_value=5
 	barbarian_power=0
@@ -841,7 +841,7 @@
 6199={ #Ydologh
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -854,7 +854,7 @@
 6200={ #Urvel
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -867,7 +867,7 @@
 6201={ #Agharite
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
 	barbarian_power=0
@@ -883,7 +883,7 @@
 6202={ #Irkant
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
 	barbarian_power=0
@@ -896,7 +896,7 @@
 6203={ #Ghalat
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -909,7 +909,7 @@
 6204={ #Urghalat
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -925,7 +925,7 @@
 6205={ #Uyoro
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -941,7 +941,7 @@
 6206={ #Ketsk
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -954,7 +954,7 @@
 6207={ #Urviygra
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -970,7 +970,7 @@
 6208={ #Khochy
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -983,7 +983,7 @@
 6209={ #Ydomor
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -996,7 +996,7 @@
 6210={ #Ghenarcha
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1012,7 +1012,7 @@
 6211={ #Urgenarcha
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -1025,7 +1025,7 @@
 6212={ #Ygrre
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -1038,7 +1038,7 @@
 6213={ #Achkhacsh
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1057,7 +1057,7 @@
 6214={ #Zhuna
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1070,7 +1070,7 @@
 6215={ #Urghat
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -1083,7 +1083,7 @@
 6216={ #Vyalke
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -1096,7 +1096,7 @@
 6217={ #Ogron
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -1109,7 +1109,7 @@
 6218={ #Mennichak
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -1128,7 +1128,7 @@
 6220={ #Uryennik
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1144,7 +1144,7 @@
 6221={ #Zhelk
 	terrain="plains"
 	culture="khazars"
-	religion="indo_iranian_religion"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=10
 	barbarian_power=0

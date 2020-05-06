@@ -1909,12 +1909,12 @@
 		amount=1
 	}
 	tribesmen={
-		culture="pontic"
-		religion="anatolian_religion"
-		amount=1
+		amount=4
 	}
 	tribesmen={
-		amount=4
+		culture="pontic"
+		religion="chalcedonian"
+		amount=1
 	}
 }
 
@@ -1931,7 +1931,7 @@
 	}
 	freemen={
 		culture="pontic"
-		religion="anatolian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
@@ -1985,7 +1985,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="anatolian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 }

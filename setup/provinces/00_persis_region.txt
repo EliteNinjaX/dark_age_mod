@@ -1,7 +1,7 @@
 ﻿943={ #Soloke
 	terrain="plains"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -85,7 +85,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="mesopotamian_religion"
+		religion="nestorian"
 		amount=1
 	}
 	freemen={
@@ -99,7 +99,7 @@
 		amount=1
 	}
 	slaves={
-		religion="mesopotamian_religion"
+		religion="nestorian"
 		amount=1
 	}
 	tribesmen={
@@ -119,11 +119,11 @@
 		amount=1
 	}
 	freemen={
+		culture="cossian"
+		religion="nestorian"
 		amount=1
 	}
 	freemen={
-		culture="cossian"
-		religion="mesopotamian_religion"
 		amount=1
 	}
 	slaves={
@@ -131,11 +131,11 @@
 	}
 	slaves={
 		culture="cossian"
-		religion="mesopotamian_religion"
+		religion="nestorian"
 		amount=1
 	}
 	slaves={
-		religion="mesopotamian_religion"
+		religion="nestorian"
 		amount=1
 	}
 	tribesmen={
@@ -266,7 +266,7 @@
 970={ #Abara
 	terrain="marsh"
 	culture="elamite"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -275,10 +275,10 @@
 		amount=1
 	}
 	freemen={
+		culture="babylonian"
 		amount=1
 	}
 	freemen={
-		culture="babylonian"
 		amount=1
 	}
 	slaves={
@@ -302,7 +302,7 @@
 		amount=2
 	}
 	freemen={
-		religion="mesopotamian_religion"
+		religion="nestorian"
 		amount=1
 	}
 	freemen={
@@ -325,7 +325,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="mesopotamian_religion"
+		religion="nestorian"
 		amount=1
 	}
 	freemen={
@@ -335,10 +335,10 @@
 		amount=1
 	}
 	tribesmen={
+		religion="nestorian"
 		amount=1
 	}
 	tribesmen={
-		religion="mesopotamian_religion"
 		amount=1
 	}
 }
@@ -346,26 +346,26 @@
 980={ #Dashti
 	terrain="plains"
 	culture="elamite"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods="wild_game"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		culture="cossian"
 		amount=1
 	}
 	freemen={
-		culture="cossian"
 		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		religion="zoroaster"
 		amount=1
 	}
 	tribesmen={
+		religion="zoroaster"
 		amount=1
 	}
 }
@@ -1099,7 +1099,7 @@
 4787={ #Bushahr
 	terrain="desert"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -1510,7 +1510,7 @@
 4969={ #Andamaska
 	terrain="hills"
 	culture="cossian"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods="camel"
 	civilization_value=30
 	barbarian_power=0

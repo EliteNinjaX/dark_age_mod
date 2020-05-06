@@ -1,7 +1,7 @@
 ﻿738={ #Maked
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -20,7 +20,7 @@
 740={ #Paneas
 	terrain="hills"
 	culture="hebrew"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="honey"
 	civilization_value=35
 	barbarian_power=0
@@ -29,10 +29,10 @@
 		amount=1
 	}
 	slaves={
-		culture="aramaic"
 		amount=1
 	}
 	slaves={
+		culture="aramaic"
 		amount=1
 	}
 	tribesmen={
@@ -43,7 +43,7 @@
 741={ #Iyyon
 	terrain="hills"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -56,10 +56,10 @@
 		amount=1
 	}
 	slaves={
+		culture="aramaic"
 		amount=1
 	}
 	slaves={
-		culture="aramaic"
 		amount=1
 	}
 }
@@ -67,7 +67,7 @@
 742={ #Kadasa
 	terrain="forest"
 	culture="hebrew"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=35
 	barbarian_power=0
@@ -86,7 +86,7 @@
 743={ #Tyrus
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -120,7 +120,7 @@
 744={ #Ecdippa
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -136,7 +136,7 @@
 745={ #Gelil
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -155,7 +155,7 @@
 746={ #Serepta
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -171,7 +171,7 @@
 747={ #Sidon
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -205,7 +205,7 @@
 748={ #Berytus
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -227,7 +227,7 @@
 749={ #Brochoi
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -246,7 +246,7 @@
 750={ #Damascus
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -283,7 +283,7 @@
 751={ #Chalybon
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -299,7 +299,7 @@
 752={ #Gerra
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -326,7 +326,7 @@
 753={ #Segeira
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -335,10 +335,10 @@
 		amount=2
 	}
 	slaves={
-		culture="roman"
 		amount=1
 	}
 	slaves={
+		culture="roman"
 		amount=1
 	}
 }
@@ -432,7 +432,7 @@
 759={ #Thelseae
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -451,7 +451,7 @@
 760={ #Iabrouda
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="horses"
 	civilization_value=40
 	barbarian_power=0
@@ -470,7 +470,7 @@
 761={ #Triparadeisos
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -489,7 +489,7 @@
 762={ #Conna
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -498,18 +498,18 @@
 		amount=1
 	}
 	slaves={
-		culture="roman"
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=2
+		culture="roman"
+		amount=1
 	}
 }
 
 763={ #Heliopolitana
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -525,11 +525,11 @@
 		amount=1
 	}
 	slaves={
-		culture="roman"
-		amount=1
+		amount=5
 	}
 	slaves={
-		amount=5
+		culture="roman"
+		amount=1
 	}
 	tribesmen={
 		amount=3
@@ -539,7 +539,7 @@
 764={ #Chalcis sub Libano
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -558,7 +558,7 @@
 765={ #Berothe
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -575,7 +575,7 @@
 766={ #Byblus
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -609,7 +609,7 @@
 767={ #Botrus
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -628,7 +628,7 @@
 768={ #Libanus Mons
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -644,7 +644,7 @@
 769={ #Tripoli
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -666,7 +666,7 @@
 770={ #Cara
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -685,7 +685,7 @@
 771={ #Arca
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -704,7 +704,7 @@
 772={ #Laodicea ad Libanum
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -724,18 +724,18 @@
 		amount=1
 	}
 	slaves={
-		culture="roman"
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=2
+		culture="roman"
+		amount=1
 	}
 }
 
 774={ #Hemesa
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -754,7 +754,7 @@
 775={ #Heliaramia
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -773,7 +773,7 @@
 776={ #Otthara
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -792,7 +792,7 @@
 777={ #Amathe
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -811,7 +811,7 @@
 778={ #Mariamme
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -834,7 +834,7 @@
 779={ #Aradus
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -853,7 +853,7 @@
 780={ #Carne
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -872,7 +872,7 @@
 781={ #Larissa
 	terrain="forest"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="hemp"
 	civilization_value=40
 	barbarian_power=0
@@ -892,18 +892,18 @@
 782={ #Apamea ad Orontem
 	terrain="forest"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=4
-	}
-	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=2
+	}
+	citizen={
+		amount=4
 	}
 	freemen={
 		culture="hebrew"
@@ -915,7 +915,6 @@
 	}
 	freemen={
 		culture="roman"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -926,7 +925,7 @@
 783={ #Bargylus Mons
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -942,7 +941,7 @@
 784={ #Sigon
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -952,7 +951,6 @@
 	}
 	freemen={
 		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -966,14 +964,13 @@
 785={ #Sucas
 	terrain="forest"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -987,22 +984,21 @@
 786={ #Laodicea ad Mare
 	terrain="forest"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="spices"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
 		culture="roman"
-		religion="carthaginian_pantheon"
-		amount=1
-	}
-	citizen={
-		culture="aramaic"
 		amount=1
 	}
 	citizen={
 		amount=5
+	}
+	citizen={
+		culture="aramaic"
+		amount=1
 	}
 	freemen={
 		amount=3
@@ -1013,7 +1009,6 @@
 	}
 	slaves={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1024,7 +1019,7 @@
 787={ #Lysias
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="incense"
 	civilization_value=40
 	barbarian_power=0
@@ -1035,7 +1030,6 @@
 	}
 	citizen={
 		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
@@ -1052,7 +1046,7 @@
 788={ #Posideion
 	terrain="forest"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -1062,7 +1056,6 @@
 	}
 	citizen={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1077,7 +1070,7 @@
 789={ #Palaeopolis
 	terrain="forest"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1087,7 +1080,6 @@
 	}
 	citizen={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1098,7 +1090,6 @@
 	}
 	slaves={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -1109,25 +1100,24 @@
 790={ #Antiochia
 	terrain="hills"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=13
+	}
+	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
-	}
-	citizen={
-		amount=13
 	}
 	freemen={
 		amount=9
 	}
 	freemen={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1135,7 +1125,6 @@
 	}
 	slaves={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=2
 	}
 	slaves={
@@ -1148,7 +1137,7 @@
 791={ #Darcush
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1157,11 +1146,7 @@
 		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		religion="roman_pantheon"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -1171,7 +1156,7 @@
 792={ #Trapezon
 	terrain="forest"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1180,29 +1165,24 @@
 		amount=2
 	}
 	slaves={
-		amount=1
-	}
-	slaves={
-		religion="carthaginian_pantheon"
-		amount=1
+		amount=2
 	}
 }
 
 793={ #Gindaros
 	terrain="hills"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="macedonian"
-		religion="carthaginian_pantheon"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		culture="macedonian"
+		amount=1
 	}
 	slaves={
 		amount=2
@@ -1215,7 +1195,7 @@
 794={ #Cyrrhus
 	terrain="hills"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1224,18 +1204,14 @@
 		amount=2
 	}
 	slaves={
-		amount=2
-	}
-	slaves={
-		religion="carthaginian_pantheon"
-		amount=1
+		amount=3
 	}
 }
 
 797={ #Chalcis ad Belum
 	terrain="plains"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -1254,7 +1230,7 @@
 798={ #Beroea Syriae
 	terrain="plains"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="dates"
 	civilization_value=40
 	barbarian_power=0
@@ -1276,7 +1252,7 @@
 799={ #Adrona
 	terrain="plains"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1321,7 +1297,7 @@
 802={ #Oriza
 	terrain="desert"
 	culture="qedarite"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="wild_game"
 	civilization_value=40
 	barbarian_power=0
@@ -1337,7 +1313,7 @@
 803={ #Resafa
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="camel"
 	civilization_value=40
 	barbarian_power=0
@@ -1353,7 +1329,7 @@
 804={ #Nicephorium
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=40
 	barbarian_power=0
@@ -1369,7 +1345,7 @@
 805={ #Amphipolis Syriae
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -1388,7 +1364,7 @@
 806={ #Birtha
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1404,7 +1380,7 @@
 807={ #Hierapolis
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1416,18 +1392,14 @@
 		amount=1
 	}
 	slaves={
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 808={ #Batnai
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1436,7 +1408,6 @@
 		amount=2
 	}
 	freemen={
-		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
@@ -1447,40 +1418,34 @@
 809={ #Europus
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	citizen={
 		amount=4
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
+		culture="macedonian"
 		amount=1
 	}
 	slaves={
-		religion="roman_pantheon"
-		amount=1
-	}
-	slaves={
-		amount=2
+		amount=3
 	}
 }
 
 810={ #Zeugma
 	terrain="plains"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -1490,31 +1455,28 @@
 	}
 	citizen={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=2
 	}
 	freemen={
-		amount=5
-	}
-	freemen={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
-	slaves={
+	freemen={
 		amount=5
 	}
 	slaves={
 		culture="aramaic"
-		religion="carthaginian_pantheon"
 		amount=3
+	}
+	slaves={
+		amount=5
 	}
 }
 
 811={ #Doliche
 	terrain="hills"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -1523,19 +1485,14 @@
 		amount=3
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
-	}
-	freemen={
 		amount=4
 	}
-	slaves={
-		religion="roman_pantheon"
+	freemen={
+		culture="macedonian"
 		amount=1
 	}
 	slaves={
-		amount=5
+		amount=6
 	}
 	tribesmen={
 		amount=2
@@ -1545,7 +1502,7 @@
 812={ #Nicopolis Syria
 	terrain="hills"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -1567,7 +1524,7 @@
 813={ #Anasartha
 	terrain="desert"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -1586,7 +1543,7 @@
 814={ #Barbalissus
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1605,7 +1562,7 @@
 815={ #Seriane
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="horses"
 	civilization_value=40
 	barbarian_power=0
@@ -1621,7 +1578,7 @@
 816={ #Theleda
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1640,7 +1597,7 @@
 847={ #Dausara
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -1659,7 +1616,7 @@
 850={ #Occaraba
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1675,7 +1632,7 @@
 851={ #Ammattha
 	terrain="desert"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="miaphysite"
 	trade_goods="horses"
 	civilization_value=40
 	barbarian_power=0
@@ -1694,7 +1651,7 @@
 852={ #Chaonia
 	terrain="plains"
 	culture="aramaic"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -1703,18 +1660,16 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
+		culture="macedonian"
 		amount=1
 	}
 	slaves={
 		amount=3
 	}
 	tribesmen={
-		religion="roman_pantheon"
 		amount=1
 	}
 }
@@ -1722,7 +1677,7 @@
 1870={ #Amani Portae
 	terrain="mountain"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1735,7 +1690,7 @@
 1871={ #Syriae Portae
 	terrain="mountain"
 	culture="aramaic"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0

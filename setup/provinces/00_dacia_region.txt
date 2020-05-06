@@ -1,7 +1,7 @@
 ﻿4261={ #Putea
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -17,7 +17,7 @@
 4262={ #Ad Pannonios
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -33,7 +33,7 @@
 4264={ #Tibiscum
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -49,7 +49,7 @@
 4265={ #Bubali
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -65,7 +65,7 @@
 4280={ #Arutela
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -81,7 +81,7 @@
 4281={ #Caput Stenarum
 	terrain="farmland"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -103,7 +103,7 @@
 4282={ #Sarmizegetusa
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -119,7 +119,7 @@
 4284={ #Bucium
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -138,7 +138,7 @@
 4285={ #Petris
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -157,7 +157,7 @@
 4286={ #Blandiana
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -173,7 +173,7 @@
 4287={ #Decidava
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -192,7 +192,7 @@
 4288={ #Micia
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -208,7 +208,7 @@
 4289={ #Ampelum
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -224,7 +224,7 @@
 4290={ #Ziridava
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -240,7 +240,7 @@
 4291={ #Apulum
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -256,7 +256,7 @@
 4292={ #Comidava
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -275,7 +275,7 @@
 4293={ #Ramidava
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -288,7 +288,7 @@
 4294={ #Angustia
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -304,7 +304,7 @@
 4295={ #Cedonia
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -323,7 +323,7 @@
 4296={ #Zidava
 	terrain="farmland"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="gems"
 	civilization_value=10
 	barbarian_power=0
@@ -339,7 +339,7 @@
 4297={ #Salinae
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -358,7 +358,7 @@
 4298={ #Media
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -380,7 +380,7 @@
 4299={ #Deva
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -396,7 +396,7 @@
 4500={ #Hargita
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -412,7 +412,7 @@
 4501={ #Stenarum
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -428,7 +428,7 @@
 4502={ #Sandava
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -444,7 +444,7 @@
 4503={ #Marcodava
 	terrain="farmland"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -466,7 +466,7 @@
 4504={ #Brancona
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -485,7 +485,7 @@
 4505={ #Potaissa
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -507,7 +507,7 @@
 4506={ #Napoca
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -523,7 +523,7 @@
 4507={ #Arcobara
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -539,7 +539,7 @@
 4508={ #Samum
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -561,7 +561,7 @@
 4509={ #Porolissum
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -583,7 +583,7 @@
 4510={ #Resculum
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -596,7 +596,7 @@
 4511={ #Optatiana
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -615,7 +615,7 @@
 4825={ #Montibus
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -628,7 +628,7 @@
 4826={ #Tricomium
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -641,7 +641,7 @@
 4827={ #Lederata
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -657,7 +657,7 @@
 4828={ #Vallum Romanum
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -670,7 +670,7 @@
 4829={ #Centeum Putea
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -689,7 +689,7 @@
 4830={ #Maschianae
 	terrain="forest"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -705,7 +705,7 @@
 4831={ #Ad Sextum
 	terrain="farmland"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -718,7 +718,7 @@
 4832={ #Tibirsia
 	terrain="farmland"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -734,7 +734,7 @@
 4833={ #Bersovia
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -747,7 +747,7 @@
 4834={ #Lixisis
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -760,7 +760,7 @@
 4835={ #Albocensia
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -779,7 +779,7 @@
 4836={ #Ziridava
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -792,7 +792,7 @@
 4837={ #Potulatensia
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -805,7 +805,7 @@
 4838={ #Potulatensiana
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -818,7 +818,7 @@
 4839={ #Grissia
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -831,7 +831,7 @@
 4840={ #Zurobara
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -853,7 +853,7 @@
 4841={ #Marisia
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -866,7 +866,7 @@
 4851={ #Crisia
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -882,7 +882,7 @@
 4853={ #Anartia
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -895,7 +895,7 @@
 4856={ #Crisiana
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -911,7 +911,7 @@
 4857={ #Tisia
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -927,7 +927,7 @@
 4858={ #Metanastia
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -943,7 +943,7 @@
 4859={ #Metanastiana
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -959,7 +959,7 @@
 4860={ #Quare
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -972,7 +972,7 @@
 4861={ #Statuam
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -988,7 +988,7 @@
 4875={ #Antia
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1001,7 +1001,7 @@
 4876={ #Obatis
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -1014,7 +1014,7 @@
 4877={ #Mebatunum
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1027,7 +1027,7 @@
 4878={ #Aborisia
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1040,7 +1040,7 @@
 4879={ #Mabatorum
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1053,7 +1053,7 @@
 4880={ #Bilatis
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -1066,7 +1066,7 @@
 4881={ #Iconeia
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -1079,7 +1079,7 @@
 4882={ #Olate
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1092,7 +1092,7 @@
 4883={ #Voconis
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1105,7 +1105,7 @@
 4884={ #Acronodumia
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -1118,7 +1118,7 @@
 4885={ #Tolitum
 	terrain="plains"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -1134,7 +1134,7 @@
 4886={ #Obutora
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1147,7 +1147,7 @@
 4888={ #Dolum
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1160,7 +1160,7 @@
 4905={ #Patridava
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1173,7 +1173,7 @@
 4906={ #Petrodava
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1189,7 +1189,7 @@
 4907={ #Vidava
 	terrain="forest"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1208,7 +1208,7 @@
 4908={ #Mallites
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1221,7 +1221,7 @@
 4909={ #Utidava
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -1237,7 +1237,7 @@
 4910={ #Attidava
 	terrain="hills"
 	culture="south_slavs"
-	religion="shamanism"
+	religion="slavic"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1253,7 +1253,7 @@
 4926={ #Dure
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1266,7 +1266,7 @@
 4927={ #Mittarium
 	terrain="hills"
 	culture="gepids"
-	religion="shamanism"
+	religion="arian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0

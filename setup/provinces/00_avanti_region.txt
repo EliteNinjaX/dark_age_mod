@@ -949,7 +949,7 @@
 7419={ #Simalwara
 	terrain="hills"
 	culture="avanti"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=35
 	barbarian_power=0

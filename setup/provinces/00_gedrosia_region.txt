@@ -1031,7 +1031,7 @@
 6815={ #Patala
 	terrain="plains"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -1055,7 +1055,7 @@
 6821={ #Alexandrou Limen
 	terrain="plains"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="gems"
 	civilization_value=40
 	barbarian_power=0
@@ -1267,7 +1267,7 @@
 	}
 	citizen={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=5
 	}
 	freemen={

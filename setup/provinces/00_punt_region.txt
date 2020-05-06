@@ -1,7 +1,7 @@
 ﻿633={ #Druka
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=30
 	barbarian_power=0
@@ -14,7 +14,7 @@
 651={ #Sumita
 	terrain="hills"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=30
 	barbarian_power=0
@@ -33,11 +33,11 @@
 		amount=1
 	}
 	tribesmen={
+		culture="aksumite"
+		religion="arabian_pantheon"
 		amount=1
 	}
 	tribesmen={
-		culture="aksumite"
-		religion="arabian_pantheon"
 		amount=1
 	}
 }
@@ -45,7 +45,7 @@
 3323={ #Durai
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=30
 	barbarian_power=0
@@ -64,7 +64,7 @@
 3328={ #Thana
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="olive"
 	civilization_value=30
 	barbarian_power=0
@@ -77,7 +77,7 @@
 3331={ #Zithaa
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=30
 	barbarian_power=0
@@ -93,7 +93,7 @@
 7500={ #Ptolemais Theron
 	terrain="plains"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="elephants"
 	civilization_value=17
 	barbarian_power=0
@@ -109,7 +109,7 @@
 7501={ #Elephas Agrum
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="elephants"
 	civilization_value=17
 	barbarian_power=0
@@ -159,14 +159,14 @@
 		amount=5
 	}
 	freemen={
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=2
 	}
 	freemen={
 		amount=10
 	}
 	slaves={
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=1
 	}
 	slaves={
@@ -230,17 +230,17 @@
 		amount=5
 	}
 	citizen={
-		culture="meroitic"
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=1
 	}
 	citizen={
-		religion="egyptian_pantheon"
+		culture="meroitic"
+		religion="miaphysite"
 		amount=1
 	}
 	freemen={
 		culture="meroitic"
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=2
 	}
 	freemen={
@@ -425,7 +425,7 @@
 		amount=1
 	}
 	freemen={
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=1
 	}
 	freemen={
@@ -508,15 +508,15 @@
 		amount=8
 	}
 	citizen={
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=1
 	}
 	freemen={
-		religion="egyptian_pantheon"
-		amount=2
+		amount=11
 	}
 	freemen={
-		amount=11
+		religion="miaphysite"
+		amount=2
 	}
 	slaves={
 		culture="aksumite"
@@ -526,7 +526,7 @@
 		amount=6
 	}
 	slaves={
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=1
 	}
 	tribesmen={
@@ -550,32 +550,32 @@
 		amount=2
 	}
 	freemen={
-		religion="egyptian_pantheon"
-		amount=2
+		amount=1
 	}
 	freemen={
-		amount=1
+		religion="miaphysite"
+		amount=2
 	}
 	slaves={
 		amount=3
 	}
 	slaves={
-		religion="egyptian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=1
 	}
 	tribesmen={
 		amount=2
+	}
+	tribesmen={
+		religion="miaphysite"
+		amount=1
 	}
 }
 
 7521={ #Atule
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -584,17 +584,17 @@
 		amount=1
 	}
 	freemen={
+		religion="arabian_pantheon"
 		amount=1
 	}
 	freemen={
-		religion="arabian_pantheon"
-		amount=1
-	}
-	slaves={
 		amount=1
 	}
 	slaves={
 		religion="arabian_pantheon"
+		amount=1
+	}
+	slaves={
 		amount=1
 	}
 }
@@ -602,7 +602,7 @@
 7522={ #Malao
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -624,7 +624,7 @@
 7523={ #Emporion
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="incense"
 	civilization_value=25
 	barbarian_power=0
@@ -646,7 +646,7 @@
 7524={ #Mosylon
 	terrain="plains"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="gems"
 	civilization_value=25
 	barbarian_power=0
@@ -665,7 +665,7 @@
 7525={ #Elephas Limen
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="elephants"
 	civilization_value=25
 	barbarian_power=0
@@ -684,7 +684,7 @@
 7526={ #Aromata
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -706,7 +706,7 @@
 7527={ #Mundus
 	terrain="plains"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="salt"
 	civilization_value=25
 	barbarian_power=0
@@ -728,7 +728,7 @@
 7528={ #Opone
 	terrain="plains"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="salt"
 	civilization_value=25
 	barbarian_power=0
@@ -747,7 +747,7 @@
 7529={ #Yehta
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -769,7 +769,7 @@
 7530={ #Dioscoridus
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="gems"
 	civilization_value=25
 	barbarian_power=0
@@ -791,7 +791,7 @@
 7531={ #Pano
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -810,7 +810,7 @@
 7532={ #Diattica
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="salt"
 	civilization_value=25
 	barbarian_power=0
@@ -826,7 +826,7 @@
 7533={ #Motta Mosylionia
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="incense"
 	civilization_value=25
 	barbarian_power=0
@@ -848,7 +848,7 @@
 7534={ #Dacca
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="incense"
 	civilization_value=25
 	barbarian_power=0
@@ -860,18 +860,18 @@
 		amount=1
 	}
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
 		religion="arabian_pantheon"
 		amount=2
+	}
+	tribesmen={
+		amount=1
 	}
 }
 
 7535={ #Dumar
 	terrain="desert"
 	culture="puntic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="incense"
 	civilization_value=25
 	barbarian_power=0
@@ -1084,7 +1084,7 @@
 7550={ #Punt Desert
 	terrain="desert"
 	culture="aksumite"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=20
 	barbarian_power=0
@@ -1094,7 +1094,7 @@
 7551={ #Punt Desert
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -1104,7 +1104,7 @@
 7552={ #Punt Desert
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -1114,7 +1114,7 @@
 7553={ #Punt Desert
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -1133,7 +1133,7 @@
 7588={ #Dmut
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -1146,7 +1146,7 @@
 7589={ #Abliata
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="hemp"
 	civilization_value=25
 	barbarian_power=0
@@ -1162,7 +1162,7 @@
 7590={ #Demora
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fur"
 	civilization_value=25
 	barbarian_power=0
@@ -1178,7 +1178,7 @@
 7591={ #Acranoe
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="precious_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -1213,7 +1213,7 @@
 7594={ #Sabraiton
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=10
 	barbarian_power=0
@@ -1229,7 +1229,7 @@
 7595={ #Arachos
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="incense"
 	civilization_value=10
 	barbarian_power=0
@@ -1242,7 +1242,7 @@
 7596={ #Canarbis
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -1258,7 +1258,7 @@
 7597={ #Erascum
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=10
 	barbarian_power=0
@@ -1274,7 +1274,7 @@
 7598={ #Sabaste
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="elephants"
 	civilization_value=10
 	barbarian_power=0
@@ -1290,7 +1290,7 @@
 7599={ #Setronon
 	terrain="desert"
 	culture="blemmyan"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0

@@ -460,7 +460,7 @@
 1594={ #Kangavar
 	terrain="hills"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=35
 	barbarian_power=0
@@ -513,7 +513,7 @@
 1596={ #Deh Bozen
 	terrain="hills"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=35
 	barbarian_power=0
@@ -601,7 +601,7 @@
 1601={ #Nikaia Nialia
 	terrain="mountain"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=35
 	barbarian_power=0
@@ -1369,7 +1369,7 @@
 	}
 	slaves={
 		culture="cossian"
-		religion="mesopotamian_religion"
+		religion="nestorian"
 		amount=1
 	}
 	tribesmen={
@@ -1380,7 +1380,7 @@
 4967={ #Kard
 	terrain="mountain"
 	culture="cossian"
-	religion="mesopotamian_religion"
+	religion="nestorian"
 	trade_goods="camel"
 	civilization_value=30
 	barbarian_power=0
@@ -1389,12 +1389,12 @@
 		amount=1
 	}
 	freemen={
+		amount=2
+	}
+	freemen={
 		culture="median"
 		religion="zoroaster"
 		amount=1
-	}
-	freemen={
-		amount=2
 	}
 	slaves={
 		religion="zoroaster"
@@ -1509,7 +1509,7 @@
 4976={ #Paraetecene
 	terrain="hills"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -1808,7 +1808,7 @@
 4992={ #Portae
 	terrain="hills"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1830,7 +1830,7 @@
 4993={ #Khuvar
 	terrain="hills"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0

@@ -105,7 +105,7 @@
 4316={ #Boukephalia
 	terrain="forest"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -228,7 +228,7 @@
 4322={ #Alexandreia Nikaia
 	terrain="forest"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0

@@ -59,12 +59,12 @@
 	province_rank="city"
 	citizen={
 		culture="africa"
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=4
 	}
 	freemen={
 		culture="africa"
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
@@ -558,7 +558,7 @@
 	}
 	freemen={
 		culture="africa"
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
@@ -575,7 +575,7 @@
 3145={ #Choba
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -625,7 +625,7 @@
 		amount=3
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -696,7 +696,7 @@
 3150={ #Igilgili
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="spices"
 	civilization_value=40
 	barbarian_power=0
@@ -885,7 +885,7 @@
 3160={ #Tucca
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -906,7 +906,7 @@
 3161={ #Chullu
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=40
 	barbarian_power=0
@@ -1710,16 +1710,16 @@
 		amount=2
 	}
 	freemen={
+		culture="africa"
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
-		culture="africa"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	slaves={
 		culture="africa"
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	slaves={
@@ -1729,7 +1729,7 @@
 		amount=3
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=2
 	}
 }
@@ -1749,7 +1749,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="carthaginian_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -1757,7 +1757,7 @@
 3225={ #Hippo Regius
 	terrain="hills"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1784,17 +1784,17 @@
 3226={ #Culucitanis
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="elephants"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
-	}
-	citizen={
 		religion="berber_religion"
 		amount=1
+	}
+	citizen={
+		amount=2
 	}
 	freemen={
 		amount=1
@@ -1815,7 +1815,7 @@
 3227={ #Rusicade
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=40
 	barbarian_power=0
@@ -1824,12 +1824,12 @@
 		amount=8
 	}
 	freemen={
+		amount=3
+	}
+	freemen={
 		culture="berber"
 		religion="berber_religion"
 		amount=2
-	}
-	freemen={
-		amount=3
 	}
 	slaves={
 		amount=2
@@ -1864,7 +1864,7 @@
 3229={ #Tuniza
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1873,12 +1873,12 @@
 		amount=2
 	}
 	freemen={
+		amount=2
+	}
+	freemen={
 		culture="berber"
 		religion="berber_religion"
 		amount=1
-	}
-	freemen={
-		amount=2
 	}
 	tribesmen={
 		culture="berber"
@@ -1899,10 +1899,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		religion="chalcedonian"
 		amount=1
 	}
 	freemen={
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 	slaves={

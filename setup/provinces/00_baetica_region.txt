@@ -1,7 +1,7 @@
 ﻿1276={ #Baria
 	terrain="plains"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -14,7 +14,7 @@
 1278={ #Urci
 	terrain="hills"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -33,7 +33,7 @@
 1282={ #Murgi
 	terrain="hills"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -46,7 +46,7 @@
 1283={ #Abdarat
 	terrain="hills"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -59,7 +59,7 @@
 1284={ #Aboula
 	terrain="plains"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -72,7 +72,7 @@
 1285={ #Accis
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=30
 	barbarian_power=0
@@ -88,7 +88,7 @@
 1286={ #Ilugo
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=15
 	barbarian_power=0
@@ -104,7 +104,7 @@
 1287={ #Salaria
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=15
 	barbarian_power=0
@@ -120,7 +120,7 @@
 1324={ #Mirobriga
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -136,7 +136,7 @@
 1330={ #Patulus Portus
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -152,7 +152,7 @@
 1333={ #Portus Cibilis
 	terrain="hills"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -168,7 +168,7 @@
 1334={ #Ossonoba
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -190,7 +190,7 @@
 1335={ #Baal Saphon
 	terrain="plains"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -212,7 +212,7 @@
 1336={ #Mirobigensia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -228,7 +228,7 @@
 1337={ #Couneia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -244,7 +244,7 @@
 1338={ #Tartessia
 	terrain="farmland"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -260,7 +260,7 @@
 1339={ #Praesidium
 	terrain="plains"
 	culture="hispania"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -276,7 +276,7 @@
 1340={ #Ad Rubras
 	terrain="plains"
 	culture="hispania"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -292,7 +292,7 @@
 1341={ #Tartessos
 	terrain="plains"
 	culture="hispania"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=25
 	barbarian_power=0
@@ -324,7 +324,6 @@
 	}
 	tribesmen={
 		culture="hispania"
-		religion="animism"
 		amount=3
 	}
 }
@@ -332,7 +331,7 @@
 1343={ #Nabrissa
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -348,7 +347,7 @@
 1344={ #Gadir
 	terrain="plains"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="spices"
 	civilization_value=25
 	barbarian_power=0
@@ -367,7 +366,7 @@
 1345={ #Mergablum
 	terrain="plains"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -383,7 +382,7 @@
 1346={ #Asido
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -399,7 +398,7 @@
 1347={ #Baelo
 	terrain="plains"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -418,7 +417,7 @@
 1348={ #Carteia
 	terrain="hills"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=25
 	barbarian_power=0
@@ -434,7 +433,6 @@
 	}
 	tribesmen={
 		culture="hispania"
-		religion="animism"
 		amount=2
 	}
 }
@@ -442,7 +440,7 @@
 1349={ #Onoba
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -458,7 +456,7 @@
 1350={ #Lacippo
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -474,7 +472,7 @@
 1351={ #Turirecina
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -490,7 +488,7 @@
 1352={ #Ocuri
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -509,7 +507,7 @@
 1353={ #Urgia
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=25
 	barbarian_power=0
@@ -528,7 +526,7 @@
 1354={ #Carissa
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -550,7 +548,7 @@
 1355={ #Hispalis
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -572,7 +570,7 @@
 1356={ #Italica
 	terrain="farmland"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -588,7 +586,7 @@
 1357={ #Osset
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=25
 	barbarian_power=0
@@ -604,7 +602,7 @@
 1358={ #Olontigi
 	terrain="farmland"
 	culture="hispania"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -620,7 +618,7 @@
 1359={ #Ilpulla
 	terrain="farmland"
 	culture="hispania"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -636,7 +634,7 @@
 1360={ #Lucurgentum
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -652,7 +650,7 @@
 1361={ #Suel
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=25
 	barbarian_power=0
@@ -671,19 +669,18 @@
 1362={ #Malaca
 	terrain="hills"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="africa"
-		amount=2
+		culture="massalian"
+		amount=1
 	}
 	citizen={
-		culture="massalian"
-		religion="roman_pantheon"
-		amount=1
+		culture="africa"
+		amount=2
 	}
 	freemen={
 		amount=1
@@ -696,7 +693,7 @@
 1363={ #Cartima
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -712,7 +709,7 @@
 1364={ #Arunda
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=25
 	barbarian_power=0
@@ -728,7 +725,7 @@
 1365={ #Nescania
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -744,7 +741,7 @@
 1366={ #Menova
 	terrain="hills"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -760,7 +757,7 @@
 1367={ #Saxetanum
 	terrain="hills"
 	culture="roman"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=25
 	barbarian_power=0
@@ -779,7 +776,7 @@
 1368={ #Irni
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=25
 	barbarian_power=0
@@ -795,7 +792,7 @@
 1369={ #Urso
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -811,7 +808,7 @@
 1370={ #Basilippo
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -827,7 +824,7 @@
 1371={ #Astigi
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -843,7 +840,7 @@
 1372={ #Segida
 	terrain="farmland"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=25
 	barbarian_power=0
@@ -859,7 +856,7 @@
 1373={ #Naeva
 	terrain="farmland"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -875,7 +872,7 @@
 1374={ #Carmo
 	terrain="farmland"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -891,7 +888,7 @@
 1375={ #Lauro
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=25
 	barbarian_power=0
@@ -913,7 +910,7 @@
 1376={ #Sabetanum
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -929,7 +926,7 @@
 1377={ #Corduba
 	terrain="farmland"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -945,7 +942,7 @@
 1378={ #Epora
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -961,7 +958,7 @@
 1379={ #Sucia
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -977,7 +974,7 @@
 1380={ #Isiturgis
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -993,7 +990,7 @@
 1381={ #Castulo
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=15
 	barbarian_power=0
@@ -1015,7 +1012,7 @@
 1382={ #Vivatia
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=15
 	barbarian_power=0
@@ -1031,7 +1028,7 @@
 1383={ #Iliturgis
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=15
 	barbarian_power=0
@@ -1047,7 +1044,7 @@
 1384={ #Baecula
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=15
 	barbarian_power=0
@@ -1063,7 +1060,7 @@
 1385={ #Elvira
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=30
 	barbarian_power=0
@@ -1079,7 +1076,7 @@
 1386={ #Claritas Iulia
 	terrain="farmland"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -1095,7 +1092,7 @@
 1387={ #Ituci
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -1111,7 +1108,7 @@
 1388={ #Anticaria
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=25
 	barbarian_power=0
@@ -1127,7 +1124,7 @@
 1389={ #Ad Gemellas
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
 	barbarian_power=0
@@ -1143,7 +1140,7 @@
 1390={ #Igabrum
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -1159,7 +1156,7 @@
 1391={ #Cisimbrium
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -1175,7 +1172,7 @@
 1392={ #Antecaria
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -1191,7 +1188,7 @@
 1393={ #Ipolcobulcola
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=15
 	barbarian_power=0
@@ -1207,7 +1204,7 @@
 1394={ #Iliturgicola
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="spices"
 	civilization_value=15
 	barbarian_power=0
@@ -1223,7 +1220,7 @@
 1395={ #Tucci
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=15
 	barbarian_power=0
@@ -1239,7 +1236,7 @@
 1396={ #Vergilia
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=15
 	barbarian_power=0
@@ -1255,7 +1252,7 @@
 1397={ #Ebura
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=30
 	barbarian_power=0
@@ -1271,7 +1268,7 @@
 1398={ #Calecula
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=30
 	barbarian_power=0
@@ -1287,7 +1284,7 @@
 1399={ #Baesucci
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=15
 	barbarian_power=0
@@ -1303,7 +1300,7 @@
 1404={ #Flavium Velares
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=20
 	barbarian_power=0
@@ -1319,7 +1316,7 @@
 1405={ #Regina
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=20
 	barbarian_power=0
@@ -1335,7 +1332,7 @@
 1406={ #Artigi
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=20
 	barbarian_power=0
@@ -1351,7 +1348,7 @@
 1409={ #Munigua
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -1367,7 +1364,7 @@
 1410={ #Curiga
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=25
 	barbarian_power=0
@@ -1383,7 +1380,7 @@
 1411={ #Iporca
 	terrain="farmland"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=20
 	barbarian_power=0
@@ -1399,7 +1396,7 @@
 1412={ #Lacunis
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -1415,7 +1412,7 @@
 1414={ #Fodinae
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -1431,7 +1428,7 @@
 1415={ #Tharsis
 	terrain="farmland"
 	culture="hispania"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=25
 	barbarian_power=0
@@ -1447,7 +1444,7 @@
 1416={ #Fons Siccum
 	terrain="forest"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -1463,7 +1460,7 @@
 1417={ #Arucci
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -1479,7 +1476,7 @@
 1439={ #Mirobriga
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=20
 	barbarian_power=0
@@ -1495,7 +1492,7 @@
 1440={ #Baedro
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=20
 	barbarian_power=0
@@ -1511,7 +1508,7 @@
 1441={ #Mellaria
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=20
 	barbarian_power=0
@@ -1527,7 +1524,7 @@
 1442={ #Mariana
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
 	barbarian_power=0
@@ -1546,7 +1543,7 @@
 1444={ #Solia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=20
 	barbarian_power=0
@@ -1568,7 +1565,7 @@
 1446={ #Ad Decemum
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=25
 	barbarian_power=0
@@ -1584,7 +1581,7 @@
 1447={ #Marianus Mons
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=15
 	barbarian_power=0
@@ -1600,7 +1597,7 @@
 1448={ #Carcuvium
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=15
 	barbarian_power=0
@@ -1616,7 +1613,7 @@
 1449={ #Oretum
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=15
 	barbarian_power=0
@@ -1632,7 +1629,7 @@
 1458={ #Dunites
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1648,7 +1645,7 @@
 1459={ #Messicia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
@@ -1664,7 +1661,7 @@
 1460={ #Sattalicia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=20
 	barbarian_power=0
@@ -1686,7 +1683,7 @@
 1463={ #Solorbes
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0

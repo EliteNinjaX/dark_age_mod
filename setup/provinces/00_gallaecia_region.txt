@@ -1,7 +1,7 @@
 ﻿1019={ #Clunia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -17,7 +17,7 @@
 1020={ #Aracillum
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -33,7 +33,7 @@
 1021={ #Palantia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -52,7 +52,7 @@
 1022={ #Segovia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -68,7 +68,7 @@
 1041={ #Intercatia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -84,7 +84,7 @@
 1042={ #Brigaecium
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -122,7 +122,7 @@
 1045={ #Asturica Augusta
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -138,7 +138,7 @@
 1047={ #Lucus
 	terrain="forest"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -157,7 +157,7 @@
 1048={ #Forum Limicorum
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -176,7 +176,7 @@
 1093={ #Nova Augusta
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=10
 	barbarian_power=0
@@ -198,7 +198,7 @@
 1103={ #Segisama Iulia
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="olive"
 	civilization_value=10
 	barbarian_power=0
@@ -214,7 +214,7 @@
 1108={ #Veseiasueca
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -230,7 +230,7 @@
 1109={ #Maggiaviensium
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="marble"
 	civilization_value=10
 	barbarian_power=0
@@ -246,7 +246,7 @@
 1110={ #Camarica
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -262,7 +262,7 @@
 1111={ #Equosera
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -284,7 +284,7 @@
 1112={ #Caiellum
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -300,7 +300,7 @@
 1113={ #Pallontion
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -316,7 +316,7 @@
 1114={ #Gigia
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -332,7 +332,7 @@
 1115={ #Ad Mare
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -348,7 +348,7 @@
 1116={ #Lucus Asturum
 	terrain="hills"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -364,7 +364,7 @@
 1117={ #Memoriana
 	terrain="hills"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -380,7 +380,7 @@
 1118={ #Flavionavia
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -396,7 +396,7 @@
 1119={ #Legio Gemina
 	terrain="forest"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -412,7 +412,7 @@
 1120={ #Vallata
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -428,7 +428,7 @@
 1121={ #Interamnium
 	terrain="forest"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -447,7 +447,7 @@
 1122={ #Spadonium
 	terrain="forest"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -463,7 +463,7 @@
 1123={ #Mons Rubeum
 	terrain="forest"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -482,7 +482,7 @@
 1124={ #Paesicia
 	terrain="hills"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -498,7 +498,7 @@
 1125={ #Villadonga
 	terrain="hills"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -514,7 +514,7 @@
 1126={ #Luggonia
 	terrain="hills"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -530,7 +530,7 @@
 1127={ #Bergidum Flavium
 	terrain="forest"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -546,7 +546,7 @@
 1128={ #Uttaris
 	terrain="farmland"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -565,7 +565,7 @@
 1129={ #Caranicum
 	terrain="farmland"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -581,7 +581,7 @@
 1130={ #Flavium Brigantium
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -597,7 +597,7 @@
 1131={ #Phlaouia Lambris
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -613,7 +613,7 @@
 1132={ #Arronia
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -629,7 +629,7 @@
 1133={ #Varrinia
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -645,7 +645,7 @@
 1134={ #Varina Marinia
 	terrain="forest"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -661,7 +661,7 @@
 1135={ #Cibarcia
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -680,7 +680,7 @@
 1136={ #Aviliobris
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -699,7 +699,7 @@
 1137={ #Artabron Limen
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -715,7 +715,7 @@
 1138={ #Noouion
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -731,7 +731,7 @@
 1139={ #Assegonia
 	terrain="plains"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -747,7 +747,7 @@
 1140={ #Brevis
 	terrain="forest"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -763,7 +763,7 @@
 1141={ #Aquae Quintinae
 	terrain="forest"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -779,7 +779,7 @@
 1142={ #Castellum Meidunium
 	terrain="forest"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -795,7 +795,7 @@
 1143={ #Baedia
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -811,7 +811,7 @@
 1145={ #Gemestarum
 	terrain="forest"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -827,7 +827,7 @@
 1146={ #Interamicia
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -843,7 +843,7 @@
 1147={ #Lougia
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -859,7 +859,7 @@
 1148={ #Aquae Calidae
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -875,7 +875,7 @@
 1149={ #Ad Duos Pontes
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -891,7 +891,7 @@
 1150={ #Vicus Spacorum
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -907,7 +907,7 @@
 1151={ #Limia
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -923,7 +923,7 @@
 1152={ #Aquis Querquennis
 	terrain="forest"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -939,7 +939,7 @@
 1154={ #Aquae Originae
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -955,7 +955,7 @@
 1155={ #Germinae
 	terrain="hills"
 	culture="callaecian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -971,7 +971,7 @@
 1165={ #Nemetobriga
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -987,7 +987,7 @@
 1166={ #Gigurria
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1003,7 +1003,7 @@
 1168={ #Pettavonium
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1019,7 +1019,7 @@
 1169={ #Argentiolum
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1035,7 +1035,7 @@
 1170={ #Relicta
 	terrain="forest"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1051,7 +1051,7 @@
 1171={ #Praterion
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="animism"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1067,7 +1067,7 @@
 1174={ #Amallobriga
 	terrain="forest"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1083,7 +1083,7 @@
 1175={ #Septimanca
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1099,7 +1099,7 @@
 1177={ #Cauca
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=10
 	barbarian_power=0
@@ -1115,7 +1115,7 @@
 1178={ #Comeniaca
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1131,7 +1131,7 @@
 1181={ #Gella
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1147,7 +1147,7 @@
 1182={ #Balneos
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1163,7 +1163,7 @@
 1183={ #Vaccaeia Deserta
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1179,7 +1179,7 @@
 1184={ #Vaccaeia Relicta
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=10
 	barbarian_power=0
@@ -1192,7 +1192,7 @@
 1185={ #Camala
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="marble"
 	civilization_value=10
 	barbarian_power=0
@@ -1208,7 +1208,7 @@
 1186={ #Viminacium
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1224,7 +1224,7 @@
 1187={ #Lacobriga
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=10
 	barbarian_power=0
@@ -1240,7 +1240,7 @@
 1189={ #Lateremum
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1256,7 +1256,7 @@
 1190={ #Pampligua
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1272,7 +1272,7 @@
 1191={ #Rauda
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -1288,7 +1288,7 @@
 1192={ #Pintia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -1304,7 +1304,7 @@
 1193={ #Confluentia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
