@@ -2241,7 +2241,7 @@ country = {
 			capital = 2186
 
 			own_control_core = 	{
-				2186 2187
+				2186 2187 2164
 			}
 		}
 
@@ -2251,17 +2251,17 @@ country = {
 			religion = druidism
 			centralization=50
 
-			capital = 2193
+			capital = 2170
 
 			own_control_core = 	{
-				2193 2168 2170 2205 2172
+			2170 2205 2172
 			}
 		}
 
 		CON = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = hibernian
-			religion = druidism
+			religion = chalcedonian
 			centralization=50
 
 			capital = 2197
@@ -2283,6 +2283,30 @@ country = {
 				2183 2180 2179 2176 2161 2177 2162 2178 2181 2182 2163
 			}
 		}
+		
+		LEI = {
+			government = tribal_kingdom
+			primary_culture = hibernian
+			religion = druidism
+
+			capital = 2165
+
+			own_control_core = 	{
+				2165 2189 2188 2192
+			}
+		}
+		
+		MEA = {
+			government = tribal_kingdom
+			primary_culture = hibernian
+			religion = druidism
+
+			capital = 2193
+
+			own_control_core = 	{
+				2167 2190 2193 2168
+			}
+		}
 
 		ULA = {
 			government = tribal_kingdom
@@ -2295,7 +2319,19 @@ country = {
 			own_control_core = 	{
 				2195 2208 2173 2207 2174 2203 2204 2175 2171 2202 2206
 			}
-		}		
+		}
+#MAN is too powerful. It crashs the game and I don't know why
+	#	MAN = {
+	#		government = tribal_kingdom
+	#		primary_culture = manavian
+	#		religion = druidism
+#
+#			capital = 2108
+#
+#			own_control_core = 	{
+#				2108
+#			}
+#		}	
 
 #BRITAIN
 
@@ -2749,7 +2785,7 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = lombards
 			religion = germanic_religion
-			centralization=75
+			centralization= -100
 
 			capital = 3814
 
@@ -3533,7 +3569,7 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = bulgars
 			religion = tengri
-			centralization = 75
+			centralization = -100
 			
 			capital = 6251
 			
@@ -3546,9 +3582,10 @@ country = {
 		}
 
 		AVA = {
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = avars
 			religion = tengri
+			centralization = -100
 			
 			capital = 7187 
 			
