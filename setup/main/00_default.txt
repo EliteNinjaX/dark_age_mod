@@ -2,7 +2,7 @@ family={
 	families={
 		#Numbers do not have to appear in numerical order but do have to be unique:
 		#Current first free ID 11.
-		#Easter Roman Families on Start:
+		#Eastern Roman Families on Start:
 		0={
 			key="Justinian"
 			owner=ERE
@@ -1887,7 +1887,7 @@ country = {
 				4096 4152 4108 4098 4095 4099 4113 4093 4100 4101 4119 4114 4110 4109 4117
 				4092 1144 4094
 				415 422 3192 455 2264 2213 2336 1445
-				4090 4091 4089 4102
+				4090 4089 4102
 				4106 4103 4127
 				4206 4120 4203 4118 4205 4204 4122 4121
 				500 501	502	503	504 507 508 509 510 511 512 513 514 515 516 517 518 519
@@ -1917,15 +1917,14 @@ country = {
 				840 858 859 860 877 878 1853 1855 1856 1857 1858 1866 #sophene_region
 				1779 1781 1782 1783 1842 1843 1844 1847 1848 1850 1851 #armenia_minor_region
 				1763 1765 1766 1767 1768 1769 1770 1771 1772 1773 1776 1778 7844 7845 #armenia_maior_region
-				591 592 593 594 595 596 597 598 5518 5519 5520 #this is a mess tbh
+				593 594 595 596 597 598 5518 5519 5520 #this is a mess tbh
 				4539 4540 4541 4543 4544 4550 4549
 				1731 1730 1729 1727
 				827 826 825 824 823 874 822 855 872 871 856 841 1764
 				7597
 				4190 4193
 				845 1761 1757 1758 1759 1760 1762 1698
-				483 4037 857 870
-				4538
+				857 870
 				7668 7689 7690 7688 7691 6431 6433 6420
 				7799 7802 7798 7803 7760 7765 #Extra
 				7889 7892 7891 7903 7897 7898 7904 7901 7899 7896 7902
@@ -2241,7 +2240,7 @@ country = {
 			capital = 2186
 
 			own_control_core = 	{
-				2186 2187 2164
+				2186 2187
 			}
 		}
 
@@ -2251,17 +2250,17 @@ country = {
 			religion = druidism
 			centralization=50
 
-			capital = 2170
+			capital = 2193
 
 			own_control_core = 	{
-			2170 2205 2172
+				2193 2168 2170 2205 2172
 			}
 		}
 
 		CON = {
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = hibernian
-			religion = chalcedonian
+			religion = druidism
 			centralization=50
 
 			capital = 2197
@@ -2283,30 +2282,6 @@ country = {
 				2183 2180 2179 2176 2161 2177 2162 2178 2181 2182 2163
 			}
 		}
-		
-		LEI = {
-			government = tribal_kingdom
-			primary_culture = hibernian
-			religion = druidism
-
-			capital = 2165
-
-			own_control_core = 	{
-				2165 2189 2188 2192
-			}
-		}
-		
-		MEA = {
-			government = tribal_kingdom
-			primary_culture = hibernian
-			religion = druidism
-
-			capital = 2193
-
-			own_control_core = 	{
-				2167 2190 2193 2168
-			}
-		}
 
 		ULA = {
 			government = tribal_kingdom
@@ -2319,19 +2294,7 @@ country = {
 			own_control_core = 	{
 				2195 2208 2173 2207 2174 2203 2204 2175 2171 2202 2206
 			}
-		}
-#MAN is too powerful. It crashs the game and I don't know why
-	#	MAN = {
-	#		government = tribal_kingdom
-	#		primary_culture = manavian
-	#		religion = druidism
-#
-#			capital = 2108
-#
-#			own_control_core = 	{
-#				2108
-#			}
-#		}	
+		}		
 
 #BRITAIN
 
@@ -2785,7 +2748,7 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = lombards
 			religion = germanic_religion
-			centralization= -100
+			centralization=75
 
 			capital = 3814
 
@@ -3569,7 +3532,7 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = bulgars
 			religion = tengri
-			centralization = -100
+			centralization = 75
 			
 			capital = 6251
 			
@@ -3582,10 +3545,9 @@ country = {
 		}
 
 		AVA = {
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = avars
 			religion = tengri
-			centralization = -100
 			
 			capital = 7187 
 			
