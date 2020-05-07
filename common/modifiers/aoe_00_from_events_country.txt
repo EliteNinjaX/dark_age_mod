@@ -63,3 +63,9 @@ vulnerable_modifier = {
 exarch_modifier = {
 	global_manpower_modifier = -0.5
 }
+
+blinded = {
+	disallow_job = yes
+	disallow_office = yes
+	disallow_command = yes
+}

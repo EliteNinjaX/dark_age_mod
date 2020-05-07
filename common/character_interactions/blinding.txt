@@ -1,0 +1,96 @@
+﻿blinding = {
+
+	on_other_nation = no
+	on_own_nation = yes
+	
+	sound = "event:/SFX/UI/Character/Generic/sfx_ui_character_war"
+	
+	
+	
+	
+	potential_trigger = {
+		hidden:scope:target = {
+			is_alive = yes
+			is_adult = yes
+			prisoner = yes
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			or = {
+			employer = { tag = ERE }
+			employer = { tag = ROM }
+			employer = { tag = WRE }
+			}
+			NOT = {
+				has_trait = blind
+			}
+		}
+	}
+	
+	
+	allowed_trigger = {
+		scope:target = {
+			prisoner = yes
+			NOT = {
+				has_trait = blind
+			}
+		}
+		scope:actor = {
+			tyranny < 99
+		}
+	}
+	
+	effect = {
+		scope:actor = {
+			add_tyranny = 0.25
+			if = {
+				limit = {
+					scope:target = {
+						is_minor_character = no
+						is_head_of_family = no
+					}
+				}
+				scope:target.family = {
+					add_prestige = -50
+					every_family_member = {
+						custom = "sold_every_family_member_tt:"
+						limit = {
+							employer = scope:actor
+						}
+						add_loyalty = loyalty_sold_family_member
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:target = {
+						is_minor_character = no
+						is_head_of_family = yes
+					}
+				}
+				scope:target.family = {
+					add_prestige = -100
+					every_family_member = {
+						custom = "sold_every_family_member_tt:"
+						limit = {
+							employer = scope:actor
+						}
+						add_loyalty = loyalty_sold_family_head
+					}
+				}
+				scope:target = {
+					set_as_minor_character = THIS
+				}
+			}
+		}
+		hidden_effect = {
+			scope:target = {
+				remove_all_positions = yes
+				add_trait="blind"
+				add_character_modifier = {
+					name = blinded
+				}
+			}
+		}
+	}
+	
+}	
