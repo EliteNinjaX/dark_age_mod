@@ -1,6 +1,6 @@
 ﻿l_english:
  #Caledonian Confederacy
- formable_not_ccc_exists:0 "#Y Pictland#! must NOT exist."
+ formable_not_PIC_exists:0 "#Y Pictland#! must NOT exist."
  CCC_NAME:0 "Pictland"
  CCC_ADJECTIVE:0 "Pict"
  CCC:0 "Pictland"
