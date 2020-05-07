@@ -1,7 +1,7 @@
 ﻿250={ #Helge
 	terrain="hills"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -23,7 +23,7 @@
 251={ #Miletopolis
 	terrain="forest"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -45,7 +45,7 @@
 252={ #Cyzicus
 	terrain="forest"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
 	barbarian_power=0
@@ -67,7 +67,7 @@
 253={ #Dascylium
 	terrain="hills"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
 	barbarian_power=0
@@ -89,7 +89,7 @@
 254={ #Zeleia
 	terrain="forest"
 	culture="mysian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
 	barbarian_power=0
@@ -111,7 +111,7 @@
 255={ #Parium
 	terrain="forest"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -133,7 +133,7 @@
 256={ #Lampsacus
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -152,7 +152,7 @@
 257={ #Ilium
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -174,7 +174,7 @@
 258={ #Alexandria Troas
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=40
 	barbarian_power=0
@@ -196,7 +196,7 @@
 259={ #Assus
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -215,7 +215,7 @@
 260={ #Kebren
 	terrain="forest"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -234,7 +234,7 @@
 261={ #Abydus
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -256,7 +256,7 @@
 262={ #Colonae
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -278,7 +278,7 @@
 264={ #Baris
 	terrain="hills"
 	culture="mysian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
 	barbarian_power=0
@@ -300,7 +300,7 @@
 265={ #Argiza
 	terrain="hills"
 	culture="mysian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -322,7 +322,7 @@
 266={ #Rhodus
 	terrain="hills"
 	culture="aegean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -336,12 +336,12 @@
 		amount=2
 	}
 	freemen={
-		amount=7
-	}
-	freemen={
 		culture="hebrew"
 		religion="judaism"
 		amount=2
+	}
+	freemen={
+		amount=7
 	}
 	slaves={
 		culture="athenian"
@@ -355,7 +355,7 @@
 267={ #Kale Peuke
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -377,7 +377,7 @@
 268={ #Berenice
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -396,7 +396,7 @@
 269={ #Pericharaxis
 	terrain="hills"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
@@ -418,7 +418,7 @@
 271={ #Attea
 	terrain="hills"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -440,7 +440,7 @@
 272={ #Hiera
 	terrain="forest"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -459,7 +459,7 @@
 273={ #Stratonicaea Lydium
 	terrain="hills"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -481,7 +481,7 @@
 274={ #Thyatira
 	terrain="hills"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -500,7 +500,7 @@
 275={ #Hermokapeleia
 	terrain="forest"
 	culture="phrygian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -522,7 +522,7 @@
 276={ #Apollonia Lydia
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -541,18 +541,18 @@
 278={ #Pergamum
 	terrain="forest"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="papyrus"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=6
+	}
+	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
-	}
-	citizen={
-		amount=6
 	}
 	freemen={
 		culture="hebrew"
@@ -570,7 +570,7 @@
 279={ #Elaea
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -589,7 +589,7 @@
 281={ #Adramyttium
 	terrain="forest"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -608,7 +608,7 @@
 282={ #Heraclea Aeolia
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -624,16 +624,16 @@
 283={ #Mytilene
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="athenian"
 		amount=1
 	}
 	citizen={
+		culture="athenian"
 		amount=1
 	}
 	freemen={
@@ -651,7 +651,7 @@
 284={ #Eresus
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -667,7 +667,7 @@
 285={ #Cyme
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -689,7 +689,7 @@
 286={ #Chius
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -708,18 +708,18 @@
 287={ #Smyrna
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=3
+	}
+	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=2
-	}
-	citizen={
-		amount=3
 	}
 	freemen={
 		amount=3
@@ -732,17 +732,17 @@
 288={ #Teus
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="hebrew"
-		religion="judaism"
 		amount=1
 	}
 	citizen={
+		culture="hebrew"
+		religion="judaism"
 		amount=1
 	}
 	freemen={
@@ -761,7 +761,7 @@
 289={ #Erythrae
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -780,7 +780,7 @@
 290={ #Ephesus
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="papyrus"
 	civilization_value=40
 	barbarian_power=0
@@ -799,7 +799,7 @@
 291={ #Colophon
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="papyrus"
 	civilization_value=40
 	barbarian_power=0
@@ -818,7 +818,7 @@
 292={ #Sardis
 	terrain="forest"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -840,7 +840,7 @@
 293={ #Myloukome
 	terrain="forest"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -859,7 +859,7 @@
 294={ #Larisa
 	terrain="plains"
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
 	barbarian_power=0
@@ -875,7 +875,7 @@
 295={ #Hypaipa
 	terrain="plains"
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -897,7 +897,7 @@
 296={ #Magnesia
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -919,7 +919,7 @@
 298={ #Aegae
 	terrain="forest"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -938,7 +938,7 @@
 299={ #Maiboza
 	terrain="hills"
 	culture="phrygian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -960,7 +960,7 @@
 300={ #Maionia
 	terrain="forest"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -982,27 +982,22 @@
 301={ #Silandus
 	terrain="hills"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
-	}
-	citizen={
-		religion="roman_pantheon"
-		amount=2
+		amount=3
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
+		culture="mysian"
 		amount=1
 	}
 	slaves={
-		culture="mysian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -1013,7 +1008,7 @@
 303={ #Synaos
 	terrain="hills"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1023,27 +1018,21 @@
 	}
 	freemen={
 		culture="mysian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
+		culture="mysian"
 		amount=2
 	}
 	slaves={
-		culture="mysian"
-		amount=1
-	}
-	slaves={
-		culture="mysian"
-		religion="roman_pantheon"
-		amount=1
+		amount=2
 	}
 }
 
 304={ #Hyssa
 	terrain="hills"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1055,12 +1044,11 @@
 		amount=8
 	}
 	slaves={
-		amount=4
+		culture="mysian"
+		amount=1
 	}
 	slaves={
-		culture="mysian"
-		religion="roman_pantheon"
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=2
@@ -1070,7 +1058,7 @@
 305={ #Porotta
 	terrain="hills"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -1082,19 +1070,18 @@
 		amount=2
 	}
 	slaves={
-		amount=4
+		culture="lydian"
+		amount=1
 	}
 	slaves={
-		culture="lydian"
-		religion="roman_pantheon"
-		amount=1
+		amount=4
 	}
 }
 
 306={ #Ariandos
 	terrain="hills"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1103,18 +1090,13 @@
 		amount=1
 	}
 	freemen={
-		religion="roman_pantheon"
-		amount=2
-	}
-	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
 	}
 	slaves={
 		culture="bithynian"
-		religion="roman_pantheon"
 		amount=1
 	}
 }
@@ -1122,7 +1104,7 @@
 307={ #Bageis
 	terrain="plains"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -1144,7 +1126,7 @@
 308={ #Blaundus
 	terrain="plains"
 	culture="phrygian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
@@ -1166,7 +1148,7 @@
 310={ #Lerus
 	terrain="hills"
 	culture="aegean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1185,17 +1167,17 @@
 320={ #Ariste
 	terrain="hills"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
-	}
-	freemen={
 		culture="phrygian"
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
 		amount=3
@@ -1205,7 +1187,7 @@
 321={ #Hadrianoi
 	terrain="hills"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1214,10 +1196,10 @@
 		amount=1
 	}
 	freemen={
+		culture="phrygian"
 		amount=1
 	}
 	freemen={
-		culture="phrygian"
 		amount=1
 	}
 	slaves={
@@ -1228,7 +1210,7 @@
 337={ #Hadrianoutherai
 	terrain="forest"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -1247,7 +1229,7 @@
 1653={ #Calymnus
 	terrain="hills"
 	culture="aegean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1269,7 +1251,7 @@
 1945={ #Colossae
 	terrain="hills"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -1281,48 +1263,33 @@
 		amount=3
 	}
 	slaves={
-		amount=6
-	}
-	slaves={
-		religion="roman_pantheon"
-		amount=1
+		amount=7
 	}
 	tribesmen={
-		religion="roman_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=3
+		amount=4
 	}
 }
 
 1946={ #Hierapolis
 	terrain="plains"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
 		culture="phrygian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
-		amount=2
-	}
-	slaves={
-		religion="roman_pantheon"
-		amount=1
+		amount=3
 	}
 	slaves={
 		culture="phrygian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
@@ -1333,42 +1300,33 @@
 1947={ #Tripolis Maiandrou
 	terrain="forest"
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=3
+		culture="phrygian"
+		amount=1
 	}
 	citizen={
-		culture="phrygian"
-		religion="anatolian_religion"
-		amount=1
+		amount=3
 	}
 	freemen={
 		amount=3
 	}
 	slaves={
-		amount=2
-	}
-	slaves={
-		religion="anatolian_religion"
-		amount=1
-	}
-	tribesmen={
 		amount=3
 	}
 	tribesmen={
-		religion="anatolian_religion"
-		amount=1
+		amount=4
 	}
 }
 
 1948={ #Laodicea ad Lycum
 	terrain="hills"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -1378,7 +1336,6 @@
 	}
 	citizen={
 		culture="ionian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -1386,15 +1343,10 @@
 	}
 	freemen={
 		culture="ionian"
-		religion="roman_pantheon"
 		amount=1
 	}
 	slaves={
-		amount=1
-	}
-	slaves={
-		religion="roman_pantheon"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -1404,7 +1356,7 @@
 1952={ #Aphrodisias
 	terrain="hills"
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1419,18 +1371,14 @@
 		amount=1
 	}
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="anatolian_religion"
-		amount=1
+		amount=2
 	}
 }
 
 1962={ #Antiochia ad Maeandrum
 	terrain="hills"
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1439,18 +1387,10 @@
 		amount=3
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		religion="anatolian_religion"
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	slaves={
-		religion="anatolian_religion"
 		amount=2
+	}
+	slaves={
+		amount=5
 	}
 	tribesmen={
 		amount=2
@@ -1460,7 +1400,7 @@
 1963={ #Neapolis Karia
 	terrain="hills"
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -1482,7 +1422,7 @@
 1966={ #Tralles
 	terrain="plains"
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -1504,7 +1444,7 @@
 1967={ #Alabanda
 	terrain="hills"
 	culture="carian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1526,7 +1466,7 @@
 1968={ #Alinda
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=40
 	barbarian_power=0
@@ -1545,7 +1485,7 @@
 1969={ #Magnesia
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=40
 	barbarian_power=0
@@ -1564,7 +1504,7 @@
 1970={ #Cos
 	terrain="hills"
 	culture="aegean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="silk"
 	civilization_value=40
 	barbarian_power=0
@@ -1578,12 +1518,12 @@
 		amount=1
 	}
 	freemen={
-		amount=2
-	}
-	freemen={
 		culture="hebrew"
 		religion="judaism"
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=4
@@ -1593,7 +1533,7 @@
 1972={ #Priene
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -1609,7 +1549,7 @@
 1973={ #Miletus
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -1628,7 +1568,7 @@
 1974={ #Samus
 	terrain="hills"
 	culture="aegean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
 	barbarian_power=0
@@ -1654,7 +1594,7 @@
 1977={ #Mylasa
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -1676,7 +1616,7 @@
 1980={ #Stratonicaea
 	terrain="hills"
 	culture="ionian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1698,18 +1638,18 @@
 1981={ #Halicarnassus
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=4
+	}
+	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
-	}
-	citizen={
-		amount=4
 	}
 	freemen={
 		culture="hebrew"
@@ -1730,7 +1670,7 @@
 1984={ #Mobolla
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1752,7 +1692,7 @@
 1985={ #Callipolis Caria
 	terrain="plains"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -1774,18 +1714,18 @@
 1987={ #Cnidus
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=5
+	}
+	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=1
-	}
-	citizen={
-		amount=5
 	}
 	freemen={
 		culture="hebrew"
@@ -1806,7 +1746,7 @@
 1989={ #Caunus
 	terrain="plains"
 	culture="lycian"
-	religion="anatolian_religion"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -1828,7 +1768,7 @@
 1996={ #Astypalaea
 	terrain="hills"
 	culture="aegean"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
 	barbarian_power=0

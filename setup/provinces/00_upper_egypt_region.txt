@@ -1,7 +1,7 @@
 ﻿549={ #Hermopolis Magna
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
@@ -10,14 +10,14 @@
 		amount=1
 	}
 	citizen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
-	}
-	citizen={
-		culture="macedonian"
-		religion="roman_pantheon"
-		amount=1
 	}
 	slaves={
 		amount=1
@@ -30,7 +30,7 @@
 551={ #Besa
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="precious_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -49,7 +49,7 @@
 552={ #Cusae
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="gems"
 	civilization_value=40
 	barbarian_power=0
@@ -71,7 +71,7 @@
 553={ #Lycon
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="precious_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -90,7 +90,7 @@
 554={ #Morae
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -112,7 +112,7 @@
 555={ #Hypsela
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -134,7 +134,7 @@
 556={ #Anteu
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -156,7 +156,7 @@
 557={ #Pano
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -178,7 +178,7 @@
 558={ #Triphium
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -197,7 +197,7 @@
 559={ #Ptolemais Inferioris
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -213,7 +213,7 @@
 560={ #Thinis
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -235,7 +235,7 @@
 561={ #Abydus Aegyptum
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -254,7 +254,7 @@
 562={ #Diospolis Parva
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="horses"
 	civilization_value=40
 	barbarian_power=0
@@ -273,7 +273,7 @@
 563={ #Tentira
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -292,7 +292,7 @@
 564={ #Caene
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=30
 	barbarian_power=0
@@ -308,7 +308,7 @@
 565={ #Ghuzza
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="marble"
 	civilization_value=30
 	barbarian_power=0
@@ -327,7 +327,7 @@
 566={ #Coptus
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=30
 	barbarian_power=0
@@ -340,7 +340,7 @@
 567={ #Apollonopolis Parva
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -359,7 +359,7 @@
 568={ #Ceramice
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -375,7 +375,7 @@
 569={ #Diospolis Magna
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -404,7 +404,7 @@
 570={ #Menonia
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -423,7 +423,7 @@
 571={ #Tercira
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wild_game"
 	civilization_value=40
 	barbarian_power=0
@@ -442,7 +442,7 @@
 572={ #Hermonthis
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -458,7 +458,7 @@
 573={ #Veneris Oppidum
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wild_game"
 	civilization_value=40
 	barbarian_power=0
@@ -477,7 +477,7 @@
 574={ #Latopolis
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -499,7 +499,7 @@
 575={ #Leucotheae
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=30
 	barbarian_power=0
@@ -515,7 +515,7 @@
 578={ #Dunqash
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="marble"
 	civilization_value=30
 	barbarian_power=0
@@ -531,7 +531,7 @@
 579={ #Persou
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="marble"
 	civilization_value=30
 	barbarian_power=0
@@ -547,7 +547,7 @@
 580={ #Myos Hormos
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="marble"
 	civilization_value=30
 	barbarian_power=0
@@ -573,7 +573,7 @@
 581={ #Semna
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="precious_metals"
 	civilization_value=30
 	barbarian_power=0
@@ -592,7 +592,7 @@
 582={ #Siqdit
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=30
 	barbarian_power=0
@@ -611,7 +611,7 @@
 583={ #Berenike
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="earthware"
 	civilization_value=30
 	barbarian_power=0
@@ -633,7 +633,7 @@
 584={ #Vetus Hydreuma
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=30
 	barbarian_power=0
@@ -649,7 +649,7 @@
 585={ #Lahami
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=30
 	barbarian_power=0
@@ -665,7 +665,7 @@
 586={ #Sukkari
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=30
 	barbarian_power=0
@@ -681,7 +681,7 @@
 587={ #Nechesia
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="base_metals"
 	civilization_value=30
 	barbarian_power=0
@@ -697,7 +697,7 @@
 588={ #Aristonis
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="precious_metals"
 	civilization_value=30
 	barbarian_power=0
@@ -713,7 +713,7 @@
 589={ #Falacro
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="precious_metals"
 	civilization_value=30
 	barbarian_power=0
@@ -729,7 +729,7 @@
 590={ #Novum Hydreuma
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="gems"
 	civilization_value=30
 	barbarian_power=0
@@ -751,7 +751,7 @@
 647={ #Leucus Limen
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=30
 	barbarian_power=0
@@ -764,7 +764,7 @@
 649={ #Lykabettus-Porphyrites
 	terrain="hills"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=30
 	barbarian_power=0
@@ -783,7 +783,7 @@
 650={ #Drepanum
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=30
 	barbarian_power=0
@@ -799,7 +799,7 @@
 5500={ #Erebe
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -818,7 +818,7 @@
 5501={ #Pohe
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="camel"
 	civilization_value=40
 	barbarian_power=0
@@ -831,7 +831,7 @@
 5502={ #Gebara
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=40
 	barbarian_power=0
@@ -844,7 +844,7 @@
 5503={ #Gibra
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wild_game"
 	civilization_value=40
 	barbarian_power=0
@@ -857,7 +857,7 @@
 5504={ #Hibis
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -873,7 +873,7 @@
 5505={ #Amura
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=40
 	barbarian_power=0
@@ -892,7 +892,7 @@
 5506={ #Tchonemyris
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -908,7 +908,7 @@
 5507={ #Tabenesse
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fur"
 	civilization_value=40
 	barbarian_power=0
@@ -927,7 +927,7 @@
 5508={ #Kysis
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fur"
 	civilization_value=40
 	barbarian_power=0
@@ -943,7 +943,7 @@
 5509={ #Kellis
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -962,7 +962,7 @@
 5510={ #Mothis
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="camel"
 	civilization_value=40
 	barbarian_power=0
@@ -984,7 +984,7 @@
 5511={ #Trimithis
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=40
 	barbarian_power=0
@@ -1006,7 +1006,7 @@
 5512={ #Thenete
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -1025,7 +1025,7 @@
 5513={ #Parammon
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="precious_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -1047,7 +1047,7 @@
 5514={ #Siwa
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="salt"
 	civilization_value=30
 	barbarian_power=0
@@ -1066,7 +1066,7 @@
 5515={ #Scyaminia
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -1079,7 +1079,7 @@
 5516={ #Perusekh
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wild_game"
 	civilization_value=40
 	barbarian_power=0
@@ -1092,7 +1092,7 @@
 5517={ #Precariton
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -1105,7 +1105,7 @@
 5518={ #Hameka
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=30
 	barbarian_power=0
@@ -1121,7 +1121,7 @@
 5519={ #Simbel
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -1134,7 +1134,7 @@
 5520={ #Cataphri
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="camel"
 	civilization_value=25
 	barbarian_power=0
@@ -1150,7 +1150,7 @@
 5521={ #Boron
 	terrain="desert"
 	culture="meroitic"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="papyrus"
 	civilization_value=25
 	barbarian_power=0
@@ -1166,7 +1166,7 @@
 5522={ #Debiri
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=40
 	barbarian_power=0
@@ -1188,7 +1188,7 @@
 5523={ #Farafra
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fur"
 	civilization_value=30
 	barbarian_power=0
@@ -1204,7 +1204,7 @@
 5524={ #Bishaya
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wild_game"
 	civilization_value=30
 	barbarian_power=0
@@ -1220,7 +1220,7 @@
 5525={ #Tawar
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wild_game"
 	civilization_value=30
 	barbarian_power=0
@@ -1236,7 +1236,7 @@
 5526={ #Minqar
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="stone"
 	civilization_value=30
 	barbarian_power=0
@@ -1258,7 +1258,7 @@
 5527={ #Tablamum
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=30
 	barbarian_power=0
@@ -1271,7 +1271,7 @@
 5528={ #Elassa
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=30
 	barbarian_power=0
@@ -1287,7 +1287,7 @@
 5529={ #Poka
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=30
 	barbarian_power=0
@@ -1300,7 +1300,7 @@
 5530={ #Mandish
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="woad"
 	civilization_value=30
 	barbarian_power=0
@@ -1313,7 +1313,7 @@
 5545={ #Thumat
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="camel"
 	civilization_value=30
 	barbarian_power=0

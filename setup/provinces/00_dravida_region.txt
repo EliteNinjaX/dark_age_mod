@@ -561,7 +561,7 @@
 	}
 	freemen={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=1
 	}
 	slaves={

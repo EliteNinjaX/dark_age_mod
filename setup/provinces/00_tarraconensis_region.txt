@@ -1,7 +1,7 @@
 ﻿1000={ #Emporiae
 	terrain="plains"
 	culture="gothonic"
-	religion="roman_pantheon"
+	religion="arian"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -16,7 +16,6 @@
 		amount=1
 	}
 	tribesmen={
-		religion="animism"
 		amount=4
 	}
 }
@@ -24,7 +23,7 @@
 1001={ #Rhoda
 	terrain="plains"
 	culture="gothonic"
-	religion="roman_pantheon"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -39,7 +38,6 @@
 		amount=1
 	}
 	tribesmen={
-		religion="animism"
 		amount=3
 	}
 }
@@ -47,7 +45,7 @@
 1002={ #Iuncaria
 	terrain="hills"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=20
 	barbarian_power=0
@@ -63,7 +61,7 @@
 1003={ #Blandae
 	terrain="plains"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="glass"
 	civilization_value=20
 	barbarian_power=0
@@ -79,7 +77,7 @@
 1004={ #Lauro
 	terrain="plains"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0
@@ -95,7 +93,7 @@
 1005={ #Auso
 	terrain="hills"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=20
 	barbarian_power=0
@@ -111,7 +109,7 @@
 1006={ #Kallipolis Iberia
 	terrain="plains"
 	culture="gothonic"
-	religion="roman_pantheon"
+	religion="arian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -126,7 +124,6 @@
 		amount=1
 	}
 	tribesmen={
-		religion="animism"
 		amount=3
 	}
 }
@@ -134,7 +131,7 @@
 1007={ #Rubricatum
 	terrain="plains"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=20
 	barbarian_power=0
@@ -150,7 +147,7 @@
 1008={ #Sebendounon
 	terrain="hills"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
@@ -166,7 +163,7 @@
 1009={ #Tarraco
 	terrain="plains"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -188,7 +185,7 @@
 1010={ #Ilerda
 	terrain="forest"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="dye"
 	civilization_value=10
 	barbarian_power=0
@@ -204,7 +201,7 @@
 1011={ #Celsa
 	terrain="plains"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="marble"
 	civilization_value=10
 	barbarian_power=0
@@ -226,7 +223,7 @@
 1012={ #Dertosa
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -248,7 +245,7 @@
 1013={ #Augusta
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -264,7 +261,7 @@
 1014={ #Osca
 	terrain="plains"
 	culture="vasconian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=20
 	barbarian_power=0
@@ -280,7 +277,7 @@
 1015={ #Bilbilis
 	terrain="hills"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -296,7 +293,7 @@
 1016={ #Calagurris Iulia
 	terrain="forest"
 	culture="vasconian"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=20
 	barbarian_power=0
@@ -315,7 +312,7 @@
 1017={ #Oiasso
 	terrain="plains"
 	culture="vasconian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="salt"
 	civilization_value=20
 	barbarian_power=0
@@ -331,7 +328,7 @@
 1018={ #Numantia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -353,7 +350,7 @@
 1052={ #Subur
 	terrain="plains"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -369,7 +366,7 @@
 1053={ #Antistiana
 	terrain="plains"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -385,7 +382,7 @@
 1054={ #Gerunda
 	terrain="plains"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="base_metals"
 	civilization_value=20
 	barbarian_power=0
@@ -407,7 +404,7 @@
 1055={ #Sigarra
 	terrain="plains"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -423,7 +420,7 @@
 1056={ #Setelsis
 	terrain="hills"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=15
 	barbarian_power=0
@@ -439,7 +436,7 @@
 1057={ #Lesos
 	terrain="forest"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -455,7 +452,7 @@
 1058={ #Orgia
 	terrain="mountain"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="base_metals"
 	civilization_value=20
 	barbarian_power=0
@@ -471,7 +468,7 @@
 1059={ #Urgellum
 	terrain="mountain"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
@@ -493,7 +490,7 @@
 1060={ #Ioulia Libika
 	terrain="mountain"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=20
 	barbarian_power=0
@@ -509,7 +506,7 @@
 1061={ #Ad Septimum
 	terrain="forest"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -525,7 +522,7 @@
 1062={ #Ad Novas Iberia
 	terrain="forest"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -541,7 +538,7 @@
 1063={ #Oleastrum
 	terrain="hills"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -557,7 +554,7 @@
 1064={ #Etobesa
 	terrain="forest"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -573,7 +570,7 @@
 1065={ #Caum
 	terrain="plains"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -589,7 +586,7 @@
 1066={ #Mendiculeia
 	terrain="forest"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -605,7 +602,7 @@
 1067={ #Labitolosa
 	terrain="hills"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -621,7 +618,7 @@
 1068={ #Aeso
 	terrain="mountain"
 	culture="gothonic"
-	religion="animism"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=15
 	barbarian_power=0
@@ -637,7 +634,7 @@
 1069={ #Ager
 	terrain="hills"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -653,7 +650,7 @@
 1070={ #Gallika Phlaouia
 	terrain="forest"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -669,7 +666,7 @@
 1071={ #Presuina
 	terrain="plains"
 	culture="ilergetian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -685,7 +682,7 @@
 1072={ #Gallicum
 	terrain="plains"
 	culture="vasconian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="marble"
 	civilization_value=20
 	barbarian_power=0
@@ -701,7 +698,7 @@
 1073={ #Bortina
 	terrain="plains"
 	culture="vasconian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
@@ -717,7 +714,7 @@
 1074={ #Forum Gallorum
 	terrain="hills"
 	culture="vasconian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
@@ -733,7 +730,7 @@
 1075={ #Fibularia
 	terrain="hills"
 	culture="vasconian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=20
 	barbarian_power=0
@@ -749,7 +746,7 @@
 1076={ #Iacca
 	terrain="mountain"
 	culture="vasconian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=20
 	barbarian_power=0
@@ -765,7 +762,7 @@
 1077={ #Iluberis
 	terrain="hills"
 	culture="vasconian"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=20
 	barbarian_power=0
@@ -781,7 +778,7 @@
 1078={ #Pompelo
 	terrain="hills"
 	culture="vasconian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="iron"
 	civilization_value=20
 	barbarian_power=0
@@ -797,7 +794,7 @@
 1080={ #Segia
 	terrain="plains"
 	culture="vasconian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
@@ -813,7 +810,7 @@
 1081={ #Carta
 	terrain="plains"
 	culture="vasconian"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=20
 	barbarian_power=0
@@ -829,7 +826,7 @@
 1082={ #Andelos
 	terrain="plains"
 	culture="vasconian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="wood"
 	civilization_value=20
 	barbarian_power=0
@@ -845,7 +842,7 @@
 1083={ #Aracaeli
 	terrain="hills"
 	culture="vasconian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="salt"
 	civilization_value=20
 	barbarian_power=0
@@ -861,7 +858,7 @@
 1084={ #Beturri
 	terrain="hills"
 	culture="vasconian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="iron"
 	civilization_value=20
 	barbarian_power=0
@@ -877,7 +874,7 @@
 1085={ #Barbariana
 	terrain="hills"
 	culture="vasconian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=20
 	barbarian_power=0
@@ -893,7 +890,7 @@
 1086={ #Tritium Magallum
 	terrain="plains"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
@@ -909,7 +906,7 @@
 1087={ #Vareia
 	terrain="plains"
 	culture="vasconian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
@@ -925,7 +922,7 @@
 1088={ #Ilurcis
 	terrain="forest"
 	culture="vasconian"
-	religion="animism"
+	religion="roman_pantheon"
 	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
@@ -941,7 +938,7 @@
 1089={ #Cascantum
 	terrain="hills"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -957,7 +954,7 @@
 1090={ #Tertakom
 	terrain="hills"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=10
 	barbarian_power=0
@@ -979,7 +976,7 @@
 1091={ #Augustobriga
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -998,7 +995,7 @@
 1092={ #Ouisontion
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1014,7 +1011,7 @@
 1094={ #Auca
 	terrain="plains"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=20
 	barbarian_power=0
@@ -1036,7 +1033,7 @@
 1095={ #Atiliana
 	terrain="plains"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=20
 	barbarian_power=0
@@ -1052,7 +1049,7 @@
 1096={ #Autraca
 	terrain="plains"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
@@ -1068,7 +1065,7 @@
 1097={ #Salionka
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -1084,7 +1081,7 @@
 1098={ #Veleia
 	terrain="hills"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="iron"
 	civilization_value=20
 	barbarian_power=0
@@ -1100,7 +1097,7 @@
 1099={ #Gebala
 	terrain="hills"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0
@@ -1116,7 +1113,7 @@
 1100={ #Tritium
 	terrain="plains"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
@@ -1132,7 +1129,7 @@
 1101={ #Belegia
 	terrain="hills"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=20
 	barbarian_power=0
@@ -1148,7 +1145,7 @@
 1102={ #Bravum
 	terrain="plains"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="olive"
 	civilization_value=10
 	barbarian_power=0
@@ -1164,7 +1161,7 @@
 1104={ #Segontia Paramika
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1180,7 +1177,7 @@
 1105={ #Ouxama Barka
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1196,7 +1193,7 @@
 1106={ #Flaviobriga
 	terrain="hills"
 	culture="autrigonian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="leather"
 	civilization_value=20
 	barbarian_power=0
@@ -1212,7 +1209,7 @@
 1107={ #Brigensium
 	terrain="hills"
 	culture="cantabrian"
-	religion="animism"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -1250,7 +1247,7 @@
 1212={ #Sermonae
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1269,7 +1266,7 @@
 1213={ #Segeda
 	terrain="hills"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1285,7 +1282,7 @@
 1214={ #Carae
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1301,7 +1298,7 @@
 1215={ #Agiria
 	terrain="hills"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -1317,7 +1314,7 @@
 1218={ #Voluca
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1333,7 +1330,7 @@
 1219={ #Uxama Argaela
 	terrain="hills"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1349,7 +1346,7 @@
 1220={ #Aquae Bilbitonorum
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=10
 	barbarian_power=0
@@ -1371,7 +1368,7 @@
 1221={ #Arcobriga
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -1387,7 +1384,7 @@
 1222={ #Okilis
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -1403,7 +1400,7 @@
 1223={ #Segontia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=10
 	barbarian_power=0
@@ -1425,7 +1422,7 @@
 1225={ #Tucris
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -1441,7 +1438,7 @@
 1226={ #Mallia
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -1460,7 +1457,7 @@
 1227={ #Lagni
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1482,7 +1479,7 @@
 1228={ #Colenda
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -1498,7 +1495,7 @@
 1229={ #Comfluenta
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -1517,7 +1514,7 @@
 1230={ #Bellia Desolata
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1533,7 +1530,7 @@
 1231={ #Bellia Relicta
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -1549,7 +1546,7 @@
 1239={ #Indibilis
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -1565,7 +1562,7 @@
 1240={ #Etobesa
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -1581,7 +1578,7 @@
 1241={ #Otobesa
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1603,7 +1600,7 @@
 1242={ #Lassira
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -1619,7 +1616,7 @@
 1243={ #Sedetania
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=10
 	barbarian_power=0
@@ -1635,7 +1632,7 @@
 1244={ #Roburum
 	terrain="hills"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=10
 	barbarian_power=0
@@ -1651,7 +1648,7 @@
 1245={ #Rubium
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=10
 	barbarian_power=0
@@ -1667,7 +1664,7 @@
 1246={ #Dentum
 	terrain="plains"
 	culture="hispania"
-	religion="animism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -1683,7 +1680,7 @@
 1247={ #Columbarium
 	terrain="plains"
 	culture="hispania"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0

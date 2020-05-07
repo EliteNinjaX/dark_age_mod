@@ -1,7 +1,7 @@
 ﻿2453={ #Tullum
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=15
 	barbarian_power=0
@@ -20,7 +20,7 @@
 2454={ #Divodurum
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -39,7 +39,7 @@
 2497={ #Nasium
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=15
 	barbarian_power=0
@@ -55,7 +55,7 @@
 2499={ #Scarponna
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=15
 	barbarian_power=0
@@ -71,7 +71,7 @@
 3002={ #Pannorum
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=10
 	barbarian_power=0
@@ -87,7 +87,7 @@
 3003={ #Solicia
 	terrain="forest"
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=15
 	barbarian_power=0
@@ -106,7 +106,7 @@
 3004={ #Mosa
 	terrain="plains"
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=15
 	barbarian_power=0
@@ -122,7 +122,7 @@
 3007={ #Grannum
 	terrain="forest"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=15
 	barbarian_power=0
@@ -141,7 +141,7 @@
 3009={ #Larga
 	terrain="hills"
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -160,7 +160,7 @@
 3011={ #Epamanduodurum
 	terrain="hills"
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -176,7 +176,7 @@
 3012={ #Augusta Rarica
 	terrain="hills"
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -192,7 +192,7 @@
 3015={ #Aquae Borbonis
 	terrain="forest"
 	culture="gaul"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=15
 	barbarian_power=0
@@ -208,7 +208,7 @@
 3016={ #Vicus Bodatius
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=15
 	barbarian_power=0
@@ -224,7 +224,7 @@
 3017={ #Decem Pagi
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -240,7 +240,7 @@
 3018={ #Rubiacum
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -259,7 +259,7 @@
 3019={ #Argentovaria
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -281,7 +281,7 @@
 3020={ #Helvetum
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -297,7 +297,7 @@
 3021={ #Argentorate
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -313,7 +313,7 @@
 3022={ #Tarodunon
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -329,7 +329,7 @@
 3023={ #Brocomagus
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -351,7 +351,7 @@
 3024={ #Altitona
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -367,7 +367,7 @@
 3025={ #Aurelia Aquensis
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -383,7 +383,7 @@
 3052={ #Saletio
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -399,7 +399,7 @@
 3053={ #Concordia
 	terrain="forest"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -421,7 +421,7 @@
 3054={ #Tabernae
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -437,7 +437,7 @@
 3055={ #Lopodunum
 	terrain="hills"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -456,7 +456,7 @@
 3056={ #Borbetomagus
 	terrain="plains"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -472,7 +472,7 @@
 3691={ #Vicus Contiomagus
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -488,7 +488,7 @@
 3692={ #Mediomatricia
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -507,7 +507,7 @@
 3693={ #Mosellia
 	terrain="forest"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -523,7 +523,7 @@
 3694={ #Leucia
 	terrain="forest"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -542,7 +542,7 @@
 3695={ #Mosellia Minoris
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -558,7 +558,7 @@
 3696={ #Cruciniacum
 	terrain="plains"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -574,7 +574,7 @@
 3697={ #Rouphiniana
 	terrain="plains"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -593,7 +593,7 @@
 3698={ #Altaia
 	terrain="plains"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -609,7 +609,7 @@
 3700={ #Taunensium
 	terrain="plains"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -625,7 +625,7 @@
 3701={ #Mogontiacum
 	terrain="plains"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -644,7 +644,7 @@
 3702={ #Auderiensium
 	terrain="hills"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -660,7 +660,7 @@
 3723={ #Bingium
 	terrain="plains"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -679,7 +679,7 @@
 3725={ #Dumnissus
 	terrain="hills"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -695,7 +695,7 @@
 3733={ #Arae Flaviae
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -717,7 +717,7 @@
 3734={ #Sumelocenna
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -733,7 +733,7 @@
 3735={ #Portus
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -749,7 +749,7 @@
 3736={ #Grinario
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -765,7 +765,7 @@
 3737={ #Vicus Nediensis
 	terrain="hills"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -781,7 +781,7 @@
 3738={ #Vicus Alsinensium
 	terrain="hills"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -797,7 +797,7 @@
 3741={ #Caelius Mons
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -813,7 +813,7 @@
 3742={ #Viana
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -829,7 +829,7 @@
 3743={ #Riusiava
 	terrain="forest"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -845,7 +845,7 @@
 3744={ #Bragodurum
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -861,7 +861,7 @@
 3745={ #Raetia Occidentalis
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -877,7 +877,7 @@
 3746={ #Raetia Orientalis
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -893,7 +893,7 @@
 3750={ #Rapis
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="cloth"
 	civilization_value=10
 	barbarian_power=0
@@ -909,7 +909,7 @@
 3770={ #Ad Lunam
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -922,7 +922,7 @@
 3771={ #Aquileia Germania
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -941,7 +941,7 @@
 3797={ #Mattiacia
 	terrain="hills"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -954,7 +954,7 @@
 3798={ #Vangionia
 	terrain="hills"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=5
 	barbarian_power=0
@@ -967,7 +967,7 @@
 3799={ #Salinae
 	terrain="forest"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=5
 	barbarian_power=0
@@ -980,7 +980,7 @@
 3800={ #Sedusia
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=5
 	barbarian_power=0
@@ -993,7 +993,7 @@
 3801={ #Segodunum
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -1006,7 +1006,7 @@
 3802={ #Locoritum
 	terrain="forest"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=5
 	barbarian_power=0
@@ -1019,7 +1019,7 @@
 3803={ #Armalausia
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -1035,7 +1035,7 @@
 3804={ #Hermunduria
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="germanic_religion"
 	trade_goods="vegetables"
 	civilization_value=5
 	barbarian_power=0
@@ -1051,7 +1051,7 @@
 3805={ #Bergium
 	terrain="plains"
 	culture="alamanni"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=5
 	barbarian_power=0
@@ -1064,7 +1064,7 @@
 3823={ #Melocavus
 	terrain="hills"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=5
 	barbarian_power=0
@@ -1080,7 +1080,7 @@
 3947={ #Turonia
 	terrain="forest"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=5
 	barbarian_power=0
@@ -1093,7 +1093,7 @@
 7732={ #Vicus Augustanus
 	terrain="plains"
 	culture="franks"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0

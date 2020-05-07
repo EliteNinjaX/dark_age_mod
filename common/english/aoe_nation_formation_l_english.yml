@@ -43,10 +43,6 @@
  ARA:0 "Arabia"
  ARA_ADJ:0 "Arabian"
  form_arabia_claims_tooltip:0 "Yamnat will gain Claims on the Region of #Y Arabia Felix#!."
- form_JUD: "Re-Form Judea"
- form_JUD_desc: "Hey lets form Judea."
- JUD_NAME:0 "Judea"
- JUD_ADJECTIVE:0 "Judeaian"
  #Holy Roman Empire
  formable_not_hre_exists:0 "#Y Holy Roman Empire#! must NOT exist."
  form_hre:0 "Form Holy Roman Empire"

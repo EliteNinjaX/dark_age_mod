@@ -1,0 +1,11 @@
+﻿l_english:
+ light_infantry_latin:0 "Limitanei"
+ heavy_infantry_latin:0 "Comitatenses"
+ light_cavalry_latin:0 "Equites"
+ heavy_cavalry_latin:0 "Cataphracts"
+ chariots_latin:0 "Carri"
+ warelephants_latin:1 "Elephanti"
+ archers_latin:1 "Sagitarii"
+ horse_archers_latin:1 "Equites Sagittarii"
+ trireme_latin:1 "Triremis"
+ camels_latin:0 "Dromedarii"

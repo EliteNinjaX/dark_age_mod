@@ -349,7 +349,7 @@
 4371={ #Alexandreia Indos
 	terrain="plains"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="incense"
 	civilization_value=40
 	barbarian_power=0
@@ -752,7 +752,7 @@
 6825={ #Kanthi
 	terrain="marsh"
 	culture="saurashtran"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=25
 	barbarian_power=0

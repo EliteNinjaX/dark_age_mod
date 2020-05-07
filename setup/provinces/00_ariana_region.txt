@@ -214,7 +214,7 @@
 	province_rank="city"
 	citizen={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=2
 	}
 	citizen={
@@ -222,7 +222,7 @@
 	}
 	freemen={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=2
 	}
 	freemen={
@@ -470,7 +470,7 @@
 6541={ #Alexandropolis
 	terrain="desert"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -482,12 +482,12 @@
 		amount=5
 	}
 	slaves={
-		amount=3
-	}
-	slaves={
 		culture="pactyan"
 		religion="zoroaster"
 		amount=7
+	}
+	slaves={
+		amount=3
 	}
 	tribesmen={
 		culture="pactyan"
@@ -595,7 +595,7 @@
 6552={ #Alexandria Sacastene
 	terrain="desert"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -687,7 +687,7 @@
 6558={ #Alexandria Ariorum
 	terrain="hills"
 	culture="macedonian"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -738,7 +738,7 @@
 	province_rank="settlement"
 	citizen={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=2
 	}
 	citizen={
@@ -746,7 +746,7 @@
 	}
 	freemen={
 		culture="macedonian"
-		religion="roman_pantheon"
+		religion="chalcedonian"
 		amount=2
 	}
 	freemen={

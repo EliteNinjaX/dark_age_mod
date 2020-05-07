@@ -1,7 +1,7 @@
 ﻿3301={ #Sabratha
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -33,7 +33,7 @@
 3302={ #Zanazia
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -49,7 +49,7 @@
 3303={ #Oea
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -81,7 +81,7 @@
 3304={ #Amarea
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -102,7 +102,7 @@
 3305={ #Gaphara
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=25
 	barbarian_power=0
@@ -118,7 +118,7 @@
 3306={ #Leptis Magna
 	terrain="plains"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -142,7 +142,7 @@
 3324={ #Kinyps
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -158,7 +158,7 @@
 3325={ #Thubactis
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -174,7 +174,7 @@
 3326={ #Base
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -193,7 +193,7 @@
 3327={ #Thebunte
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -212,7 +212,7 @@
 3329={ #Annesel
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -231,7 +231,7 @@
 3330={ #Auxiu
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -250,7 +250,7 @@
 3332={ #Dysopon
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -264,19 +264,19 @@
 		amount=1
 	}
 	tribesmen={
+		amount=1
+	}
+	tribesmen={
 		culture="garamantic"
 		religion="berber_religion"
 		amount=2
-	}
-	tribesmen={
-		amount=1
 	}
 }
 
 3333={ #Euphranta
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -305,7 +305,7 @@
 3334={ #Iscina
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=25
 	barbarian_power=0
@@ -324,7 +324,7 @@
 3335={ #Aulazon
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=25
 	barbarian_power=0
@@ -336,11 +336,11 @@
 		amount=3
 	}
 	tribesmen={
-		culture="garamantic"
-		religion="berber_religion"
 		amount=1
 	}
 	tribesmen={
+		culture="garamantic"
+		religion="berber_religion"
 		amount=1
 	}
 }
@@ -348,7 +348,7 @@
 3336={ #Ad Palmam
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -374,7 +374,7 @@
 3337={ #Digdida Selorum
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -393,7 +393,7 @@
 3338={ #Arae Philaenorum
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -414,7 +414,7 @@
 3339={ #Automalax
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=25
 	barbarian_power=0
@@ -433,7 +433,7 @@
 3340={ #Boreum
 	terrain="desert"
 	culture="africa"
-	religion="carthaginian_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -452,7 +452,7 @@
 3341={ #Astrochonda
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
 	barbarian_power=0
@@ -461,11 +461,7 @@
 		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		religion="carthaginian_pantheon"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -475,7 +471,7 @@
 3342={ #Caenum
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=35
 	barbarian_power=0
@@ -485,7 +481,6 @@
 	}
 	freemen={
 		culture="africa"
-		religion="carthaginian_pantheon"
 		amount=1
 	}
 }
@@ -493,7 +488,7 @@
 3343={ #Corniclanum
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=35
 	barbarian_power=0
@@ -514,7 +509,7 @@
 3344={ #Serapaeum
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=35
 	barbarian_power=0
@@ -538,7 +533,7 @@
 3345={ #Noetu
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=35
 	barbarian_power=0
@@ -559,7 +554,7 @@
 3346={ #Amastor
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=35
 	barbarian_power=0
@@ -575,7 +570,7 @@
 3347={ #Talliamunera
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=35
 	barbarian_power=0
@@ -599,7 +594,7 @@
 3348={ #Chersis
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
 	barbarian_power=0
@@ -618,7 +613,7 @@
 3349={ #Zau Taberna
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=35
 	barbarian_power=0
@@ -642,7 +637,7 @@
 3350={ #Euesperides
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=35
 	barbarian_power=0
@@ -658,7 +653,7 @@
 3351={ #Chaerecla
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=35
 	barbarian_power=0
@@ -677,7 +672,7 @@
 3352={ #Hadrianopolis
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=35
 	barbarian_power=0
@@ -696,7 +691,7 @@
 3353={ #Tauchira
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=35
 	barbarian_power=0
@@ -715,7 +710,7 @@
 3354={ #Ptolemais
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=35
 	barbarian_power=0
@@ -737,7 +732,7 @@
 3357={ #Barca
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=35
 	barbarian_power=0
@@ -756,7 +751,7 @@
 3358={ #Phykous
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
 	barbarian_power=0
@@ -775,7 +770,7 @@
 3359={ #Balagrae
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=35
 	barbarian_power=0
@@ -799,7 +794,7 @@
 3360={ #Cyrene
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=35
 	barbarian_power=0
@@ -821,7 +816,7 @@
 3361={ #Apollonia Kyrenaiki
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
 	barbarian_power=0
@@ -840,7 +835,7 @@
 3362={ #Agabis
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=35
 	barbarian_power=0
@@ -859,7 +854,7 @@
 3363={ #Darnis
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="spices"
 	civilization_value=35
 	barbarian_power=0
@@ -875,7 +870,7 @@
 3364={ #Marandis
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=35
 	barbarian_power=0
@@ -901,7 +896,7 @@
 3365={ #Aziris
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="spices"
 	civilization_value=35
 	barbarian_power=0
@@ -920,7 +915,7 @@
 3366={ #Paliuris
 	terrain="plains"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=35
 	barbarian_power=0
@@ -939,7 +934,7 @@
 3367={ #Petras Mikros
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=35
 	barbarian_power=0
@@ -955,7 +950,7 @@
 3368={ #Batrachus
 	terrain="desert"
 	culture="cyrenaican"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
 	barbarian_power=0
@@ -965,7 +960,7 @@
 	}
 	freemen={
 		culture="egyptian"
-		religion="egyptian_pantheon"
+		religion="miaphysite"
 		amount=1
 	}
 	tribesmen={
@@ -978,7 +973,7 @@
 3369={ #Gonia
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -994,7 +989,7 @@
 3370={ #Antipyrgus
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1013,7 +1008,7 @@
 3371={ #Crythanium
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1029,7 +1024,7 @@
 3372={ #Meneleus
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1048,7 +1043,7 @@
 3373={ #Catabathmus Maior
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -1070,7 +1065,7 @@
 3374={ #Nesus
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1086,7 +1081,7 @@
 3375={ #Chettaea
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1105,7 +1100,7 @@
 3376={ #Selenis
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
@@ -1121,7 +1116,7 @@
 3377={ #Apis
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
@@ -1137,7 +1132,7 @@
 3378={ #Paraetonium
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -1156,7 +1151,7 @@
 3379={ #Callias Promontorium
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1172,7 +1167,7 @@
 3380={ #Hermaea
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1188,7 +1183,7 @@
 3476={ #Pnigeus
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1204,7 +1199,7 @@
 3477={ #Pedonia
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1220,7 +1215,7 @@
 3478={ #Derras
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1236,7 +1231,7 @@
 5536={ #Sitra
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="leather"
 	civilization_value=30
 	barbarian_power=0
@@ -1252,7 +1247,7 @@
 5537={ #Ammonium
 	terrain="plains"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=30
 	barbarian_power=0
@@ -1274,7 +1269,7 @@
 5538={ #Gargara
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="wild_game"
 	civilization_value=30
 	barbarian_power=0
@@ -1290,7 +1285,7 @@
 5539={ #Zethin
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="camel"
 	civilization_value=30
 	barbarian_power=0
@@ -1303,7 +1298,7 @@
 5540={ #Areg
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=30
 	barbarian_power=0
@@ -1316,7 +1311,7 @@
 5550={ #Alexandrou Parembole
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=30
 	barbarian_power=0
@@ -1332,7 +1327,7 @@
 5551={ #Varias
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="base_metals"
 	civilization_value=30
 	barbarian_power=0
@@ -1345,7 +1340,7 @@
 5552={ #Klimax
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=30
 	barbarian_power=0
@@ -1364,7 +1359,7 @@
 5553={ #Graeas
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="salt"
 	civilization_value=30
 	barbarian_power=0
@@ -1380,7 +1375,7 @@
 5554={ #Sanus
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="leather"
 	civilization_value=30
 	barbarian_power=0
@@ -1393,7 +1388,7 @@
 5555={ #Carnasa
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=30
 	barbarian_power=0
@@ -1406,7 +1401,7 @@
 5556={ #Abid
 	terrain="desert"
 	culture="egyptian"
-	religion="egyptian_pantheon"
+	religion="miaphysite"
 	trade_goods="dates"
 	civilization_value=30
 	barbarian_power=0

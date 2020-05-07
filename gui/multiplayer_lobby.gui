@@ -2085,15 +2085,15 @@ JominiMultiplayerLobby = {
 			
 			country_flag = {
 				position = { 2 0 }
-				name = "Rome"
-				tooltip = "ROMINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ROM').Self )]"
+				name = "Roman Empire"
+				tooltip = "EREINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ERE').Self )]"
 				onmousehierarchyleave = "[ClearHighlightColors]"
 				
 				blockoverride "flag"
 				{
-					texture = "[GetCountry('ROM').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
-					frame = "[GetCountry('ROM').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					texture = "[GetCountry('ERE').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[GetCountry('ERE').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
 					framesize = { 56 56 }
 				}
 				
@@ -2104,7 +2104,7 @@ JominiMultiplayerLobby = {
 				
 				blockoverride "click"
 				{
-					onclick = "[SetLobbyCountryTag('ROM')]"
+					onclick = "[SetLobbyCountryTag('ERE')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}			
@@ -2112,15 +2112,15 @@ JominiMultiplayerLobby = {
 
 			country_flag = {
 				position = { 56 0 }
-				name = "Egypt"
-				tooltip = "EGYINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EGY').Self )]"
+				name = "Persia"
+				tooltip = "PERINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PER').Self )]"
 				onmousehierarchyleave = "[ClearHighlightColors]"
 				
 				blockoverride "flag"
 				{
-					texture = "[GetCountry('EGY').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
-					frame = "[GetCountry('EGY').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					texture = "[GetCountry('PER').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[GetCountry('PER').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
 					framesize = { 56 56 }
 				}
 				
@@ -2131,7 +2131,7 @@ JominiMultiplayerLobby = {
 				
 				blockoverride "click"
 				{
-					onclick = "[SetLobbyCountryTag('EGY')]"
+					onclick = "[SetLobbyCountryTag('PER')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}
@@ -2139,15 +2139,15 @@ JominiMultiplayerLobby = {
 			
 			country_flag = {
 				position = { 110 0 }
-				name = "Carthage"
-				tooltip = "CARINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('CAR').Self )]"
+				name = "Ostrogoths"
+				tooltip = "OGOINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('OGO').Self )]"
 				onmousehierarchyleave = "[ClearHighlightColors]"
 				
 				blockoverride "flag"
 				{
-					texture = "[GetCountry('CAR').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
-					frame = "[GetCountry('CAR').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					texture = "[GetCountry('OGO').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[GetCountry('OGO').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
 					framesize = { 56 56 }
 				}
 				
@@ -2158,7 +2158,7 @@ JominiMultiplayerLobby = {
 				
 				blockoverride "click"
 				{
-					onclick = "[SetLobbyCountryTag('CAR')]"
+					onclick = "[SetLobbyCountryTag('OGO')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}			
@@ -2166,15 +2166,15 @@ JominiMultiplayerLobby = {
 			
 			country_flag = {
 				position = { 164 0 }
-				name = "Macedon"
-				tooltip = "MACINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAC').Self )]"
+				name = "Visigoths"
+				tooltip = "VGOINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('VGO').Self )]"
 				onmousehierarchyleave = "[ClearHighlightColors]"
 				
 				blockoverride "flag"
 				{
-					texture = "[GetCountry('MAC').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
-					frame = "[GetCountry('MAC').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					texture = "[GetCountry('VGO').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[GetCountry('VGO').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
 					framesize = { 56 56 }
 				}
 				
@@ -2185,7 +2185,7 @@ JominiMultiplayerLobby = {
 				
 				blockoverride "click"
 				{
-					onclick = "[SetLobbyCountryTag('MAC')]"
+					onclick = "[SetLobbyCountryTag('VGO')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}			
@@ -2193,15 +2193,15 @@ JominiMultiplayerLobby = {
 	
 			country_flag = {
 				position = { 218 0 }
-				name = "Seleucids"
-				tooltip = "SELINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SEL').Self )]"
+				name = "Burgundians"
+				tooltip = "BURINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('BUR').Self )]"
 				onmousehierarchyleave = "[ClearHighlightColors]"
 				
 				blockoverride "flag"
 				{
-					texture = "[GetCountry('SEL').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
-					frame = "[GetCountry('SEL').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					texture = "[GetCountry('BUR').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[GetCountry('BUR').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
 					framesize = { 56 56 }
 				}
 				
@@ -2212,7 +2212,7 @@ JominiMultiplayerLobby = {
 				
 				blockoverride "click"
 				{
-					onclick = "[SetLobbyCountryTag('SEL')]"
+					onclick = "[SetLobbyCountryTag('BUR')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}
@@ -2220,15 +2220,15 @@ JominiMultiplayerLobby = {
 	
 			country_flag = {
 				position = { 272 0 }
-				name = "Phrygia"
-				tooltip = "PRYINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PRY').Self )]"
+				name = "Gupta"
+				tooltip = "GUPINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('GUP').Self )]"
 				onmousehierarchyleave = "[ClearHighlightColors]"
 				
 				blockoverride "flag"
 				{
-					texture = "[GetCountry('PRY').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
-					frame = "[GetCountry('PRY').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					texture = "[GetCountry('GUP').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[GetCountry('GUP').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
 					framesize = { 56 56 }
 				}
 				
@@ -2239,7 +2239,7 @@ JominiMultiplayerLobby = {
 				
 				blockoverride "click"
 				{
-					onclick = "[SetLobbyCountryTag('PRY')]"
+					onclick = "[SetLobbyCountryTag('GUP')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}
