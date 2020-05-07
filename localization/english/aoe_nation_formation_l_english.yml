@@ -7,7 +7,7 @@
  CCC_ADJ:0 "Pict"
  form_ccc:0 "Create Pictland"
  form_ccc_desc:0 "For many long years, the Picts have eked out a solitary existence on the highlands of Caledonia. The Romans build two different walls to contain us. Uniting the clans, tribes and families of our people has always seemed like an unattainable goal. We believe that this is not so. A mighty leader, with the benevolence and understanding required to rule, could tie together all the Picts in a strong bond."
- inherit_ccc_provinces_tooltip:0 "Any #Y Subject#! provinces required to form Pictland will be annexed."
+ inherit_PIC_provinces_tooltip:0 "Any #Y Subject#! provinces required to form Pictland will be annexed."
  #Hispania
  formable_not_hispania_exists:0 "#Y Hispania#! must NOT exist."
  form_hispania:0 "Form Hispania"

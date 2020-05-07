@@ -1,0 +1,7 @@
+ENG = {
+	color1 = ck2_red
+	color2 = ck2_red
+	textured_emblem = {
+		texture = "ENG.png"
+	}
+}

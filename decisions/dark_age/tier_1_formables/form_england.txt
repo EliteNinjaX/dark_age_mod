@@ -6,16 +6,27 @@
 		potential = {
 			num_of_cities >= 1
 			country_culture = anglosaxon
+				NOT = {
+				tag = ENG
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+				is_tier_2_formable_trigger = yes
+			}
 		}
 		
 		highlight = {
-			OR = {
-				is_in_area = durotrigia_area
-				is_in_area = cantiacia_area
-				is_in_area = icenia_area
-				is_in_area = dobunnia_area
-				is_in_area = cornovia_area
-				is_in_area = coritania_area
+			scope:province = {
+				OR = {
+					is_in_area = dumnonia_area
+					is_in_area = durotrigia_area
+					is_in_area = cantiacia_area
+					is_in_area = icenia_area
+					is_in_area = dobunnia_area
+					is_in_area = coritania_area
+					is_in_area = cornovia_area
+					is_in_area = brigantia_area
+				}
 			}
 		}
 		
@@ -28,47 +39,19 @@
 					}
 				}
 			}
-			num_of_cities >= 50
+			owns_area = dumnonia_area
+			owns_area = durotrigia_area
+			owns_area = cantiacia_area
+			owns_area = icenia_area
+			owns_area = dobunnia_area
+			owns_area = coritania_area
+			owns_area = cornovia_area
+			owns_area = brigantia_area
+			OR = {
+				is_monarchy = yes
+				is_republic = yes
+			}
 			can_form_nation_trigger = yes
-		}
-		
-		ai_allow = {
-			area:durotrigia_area = {
-				any_area_province = {
-					count = all
-					owned_or_subject_owned = root
-				}
-			}
-			area:cantiacia_area = {
-				any_area_province = {
-					count = all
-					owned_or_subject_owned = root
-				}
-			}
-			area:icenia_area = {
-				any_area_province = {
-					count = all
-					owned_or_subject_owned = root
-				}
-			}
-			area:dobunnia_area = {
-				any_area_province = {
-					count = all
-					owned_or_subject_owned = root
-				}
-			}
-			area:cornovia_area = {
-				any_area_province = {
-					count = all
-					owned_or_subject_owned = root
-				}
-			}
-			area:coritania_area = {
-				any_area_province = {
-					count = all
-					owned_or_subject_owned = root
-				}
-			}
 		}
 		
 		effect = {
@@ -77,6 +60,7 @@
 				change_country_adjective = "ENGLAND_ADJECTIVE"
 				change_country_color =  "ck2_red"
 				change_country_tag = ENG
+				change_country_flag = ENG
 			}
 			if = {
 				limit = {
@@ -96,6 +80,7 @@
 				name = formable_country_huge_modifier
 				duration = 7600
 			}
+			add_3_free_province_investments = yes
 			custom_tooltip = "form_england_claims_tooltip"
 			hidden_effect = {
 				every_province = {
