@@ -1,0 +1,5 @@
+﻿l_english:
+ south_slavs:0 "South Slavs"
+ ARMY_NAME_slavic:0 "$NUM$$ORDER$ Warband"
+ NAVY_NAME_slavic:0 "$NUM$$ORDER$ Navy"
+ COHORT_NAME_slavic:0 "$HOME$'s $NUM$$ORDER$ Warband"
