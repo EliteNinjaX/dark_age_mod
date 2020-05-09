@@ -22,8 +22,19 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
 		amount=3
@@ -54,7 +65,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -70,7 +92,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -208,6 +241,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -226,7 +270,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -243,10 +298,18 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	slaves={
 		amount=2
@@ -280,7 +343,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -296,7 +370,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -312,7 +397,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -328,7 +424,18 @@
 	civilization_value=22
 	barbarian_power=0
 	province_rank="city"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -347,8 +454,19 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
 		amount=2
@@ -364,9 +482,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -382,7 +508,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -390,7 +527,7 @@
 	}
 }
 
-2296={ #Condate
+2296={ #Condate Arvernia
 	terrain="forest"
 	culture="gaul"
 	religion="chalcedonian"
@@ -399,9 +536,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -433,7 +578,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -765,7 +921,7 @@
 	}
 }
 
-2319={ #Arelate
+2319={ #Arelatis
 	terrain="farmland"
 	culture="gaul"
 	religion="chalcedonian"
@@ -832,7 +988,7 @@
 	}
 }
 
-2323={ #Aquae Sextiae
+2323={ #Pisavi
 	terrain="plains"
 	culture="gaul"
 	religion="chalcedonian"
@@ -901,7 +1057,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -949,6 +1116,20 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -977,7 +1158,7 @@
 	}
 }
 
-3518={ #Apollinaris Reiorum
+3518={ #Griselica
 	terrain="plains"
 	culture="gaul"
 	religion="chalcedonian"
@@ -1157,7 +1338,7 @@
 	}
 }
 
-3527={ #Lucus Augusti
+3527={ #Vologatae
 	terrain="farmland"
 	culture="gaul"
 	religion="chalcedonian"
@@ -1356,7 +1537,7 @@
 	}
 }
 
-3542={ #Forum Voconii
+3542={ #Matavo
 	terrain="forest"
 	culture="gaul"
 	religion="chalcedonian"

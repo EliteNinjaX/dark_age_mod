@@ -1,7 +1,7 @@
 ﻿4530={ #Hippolaou
 	terrain="forest"
 	culture="bosporan"
-	religion="chalcedonian"
+	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=25
 	barbarian_power=0
@@ -14,7 +14,7 @@
 4531={ #Borysthenia
 	terrain="forest"
 	culture="bosporan"
-	religion="chalcedonian"
+	religion="tengri"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -26,7 +26,7 @@
 
 4532={ #Karkine
 	terrain="forest"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=10
@@ -435,7 +435,7 @@
 
 4551={ #Roxolania
 	terrain="forest"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wine"
 	civilization_value=10
@@ -457,7 +457,7 @@
 
 4552={ #Meotae
 	terrain="forest"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=10
@@ -476,7 +476,7 @@
 
 4553={ #Kremnoi
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=10
@@ -498,7 +498,7 @@
 
 4554={ #Halieuma Theou
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="fur"
 	civilization_value=10
@@ -520,7 +520,7 @@
 
 4555={ #Hygreis
 	terrain="marsh"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=10
@@ -542,7 +542,7 @@
 
 4556={ #Karoia
 	terrain="marsh"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=10
@@ -1086,7 +1086,7 @@
 
 6124={ #Syti
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
@@ -1099,7 +1099,7 @@
 
 6144={ #Ish
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
@@ -1112,7 +1112,7 @@
 
 6146={ #Aegha
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
@@ -1128,7 +1128,7 @@
 
 6147={ #Ruti
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wood"
 	civilization_value=5
@@ -1141,7 +1141,7 @@
 
 7190={ #Kanit
 	terrain="forest"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wood"
 	civilization_value=10
@@ -1154,7 +1154,7 @@
 
 7192={ #Sarmapolis
 	terrain="forest"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wood"
 	civilization_value=10
@@ -1176,7 +1176,7 @@
 
 7193={ #Settina
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="grain"
 	civilization_value=10

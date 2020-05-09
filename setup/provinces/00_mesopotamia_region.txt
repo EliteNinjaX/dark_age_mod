@@ -1481,7 +1481,7 @@
 	}
 }
 
-960={ #Tell Arsan
+960={ #Zibliyat
 	terrain="farmland"
 	culture="babylonian"
 	religion="nestorian"
@@ -1771,7 +1771,7 @@
 	}
 }
 
-981={ #Hulwan
+981={ #Kelonai
 	terrain="hills"
 	culture="macedonian"
 	religion="chalcedonian"
@@ -1875,7 +1875,7 @@
 	}
 }
 
-4970={ #Cheshme
+4970={ #Zaranis
 	terrain="mountain"
 	culture="cossian"
 	religion="nestorian"
@@ -1888,7 +1888,7 @@
 	}
 }
 
-4971={ #Pusht
+4971={ #Sabatika
 	terrain="mountain"
 	culture="cossian"
 	religion="nestorian"

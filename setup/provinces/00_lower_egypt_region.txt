@@ -514,7 +514,7 @@
 	}
 }
 
-521={ #Sebenitus
+521={ #Sebennytus
 	terrain="farmland"
 	culture="egyptian"
 	religion="miaphysite"

@@ -96,7 +96,7 @@
 	}
 }
 
-3066={ #Banasa
+3066={ #Occasum
 	terrain="forest"
 	culture="africa"
 	religion="chalcedonian"

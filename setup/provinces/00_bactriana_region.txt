@@ -14,7 +14,7 @@
 	}
 }
 
-6609={ #Ortespana
+6609={ #Ortespane
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -80,7 +80,7 @@
 	}
 }
 
-6612={ #Begram
+6612={ #Kophen
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -118,7 +118,7 @@
 	}
 }
 
-6614={ #Bamyan
+6614={ #Cartana
 	terrain="plains"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -137,7 +137,7 @@
 	}
 }
 
-6615={ #Gauzaca
+6615={ #Gauzaka
 	terrain="hills"
 	culture="macedonian"
 	religion="chalcedonian"
@@ -217,7 +217,7 @@
 	}
 }
 
-6625={ #Capissa
+6625={ #Kapissa
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -280,7 +280,7 @@
 	}
 }
 
-6628={ #Nysa
+6628={ #Nysa Paropamisadai
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -296,7 +296,7 @@
 	}
 }
 
-6629={ #Curianda
+6629={ #Kourianda
 	terrain="mountain"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -508,7 +508,7 @@
 	}
 }
 
-6638={ #Paros
+6638={ #Paros Paropamisadai
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -524,7 +524,7 @@
 	}
 }
 
-6639={ #Myah
+6639={ #Rana
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -562,7 +562,7 @@
 	}
 }
 
-6641={ #Behsad
+6641={ #Naulibis
 	terrain="mountain"
 	culture="sattagydian"
 	religion="zoroaster"
@@ -645,7 +645,7 @@
 	}
 }
 
-6648={ #Drapsaca
+6648={ #Drapsake
 	terrain="hills"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -713,7 +713,7 @@
 	}
 }
 
-6650={ #Cabolita
+6650={ #Kabolite
 	terrain="mountain"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -764,7 +764,7 @@
 	}
 }
 
-6652={ #Comia
+6652={ #Komeia
 	terrain="plains"
 	culture="hephthalites"
 	religion="chalcedonian"
@@ -780,7 +780,7 @@
 	}
 }
 
-6653={ #Comiana
+6653={ #Komiana
 	terrain="plains"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -898,7 +898,7 @@
 	}
 }
 
-6667={ #Confluenta
+6667={ #Confluenta Margiana
 	terrain="plains"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1089,7 +1089,7 @@
 	}
 }
 
-6674={ #Emshi
+6674={ #Menapila
 	terrain="plains"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1308,7 +1308,7 @@
 	}
 }
 
-6680={ #Qush
+6680={ #Tochara
 	terrain="hills"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1337,7 +1337,7 @@
 	}
 }
 
-6681={ #Qurgan
+6681={ #Tahora
 	terrain="hills"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1490,7 +1490,7 @@
 	}
 }
 
-6689={ #Khatta
+6689={ #Pandokheion
 	terrain="mountain"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1736,7 +1736,7 @@
 	}
 }
 
-6697={ #Khaytabad
+6697={ #Margineia
 	terrain="hills"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1883,7 +1883,7 @@
 	}
 }
 
-7226={ #Kaahka
+7226={ #Sirake
 	terrain="plains"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1900,7 +1900,7 @@
 	}
 }
 
-7227={ #Kerki
+7227={ #Zamm
 	terrain="plains"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1917,7 +1917,7 @@
 	}
 }
 
-7228={ #Dilberjin
+7228={ #Ebousmou Anassa
 	terrain="plains"
 	culture="hephthalites"
 	religion="zoroaster"

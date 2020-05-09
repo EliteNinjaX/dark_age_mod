@@ -413,7 +413,7 @@
 	}
 }
 
-7515={ #Aziris
+7515={ #Aziris Aksum
 	terrain="hills"
 	culture="aksumite"
 	religion="arabian_pantheon"
@@ -455,7 +455,7 @@
 	}
 }
 
-7517={ #Olbia
+7517={ #Olbia Pount
 	terrain="hills"
 	culture="puntic"
 	religion="arabian_pantheon"
@@ -621,7 +621,7 @@
 	}
 }
 
-7523={ #Emporion
+7523={ #Emporion Mosylon
 	terrain="desert"
 	culture="puntic"
 	religion="miaphysite"

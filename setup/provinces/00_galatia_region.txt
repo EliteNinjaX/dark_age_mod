@@ -1241,7 +1241,7 @@
 	}
 }
 
-1925={ #Neapolis Paroreia
+1925={ #Neapolis Paroreias
 	terrain="plains"
 	culture="phrygian"
 	religion="chalcedonian"
@@ -1279,7 +1279,7 @@
 	}
 }
 
-1928={ #Antiochia Pisidius
+1928={ #Antiochia Pisidum
 	terrain="hills"
 	culture="phrygian"
 	religion="chalcedonian"
@@ -1301,7 +1301,7 @@
 	}
 }
 
-1930={ #Apollonia Paroreia
+1930={ #Apollonia Paroreias
 	terrain="hills"
 	culture="phrygian"
 	religion="chalcedonian"

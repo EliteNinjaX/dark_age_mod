@@ -1364,7 +1364,7 @@
 	}
 }
 
-957={ #Tell Mahuz
+957={ #Turshan
 	terrain="plains"
 	culture="assyrian"
 	religion="zoroaster"
@@ -1494,7 +1494,7 @@
 	}
 }
 
-1855={ #Elegeia
+1855={ #Elegeia Sophene
 	terrain="forest"
 	culture="cappadocian"
 	religion="zoroaster"

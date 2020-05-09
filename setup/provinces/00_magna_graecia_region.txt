@@ -830,7 +830,7 @@
 	}
 }
 
-65={ #Lecce
+65={ #Lupiae
 	terrain="farmland"
 	culture="roman"
 	religion="chalcedonian"
@@ -1582,7 +1582,7 @@
 	}
 }
 
-97={ #Thermae Himeraeae
+97={ #Thermai
 	terrain="hills"
 	culture="roman"
 	religion="chalcedonian"

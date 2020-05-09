@@ -175,7 +175,7 @@
 	}
 }
 
-664={ #Apollonia Palestine
+664={ #Apollonia Palestinum
 	terrain="plains"
 	culture="macedonian"
 	religion="miaphysite"
@@ -197,7 +197,7 @@
 	}
 }
 
-665={ #Stratonos Pyrgos
+665={ #Caesarea Maritima
 	terrain="plains"
 	culture="aramaic"
 	religion="miaphysite"
@@ -596,7 +596,7 @@
 	}
 }
 
-686={ #Nicopolis
+686={ #Nicopolis Iudaeam
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1156,7 +1156,7 @@
 	}
 }
 
-715={ #Gadara
+715={ #Gadara Judea
 	terrain="hills"
 	culture="hebrew"
 	religion="judaism"
@@ -1357,8 +1357,11 @@
 	civilization_value=35
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -1374,7 +1377,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1414,6 +1420,12 @@
 	civilization_value=35
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=2
 	}

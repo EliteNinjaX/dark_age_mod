@@ -813,7 +813,7 @@
 	}
 }
 
-3361={ #Apollonia Kyrenaiki
+3361={ #Apollonia Kyrenaikis
 	terrain="plains"
 	culture="cyrenaican"
 	religion="chalcedonian"
@@ -1244,7 +1244,7 @@
 	}
 }
 
-5537={ #Ammonium
+5537={ #Hammon
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"

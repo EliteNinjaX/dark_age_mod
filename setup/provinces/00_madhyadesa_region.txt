@@ -64,7 +64,7 @@
 	}
 }
 
-4404={ #Hastinapur
+4404={ #Hastinapura
 	terrain="farmland"
 	culture="shauraseni"
 	religion="buddhism"
@@ -218,7 +218,7 @@
 	}
 }
 
-4413={ #Sonipat
+4413={ #Sonprastha
 	terrain="farmland"
 	culture="shauraseni"
 	religion="hindu"
@@ -599,7 +599,7 @@
 	}
 }
 
-4436={ #Alavi
+4436={ #Alavi Pancala
 	terrain="farmland"
 	culture="shauraseni"
 	religion="hindu"
@@ -1595,7 +1595,7 @@
 	}
 }
 
-7410={ #Kora
+7410={ #Kora Pancala
 	terrain="farmland"
 	culture="shauraseni"
 	religion="hindu"

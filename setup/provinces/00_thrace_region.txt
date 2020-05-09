@@ -37,10 +37,10 @@
 }
 
 341={ #Philia
-	terrain="farmland"
+	terrain="forest"
 	culture="thracian"
 	religion="chalcedonian"
-	trade_goods="earthware"
+	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
@@ -212,7 +212,10 @@
 		amount=24
 	}
 	slaves={
-		amount=13
+		amount=17
+	}
+	tribesmen={
+		amount=1
 	}
 }
 
@@ -505,7 +508,7 @@
 	}
 }
 
-486={ #Diocletianopolis
+486={ #Viamata
 	terrain="farmland"
 	culture="thracian"
 	religion="chalcedonian"
@@ -562,7 +565,7 @@
 	}
 }
 
-489={ #Adrianople
+489={ #Nike
 	terrain="forest"
 	culture="thracian"
 	religion="chalcedonian"
@@ -723,12 +726,12 @@
 	}
 }
 
-1453={ #Byzantium
-	terrain="farmland"
+1453={ #Constantinople
+	terrain="forest"
 	culture="roman"
 	religion="chalcedonian"
-	trade_goods="papyrus"
-	civilization_value=50
+	trade_goods="earthware"
+	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -738,7 +741,7 @@
 		amount=16
 	}
 	slaves={
-		amount=15
+		amount=10
 	}
 }
 
@@ -1420,7 +1423,7 @@
 	}
 }
 
-4514={ #Ramidava
+4514={ #Vicus Ramidava
 	terrain="marsh"
 	culture="thracian"
 	religion="chalcedonian"
@@ -1487,7 +1490,7 @@
 	}
 }
 
-4518={ #Beroe
+4518={ #Beroe Scythia
 	terrain="marsh"
 	culture="thracian"
 	religion="chalcedonian"

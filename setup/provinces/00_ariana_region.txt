@@ -1,4 +1,4 @@
-﻿3415={ #Gulbah
+﻿3415={ #Throasca
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -17,7 +17,7 @@
 	}
 }
 
-3424={ #Mashiz
+3424={ #Pantyene
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -33,7 +33,7 @@
 	}
 }
 
-3425={ #Cheshme
+3425={ #Tarouana
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -103,7 +103,7 @@
 	}
 }
 
-3470={ #Parvadeh
+3470={ #Simpsimidi
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -333,7 +333,7 @@
 	}
 }
 
-6501={ #Chupanan
+6501={ #Palitas
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -362,7 +362,7 @@
 	}
 }
 
-6503={ #Bayazeh
+6503={ #Pagros
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -649,7 +649,7 @@
 	}
 }
 
-6555={ #Demetrias
+6555={ #Demetrias Arachosias
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -668,7 +668,7 @@
 	}
 }
 
-6557={ #Alexandria Ariorum
+6557={ #Artacoana
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -926,7 +926,7 @@
 	}
 }
 
-6572={ #Chaman
+6572={ #Cotrica
 	terrain="hills"
 	culture="parecanian"
 	religion="zoroaster"
@@ -961,7 +961,7 @@
 	}
 }
 
-6574={ #Khash
+6574={ #Sedrasyra
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -993,7 +993,7 @@
 	}
 }
 
-6576={ #Abad
+6576={ #Abis
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -1012,7 +1012,7 @@
 	}
 }
 
-6577={ #Bampur
+6577={ #Parira
 	terrain="plains"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -1162,7 +1162,7 @@
 	}
 }
 
-6594={ #Bost
+6594={ #Taharene
 	terrain="desert"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1181,7 +1181,7 @@
 	}
 }
 
-6595={ #Delaram
+6595={ #Pharazana
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1200,7 +1200,7 @@
 	}
 }
 
-6596={ #Anar
+6596={ #Thubrasine
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1222,7 +1222,7 @@
 	}
 }
 
-6597={ #Mazar
+6597={ #Zamouchana
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1301,7 +1301,7 @@
 	}
 }
 
-6601={ #Gonabad
+6601={ #Saripha
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1389,7 +1389,7 @@
 	}
 }
 
-6606={ #Hesida
+6606={ #Tribazina
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1408,7 +1408,7 @@
 	}
 }
 
-6607={ #Sethur
+6607={ #Xarxiare
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
@@ -1446,7 +1446,7 @@
 	}
 }
 
-6622={ #Aqagah
+6622={ #Phoklis
 	terrain="mountain"
 	culture="pactyan"
 	religion="zoroaster"
@@ -1503,7 +1503,7 @@
 	}
 }
 
-6646={ #Azav
+6646={ #Soteira
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -1522,7 +1522,7 @@
 	}
 }
 
-6647={ #Guleh
+6647={ #Nisibis
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"

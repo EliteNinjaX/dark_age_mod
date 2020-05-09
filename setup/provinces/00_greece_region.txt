@@ -362,7 +362,7 @@
 	}
 }
 
-403={ #Histiaea
+403={ #Oreus
 	terrain="hills"
 	culture="greek"
 	religion="chalcedonian"
@@ -1543,7 +1543,7 @@
 	}
 }
 
-475={ #Callipolis Aetolia
+475={ #Heraclea Trachinum
 	terrain="hills"
 	culture="greek"
 	religion="chalcedonian"
@@ -1562,7 +1562,7 @@
 	}
 }
 
-476={ #Helicranum
+476={ #Passarum
 	terrain="mountain"
 	culture="epirote"
 	religion="chalcedonian"

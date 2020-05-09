@@ -20,7 +20,7 @@
 	}
 }
 
-4492={ #Bagh
+4492={ #Bagh Anupa
 	terrain="hills"
 	culture="avanti"
 	religion="hindu"
@@ -80,7 +80,7 @@
 	}
 }
 
-6855={ #Akota
+6855={ #Baroda
 	terrain="forest"
 	culture="saurashtran"
 	religion="hindu"
@@ -1795,7 +1795,7 @@
 	}
 }
 
-7143={ #Kalyani
+7143={ #Kalyani Asika
 	terrain="plains"
 	culture="kannadan"
 	religion="hindu"

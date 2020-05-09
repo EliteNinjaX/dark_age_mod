@@ -323,7 +323,7 @@
 	}
 }
 
-753={ #Segeira
+753={ #Zenopolis
 	terrain="hills"
 	culture="aramaic"
 	religion="miaphysite"
@@ -1499,7 +1499,7 @@
 	}
 }
 
-812={ #Nicopolis Syria
+812={ #Nicopolis Syriae
 	terrain="hills"
 	culture="aramaic"
 	religion="chalcedonian"

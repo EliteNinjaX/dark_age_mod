@@ -61,6 +61,7 @@
 		polanes = {}
 		antes = {}
 		south_slavs = {}
+		venedi = {}
 	}
 	
 	barbarian_names = { POLANES VENEDI SAMBIA PECHORY }

@@ -61,7 +61,7 @@
 	}
 }
 
-4354={ #Minnagara
+4354={ #Minnagara Sauvira
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"
@@ -1317,7 +1317,7 @@
 	}
 }
 
-7660={ #Abad
+7660={ #Abad Sauvira
 	terrain="plains"
 	culture="sindhi"
 	religion="hindu"

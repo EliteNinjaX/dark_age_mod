@@ -153,7 +153,7 @@
 	}
 }
 
-3199={ #Nara
+3199={ #Nara Maxyesia
 	terrain="plains"
 	culture="berber"
 	religion="berber_religion"
@@ -251,7 +251,7 @@
 	}
 }
 
-3209={ #Thala
+3209={ #Thala Musulamia
 	terrain="forest"
 	culture="berber"
 	religion="berber_religion"
@@ -856,7 +856,7 @@
 	}
 }
 
-3256={ #Carthago
+3256={ #Carthage
 	terrain="farmland"
 	culture="africa"
 	religion="chalcedonian"
@@ -965,7 +965,7 @@
 	}
 }
 
-3261={ #Rucuma
+3261={ #Thisika
 	terrain="hills"
 	culture="africa"
 	religion="chalcedonian"
@@ -1163,7 +1163,7 @@
 	}
 }
 
-3269={ #Agbia
+3269={ #Thugga
 	terrain="forest"
 	culture="berber"
 	religion="berber_religion"

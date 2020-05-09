@@ -115,7 +115,7 @@
 	}
 }
 
-165={ #Attalea
+165={ #Olbia Pamphylum
 	terrain="plains"
 	culture="greek"
 	religion="chalcedonian"
@@ -318,7 +318,7 @@
 	}
 }
 
-333={ #Soli
+333={ #Soli Cyprianum
 	terrain="hills"
 	culture="cypriot"
 	religion="chalcedonian"
@@ -726,7 +726,7 @@
 	}
 }
 
-1884={ #Thebae
+1884={ #Thebae Cilicum
 	terrain="plains"
 	culture="cilician"
 	religion="chalcedonian"

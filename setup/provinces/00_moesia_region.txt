@@ -299,7 +299,7 @@
 	}
 }
 
-4198={ #Ad Sextum
+4198={ #Ad Sextum Miliarem
 	terrain="plains"
 	culture="illyria"
 	religion="chalcedonian"
@@ -337,7 +337,7 @@
 	}
 }
 
-4200={ #Viminacium
+4200={ #Viminacium Moesia
 	terrain="forest"
 	culture="thracian"
 	religion="slavic"
@@ -527,7 +527,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=2
@@ -546,7 +546,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -949,7 +949,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=3
@@ -968,7 +968,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -978,7 +978,7 @@
 	}
 }
 
-4266={ #Romula
+4266={ #Romula Saldensia
 	terrain="forest"
 	culture="south_slavs"
 	religion="slavic"
@@ -987,7 +987,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=3
@@ -1006,7 +1006,7 @@
 		amount=2
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=2
@@ -1025,7 +1025,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -1044,7 +1044,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=2
@@ -1060,7 +1060,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1079,7 +1079,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1101,7 +1101,7 @@
 		amount=1
 	}
 	freemen={
-		amount=4
+		amount=6
 	}
 	slaves={
 		amount=1
@@ -1120,7 +1120,7 @@
 	barbarian_power=0
 	province_rank="city"
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=2
@@ -1130,7 +1130,7 @@
 	}
 }
 
-4274={ #Confluenta
+4274={ #Confluenta Malvensis
 	terrain="marsh"
 	culture="south_slavs"
 	religion="slavic"
@@ -1139,7 +1139,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -1158,7 +1158,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1174,7 +1174,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -1196,7 +1196,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=1
@@ -1212,7 +1212,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=2
@@ -1234,7 +1234,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -1253,14 +1253,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=4
 	}
 }
 
-4801={ #Comidava
+4801={ #Polondava
 	terrain="plains"
 	culture="south_slavs"
 	religion="slavic"
@@ -1272,7 +1272,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1291,7 +1291,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1310,7 +1310,7 @@
 		amount=2
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -1325,6 +1325,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -1339,7 +1342,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -1358,7 +1361,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1377,7 +1380,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1393,7 +1396,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1408,6 +1411,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -1421,6 +1427,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -1435,7 +1444,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1457,7 +1466,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -1475,6 +1484,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -1488,6 +1500,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -1501,6 +1516,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -1516,6 +1534,9 @@
 	province_rank="settlement"
 	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=2
@@ -1534,7 +1555,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -1552,6 +1573,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=1
 	}
@@ -1567,6 +1591,9 @@
 	province_rank="settlement"
 	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1585,7 +1612,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1601,7 +1628,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1620,7 +1647,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=2
@@ -1638,12 +1665,15 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
 }
 
-4824={ #Confluentiana
+4824={ #Confluentiana Roxolania
 	terrain="hills"
 	culture="south_slavs"
 	religion="slavic"
@@ -1652,7 +1682,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3

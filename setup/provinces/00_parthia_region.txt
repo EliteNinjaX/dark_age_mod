@@ -42,7 +42,7 @@
 	}
 }
 
-3436={ #Abaskun
+3436={ #Asbana
 	terrain="farmland"
 	culture="parthian"
 	religion="zoroaster"
@@ -64,7 +64,7 @@
 	}
 }
 
-3437={ #Kabudan
+3437={ #Sirynx
 	terrain="plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -127,7 +127,7 @@
 	}
 }
 
-3440={ #Bistam
+3440={ #Taga
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -306,7 +306,7 @@
 	}
 }
 
-3450={ #Nev Shapur
+3450={ #Patigrabana
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -455,7 +455,7 @@
 	}
 }
 
-3459={ #Motta
+3459={ #Pasacartia
 	terrain="hills"
 	culture="amardian"
 	religion="zoroaster"
@@ -534,7 +534,7 @@
 	}
 }
 
-3464={ #Haidari
+3464={ #Taua
 	terrain="plains"
 	culture="parthian"
 	religion="zoroaster"
@@ -550,7 +550,7 @@
 	}
 }
 
-3465={ #Kashmar
+3465={ #Siphare
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -588,7 +588,7 @@
 	}
 }
 
-3467={ #Kalaveh
+3467={ #Oscanidati
 	terrain="desert"
 	culture="parthian"
 	religion="zoroaster"
@@ -1001,7 +1001,7 @@
 	}
 }
 
-5437={ #Parthian Gates
+5437={ #Pylai Parthias
 	terrain="mountain"
 	culture="hephthalites"
 	religion="zoroaster"
@@ -1014,7 +1014,7 @@
 	}
 }
 
-6542={ #Actena
+6542={ #Aktene
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"
@@ -1671,7 +1671,7 @@
 	}
 }
 
-7222={ #Cotace
+7222={ #Kotake
 	terrain="hills"
 	culture="parthian"
 	religion="zoroaster"

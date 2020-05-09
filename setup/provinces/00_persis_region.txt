@@ -107,7 +107,7 @@
 	}
 }
 
-948={ #Dezful
+948={ #Dizpul
 	terrain="hills"
 	culture="elamite"
 	religion="zoroaster"
@@ -222,7 +222,7 @@
 	}
 }
 
-966={ #Ram Hurmizd
+966={ #Samangan
 	terrain="hills"
 	culture="elamite"
 	religion="zoroaster"
@@ -241,7 +241,7 @@
 	}
 }
 
-967={ #Rostag Kavag
+967={ #Urzan
 	terrain="plains"
 	culture="elamite"
 	religion="zoroaster"
@@ -343,7 +343,7 @@
 	}
 }
 
-980={ #Dashti
+980={ #Dorista
 	terrain="plains"
 	culture="elamite"
 	religion="nestorian"
@@ -370,7 +370,7 @@
 	}
 }
 
-3399={ #Bagh
+3399={ #Sycta
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -452,7 +452,7 @@
 	}
 }
 
-3403={ #Baktehgan
+3403={ #Batthinia
 	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -506,7 +506,7 @@
 	}
 }
 
-3406={ #Matahr
+3406={ #Nisacus
 	terrain="plains"
 	culture="uxian"
 	religion="zoroaster"
@@ -588,7 +588,7 @@
 	}
 }
 
-3410={ #Baqat
+3410={ #Thospis
 	terrain="mountain"
 	culture="utian"
 	religion="zoroaster"
@@ -661,7 +661,7 @@
 	}
 }
 
-3414={ #Jupar
+3414={ #Stabaei
 	terrain="desert"
 	culture="carmanian"
 	religion="zoroaster"
@@ -718,7 +718,7 @@
 	}
 }
 
-3418={ #Maibad
+3418={ #Nincildae
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -737,7 +737,7 @@
 	}
 }
 
-3419={ #Deysir
+3419={ #Portippa
 	terrain="hills"
 	culture="median"
 	religion="zoroaster"
@@ -778,7 +778,7 @@
 	}
 }
 
-3421={ #Hekah
+3421={ #Rhapses
 	terrain="hills"
 	culture="carmanian"
 	religion="zoroaster"
@@ -800,7 +800,7 @@
 	}
 }
 
-3422={ #Kabr
+3422={ #Nepista
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -1074,7 +1074,7 @@
 	}
 }
 
-4786={ #Borazjan
+4786={ #Temukan
 	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1185,7 +1185,7 @@
 	}
 }
 
-4793={ #Abdun
+4793={ #Cyropolis Persica
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1204,7 +1204,7 @@
 	}
 }
 
-4794={ #Fariyah
+4794={ #Mammica
 	terrain="hills"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1258,7 +1258,7 @@
 	}
 }
 
-4797={ #Seraz
+4797={ #Shirrazish
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1321,7 +1321,7 @@
 	}
 }
 
-4948={ #Guyum
+4948={ #Pylai Sousianes
 	terrain="mountain"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1441,7 +1441,7 @@
 	}
 }
 
-4956={ #Kishar
+4956={ #Portospana
 	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1463,7 +1463,7 @@
 	}
 }
 
-4957={ #Lengeh
+4957={ #Sidene
 	terrain="desert"
 	culture="utian"
 	religion="zoroaster"
@@ -1485,7 +1485,7 @@
 	}
 }
 
-4962={ #Gabandi
+4962={ #Ostana
 	terrain="desert"
 	culture="pasargadi"
 	religion="zoroaster"
@@ -1520,7 +1520,7 @@
 	}
 }
 
-4977={ #Abadeh
+4977={ #Axiana
 	terrain="hills"
 	culture="uxian"
 	religion="zoroaster"
@@ -1558,7 +1558,7 @@
 	}
 }
 
-6508={ #Aqda
+6508={ #Pyctis
 	terrain="desert"
 	culture="median"
 	religion="zoroaster"
@@ -1580,7 +1580,7 @@
 	}
 }
 
-6511={ #Harat
+6511={ #Naserge
 	terrain="plains"
 	culture="uxian"
 	religion="zoroaster"

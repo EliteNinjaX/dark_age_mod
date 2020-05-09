@@ -188,7 +188,7 @@
 	province_rank=""
 }
 
-5848={ #Eowia
+5848={ #Mare Eovium
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -278,7 +278,7 @@
 	province_rank=""
 }
 
-5857={ #Gothlandia
+5857={ #Mare Gothicum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -318,7 +318,7 @@
 	province_rank=""
 }
 
-5861={ #Gothlandia
+5861={ #Mare Gothicum
 	terrain="ocean"
 	culture=""
 	religion=""
@@ -328,7 +328,7 @@
 	province_rank=""
 }
 
-5862={ #Gothlandia
+5862={ #Mare Gothicum
 	terrain="ocean"
 	culture=""
 	religion=""

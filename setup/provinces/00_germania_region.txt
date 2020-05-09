@@ -7,10 +7,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=2
@@ -28,8 +28,11 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -47,8 +50,11 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -63,6 +69,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -71,7 +83,7 @@
 	}
 }
 
-3779={ #Salia
+3779={ #Salia Chasuaria
 	terrain="forest"
 	culture="franks"
 	religion="chalcedonian"
@@ -79,6 +91,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -109,6 +127,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=4
+	}
+	freemen={
 		amount=2
 	}
 	tribesmen={
@@ -116,7 +137,7 @@
 	}
 }
 
-3782={ #Amsivaria
+3782={ #Amsivaria Bructeria
 	terrain="plains"
 	culture="saxonian"
 	religion="germanic_religion"
@@ -140,6 +161,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -148,7 +175,7 @@
 	}
 }
 
-3784={ #Alesia
+3784={ #Alesia Germania
 	terrain="plains"
 	culture="franks"
 	religion="chalcedonian"
@@ -157,7 +184,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=3
@@ -172,6 +202,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=2
 	}
@@ -188,6 +224,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -202,10 +244,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -220,6 +262,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -236,8 +284,11 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -255,6 +306,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -269,7 +326,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -284,8 +344,11 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -301,10 +364,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -320,10 +383,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -339,7 +402,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -357,6 +423,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -373,6 +445,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -386,8 +464,11 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -403,10 +484,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -693,7 +774,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -708,6 +792,12 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -721,8 +811,11 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -785,6 +878,12 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -798,6 +897,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=1
 	}
@@ -811,6 +916,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -846,8 +957,11 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -973,7 +1087,7 @@
 	}
 }
 
-3894={ #Virunum
+3894={ #Virunum Germania
 	terrain="plains"
 	culture="slavic"
 	religion="slavic"
@@ -1140,7 +1254,7 @@
 	}
 }
 
-3905={ #Helveconia
+3905={ #Helveconia Pharodenia
 	terrain="plains"
 	culture="slavic"
 	religion="slavic"
@@ -1228,15 +1342,18 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=4
 	}
 	tribesmen={
 		amount=3
 	}
 }
 
-3958={ #Salia
+3958={ #Salia Chamavia
 	terrain="plains"
 	culture="saxonian"
 	religion="germanic_religion"

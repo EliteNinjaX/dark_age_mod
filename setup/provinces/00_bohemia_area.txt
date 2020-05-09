@@ -103,7 +103,7 @@
 	}
 }
 
-3749={ #Augusta Vindelicum
+3749={ #Vindelicia
 	terrain="plains"
 	culture="rhaetian"
 	religion="chalcedonian"
@@ -187,6 +187,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -203,6 +206,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=2
 	}
@@ -211,7 +217,7 @@
 	}
 }
 
-3768={ #Mediana
+3768={ #Mediana Vendelicia
 	terrain="forest"
 	culture="lombards"
 	religion="arian"
@@ -219,6 +225,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -233,6 +242,19 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=2
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
 		amount=1
 	}
 	tribesmen={
@@ -248,8 +270,21 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
-		amount=2
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -303,6 +338,19 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=2
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
 		amount=1
 	}
 	slaves={
@@ -322,6 +370,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=2
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -337,7 +396,18 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -356,6 +426,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -375,6 +448,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -389,7 +465,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -407,6 +483,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -420,6 +499,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -440,7 +522,7 @@
 		amount=2
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=1
@@ -455,6 +537,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -475,7 +560,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -490,6 +575,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -504,7 +592,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -525,6 +613,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=1
 	}
@@ -542,7 +633,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -574,7 +665,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=3
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -583,7 +677,7 @@
 
 3910={ #Susidaea
 	terrain="plains"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="cattle"
 	civilization_value=5
@@ -596,7 +690,7 @@
 
 3911={ #Nomisterium
 	terrain="hills"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="fur"
 	civilization_value=5
@@ -656,6 +750,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -666,7 +763,7 @@
 
 3915={ #Meliodunum
 	terrain="forest"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="cloth"
 	civilization_value=5
@@ -691,6 +788,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -708,7 +808,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -726,6 +826,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -739,6 +842,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -752,12 +858,15 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
 }
 
-3928={ #Felicia
+3928={ #Felicia Boioa
 	terrain="hills"
 	culture="lombards"
 	religion="arian"
@@ -766,7 +875,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -785,7 +894,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=1
@@ -804,7 +913,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -826,7 +935,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -845,7 +954,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -861,7 +970,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -882,6 +991,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -895,6 +1007,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -911,6 +1026,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -925,7 +1043,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=5
@@ -943,6 +1061,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -959,6 +1080,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -969,7 +1093,7 @@
 
 3941={ #Vandalicia
 	terrain="plains"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="stone"
 	civilization_value=5
@@ -1068,6 +1192,12 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=1
 	}
@@ -1251,7 +1381,7 @@
 
 3979={ #Colancorum
 	terrain="plains"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="wood"
 	civilization_value=5
@@ -1264,7 +1394,7 @@
 
 3980={ #Ad Fines Boiohaemum
 	terrain="hills"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="woad"
 	civilization_value=5
@@ -1328,7 +1458,7 @@
 
 3991={ #Buriana
 	terrain="plains"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="wood"
 	civilization_value=5
@@ -1344,7 +1474,7 @@
 
 3992={ #Buria
 	terrain="plains"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="hemp"
 	civilization_value=5
@@ -1358,9 +1488,9 @@
 	}
 }
 
-3993={ #Stragona
+3993={ #Stragona Buria
 	terrain="plains"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="cattle"
 	civilization_value=5
@@ -1373,7 +1503,7 @@
 
 3997={ #Suevia Minores
 	terrain="plains"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="fur"
 	civilization_value=5
@@ -1392,7 +1522,7 @@
 
 3998={ #Suevia Maiores
 	terrain="plains"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="grain"
 	civilization_value=5
@@ -1405,7 +1535,7 @@
 
 4001={ #Diduniana
 	terrain="forest"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="hemp"
 	civilization_value=5
@@ -1421,7 +1551,7 @@
 
 4002={ #Budorigum
 	terrain="forest"
-	culture="polanes"
+	culture="venedi"
 	religion="slavic"
 	trade_goods="fur"
 	civilization_value=5
@@ -1444,7 +1574,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1460,7 +1590,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3

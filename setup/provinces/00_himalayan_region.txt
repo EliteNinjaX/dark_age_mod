@@ -655,7 +655,7 @@
 	province_rank=""
 }
 
-6720={ #Bascata
+6720={ #Baskata
 	terrain="mountain"
 	culture="hephthalites"
 	religion="tengri"
@@ -1025,7 +1025,7 @@
 	}
 }
 
-6762={ #Kaahka
+6762={ #Kaahka Pamir
 	terrain="mountain"
 	culture="turks"
 	religion="tengri"
@@ -1232,7 +1232,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=1
@@ -1248,7 +1248,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1267,6 +1267,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=2
+	}
+	freemen={
 		amount=2
 	}
 	slaves={

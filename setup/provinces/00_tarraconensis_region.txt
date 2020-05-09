@@ -74,7 +74,7 @@
 	}
 }
 
-1004={ #Lauro
+1004={ #Lauro Iberias
 	terrain="plains"
 	culture="gothonic"
 	religion="arian"
@@ -106,7 +106,7 @@
 	}
 }
 
-1006={ #Kallipolis Iberia
+1006={ #Kallipolis Iberias
 	terrain="plains"
 	culture="gothonic"
 	religion="arian"
@@ -242,7 +242,7 @@
 	}
 }
 
-1013={ #Augusta
+1013={ #Salduba
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"
@@ -551,7 +551,7 @@
 	}
 }
 
-1064={ #Etobesa
+1064={ #Keresos
 	terrain="forest"
 	culture="ilergetian"
 	religion="roman_pantheon"
@@ -1046,7 +1046,7 @@
 	}
 }
 
-1096={ #Autraca
+1096={ #Vindeleia
 	terrain="plains"
 	culture="autrigonian"
 	religion="druidism"
@@ -1492,7 +1492,7 @@
 	}
 }
 
-1229={ #Comfluenta
+1229={ #Confluenta Celtiberia
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"

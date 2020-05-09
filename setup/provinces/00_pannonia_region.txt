@@ -44,6 +44,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -57,6 +60,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -70,6 +76,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -84,14 +93,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=4
 	}
 }
 
-3926={ #Eburodunum
+3926={ #Eburodunum Carnuntia
 	terrain="forest"
 	culture="lombards"
 	religion="arian"
@@ -99,6 +108,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -115,6 +127,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=1
 	}
@@ -128,6 +143,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=2
 	}
@@ -135,8 +153,8 @@
 
 4016={ #Oreinia
 	terrain="plains"
-	culture="polanes"
-	religion="chalcedonian"
+	culture="venedi"
+	religion="slavic"
 	trade_goods="horses"
 	civilization_value=5
 	barbarian_power=0
@@ -159,6 +177,9 @@
 	province_rank="settlement"
 	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -545,7 +566,7 @@
 	}
 }
 
-4143={ #Confluenta
+4143={ #Confluenta Latobicia
 	terrain="forest"
 	culture="gothonic"
 	religion="arian"
@@ -602,7 +623,7 @@
 	}
 }
 
-4146={ #Mursella
+4146={ #Mursella Prima
 	terrain="forest"
 	culture="gothonic"
 	religion="arian"
@@ -1419,7 +1440,7 @@
 	}
 }
 
-4852={ #Burgus
+4852={ #Burgus Quadia
 	terrain="forest"
 	culture="gepids"
 	religion="arian"

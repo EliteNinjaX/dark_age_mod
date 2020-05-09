@@ -6,6 +6,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=2
 	}
@@ -22,6 +25,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -39,7 +45,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -57,6 +63,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -71,7 +80,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -90,7 +99,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=2
@@ -109,7 +118,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=3
@@ -128,7 +137,7 @@
 		amount=3
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=2
@@ -147,7 +156,7 @@
 		amount=2
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=2
@@ -163,7 +172,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -182,7 +191,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=2
@@ -198,7 +207,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -214,7 +223,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=3
@@ -230,7 +239,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -246,6 +255,9 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=2
+	}
+	freemen={
 		amount=2
 	}
 	tribesmen={
@@ -264,6 +276,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -280,6 +295,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -293,6 +311,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -312,6 +333,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -328,6 +352,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -336,7 +363,7 @@
 	}
 }
 
-4297={ #Salinae
+4297={ #Salinae Porolissensis
 	terrain="forest"
 	culture="south_slavs"
 	religion="slavic"
@@ -346,6 +373,9 @@
 	province_rank="settlement"
 	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -367,7 +397,7 @@
 		amount=2
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=3
@@ -377,7 +407,7 @@
 	}
 }
 
-4299={ #Deva
+4299={ #Deva Apulensis
 	terrain="forest"
 	culture="south_slavs"
 	religion="slavic"
@@ -385,6 +415,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -401,6 +434,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}
@@ -420,6 +456,9 @@
 	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=3
 	}
@@ -434,7 +473,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=5
@@ -453,7 +492,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -472,7 +511,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -494,7 +533,7 @@
 		amount=2
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=3
@@ -513,7 +552,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -529,7 +568,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=3
@@ -548,7 +587,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=3
@@ -570,7 +609,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -588,6 +627,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=5
 	}
@@ -605,7 +647,7 @@
 		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -620,6 +662,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=1
 	}
@@ -695,7 +740,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=1
@@ -776,7 +821,7 @@
 	}
 }
 
-4836={ #Ziridava
+4836={ #Ziridava Iazygia
 	terrain="forest"
 	culture="gepids"
 	religion="arian"
@@ -1227,7 +1272,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=2
@@ -1242,6 +1287,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=1
 	}

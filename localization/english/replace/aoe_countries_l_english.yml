@@ -673,6 +673,10 @@
  TUR_ADJ:0 "Göktürkian"
  THU:0 "Thuringia"
  THU_ADJ:0 "Thuringian" 
+ KUT:0 "Kutrigurs"
+ KUT_ADJ:0 "Kutrigur"
+ UTI:0 "Utigurs"
+ UTI_ADJ:0 "Utigur"
  
  #SOUTHWEST
  MRI:0 "Mauri"

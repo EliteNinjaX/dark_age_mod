@@ -49,7 +49,7 @@
 	}
 }
 
-1049={ #Mirobriga
+1049={ #Mirobriga Lusitania
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"
@@ -109,7 +109,7 @@
 	}
 }
 
-1153={ #Salacia
+1153={ #Salacia Aebocosia
 	terrain="hills"
 	culture="callaecian"
 	religion="animism"
@@ -381,7 +381,7 @@
 	}
 }
 
-1196={ #Cauca
+1196={ #Tullium
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"
@@ -1678,7 +1678,7 @@
 	}
 }
 
-1437={ #Augustobriga
+1437={ #Augustobriga Vettonia
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"

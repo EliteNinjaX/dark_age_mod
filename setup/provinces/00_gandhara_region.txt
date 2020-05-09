@@ -80,7 +80,7 @@
 	}
 }
 
-4315={ #Alexandreia Nikaia
+4315={ #Dyrte
 	terrain="forest"
 	culture="gandhari"
 	religion="hindu"
@@ -124,7 +124,7 @@
 	}
 }
 
-4317={ #Dinkot
+4317={ #Rudera
 	terrain="hills"
 	culture="gandhari"
 	religion="hindu"
@@ -320,7 +320,7 @@
 	}
 }
 
-4327={ #Ganjipur
+4327={ #Kaspira
 	terrain="forest"
 	culture="gandhari"
 	religion="buddhism"
@@ -342,7 +342,7 @@
 	}
 }
 
-4328={ #Kohat
+4328={ #Plagira
 	terrain="hills"
 	culture="gandhari"
 	religion="hindu"
@@ -869,7 +869,7 @@
 	}
 }
 
-4380={ #Malloi
+4380={ #Mallonpolis
 	terrain="plains"
 	culture="gandhari"
 	religion="hindu"
@@ -1436,7 +1436,7 @@
 	}
 }
 
-6751={ #Varana
+6751={ #Varana Gandhara
 	terrain="mountain"
 	culture="gandhari"
 	religion="hindu"

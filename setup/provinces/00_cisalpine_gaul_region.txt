@@ -407,7 +407,7 @@
 	}
 }
 
-3544={ #Cemelenum
+3544={ #Navelis
 	terrain="plains"
 	culture="roman"
 	religion="chalcedonian"
@@ -489,7 +489,7 @@
 	}
 }
 
-3548={ #Augusta Bagiennorum
+3548={ #Bagiennia
 	terrain="forest"
 	culture="roman"
 	religion="chalcedonian"
@@ -549,7 +549,7 @@
 	}
 }
 
-3551={ #Augusta Taurinorum
+3551={ #Taurasia
 	terrain="forest"
 	culture="roman"
 	religion="chalcedonian"
@@ -984,7 +984,7 @@
 	}
 }
 
-3572={ #Pavia
+3572={ #Ticinum
 	terrain="plains"
 	culture="roman"
 	religion="chalcedonian"

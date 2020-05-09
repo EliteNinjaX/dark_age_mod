@@ -32,6 +32,7 @@
  anglosaxon:0 "Anglo-Saxon"
  south_slavs:0 "South Slavs"
  hibernian:0 "Irish"
+ venedi:0 "Venedi"
  ARMY_NAME_slavic:0 "$NUM$$ORDER$ Warband"
  NAVY_NAME_slavic:0 "$NUM$$ORDER$ Navy"
  COHORT_NAME_slavic:0 "$HOME$'s $NUM$$ORDER$ Warband"

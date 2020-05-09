@@ -1,4 +1,4 @@
-﻿1={ #Roma
+﻿1={ #Rome
 	terrain="farmland"
 	culture="roman"
 	religion="chalcedonian"

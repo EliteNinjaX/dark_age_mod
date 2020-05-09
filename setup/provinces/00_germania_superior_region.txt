@@ -9,11 +9,19 @@
 	citizen={
 		amount=2
 	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
-		amount=4
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
-		amount=20
+		amount=5
 	}
 }
 
@@ -28,11 +36,19 @@
 	citizen={
 		amount=2
 	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
-		amount=6
+		amount=4
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
-		amount=20
+		amount=5
 	}
 }
 
@@ -44,11 +60,22 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -60,11 +87,22 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -76,11 +114,22 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -93,13 +142,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -112,10 +161,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -127,14 +176,17 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
 		amount=4
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -147,13 +199,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=20
+		amount=5
 	}
 }
 
@@ -166,14 +218,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
-3012={ #Augusta Rarica
+3012={ #Rauracia
 	terrain="hills"
 	culture="gaul"
 	religion="chalcedonian"
@@ -182,10 +234,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -198,10 +250,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -213,11 +265,24 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -229,11 +294,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -245,14 +323,27 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
-		amount=22
+		amount=6
 	}
 }
 
@@ -265,16 +356,26 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		amount=3
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=20
+		amount=5
 	}
 }
 
@@ -286,11 +387,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -302,11 +416,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -318,11 +445,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -337,14 +477,24 @@
 	citizen={
 		amount=2
 	}
-	freemen={
-		amount=6
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
 	}
-	slaves={
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
 		amount=4
 	}
+	slaves={
+		amount=2
+	}
 	tribesmen={
-		amount=20
+		amount=5
 	}
 }
 
@@ -356,11 +506,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -372,11 +535,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -388,11 +564,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -405,16 +594,16 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=20
+		amount=5
 	}
 }
 
@@ -426,11 +615,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -445,11 +647,19 @@
 	citizen={
 		amount=2
 	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
-		amount=6
+		amount=4
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
-		amount=20
+		amount=5
 	}
 }
 
@@ -461,11 +671,14 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
 	freemen={
-		amount=6
+		amount=5
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -477,11 +690,22 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -493,14 +717,25 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -512,11 +747,14 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -528,14 +766,17 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -547,11 +788,22 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -563,11 +815,14 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -579,14 +834,17 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=3
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -598,11 +856,14 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -614,11 +875,14 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -631,13 +895,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		amount=4
 	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -649,11 +913,14 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -666,13 +933,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -684,11 +951,14 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -703,14 +973,24 @@
 	citizen={
 		amount=2
 	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -722,11 +1002,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -738,11 +1031,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -754,11 +1060,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -770,11 +1089,22 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -786,11 +1116,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -802,11 +1145,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -818,11 +1174,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -834,11 +1203,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -850,11 +1232,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -869,8 +1264,21 @@
 	citizen={
 		amount=2
 	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -882,11 +1290,27 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -898,11 +1322,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
-		amount=4
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -914,8 +1351,24 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -927,14 +1380,27 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -946,8 +1412,14 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 }
 
@@ -959,12 +1431,18 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
-3799={ #Salinae
+3799={ #Salinae Chattia
 	terrain="forest"
 	culture="franks"
 	religion="chalcedonian"
@@ -972,8 +1450,14 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -985,12 +1469,28 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
-3801={ #Segodunum
+3801={ #Segodunum Chattia
 	terrain="plains"
 	culture="alamanni"
 	religion="germanic_religion"
@@ -998,8 +1498,24 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -1011,8 +1527,14 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -1024,11 +1546,27 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
 	slaves={
-		amount=6
+		amount=3
 	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -1040,11 +1578,24 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
 	freemen={
-		amount=4
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -1056,8 +1607,22 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -1069,11 +1634,17 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
-	slaves={
+	citizen={
 		amount=2
 	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -1085,8 +1656,14 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 
@@ -1098,11 +1675,14 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	tribesmen={
-		amount=6
+		amount=3
 	}
 }
 

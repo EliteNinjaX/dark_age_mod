@@ -374,7 +374,7 @@
 	}
 }
 
-268={ #Berenice
+268={ #Scepsis
 	terrain="hills"
 	culture="greek"
 	religion="chalcedonian"
@@ -519,7 +519,7 @@
 	}
 }
 
-276={ #Apollonia Lydia
+276={ #Apollonia Mysias
 	terrain="hills"
 	culture="greek"
 	religion="chalcedonian"
@@ -856,7 +856,7 @@
 	}
 }
 
-294={ #Larisa
+294={ #Larisa Ionias
 	terrain="plains"
 	culture="carian"
 	religion="chalcedonian"
@@ -1184,7 +1184,7 @@
 	}
 }
 
-321={ #Hadrianoi
+321={ #Tataula
 	terrain="hills"
 	culture="mysian"
 	religion="chalcedonian"
@@ -1207,7 +1207,7 @@
 	}
 }
 
-337={ #Hadrianoutherai
+337={ #Pioniai
 	terrain="forest"
 	culture="mysian"
 	religion="chalcedonian"
@@ -1689,7 +1689,7 @@
 	}
 }
 
-1985={ #Callipolis Caria
+1985={ #Callipolis Carum
 	terrain="plains"
 	culture="greek"
 	religion="chalcedonian"

@@ -1,6 +1,6 @@
 ﻿6132={ #Solyots
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
@@ -13,7 +13,7 @@
 
 6133={ #Dyrghet
 	terrain="forest"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
@@ -29,7 +29,7 @@
 
 6134={ #Annike
 	terrain="forest"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
@@ -42,7 +42,7 @@
 
 6135={ #Thense
 	terrain="forest"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
@@ -55,7 +55,7 @@
 
 6136={ #Skurtisk
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
@@ -68,7 +68,7 @@
 
 6137={ #Voynor
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
@@ -84,7 +84,7 @@
 
 6138={ #Ghart
 	terrain="forest"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
@@ -97,7 +97,7 @@
 
 6140={ #Tahent
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="grain"
 	civilization_value=5
@@ -113,7 +113,7 @@
 
 6143={ #Aghonor
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="grain"
 	civilization_value=5
@@ -126,7 +126,7 @@
 
 6148={ #Nynt
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
@@ -145,7 +145,7 @@
 
 6149={ #Ghahko
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wood"
 	civilization_value=5
@@ -164,7 +164,7 @@
 
 6150={ #Kihkyengra
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wild_game"
 	civilization_value=5
@@ -177,7 +177,7 @@
 
 6151={ #Alkhyent
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
@@ -190,7 +190,7 @@
 
 6152={ #Kilgad
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
@@ -203,7 +203,7 @@
 
 6153={ #Uldan
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
@@ -225,7 +225,7 @@
 
 6154={ #Rynek
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
@@ -241,7 +241,7 @@
 
 6155={ #Kisko
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
@@ -254,7 +254,7 @@
 
 6156={ #Aihkohna
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=5
@@ -267,7 +267,7 @@
 
 6157={ #Shgaritat
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
@@ -283,7 +283,7 @@
 
 6158={ #Unige
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
@@ -296,7 +296,7 @@
 
 6159={ #Stat
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
@@ -309,7 +309,7 @@
 
 6160={ #Verhyn
 	terrain="forest"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="vegetables"
 	civilization_value=5
@@ -322,7 +322,7 @@
 
 6161={ #Yakkant
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
@@ -335,7 +335,7 @@
 
 6162={ #Ygast
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=5
@@ -348,7 +348,7 @@
 
 6163={ #Vyonots
 	terrain="plains"
-	culture="avars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="grain"
 	civilization_value=5
@@ -364,7 +364,7 @@
 
 6164={ #Shchor
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
@@ -380,7 +380,7 @@
 
 6165={ #Vel
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="woad"
 	civilization_value=5
@@ -393,7 +393,7 @@
 
 6166={ #Gyrones
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
@@ -406,7 +406,7 @@
 
 6167={ #Stetta
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
@@ -419,7 +419,7 @@
 
 6168={ #Ushkan
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
@@ -432,7 +432,7 @@
 
 6169={ #Veryi
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
@@ -445,7 +445,7 @@
 
 6170={ #Dolom
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="grain"
 	civilization_value=5
@@ -458,7 +458,7 @@
 
 6171={ #Galligh
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
@@ -471,7 +471,7 @@
 
 6172={ #Uron
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="vegetables"
 	civilization_value=5
@@ -484,7 +484,7 @@
 
 6173={ #Sythachka
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
@@ -497,7 +497,7 @@
 
 6174={ #Scytte
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="leather"
 	civilization_value=5
@@ -510,7 +510,7 @@
 
 6175={ #Shashcha
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
@@ -523,7 +523,7 @@
 
 6176={ #Molon
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
@@ -536,7 +536,7 @@
 
 6177={ #Ishkenk
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
@@ -552,7 +552,7 @@
 
 6178={ #Ganka
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="cloth"
 	civilization_value=5
@@ -568,7 +568,7 @@
 
 6179={ #Yoro
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="horses"
 	civilization_value=5
@@ -581,7 +581,7 @@
 
 6180={ #Vygriya
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
@@ -594,7 +594,7 @@
 
 6181={ #Achkach
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
@@ -607,7 +607,7 @@
 
 6182={ #Ighkoy
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="hemp"
 	civilization_value=5
@@ -620,7 +620,7 @@
 
 6183={ #Yuty
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
@@ -633,7 +633,7 @@
 
 6184={ #Yovolat
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="fur"
 	civilization_value=5
@@ -672,7 +672,7 @@
 
 6187={ #Zhutikka
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="base_metals"
 	civilization_value=5
@@ -701,7 +701,7 @@
 
 6189={ #Arn
 	terrain="plains"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="wood"
 	civilization_value=5

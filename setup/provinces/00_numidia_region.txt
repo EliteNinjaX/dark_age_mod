@@ -1139,7 +1139,7 @@
 	}
 }
 
-3173={ #Burgus
+3173={ #Burgus Gaetulia
 	terrain="plains"
 	culture="berber"
 	religion="berber_religion"

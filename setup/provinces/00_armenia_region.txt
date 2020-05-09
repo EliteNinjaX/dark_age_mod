@@ -272,7 +272,7 @@
 	}
 }
 
-998={ #Artemita
+998={ #Artemita Vaspurakan
 	terrain="hills"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1382,7 +1382,7 @@
 	}
 }
 
-1576={ #Kainepolis
+1576={ #Kainepolis Syracene
 	terrain="plains"
 	culture="armenian"
 	religion="armenian_religion"
@@ -1458,7 +1458,7 @@
 	}
 }
 
-1581={ #Eruandakert
+1581={ #Eruandashat
 	terrain="forest"
 	culture="armenian"
 	religion="armenian_religion"

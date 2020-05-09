@@ -2238,7 +2238,7 @@
 	province_rank=""
 }
 
-6418={ #
+6418={ #Sinus Thermaeus
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2248,7 +2248,7 @@
 	province_rank=""
 }
 
-6436={ #
+6436={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""
@@ -2258,7 +2258,7 @@
 	province_rank=""
 }
 
-6437={ #
+6437={ #Mare Aegaeum
 	terrain="coastal_terrain"
 	culture=""
 	religion=""

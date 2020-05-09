@@ -6,6 +6,20 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -19,7 +33,18 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -35,7 +60,18 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -51,7 +87,18 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -68,9 +115,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -89,7 +144,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -105,7 +171,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -121,7 +198,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -154,9 +242,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -470,10 +566,18 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
 		amount=5
@@ -489,10 +593,18 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
 		amount=5
@@ -639,7 +751,7 @@
 	}
 }
 
-2279={ #Fines
+2279={ #Sarnali
 	terrain="plains"
 	culture="gothonic"
 	religion="arian"
@@ -683,10 +795,18 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	slaves={
 		amount=3
@@ -705,9 +825,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -723,7 +851,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -758,7 +897,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -775,10 +925,18 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
 		amount=6
@@ -793,7 +951,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -809,7 +978,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -825,8 +1005,19 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	tribesmen={
 		amount=4
@@ -841,7 +1032,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -857,7 +1059,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -873,7 +1086,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -892,7 +1116,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -911,7 +1146,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -928,9 +1174,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -946,7 +1200,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -962,7 +1227,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -978,7 +1254,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -994,7 +1281,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1010,7 +1308,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1026,7 +1335,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1043,9 +1363,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1061,6 +1389,20 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -1074,7 +1416,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1091,10 +1444,18 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -1112,7 +1473,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1129,10 +1501,18 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
 	}
 	slaves={
 		amount=2
@@ -1151,9 +1531,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -1172,7 +1560,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1189,9 +1588,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
 		amount=2
 	}
 	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -1210,7 +1617,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1226,7 +1644,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	slaves={
@@ -1245,7 +1674,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1261,7 +1701,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1277,7 +1728,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1294,9 +1756,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="franks"
 		amount=1
 	}
+	citizen={
+		amount=2
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1312,7 +1782,18 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1328,7 +1809,18 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1344,7 +1836,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1360,6 +1863,20 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -1373,7 +1890,18 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1389,7 +1917,18 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1405,7 +1944,18 @@
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1421,7 +1971,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1437,7 +1998,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1453,7 +2025,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1469,7 +2052,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1485,7 +2079,18 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
 	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
 		amount=1
 	}
 	tribesmen={
@@ -1501,6 +2106,20 @@
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}

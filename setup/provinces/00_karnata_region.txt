@@ -20,7 +20,7 @@
 	}
 }
 
-6884={ #Chersonesos
+6884={ #Chersonesos Vanavasi
 	terrain="hills"
 	culture="kannadan"
 	religion="hindu"

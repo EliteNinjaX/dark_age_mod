@@ -1,4 +1,4 @@
-﻿1023={ #Mantua
+﻿1023={ #Mantua Carpetania
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"
@@ -250,7 +250,7 @@
 	}
 }
 
-1036={ #Cartagena
+1036={ #Mastia
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"
@@ -838,7 +838,7 @@
 	}
 }
 
-1258={ #Mariana
+1258={ #Mariana Lobetania
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"
@@ -886,7 +886,7 @@
 	}
 }
 
-1261={ #Ad Putea
+1261={ #Ad Putea Iberia
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"
@@ -1285,7 +1285,7 @@
 	}
 }
 
-1457={ #Solicia
+1457={ #Solicia Carpetania
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"

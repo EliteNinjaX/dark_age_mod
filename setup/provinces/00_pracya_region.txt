@@ -1706,7 +1706,7 @@
 	}
 }
 
-7653={ #Manasa
+7653={ #Manasa Kamata
 	terrain="hills"
 	culture="kamarupi"
 	religion="hindu"

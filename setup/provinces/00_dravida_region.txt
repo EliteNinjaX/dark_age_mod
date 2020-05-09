@@ -223,7 +223,7 @@
 	}
 }
 
-6926={ #Bata
+6926={ #Bata Pandiya
 	terrain="farmland"
 	culture="tamil"
 	religion="jainism"

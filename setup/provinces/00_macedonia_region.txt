@@ -485,7 +485,7 @@
 	}
 }
 
-391={ #Demetrius
+391={ #Pagasae
 	terrain="hills"
 	culture="greek"
 	religion="chalcedonian"
@@ -801,7 +801,7 @@
 	}
 }
 
-428={ #Aegae
+428={ #Aegeae
 	terrain="plains"
 	culture="macedonian"
 	religion="chalcedonian"

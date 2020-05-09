@@ -157,7 +157,7 @@
 	}
 }
 
-208={ #Amastrum
+208={ #Sesamus
 	terrain="forest"
 	culture="bithynian"
 	religion="chalcedonian"
@@ -627,7 +627,7 @@
 	}
 }
 
-235={ #Nicomedia
+235={ #Trikomia
 	terrain="plains"
 	culture="bithynian"
 	religion="chalcedonian"
@@ -901,7 +901,7 @@
 	}
 }
 
-248={ #Apamea Myrlea
+248={ #Myrlea
 	terrain="plains"
 	culture="greek"
 	religion="chalcedonian"
@@ -1794,7 +1794,7 @@
 	}
 }
 
-1826={ #Pteria
+1826={ #Pteria Pontus
 	terrain="forest"
 	culture="paphlagonian"
 	religion="chalcedonian"

@@ -448,7 +448,7 @@
 	province_rank=""
 }
 
-5000={ #
+5000={ #Aetna Volcano
 	terrain=""
 	culture="syracusan"
 	religion="chalcedonian"
@@ -1068,7 +1068,7 @@
 	province_rank=""
 }
 
-5062={ #
+5062={ #Parnes Mons
 	terrain=""
 	culture="athenian"
 	religion="chalcedonian"
@@ -2148,7 +2148,7 @@
 	province_rank=""
 }
 
-5170={ #
+5170={ #Argaeus Mons Volcano
 	terrain=""
 	culture="paphlagonian"
 	religion="chalcedonian"
@@ -2548,7 +2548,7 @@
 	province_rank=""
 }
 
-5210={ #
+5210={ #Bamni Volcano
 	terrain=""
 	culture="armenian"
 	religion="armenian_religion"
@@ -2568,7 +2568,7 @@
 	province_rank=""
 }
 
-5212={ #
+5212={ #Ararat Volcano
 	terrain=""
 	culture="armenian"
 	religion="armenian_religion"
@@ -3420,7 +3420,7 @@
 
 5297={ #Carpathia
 	terrain=""
-	culture="bulgars"
+	culture="polanes"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -3678,7 +3678,7 @@
 	province_rank=""
 }
 
-5323={ #
+5323={ #Caucasus Mons Volcano
 	terrain=""
 	culture="colchian"
 	religion="caucasian_religion"
@@ -3688,7 +3688,7 @@
 	province_rank=""
 }
 
-5324={ #
+5324={ #Iberia Mons Volcano
 	terrain=""
 	culture="ibero"
 	religion="caucasian_religion"

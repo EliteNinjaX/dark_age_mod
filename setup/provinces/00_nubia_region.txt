@@ -150,7 +150,7 @@
 	}
 }
 
-596={ #Aramoum
+596={ #Aramum
 	terrain="plains"
 	culture="meroitic"
 	religion="miaphysite"
@@ -207,7 +207,7 @@
 	}
 }
 
-599={ #Cambusis
+599={ #Kambousis
 	terrain="plains"
 	culture="meroitic"
 	religion="miaphysite"
@@ -308,7 +308,7 @@
 	}
 }
 
-604={ #Semna
+604={ #Semna Nubia
 	terrain="desert"
 	culture="meroitic"
 	religion="miaphysite"

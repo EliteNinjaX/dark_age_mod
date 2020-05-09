@@ -6,6 +6,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -22,6 +25,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -35,6 +41,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -48,6 +57,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -80,6 +92,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -93,6 +108,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -106,6 +124,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -119,6 +140,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -132,6 +156,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -145,6 +172,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -158,6 +188,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -171,6 +204,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -184,12 +220,15 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
 }
 
-2118={ #Creones
+2118={ #Creones Borealis
 	terrain="marsh"
 	culture="pict"
 	religion="druidism"
@@ -197,6 +236,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -210,6 +252,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -223,6 +268,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=5
 	}
@@ -236,6 +284,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -249,6 +300,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -262,6 +316,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -275,6 +332,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -288,6 +348,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -301,6 +364,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -314,6 +380,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -327,6 +396,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -340,6 +412,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -353,6 +428,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -366,6 +444,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -379,6 +460,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -392,6 +476,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -405,6 +492,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -418,6 +508,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -431,6 +524,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -444,12 +540,15 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
 }
 
-2165={ #Coriondia
+2165={ #Coriondia Borealis
 	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
@@ -457,6 +556,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -470,6 +572,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -483,6 +588,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -496,6 +604,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -509,6 +620,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -522,6 +636,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -535,6 +652,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -548,6 +668,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -561,6 +684,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -574,6 +700,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -587,6 +716,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -600,6 +732,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -613,6 +748,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -626,6 +764,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=5
 	}
@@ -639,6 +780,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -652,6 +796,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -665,6 +812,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -678,6 +828,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -691,6 +844,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -704,6 +860,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -717,6 +876,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -730,6 +892,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=5
 	}
@@ -743,6 +908,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=6
 	}
@@ -756,6 +924,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -769,6 +940,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -782,6 +956,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -795,6 +972,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -808,6 +988,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -821,6 +1004,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -834,6 +1020,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -847,6 +1036,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=3
 	}
@@ -860,6 +1052,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -873,6 +1068,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -886,6 +1084,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -899,6 +1100,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=5
 	}
@@ -912,6 +1116,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=4
 	}
@@ -925,6 +1132,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -938,6 +1148,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -951,6 +1164,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -964,6 +1180,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -977,6 +1196,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -990,6 +1212,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -1003,6 +1228,9 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -1016,12 +1244,15 @@
 	civilization_value=5
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
 }
 
-6311={ #
+6311={ #Creones Australis
 	terrain="plains"
 	culture="pict"
 	religion="druidism"
@@ -1029,6 +1260,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=1
 	}
@@ -1042,6 +1276,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
@@ -1055,6 +1292,9 @@
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=2
 	}
