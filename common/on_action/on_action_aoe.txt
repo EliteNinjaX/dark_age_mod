@@ -30,5 +30,6 @@ on_game_initialized = {
 		aoe_startup_events.6
 		aoe_startup_events.7
 		aoe_startup_events.8
+		aoe_startup_events.9
 	}
 }
