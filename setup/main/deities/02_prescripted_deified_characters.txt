@@ -28,5 +28,12 @@ deity_manager = {
             deify_ruler_permanent = yes
             is_universal_deity = yes
         }
+		1355 = {
+            key = omen_peter
+            deity = deity_peter
+            deify_ruler = 44
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
     }
 }

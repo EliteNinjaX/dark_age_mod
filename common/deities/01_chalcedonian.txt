@@ -9,8 +9,8 @@ deity_matthew = {
 		}
 	}
 	icon = deity_wealth
-	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
-	omen = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue }
+	passive_modifier = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue }
+	omen = { global_tax_modifier = deity_global_tax_modifier_svalue }
 	religion = chalcedonian
 	deity_category = economy #This Deity uses an Economy Slot
 	
@@ -36,13 +36,16 @@ deity_mark = {
 		}
 	}
 	icon = deity_eloquence
-	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
-	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	passive_modifier = { research_points_modifier = omen_research_points_modifier_svalue }
+	omen = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	religion = chalcedonian
 	deity_category = culture #This Deity uses a Culture Slot
 	
 	on_activate = {
-		add_1_free_province_investments = yes
+		add_research = {
+			technology = religious_tech
+			value = 10					  
+		}
 	}
 	
 	deification_trigger = {
@@ -83,8 +86,32 @@ deity_mary = {
 		}
 	}
 	icon = deity_love
-	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
-	omen = { hostile_attrition = omen_hostile_attrition_svalue } #Bonus from Omen
+	passive_modifier = { manpower_recovery_speed = deity_global_manpower_recovery_speed_svalue }
+	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
+	religion = chalcedonian
+	deity_category = fertility #This Deity uses an Economy Slot
+	
+	on_activate = {
+		create_2_citizens_effect = yes
+	}
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_peter = {
+	trigger = {
+	OR = {
+			religion = chalcedonian
+			religion = miaphysite
+			religion = nestorian
+			religion = arian
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue }
+	omen = { hostile_attrition = omen_hostile_attrition_svalue }
 	religion = chalcedonian
 	deity_category = fertility #This Deity uses an Economy Slot
 	

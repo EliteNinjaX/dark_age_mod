@@ -3,7 +3,7 @@
 1={
 		first_name="Matthew"
 		family_name=" "
-		nickname="'the Apostle'"
+		nickname="'the Evangelist'"
 		birth_date=1.1.2
 		death_date=120.1.2
 		culture="hebrew"
@@ -13,6 +13,7 @@
 		add_charisma=12
 		add_finesse=12
 		add_zeal=12
+		no_traits=yes
 		add_trait="devout"
 		add_trait="scholar"
 		add_trait="silver_tongued"
@@ -31,6 +32,7 @@
 		add_charisma=12
 		add_finesse=12
 		add_zeal=12
+		no_traits=yes
 		add_trait="devout"
 		add_trait="scholar"
 		add_trait="silver_tongued"
@@ -71,8 +73,28 @@
 		no_stats=yes
 		no_traits=yes
 		add_trait="devout"
+		add_trait="silver_tongued"
 		culture="hebrew"
 		religion="chalcedonian"
 		dna="Heod6rh3uHdkW2RbAogCiAJmAmYCjwKPAnYCdgJuAm4CagJqA5oDmgJ8AnwBXQFdAnsCewJmAmYCiwKLAo8CjwKRApECcAJwAo0CjQJ1AnUCZwJnAo8CjwKZApkCfAJ8AVABUATXBNcCZwJnApUClQKVApUChgKGApkCmQKHAocCjQKNAoMCgwJzAnMCfQJ9AoUChQKGAoYCcAJwAngCeAA3ADcCggKCAmcCZwKZApkCfAJ8ApgCmAKLAosCZgJmAVsBWwJuAm4CZgJmAVMBUwJ0AnQCaAJoAogCiAKXApcClQKVAn8CfwJdAl0C7wLvAC0ALQLYAtgBYwFjAIsAiwElASUBXgFeAVQBVAF3AXcA+QD5AQEBAQAAAAAC2ALYAI4AjgCBAIEAJwAnAFgAWABEAEQAVgBWAPAA8AAAAAAA/wD/AQkBCQAxADEBdgF2AN4A3gMWAxYCugK6BIkEiQB0AHQBUAFQAM8AzwERAREF4wXjAAAAAANhA2EBlwGXANYA1gkyCTIBXwFfAF8AXwAAAAAAAAAAAAAAAA=="
+	}
+	44={
+		first_name="Simon Peter"
+		family_name=" "
+		nickname="'the Apostle'"
+		birth_date=1.1.2
+		death_date=120.1.2
+		culture="hebrew"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=5
+		add_charisma=15
+		add_finesse=10
+		add_zeal=15
+		no_traits=yes
+		add_trait="devout"
+		add_trait="scholar"
+		add_trait="brave"
+		dna="Z+Vn5bSJtImu4K7gAnECcQFhAWECdQJ1ACQAJAKFAoUCZwJnAWEBYQTeBN4CdAJ0Am0CbQKBAoEDtAO0An4CfgJ7AnsCeQJ5AnUCdQKZApkCegJ6Ao8CjwJtAm0CcgJyApACkAJwAnACdgJ2AVwBXAKIAogChwKHAogCiAJ+An4CbwJvAm0CbQJmAmYBZgFmApQClAJ4AngCkAKQAnECcQKHAocBYgFiBOQE5AKWApYCjwKPAnoCegOlA6UCgwKDAoUChQFbAVsALgAuAn8CfwKYApgCjgKOADkAOQJvAm8CfAJ8ApECkQIDAgMBdQF1AHwAfAF4AXgBTwFPASoBKgA0ADQBHwEfAT8BPwFFAUUDHwMfAKMAowAAAAAAFAAUArACsAAzADMCvAK8AKUApQCFAIUB1gHWAOIA4gAAAAAAmACYAV4BXgCsAKwAxQDFAAUABQC8ALwBLgEuAyEDIQFlAWUCmAKYAUQBRACHAIcI6gjqAAAAAAX8BfwENgQ2AeAB4AL4AvgDMAMwA0cDRwAAAAAAAAAAAAAAAA=="
 	}
 }

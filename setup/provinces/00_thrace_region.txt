@@ -37,10 +37,10 @@
 }
 
 341={ #Philia
-	terrain="forest"
+	terrain="farmland"
 	culture="thracian"
 	religion="chalcedonian"
-	trade_goods="fish"
+	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
@@ -212,10 +212,7 @@
 		amount=24
 	}
 	slaves={
-		amount=17
-	}
-	tribesmen={
-		amount=1
+		amount=13
 	}
 }
 
@@ -727,11 +724,11 @@
 }
 
 1453={ #Byzantium
-	terrain="forest"
+	terrain="farmland"
 	culture="roman"
 	religion="chalcedonian"
-	trade_goods="earthware"
-	civilization_value=40
+	trade_goods="papyrus"
+	civilization_value=50
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -741,7 +738,7 @@
 		amount=16
 	}
 	slaves={
-		amount=10
+		amount=15
 	}
 }
 
