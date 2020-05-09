@@ -1,0 +1,30 @@
+﻿namespace = plague_events
+
+plague_events.2 = {
+	type = country_event
+	title = "plague_events.2.t"
+	desc = "plague_events.2.desc"
+	picture = revolt
+	goto_location = root
+	trigger = {
+		any_owned_province = {
+				is_in_region = thrace_region
+		}
+		current_date > 1281.4.1	
+		NOT = { has_global_variable = plague_wave_two }
+	}
+	option = {
+		name = "plague_events.2.a"
+		hidden_effect = {
+            every_owned_province = {
+                limit = {
+						is_in_region = thrace_region
+				}
+                province_pop_disaster_major
+            }
+			set_global_variable = {    
+				name = plague_wave_two
+			}
+		}
+	}
+}

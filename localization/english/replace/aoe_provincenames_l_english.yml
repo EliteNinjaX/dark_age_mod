@@ -1,6 +1,8 @@
 ﻿l_english:
  PROV1:0 "Rome"
  PROV1453:0 "Constantinople"
+ PROV1453_latin:0 "Constantinople"
+ PROV1453_hellenic:0 "Constantinople"
  PROV790:1 "Antioch"
  PROV3256:1 "Carthage"
  PROV2474:0 "Paris"

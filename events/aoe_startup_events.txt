@@ -60,7 +60,7 @@ aoe_startup_events.2 = {
 		name = aoe_startup_events.2.a
 		every_province = {
 			limit = {
-				region = assyria_region
+				is_in_region = assyria_region
 				NOT = { 
 					owned_or_subject_owned = ROOT
 				}
@@ -101,10 +101,6 @@ aoe_startup_events.3 = {
 	
 	option = {
 		name = aoe_startup_events.3.a
-			add_country_modifier = {
-				name = tolerant_policies_modifier
-				duration = 18250
-			}
 			every_province = {
 				limit = {
 					dominant_province_culture = franks
@@ -144,10 +140,6 @@ aoe_startup_events.4 = {
 	
 	option = {
 		name = aoe_startup_events.4.a
-			add_country_modifier = {
-				name = tolerant_policies_modifier
-				duration = 18250
-			}
 		add_truce = {
 			target = ERE
 			duration = 3650
@@ -209,8 +201,7 @@ aoe_startup_events.5 = {
 		NOT = {
 			has_variable = britain_1_flag
 		}
-	}
-	
+	}	
 	immediate = {
 		set_variable = {    
 			name = britain_1_flag
@@ -218,8 +209,7 @@ aoe_startup_events.5 = {
 	}
 	
 	option = {
-		name = aoe_startup_events.5.a
-		
+		name = aoe_startup_events.5.a	
 	}
 
 }
@@ -249,10 +239,6 @@ aoe_startup_events.6 = {
 	
 	option = {
 		name = aoe_startup_events.6.a
-			add_country_modifier = {
-				name = tolerant_policies_modifier
-				duration = 18250
-			}
 		add_truce = {
 			target = ERE
 			duration = 3650
@@ -288,11 +274,7 @@ aoe_startup_events.7 = {
 	}
 	
 	option = {
-		name = aoe_startup_events.7.a
-			add_country_modifier = {
-				name = fierce_warriors_modifier
-				duration = 18250
-			}		
+		name = aoe_startup_events.7.a	
 	}
 }
 
@@ -317,11 +299,7 @@ aoe_startup_events.8 = {
 	}
 	
 	option = {
-		name = aoe_startup_events.8.a
-			add_country_modifier = {
-				name = avars_modifier
-				duration = 18250
-			}		
+		name = aoe_startup_events.8.a		
 	}
 }
 

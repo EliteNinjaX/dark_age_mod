@@ -1,0 +1,69 @@
+﻿namespace = dhe_roman_warm_period
+
+# Original
+dhe_roman_warm_period.1 = {
+	type = country_event
+	title = "dhe_roman_warm_period.1.t"
+	desc = "dhe_roman_warm_period.1.desc"
+	picture = slaves_working
+
+	left_portrait = current_ruler
+
+	trigger = {
+		current_date < 800.1.1	
+		NOT = { has_global_variable = roman_warm_period_started }
+		any_owned_province = { 
+			city_is_in_warm_region = yes
+		}
+	}
+
+	immediate = {
+		set_global_variable = {
+			name = roman_warm_period_started
+		}
+
+		every_country = {
+			limit = {
+				NOT = { this = root }
+				any_owned_province = { 
+					city_is_in_warm_region = yes
+				}
+			}
+			trigger_event = {
+				id = dhe_roman_warm_period.2
+			}
+		}
+	}
+
+	option = {
+		name = "dhe_roman_warm_period.1.a"
+		add_country_modifier = {
+			name = country_improvement_warm_period
+			duration = 3650
+		}
+	}
+}
+
+# Secondary
+dhe_roman_warm_period.2 = {
+	type = country_event
+	title = "dhe_roman_warm_period.1.t"
+	desc = "dhe_roman_warm_period.1.desc"
+	picture = slaves_working
+	left_portrait = current_ruler
+
+	trigger = {
+		NOT = { has_country_modifier = country_improvement_warm_period }
+		any_owned_province = { 
+			city_is_in_warm_region = yes
+		}
+	}
+
+	option = {
+		name = "dhe_roman_warm_period.1.a"
+		add_country_modifier = {
+			name = country_improvement_warm_period
+			duration = 3650
+		}
+	}
+}
