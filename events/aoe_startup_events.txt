@@ -97,10 +97,16 @@ aoe_startup_events.3 = {
 		set_variable = {    
 			name = frank_1_flag
 		}
+		every_owned_province = {
+			create_state_pop = citizen
+			create_state_pop = freemen
+			create_pop = freemen
+			create_pop = citizen
+		}
 	}
-	
 	option = {
 		name = aoe_startup_events.3.a
+		hidden_effect = {
 			every_province = {
 				limit = {
 					dominant_province_culture = franks
@@ -110,7 +116,8 @@ aoe_startup_events.3 = {
 					exists = owner
 			}
 				add_claim = ROOT
-		}	
+			}
+		}
 	}
 }
 
@@ -206,6 +213,9 @@ aoe_startup_events.5 = {
 		set_variable = {    
 			name = britain_1_flag
 		}
+		every_owned_province = {
+			create_pop = citizen
+		}
 	}
 	
 	option = {
@@ -271,6 +281,10 @@ aoe_startup_events.7 = {
 		set_variable = {    
 			name = migration_1_flag
 		}
+		every_owned_province = {
+			create_pop = freemen
+			create_pop = freemen
+		}
 	}
 	
 	option = {
@@ -296,6 +310,12 @@ aoe_startup_events.8 = {
 		set_variable = {    
 			name = avars_1_flag
 		}
+		every_owned_province = {
+			create_pop = tribesmen
+			create_pop = freemen
+			create_pop = freemen
+			create_pop = citizen
+		}
 	}
 	
 	option = {
@@ -303,40 +323,34 @@ aoe_startup_events.8 = {
 	}
 }
 
-#aoe_startup_events.9 = {
-#	
-#	type = country_event
-#	title = "aoe_startup_events.9.t"
-#	desc = "aoe_startup_events.9.desc"
-#	picture = great_city
-#	goto_location = root
-#	trigger = {
-#	OR = {	
-#		tag = HMJ
-#		tag = NBT
-#		tag = HIJ
-#		tag = QUR
-#		tag = TAB
-#		tag = THQ
-#		tag = YAT
-#	}
-#		
-#		NOT = {
-#			has_variable = arabstartup_1_flag
-#		}
-#	}
-#	
-#	immediate = {
-#		set_variable = {    
-#			name = arabstartup_1_flag
-#		}
-#	}
-#	
-#	option = {
-#		name = aoe_startup_events.9.a
-#			add_country_modifier = {
-#				name = superpower_modifier
-#				duration = 36500
-#			}		
-#	}
-#}
+aoe_startup_events.9 = {
+	type = country_event
+	title = "aoe_startup_events.9.t"
+	desc = "aoe_startup_events.9.desc"
+	picture = great_city
+	goto_location = root
+	trigger = {
+		OR = {
+			country_culture_group = south_levantine	
+			country_culture_group = west_levantine
+		}
+		NOT = {
+			has_variable = arabstartup_1_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = arabstartup_1_flag
+		}
+		every_owned_province = {
+			create_state_pop = citizen
+			create_state_pop = freemen
+			create_pop = freemen
+			create_pop = citizen
+		}
+	}
+	option = {
+		name = aoe_startup_events.9.a
+	}
+}
