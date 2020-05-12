@@ -55,6 +55,7 @@
 		Wachus.Wach.Wachi.Wachian
 		Zemus.Zeman.Zemi.Zemian
 	}
+
 	culture = {
 		slavic = {}
 		lechite = {}
@@ -65,8 +66,6 @@
 	}
 	
 	barbarian_names = { POLANES VENEDI SAMBIA PECHORY }
-	
-	
 	
 	graphical_culture = german_gfx
 	ethnicities = {

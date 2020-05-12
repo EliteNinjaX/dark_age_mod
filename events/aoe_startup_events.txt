@@ -98,10 +98,7 @@ aoe_startup_events.3 = {
 			name = frank_1_flag
 		}
 		every_owned_province = {
-			create_state_pop = citizen
 			create_state_pop = freemen
-			create_pop = freemen
-			create_pop = citizen
 		}
 	}
 	option = {
@@ -266,7 +263,21 @@ aoe_startup_events.6 = {
 		add_truce = {
 			target = ERE
 			duration = 3650
-		}			
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_area = sardinia_septentrionalis
+						is_in_area = sardinia_meridionalis
+						is_in_area = corsica_area
+						is_in_area = balearides_area
+						is_in_area = west_sicily_area
+					}
+				}
+				add_claim = root
+			}
+		}
 	}
 }  
  
@@ -283,7 +294,10 @@ aoe_startup_events.7 = {
 			tag = LTG
 			tag = ANS
 			tag = TUR
-			tag = BUL
+			tag = HUN
+			tag = RAS
+			tag = SLA
+			tag = CRO
 			}
 		
 		NOT = {
@@ -296,8 +310,7 @@ aoe_startup_events.7 = {
 			name = migration_1_flag
 		}
 		every_owned_province = {
-			create_pop = freemen
-			create_pop = freemen
+			create_state_pop = freemen
 		}
 	}
 	
@@ -323,12 +336,6 @@ aoe_startup_events.8 = {
 	immediate = {
 		set_variable = {    
 			name = avars_1_flag
-		}
-		every_owned_province = {
-			create_pop = tribesmen
-			create_pop = freemen
-			create_pop = freemen
-			create_pop = citizen
 		}
 	}
 	
@@ -359,9 +366,6 @@ aoe_startup_events.9 = {
 		}
 		every_owned_province = {
 			create_state_pop = citizen
-			create_state_pop = freemen
-			create_pop = freemen
-			create_pop = citizen
 		}
 	}
 	option = {

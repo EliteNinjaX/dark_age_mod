@@ -1,0 +1,554 @@
+﻿celtic_philosophy = {
+	primary = light_infantry
+	second = heavy_infantry
+	flank = heavy_cavalry
+	
+	primary_navy = tetrere
+	secondary_navy = hexere
+	flank_navy = liburnian
+	
+
+	allow = {
+		OR = {
+			country_culture_group = gallic
+			country_culture_group = britannic
+			country_culture_group = celt_iberia
+			country_culture_group = iberia
+			country_culture_group = germanic
+			country_culture_group = baltic
+			country_culture_group = gaelic
+			country_culture_group = proto_european
+			country_culture_group = slavic
+		}
+	}
+
+	start = {
+		allow_unit_type = heavy_cavalry
+	}
+	
+	
+	celtic_britannic_path = {
+		#Favored by gaelic and britannic countries
+		celtic_britannic_path_1 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = britannic
+							country_culture_group = gaelic
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			chariots_offensive = 0.20
+		}
+		celtic_britannic_path_2 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = britannic
+							country_culture_group = gaelic
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			light_infantry_defensive = 0.1
+		}
+		celtic_britannic_path_3 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = britannic
+							country_culture_group = gaelic
+						}
+					}
+					add = {
+						value = 7 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			land_unit_attrition = -0.15
+		}
+		celtic_britannic_path_4 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = britannic
+							country_culture_group = gaelic
+						}
+					}
+					add = {
+						value = 8 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			manpower_recovery_speed = 0.05
+		} 
+		celtic_britannic_path_5 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = britannic
+							country_culture_group = gaelic
+						}
+					}
+					add = {
+						value = 9 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			chariots_morale = 0.20
+		}
+		celtic_britannic_path_6 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = britannic
+							country_culture_group = gaelic
+						}
+					}
+					add = {
+						value = 10 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			light_cavalry_cost = -0.15
+		}
+		celtic_britannic_path_7 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = britannic
+							country_culture_group = gaelic
+						}
+					}
+					add = {
+						value = 11 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_morale = 0.1
+		}
+	
+		bonus = {
+			light_cavalry_offensive = 0.1
+			chariots_defensive = 0.20
+		}
+	}
+	
+	celtic_germanic_path = {
+		#Favored by Germanic and Baltic countries
+		celtic_germanic_path_1 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = baltic
+							country_culture_group = germanic
+							country_culture_group = slavic
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			light_infantry_morale = 0.30
+		}
+		celtic_germanic_path_2 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = baltic
+							country_culture_group = germanic
+							country_culture_group = slavic
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			light_cavalry_cost = -0.20
+			heavy_infantry_cost = -0.20
+		}
+		celtic_germanic_path_4 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = baltic
+							country_culture_group = germanic
+							country_culture_group = slavic
+						}
+					}
+					add = {
+						value = 7 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			enslavement_efficiency = 0.10
+			global_slaves_output = 0.1
+		}
+		celtic_germanic_path_3 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = baltic
+							country_culture_group = germanic
+							country_culture_group = slavic
+						}
+					}
+					add = {
+						value = 8 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			enable_tactic = hit_and_run_tactics
+			light_infantry_forest_combat_bonus = 0.33
+			archers_forest_combat_bonus = 0.33
+		}
+		celtic_germanic_path_5 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = baltic
+							country_culture_group = germanic
+							country_culture_group = slavic
+						}
+					}
+					add = {
+						value = 9 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			heavy_infantry_defensive = 0.20
+		}
+		celtic_germanic_path_6 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = baltic
+							country_culture_group = germanic
+							country_culture_group = slavic
+						}
+					}
+					add = {
+						value = 10 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			light_infantry_cost = -0.20
+		}
+		celtic_germanic_path_7 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = baltic
+							country_culture_group = germanic
+							country_culture_group = slavic
+						}
+					}
+					add = {
+						value = 11 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_defensive = 0.10
+		}
+	
+		bonus = {
+			light_infantry_discipline = 0.1
+		}
+	}
+	
+	celtic_gallic_path = {
+		#Favored by Gallic, Iberic and Celtiberian countries
+		celtic_gallic_path_1 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = celt_iberia
+							country_culture_group = gallic
+							country_culture_group = iberia
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_offensive = 0.20
+		}
+		celtic_gallic_path_2 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = celt_iberia
+							country_culture_group = gallic
+							country_culture_group = iberia
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			global_manpower_modifier = 0.10
+		}
+		celtic_gallic_path_3 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = celt_iberia
+							country_culture_group = gallic
+							country_culture_group = iberia
+						}
+					}
+					add = {
+						value = 7 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			light_infantry_plains_combat_bonus = 0.15
+			chariots_plains_combat_bonus = 0.15
+		}
+		celtic_gallic_path_4 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = celt_iberia
+							country_culture_group = gallic
+							country_culture_group = iberia
+						}
+					}
+					add = {
+						value = 8 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			enable_ability = levies #note: abilities can no longer be enabled here. They are enabled in the allow section of the ability
+		}
+		celtic_gallic_path_5 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = celt_iberia
+							country_culture_group = gallic
+							country_culture_group = iberia
+						}
+					}
+					add = {
+						value = 9 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			global_cohort_recruit_speed = 0.25
+			happiness_for_wrong_culture_modifier = 0.1
+		}
+		celtic_gallic_path_6 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = celt_iberia
+							country_culture_group = gallic
+							country_culture_group = iberia
+						}
+					}
+					add = {
+						value = 10 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			heavy_infantry_offensive = 0.1
+		}
+		celtic_gallic_path_7 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = celt_iberia
+							country_culture_group = gallic
+							country_culture_group = iberia
+						}
+					}
+					add = {
+						value = 11 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			siege_ability = 0.1
+		}
+	
+		bonus = {
+			land_morale_modifier = 0.1
+		}
+	}
+}
