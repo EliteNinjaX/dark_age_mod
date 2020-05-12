@@ -483,8 +483,8 @@
  PER_ADJ:0 "Persian"
  ALB:0 "Albania"
  ALB_ADJ:0 "Albanian"
- PSS:0 "Hephthalites"
- PSS_ADJ:0 "Hephthalite"
+ PSS:0 "White Huns"
+ PSS_ADJ:0 "White Hunnic"
  IBR:0 "Iberia"
  IBR_ADJ:0 "Iberian"
  GEP:0 "Gepids"
@@ -650,7 +650,7 @@
  BUR:0 "Burgundia"
  BUR_ADJ:0 "Burgundian"
  
- #SLAVIC
+ #EAST
  ANS:0 "Antes"
  ANS_ADJ:0 "Antesian"
  SKN:0 "Sklaveni"
@@ -677,6 +677,8 @@
  KUT_ADJ:0 "Kutrigur"
  UTI:0 "Utigurs"
  UTI_ADJ:0 "Utigur"
+ HUN:0 "Huns"
+ HUN_ADJ:0 "Hunnic"
  
  #SOUTHWEST
  MRI:0 "Mauri"
@@ -737,7 +739,7 @@
 
 #Slavs
  RAS:0 "Rashka"
- FRA_ADJ:0 "Rashkan"
+ RAS_ADJ:0 "Rashkan"
  CRO:0 "Croatia"
  CRO_ADJ:0 "Croatian"
  SLA:0 "Slavonia"

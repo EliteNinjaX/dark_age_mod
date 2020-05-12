@@ -2,10 +2,10 @@
 	modifier = {
 		#good
 		happiness_for_wrong_culture_group_modifier = 0.1
-		global_export_commerce_modifier = 0.2
+		diplomatic_reputation = 2
 		
 		#bad
-		loyalty_gain_chance_modifier = 0.10
+		global_population_growth = -0.1
 	}
 	
 	trigger = {
@@ -61,8 +61,8 @@ persian_heritage = {
 ostrogoth_heritage = {
 	modifier = {
 		#good
-		siege_ability = 0.05
-		diplomatic_reputation = 2
+		happiness_for_wrong_culture_group_modifier = 0.1
+		build_cost = -0.1
 		
 		#bad
 		global_defensive = -0.1
@@ -76,8 +76,8 @@ ostrogoth_heritage = {
 frank_heritage = {
 	modifier = {
 		#good
-		manpower_recovery_speed = 0.05
-		integrate_speed = 0.1
+		global_population_growth = 0.05
+		happiness_for_wrong_culture_group_modifier = 0.1
 		
 		#bad
 		naval_morale_modifier = -0.05
@@ -112,7 +112,7 @@ vandal_heritage = {
 visigoth_heritage = {
 	modifier = {
 		#good
-		diplomatic_relations = 2
+		happiness_for_wrong_culture_group_modifier = 0.1
 		global_manpower_modifier = 0.05
 		
 		#bad
@@ -143,7 +143,7 @@ avar_heritage = {
 	modifier = {
 		#good
 		heavy_cavalry_morale = 0.1
-		global_freemen_happyness = 0.1
+		discipline = 0.05
 		
 		#bad
 		global_import_commerce_modifier = -0.05
@@ -157,14 +157,32 @@ avar_heritage = {
 caliphate_heritage = {
 	modifier = {
 		#good
-		global_freemen_happyness = 0.2
-		light_cavalry_morale = 0.1
+		global_population_growth = 0.1
+		research_points_modifier = 0.1
 		
 		#bad
 		heavy_infantry_maintenance_cost = 0.05
 	}
 	
 	trigger = {
-		tag = UMY
+		OR = {
+			country_culture_group = south_levantine	
+			country_culture_group = west_levantine
+		}	
+	}
+}
+
+slavic_heritage = {
+	modifier = {
+		#good
+		global_population_growth = 0.1
+		discipline = 0.05
+		
+		#bad
+		global_import_commerce_modifier = -0.05
+	}
+	
+	trigger = {
+			country_culture_group = slavic	
 	}
 }

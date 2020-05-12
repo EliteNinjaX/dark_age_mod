@@ -1,7 +1,7 @@
 ﻿l_english:
 ###Start events
  aoe_startup_events.1.t:0 "A New Emperor"
- aoe_startup_events.1.desc:0 "It has been 50 years since the final emperor in the west was overthrown by traitorous barbarians, but the Roman Empire endures. In Constantinople, a new emperor has been crowned. His name is Justinian. He begins his reign facing threats from all sides, but also unique opportunities. \n\nIn the east, a long-lasting peace with Persia is about to end. In the north, migratory hordes threaten the Balkan frontier. Yet while these threats are real, there are also opportunities. The sccessors of Theodoric and Gaiseric are weak. Italy and Africa - two of the richest provinces of the old western empire, are ripe for the taking. \n\nThe empire that endured Hannibal, Mithradites, Shapur and Attila will not just survive - it will thrive!\n\nNOTE: If we take Carthage and Rome in the next 30 years an event will trigger that dissolves the Vandal and Ostrogothic kingdoms."
+ aoe_startup_events.1.desc:0 "It has been 50 years since the final emperor in the west was overthrown by traitorous barbarians, but the Roman Empire endures. In Constantinople, a new emperor has been crowned. His name is Justinian. He begins his reign facing threats from all sides, but also unique opportunities. \n\nIn the east, a long-lasting peace with Persia is about to end. In the north, migratory hordes threaten the Balkan frontier. Yet while these threats are real, there are also opportunities. The sccessors of Theodoric and Gaiseric are weak. Italy and Africa - two of the richest provinces of the old western empire, are ripe for the taking. \n\nThe empire that endured Hannibal, Mithradites, Shapur and Attila will not just survive - it will thrive!\n\nNOTE: If we take Carthage in the next 30 years an event will trigger that dissolves the Vandal Kingdom."
  aoe_startup_events.1.a:0 "A new world."
  aoe_startup_events.1.b:0 "#G Due to our Imperator's friendship with the Vandal ruler we have a truce with the Vandals until 533 AD or until he dies. While due to our Imperator's friendships with the Gothic queen we have a truce with the Ostrogoths until 535AD or until she dies."
  aoe_startup_events.2.t:0 "Persia's Golden Century"
@@ -98,6 +98,14 @@
  ere_events.3.desc:0 "Emperors have both secular and religious responsibilities. Currently the church is divided over the nature of Christ - did He have both a human and divine nature, or did He have one divine nature? Miaphysites believe the latter, which is in opposition to official church doctrine. While normally we would stamp out this heresy, Miaphysites happen to be dominant in Egypt and Syria - two of our richest provinces. We must be careful as we resolve this controversy."
  ere_events.3.a:0 "Aggressively convert Miaphysites"  
  ere_events.3.b:0 "Promote tolerance"
+ ###Avar Events
+ avars_events.1.t:0 "The Arrival Of The Avars"
+ avars_events.1.desc:0 "A terrifying group of fierce warriors have arrived from far away. Like the Huns before them, they threaten to change the course of history. They are the Avars, and all those who stand in their way should be terrified."
+ avars_events.1.a:0 "They have arrived"
+ avars_events.3.t:0 "The Avars Expand"
+ avars_events.3.desc:0 "An ultimatum has arrived from the Avar khan. They demand our territories north of the Black Sea... or they threaten destruction"
+ avars_events.3.a:0 "We shall surrender"  
+ avars_events.3.b:0 "We shall fight"
 ##Arab Invasion Events
  arab_events.1.t:0 "The Arabs Unite"
  arab_events.1.desc:0 "Under the banner of a new religion, the disparate Arab tribes have come together."

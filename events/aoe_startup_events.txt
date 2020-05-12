@@ -154,7 +154,21 @@ aoe_startup_events.4 = {
 		add_truce = {
 			target = VAN
 			duration = 3650
-		}		
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_area = sardinia_septentrionalis
+						is_in_area = sardinia_meridionalis
+						is_in_area = corsica_area
+						is_in_area = balearides_area
+						is_in_area = west_sicily_area
+					}
+				}
+				add_claim = root
+			}
+		}
 	}
 
 }

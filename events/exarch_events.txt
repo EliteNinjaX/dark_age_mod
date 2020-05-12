@@ -43,9 +43,6 @@ exarch_events.1 = {
 				target = AFR
 				type = feudatory 
 			}
-			add_country_modifier = {
-				name = antigonid_resurgence
-			}
 			C:VAN = {
 				every_owned_province = {
 					limit = {

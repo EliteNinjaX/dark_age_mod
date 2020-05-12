@@ -4,7 +4,7 @@ plague_events.5 = {
 	type = country_event
 	title = "plague_events.5.t"
 	desc = "plague_events.5.desc"
-	picture = revolt
+	picture = natural_disaster
 	goto_location = root
 	trigger = {
 		any_owned_province = {
@@ -13,7 +13,7 @@ plague_events.5 = {
 				is_in_region = mesopotamia_region
 			}
 		}
-		current_date > 1281.7.1	
+		current_date > 1295.7.1	
 		NOT = { has_global_variable = plague_wave_five }
 	}
 	option = {

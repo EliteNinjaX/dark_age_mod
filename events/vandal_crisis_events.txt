@@ -164,7 +164,7 @@ vandal_crisis_events.4 = {
 	goto_location = root
 	trigger = {
 		tag = ERE
-		current_date > 1286.1.1	
+		current_date > 1287.1.1	
 		exists = c:VAN
 		NOT = {
 			has_variable = vandal_crisis_ere_1_flag
@@ -211,7 +211,7 @@ vandal_crisis_events.5 = {
 	type = country_event
 	trigger = {
 		is_ai = yes
-		current_date < 1287.5.1
+		current_date < 1287.3.1
 		tag = ERE
 		has_variable = vandal_crisis_ere_1_flag
 		NOT = {
@@ -229,7 +229,7 @@ vandal_crisis_events.5 = {
 		p:1471 = {
 			set_owned_by = ERE
 		}
-		add_treasury = 1000
+		add_treasury = 2000
 		create_unit = {
 			name = "Roman Army 1"
 			location = p:3245
