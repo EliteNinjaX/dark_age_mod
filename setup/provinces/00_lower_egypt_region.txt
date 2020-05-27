@@ -436,6 +436,8 @@
 	slaves={
 		amount=3
 	}
+	
+	holy_site = omen_mark
 }
 
 517={ #Hermopolis Parva

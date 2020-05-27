@@ -994,6 +994,8 @@
 	tribesmen={
 		amount=2
 	}
+	holy_site = omen_gregory_nanzianzus
+
 }
 
 1785={ #Ilistra

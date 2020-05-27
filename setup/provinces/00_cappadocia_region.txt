@@ -575,7 +575,7 @@
 	}
 }
 
-1799={ #Mazaka
+1799={ #Mazaka -> Caesarea
 	terrain="hills"
 	culture="cappadocian"
 	religion="chalcedonian"
@@ -595,6 +595,9 @@
 	tribesmen={
 		amount=14
 	}
+	
+	holy_site = omen_basil
+
 }
 
 1800={ #Korama
