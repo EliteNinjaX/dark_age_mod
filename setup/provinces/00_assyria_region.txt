@@ -74,6 +74,9 @@
 		religion="zoroaster"
 		amount=1
 	}
+	
+	holy_site = omen_ephraim
+
 }
 
 819={ #Carrhae

@@ -35,5 +35,97 @@ deity_manager = {
             deify_ruler_permanent = yes
             is_universal_deity = yes
         }
+		1356 = {
+            key = omen_george
+            deity = deity_george
+            deify_ruler = 45
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1357 = {
+            key = omen_michael
+            deity = deity_michael
+            deify_ruler = 46
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1358 = {
+            key = omen_nicholas
+            deity = deity_nicholas
+            deify_ruler = 47
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1359 = {
+            key = omen_anne
+            deity = deity_anne
+            deify_ruler = 48
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1360 = {
+            key = omen_john_chrysostom 
+            deity = deity_john_chrysostom 
+            deify_ruler = 49
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1361 = {
+            key = omen_ephraim
+            deity = deity_ephraim
+            deify_ruler = 50
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1362 = {
+            key = omen_john_the_baptist
+            deity = deity_john_the_baptist
+            deify_ruler = 51
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1363 = {
+            key = omen_basil
+            deity = deity_basil
+            deify_ruler = 52
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1364 = {
+            key = omen_gregory_nanzianzus
+            deity = deity_gregory_nanzianzus
+            deify_ruler = 53
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1365 = {
+            key = omen_mary_of_egypt
+            deity = deity_mary_of_egypt
+            deify_ruler = 54
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1366 = {
+            key = omen_macrina
+            deity = deity_macrina
+            deify_ruler = 55
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1367 = {
+            key = omen_simeon_the_stylite
+            deity = deity_simeon_the_stylite
+            deify_ruler = 56
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		1368 = {
+            key = omen_augustine
+            deity = deity_augustine
+            deify_ruler = 57
+            deify_ruler_permanent = yes
+            is_universal_deity = yes
+        }
+		
     }
 }

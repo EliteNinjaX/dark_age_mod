@@ -794,6 +794,8 @@
 	slaves={
 		amount=5
 	}
+	holy_site = omen_mary
+
 }
 
 291={ #Colophon

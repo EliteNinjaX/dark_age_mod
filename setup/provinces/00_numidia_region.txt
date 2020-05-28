@@ -1779,6 +1779,9 @@
 	tribesmen={
 		amount=4
 	}
+	
+	holy_site = omen_augustine
+
 }
 
 3226={ #Culucitanis
