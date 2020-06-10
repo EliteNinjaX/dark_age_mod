@@ -138,7 +138,7 @@
 
 166={ #Perge
 	terrain="plains"
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -155,14 +155,14 @@
 		amount=2
 	}
 	tribesmen={
-		culture="isaurian"
+		culture="greek"
 		amount=1
 	}
 }
 
 167={ #Pednelissus
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -172,7 +172,7 @@
 		amount=2
 	}
 	slaves={
-		culture="pamphylian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -185,7 +185,7 @@
 
 168={ #Aspendus
 	terrain="hills"
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -198,7 +198,7 @@
 		amount=2
 	}
 	slaves={
-		culture="isaurian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -221,7 +221,7 @@
 		amount=2
 	}
 	freemen={
-		culture="pamphylian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -231,7 +231,7 @@
 		amount=3
 	}
 	tribesmen={
-		culture="isaurian"
+		culture="greek"
 		amount=1
 	}
 }
@@ -454,7 +454,7 @@
 
 1780={ #Lamatorma
 	terrain="hills"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -473,7 +473,7 @@
 
 1784={ #Germanicopolis
 	terrain="hills"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
@@ -486,7 +486,7 @@
 		amount=2
 	}
 	freemen={
-		culture="pamphylian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -509,7 +509,7 @@
 		amount=3
 	}
 	freemen={
-		culture="lycaonian"
+		culture="cappadocian"
 		amount=1
 	}
 	slaves={
@@ -538,7 +538,7 @@
 
 1874={ #Epiphanea
 	terrain="farmland"
-	culture="greek"
+	culture="cilician"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -749,7 +749,7 @@
 
 1885={ #Selge
 	terrain="hills"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -759,7 +759,7 @@
 		amount=3
 	}
 	slaves={
-		culture="pamphylian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -821,7 +821,7 @@
 		amount=5
 	}
 	freemen={
-		culture="isaurian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -865,7 +865,7 @@
 
 1894={ #Olbasa
 	terrain="hills"
-	culture="cilician"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -881,14 +881,14 @@
 		amount=3
 	}
 	slaves={
-		culture="isaurian"
+		culture="greek"
 		amount=1
 	}
 }
 
 1896={ #Ninica
 	terrain="hills"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
@@ -915,7 +915,7 @@
 
 1897={ #Celenderis
 	terrain="plains"
-	culture="cilician"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -931,7 +931,7 @@
 
 1901={ #Anemurium
 	terrain="plains"
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -969,7 +969,7 @@
 
 1905={ #Coracesium
 	terrain="plains"
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -985,7 +985,7 @@
 
 1906={ #Laertes
 	terrain="hills"
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -1004,7 +1004,7 @@
 
 1908={ #Colybrassus
 	terrain="hills"
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
@@ -1023,7 +1023,7 @@
 
 1910={ #Side
 	terrain="plains"
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40
@@ -1042,7 +1042,7 @@
 
 1911={ #Etenna
 	terrain="hills"
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
@@ -1052,7 +1052,7 @@
 		amount=7
 	}
 	freemen={
-		culture="isaurian"
+		culture="greek"
 		amount=2
 	}
 	freemen={
@@ -1062,7 +1062,7 @@
 		amount=7
 	}
 	slaves={
-		culture="isaurian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1072,7 +1072,7 @@
 
 1927={ #Tityassos
 	terrain="hills"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -1091,7 +1091,7 @@
 
 1931={ #Adada
 	terrain="hills"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40

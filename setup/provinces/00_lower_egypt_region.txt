@@ -1211,7 +1211,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="nabatean"
+		culture="qedarite"
 		religion="arabian_pantheon"
 		amount=2
 	}
@@ -1219,7 +1219,7 @@
 
 1600={ #Marah
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -1251,7 +1251,7 @@
 
 1675={ #Pharan
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -1270,7 +1270,7 @@
 
 1682={ #Rhaithou
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="gems"
 	civilization_value=35
@@ -1286,7 +1286,7 @@
 
 1684={ #Ain Hudera
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="cattle"
 	civilization_value=35
@@ -1305,7 +1305,7 @@
 
 1688={ #Nuweiba
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -1321,7 +1321,7 @@
 
 1693={ #Horeb Mons
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="gems"
 	civilization_value=35
@@ -1337,7 +1337,7 @@
 
 1708={ #Tell el-Mashraba
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -1350,7 +1350,7 @@
 
 1709={ #Naqb Jedid
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="marble"
 	civilization_value=35
@@ -1363,7 +1363,7 @@
 
 1710={ #Sina Meridionalis
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="marble"
 	civilization_value=35

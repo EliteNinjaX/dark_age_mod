@@ -66,7 +66,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="macedonian"
+		culture="hebrew"
 		amount=3
 	}
 	citizen={
@@ -92,7 +92,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="macedonian"
+		culture="hebrew"
 		amount=3
 	}
 	citizen={
@@ -111,7 +111,7 @@
 
 661={ #Azoton
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=40
@@ -133,7 +133,7 @@
 
 662={ #Iamneia
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=40
@@ -155,7 +155,7 @@
 
 663={ #Ioppe
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=40
@@ -177,7 +177,7 @@
 
 664={ #Apollonia Palestinum
 	terrain="plains"
-	culture="macedonian"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=40
@@ -199,7 +199,7 @@
 
 665={ #Caesarea Maritima
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -215,7 +215,7 @@
 
 666={ #Sycamine
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
@@ -234,7 +234,7 @@
 
 667={ #Dora
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="wine"
 	civilization_value=40
@@ -253,7 +253,7 @@
 
 668={ #Boukolonpolis
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -269,7 +269,7 @@
 
 669={ #Jellemeh
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="grain"
 	civilization_value=40
@@ -288,7 +288,7 @@
 
 670={ #Ace
 	terrain="forest"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
@@ -393,14 +393,14 @@
 		amount=3
 	}
 	citizen={
-		culture="aramaic"
+		culture="hebrew"
 		amount=1
 	}
 	freemen={
 		amount=2
 	}
 	freemen={
-		culture="aramaic"
+		culture="hebrew"
 		amount=1
 	}
 }
@@ -423,7 +423,7 @@
 
 677={ #Sepphoris
 	terrain="hills"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="wood"
 	civilization_value=40
@@ -439,7 +439,7 @@
 
 678={ #Narbata
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -459,18 +459,18 @@
 679={ #Samaria
 	terrain="plains"
 	culture="hebrew"
-	religion="miaphysite"
+	religion="judaism"
 	trade_goods="hemp"
 	civilization_value=35
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
+		culture="hebrew"
 		religion="chalcedonian"
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
+		culture="hebrew"
 		religion="chalcedonian"
 		amount=2
 	}
@@ -582,7 +582,7 @@
 
 685={ #Lydda
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="judaism"
 	trade_goods="hemp"
 	civilization_value=40
@@ -864,7 +864,7 @@
 
 699={ #Eboda
 	terrain="plains"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="leather"
 	civilization_value=35
@@ -906,7 +906,7 @@
 
 702={ #Quseima
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="marble"
 	civilization_value=35
@@ -927,7 +927,7 @@
 
 703={ #Gypsaria
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="cloth"
 	civilization_value=35
@@ -940,7 +940,7 @@
 
 704={ #Aelana
 	terrain="plains"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="salt"
 	civilization_value=35
@@ -956,7 +956,7 @@
 
 705={ #Sabkah
 	terrain="plains"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="stone"
 	civilization_value=35
@@ -972,7 +972,7 @@
 
 706={ #Bossia
 	terrain="plains"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=35
@@ -991,7 +991,7 @@
 
 707={ #Arieldela
 	terrain="plains"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=35
@@ -1010,7 +1010,7 @@
 
 708={ #Kalgouia
 	terrain="plains"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="cloth"
 	civilization_value=35
@@ -1026,7 +1026,7 @@
 
 709={ #Toloha
 	terrain="plains"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=35
@@ -1064,7 +1064,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="nabatean"
+		culture="qedarite"
 		religion="arabian_pantheon"
 		amount=1
 	}
@@ -1145,7 +1145,7 @@
 		amount=1
 	}
 	freemen={
-		culture="aramaic"
+		culture="hebrew"
 		amount=1
 	}
 	slaves={
@@ -1190,7 +1190,7 @@
 		amount=1
 	}
 	freemen={
-		culture="aramaic"
+		culture="hebrew"
 		amount=1
 	}
 	slaves={
@@ -1222,7 +1222,7 @@
 
 718={ #Rabbat Ammon
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="judaism"
 	trade_goods="leather"
 	civilization_value=40
@@ -1267,7 +1267,7 @@
 		amount=2
 	}
 	slaves={
-		culture="aramaic"
+		culture="hebrew"
 		amount=1
 	}
 	slaves={
@@ -1280,7 +1280,7 @@
 
 721={ #Gerasa
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="judaism"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -1333,14 +1333,14 @@
 		amount=3
 	}
 	citizen={
-		culture="aramaic"
+		culture="hebrew"
 		amount=1
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
-		culture="aramaic"
+		culture="hebrew"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -1351,7 +1351,7 @@
 
 727={ #Aramaua
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="wine"
 	civilization_value=35
@@ -1370,7 +1370,7 @@
 
 728={ #Auara
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="stone"
 	civilization_value=35
@@ -1392,7 +1392,7 @@
 
 729={ #Petra
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="base_metals"
 	civilization_value=35
@@ -1414,7 +1414,7 @@
 
 730={ #Adrou
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="vegetables"
 	civilization_value=35
@@ -1452,7 +1452,7 @@
 
 732={ #Adraha
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
@@ -1475,7 +1475,7 @@
 
 733={ #Abila Decapolis
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="judaism"
 	trade_goods="papyrus"
 	civilization_value=40
@@ -1499,7 +1499,7 @@
 
 734={ #Bostra
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -1530,7 +1530,7 @@
 
 735={ #Canatha
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="earthware"
 	civilization_value=40
@@ -1546,7 +1546,7 @@
 
 736={ #Mothana
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="base_metals"
 	civilization_value=40
@@ -1562,7 +1562,7 @@
 
 737={ #Raphon
 	terrain="plains"
-	culture="aramaic"
+	culture="hebrew"
 	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
@@ -1613,7 +1613,7 @@
 		amount=1
 	}
 	freemen={
-		culture="aramaic"
+		culture="hebrew"
 		amount=1
 	}
 	slaves={

@@ -110,7 +110,7 @@
 
 173={ #Koropassos
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
@@ -129,7 +129,7 @@
 
 205={ #Zeila
 	terrain="hills"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -527,7 +527,7 @@
 
 1794={ #Kyzistra
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -697,7 +697,7 @@
 
 1817={ #Zoropassos
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -716,7 +716,7 @@
 
 1818={ #Ouenasa
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -1268,7 +1268,7 @@
 
 1888={ #Podandus
 	terrain="hills"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
@@ -1387,7 +1387,7 @@
 
 1900={ #Dasmenda
 	terrain="hills"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -1570,7 +1570,7 @@
 
 1938={ #Ardistama
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -1589,7 +1589,7 @@
 
 1940={ #Cybistra
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=40
@@ -1605,7 +1605,7 @@
 
 1951={ #Tyana
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -1624,7 +1624,7 @@
 
 1954={ #Garsaura
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -1662,7 +1662,7 @@
 
 1978={ #Salambriai
 	terrain="hills"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=40

@@ -1,6 +1,6 @@
 ﻿250={ #Helge
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -22,7 +22,7 @@
 
 251={ #Miletopolis
 	terrain="forest"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -66,7 +66,7 @@
 
 253={ #Dascylium
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -88,7 +88,7 @@
 
 254={ #Zeleia
 	terrain="forest"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
@@ -277,7 +277,7 @@
 
 264={ #Baris
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -299,7 +299,7 @@
 
 265={ #Argiza
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -395,7 +395,7 @@
 
 269={ #Pericharaxis
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -417,7 +417,7 @@
 
 271={ #Attea
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -439,7 +439,7 @@
 
 272={ #Hiera
 	terrain="forest"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
@@ -996,7 +996,7 @@
 		amount=2
 	}
 	slaves={
-		culture="mysian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1019,11 +1019,11 @@
 		amount=2
 	}
 	freemen={
-		culture="mysian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
-		culture="mysian"
+		culture="greek"
 		amount=2
 	}
 	slaves={
@@ -1046,7 +1046,7 @@
 		amount=8
 	}
 	slaves={
-		culture="mysian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1168,7 +1168,7 @@
 
 320={ #Ariste
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -1188,7 +1188,7 @@
 
 321={ #Tataula
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -1211,7 +1211,7 @@
 
 337={ #Pioniai
 	terrain="forest"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
@@ -1617,7 +1617,7 @@
 
 1980={ #Stratonicaea
 	terrain="hills"
-	culture="ionian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40

@@ -2090,7 +2090,7 @@
 
 5164={ #
 	terrain=""
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2100,7 +2100,7 @@
 
 5165={ #
 	terrain=""
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2140,7 +2140,7 @@
 
 5169={ #
 	terrain=""
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2150,7 +2150,7 @@
 
 5170={ #Argaeus Mons Volcano
 	terrain=""
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2160,7 +2160,7 @@
 
 5171={ #
 	terrain=""
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2170,7 +2170,7 @@
 
 5172={ #
 	terrain=""
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2180,7 +2180,7 @@
 
 5173={ #
 	terrain=""
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7410,7 +7410,7 @@
 
 7735={ #Argaios Mons Volcano
 	terrain=""
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
@@ -7480,7 +7480,7 @@
 
 7755={ #Olympus Mons
 	terrain=""
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7510,7 +7510,7 @@
 
 7758={ #
 	terrain=""
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0

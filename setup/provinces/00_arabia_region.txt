@@ -1,6 +1,6 @@
 ﻿724={ #Ankale
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="cattle"
 	civilization_value=35
@@ -16,7 +16,7 @@
 
 725={ #Makna
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -38,7 +38,7 @@
 
 726={ #Madiama
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="cattle"
 	civilization_value=35
@@ -115,7 +115,7 @@
 
 4600={ #Ostama
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="horses"
 	civilization_value=15
@@ -137,7 +137,7 @@
 
 4601={ #Baclanaza
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="leather"
 	civilization_value=15
@@ -156,7 +156,7 @@
 
 4602={ #Leuke Kome
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="salt"
 	civilization_value=15
@@ -178,7 +178,7 @@
 
 4603={ #Modiana
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=15
@@ -197,7 +197,7 @@
 
 4604={ #Laba
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="stone"
 	civilization_value=15
@@ -219,7 +219,7 @@
 
 4605={ #Soaka
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=5
@@ -238,7 +238,7 @@
 
 4606={ #Hippos Kome
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="salt"
 	civilization_value=10
@@ -260,7 +260,7 @@
 
 4607={ #Badais
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="leather"
 	civilization_value=5
@@ -282,7 +282,7 @@
 
 4608={ #Phoinikon Kome
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="stone"
 	civilization_value=10
@@ -304,7 +304,7 @@
 
 4609={ #Egra
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="wood"
 	civilization_value=5
@@ -326,7 +326,7 @@
 
 4610={ #Raunathou Kome
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=10
@@ -348,7 +348,7 @@
 
 4611={ #Madiama Felix
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="glass"
 	civilization_value=15
@@ -370,7 +370,7 @@
 
 4612={ #Relicta
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="horses"
 	civilization_value=15
@@ -389,7 +389,7 @@
 
 4613={ #Aybara
 	terrain="hills"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="camel"
 	civilization_value=15
@@ -415,7 +415,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -425,23 +425,23 @@
 		amount=2
 	}
 	freemen={
-		culture="hebrew"
+		culture="qedarite"
 		religion="judaism"
 		amount=1
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
-		culture="hebrew"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		culture="hebrew"
+		culture="qedarite"
 		amount=1
 	}
 	tribesmen={
@@ -458,7 +458,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -468,12 +468,12 @@
 		amount=2
 	}
 	freemen={
-		culture="hebrew"
+		culture="qedarite"
 		religion="judaism"
 		amount=1
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
@@ -486,7 +486,7 @@
 
 4617={ #Mochoura
 	terrain="desert"
-	culture="hebrew"
+	culture="qedarite"
 	religion="judaism"
 	trade_goods="incense"
 	civilization_value=25
@@ -518,7 +518,7 @@
 
 4618={ #Thumna
 	terrain="desert"
-	culture="hebrew"
+	culture="qedarite"
 	religion="judaism"
 	trade_goods="fur"
 	civilization_value=25
@@ -550,7 +550,7 @@
 
 4619={ #Apudia Vallis
 	terrain="hills"
-	culture="hebrew"
+	culture="qedarite"
 	religion="judaism"
 	trade_goods="camel"
 	civilization_value=25
@@ -576,7 +576,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="nabatean"
+		culture="qedarite"
 		religion="arabian_pantheon"
 		amount=1
 	}
@@ -584,7 +584,7 @@
 
 4620={ #Alaura
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="salt"
 	civilization_value=10
@@ -614,7 +614,7 @@
 
 4621={ #Harenae
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=10
@@ -624,18 +624,18 @@
 		amount=1
 	}
 	citizen={
-		culture="hebrew"
+		culture="qedarite"
 		amount=1
 	}
 	freemen={
-		culture="hebrew"
+		culture="qedarite"
 		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	tribesmen={
-		culture="hebrew"
+		culture="qedarite"
 		amount=1
 	}
 	tribesmen={
@@ -645,14 +645,14 @@
 
 4622={ #Iuthra
 	terrain="hills"
-	culture="hebrew"
+	culture="qedarite"
 	religion="judaism"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		religion="arabian_pantheon"
 		amount=1
 	}
@@ -663,7 +663,7 @@
 		amount=1
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		religion="arabian_pantheon"
 		amount=1
 	}
@@ -719,7 +719,7 @@
 
 4625={ #Charamithas
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="salt"
 	civilization_value=10
@@ -1035,7 +1035,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -1045,7 +1045,7 @@
 		amount=1
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
@@ -1213,7 +1213,7 @@
 
 4713={ #Achroua
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="spices"
 	civilization_value=15
@@ -1242,7 +1242,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -1252,7 +1252,7 @@
 		amount=3
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
@@ -1265,7 +1265,7 @@
 
 4715={ #Demne
 	terrain="desert"
-	culture="nabatean"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods="stone"
 	civilization_value=5
@@ -1291,14 +1291,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
 		amount=2
 	}
 	citizen={
-		culture="hebrew"
+		culture="qedarite"
 		religion="judaism"
 		amount=1
 	}
@@ -1306,12 +1306,12 @@
 		amount=2
 	}
 	freemen={
-		culture="hebrew"
+		culture="qedarite"
 		religion="judaism"
 		amount=1
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
@@ -1331,7 +1331,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -1341,7 +1341,7 @@
 		amount=1
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
@@ -1361,7 +1361,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -1371,7 +1371,7 @@
 		amount=1
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
@@ -1384,7 +1384,7 @@
 
 4719={ #Coloera
 	terrain="desert"
-	culture="hebrew"
+	culture="qedarite"
 	religion="judaism"
 	trade_goods="leather"
 	civilization_value=25
@@ -1420,7 +1420,7 @@
 
 4720={ #Eroe
 	terrain="desert"
-	culture="hebrew"
+	culture="qedarite"
 	religion="judaism"
 	trade_goods="camel"
 	civilization_value=25
@@ -1446,7 +1446,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="nabatean"
+		culture="qedarite"
 		religion="arabian_pantheon"
 		amount=1
 	}
@@ -1461,7 +1461,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -1471,7 +1471,7 @@
 		amount=4
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	slaves={
@@ -1521,7 +1521,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -1531,7 +1531,7 @@
 		amount=3
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	tribesmen={
@@ -1548,7 +1548,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	citizen={
@@ -1558,7 +1558,7 @@
 		amount=2
 	}
 	freemen={
-		culture="nabatean"
+		culture="qedarite"
 		amount=1
 	}
 	tribesmen={
