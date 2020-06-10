@@ -13,7 +13,7 @@
 		amount=3
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -156,10 +156,10 @@
 		amount=2
 	}
 	freemen={
-		amount=11
+		amount=10
 	}
 	slaves={
-		amount=11
+		amount=10
 	}
 	slaves={
 		culture="hebrew"
@@ -174,7 +174,7 @@
 374={ #Calindoae
 	terrain="hills"
 	culture="macedonian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -183,7 +183,7 @@
 		amount=2
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -193,16 +193,16 @@
 376={ #Cassandreia
 	terrain="plains"
 	culture="macedonian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=13
+		amount=12
 	}
 	freemen={
-		amount=10
+		amount=9
 	}
 	slaves={
 		amount=7
@@ -215,7 +215,7 @@
 377={ #Acanthus
 	terrain="hills"
 	culture="macedonian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
@@ -227,9 +227,6 @@
 		amount=4
 	}
 	slaves={
-		amount=2
-	}
-	tribesmen={
 		amount=1
 	}
 }
@@ -246,11 +243,11 @@
 		amount=2
 	}
 	citizen={
-		culture="greek"
+		culture="athenian"
 		amount=2
 	}
 	freemen={
-		amount=3
+		amount=1
 	}
 	slaves={
 		amount=2
@@ -275,7 +272,7 @@
 		amount=15
 	}
 	slaves={
-		amount=14
+		amount=12
 	}
 }
 
@@ -288,10 +285,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=8
+		amount=7
 	}
 	slaves={
-		amount=4
+		amount=3
 	}
 }
 
@@ -309,23 +306,23 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 382={ #Edessa
 	terrain="farmland"
 	culture="macedonian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=1
 	}
 	freemen={
 		amount=3
@@ -344,7 +341,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=6
+		amount=5
 	}
 	slaves={
 		amount=2
@@ -366,7 +363,7 @@
 		amount=1
 	}
 	slaves={
-		amount=5
+		amount=4
 	}
 	tribesmen={
 		amount=2
@@ -388,7 +385,7 @@
 		amount=4
 	}
 	slaves={
-		amount=5
+		amount=4
 	}
 }
 
@@ -401,7 +398,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=4
@@ -423,7 +420,7 @@
 		amount=2
 	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -454,7 +451,7 @@
 		amount=3
 	}
 	slaves={
-		amount=12
+		amount=11
 	}
 	slaves={
 		culture="hebrew"
@@ -475,7 +472,7 @@
 		amount=3
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=3
@@ -495,9 +492,6 @@
 	}
 	freemen={
 		amount=2
-	}
-	slaves={
-		amount=1
 	}
 }
 
@@ -667,11 +661,8 @@
 	citizen={
 		amount=2
 	}
-	freemen={
-		amount=1
-	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -772,7 +763,7 @@
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=5
@@ -792,9 +783,6 @@
 	}
 	freemen={
 		amount=2
-	}
-	slaves={
-		amount=1
 	}
 }
 

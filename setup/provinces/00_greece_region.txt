@@ -1,17 +1,17 @@
 ﻿263={ #Naxus
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="marble"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=8
-	}
-	citizen={
 		culture="greek"
 		amount=2
+	}
+	citizen={
+		amount=8
 	}
 	freemen={
 		amount=6
@@ -43,7 +43,7 @@
 280={ #Carpathus
 	terrain="hills"
 	culture="cretan"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -52,7 +52,7 @@
 		amount=3
 	}
 	freemen={
-		amount=4
+		amount=2
 	}
 	slaves={
 		amount=4
@@ -62,13 +62,13 @@
 344={ #Praesus
 	terrain="hills"
 	culture="cretan"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		amount=3
 	}
 	freemen={
 		amount=2
@@ -77,23 +77,23 @@
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
 351={ #Eleutherna
 	terrain="hills"
 	culture="cretan"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -112,7 +112,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=9
+		amount=8
 	}
 	freemen={
 		amount=10
@@ -131,7 +131,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=11
+		amount=10
 	}
 	freemen={
 		amount=7
@@ -156,7 +156,7 @@
 		amount=3
 	}
 	slaves={
-		amount=4
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -393,9 +393,6 @@
 		amount=3
 	}
 	freemen={
-		amount=2
-	}
-	slaves={
 		amount=1
 	}
 }
@@ -403,7 +400,7 @@
 407={ #Chalcis
 	terrain="plains"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -412,11 +409,11 @@
 		amount=3
 	}
 	freemen={
-		amount=3
-	}
-	freemen={
 		culture="macedonian"
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	freemen={
 		culture="greek"
@@ -430,7 +427,7 @@
 409={ #Carystus
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="marble"
 	civilization_value=40
 	barbarian_power=0
@@ -485,25 +482,25 @@
 		amount=2
 	}
 	slaves={
-		amount=10
+		amount=9
 	}
 }
 
 416={ #Athenae
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="precious_metals"
 	civilization_value=55
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=8
-	}
-	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=2
+	}
+	citizen={
+		amount=7
 	}
 	freemen={
 		culture="hebrew"
@@ -530,7 +527,7 @@
 		amount=8
 	}
 	freemen={
-		amount=7
+		amount=6
 	}
 	slaves={
 		amount=2
@@ -540,18 +537,18 @@
 418={ #Corinthus
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=3
-	}
-	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=1
+	}
+	citizen={
+		amount=3
 	}
 	freemen={
 		culture="hebrew"
@@ -576,7 +573,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=12
+		amount=11
 	}
 	slaves={
 		amount=4
@@ -595,7 +592,7 @@
 		amount=1
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -621,18 +618,18 @@
 424={ #Delphi
 	terrain="mountain"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=7
-	}
-	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=1
+	}
+	citizen={
+		amount=7
 	}
 	freemen={
 		amount=5
@@ -680,18 +677,18 @@
 427={ #Sparta
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=9
-	}
-	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=2
+	}
+	citizen={
+		amount=9
 	}
 	freemen={
 		culture="hebrew"
@@ -709,7 +706,7 @@
 429={ #Epidaurus Limerum
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="iron"
 	civilization_value=40
 	barbarian_power=0
@@ -728,7 +725,7 @@
 430={ #Gythium
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -825,7 +822,7 @@
 435={ #Heraea
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -930,18 +927,18 @@
 440={ #Argos
 	terrain="plains"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="iron"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=5
-	}
-	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=1
+	}
+	citizen={
+		amount=5
 	}
 	freemen={
 		culture="hebrew"
@@ -959,7 +956,7 @@
 441={ #Epidaurus
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -984,7 +981,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		amount=5
@@ -1002,9 +999,6 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -1035,7 +1029,7 @@
 446={ #Elis
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -1111,7 +1105,7 @@
 450={ #Cyphanta
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -1123,7 +1117,7 @@
 		amount=3
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1251,7 +1245,7 @@
 459={ #Leucas
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -1267,7 +1261,7 @@
 460={ #Zacynthus
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -1286,7 +1280,7 @@
 461={ #Cephallania
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1324,7 +1318,7 @@
 463={ #Thyrium
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1402,13 +1396,7 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=1
-	}
-	slaves={
 		amount=1
 	}
 }
@@ -1422,13 +1410,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=7
+		amount=6
 	}
 	freemen={
 		amount=5
 	}
 	slaves={
-		amount=4
+		amount=3
 	}
 }
 
@@ -1460,10 +1448,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=6
+		amount=5
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=5
@@ -1473,19 +1461,19 @@
 471={ #Kythera
 	terrain="hills"
 	culture="peloponnesian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		amount=3
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1497,9 +1485,6 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=2
 	}
@@ -1516,9 +1501,6 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	slaves={
 		amount=2
 	}
@@ -1535,12 +1517,6 @@
 	citizen={
 		amount=1
 	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
 }
 
 475={ #Heraclea Trachinum
@@ -1552,13 +1528,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 }
 
@@ -1574,7 +1550,7 @@
 		amount=5
 	}
 	freemen={
-		amount=14
+		amount=13
 	}
 }
 
@@ -1692,7 +1668,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		amount=4
@@ -1711,7 +1687,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=4
@@ -1762,7 +1738,7 @@
 7889={ #Taenarus
 	terrain="hills"
 	culture="peloponnesian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1771,7 +1747,7 @@
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1816,7 +1792,7 @@
 7892={ #Thyreae
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -1851,7 +1827,7 @@
 7894={ #Cleonae
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0

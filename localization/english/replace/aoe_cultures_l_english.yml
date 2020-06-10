@@ -33,10 +33,12 @@
  south_slavs:0 "South Slavs"
  venedi:0 "Venedi"
  huns:0 "Huns"
+ sardinian:0 "Sardinian"
  #Changes to base game
  hibernian:0 "Irish"
  greco_pontic:0 "Pontic"
  pontic:0 "Old-Pontic"
+ etruscan:0 "Corsican"
  ARMY_NAME_slavic:0 "$NUM$$ORDER$ Warband"
  NAVY_NAME_slavic:0 "$NUM$$ORDER$ Navy"
  COHORT_NAME_slavic:0 "$HOME$'s $NUM$$ORDER$ Warband"

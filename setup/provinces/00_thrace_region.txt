@@ -63,14 +63,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -109,7 +106,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -124,9 +121,6 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=2
-	}
 	slaves={
 		amount=3
 	}
@@ -144,10 +138,10 @@
 		amount=4
 	}
 	freemen={
-		amount=8
+		amount=7
 	}
 	slaves={
-		amount=8
+		amount=7
 	}
 }
 
@@ -160,10 +154,10 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=4
+		amount=3
 	}
 	freemen={
-		amount=10
+		amount=9
 	}
 	slaves={
 		amount=3
@@ -182,7 +176,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		culture="greek"
@@ -193,7 +187,7 @@
 		amount=1
 	}
 	slaves={
-		amount=4
+		amount=3
 	}
 }
 
@@ -229,7 +223,7 @@
 	}
 	freemen={
 		culture="macedonian"
-		amount=2
+		amount=1
 	}
 	freemen={
 		amount=2
@@ -253,9 +247,6 @@
 	freemen={
 		culture="macedonian"
 		amount=2
-	}
-	freemen={
-		amount=1
 	}
 	slaves={
 		amount=2
@@ -281,9 +272,6 @@
 		amount=2
 	}
 	slaves={
-		amount=1
-	}
-	tribesmen={
 		amount=1
 	}
 }
@@ -831,7 +819,7 @@
 4231={ #Asamus
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -847,7 +835,7 @@
 4233={ #Storgosia
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -863,7 +851,7 @@
 4234={ #Melta
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -885,7 +873,7 @@
 4236={ #Discoduraterae
 	terrain="hills"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -898,7 +886,7 @@
 4237={ #Nikopolis
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -914,7 +902,7 @@
 4238={ #Novae
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -933,7 +921,7 @@
 4239={ #Trimammium
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -952,7 +940,7 @@
 4240={ #Prista
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -974,7 +962,7 @@
 4241={ #Appiara
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -996,7 +984,7 @@
 4242={ #Transmarisca
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1015,7 +1003,7 @@
 4243={ #Abritus
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -1034,7 +1022,7 @@
 4244={ #Tylis
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1050,7 +1038,7 @@
 4245={ #Haemiana
 	terrain="hills"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1072,7 +1060,7 @@
 4246={ #Durostorum
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -1158,7 +1146,7 @@
 4251={ #Marcianopolis
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1177,7 +1165,7 @@
 4252={ #Helis
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -1193,7 +1181,7 @@
 4253={ #Palmatis
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1238,7 +1226,7 @@
 4256={ #Traiani
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1257,7 +1245,7 @@
 4257={ #Sacidava
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -1276,7 +1264,7 @@
 4258={ #Panissus
 	terrain="hills"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1292,7 +1280,7 @@
 4259={ #Zikideva
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0

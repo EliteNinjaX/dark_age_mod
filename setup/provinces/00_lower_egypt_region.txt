@@ -16,7 +16,7 @@
 		amount=2
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -35,7 +35,7 @@
 		amount=2
 	}
 	slaves={
-		amount=11
+		amount=10
 	}
 	tribesmen={
 		amount=5
@@ -51,12 +51,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=20
-	}
-	citizen={
-		culture="macedonian"
-		religion="chalcedonian"
-		amount=4
+		amount=19
 	}
 	citizen={
 		culture="hebrew"
@@ -67,7 +62,7 @@
 		amount=4
 	}
 	slaves={
-		amount=30
+		amount=27
 	}
 }
 
@@ -80,7 +75,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=17
+		amount=16
 	}
 	citizen={
 		culture="hebrew"
@@ -91,7 +86,7 @@
 		amount=10
 	}
 	slaves={
-		amount=29
+		amount=22
 	}
 }
 
@@ -104,13 +99,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=1
 	}
 	slaves={
-		amount=6
+		amount=5
 	}
 }
 
@@ -129,7 +124,7 @@
 		amount=2
 	}
 	slaves={
-		amount=9
+		amount=7
 	}
 }
 
@@ -148,7 +143,7 @@
 		amount=10
 	}
 	slaves={
-		amount=30
+		amount=28
 	}
 }
 
@@ -215,7 +210,7 @@
 		amount=1
 	}
 	slaves={
-		amount=8
+		amount=7
 	}
 }
 
@@ -231,7 +226,7 @@
 		amount=6
 	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
 		amount=6
@@ -247,7 +242,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=11
+		amount=10
 	}
 	citizen={
 		culture="hebrew"
@@ -285,7 +280,7 @@
 		amount=4
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 }
 
@@ -298,7 +293,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		amount=3
 	}
 	freemen={
 		amount=2
@@ -336,7 +331,7 @@
 		amount=1
 	}
 	slaves={
-		amount=8
+		amount=7
 	}
 }
 
@@ -357,7 +352,7 @@
 		amount=1
 	}
 	slaves={
-		amount=8
+		amount=7
 	}
 }
 
@@ -373,7 +368,7 @@
 		amount=2
 	}
 	slaves={
-		amount=8
+		amount=7
 	}
 }
 
@@ -386,7 +381,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=33
+		amount=32
 	}
 	freemen={
 		amount=17
@@ -436,8 +431,6 @@
 	slaves={
 		amount=3
 	}
-	
-	holy_site = omen_mark
 }
 
 517={ #Hermopolis Parva
@@ -457,6 +450,8 @@
 	slaves={
 		amount=25
 	}
+	
+	holy_site = omen_mark
 }
 
 518={ #Buto
@@ -658,7 +653,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -683,7 +678,7 @@
 		amount=1
 	}
 	slaves={
-		amount=9
+		amount=7
 	}
 }
 
@@ -696,13 +691,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=5
+		amount=4
 	}
 	freemen={
 		amount=3
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 }
 
@@ -715,13 +710,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=1
 	}
 	slaves={
-		amount=6
+		amount=5
 	}
 }
 
@@ -742,10 +737,10 @@
 		amount=3
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 }
 
@@ -764,7 +759,7 @@
 		amount=1
 	}
 	slaves={
-		amount=7
+		amount=5
 	}
 }
 
@@ -777,7 +772,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=10
+		amount=8
 	}
 	citizen={
 		culture="hebrew"
@@ -812,7 +807,7 @@
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	slaves={
 		culture="roman"
@@ -822,9 +817,6 @@
 		culture="roman"
 		religion="chalcedonian"
 		amount=2
-	}
-	tribesmen={
-		amount=1
 	}
 }
 
@@ -842,7 +834,7 @@
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=3
+		amount=2
 	}
 	freemen={
 		culture="hebrew"
@@ -858,7 +850,7 @@
 		amount=13
 	}
 	slaves={
-		amount=12
+		amount=11
 	}
 }
 
@@ -874,10 +866,10 @@
 		amount=5
 	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
-		amount=4
+		amount=3
 	}
 }
 
@@ -890,7 +882,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=9
+		amount=8
 	}
 	freemen={
 		amount=10
@@ -928,7 +920,7 @@
 		amount=22
 	}
 	slaves={
-		amount=10
+		amount=9
 	}
 }
 
@@ -951,7 +943,7 @@
 	slaves={
 		culture="egyptian"
 		religion="miaphysite"
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -974,7 +966,7 @@
 	freemen={
 		culture="hebrew"
 		religion="judaism"
-		amount=6
+		amount=5
 	}
 	freemen={
 		amount=6
@@ -996,7 +988,7 @@
 		amount=4
 	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
 		amount=5
@@ -1015,10 +1007,10 @@
 		amount=13
 	}
 	freemen={
-		amount=8
+		amount=7
 	}
 	slaves={
-		amount=23
+		amount=15
 	}
 }
 
@@ -1031,7 +1023,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=6
+		amount=5
 	}
 	freemen={
 		amount=3
@@ -1055,7 +1047,7 @@
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=2
@@ -1080,7 +1072,7 @@
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 }
 
@@ -1152,14 +1144,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=3
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -1178,14 +1167,14 @@
 		amount=2
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		religion="arabian_pantheon"
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -1207,11 +1196,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="chalcedonian"
-		amount=1
-	}
-	tribesmen={
-		culture="qedarite"
+		culture="nabatean"
 		religion="arabian_pantheon"
 		amount=2
 	}
@@ -1219,7 +1204,7 @@
 
 1600={ #Marah
 	terrain="desert"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -1236,7 +1221,7 @@
 1604={ #Phoinikon
 	terrain="desert"
 	culture="egyptian"
-	religion="arabian_pantheon"
+	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
@@ -1251,7 +1236,7 @@
 
 1675={ #Pharan
 	terrain="hills"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -1270,7 +1255,7 @@
 
 1682={ #Rhaithou
 	terrain="desert"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="gems"
 	civilization_value=35
@@ -1286,7 +1271,7 @@
 
 1684={ #Ain Hudera
 	terrain="hills"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="cattle"
 	civilization_value=35
@@ -1305,7 +1290,7 @@
 
 1688={ #Nuweiba
 	terrain="desert"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -1321,7 +1306,7 @@
 
 1693={ #Horeb Mons
 	terrain="hills"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="gems"
 	civilization_value=35
@@ -1337,7 +1322,7 @@
 
 1708={ #Tell el-Mashraba
 	terrain="hills"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="fish"
 	civilization_value=35
@@ -1350,7 +1335,7 @@
 
 1709={ #Naqb Jedid
 	terrain="desert"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="marble"
 	civilization_value=35
@@ -1363,7 +1348,7 @@
 
 1710={ #Sina Meridionalis
 	terrain="desert"
-	culture="qedarite"
+	culture="nabatean"
 	religion="arabian_pantheon"
 	trade_goods="marble"
 	civilization_value=35
@@ -1579,7 +1564,7 @@
 		amount=1
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=5
@@ -1614,13 +1599,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=5
+		amount=4
 	}
 	freemen={
 		amount=3
 	}
 	slaves={
-		amount=6
+		amount=5
 	}
 }
 
@@ -1636,10 +1621,10 @@
 		amount=4
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=5
+		amount=4
 	}
 }
 
@@ -1658,7 +1643,7 @@
 		amount=2
 	}
 	slaves={
-		amount=10
+		amount=8
 	}
 }
 
