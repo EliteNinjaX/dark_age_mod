@@ -13,7 +13,7 @@
 		amount=11
 	}
 	slaves={
-		amount=11
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -1021,7 +1021,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
-		amount=6
+		amount=5
 	}
 	tribesmen={
 		amount=7
@@ -1054,7 +1054,7 @@
 
 6821={ #Alexandrou Limen
 	terrain="plains"
-	culture="macedonian"
+	culture="sindhi"
 	religion="chalcedonian"
 	trade_goods="gems"
 	civilization_value=40
@@ -1070,7 +1070,6 @@
 		amount=2
 	}
 	tribesmen={
-		culture="sindhi"
 		religion="hindu"
 		amount=10
 	}
@@ -1215,7 +1214,7 @@
 		amount=9
 	}
 	slaves={
-		amount=9
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -1272,9 +1271,6 @@
 	}
 	freemen={
 		amount=7
-	}
-	slaves={
-		amount=3
 	}
 	tribesmen={
 		amount=1

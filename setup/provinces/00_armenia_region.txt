@@ -1281,9 +1281,6 @@
 		amount=11
 	}
 	freemen={
-		amount=10
-	}
-	slaves={
 		amount=8
 	}
 	tribesmen={
@@ -1314,7 +1311,7 @@
 		amount=1
 	}
 	slaves={
-		amount=18
+		amount=14
 	}
 	tribesmen={
 		religion="armenian_religion"

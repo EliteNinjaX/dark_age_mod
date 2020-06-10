@@ -1,0 +1,640 @@
+﻿country_decisions = {
+
+
+	### Volcano Related Decisions ###
+	fix_volcanic_area_vesuvius = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_vesuvius_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_vesuvius_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_vesuvius_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_aetna = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_aetna_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_aetna_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_aetna_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_ararat = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_ararat_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_ararat_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_ararat_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_methana = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_methana_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_methana_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_methana_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_aragats = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_aragats_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_aragats_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_aragats_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_argaeus_mons = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_argaeus_mons_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_argaeus_mons_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_argaeus_mons_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_argaios_mons = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_argaios_mons_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_argaios_mons_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_argaios_mons_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_ausara = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_ausara_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_ausara_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_ausara_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_bamni = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_bamni_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_bamni_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_bamni_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_qarqar = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_qarqar_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_qarqar_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_qarqar_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_caucasus_mons = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_caucasus_mons_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_caucasus_mons_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_caucasus_mons_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+
+	fix_volcanic_area_iberia_mons = {
+		potential = {
+			num_of_cities >= 1
+			any_owned_province = {
+				city_borders_iberia_mons_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		highlight = {
+			scope:province = {
+				city_borders_iberia_mons_trigger = yes
+				OR = {
+					has_province_modifier = province_diminishment_destroyed_volcano
+					has_province_modifier = province_diminishment_ravaged_volcano
+				}
+			}
+		}
+		allow = {
+			treasury >= 200
+		}
+		effect = {
+			add_treasury = -200
+			every_owned_province = {
+				limit = {
+					city_borders_iberia_mons_trigger = yes 
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_destroyed_volcano
+					}
+					remove_province_modifier = province_diminishment_destroyed_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 18250
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = province_diminishment_ravaged_volcano
+					}
+					remove_province_modifier = province_diminishment_ravaged_volcano
+					add_province_modifier = {
+						name = province_improvement_volcanic_ash
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+}

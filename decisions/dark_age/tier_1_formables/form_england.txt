@@ -6,12 +6,9 @@
 		potential = {
 			num_of_cities >= 1
 			country_culture = anglosaxon
-				NOT = {
-				tag = ENG
-			}
 			NOR = {
-				is_endgame_tag_trigger = yes
-				is_tier_2_formable_trigger = yes
+				tag = ENG
+				tag = HRE
 			}
 		}
 		
@@ -39,14 +36,14 @@
 					}
 				}
 			}
-			owns_area = dumnonia_area
-			owns_area = durotrigia_area
-			owns_area = cantiacia_area
-			owns_area = icenia_area
-			owns_area = dobunnia_area
-			owns_area = coritania_area
-			owns_area = cornovia_area
-			owns_area = brigantia_area
+			owns_or_subject_owns_area = dumnonia_area
+			owns_or_subject_owns_area = durotrigia_area
+			owns_or_subject_owns_area = cantiacia_area
+			owns_or_subject_owns_area = icenia_area
+			owns_or_subject_owns_area = dobunnia_area
+			owns_or_subject_owns_area = coritania_area
+			owns_or_subject_owns_area = cornovia_area
+			owns_or_subject_owns_area = brigantia_area
 			OR = {
 				is_monarchy = yes
 				is_republic = yes
@@ -55,6 +52,7 @@
 		}
 		
 		effect = {
+			custom_tooltip = "tier_1_formable_tooltip"
 			change_country_name = "ENGLAND_NAME"
 			hidden_effect = {
 				change_country_adjective = "ENGLAND_ADJECTIVE"
@@ -85,7 +83,7 @@
 			hidden_effect = {
 				every_province = {
 					limit = {
-						region = britain_region
+						is_in_region = britain_region
 						NOT = { owner = ROOT }
 					}
 					add_claim = ROOT

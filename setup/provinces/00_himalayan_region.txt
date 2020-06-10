@@ -280,6 +280,11 @@
 	slaves={
 		amount=2
 	}
+	tribesmen={
+		culture="shauraseni"
+		religion="hindu"
+		amount=1
+	}
 }
 
 5574={ #Pumaring
@@ -690,14 +695,8 @@
 	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
 	freemen={
-		amount=5
-	}
-	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -714,9 +713,6 @@
 	}
 	freemen={
 		amount=3
-	}
-	slaves={
-		amount=1
 	}
 }
 
@@ -741,17 +737,14 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		amount=5
-	}
 	freemen={
-		amount=11
+		amount=1
 	}
 	slaves={
 		amount=8
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -839,14 +832,8 @@
 	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		amount=2
-	}
 	freemen={
-		amount=7
-	}
-	slaves={
-		amount=5
+		amount=4
 	}
 	tribesmen={
 		amount=8
@@ -1232,7 +1219,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=6
 	}
 	tribesmen={
 		amount=1
@@ -1248,13 +1235,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=5
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
+		amount=7
 	}
 }
 
@@ -1270,7 +1251,7 @@
 		amount=2
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1307,12 +1288,6 @@
 	civilization_value=30
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=13
-	}
 	slaves={
 		amount=8
 	}

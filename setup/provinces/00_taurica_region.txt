@@ -736,7 +736,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=7
+		amount=6
 	}
 }
 

@@ -843,7 +843,7 @@
 		amount=7
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=4
@@ -858,9 +858,6 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -933,9 +930,6 @@
 	slaves={
 		amount=2
 	}
-	tribesmen={
-		amount=1
-	}
 }
 
 784={ #Sigon
@@ -957,7 +951,7 @@
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 }
 
@@ -977,13 +971,13 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 786={ #Laodicea ad Mare
 	terrain="forest"
-	culture="greek"
+	culture="aramaic"
 	religion="miaphysite"
 	trade_goods="spices"
 	civilization_value=40
@@ -994,21 +988,13 @@
 		amount=1
 	}
 	citizen={
-		amount=5
-	}
-	citizen={
-		culture="aramaic"
-		amount=1
+		amount=6
 	}
 	freemen={
 		amount=3
 	}
 	freemen={
 		culture="roman"
-		amount=1
-	}
-	slaves={
-		culture="aramaic"
 		amount=1
 	}
 	slaves={
@@ -1045,7 +1031,7 @@
 
 788={ #Posideion
 	terrain="forest"
-	culture="greek"
+	culture="aramaic"
 	religion="miaphysite"
 	trade_goods="cloth"
 	civilization_value=40
@@ -1054,12 +1040,7 @@
 	citizen={
 		amount=4
 	}
-	citizen={
-		culture="aramaic"
-		amount=1
-	}
 	freemen={
-		culture="aramaic"
 		amount=1
 	}
 	slaves={
@@ -1069,28 +1050,20 @@
 
 789={ #Palaeopolis
 	terrain="forest"
-	culture="macedonian"
+	culture="aramaic"
 	religion="miaphysite"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
-	}
-	citizen={
-		culture="aramaic"
-		amount=1
+		amount=3
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
-		amount=1
-	}
-	slaves={
-		culture="aramaic"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -1099,33 +1072,25 @@
 
 790={ #Antiochia
 	terrain="hills"
-	culture="macedonian"
+	culture="aramaic"
 	religion="miaphysite"
 	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=13
-	}
-	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
 	}
+	citizen={
+		amount=13
+	}
 	freemen={
+		amount=11
+	}
+	slaves={
 		amount=9
-	}
-	freemen={
-		culture="aramaic"
-		amount=2
-	}
-	slaves={
-		amount=7
-	}
-	slaves={
-		culture="aramaic"
-		amount=2
 	}
 	slaves={
 		culture="hebrew"
@@ -1446,32 +1411,20 @@
 
 810={ #Zeugma
 	terrain="plains"
-	culture="macedonian"
+	culture="aramaic"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=8
+	}
+	freemen={
 		amount=6
 	}
-	citizen={
-		culture="aramaic"
-		amount=2
-	}
-	freemen={
-		culture="aramaic"
-		amount=1
-	}
-	freemen={
-		amount=5
-	}
 	slaves={
-		culture="aramaic"
-		amount=3
-	}
-	slaves={
-		amount=5
+		amount=8
 	}
 }
 

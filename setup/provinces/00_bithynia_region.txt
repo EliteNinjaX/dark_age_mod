@@ -96,7 +96,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -124,7 +124,7 @@
 		amount=5
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 	tribesmen={
 		amount=3
@@ -601,7 +601,7 @@
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=1
@@ -636,7 +636,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=5
+		amount=4
 	}
 	freemen={
 		amount=3
@@ -932,13 +932,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -1439,7 +1439,7 @@
 		amount=1
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -1485,10 +1485,10 @@
 		amount=2
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -1508,7 +1508,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		amount=3
 	}
 	freemen={
 		culture="pontic"
@@ -1521,7 +1521,7 @@
 		amount=3
 	}
 	tribesmen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		culture="paphlagonian"
@@ -1551,7 +1551,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -1570,7 +1570,7 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=2
@@ -1586,7 +1586,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=8
+		amount=7
 	}
 	citizen={
 		culture="athenian"
@@ -1615,7 +1615,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		amount=3
@@ -1640,7 +1640,7 @@
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=3
@@ -1659,7 +1659,7 @@
 		amount=2
 	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
 		amount=4
@@ -1910,7 +1910,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=1
@@ -1919,7 +1919,7 @@
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -1935,10 +1935,10 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 

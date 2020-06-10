@@ -343,7 +343,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=5
+		amount=4
 	}
 	freemen={
 		amount=1
@@ -1036,6 +1036,9 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	tribesmen={
 		amount=1
 	}

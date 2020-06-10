@@ -697,10 +697,10 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=7
+		amount=6
 	}
 	freemen={
-		amount=7
+		amount=6
 	}
 	slaves={
 		amount=4
@@ -716,13 +716,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=10
+		amount=9
 	}
 	freemen={
 		amount=10
 	}
 	slaves={
-		amount=6
+		amount=5
 	}
 	tribesmen={
 		amount=1
@@ -759,12 +759,6 @@
 	citizen={
 		amount=1
 	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
 }
 
 3359={ #Balagrae
@@ -781,9 +775,6 @@
 	freemen={
 		culture="garamantic"
 		religion="berber_religion"
-		amount=1
-	}
-	freemen={
 		amount=1
 	}
 	slaves={
@@ -806,7 +797,7 @@
 		amount=8
 	}
 	slaves={
-		amount=6
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -827,9 +818,6 @@
 	freemen={
 		amount=2
 	}
-	slaves={
-		amount=1
-	}
 }
 
 3362={ #Agabis
@@ -844,7 +832,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -863,7 +851,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -876,7 +864,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		culture="garamantic"
@@ -905,7 +893,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -921,7 +909,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=6
+		amount=5
 	}
 	freemen={
 		amount=7

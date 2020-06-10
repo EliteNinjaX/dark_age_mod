@@ -9,14 +9,6 @@
 			NOT = {
 				tag = PIC
 			}
-			OR = {
-				is_ai = no
-				num_of_cities >= 6
-			}
-			NOR = {
-				is_endgame_tag_trigger = yes
-				is_tier_1_formable_trigger = yes
-			}
 		}
 		
 		highlight = {
@@ -26,57 +18,35 @@
 					is_in_area = caledonia_occidentalis_area
 					is_in_area = caledonia_meridionalis_area
 				}
-				NOT = {
-					province_id = 2108
-				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
 				text = formable_not_pictland_exists
-			NOT = {
-				any_country = {
-					tag = PIC
+				NOT = {
+					any_country = {
+						tag = PIC
+					}
 				}
-			}
 			}
 			can_form_nation_trigger = yes
 			owns_or_subject_owns_area = caledonia_septentrionalis_area
 			owns_or_subject_owns_area = caledonia_occidentalis_area
 			owns_or_subject_owns_area = caledonia_meridionalis_area
+			OR = {
+				is_monarchy = yes
+				is_republic = yes
+			}
 		}
 		
 		effect = {
 			custom_tooltip = "tier_1_formable_tooltip"
 			change_country_name = "PICTLAND_NAME"
-			tribal_formable_government_change_effect = yes
 			hidden_effect = {
 				change_country_adjective = "PICTLAND_ADJECTIVE"
 				change_country_color =  "athens_blue"
 				change_country_tag = PIC
-			}
-			custom_tooltip = inherit_PIC_provinces_tooltip
-			hidden_effect = {
-				area:caledonia_meridionalis_area = { formable_area_conquest_effect = yes }
-				area:caledonia_occidentalis_area = { formable_area_conquest_effect = yes }
-				area:caledonia_septentrionalis_area = { formable_area_conquest_effect = yes }
-			}
-
-			capital_scope = {
-				if = {
-					limit = {
-						root = {
-							is_tribal = yes
-						}
-					}
-					capital_formable_tribal_effect = yes
-					formable_capital_modifier_tribal_effect = yes
-				}
-				else = {
-					capital_formable_medium_effect = yes
-					formable_capital_modifier_normal_effect = yes
-				}
 			}
 			add_3_free_province_investments = yes
 		}
@@ -87,4 +57,3 @@
 	}
 
 } 
-

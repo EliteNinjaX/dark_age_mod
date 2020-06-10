@@ -7,8 +7,6 @@
 		vandal_crisis_events.3
 		vandal_crisis_events.4
 		vandal_crisis_events.5
-		exarch_events.1
-		ere_gothic_war.1
 		plague_events.1
 		plague_events.2
 		plague_events.3
@@ -17,6 +15,33 @@
 		plague_events.6
 		plague_events.7
 		plague_events.8
+		exarch_events.1
+		ere_gothic_war.1
+		avars_events.1
+		avars_events.2
+		avars_events.3
+		avars_events.4
+		fall_palestine.1
+		fall_syria.1
+		fall_syria.2
+		fall_syria.3
+		fall_egypt.1
+		fall_egypt.2
+		fall_egypt.3
+		fall_egypt.4
+		fall_egypt.5
+		fall_egypt.6
+		fall_mesopotamia.1
+		fall_mesopotamia.2
+		fall_mesopotamia.3
+		fall_mesopotamia.4
+		fall_mesopotamia.5
+		fall_mesopotamia.6
+		arab_news.1
+		arab_news.2
+		arab_news.3
+		arab_news.4
+		test_arab.1
 	}
 }
 
@@ -33,3 +58,4 @@ on_game_initialized = {
 		aoe_startup_events.9
 	}
 }
+

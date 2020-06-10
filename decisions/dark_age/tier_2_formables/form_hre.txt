@@ -6,19 +6,20 @@
 		potential = {
 			num_of_cities >= 1
 			country_culture_group = germanic
-			OR = {
-				is_ai = no
-				num_of_cities >= 8
+			NOT = {
+				tag = HRE
 			}
-			NOR = {
+			NOT = {
 				is_endgame_tag_trigger = yes
 			}
 		}
 		
 		highlight = {
-			OR = {
-				province_id = 1 #Rome
-				province_id = 142 #Ravenna
+			scope:province = {
+				OR = {
+					province_id = 1 #Rome
+					province_id = 142 #Ravenna
+				}
 			}
 		}
 		
@@ -33,12 +34,9 @@
 			}
 			is_monarchy = yes
 			religion = chalcedonian
-			num_of_cities >= 500
-		}
-		
-		ai_allow = {
 			owns = 1 #Rome
 			owns = 142 #Ravenna
+			num_of_cities >= 500
 		}
 		
 		effect = {
@@ -57,30 +55,29 @@
 				name = formable_country_huge_modifier
 				duration = 7600
 			}
+			monarchy_republic_into_imperium_formable_effect = yes
 			custom_tooltip = "form_HRE_claims_tooltip"
 			hidden_effect = {
 				every_province = {
 					limit = {
 						OR = {
-							region = aquitaine_region
-							region = armorica_region
-							region = belgica_region
-							region = central_gaul_region
-							region = transalpine_gaul_region
-							region = germania_superior_region
-							region = transalpine_gaul_region
-							region = cisalpine_gaul_region
-							region = central_italy_region
+							is_in_region = aquitaine_region
+							is_in_region = armorica_region
+							is_in_region = belgica_region
+							is_in_region = central_gaul_region
+							is_in_region = transalpine_gaul_region
+							is_in_region = germania_superior_region
+							is_in_region = transalpine_gaul_region
+							is_in_region = cisalpine_gaul_region
+							is_in_region = central_italy_region
 						}
 						NOT = { owner = ROOT }
 					}
 					add_claim = ROOT
 				}
 			}
-			monarchy_republic_into_imperium_formable_effect = yes
 			add_3_free_province_investments = yes
-		}
-		
+		}		
 		ai_will_do = {
 			base = 1
 		}

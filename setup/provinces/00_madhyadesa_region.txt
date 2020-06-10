@@ -1390,7 +1390,7 @@
 		amount=7
 	}
 	slaves={
-		amount=9
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1501,9 +1501,6 @@
 	}
 	slaves={
 		amount=6
-	}
-	tribesmen={
-		amount=1
 	}
 }
 

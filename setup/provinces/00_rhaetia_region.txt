@@ -120,11 +120,8 @@
 	freemen={
 		amount=2
 	}
-	slaves={
-		amount=1
-	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -209,11 +206,8 @@
 	citizen={
 		amount=1
 	}
-	slaves={
-		amount=1
-	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -230,9 +224,6 @@
 	}
 	freemen={
 		amount=3
-	}
-	slaves={
-		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -453,11 +444,8 @@
 	freemen={
 		amount=1
 	}
-	slaves={
-		amount=1
-	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -543,26 +531,23 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="franks"
 		religion="chalcedonian"
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="franks"
 		religion="chalcedonian"
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
-	slaves={
-		amount=1
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=5
+		amount=2
 	}
 }
 
@@ -575,113 +560,82 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="franks"
 		religion="chalcedonian"
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="franks"
 		religion="chalcedonian"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
 3636={ #Brigantium
 	terrain="hills"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="alamanni"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="franks"
-		amount=1
-	}
-	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		amount=3
 	}
-	freemen={
-		culture="franks"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
 3637={ #Vernania
 	terrain="hills"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="alamanni"
+	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="franks"
-		amount=1
+		amount=3
 	}
 	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	freemen={
 		culture="franks"
-		amount=1
+		amount=2
 	}
-	tribesmen={
-		amount=3
+	freemen={
+		amount=2
 	}
 }
 
 3638={ #Cambodunum
 	terrain="forest"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="alamanni"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="franks"
-		amount=1
+		amount=2
 	}
 	citizen={
+		culture="franks"
 		amount=2
 	}
 	freemen={
-		amount=4
-	}
-	freemen={
-		culture="franks"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -694,30 +648,17 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
-	}
-	citizen={
-		culture="franks"
-		religion="chalcedonian"
-		amount=1
-	}
-	freemen={
-		culture="franks"
-		religion="chalcedonian"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=3
+	}
+	freemen={
+		amount=2
 	}
 }
 
 3640={ #Damasia
 	terrain="forest"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -735,8 +676,8 @@
 
 3641={ #Covelicae
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -751,8 +692,8 @@
 
 3642={ #Isinisca
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -770,8 +711,8 @@
 
 3643={ #Artobriga
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="stone"
 	civilization_value=20
 	barbarian_power=0
@@ -786,8 +727,8 @@
 
 3644={ #Iuvavum
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="marble"
 	civilization_value=20
 	barbarian_power=0
@@ -805,8 +746,8 @@
 
 3645={ #Laciacum
 	terrain="hills"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="cattle"
 	civilization_value=20
 	barbarian_power=0
@@ -824,8 +765,8 @@
 
 3646={ #Tergolape
 	terrain="hills"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
@@ -995,13 +936,10 @@
 		amount=1
 	}
 	freemen={
-		amount=3
-	}
-	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -1052,7 +990,7 @@
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=4
@@ -1140,9 +1078,6 @@
 	freemen={
 		amount=3
 	}
-	slaves={
-		amount=1
-	}
 	tribesmen={
 		amount=3
 	}
@@ -1214,12 +1149,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="franks"
 		religion="chalcedonian"
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="franks"
@@ -1227,9 +1162,6 @@
 		amount=1
 	}
 	freemen={
-		amount=2
-	}
-	tribesmen={
 		amount=3
 	}
 }
@@ -1243,12 +1175,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="franks"
 		religion="chalcedonian"
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="franks"
@@ -1256,9 +1188,6 @@
 		amount=1
 	}
 	freemen={
-		amount=2
-	}
-	tribesmen={
 		amount=3
 	}
 }
@@ -1272,7 +1201,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="franks"
@@ -1280,15 +1209,7 @@
 		amount=1
 	}
 	freemen={
-		culture="franks"
-		religion="chalcedonian"
-		amount=1
-	}
-	freemen={
 		amount=2
-	}
-	tribesmen={
-		amount=3
 	}
 }
 
@@ -1301,7 +1222,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="franks"
@@ -1309,52 +1230,38 @@
 		amount=1
 	}
 	freemen={
-		culture="franks"
-		religion="chalcedonian"
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	tribesmen={
 		amount=3
 	}
 }
 
 3747={ #Navoa
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="alamanni"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="franks"
-		amount=1
+		amount=3
 	}
 	citizen={
+		culture="franks"
 		amount=2
 	}
 	freemen={
-		amount=1
+		culture="franks"
+		amount=2
 	}
 	freemen={
-		culture="franks"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
 3748={ #Rostrum Nemaviae
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -1372,8 +1279,8 @@
 
 3751={ #Abodiacum
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -1391,8 +1298,8 @@
 
 3753={ #Bratananium
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1407,8 +1314,8 @@
 
 3754={ #Tessenios
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1423,8 +1330,8 @@
 
 3755={ #Turum Breunia
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -1442,8 +1349,8 @@
 
 3756={ #Iovisura
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=20
 	barbarian_power=0
@@ -1458,8 +1365,8 @@
 
 3758={ #Castra Regina
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="cattle"
 	civilization_value=20
 	barbarian_power=0
@@ -1474,8 +1381,8 @@
 
 3759={ #Sorviodurum
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="hemp"
 	civilization_value=20
 	barbarian_power=0
@@ -1490,8 +1397,8 @@
 
 3760={ #Petrensibus
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
@@ -1506,8 +1413,8 @@
 
 3761={ #Batavis
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
@@ -1525,8 +1432,8 @@
 
 3762={ #Stanacum
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=20
 	barbarian_power=0
@@ -1544,8 +1451,8 @@
 
 3763={ #Ioviacum
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="cloth"
 	civilization_value=20
 	barbarian_power=0
@@ -1563,8 +1470,8 @@
 
 3764={ #Innaba
 	terrain="plains"
-	culture="rhaetian"
-	religion="chalcedonian"
+	culture="bavarii"
+	religion="arian"
 	trade_goods="vegetables"
 	civilization_value=20
 	barbarian_power=0

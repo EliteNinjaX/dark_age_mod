@@ -1779,9 +1779,6 @@
 	tribesmen={
 		amount=4
 	}
-	
-	holy_site = omen_augustine
-
 }
 
 3226={ #Culucitanis
@@ -1813,6 +1810,9 @@
 	tribesmen={
 		amount=1
 	}
+	
+	holy_site = omen_augustine
+
 }
 
 3227={ #Rusicade

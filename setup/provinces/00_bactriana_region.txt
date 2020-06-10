@@ -35,7 +35,7 @@
 
 6611={ #Alexandria Caucasum
 	terrain="mountain"
-	culture="macedonian"
+	culture="gandhari"
 	religion="chalcedonian"
 	trade_goods="gems"
 	civilization_value=40
@@ -92,7 +92,7 @@
 		amount=3
 	}
 	slaves={
-		amount=17
+		amount=13
 	}
 	tribesmen={
 		amount=2
@@ -922,7 +922,7 @@
 
 6668={ #Alexandria Margiana
 	terrain="plains"
-	culture="macedonian"
+	culture="hephthalites"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -932,7 +932,6 @@
 		amount=10
 	}
 	freemen={
-		culture="hephthalites"
 		religion="zoroaster"
 		amount=1
 	}
@@ -940,12 +939,10 @@
 		amount=8
 	}
 	slaves={
-		culture="hephthalites"
 		religion="zoroaster"
 		amount=4
 	}
 	tribesmen={
-		culture="hephthalites"
 		religion="zoroaster"
 		amount=5
 	}
@@ -1243,10 +1240,10 @@
 		amount=1
 	}
 	citizen={
-		amount=11
+		amount=6
 	}
 	freemen={
-		amount=11
+		amount=10
 	}
 	freemen={
 		culture="macedonian"
@@ -1262,12 +1259,6 @@
 		culture="ionian"
 		religion="chalcedonian"
 		amount=2
-	}
-	slaves={
-		amount=11
-	}
-	tribesmen={
-		amount=11
 	}
 }
 
@@ -1458,35 +1449,20 @@
 
 6688={ #Alexandria Oxiana
 	terrain="plains"
-	culture="macedonian"
+	culture="hephthalites"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="hephthalites"
-		amount=1
-	}
-	citizen={
 		amount=6
 	}
 	freemen={
-		culture="hephthalites"
-		amount=1
-	}
-	freemen={
-		amount=16
-	}
-	slaves={
-		amount=3
+		amount=17
 	}
 	tribesmen={
-		amount=3
-	}
-	tribesmen={
-		culture="hephthalites"
-		amount=1
+		amount=2
 	}
 }
 
@@ -1628,7 +1604,7 @@
 
 6694={ #Oskobara
 	terrain="farmland"
-	culture="macedonian"
+	culture="hephthalites"
 	religion="chalcedonian"
 	trade_goods="gems"
 	civilization_value=40
@@ -1638,12 +1614,10 @@
 		amount=16
 	}
 	citizen={
-		culture="hephthalites"
 		religion="zoroaster"
 		amount=3
 	}
 	freemen={
-		culture="hephthalites"
 		religion="zoroaster"
 		amount=2
 	}
@@ -1767,9 +1741,6 @@
 		culture="macedonian"
 		religion="chalcedonian"
 		amount=1
-	}
-	slaves={
-		amount=6
 	}
 	slaves={
 		religion="chalcedonian"

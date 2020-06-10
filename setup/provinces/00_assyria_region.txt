@@ -23,7 +23,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -47,7 +47,7 @@
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=2
+		amount=1
 	}
 	citizen={
 		religion="zoroaster"
@@ -88,7 +88,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=6
+		amount=5
 	}
 	freemen={
 		amount=1
@@ -107,7 +107,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		amount=4
@@ -130,7 +130,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		amount=3
@@ -184,7 +184,7 @@
 
 830={ #Nisibis
 	terrain="plains"
-	culture="macedonian"
+	culture="assyrian"
 	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=40
@@ -200,7 +200,6 @@
 		amount=2
 	}
 	tribesmen={
-		culture="assyrian"
 		religion="zoroaster"
 		amount=1
 	}
@@ -582,7 +581,7 @@
 		amount=1
 	}
 	freemen={
-		amount=4
+		amount=2
 	}
 	slaves={
 		amount=5
@@ -623,7 +622,7 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -635,9 +634,6 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
-	}
 	slaves={
 		amount=2
 	}
@@ -655,7 +651,7 @@
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -671,7 +667,7 @@
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1231,7 +1227,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		amount=2
@@ -1250,10 +1246,7 @@
 		amount=14
 	}
 	freemen={
-		amount=14
-	}
-	slaves={
-		amount=13
+		amount=9
 	}
 	tribesmen={
 		amount=9

@@ -12,15 +12,20 @@
 		amount=1
 	}
 	citizen={
+		culture="hebrew"
+		religion="judaism"
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=3
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -38,23 +43,20 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
-	}
-	citizen={
 		amount=2
 	}
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=4
+		amount=5
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
-	}
-	slaves={
 		amount=2
 	}
-	tribesmen={
+	slaves={
 		amount=2
 	}
 }
@@ -70,18 +72,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
-	}
-	citizen={
 		amount=2
 	}
-	freemen={
+	citizen={
 		amount=3
+	}
+	freemen={
+		amount=4
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -101,17 +103,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -131,17 +133,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -161,17 +163,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		religion="judaism"
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -191,17 +193,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -221,17 +223,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -250,10 +252,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		religion="arabian_pantheon"
@@ -273,10 +275,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=4
+		amount=6
 	}
 	tribesmen={
 		amount=1
@@ -293,17 +295,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=1
@@ -320,17 +322,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=4
+		amount=5
 	}
 	tribesmen={
 		amount=2
@@ -347,17 +349,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	tribesmen={
 		amount=1
@@ -375,18 +377,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
-	}
-	citizen={
 		amount=2
 	}
-	freemen={
+	citizen={
 		amount=3
+	}
+	freemen={
+		amount=4
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -407,18 +409,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=2
@@ -435,17 +437,17 @@
 	province_rank="settlement"
 	citizen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -470,24 +472,25 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=4
+		amount=5
 	}
 	slaves={
-		amount=4
+		amount=1
 	}
-	tribesmen={
-		amount=2
+	slaves={
+		religion="judaism"
+		amount=1
 	}
 }
 
@@ -500,23 +503,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=3
-	}
-	tribesmen={
-		amount=1
 	}
 }
 
@@ -531,18 +521,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -560,18 +550,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -592,24 +582,20 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		amount=3
 	}
 	freemen={
-		culture="himjar"
-		religion="judaism"
+		culture="hebrew"
 		amount=1
 	}
 	freemen={
 		religion="judaism"
-		amount=1
-	}
-	slaves={
 		amount=1
 	}
 }
@@ -623,21 +609,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		amount=1
-	}
-	citizen={
-		amount=3
-	}
-	freemen={
-		culture="himjar"
-		amount=1
-	}
-	freemen={
 		amount=4
 	}
-	tribesmen={
-		amount=2
+	freemen={
+		amount=1
 	}
 }
 
@@ -650,24 +625,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=3
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
 	}
 }
 
@@ -682,21 +643,13 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	tribesmen={
-		amount=1
+		amount=3
 	}
 }
 
@@ -709,20 +662,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
-	tribesmen={
+	freemen={
 		amount=3
 	}
 }
@@ -741,18 +683,14 @@
 		amount=1
 	}
 	citizen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="hebrew"
+		amount=1
 	}
 }
 
@@ -765,22 +703,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	tribesmen={
 		amount=1
 	}
 }
@@ -794,26 +719,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
 	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -826,22 +735,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	tribesmen={
 		amount=2
 	}
 }
@@ -855,20 +751,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
 	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
+		amount=2
 	}
 }
 
@@ -881,26 +767,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	slaves={
 		amount=2
 	}
-	tribesmen={
-		amount=1
+	freemen={
+		amount=2
 	}
 }
 
@@ -913,26 +783,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -950,21 +804,14 @@
 		amount=1
 	}
 	citizen={
-		amount=2
-	}
-	freemen={
-		amount=2
-	}
-	freemen={
-		culture="himjar"
 		religion="judaism"
 		amount=1
 	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
+	citizen={
 		amount=2
+	}
+	freemen={
+		amount=3
 	}
 }
 
@@ -979,18 +826,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -1006,23 +853,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		amount=5
-	}
-	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1035,17 +869,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=2
@@ -1061,23 +885,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1090,17 +901,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=2
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
+		amount=3
 	}
 	freemen={
 		amount=1
@@ -1117,17 +918,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -1148,27 +949,23 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		religion="judaism"
 		amount=1
 	}
 }
@@ -1183,17 +980,17 @@
 	province_rank="settlement"
 	citizen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1212,30 +1009,19 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
 		religion="judaism"
 		amount=1
 	}
 	citizen={
+		amount=3
+	}
+	freemen={
+		culture="hebrew"
 		religion="judaism"
 		amount=1
 	}
-	citizen={
-		amount=2
-	}
 	freemen={
-		amount=2
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
+		amount=3
 	}
 }
 
@@ -1249,17 +1035,17 @@
 	province_rank="settlement"
 	citizen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	tribesmen={
 		amount=1
@@ -1277,21 +1063,13 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1306,18 +1084,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -1335,18 +1113,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
 		religion="judaism"
@@ -1371,18 +1149,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1403,18 +1181,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
 		religion="judaism"
@@ -1422,9 +1200,6 @@
 	}
 	slaves={
 		amount=1
-	}
-	tribesmen={
-		amount=2
 	}
 }
 
@@ -1441,25 +1216,14 @@
 		amount=1
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		culture="minaean"
-		religion="arabian_pantheon"
-		amount=1
-	}
-	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1474,18 +1238,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -1502,17 +1266,17 @@
 	province_rank="settlement"
 	citizen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1535,16 +1299,9 @@
 		amount=1
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		culture="himjar"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=2
 	}
 }
@@ -1560,18 +1317,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1592,18 +1349,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1624,20 +1381,17 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
-	}
-	tribesmen={
 		amount=1
 	}
 }
@@ -1652,17 +1406,17 @@
 	province_rank="settlement"
 	citizen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=1
@@ -1683,18 +1437,18 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -1710,21 +1464,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		amount=1
-	}
-	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		amount=1
-	}
-	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1738,23 +1481,13 @@
 	province_rank="settlement"
 	citizen={
 		culture="himjar"
-		amount=1
+		amount=2
 	}
 	citizen={
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
 	freemen={
-		culture="himjar"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
+		amount=3
 	}
 }
 
@@ -1769,6 +1502,10 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
+		amount=2
+	}
+	citizen={
+		religion="judaism"
 		amount=1
 	}
 	citizen={
@@ -1778,9 +1515,13 @@
 		amount=2
 	}
 	freemen={
-		culture="himjar"
 		religion="judaism"
 		amount=1
+	}
+	freemen={
+		culture="himjar"
+		religion="judaism"
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -1801,24 +1542,13 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=3
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
 		amount=2
 	}
-	tribesmen={
-		amount=1
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
 	}
 }
 
@@ -1836,18 +1566,10 @@
 		amount=1
 	}
 	citizen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
-	slaves={
-		amount=1
+	freemen={
+		amount=3
 	}
 }
 
@@ -1865,20 +1587,9 @@
 		amount=1
 	}
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
 		amount=2
 	}
 }
@@ -1968,26 +1679,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
 		amount=2
 	}
-	tribesmen={
-		amount=1
+	freemen={
+		amount=2
 	}
 }
 
@@ -2000,20 +1695,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
 		amount=2
+	}
+	freemen={
+		amount=3
 	}
 }
 
@@ -2028,21 +1713,17 @@
 	citizen={
 		culture="himjar"
 		religion="judaism"
+		amount=2
+	}
+	citizen={
+		religion="judaism"
 		amount=1
 	}
 	citizen={
 		amount=1
 	}
 	freemen={
-		culture="himjar"
-		religion="judaism"
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
+		amount=3
 	}
 }
 

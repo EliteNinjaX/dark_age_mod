@@ -58,11 +58,8 @@
 	freemen={
 		amount=11
 	}
-	slaves={
-		amount=3
-	}
 	tribesmen={
-		amount=8
+		amount=7
 	}
 	tribesmen={
 		religion="jainism"
@@ -313,7 +310,7 @@
 		amount=5
 	}
 	slaves={
-		amount=5
+		amount=1
 	}
 	tribesmen={
 		amount=14
@@ -342,11 +339,8 @@
 	freemen={
 		amount=3
 	}
-	slaves={
-		amount=1
-	}
 	tribesmen={
-		amount=7
+		amount=5
 	}
 	tribesmen={
 		religion="jainism"
@@ -435,7 +429,7 @@
 		amount=10
 	}
 	slaves={
-		amount=9
+		amount=6
 	}
 	tribesmen={
 		amount=7
@@ -550,11 +544,11 @@
 		amount=8
 	}
 	slaves={
-		amount=8
+		amount=1
 	}
 	slaves={
 		religion="jainism"
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -853,7 +847,7 @@
 		amount=4
 	}
 	tribesmen={
-		amount=11
+		amount=8
 	}
 }
 
@@ -1108,10 +1102,7 @@
 		amount=8
 	}
 	freemen={
-		amount=13
-	}
-	slaves={
-		amount=8
+		amount=10
 	}
 	tribesmen={
 		amount=8

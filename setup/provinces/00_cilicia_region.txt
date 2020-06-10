@@ -464,7 +464,7 @@
 		amount=1
 	}
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=3
@@ -502,9 +502,6 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=3
 	}
@@ -532,7 +529,7 @@
 		amount=2
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 }
 
@@ -551,7 +548,7 @@
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 }
 
@@ -567,7 +564,7 @@
 		amount=6
 	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -583,7 +580,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
 		amount=3
@@ -605,7 +602,7 @@
 		amount=2
 	}
 	slaves={
-		amount=4
+		amount=3
 	}
 }
 
@@ -618,7 +615,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		culture="cappadocian"
@@ -644,9 +641,6 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=4
 	}
@@ -852,14 +846,14 @@
 		amount=4
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	freemen={
 		culture="cilician"
 		amount=2
 	}
 	slaves={
-		amount=4
+		amount=3
 	}
 }
 
@@ -875,10 +869,10 @@
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 	slaves={
 		culture="isaurian"
@@ -909,7 +903,7 @@
 		amount=1
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 }
 
@@ -922,7 +916,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=7
+		amount=5
 	}
 	slaves={
 		amount=2
@@ -1539,7 +1533,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=1
@@ -1558,7 +1552,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		amount=3
 	}
 	freemen={
 		amount=1

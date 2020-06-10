@@ -998,13 +998,10 @@
 		amount=13
 	}
 	freemen={
-		amount=13
-	}
-	slaves={
-		amount=8
+		amount=9
 	}
 	tribesmen={
-		amount=9
+		amount=8
 	}
 }
 

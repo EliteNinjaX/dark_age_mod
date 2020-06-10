@@ -9,9 +9,6 @@
 	freemen={
 		amount=2
 	}
-	slaves={
-		amount=2
-	}
 	tribesmen={
 		amount=4
 	}
@@ -121,7 +118,7 @@
 		amount=4
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -399,12 +396,6 @@
 	freemen={
 		amount=4
 	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
 }
 
 4299={ #Deva Apulensis
@@ -476,7 +467,7 @@
 		amount=4
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -536,7 +527,7 @@
 		amount=3
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -577,8 +568,8 @@
 
 4508={ #Samum
 	terrain="forest"
-	culture="south_slavs"
-	religion="slavic"
+	culture="huns"
+	religion="tengri"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -593,14 +584,14 @@
 		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
 4509={ #Porolissum
 	terrain="forest"
-	culture="south_slavs"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -621,8 +612,8 @@
 
 4510={ #Resculum
 	terrain="hills"
-	culture="south_slavs"
-	religion="slavic"
+	culture="huns"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -637,8 +628,8 @@
 
 4511={ #Optatiana
 	terrain="forest"
-	culture="south_slavs"
-	religion="slavic"
+	culture="huns"
+	religion="tengri"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1123,8 +1114,8 @@
 
 4882={ #Olate
 	terrain="forest"
-	culture="gepids"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1136,8 +1127,8 @@
 
 4883={ #Voconis
 	terrain="plains"
-	culture="gepids"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1162,8 +1153,8 @@
 
 4885={ #Tolitum
 	terrain="plains"
-	culture="gepids"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -1204,8 +1195,8 @@
 
 4905={ #Patridava
 	terrain="hills"
-	culture="gepids"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1217,8 +1208,8 @@
 
 4906={ #Petrodava
 	terrain="hills"
-	culture="gepids"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1233,8 +1224,8 @@
 
 4907={ #Vidava
 	terrain="forest"
-	culture="gepids"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1252,8 +1243,8 @@
 
 4908={ #Mallites
 	terrain="hills"
-	culture="gepids"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -1313,8 +1304,8 @@
 
 4927={ #Mittarium
 	terrain="hills"
-	culture="gepids"
-	religion="arian"
+	culture="huns"
+	religion="tengri"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0

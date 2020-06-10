@@ -333,9 +333,6 @@
 	freemen={
 		amount=2
 	}
-	slaves={
-		amount=2
-	}
 	tribesmen={
 		amount=7
 	}
@@ -767,9 +764,6 @@
 	}
 	freemen={
 		amount=3
-	}
-	slaves={
-		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1540,7 +1534,7 @@
 		amount=3
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 	tribesmen={
 		amount=6

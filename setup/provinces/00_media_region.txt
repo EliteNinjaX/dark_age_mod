@@ -495,10 +495,7 @@
 		amount=1
 	}
 	freemen={
-		amount=10
-	}
-	slaves={
-		amount=9
+		amount=7
 	}
 	slaves={
 		culture="hebrew"
@@ -1669,9 +1666,6 @@
 		amount=10
 	}
 	freemen={
-		amount=11
-	}
-	slaves={
 		amount=10
 	}
 	tribesmen={
@@ -1798,7 +1792,7 @@
 		amount=11
 	}
 	slaves={
-		amount=5
+		amount=2
 	}
 	tribesmen={
 		amount=8

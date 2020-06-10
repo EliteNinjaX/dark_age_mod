@@ -340,7 +340,7 @@
 4200={ #Viminacium Moesia
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -356,7 +356,7 @@
 4201={ #Municipium
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -464,7 +464,7 @@
 4207={ #Cuppae
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -483,7 +483,7 @@
 4208={ #Taliata
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -502,7 +502,7 @@
 4209={ #Egeta
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -559,7 +559,7 @@
 4212={ #Bao
 	terrain="hills"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -578,7 +578,7 @@
 4213={ #Romuliana
 	terrain="hills"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -594,7 +594,7 @@
 4214={ #Clevora
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -613,7 +613,7 @@
 4215={ #Dortium
 	terrain="farmland"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -632,7 +632,7 @@
 4216={ #Bononia Moesia
 	terrain="farmland"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -651,7 +651,7 @@
 4217={ #Ratiaria
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -667,7 +667,7 @@
 4218={ #Martis
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -705,7 +705,7 @@
 4220={ #Combustica
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -724,7 +724,7 @@
 4221={ #Montana
 	terrain="hills"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -759,7 +759,7 @@
 4223={ #Almus
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -781,7 +781,7 @@
 4224={ #Cebrus
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -797,7 +797,7 @@
 4225={ #Tautiomosis
 	terrain="hills"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -816,7 +816,7 @@
 4226={ #Vicus Siamus
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -835,7 +835,7 @@
 4227={ #Oescus
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -854,7 +854,7 @@
 4228={ #Trullensium
 	terrain="forest"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -870,7 +870,7 @@
 4229={ #Longinopara
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -908,7 +908,7 @@
 4232={ #Ad Putea
 	terrain="plains"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -921,7 +921,7 @@
 4235={ #Sostra
 	terrain="hills"
 	culture="thracian"
-	religion="slavic"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -987,7 +987,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=6
 	}
 	tribesmen={
 		amount=3
@@ -1006,7 +1006,7 @@
 		amount=2
 	}
 	freemen={
-		amount=5
+		amount=7
 	}
 	tribesmen={
 		amount=2
@@ -1025,7 +1025,7 @@
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1060,7 +1060,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=5
+		amount=7
 	}
 	slaves={
 		amount=1
@@ -1174,7 +1174,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=2
@@ -1196,7 +1196,7 @@
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=1
@@ -1212,10 +1212,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
-	}
-	slaves={
-		amount=2
+		amount=6
 	}
 	tribesmen={
 		amount=3
@@ -1234,7 +1231,7 @@
 		amount=1
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1272,7 +1269,7 @@
 		amount=1
 	}
 	freemen={
-		amount=4
+		amount=6
 	}
 	slaves={
 		amount=1
@@ -1291,7 +1288,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -1326,7 +1323,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -1361,7 +1358,7 @@
 		amount=1
 	}
 	freemen={
-		amount=4
+		amount=6
 	}
 	slaves={
 		amount=1
@@ -1380,7 +1377,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -1396,7 +1393,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -1412,7 +1409,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=2
@@ -1428,7 +1425,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=3
@@ -1444,7 +1441,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=6
 	}
 	slaves={
 		amount=1
@@ -1485,7 +1482,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=3
@@ -1517,7 +1514,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -1536,7 +1533,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=2
@@ -1555,7 +1552,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1574,7 +1571,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=4
 	}
 	tribesmen={
 		amount=1
@@ -1593,7 +1590,7 @@
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1612,7 +1609,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3

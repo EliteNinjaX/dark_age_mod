@@ -54,10 +54,10 @@
 		amount=10
 	}
 	slaves={
-		amount=7
+		amount=2
 	}
 	tribesmen={
-		amount=27
+		amount=26
 	}
 }
 
@@ -348,7 +348,7 @@
 
 4371={ #Alexandreia Indos
 	terrain="plains"
-	culture="macedonian"
+	culture="sindhi"
 	religion="chalcedonian"
 	trade_goods="incense"
 	civilization_value=40
@@ -361,12 +361,10 @@
 		amount=2
 	}
 	slaves={
-		culture="sindhi"
 		religion="hindu"
 		amount=1
 	}
 	tribesmen={
-		culture="sindhi"
 		religion="hindu"
 		amount=3
 	}

@@ -632,7 +632,7 @@
 3245={ #Curubis
 	terrain="farmland"
 	culture="vandal"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="spices"
 	civilization_value=40
 	barbarian_power=0
@@ -818,7 +818,7 @@
 3254={ #Kerkouane
 	terrain="farmland"
 	culture="vandal"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="dye"
 	civilization_value=40
 	barbarian_power=0
@@ -837,7 +837,7 @@
 3255={ #Missua
 	terrain="farmland"
 	culture="vandal"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="stone"
 	civilization_value=40
 	barbarian_power=0
@@ -870,13 +870,13 @@
 		amount=3
 	}
 	citizen={
-		amount=32
+		amount=31
 	}
 	freemen={
 		amount=8
 	}
 	slaves={
-		amount=18
+		amount=5
 	}
 	tribesmen={
 		amount=10
@@ -886,7 +886,7 @@
 3257={ #Utica
 	terrain="farmland"
 	culture="vandal"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="base_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -908,7 +908,7 @@
 3258={ #Hippo Diarrhytus
 	terrain="plains"
 	culture="vandal"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -949,7 +949,7 @@
 3260={ #Matar
 	terrain="farmland"
 	culture="vandal"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0

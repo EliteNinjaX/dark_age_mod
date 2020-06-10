@@ -27,7 +27,7 @@ DOR = "setup/countries/southwest/dorsal.txt"
 MRI = "setup/countries/southwest/mauri.txt"
 
 #ARABS
-UMY = "setup/countries/east/umayyad.txt"
+ARA = "setup/countries/east/umayyad.txt"
 
 #BRITAIN
 BER = "setup/countries/britain/bernicia.txt"
@@ -102,6 +102,9 @@ AVA = "setup/countries/nomadic/avars.txt"
 ALA = "setup/countries/nomadic/alans.txt"
 BUL = "setup/countries/nomadic/bulgars.txt"
 TUR = "setup/countries/nomadic/turks.txt"
+KUT = "setup/countries/nomadic/kutrigurs.txt"
+UTI = "setup/countries/nomadic/utigurs.txt"
+HUN = "setup/countries/nomadic/huns.txt"
 
 #East
 
@@ -148,11 +151,13 @@ AAN = "setup/countries/west/andalus.txt"
 #Africa
 AXM = "setup/countries/africa/aksum.txt"
 
-#Lombards
-BEN = "setup/countries/lombards/benevento.txt"
-LOM = "setup/countries/lombards/lombardy.txt"
-SPO = "setup/countries/lombards/spoleto.txt"
-TUS = "setup/countries/lombards/tuscany.txt"
+#Germanic
+BEN = "setup/countries/fringe/benevento.txt"
+LOM = "setup/countries/fringe/lombardy.txt"
+SPO = "setup/countries/fringe/spoleto.txt"
+TUS = "setup/countries/fringe/tuscany.txt"
+BAV = "setup/countries/fringe/bavarii.txt"
+ALM = "setup/countries/fringe/alemanni.txt"
 
 #Exarchs
 AFR = "setup/countries/exarch/africa.txt"

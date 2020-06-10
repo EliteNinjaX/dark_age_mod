@@ -142,7 +142,7 @@
 		amount=2
 	}
 	slaves={
-		amount=3
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -805,7 +805,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
@@ -908,7 +908,7 @@
 		amount=3
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	tribesmen={
 		amount=2
@@ -1452,7 +1452,7 @@
 		amount=1
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 	slaves={
 		culture="derbiccan"

@@ -7,10 +7,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -26,13 +26,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -45,13 +45,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -64,16 +61,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=5
-	}
-	slaves={
-		amount=2
+		amount=7
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -86,13 +80,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -105,13 +99,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -124,13 +118,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=2
 	}
 }
 
@@ -143,13 +137,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	tribesmen={
-		amount=5
+		amount=2
 	}
 }
 
@@ -162,10 +156,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -184,13 +178,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -203,10 +197,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=5
@@ -222,10 +216,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -241,13 +235,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -260,13 +254,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -279,13 +273,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -298,13 +292,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -317,13 +311,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=2
 	}
 }
 
@@ -336,13 +330,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -355,13 +349,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -374,10 +368,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -393,21 +387,21 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="franks"
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
 	freemen={
+		amount=3
+	}
+	freemen={
 		culture="franks"
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -420,21 +414,21 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	citizen={
 		culture="franks"
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
 	freemen={
+		amount=3
+	}
+	freemen={
 		culture="franks"
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -447,13 +441,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=5
+		amount=7
 	}
 	tribesmen={
-		amount=5
+		amount=3
 	}
 }
 
@@ -466,13 +460,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=5
-	}
-	tribesmen={
-		amount=4
+		amount=6
 	}
 }
 
@@ -485,16 +476,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -507,13 +495,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
@@ -526,13 +514,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -545,13 +530,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -564,12 +546,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
-	}
-	freemen={
 		amount=4
 	}
-	tribesmen={
+	freemen={
 		amount=5
 	}
 }
@@ -583,13 +562,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -602,13 +581,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -621,13 +600,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -640,10 +619,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -659,13 +638,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=4
+		amount=6
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -678,13 +657,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -697,10 +676,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -716,13 +695,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=3
 	}
 }
 
@@ -735,13 +714,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
-		amount=5
-	}
-	tribesmen={
-		amount=4
+		amount=7
 	}
 }
 
@@ -754,16 +730,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		amount=5
 	}
 	freemen={
-		amount=4
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=5
+		amount=6
 	}
 }
 
@@ -776,16 +746,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=5
-	}
-	slaves={
-		amount=1
+		amount=6
 	}
 	tribesmen={
-		amount=5
+		amount=1
 	}
 }
 
@@ -798,13 +765,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -817,10 +784,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -836,13 +803,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=3
 	}
 }
 
@@ -855,13 +822,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -874,13 +841,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=4
-	}
-	tribesmen={
-		amount=4
+		amount=6
 	}
 }
 
@@ -893,10 +857,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -912,16 +876,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=3
 	}
 }
 
@@ -934,13 +895,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -953,16 +914,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=5
-	}
-	slaves={
-		amount=1
+		amount=7
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -975,13 +933,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=3
 	}
 }
 
@@ -994,13 +952,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -1013,13 +971,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -1032,13 +990,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -1051,16 +1006,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -1073,15 +1025,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=6
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
 		amount=4
 	}
 }
@@ -1095,13 +1041,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -1114,13 +1060,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -1133,12 +1076,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
 		amount=5
 	}
 }
@@ -1152,13 +1092,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -1171,13 +1111,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -1190,16 +1127,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -1212,13 +1143,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -1231,10 +1162,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1253,10 +1184,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -1272,13 +1203,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -1291,13 +1222,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -1310,13 +1241,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -1329,12 +1260,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=4
 	}
 	freemen={
-		amount=5
-	}
-	tribesmen={
 		amount=4
 	}
 }
@@ -1348,13 +1276,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=4
+		amount=6
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -1367,15 +1295,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
-	}
-	freemen={
 		amount=4
 	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1389,13 +1311,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=3
+		amount=4
 	}
 }
 
@@ -1408,13 +1327,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
 		amount=4
-	}
-	tribesmen={
-		amount=2
 	}
 }
 
@@ -1427,13 +1343,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -1446,10 +1359,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=5
+		amount=7
 	}
 	tribesmen={
 		amount=5
@@ -1465,10 +1378,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -1484,10 +1397,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -1503,13 +1416,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 }
 
@@ -1522,12 +1435,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
 		amount=4
 	}
 }
@@ -1541,13 +1451,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
-	}
-	freemen={
 		amount=4
 	}
+	freemen={
+		amount=6
+	}
 	tribesmen={
-		amount=5
+		amount=2
 	}
 }
 
@@ -1560,12 +1470,9 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
 		amount=4
 	}
 }
@@ -1579,16 +1486,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	slaves={
-		amount=1
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=3
 	}
 }
 
@@ -1601,13 +1505,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
-	}
-	freemen={
 		amount=5
 	}
+	freemen={
+		amount=7
+	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 }
 
@@ -1620,10 +1524,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=2
@@ -1639,10 +1543,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -1658,10 +1562,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=5
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -1677,10 +1581,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=3
@@ -1696,13 +1600,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=1
 	}
 }
 
@@ -1715,13 +1619,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
-	}
-	tribesmen={
-		amount=3
+		amount=5
 	}
 }
 
@@ -1734,13 +1635,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
@@ -1753,13 +1654,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 
@@ -1772,10 +1673,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=2

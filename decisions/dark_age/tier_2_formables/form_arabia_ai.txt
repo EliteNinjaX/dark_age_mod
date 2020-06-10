@@ -1,0 +1,154 @@
+﻿country_decisions = {
+	
+	# Form Arabia
+	form_arabia = {
+		
+		potential = {
+			num_of_cities >= 1
+			country_culture_group = south_levantine
+			NOT = {
+				tag = ARA
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+			is_ai = yes
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 4682 #Sanaa
+					province_id = 4684 #Himiara
+					province_id = 4700 #Yathill
+					province_id = 4674 #Karna
+					province_id = 4662 #Tamna
+					province_id = 4646 #Okelis
+					province_id = 4650 #Adene
+					province_id = 4655 #Abisama
+					province_id = 4676 #Shabwa
+					province_id = 4675 #Tretos
+					province_id = 4705 #Ausara
+					province_id = 4640 #Akme
+					province_id = 4719 #Medina
+					province_id = 7575 #Mecca
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_arabia_exists
+				NOT = {
+					any_country = {
+						tag = ARA
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 4682 #Sanaa
+			owns = 4684 #Himiara
+			owns = 4700 #Yathill
+			owns = 4674 #Karna
+			owns = 4662 #Tamna
+			owns = 4646 #Okelis
+			owns = 4650 #Adene
+			owns = 4655 #Abisama
+			owns = 4676 #Shabwa
+			owns = 4675 #Tretos
+			owns = 4705 #Ausara
+			owns = 4640 #Akme
+			owns = 4719 #Medina
+			owns = 7575 #Mecca
+		}
+		
+		effect = {
+		
+			every_owned_province = {
+				set_owned_by = ARA
+			}
+			set_global_variable = {    
+				name = arab_unifies_flag
+			}
+			set_global_variable = {    
+				name = special_conquest_arab
+				days = 7300
+			}
+			p:7575 = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			c:ARA = {
+				add_political_influence = 300
+				add_manpower = 20
+				add_treasury = 4000
+				create_unit = {
+					name = "Army of Arabia 2"
+					location = p:7575
+					while = {
+						count = 10
+						add_subunit = light_infantry
+					}
+					while = {
+						count = 5
+						add_subunit = archers
+					}
+					while = {
+						count = 3
+						add_subunit = heavy_infantry
+					}
+					while = {
+						count = 5
+						add_subunit = camels
+					}
+				}
+				create_unit = {
+					name = "Army of Arabia 2"
+					location = p:4719
+					while = {
+						count = 10
+						add_subunit = light_infantry
+					}
+					while = {
+						count = 5
+						add_subunit = archers
+					}
+					while = {
+						count = 3
+						add_subunit = heavy_infantry
+					}
+					while = {
+						count = 5
+						add_subunit = camels
+					}
+				}
+				declare_war_with_wargoal = {
+					war_goal = conquer_wargoal
+					province = 687
+					target = ERE
+				}
+				declare_war_with_wargoal = {
+					war_goal = conquer_wargoal
+					province = 912
+					target = PER
+				}
+			}
+			every_province = {
+				limit = {
+					OR = {
+						is_in_region = arabia_region
+						is_in_region = arabia_felix_region
+						is_in_region = palestine_region
+						is_in_region = syria_region
+					}
+					NOT = { owner = c:ARA }
+				}
+				add_claim = c:ARA
+			}			
+		}
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
+

@@ -277,10 +277,10 @@
 		amount=1
 	}
 	freemen={
-		amount=21
+		amount=20
 	}
 	slaves={
-		amount=15
+		amount=9
 	}
 	slaves={
 		religion="jainism"
@@ -565,7 +565,7 @@
 		amount=1
 	}
 	slaves={
-		amount=19
+		amount=13
 	}
 	tribesmen={
 		amount=6

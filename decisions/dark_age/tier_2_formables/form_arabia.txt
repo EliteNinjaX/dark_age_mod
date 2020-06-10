@@ -1,0 +1,105 @@
+﻿country_decisions = {
+	
+	# Form Arabia
+	form_arabia = {
+		
+		potential = {
+			num_of_cities >= 1
+			country_culture_group = south_levantine
+			NOT = {
+				tag = ARA
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+			is_ai = no
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 4682 #Sanaa
+					province_id = 4684 #Himiara
+					province_id = 4700 #Yathill
+					province_id = 4674 #Karna
+					province_id = 4662 #Tamna
+					province_id = 4646 #Okelis
+					province_id = 4650 #Adene
+					province_id = 4655 #Abisama
+					province_id = 4676 #Shabwa
+					province_id = 4675 #Tretos
+					province_id = 4705 #Ausara
+					province_id = 4640 #Akme
+					province_id = 4719 #Medina
+					province_id = 7575 #Mecca
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_arabia_exists
+				NOT = {
+					any_country = {
+						tag = ARA
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 4682 #Sanaa
+			owns = 4684 #Himiara
+			owns = 4700 #Yathill
+			owns = 4674 #Karna
+			owns = 4662 #Tamna
+			owns = 4646 #Okelis
+			owns = 4650 #Adene
+			owns = 4655 #Abisama
+			owns = 4676 #Shabwa
+			owns = 4675 #Tretos
+			owns = 4705 #Ausara
+			owns = 4640 #Akme
+			owns = 4719 #Medina
+			owns = 7575 #Mecca
+		}
+		
+		effect = {
+			change_country_name = "ARABIA_NAME"
+			hidden_effect = {
+				change_country_adjective = "ARABIA_ADJECTIVE"
+				change_country_color =  "aoe_caliphate_green"
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 7575
+						}
+					}
+				}
+				set_capital = 7575
+			}
+			p:7575 = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			add_country_modifier = {
+				name = formable_country_huge_modifier
+				duration = 7600
+			}
+			custom_tooltip = "form_arabia_claims_tooltip"
+			change_government = imperium
+			add_political_influence = 100
+			add_manpower = 20
+			add_treasury = 1000
+			hidden_effect = {
+				set_global_variable = {    
+					name = arab_unifies_flag
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
+

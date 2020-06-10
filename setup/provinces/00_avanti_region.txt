@@ -13,7 +13,7 @@
 		amount=14
 	}
 	slaves={
-		amount=17
+		amount=12
 	}
 	tribesmen={
 		amount=7
@@ -142,10 +142,10 @@
 		amount=15
 	}
 	slaves={
-		amount=13
+		amount=5
 	}
 	tribesmen={
-		amount=10
+		amount=9
 	}
 }
 
@@ -689,7 +689,7 @@
 		amount=11
 	}
 	slaves={
-		amount=16
+		amount=8
 	}
 	tribesmen={
 		amount=5
@@ -999,7 +999,7 @@
 		amount=14
 	}
 	slaves={
-		amount=13
+		amount=4
 	}
 	tribesmen={
 		amount=10

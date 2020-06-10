@@ -35,7 +35,7 @@
 		amount=12
 	}
 	slaves={
-		amount=13
+		amount=4
 	}
 	tribesmen={
 		amount=3
@@ -104,7 +104,7 @@
 
 4316={ #Boukephalia
 	terrain="forest"
-	culture="macedonian"
+	culture="gandhari"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -227,7 +227,7 @@
 
 4322={ #Alexandreia Nikaia
 	terrain="forest"
-	culture="macedonian"
+	culture="gandhari"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -438,14 +438,8 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
 	tribesmen={
-		amount=10
+		amount=8
 	}
 }
 
@@ -603,7 +597,7 @@
 		amount=12
 	}
 	slaves={
-		amount=11
+		amount=6
 	}
 	tribesmen={
 		amount=1
@@ -1023,10 +1017,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=17
+		amount=16
 	}
 	slaves={
-		amount=4
+		amount=1
 	}
 	tribesmen={
 		amount=5
@@ -1472,11 +1466,8 @@
 	freemen={
 		amount=1
 	}
-	slaves={
-		amount=4
-	}
 	tribesmen={
-		amount=9
+		amount=7
 	}
 }
 
@@ -1495,7 +1486,7 @@
 		amount=8
 	}
 	slaves={
-		amount=9
+		amount=6
 	}
 	tribesmen={
 		amount=3
@@ -1580,10 +1571,10 @@
 		amount=2
 	}
 	freemen={
-		amount=5
+		amount=4
 	}
 	slaves={
-		amount=6
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -1624,7 +1615,7 @@
 		amount=7
 	}
 	slaves={
-		amount=8
+		amount=4
 	}
 	tribesmen={
 		amount=1
