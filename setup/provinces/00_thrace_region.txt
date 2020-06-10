@@ -209,13 +209,10 @@
 		amount=10
 	}
 	freemen={
-		amount=24
+		amount=15
 	}
 	slaves={
 		amount=17
-	}
-	tribesmen={
-		amount=1
 	}
 }
 
@@ -727,13 +724,18 @@
 }
 
 1453={ #Constantinople
-	terrain="forest"
+	terrain="farmland"
 	culture="roman"
 	religion="chalcedonian"
-	trade_goods="earthware"
-	civilization_value=40
+	trade_goods="silk"
+	civilization_value=60
 	barbarian_power=0
 	province_rank="city"
+	citizen={
+		culture="thracian"
+		religion="roman_pantheon"
+		amount=15
+	}
 	citizen={
 		amount=20
 	}
@@ -743,6 +745,27 @@
 	slaves={
 		amount=10
 	}
+	slaves={
+		culture="thracian"
+		religion="chalcedonian"
+		amount=5
+	}
+	slaves={
+		culture="thracian"
+		religion="roman_pantheon"
+		amount=5
+	}
+	freemen={
+		culture="thracian"
+		religion="chalcedonian"
+		amount=5
+	}
+	freemen={
+		culture="thracian"
+		religion="roman_pantheon"
+		amount=5
+	}
+	holy_site = omen_constantine
 }
 
 1774={ #Samothrace

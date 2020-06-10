@@ -3,7 +3,12 @@
  ravaged_by_plague_modifier: "Ravaged By Plague"
  desc_ravaged_by_plague_modifier: "Bodies pile up in our major trading cities as disease spreads throughout the realm." 
  manintain_latin_modifier: "Matintain Latin"
- desc_manintain_latin_modifier: "No way will we give up the Roman ways!" 
+ desc_manintain_latin_modifier: "No way will we give up the Roman ways!"
+ rome:0 "Rome" 
+ desc_rome:2 "The city of Rome might be one of the oldest cities, and is regarded by many as the first ever Imperial City and metropolis."
+ constantinople:0 "Constantinople" 
+ desc_constantinople:2 "In 324, the ancient city of Byzantium became the new capital of the Roman Empire by Emperor Constantine the Great. From the mid-5th century to the early 13th century, Constantinople was the largest and wealthiest city in Europe. The city became famous for its architectural masterpieces, such as Hagia Sophia."
+ 
  
 ##Old
  empire_in_decline_modifier:0 "An Empire In Decline"
