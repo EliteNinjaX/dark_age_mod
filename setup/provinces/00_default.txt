@@ -800,7 +800,7 @@
 
 5035={ #
 	terrain=""
-	culture="carnian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -810,7 +810,7 @@
 
 5036={ #
 	terrain=""
-	culture="carnian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1070,7 +1070,7 @@
 
 5062={ #Parnes Mons
 	terrain=""
-	culture="athenian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=60
@@ -1080,7 +1080,7 @@
 
 5063={ #
 	terrain=""
-	culture="boeotian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1090,7 +1090,7 @@
 
 5064={ #
 	terrain=""
-	culture="boeotian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1720,7 +1720,7 @@
 
 5127={ #
 	terrain=""
-	culture="carnian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2050,7 +2050,7 @@
 
 5160={ #
 	terrain=""
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
@@ -2060,7 +2060,7 @@
 
 5161={ #
 	terrain=""
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
@@ -2070,7 +2070,7 @@
 
 5162={ #
 	terrain=""
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2080,7 +2080,7 @@
 
 5163={ #
 	terrain=""
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
@@ -2090,7 +2090,7 @@
 
 5164={ #
 	terrain=""
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2100,7 +2100,7 @@
 
 5165={ #
 	terrain=""
-	culture="pamphylian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2140,7 +2140,7 @@
 
 5169={ #
 	terrain=""
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2150,7 +2150,7 @@
 
 5170={ #Argaeus Mons Volcano
 	terrain=""
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2160,7 +2160,7 @@
 
 5171={ #
 	terrain=""
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2170,7 +2170,7 @@
 
 5172={ #
 	terrain=""
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2180,7 +2180,7 @@
 
 5173={ #
 	terrain=""
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2190,7 +2190,7 @@
 
 5174={ #
 	terrain=""
-	culture="pontic"
+	culture="greco_greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -2200,7 +2200,7 @@
 
 5175={ #
 	terrain=""
-	culture="pontic"
+	culture="greco_greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7410,7 +7410,7 @@
 
 7735={ #Argaios Mons Volcano
 	terrain=""
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
@@ -7440,7 +7440,7 @@
 
 7751={ #Mesogis Mons
 	terrain=""
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7450,7 +7450,7 @@
 
 7752={ #Tmolus Mons
 	terrain=""
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7480,7 +7480,7 @@
 
 7755={ #Olympus Mons
 	terrain=""
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7490,7 +7490,7 @@
 
 7756={ #Kadmons Mons
 	terrain=""
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7500,7 +7500,7 @@
 
 7757={ #
 	terrain=""
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7510,7 +7510,7 @@
 
 7758={ #
 	terrain=""
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7570,7 +7570,7 @@
 
 7797={ #Parnassus Mons
 	terrain=""
-	culture="boeotian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7580,7 +7580,7 @@
 
 7800={ #
 	terrain=""
-	culture="athenian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0

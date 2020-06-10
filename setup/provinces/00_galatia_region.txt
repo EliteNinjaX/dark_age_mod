@@ -1,6 +1,6 @@
 ﻿169={ #Laranda
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -22,7 +22,7 @@
 
 174={ #Congussus
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
@@ -60,7 +60,7 @@
 
 176={ #Ekdaumaua
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="zoroaster"
 	trade_goods="horses"
 	civilization_value=40
@@ -79,7 +79,7 @@
 
 177={ #Laodicea Combusta
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=40
@@ -100,7 +100,7 @@
 
 178={ #Tyriaion
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -141,7 +141,7 @@
 
 180={ #Keissia
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=40
@@ -325,36 +325,20 @@
 
 189={ #Gordium
 	terrain="hills"
-	culture="macedonian"
+	culture="phrygian"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
+		amount=8
+	}
+	freemen={
 		amount=6
 	}
-	citizen={
-		culture="phrygian"
-		amount=1
-	}
-	citizen={
-		culture="bithynian"
-		amount=1
-	}
-	freemen={
-		culture="phrygian"
-		amount=2
-	}
-	freemen={
-		amount=4
-	}
 	slaves={
-		culture="phrygian"
-		amount=2
-	}
-	slaves={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=2
@@ -436,7 +420,7 @@
 
 194={ #Ancyra
 	terrain="plains"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=25
@@ -458,7 +442,7 @@
 
 195={ #Bolecasgus
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -480,7 +464,7 @@
 
 196={ #Klossama
 	terrain="plains"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
@@ -543,7 +527,7 @@
 
 204={ #Ecobrogis
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -562,7 +546,7 @@
 
 222={ #Bloukion
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
@@ -601,7 +585,7 @@
 		amount=1
 	}
 	slaves={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=1
 	}
 	slaves={
@@ -698,7 +682,7 @@
 
 231={ #Ikotarion
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -765,14 +749,14 @@
 		amount=1
 	}
 	slaves={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -910,7 +894,7 @@
 		amount=2
 	}
 	freemen={
-		culture="mysian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -962,11 +946,11 @@
 		amount=6
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -979,7 +963,7 @@
 
 1777={ #Azareis
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -1000,7 +984,7 @@
 
 1785={ #Ilistra
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -1038,7 +1022,7 @@
 
 1825={ #Taouion
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
@@ -1060,7 +1044,7 @@
 
 1841={ #Corniaspa
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=25
@@ -1079,7 +1063,7 @@
 
 1914={ #Salarama
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -1095,7 +1079,7 @@
 
 1916={ #Kanna
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -1114,7 +1098,7 @@
 
 1917={ #Mourisa
 	terrain="hills"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -1130,7 +1114,7 @@
 
 1918={ #Isaura Vetus
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -1149,7 +1133,7 @@
 
 1919={ #Isaura Nova
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
@@ -1171,7 +1155,7 @@
 
 1920={ #Ouasada
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -1193,14 +1177,14 @@
 
 1921={ #Amblada
 	terrain="hills"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="pamphylian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1210,7 +1194,7 @@
 
 1922={ #Mistea
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -1226,7 +1210,7 @@
 
 1924={ #Pappa
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -1324,7 +1308,7 @@
 
 1934={ #Iconium
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -1359,14 +1343,14 @@
 		amount=1
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1449,14 +1433,14 @@
 		amount=3
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1466,7 +1450,7 @@
 
 1943={ #Anaua
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1489,7 +1473,7 @@
 
 1944={ #Lounda
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -1512,7 +1496,7 @@
 
 1950={ #Derbe
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -1531,7 +1515,7 @@
 
 1955={ #Thebasa
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
@@ -1547,7 +1531,7 @@
 
 1965={ #Lystra
 	terrain="hills"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
@@ -1563,7 +1547,7 @@
 
 1971={ #Soatra
 	terrain="plains"
-	culture="lycaonian"
+	culture="cappadocian"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
@@ -1582,7 +1566,7 @@
 
 1975={ #Barata
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=40

@@ -266,16 +266,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=18
+		amount=14
 	}
 	freemen={
-		amount=25
+		amount=15
 	}
 	slaves={
 		amount=12
-	}
-	tribesmen={
-		amount=6
 	}
 }
 

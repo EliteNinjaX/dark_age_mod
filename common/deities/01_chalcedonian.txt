@@ -86,8 +86,8 @@ deity_mary = {
 		}
 	}
 	icon = deity_love
-	passive_modifier = { manpower_recovery_speed = deity_global_manpower_recovery_speed_svalue }
-	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
+	passive_modifier = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty }
+	omen = { manpower_recovery_speed = deity_global_manpower_recovery_speed_svalue } #Bonus from Omen
 	religion = chalcedonian
 	deity_category = fertility #This Deity uses an Economy Slot
 	

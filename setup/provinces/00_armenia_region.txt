@@ -1909,7 +1909,7 @@
 		amount=4
 	}
 	tribesmen={
-		culture="pontic"
+		culture="greco_pontic"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -1927,7 +1927,7 @@
 		amount=2
 	}
 	freemen={
-		culture="pontic"
+		culture="greco_pontic"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -1962,7 +1962,7 @@
 
 1763={ #Darucinte
 	terrain="hills"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="armenian_religion"
 	trade_goods="wood"
 	civilization_value=25

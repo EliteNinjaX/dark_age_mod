@@ -2,23 +2,23 @@
 	terrain="farmland"
 	culture="roman"
 	religion="chalcedonian"
-	trade_goods="cloth"
-	civilization_value=40
+	trade_goods="papyrus"
+	civilization_value=50
 	barbarian_power=0
-	province_rank="city"
+	province_rank="city_metropolis"
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=4
+		amount=8
 	}
 	citizen={
 		amount=12
 	}
 	freemen={
-		amount=10
+		amount=15
 	}
 	slaves={
-		amount=1
+		amount=15
 	}
 	tribesmen={
 		amount=1
@@ -1354,7 +1354,7 @@
 
 3481={ #Sulcis
 	terrain="plains"
-	culture="africa"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=35
@@ -1373,7 +1373,7 @@
 
 3482={ #Hydata Neapolitana
 	terrain="farmland"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=15
@@ -1392,7 +1392,7 @@
 
 3483={ #Nora
 	terrain="hills"
-	culture="africa"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
@@ -1408,7 +1408,7 @@
 
 3484={ #Caralis
 	terrain="farmland"
-	culture="africa"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=35
@@ -1427,7 +1427,7 @@
 
 3485={ #Metalla
 	terrain="hills"
-	culture="africa"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=35
@@ -1449,7 +1449,7 @@
 
 3486={ #Ferraria
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=15
@@ -1471,7 +1471,7 @@
 
 3487={ #Porticenses
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
@@ -1493,7 +1493,7 @@
 
 3488={ #Sulcis
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=35
@@ -1515,7 +1515,7 @@
 
 3489={ #Fanum Carisi
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=15
@@ -1537,7 +1537,7 @@
 
 3490={ #Sestis
 	terrain="plains"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=35
@@ -1559,7 +1559,7 @@
 
 3491={ #Oualentia
 	terrain="mountain"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=35
@@ -1578,7 +1578,7 @@
 
 3492={ #Neapolis Sardinia
 	terrain="plains"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=35
@@ -1604,7 +1604,7 @@
 
 3493={ #Tharros
 	terrain="farmland"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=35
@@ -1630,7 +1630,7 @@
 
 3494={ #Cornus
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=15
@@ -1647,7 +1647,7 @@
 
 3495={ #Forum Traiani
 	terrain="mountain"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=15
@@ -1669,7 +1669,7 @@
 
 3496={ #Gouroulis
 	terrain="plains"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=15
@@ -1691,7 +1691,7 @@
 
 3497={ #Hermaion Akron
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=15
@@ -1713,7 +1713,7 @@
 
 3498={ #Makopsis
 	terrain="mountain"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=15
@@ -1735,7 +1735,7 @@
 
 3499={ #Nymphaios Limen
 	terrain="farmland"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=15
@@ -1754,7 +1754,7 @@
 
 3500={ #Turris Libisonis
 	terrain="farmland"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=15
@@ -1773,7 +1773,7 @@
 
 3501={ #Hydata Lesitana
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=15
@@ -1795,7 +1795,7 @@
 
 3502={ #Sorabile
 	terrain="mountain"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=15
@@ -1817,7 +1817,7 @@
 
 3503={ #Coclearia
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=15
@@ -1833,7 +1833,7 @@
 
 3504={ #Olbia
 	terrain="plains"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=15
@@ -1873,7 +1873,7 @@
 
 3505={ #Portus Tibulae
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=15
@@ -1892,7 +1892,7 @@
 
 3506={ #Viniolae
 	terrain="hills"
-	culture="roman"
+	culture="sardinian"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=15
@@ -1911,7 +1911,7 @@
 
 3507={ #Rhoubra
 	terrain="plains"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -1933,7 +1933,7 @@
 
 3508={ #Phikaria
 	terrain="hills"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=35
@@ -1952,7 +1952,7 @@
 
 3509={ #Pauka
 	terrain="hills"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=35
@@ -1971,7 +1971,7 @@
 
 3510={ #Ourkinion
 	terrain="hills"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=35
@@ -1993,7 +1993,7 @@
 
 3511={ #Alouka
 	terrain="hills"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
@@ -2012,7 +2012,7 @@
 
 3512={ #Rhopikon
 	terrain="hills"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
@@ -2034,7 +2034,7 @@
 
 3513={ #Kentourinon
 	terrain="hills"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
@@ -2056,7 +2056,7 @@
 
 3514={ #Mariana
 	terrain="hills"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -2078,7 +2078,7 @@
 
 3515={ #Aleria
 	terrain="farmland"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
@@ -2100,7 +2100,7 @@
 
 3516={ #Sermigion
 	terrain="mountain"
-	culture="roman"
+	culture="etruscan"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40

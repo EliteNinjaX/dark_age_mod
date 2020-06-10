@@ -1230,7 +1230,7 @@
 		amount=5
 	}
 	citizen={
-		culture="mysian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=2
 	}

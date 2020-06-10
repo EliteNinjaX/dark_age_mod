@@ -1,6 +1,6 @@
 ﻿198={ #Gangra
 	terrain="plains"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=25
@@ -22,7 +22,7 @@
 
 199={ #Kandara
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -48,7 +48,7 @@
 
 200={ #Kimiata
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -67,7 +67,7 @@
 
 201={ #Claneus
 	terrain="plains"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
@@ -89,7 +89,7 @@
 
 203={ #Asklepios
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=25
@@ -223,11 +223,11 @@
 		amount=2
 	}
 	citizen={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=1
 	}
 	freemen={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=2
 	}
 	freemen={
@@ -240,7 +240,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=1
 	}
 }
@@ -279,7 +279,7 @@
 		amount=6
 	}
 	freemen={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=1
 	}
 	freemen={
@@ -292,14 +292,14 @@
 		amount=2
 	}
 	tribesmen={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=1
 	}
 }
 
 214={ #Proseilemmene
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
@@ -325,7 +325,7 @@
 
 215={ #Krateia
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -347,7 +347,7 @@
 
 216={ #Zeita
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -366,7 +366,7 @@
 
 217={ #Antoniopolis
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
@@ -396,7 +396,7 @@
 
 218={ #Anadynata
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
@@ -444,7 +444,7 @@
 
 220={ #Carus Vicus
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -482,7 +482,7 @@
 		amount=1
 	}
 	slaves={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=1
 	}
 	tribesmen={
@@ -492,7 +492,7 @@
 
 223={ #Legna
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -572,7 +572,7 @@
 
 232={ #Bonita
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -840,7 +840,7 @@
 
 245={ #Prusias ad Mare
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -881,7 +881,7 @@
 
 247={ #Pythopolis
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -925,7 +925,7 @@
 
 249={ #Eikote
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -1012,7 +1012,7 @@
 		amount=1
 	}
 	slaves={
-		culture="mysian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1025,7 +1025,7 @@
 
 323={ #Sarkotyle
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -1047,7 +1047,7 @@
 
 324={ #Otroia
 	terrain="hills"
-	culture="mysian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1222,14 +1222,14 @@
 		amount=1
 	}
 	tribesmen={
-		culture="pontic"
+		culture="greco_pontic"
 		amount=1
 	}
 }
 
 1786={ #Sauronisena
 	terrain="hills"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="zoroaster"
 	trade_goods="stone"
 	civilization_value=25
@@ -1250,7 +1250,7 @@
 
 1791={ #Ibora
 	terrain="forest"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
@@ -1272,7 +1272,7 @@
 
 1792={ #Kabeira
 	terrain="hills"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -1322,7 +1322,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="pontic"
+		culture="greco_pontic"
 		religion="zoroaster"
 		amount=1
 	}
@@ -1349,7 +1349,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="pontic"
+		culture="greco_pontic"
 		religion="zoroaster"
 		amount=1
 	}
@@ -1395,7 +1395,7 @@
 
 1801={ #Matuasco
 	terrain="hills"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
@@ -1418,7 +1418,7 @@
 
 1804={ #Boinasa
 	terrain="hills"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -1464,7 +1464,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="pontic"
+		culture="greco_pontic"
 		amount=1
 	}
 }
@@ -1494,7 +1494,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="pontic"
+		culture="greco_pontic"
 		amount=1
 	}
 }
@@ -1511,7 +1511,7 @@
 		amount=3
 	}
 	freemen={
-		culture="pontic"
+		culture="greco_pontic"
 		amount=1
 	}
 	freemen={
@@ -1524,11 +1524,11 @@
 		amount=1
 	}
 	tribesmen={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=1
 	}
 	tribesmen={
-		culture="pontic"
+		culture="greco_pontic"
 		amount=1
 	}
 }
@@ -1671,7 +1671,7 @@
 
 1819={ #Amaseia
 	terrain="hills"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=25
@@ -1693,7 +1693,7 @@
 
 1821={ #Phazemoniton
 	terrain="forest"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=25
@@ -1704,7 +1704,7 @@
 		amount=1
 	}
 	slaves={
-		culture="paphlagonian"
+		culture="greco_pontic"
 		amount=1
 	}
 	slaves={
@@ -1717,7 +1717,7 @@
 
 1822={ #Cromen
 	terrain="hills"
-	culture="pontic"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
@@ -1736,7 +1736,7 @@
 
 1823={ #Diakopa
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
@@ -1758,7 +1758,7 @@
 
 1824={ #Andrapa
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=25
@@ -1769,7 +1769,7 @@
 		amount=1
 	}
 	citizen={
-		culture="pontic"
+		culture="greco_pontic"
 		amount=1
 	}
 	citizen={
@@ -1789,14 +1789,14 @@
 		amount=2
 	}
 	tribesmen={
-		culture="pontic"
+		culture="greco_pontic"
 		amount=1
 	}
 }
 
 1826={ #Pteria Pontus
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=25
@@ -1818,7 +1818,7 @@
 
 1827={ #Pompeiopolis
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -1840,7 +1840,7 @@
 
 1828={ #Sallar
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
@@ -1862,7 +1862,7 @@
 
 1829={ #Timonion
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
@@ -1884,7 +1884,7 @@
 
 1830={ #Kalekapi
 	terrain="forest"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -1903,7 +1903,7 @@
 
 1831={ #Pimolisa
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -1925,7 +1925,7 @@
 
 1837={ #Carissa
 	terrain="hills"
-	culture="paphlagonian"
+	culture="greco_pontic"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
