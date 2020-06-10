@@ -765,14 +765,14 @@
 		amount=1
 	}
 	slaves={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -962,11 +962,11 @@
 		amount=6
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1130,7 +1130,7 @@
 
 1918={ #Isaura Vetus
 	terrain="plains"
-	culture="isaurian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -1359,14 +1359,14 @@
 		amount=1
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1449,14 +1449,14 @@
 		amount=3
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1466,7 +1466,7 @@
 
 1943={ #Anaua
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1489,7 +1489,7 @@
 
 1944={ #Lounda
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40

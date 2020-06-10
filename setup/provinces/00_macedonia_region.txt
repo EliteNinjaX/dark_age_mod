@@ -246,7 +246,7 @@
 		amount=2
 	}
 	citizen={
-		culture="athenian"
+		culture="greek"
 		amount=2
 	}
 	freemen={

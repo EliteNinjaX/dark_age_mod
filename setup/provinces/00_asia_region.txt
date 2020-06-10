@@ -344,7 +344,7 @@
 		amount=7
 	}
 	slaves={
-		culture="athenian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -633,14 +633,14 @@
 		amount=1
 	}
 	citizen={
-		culture="athenian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="athenian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -860,7 +860,7 @@
 
 294={ #Larisa Ionias
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
@@ -876,7 +876,7 @@
 
 295={ #Hypaipa
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1252,7 +1252,7 @@
 
 1945={ #Colossae
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1274,7 +1274,7 @@
 
 1946={ #Hierapolis
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -1301,7 +1301,7 @@
 
 1947={ #Tripolis Maiandrou
 	terrain="forest"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -1327,7 +1327,7 @@
 
 1948={ #Laodicea ad Lycum
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1357,7 +1357,7 @@
 
 1952={ #Aphrodisias
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -1379,7 +1379,7 @@
 
 1962={ #Antiochia ad Maeandrum
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -1401,7 +1401,7 @@
 
 1963={ #Neapolis Karia
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
@@ -1423,7 +1423,7 @@
 
 1966={ #Tralles
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -1445,7 +1445,7 @@
 
 1967={ #Alabanda
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -1579,7 +1579,7 @@
 		amount=2
 	}
 	citizen={
-		culture="athenian"
+		culture="greek"
 		amount=3
 	}
 	freemen={
@@ -1747,7 +1747,7 @@
 
 1989={ #Caunus
 	terrain="plains"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="dye"
 	civilization_value=40

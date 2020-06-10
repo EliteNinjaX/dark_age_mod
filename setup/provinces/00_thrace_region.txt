@@ -1,6 +1,6 @@
 ﻿270={ #Lemnus
 	terrain="hills"
-	culture="athenian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
@@ -22,7 +22,7 @@
 
 297={ #Imbrus
 	terrain="hills"
-	culture="athenian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -185,11 +185,11 @@
 		amount=3
 	}
 	freemen={
-		culture="athenian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
-		culture="athenian"
+		culture="greek"
 		amount=1
 	}
 	slaves={

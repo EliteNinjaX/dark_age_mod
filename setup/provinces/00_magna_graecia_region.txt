@@ -1169,7 +1169,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="boeotian"
+		culture="greek"
 		amount=2
 	}
 	citizen={
@@ -1195,14 +1195,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="boeotian"
+		culture="greek"
 		amount=2
 	}
 	citizen={
 		amount=1
 	}
 	freemen={
-		culture="boeotian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1222,21 +1222,21 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="boeotian"
+		culture="greek"
 		amount=2
 	}
 	citizen={
 		amount=4
 	}
 	freemen={
-		culture="boeotian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
 		amount=3
 	}
 	slaves={
-		culture="boeotian"
+		culture="greek"
 		amount=2
 	}
 	slaves={
@@ -1256,7 +1256,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="boeotian"
+		culture="greek"
 		amount=2
 	}
 	citizen={
@@ -1591,7 +1591,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="boeotian"
+		culture="greek"
 		amount=1
 	}
 	citizen={
@@ -1601,7 +1601,7 @@
 		amount=3
 	}
 	slaves={
-		culture="boeotian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1640,14 +1640,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="boeotian"
+		culture="greek"
 		amount=1
 	}
 	citizen={
 		amount=2
 	}
 	freemen={
-		culture="boeotian"
+		culture="greek"
 		amount=1
 	}
 	freemen={

@@ -24,7 +24,7 @@
 
 159={ #Choma
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
@@ -46,7 +46,7 @@
 
 160={ #Arykanda
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -65,7 +65,7 @@
 
 161={ #Limyra
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -145,7 +145,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="lycian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -208,7 +208,7 @@
 
 170={ #Termessus
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
@@ -238,7 +238,7 @@
 
 171={ #Isinda
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -248,7 +248,7 @@
 		amount=3
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -290,7 +290,7 @@
 		amount=9
 	}
 	citizen={
-		culture="athenian"
+		culture="greek"
 		amount=2
 	}
 	freemen={
@@ -1123,14 +1123,14 @@
 		amount=2
 	}
 	slaves={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1140,7 +1140,7 @@
 
 1935={ #Baris Pisidia
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -1175,7 +1175,7 @@
 
 1953={ #Herakleia Salbake
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -1185,7 +1185,7 @@
 		amount=2
 	}
 	freemen={
-		culture="lycian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -1202,7 +1202,7 @@
 
 1956={ #Tabai
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -1221,7 +1221,7 @@
 
 1957={ #Kidrama
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=40
@@ -1234,7 +1234,7 @@
 		amount=1
 	}
 	slaves={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1244,21 +1244,21 @@
 		amount=1
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 }
 
 1958={ #Cibyra
 	terrain="plains"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	freemen={
-		culture="lycian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -1274,7 +1274,7 @@
 
 1959={ #Salda
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -1290,7 +1290,7 @@
 
 1960={ #Sinda
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -1303,11 +1303,11 @@
 		amount=1
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1317,14 +1317,14 @@
 
 1961={ #Olbasa
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="lycian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -1340,14 +1340,14 @@
 
 1986={ #Pogla
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="lycian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -1363,7 +1363,7 @@
 
 1988={ #Cremna
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
@@ -1382,7 +1382,7 @@
 
 1990={ #Oenoanda
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1395,7 +1395,7 @@
 		amount=2
 	}
 	freemen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1408,7 +1408,7 @@
 
 1991={ #Podalia
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
@@ -1449,7 +1449,7 @@
 
 1993={ #Tlos
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1471,7 +1471,7 @@
 
 1995={ #Xanthus
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -1490,7 +1490,7 @@
 
 1997={ #Lyrna
 	terrain="plains"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1506,14 +1506,14 @@
 		amount=1
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		amount=1
 	}
 }
 
 1998={ #Patara
 	terrain="plains"
-	culture="lycian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=40
