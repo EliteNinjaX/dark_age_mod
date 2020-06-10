@@ -1,0 +1,273 @@
+﻿namespace = fall_egypt
+
+fall_egypt.1 = {
+	
+	type = country_event
+	title = "fall_egypt.1.t"
+	desc = "fall_egypt.1.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		tag = ARA
+		has_global_variable = special_conquest_arab
+		p:509 = {
+			controller = c:ARA
+		}
+		is_ai = yes
+		NOT = {
+			has_variable = arab_egypt_100_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_egypt_100_flag
+		}
+	}
+	
+	option = {
+		name = "fall_egypt.1.a"
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_area = eastern_delta_area
+						is_in_area = sinai_area
+					}
+				}
+				set_conquered_by = ARA
+			}
+		}
+		add_manpower = 20
+		add_treasury = 500
+	}
+}
+
+fall_egypt.2 = {
+	
+	type = country_event
+	title = "fall_egypt.2.t"
+	desc = "fall_egypt.2.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		tag = ARA
+		has_global_variable = special_conquest_arab
+		p:516 = {
+			controller = c:ARA
+		}
+		is_ai = yes
+		NOT = {
+			has_variable = arab_egypt_200_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_egypt_200_flag
+		}
+		set_global_variable = {    
+			name = fall_egypt_flag
+		}
+	}
+	
+	option = {
+		name = "fall_egypt.2.a"
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_area = western_delta_area
+						is_in_area = central_delta_area
+					}
+				}
+				set_conquered_by = ARA
+			}
+		}
+		every_province = {
+			limit = {
+				OR = {
+					is_in_region = cyrenaica_region
+					is_in_region = africa_region
+				}
+				NOT = { owner = ROOT }
+			}
+			add_claim = ROOT
+		}
+		add_manpower = 20
+		add_treasury = 1000
+	}
+}
+
+fall_egypt.3 = {
+	
+	type = country_event
+	title = "fall_egypt.3.t"
+	desc = "fall_egypt.3.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		tag = ARA
+		has_global_variable = special_conquest_arab
+		is_ai = yes
+		p:500 = {
+			controller = c:ARA
+		}
+		NOT = {
+			has_variable = arab_egypt_300_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_egypt_300_flag
+		}
+	}
+	
+	option = {
+		name = "fall_egypt.3.a"
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_area = memphis_area
+						is_in_area = heptanomis_area
+						is_in_area = parva_area
+					}
+				}
+				set_conquered_by = ARA
+			}
+		}
+		add_manpower = 20
+		add_treasury = 500
+	}
+}
+
+fall_egypt.4 = {
+	
+	type = country_event
+	title = "fall_egypt.4.t"
+	desc = "fall_egypt.4.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		tag = ARA
+		has_global_variable = special_conquest_arab
+		p:5513 = {
+			controller = c:ARA
+		}
+		is_ai = yes
+		NOT = {
+			has_variable = arab_egypt_400_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_egypt_400_flag
+		}
+	}
+	
+	option = {
+		name = "fall_egypt.4.a"
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_region = upper_egypt_region
+					}
+				}
+				set_conquered_by = ARA
+			}
+		}
+		add_manpower = 20
+		add_treasury = 500
+	}
+}
+
+fall_egypt.5 = {
+	
+	type = country_event
+	title = "fall_egypt.5.t"
+	desc = "fall_egypt.5.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		tag = ARA
+		has_global_variable = special_conquest_arab
+		is_ai = yes
+		p:3378 = {
+			controller = c:ARA
+		}
+		NOT = {
+			has_variable = arab_egypt_500_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_egypt_500_flag
+		}
+	}
+	
+	option = {
+		name = "fall_egypt.5.a"
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_area = marmarica_orientalis_area
+						is_in_area = ammon_area
+					}
+				}
+				set_conquered_by = ARA
+			}
+		}
+		add_manpower = 10
+		add_treasury = 500
+	}
+}
+
+fall_egypt.6 = {
+	
+	type = country_event
+	title = "fall_egypt.6.t"
+	desc = "fall_egypt.6.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		tag = ARA
+		is_ai = yes
+		p:3360 = {
+			controller = c:ARA
+		}
+		NOT = {
+			has_variable = arab_egypt_600_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_egypt_600_flag
+		}
+	}
+	
+	option = {
+		name = "fall_egypt.6.a"
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						is_in_area = cyrenaica_superioris_area
+						is_in_area = cyrenaica_inferioris_area
+						is_in_area = tripolitania_orientalis_area
+						is_in_area = marmarica_occidentalis_area
+					}
+				}
+				set_conquered_by = ARA
+			}
+		}
+		add_manpower = 10
+		add_treasury = 500
+	}
+}

@@ -1,0 +1,36 @@
+﻿namespace = plague_events
+
+plague_events.5 = {
+	type = country_event
+	title = "plague_events.5.t"
+	desc = "plague_events.5.desc"
+	picture = natural_disaster
+	goto_location = root
+	trigger = {
+		any_owned_province = {
+			OR = {
+				is_in_region = assyria_region
+				is_in_region = mesopotamia_region
+			}
+		}
+		current_date > 1295.7.1	
+		NOT = { has_global_variable = plague_wave_five }
+	}
+	option = {
+		name = "plague_events.5.a"
+		hidden_effect = {
+            every_owned_province = {
+                limit = {
+					OR = {
+						is_in_region = assyria_region
+						is_in_region = mesopotamia_region
+					}
+				}
+                province_pop_disaster_major
+            }
+			set_global_variable = {    
+				name = plague_wave_five
+			}
+		}
+	}
+}

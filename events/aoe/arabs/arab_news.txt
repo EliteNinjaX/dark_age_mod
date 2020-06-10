@@ -1,0 +1,104 @@
+﻿namespace = arab_news
+
+arab_news.1 = {
+	
+	type = country_event
+	title = "arab_news.1.t"
+	desc = "arab_news.1.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		has_global_variable = arab_unifies_flag
+		NOT = {
+			has_variable = arab_news_100_flag
+		}
+		NOT = {
+			tag = ARA
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_news_100_flag
+		}
+	}
+	
+	option = {
+		name = "arab_news.1.a"
+	}
+}
+
+arab_news.2 = {
+	
+	type = country_event
+	title = "arab_news.2.t"
+	desc = "arab_news.2.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		has_global_variable = fall_palestine_flag
+		NOT = {
+			has_variable = arab_news_200_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_news_200_flag
+		}
+	}
+	
+	option = {
+		name = "arab_news.2.a"
+	}
+}
+
+arab_news.3 = {
+	
+	type = country_event
+	title = "arab_news.3.t"
+	desc = "arab_news.3.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		has_global_variable = fall_egypt_flag
+		NOT = {
+			has_variable = arab_news_300_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_news_300_flag
+		}
+	}
+	
+	option = {
+		name = "arab_news.3.a"
+	}
+}
+
+arab_news.4 = {
+	
+	type = country_event
+	title = "arab_news.4.t"
+	desc = "arab_news.4.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		has_global_variable = fall_mesopotamia_flag
+		NOT = {
+			has_variable = arab_news_400_flag
+		}		
+	}
+
+	immediate = {
+		set_variable = {    
+			name = arab_news_400_flag
+		}
+	}
+	
+	option = {
+		name = "arab_news.4.a"
+	}
+}

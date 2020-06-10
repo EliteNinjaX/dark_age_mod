@@ -1,0 +1,88 @@
+﻿namespace = fall_palestine
+
+fall_palestine.1 = {
+	
+	type = country_event
+	title = "fall_palestine.1.t"
+	desc = "fall_palestine.1.desc"
+	picture = city_siege
+	goto_location = root
+	trigger = {
+		tag = ARA
+		has_global_variable = special_conquest_arab
+		p:687 = {
+			controller = c:ARA
+		}
+		NOT = {
+			has_variable = arab_palestine_100_flag
+		}
+		is_ai = yes		
+	}
+	immediate = {
+		set_global_variable = {    
+			name = fall_palestine_flag
+		}
+		set_variable = {    
+			name = arab_palestine_100_flag
+		}
+	}	
+	option = {
+		name = "fall_palestine.1.a"
+		hidden_effect = {
+			every_province = {
+				limit = {
+					is_in_region = palestine_region						
+				}
+				set_conquered_by = ARA
+			}
+			create_unit = {
+				name = "Army of Syria"
+				location = p:673
+				while = {
+					count = 10
+					add_subunit = light_infantry
+				}
+				while = {
+					count = 5
+					add_subunit = archers
+				}
+				while = {
+					count = 3
+					add_subunit = heavy_infantry
+				}
+				while = {
+					count = 5
+					add_subunit = camels
+				}
+			}
+			create_unit = {
+				name = "Army of Egypt"
+				location = p:657
+				while = {
+					count = 10
+					add_subunit = light_infantry
+				}
+				while = {
+					count = 5
+					add_subunit = archers
+				}
+				while = {
+					count = 5
+					add_subunit = camels
+				}
+			}
+			every_province = {
+				limit = {
+					OR = {
+						is_in_region = lower_egypt_region
+						is_in_region = upper_egypt_region
+					}
+					NOT = { owner = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+		add_manpower = 20
+		add_treasury = 2000
+	}
+}

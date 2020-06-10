@@ -1,0 +1,91 @@
+﻿namespace = iberian_war
+
+iberian_war.1 = {
+	
+	type = country_event
+	title = "iberian_war.1.t"
+	desc = "iberian_war.1.desc"
+	picture = romans_marching
+	goto_location = root
+	trigger = {
+		tag = PER
+		NOT = {
+			has_variable = iberian_war_1_flag
+		}
+			
+	}
+	immediate = {
+		set_variable = {    
+			name = iberian_war_1_flag
+		}
+	}
+	option = {
+		name = "iberian_war.1.a"
+		declare_war_with_wargoal = {
+			war_goal = conquer_wargoal
+			province = 1676
+			target = ERE
+		}
+		hidden_effect = {
+			create_unit = {
+				name = "Persian Army"
+				location = p:902
+				while = {
+					count = 10
+					add_subunit = horse_archers
+				}
+				while = {
+					count = 5
+					add_subunit = heavy_cavalry
+				}
+				while = {
+					count = 10
+					add_subunit = light_infantry
+				}
+			}
+			c:ERE = {
+				trigger_event = {
+					id = "iberian_war.2"
+					days = 5
+				}
+			}
+		}
+	}
+}
+
+iberian_war.2 = {
+	
+	type = country_event
+	title = "iberian_war.2.t"
+	desc = "iberian_war.2.desc"
+	picture = romans_marching
+	goto_location = root
+	trigger = {
+		tag = ERE
+		NOT = {
+			has_variable = iberian_war_2_flag
+		}
+	}	
+	immediate = {
+		set_variable = {    
+			name = iberian_war_2_flag
+		}
+	}
+	option = {
+		name = "iberian_war.2.a"
+		hidden_effect = {
+			create_unit = {
+				name = "Roman Army"
+				location = p:829
+				while = {
+					count = 5
+					add_subunit = horse_archers
+				}
+				while = {
+					count = 5
+					add_subunit = heavy_infantry
+				}
+			}
+		}
+	}
+}

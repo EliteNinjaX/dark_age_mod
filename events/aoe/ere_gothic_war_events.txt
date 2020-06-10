@@ -1,0 +1,130 @@
+﻿namespace = ere_gothic_war
+
+ere_gothic_war.1 = {
+	
+	type = country_event
+	title = "ere_gothic_war.1.t"
+	desc = "ere_gothic_war.1.desc"
+	picture = romans_marching
+	goto_location = root
+	trigger = {
+		tag = ERE
+		has_variable = triumph_vandals_flag
+		NOT = {
+			has_variable = ere_gothicwar_flag
+		}
+		days_since_last_war > 60
+		c:OGO = {		
+			owns = 1
+		}				
+	}
+	immediate = {
+		set_variable = {    
+			name = ere_gothicwar_flag
+		}
+	}
+	option = {
+		name = "ere_gothic_war.1.a"
+		declare_war_with_wargoal = {
+			war_goal = conquer_wargoal
+			province = 1
+			target = OGO
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+						is_in_region = central_italy_region
+				}
+				add_claim = ERE
+			}
+		}
+	}
+	option = {
+		name = "ere_gothic_war.1.b"
+		c:OGO = { 
+			trigger_event = { 
+				id = ere_gothic_war.2
+			}
+		}
+		
+	}
+	option = {
+		name = "ere_gothic_war.1.c"
+		add_stability = 25
+		add_truce = {
+			target = OGO
+			duration = 3650
+		}
+		c:OGO = {		
+			add_truce = {
+				target = ERE
+				duration = 3650
+			}
+		}
+	}	
+}
+
+ere_gothic_war.2 = {
+	
+	type = country_event
+	title = "ere_gothic_war.2.t"
+	desc = "ere_gothic_war.2.desc"
+	picture = romans_marching
+	goto_location = root
+	trigger = {
+		tag = OGO
+		NOT = {
+			has_variable = ere_gothicwar_treaty_flag
+		}
+	}	
+	immediate = {
+		set_variable = {    
+			name = ere_gothicwar_treaty_flag
+		}
+	}
+	option = {
+		name = "ere_gothic_war.2.a"
+		add_truce = {
+			target = ERE
+			duration = 3650
+		}
+		c:ERE = {		
+			add_truce = {
+				target = OGO
+				duration = 3650
+			}
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						is_in_region = magna_graecia_region						
+					}
+				}
+				set_owned_by = ERE
+			}
+		}
+	}
+	option = {
+		name = "ere_gothic_war.2.b"
+		add_stability = -20
+		c:ERE = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = 1
+				target = OGO
+			}
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+						is_in_region = central_italy_region
+				}
+				add_claim = ERE
+			}
+			set_global_variable = {    
+				name = gothicwar_flag
+			}
+		}
+	}
+}

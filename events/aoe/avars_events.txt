@@ -1,0 +1,211 @@
+﻿namespace = avars_events
+
+avars_events.1 = {
+	
+	type = country_event
+	title = "avars_events.1.t"
+	desc = "avars_events.1.desc"
+	picture = war_council
+	goto_location = root
+	trigger = {
+		current_date > 1314.2.1
+		any_owned_province = {
+			is_in_area = transhypania_area
+		}
+		NOT = { has_global_variable = avars100_flag }
+	}
+	
+	immediate = {
+	}
+	
+	option = {
+		name = avars_events.1.a
+		every_owned_province = {
+			limit = {
+				is_in_area = transhypania_area
+			}
+			set_owned_by = AVA
+		}
+		hidden_effect = {
+			set_global_variable = {    
+				name = avars100_flag
+			}
+		}	
+	}
+}
+
+avars_events.2 = {
+	
+	type = country_event
+	title = "avars_events.2.t"
+	desc = "avars_events.2.desc"
+	picture = war_council
+	goto_location = root
+	trigger = {
+		tag = AVA
+		has_global_variable = avars100_flag
+		NOT = {
+			has_variable = avars200_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = avars200_flag
+	}
+	
+	option = {
+		name = avars_events.2.a
+		add_treasury = 2000
+		add_manpower = 20
+		every_owned_province = {
+			create_state_pop = tribesmen
+			create_state_pop = tribesmen
+			create_state_pop = tribesmen
+			create_state_pop = tribesmen
+		}
+		create_unit = {
+			name = "Avar Army 1"
+			location = p:6081
+			while = {
+				count = 10
+				add_subunit = horse_archers
+			}
+			while = {
+				count = 5
+				add_subunit = heavy_cavalry
+			}
+		}		
+	}	
+}
+
+avars_events.3 = {
+	
+	type = country_event
+	title = "avars_events.3.t"
+	desc = "avars_events.3.desc"
+	picture = war_council
+	goto_location = root
+	trigger = {
+		current_date > 1314.4.1
+		exists = c:AVA
+		NOT = {
+			OR = {
+				tag = ERE
+				tag = AVA
+				tag = OGO
+				tag = LTG
+			}
+		}
+		any_owned_province = {
+			OR = {
+				is_in_area = hypania_area
+				is_in_area = borysthenia_area
+				is_in_area = sarmatia_superioris_area
+				is_in_area = hypania_minoris_area
+				is_in_area = sarmatia_area
+			}			
+		}
+		NOT = { has_global_variable = avars300_flag }
+	}
+	
+	option = {
+		name = avars_events.3.a
+		ai_chance = {
+			factor = 100
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					is_in_area = hypania_area
+					is_in_area = borysthenia_area
+					is_in_area = sarmatia_superioris_area
+					is_in_area = hypania_minoris_area
+					is_in_area = sarmatia_area
+					is_in_area = olbia_area
+					is_in_area = bassetia_area
+				}
+			}
+			set_owned_by = AVA
+		}
+		c:AVA ={
+			make_subject = { 
+				target = ROOT
+				type = feudatory 
+			}
+		}
+		hidden_effect = {
+			set_global_variable = {    
+				name = avars300_flag
+			}
+		}	
+	}
+	option = {
+		name = avars_events.3.b
+		add_stability = 10
+		hidden_effect = {
+			every_owned_province = {
+				add_claim = AVA
+			}
+			set_global_variable = {    
+				name = avars300_flag
+			}
+		}	
+	}
+}
+
+avars_events.4 = {
+	
+	type = country_event
+	title = "avars_events.4.t"
+	desc = "avars_events.4.desc"
+	picture = war_council
+	goto_location = root
+	trigger = {
+		tag = AVA
+		has_global_variable = avars300_flag
+		NOT = {
+			has_variable = avars400_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = avars400_flag
+	}
+	
+	option = {
+		name = avars_events.2.a
+		add_treasury = 2000
+		add_manpower = 20
+		every_owned_province = {
+			create_state_pop = tribesmen
+			create_state_pop = tribesmen
+			create_state_pop = tribesmen
+			create_state_pop = tribesmen
+			create_state_pop = tribesmen
+		}
+		create_unit = {
+			name = "Avar Army 2"
+			location = p:6081
+			while = {
+				count = 10
+				add_subunit = horse_archers
+			}
+			while = {
+				count = 5
+				add_subunit = heavy_cavalry
+			}
+		}
+		create_unit = {
+			name = "Avar Army 3"
+			location = p:6081
+			while = {
+				count = 10
+				add_subunit = horse_archers
+			}
+			while = {
+				count = 5
+				add_subunit = heavy_cavalry
+			}
+		}		
+	}	
+}
