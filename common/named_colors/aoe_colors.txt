@@ -2,4 +2,5 @@
 
 colors = {
 	aoe_purple = rgb { 102 2 85 }
+	aoe_caliphate_green = rgb { 27 86 23 }
 }

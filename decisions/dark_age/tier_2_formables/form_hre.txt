@@ -12,6 +12,7 @@
 			NOT = {
 				is_endgame_tag_trigger = yes
 			}
+			NOT = { has_global_variable = hre_unite_decision_flag }
 		}
 		
 		highlight = {
@@ -74,6 +75,9 @@
 						NOT = { owner = ROOT }
 					}
 					add_claim = ROOT
+				}
+				set_global_variable = {    
+					name = hre_unite_decision_flag
 				}
 			}
 			add_3_free_province_investments = yes

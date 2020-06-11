@@ -80,8 +80,11 @@
 			}
 			c:ARA = {
 				add_political_influence = 300
-				add_manpower = 20
+				add_manpower = 40
 				add_treasury = 4000
+				add_country_modifier = {
+					name = arab_unification_modifier
+				}
 				create_unit = {
 					name = "Army of Arabia 2"
 					location = p:7575
@@ -121,16 +124,6 @@
 						count = 5
 						add_subunit = camels
 					}
-				}
-				declare_war_with_wargoal = {
-					war_goal = conquer_wargoal
-					province = 687
-					target = ERE
-				}
-				declare_war_with_wargoal = {
-					war_goal = conquer_wargoal
-					province = 912
-					target = PER
 				}
 			}
 			every_province = {

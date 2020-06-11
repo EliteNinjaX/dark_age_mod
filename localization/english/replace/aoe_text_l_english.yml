@@ -13,3 +13,6 @@
  desc_slavic:0 "The religion of the Slavs who settled eastern and central Europe during the great migration."
  tengri:0 "Tengri"
  desc_tengri:0 "The religion of Bulgars and Turkish nomads, Tengris worship a sky god as their primary deity."
+ germanic_religion:0 "Germanic"
+ desc_germanic_religion:0 "Pagans of Germanic descent."
+

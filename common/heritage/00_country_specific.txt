@@ -150,7 +150,14 @@ avar_heritage = {
 	}
 	
 	trigger = {
-		tag = AVA
+		OR = {
+			tag = AVA
+			tag = HUN
+			tag = UTI
+			tag = KUT
+			tag = PSS
+			tag = ALA
+		}
 	}
 }
 

@@ -35,6 +35,8 @@
  venedi:0 "Venedi"
  huns:0 "Huns"
  bavarii:0 "Bavarii"
+ sardinian:0 "Sardinian"
+ gothonic:0 "Gothic"
  ARMY_NAME_slavic:0 "$NUM$$ORDER$ Warband"
  NAVY_NAME_slavic:0 "$NUM$$ORDER$ Navy"
  COHORT_NAME_slavic:0 "$HOME$'s $NUM$$ORDER$ Warband"
