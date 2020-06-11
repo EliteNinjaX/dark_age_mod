@@ -41,7 +41,6 @@
 		arab_news.2
 		arab_news.3
 		arab_news.4
-		test_arab.1
 	}
 }
 

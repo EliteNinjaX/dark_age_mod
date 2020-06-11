@@ -129,12 +129,9 @@
  arab_news.4.a:0 "The Arabs move into Persia"
  ##Welcome Events
  welcome_events.1.t:0 "Welcome To Alpha!"
- welcome_events.1.desc:0 "This is version .03 of The Last Roman: The Dark Ages. The plan is to add alot more but more than that, I want the mod to be FUN. To do this, I need people helping. Music, art, or just about anyone. \n\nIf you'd like to be a part of the team building this mod out, please join our Discord: https://discord.gg/TyfmWv"
+ welcome_events.1.desc:0 "This is the alpha version of Ashes of Empire: The Dark Ages. We look forward to continuing development on this mod, including adding new characters, events and updating the map to better reflect the time period. Be on the lookout for new updates. Thank you for playing!"
  welcome_events.1.a:0 "Enjoy the game!"
  welcome_events.2.t:0 "Migration Events"
- welcome_events.2.desc:0 "This time period featured major migration events that radically changed the world. Some of those events are simulated in this game, including the rise of the Avars, the Lombard migration to Italy, the rise of the Gokturks, the Slavic migrations into the Balkans and the rise of the Islamic Caliphate. I recommend playing with these migration events on, but I understand that some people prefer a pure sandbox experience. Warning: turning these off will make the Roman Empire much stronger throughout the game."
- welcome_events.2.a:0 "I want these migration events in the game (recommended)"
- welcome_events.2.b:0 "I want a pure sandbox experience (not recommended)"
 ##Islam Events
  islam_appears.1.t:0 "A New Religion"
  islam_appears.1.desc:0 "A new religion has appeared on the Arabian penninsula: Islam. It teaches that there is only one God and that Muhammad, a self-proclaimed prophet from Mecca, is His messenger. Arabia is a backwater land in the corner of the world, so this news is probably insignificant..."

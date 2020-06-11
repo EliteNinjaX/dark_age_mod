@@ -961,17 +961,16 @@
 		umbrian = {}
 		samnite = {}
 		messapian = {}
+		sardinian = {}
 		sardonian = {}
 		siculian = {}
 		bruttian = {}
 		lucanian = {}
-		#New
 		hispania = {}
 		gaul = {}
 		brittania = {}
 		africa = {}	
 		illyria = {}
-		sardinian = {}
 	}
 	
 	barbarian_names = { BRUTTII CAMUNNI CARACENI CENOMANI EUGANEI FRINIATES LIBURNI LIGURES LEPONTII LUCANI MAMERTINI PATAVINI PENTRI VENETI }

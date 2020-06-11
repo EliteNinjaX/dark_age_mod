@@ -4,6 +4,14 @@
  desc_ravaged_by_plague_modifier: "Bodies pile up in our major trading cities as disease spreads throughout the realm." 
  manintain_latin_modifier: "Matintain Latin"
  desc_manintain_latin_modifier: "No way will we give up the Roman ways!" 
+ avars_modifier:0 "The Avar Khaganate"
+ desc_avars_modifier:0 "Like the Huns before them, this nomadic group is poised to shake up the balance of power in Central Europe."
+ arab_unification_modifier:0 "The Arab Empire"
+ desc_arab_unification_modifier:0 "Surging out of the deserts of Arabia, these people are fierce warriors and impressive empire builders."
+ empire_in_decline_modifier:0 "An Empire In Decline"
+ desc_empire_in_decline_modifier:0 "Gone are the days of old when we were superior to those around us. Corruption, disasters and military stagnation have played their part in the decline of our empire."
+
+ 
  #Character Interactions
  #Blinding
  blinding:0 "Blind"
@@ -14,8 +22,6 @@
  desc_blinded:0 "Blinding someone is a great way to remove one's potential rival from politics."
  
 ##Old
- empire_in_decline_modifier:0 "An Empire In Decline"
- desc_empire_in_decline_modifier:0 "Gone are the days of old when we were superior to those around us. Corruption, disasters and military stagnation have played their part in the decline of our empire."
  golden_age_modifier:0 "Golden Age"
  desc_golden_age_modifier:0 "We are in the midst of a golden era where expansion and prosperity are inevitable."
  tolerant_policies_modifier:0 "Tolerant Policies"
@@ -24,8 +30,6 @@
  desc_fierce_warriors_modifier:0 "Our warriors are renowned for their fighting skills. Our enemies tremble at our strength."
  holy_war_modifier:0 "Holy War"
  desc_holy_war_modifier:0 "Driven by a deep faith in their religion, our warriors will carry all before them."
- avars_modifier:0 "The Time Of The Avars"
- desc_avars_modifier:0 "Like the Huns before them, this nomadic group is poised to shake up the balance of power in Central Europe."
  superpower_modifier:0 "Persian And Roman Influence"
  desc_superpower_modifier:0 "Because we're on the frontier of these two great powers, we are able to learn from them and enjoy the benefits of increased commerce."
  justinian_modifier:0 "Rome Resurgent"

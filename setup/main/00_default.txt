@@ -91,4865 +91,7 @@ family={
 		}
 		}
 		}
-diplomacy = {
-	
-	
-}
-
-provinces = { #Any entry must contain a comment with city name.
-	### TREASURES ###
-	1 = { # Roma
-		treasure_slots = { treasures = { 16 198 } }
-	}
-	14 = { # Cisra
-		treasure_slots = { treasures = { 72 } }
-	}
-	73 = { # Lokroi
-		treasure_slots = { treasures = { 42 } }
-	}
-	84 = { # Syracuse
-		treasure_slots = { treasures = { 11 } }
-	}
-	86 = { # Akragas
-		treasure_slots = { treasures = { 46 } }
-	}
-	131 = { # Arritim
-		treasure_slots = { treasures = { 70 } }
-	}
-	172 = { # Komana
-		treasure_slots = { treasures = { 50 } }
-	}
-	188 = { # Pessinus
-		treasure_slots = { treasures = { 202 } }
-	}
-	266 = { # Rhodes
-		treasure_slots = { treasures = { 92 } }
-	}
-	270 = { # Lemnos
-		treasure_slots = { treasures = { 89 } }
-	}
-	290 = { # Ephesos
-		treasure_slots = { treasures = { 8 } }
-	}
-	334 = { # Paphos
-		treasure_slots = { treasures = { 93 } }
-	}
-	358 = { # Knossos
-		treasure_slots = { treasures = { 94 } }
-	}
-	416 = { # Athens
-		treasure_slots = { treasures = { 3 64 } }
-	}
-	424 = { # Delphi
-		treasure_slots = { treasures = { 2 9 } }
-	}
-	425 = { # Dodona
-		treasure_slots = { treasures = { 75 85 } }
-	}
-	426 = { # Thebes
-		treasure_slots = { 	treasures = { 1 83 } }
-	}
-	439 = { # Olympia
-		treasure_slots = { treasures = { 6 112 } }
-	}
-	440 = { # Argos
-		treasure_slots = { treasures = { 4 81 } }
-	}
-	441 = { # Epidauros
-		treasure_slots = { treasures = { 5 } }
-	}
-	499 = { # Spinobara
-		treasure_slots = { treasures = { 73 } }
-	}
-	500 = { #Memphis
-		treasure_slots = { treasures = { 194 } }
-	}
-	501 = { # Helioupolis
-		treasure_slots = { treasures = { 184 197 } }
-	}
-	516 = { # Alexandreia
-		treasure_slots = { treasures = { 77 204 } }
-	}
-	563 = { # Tentyris
-		treasure_slots = { treasures = { 69 } }
-	}
-    569 = { # Thebai Hekatompyloi/Diospolis Magna/Waset/Karnak
-        treasure_slots = { treasures = { 183 118 } }
-    }
-	576 = { # Apollonopolis Magna
-		treasure_slots = { treasures = { 71 } }
-	}
-	687 = { # Jerusalem
-		treasure_slots = { treasures = { 199 } }
-	}
-	763 = { # Helopolitana 
-		treasure_slots = { treasures = {  203 } } #Should really be in Emesa/Hemesa
-	}
-	766 = { # Gebal/Byblos
-		treasure_slots = { treasures = { 37 } }
-	}
-	807 = { # Mabbog
-		treasure_slots = { treasures = { 52 } }
-	}
-	910 = { # Sippar
-		treasure_slots = { treasures = { 187 } }
-	}
-	918 = { # Babylon
-		treasure_slots = { treasures = { 191 196 } }
-	}
-	919 = { # Borsippa
-		treasure_slots = { treasures = { 74 } }
-	}
-	994 = { # Ashtishat
-		treasure_slots = { treasures = { 32 } }
-	}
-	1236 = { # Arcus
-		treasure_slots = { treasures = { 15 } }
-	}
-	1287 = { # Salaria
-		treasure_slots = { treasures = { 17 } }
-	}
-	1570 = { # Armaouira
-		treasure_slots = { treasures = { 29 } }
-	}
-	1575 = { # Erebuni
-		treasure_slots = { treasures = { 31 } }
-	}
-	1591 = { # Karchakpyur
-		treasure_slots = { treasures = { 30 } }
-	}
-	1634 = { # Kamachia
-		treasure_slots = { treasures = { 35 } }
-	}
-	1676 = { # Meschistha-Harmozike
-		treasure_slots = { treasures = { 36 } }
-	}
-	1734 = { # Trapezous
-		treasure_slots = { treasures = { 110 } }
-	}
-	1749 = { # Brili
-		treasure_slots = { treasures = { 33 } }
-	}
-	1767 = { # Eriza
-		treasure_slots = { treasures = { 114 } }
-	}
-	1835 = { # Delos
-		treasure_slots = { treasures = { 206 84 } }
-	}
-	1928 = { # Men Askaenos
-		treasure_slots = { treasures = { 10 } }
-	}
-	2090 = { # Bremenium
-		treasure_slots = { treasures = { 20 } }
-	}
-	2321 = { # Avennio
-		treasure_slots = { treasures = { 18 } }
-	}
-	2438 = { # Bibracte
-		treasure_slots = { treasures = { 19 } }
-	}
-	3124 = { # Bida
-		treasure_slots = { treasures = { 14 } }
-	}
-	3244 = { # Thinnisut
-		treasure_slots = { treasures = { 13 } }
-	}
-	3256 = { # Carthage
-		treasure_slots = { treasures = { 12 } }
-	}
-	3828 = { # Tuliphurdum
-		treasure_slots = { treasures = { 63 } }
-	}
-	3836 = { # Amsivaria
-		treasure_slots = { treasures = { 23 } }
-	}
-	3844 = { # Fletio
-		treasure_slots = { treasures = { 21 } }
-	}
-	3886 = { # Herulia Borealis
-		treasure_slots = { treasures = { 22 } }
-	}
-	4248 = { # Odessos
-		treasure_slots = { treasures = { 108 } }
-	}
-	4310 = { # Kardzhali
-		treasure_slots = { treasures = { 26 } }
-	}
-	4444 = { # Gaya
-		treasure_slots = { treasures = { 182 } }
-	}
-	4475 = { # Ujjayani
-		treasure_slots = { treasures = { 195 } }
-	}
-	4545 = { # Cimus
-		treasure_slots = { treasures = { 27 } }
-	}
-	4768 = { # Erbia
-		treasure_slots = { treasures = { 66 } }
-	}
-	4865 = { # Venedicana
-		treasure_slots = { treasures = { 24 } }
-	}
-	4911 = { # Tamasidava
-		treasure_slots = { treasures = { 7 } }
-	}
-	5435 = { # Kurus
-		treasure_slots = { treasures = { 34 } }
-	}
-	5890 = { # Mykon
-		treasure_slots = { treasures = { 28 } }
-	}
-	7575 = { #Mecca
-		treasure_slots = { treasures = { 186 } }
-	}
-
-	### BUILDINGS
-	1 = { #Rome
-		commerce_building = 1
-		library_building = 1
-		academy_building = 1
-		aqueduct_building = 2
-		modifier = { modifier = rome always = yes }
-	}
-	1453 = { #constantinople
-		commerce_building = 1
-		library_building = 1
-		academy_building = 1
-		aqueduct_building = 2
-		modifier = { modifier = constantinople always = yes }
-	}
-	2 = {
-		military_building = 2
-	}
-	3 = {
-		military_building = 2
-	}
-	4 = {
-		barracks_building = 1
-	}
-	6 = {
-		military_building = 2
-	}
-	7 = {
-		military_building = 2
-	}
-	14 = { # Pyrgi
-		barracks_building = 1
-	}
-	25 = { #Norba
-		basic_settlement_infratructure_building = 1
-	}
-	26 = { # Fregellae
-		barracks_building = 1
-	}
-	261 = {
-		fortress_building = 1
-	}
-	278 = { #Pergamon
-		fortress_building = 1
-	}
-	292 = { #Sardis
-		fortress_building = 1
-	}
-	818 = {
-		fortress_building = 1
-	}
-	853 = {
-		fortress_building = 1
-	}
-	943 = { barracks_building = 1 }
-	1941 = {
-		fortress_building = 1
-	}
-	6678 = { #Bactra
-		commerce_building = 1
-		aqueduct_building = 3
-	}
-	
-	6688 = {
-		aqueduct_building = 3
-	}
-	
-	6694 = {	 #Citadel of Ay Khanum
-		aqueduct_building = 1
-		commerce_building = 1
-	}
-	
-	6611 = {	 #Indo Greek Capital
-		aqueduct_building = 2
-		modifier = { modifier = alexandria always = yes }
-	}
-	
-	6615 = { # Alexandreia Opiane
-		modifier = { modifier = alexandria always = yes }
-	}
-	6815 = {
 		
-		
-		
-		
-		
-		
-		
-		
-	}
-	6821 = {
-		modifier = { modifier = alexandria always = yes }
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	7202 = {
-		fortress_building = 1
-		commerce_building = 1
-		
-		
-		
-		
-		
-		
-	}
-	7802 = { # Tanagra
-		fortress_building = 1
-	}
-	16 = {
-		military_building = 1
-		fortress_building = 1
-	} #Veii
-	
-	407 = { #Chalchis
-		fortress_building = 2
-		modifier = { modifier = chalkis_province_modifier always = yes }
-	}
-	416 = { #Athens
-		fortress_building = 1
-		modifier = { modifier = academy_of_athens always = yes }
-	}
-	835 = { #Hatra
-		fortress_building = 1
-	}
-	
-	743 = { #Tyre
-		fortress_building = 1
-	}
-	
-	266 = { #Rhodos
-		fortress_building = 1
-		modifier = { modifier = fortifications_of_rhodes always = yes }
-	}
-	
-	#Peter beyond this point:
-	
-	8 = { #telesia
-		fortress_building = 1 
-	}
-	
-	12 = { #velia
-		fortress_building = 1 
-	}
-	
-	33 = { #bovinium
-		fortress_building = 1 
-	}
-	
-	37 = { #Luceria, the key of Puglia
-		fortress_building = 1
-		
-		
-		
-		
-	}
-	
-	48 = { #terventum
-		fortress_building = 1 
-	}
-	
-	52 = { #thurii
-		fortress_building = 1 
-	}
-	
-	54 = { #heraclea
-		fortress_building = 1 
-	}
-	
-	55 = { #metapontum
-		fortress_building = 1 
-		modifier = { modifier = pythagoras_tomb_modifier always = yes }
-	}
-	
-	56 = { #tarentum
-		fortress_building = 1 
-	}
-	
-	66 = { #barium
-		fortress_building = 1 
-	}
-	
-	72 = { #rhegium
-		fortress_building = 1 
-	}
-	
-	73 = { #locri
-		fortress_building = 1 
-	}
-	
-	75 = { #hipponium
-		fortress_building = 1 
-	}
-	
-	76 = { #tempsa
-		fortress_building = 1 
-	}
-	
-	78 = { #croton
-		fortress_building = 1 
-	}
-	
-	80 = { #messana
-		fortress_building = 1 
-	}
-	
-	84 = { #syracusae
-		fortress_building = 1 
-	}
-	
-	86 = { #acragas
-		fortress_building = 1 
-	}
-	
-	94 = { #lilybaeum
-		fortress_building = 1 
-	}
-	
-	96 = { #panormus
-		fortress_building = 1 
-	}
-	
-	114 = { #vetulonia
-		fortress_building = 1 
-	}
-	
-	124 = { #cortona
-		fortress_building = 1 
-	}
-	
-	135 = { #valvata
-		fortress_building = 1 
-	}
-
-	138 = { # Luca
-
-	}
-	
-	142 = { #ravenna
-		fortress_building = 1 
-	}
-	
-	146 = { # Bononia
-		aqueduct_building = 1
-	}
-
-	149 = { #mutina
-		fortress_building = 1 
-	}
-	
-	681 = { #emporiae
-		fortress_building = 1 
-	}
-	
-	702 = { #quseima
-		fortress_building = 1 
-	}
-	
-	810 = { #zeugma
-		fortress_building = 1 
-	}
-	
-	933 = { #apamea
-		fortress_building = 1 
-	}
-	
-	1000 = { #emporiae
-		fortress_building = 1 
-	}
-	
-	1031 = { #hemeroskopeion
-		fortress_building = 1 
-	}
-	
-	1341 = { #tartessos
-		fortress_building = 1 
-	}
-	
-	1348 = { #carteia
-		fortress_building = 1 
-	}
-	
-	1471 = { #melita
-		fortress_building = 1 
-	}
-	
-	1718 = { #aeclanum
-		fortress_building = 1 
-	}
-	
-	2260 = { #agatha
-		fortress_building = 1 
-	}
-	
-	2284 = { #augustonometum
-		fortress_building = 1 
-	}
-	
-	2325 = { #massalia
-		fortress_building = 1 
-	}
-	
-	2347 = { #avaricum
-		fortress_building = 1 
-	}
-	
-	2438 = { #bibracte
-		fortress_building = 1 
-	}
-	
-	2440 = { #alesia
-		fortress_building = 1 
-	}
-	
-	3245 = { #neapolis
-		fortress_building = 1 
-	}
-	
-	3256 = { #carthago
-		commerce_building = 3
-		town_hall_building = 1
-		aqueduct_building = 2
-
-		
-		
-		
-	}
-	
-	3264 = { #septima
-		fortress_building = 1 
-	}
-	
-	3295 = { #meninge
-		fortress_building = 1 
-	}
-	
-	3303 = { #oea
-		fortress_building = 1 
-	}
-	
-	3549 = { #genua
-		fortress_building = 1 
-	}
-	
-	3584 = { #verona
-		fortress_building = 1 
-	}
-	
-	3572 = { #ticinum
-		fortress_building = 1 
-	}
-	
-	3592 = { #feraria
-		fortress_building = 1 
-	}
-	
-	3598 = { #altinum
-		fortress_building = 1 
-	}
-	
-	4787 = {
-		barracks_building = 1
-	}
-	
-	4991 = { #rhagai
-		fortress_building = 1 
-	}
-	
-	6563 = { #phraada
-		fortress_building = 1 
-	}
-	
-	6703 = { #cyropolis
-		fortress_building = 1 
-	}
-	
-	6766 = { #yamchun
-		fortress_building = 1 
-	}
-	
-	7506 = { #aksum
-		fortress_building = 1
-	}
-	
-	536 = { #Babylon (Egypt)
-		fortress_building = 1
-	}
-	
-	#Pirates
-	
-	12 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Lucanians
-	35 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Frentani
-	64 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Mesapians
-	96 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Sicily
-	141 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Genuatia
-	248 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Myrleia
-	270 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Lemnos
-	277 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Skyros
-	283 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Lesbos
-	334 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyprus
-	355 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Iarapetra
-	481 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Thrace
-	666 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Phoenicia
-	725 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Nabatea
-	1131 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Galaecia
-	1150 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Galaecia
-	1240 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Etobesa
-	1318 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Sefia
-	1469 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Gymnasia
-	1743 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Pontus Euxine
-	1793 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Pontus Euxine
-	1815 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Kolousa
-	1892 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cilicia
-	1996 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Astypalaia
-	2076 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Brigantia
-	2109 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Caledonia
-	2153 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Namneti
-	2468 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Caleti
-	3086 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Siga
-	3344 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Egypt
-	3372 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Cyrenaica
-	3546 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Liguria
-	3843 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Menapi
-	3898 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Varini
-	4020 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Illyria
-	4054 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Illyria
-	4090 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Illyria
-	4565 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Pontus Euxine
-	4655 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Qataba
-	4787 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Persian Gulf
-	6009 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Öland
-	6038 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Grani
-	6526 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Indus
-	6816 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Kathiawar
-	6874 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Sahyadri
-	6885 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Nouira
-	6953 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Lanka
-	7046 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Alosgyni
-	7081 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Kalinganagara
-	7177 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Bengal
-	7199 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Gerhha
-	7206 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Omana
-	7216 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Omana
-	7500 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Red Sea
-	7528 = { modifier = { modifier = pirate_haven_modifier always = yes } } #Opone
-	
-	#Minorities
-	7 = { #Neapolis
-		
-	}
-	11 = { # Paestum
-		
-		
-		
-		
-		
-		
-	}
-	12 = { # Velia
-		
-		
-		
-		
-	}
-	15 = { #Ostia
-		
-		
-	}
-	33 = {
-
-	}
-	38 = { #Sipontum/Sipious
-		
-		
-		
-		
-		
-		
-	}
-	80 = { #Messana
-		
-		
-	}
-	81 = { #Tauromenium
-		
-		
-		
-	}
-	82 = { #Catana
-		
-		
-		
-		
-		
-	}
-	83 = { #Leontini
-		
-		
-	}
-	84 = { #Syracuse
-		
-		
-	}
-	85 = { #Gela
-		
-		
-	}
-	86 = { #Acragas
-		
-		
-	}
-	90 = { #Herbesus
-		
-		
-		
-	}
-	91 = { #Heraclea Minoa
-		
-		
-		
-		
-	}
-	92 = { #Segesta
-		
-		
-		
-	}
-	93 = { #Selinus
-		
-		
-		
-		
-		
-		
-		
-	}
-	94 = { #Lilybaeum
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	95 = { #Eryx
-		
-		
-		
-		
-		
-		
-	}
-	96 = { #Panorumus
-		
-		
-		
-		
-	}
-	97 = { #Himere
-		
-		
-		
-	}
-	99 = { #Tyndaris
-		
-		
-	}
-	101 = { #Camarina
-		
-		
-	}
-	103 = { # Plestia
-		aqueduct_building = 2
-	}
-	104 = { # Amiternum
-
-	}
-	105 = {
-
-	}
-	153 = {
-
-	}
-	157 = { # Quarsapa
-		
-		
-	}
-	163 = { # Osdara
-		
-		
-	}
-	166 = { # Perge
-		
-		
-	}
-	168 = { # Aspendos
-		
-	}
-	167 = { # Pednelissos
-		
-		
-		
-	}
-	170 = { # Termessos
-		
-		
-	}
-	171 = { # Isinda
-		
-		
-	}
-	177 = { #Laodikeia
-		
-		
-	}
-	184 = { # Dokimeion
-		
-		
-	}
-	185 = { # Ipsos
-		
-		
-		
-	}
-	186 = { # Eukarpia
-		
-		
-		
-	}
-	187 = { # Kidyessos
-		
-		
-		
-	}
-	188 = { # Pessinous
-		
-		
-	}
-	189 = { # Gordion
-		
-		
-		
-		
-		
-		
-	}
-	199 = { # Kandara
-		
-		
-	}
-	200 = {
-		fortress_building = 1
-	}
-	206 = { # Aigialos
-		barracks_building = 1
-	}
-	207 = { #Lemnos
-		
-	}
-	211 = { # Ziporea
-	}
-	213 = { # Sora
-		
-		
-	}
-	214 = { # Kaisereia
-		
-	}
-	217 = { # Antoniopolis
-		
-		
-	}
-	218 = { # Anadynata
-		
-		
-	}
-	221 = { # Artiknos
-		barracks_building = 1
-		
-	}
-	222 = { # Bloukion
-		
-		
-	}
-	223 = { # Legna
-		
-	}
-	224 = { # Gordioukome
-		
-		
-	}
-	225 = { # Lagania
-		barracks_building = 1
-		
-		
-	}
-	226 = { # Mnizos
-		
-		
-	}
-	227 = { # Trokna
-		
-		
-		
-	}
-	263 = { #Naxos
-		
-		
-	}
-	266 = { #Rhodos
-		modifier = { modifier = rhodian_glass_workshops always = yes }
-		commerce_building = 1
-		
-		
-		
-		
-		
-	}
-	276 = { #Apollonia Lydia
-		basic_settlement_infratructure_building = 1
-	}
-	278 = { #Pergamon
-		aqueduct_building = 2
-		
-		
-		
-		
-	}
-	283 = {
-		
-		
-	}
-	287 = { #Smyrna
-		
-		
-	}
-	288 = { #Theos
-		
-		
-	}
-	301 = { # Silandos
-		
-		
-		
-	}
-	302 = { # Kadoi
-		barracks_building = 1
-		
-		
-	}
-	303 = { # Synaos
-		
-		
-		
-	}
-	304 = { # Hyssa
-		
-	}
-	305 = { # Porotta
-		
-	}
-	306 = { # Ariandos
-		
-		
-		
-	}
-	309 = { # Akmonia
-		
-		
-	}
-	311 = { # Dionysoupolis
-		
-		
-	}
-	312 = { # Appia
-		
-		
-	}
-	313 = { # Malos
-		
-		
-	}
-	315 = { # Dorylaion
-		
-	}
-	316 = { # Midaion
-		
-	}
-	317 = { # Kotiaeion
-		
-		
-		
-	}
-	318 = { # Meiros
-		
-		
-	}
-	319 = { # Aizanoi
-		
-		
-	}
-	320 = { # Hadrianeia
-		
-	}
-	321 = { # Hadrianoi
-		
-	}
-	322 = { # Lamounia
-		
-	}
-	326 = { # Modra
-		
-		
-		
-	}
-	331 = { #Salamis
-		
-		
-	}
-	332 = { #Kition
-		modifier = { modifier = cypriot_copper_mines always = yes }
-	}
-	333 = { #Soloi
-		modifier = { modifier = cypriot_copper_mines always = yes }
-	}
-	334 = { #Paphos
-		
-		
-	}
-	336 = { #Tamassos
-		modifier = { modifier = cypriot_copper_mines always = yes }
-	}
-	338 = { #Amathous
-		modifier = { modifier = cypriot_copper_mines always = yes }
-	}
-	339 = { # Sebaste
-		
-		
-	}
-	349 = { #Sestos
-		
-		
-	}
-	352 = { #Ornoi
-		
-		
-	}
-	343 = { #Aulaiouteichos
-		
-		
-	}
-	347 = {
-		town_hall_building = 2
-	}
-	350 = { #Lysimachea
-		military_building = 1
-		fortress_building = 1
-		town_hall_building = 2
-		aqueduct_building = 1
-	}
-	353 = { #Kypsela
-		latifundia_building = 1
-		
-		
-	}
-	354 = { #Ainos
-		
-		
-	}
-	357 = { #Sale
-		
-		
-	}
-	364 = { #Philippi
-		
-	}
-	365 = { # Amphipolis
-		fortress_building = 1
-		town_hall_building = 2
-	}
-	373 = { #Thesalonica
-		library_building = 1
-		town_hall_building = 2
-		
-		
-		
-	}
-	378 = { #Torone
-		
-		
-	}
-	379 = { #Pella
-		library_building = 2
-		military_building = 1
-		town_hall_building = 3	
-	}
-	380 = { # Dion
-		barracks_building = 1
-	}
-	383 = { # Europos
-		barracks_building = 1
-	}
-	389 = { #Larissa
-		military_building = 1
-		aqueduct_building = 1
-		town_hall_building = 1
-		
-		
-		
-		
-		
-		
-		
-	}
-	381 = { #Beroia
-		
-	}
-	390 = { # Pherai
-		town_hall_building = 2
-	}
-	394 = { #Pharsalos
-		library_building = 1
-		town_hall_building = 2
-	}
-	395 = {
-		modifier = { modifier = asklepion always = yes }
-	}
-	1970 = {
-		modifier = { modifier = asklepion always = yes }
-	}
-	399 = { # Lamia
-		fortress_building = 1
-	}
-	407 = { #Chalcis
-	
-		
-		
-	}
-	7898 = { #Rhamnous
-		slave_mine_building = 1
-		
-	}
-	416 = { #Athens
-		town_hall_building = 1
-		academy_building = 2
-		
-		
-		
-		
-	}
-	417 =  {
-		academy_building = 1
-		modifier = { modifier = megarian_school always = yes }
-	}
-	418 = { #Korinth
-		fortress_building = 2 #Acrocorinth
-		modifier = { modifier = akrokorinth_province_modifier always = yes }
-		town_hall_building = 1
-		
-		
-		
-		
-		
-		
-		
-	}
-	419 = {
-		barracks_building = 1
-	}
-	424 = { #Delphi
-		temple_building = 2
-		
-	}
-	425 = { #Dodona
-		barracks_building = 1
-	}
-	427 = { #Sparta
-		military_building = 2
-		fortress_building = 1
-		
-		
-		
-		
-	}
-	428 = { # Aigeai
-		barracks_building = 1
-	}
-	431 = {
-		fortress_building = 1
-		military_building = 1
-	}
-	432 = { #Mothone
-		
-	}
-	436 = { #Megalopolis
-		fortress_building = 1
-	}
-	438 = { #Manthinea
-		
-		
-	}
-	440 = { #Argos
-		fortress_building = 1
-		
-		
-		
-	}
-	441 = {
-		modifier = { modifier = asklepion always = yes }
-	}
-	442 = { # Aigina
-		barracks_building = 1
-	}
-	457 = { #Naupaktos
-		
-		
-	}
-	459 = { # Leukas
-		barracks_building = 1
-	}
-	464 = { # Nikopolis
-		barracks_building = 1
-	}
-	465 = { #Ambrakia
-		military_building = 2
-	}
-	480 = { #Mesembria
-		town_hall_building = 2
-		
-		
-		
-	}
-	500 = { #Memphis
-		aqueduct_building = 1
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	501 = { #Heliopolis
-		
-		
-		
-	}
-	506 = { # Arsinoe
-		
-		
-	}
-	507 = { #Leontopolis
-		
-		
-		
-	}
-	509 = { #Pelusium
-		fortress_building = 1
-		
-		
-		
-	}
-	510 = { #Daphnai
-		
-		
-		
-	}
-	512 = { #Letopolis
-		
-		
-	}
-	513 = { #Athribis
-		
-		
-	}
-	532 = { #Chaireon
-		
-		
-		
-	}
-	534 = { #Mendes
-		
-		
-		
-		
-		
-	}
-	535 = { # Ostrakine
-		
-		
-		
-		
-	}
-	536 = { #Babylon (Egypt)
-		
-		
-		
-		
-		
-		
-	}
-	539 = { #Krokodilopolis
-		
-		
-		
-		
-		
-		
-	}
-	540 = { #Dionysias
-		barracks_building = 1
-		
-		
-		
-		
-		
-		
-		
-	}
-	541 = { #Karanis
-		barracks_building = 1
-		
-		
-		
-		
-		
-		
-	}
-	543 = {
-		aqueduct_building = 1
-	}
-	545 = { #Oxyrhynchus
-		
-		
-		
-	}
-	549 = { #Hermopolis Magna
-		
-		
-		
-		
-	}
-	569 = { #Diospolis Magna
-		
-		
-		
-		
-		
-		
-	}
-	580 = { #Myos Hormos
-		
-		
-		
-		
-	}
-	591 = { #Syene
-		
-		
-		
-		
-		
-		
-		
-	}
-	593 = {
-		fortress_building = 1
-	}
-	614 = { # Bagada
-		barracks_building = 1
-	}
-	641 = { #Meroe
-		aqueduct_building = 2
-		
-		
-		
-		
-		
-		
-	}
-	651 = { # Sumita
-		
-		
-	}
-	656 = { # Rinokoloura
-		
-		
-	}
-	657 = { # Bitylion
-		
-	}
-	658 = { # Raphia
-		
-	}
-	659 = { #Gaza
-		fortress_building = 1
-		commerce_building = 1
-		
-		
-		
-	}
-	660 = {	#Ascalon
-		fortress_building = 1
-		commerce_building = 1
-		
-		
-		
-	}
-	675 = { # Pella, Phrygia
-		
-		
-	}
-	679 = { #Samaria
-		
-		
-		
-		
-	}
-	692 = { # Adora
-		
-	}
-	693 = { # Thala
-		
-	}
-	695 = { # Elousa
-		
-	}
-	696 = { # Betomolachon
-		
-	}
-	697 = { # Nessana
-		
-	}
-	700 = { # Mampsis
-		
-	}
-	701 = { # Maghara
-		
-		
-		
-	}
-	702 = { # Quseima
-		
-	}
-	710 = { # Zoara
-		
-	}
-	714 = { # Tyrus, Perae
-		
-	}
-	716 = { # Esbous
-		
-	}
-	720 = { # Asophon
-		
-	}
-	721 = { # Gerasa
-		
-		
-	}
-	723 = { # Gadara
-		
-		
-	}
-	732 = { # Adraha
-		
-	}
-	733 = { # Abila Dekapoleoes
-		
-		
-	}
-	734 = { #Bostra
-		
-		
-		
-		
-	}
-	737 = { # Raphon
-		
-		
-		
-		
-	}
-	739 = { # Karnaia
-		
-		
-	}
-	740 = { # Dan
-		
-	}
-	741 = { #Iyyon
-		modifier = { modifier = cedars_of_lebanon always = yes }
-		
-		
-	}
-	743 = { #Tyrus
-		workshop_building = 2
-		modifier = { modifier = tyrian_purple always = yes }
-		
-		
-		
-		
-	}
-	747 = { #Sidon
-		commerce_building = 1 
-		
-		
-		
-		
-	}
-	749 = { #Brochoi
-		modifier = { modifier = cedars_of_lebanon always = yes }
-		
-	}
-	750 = {
-		commerce_building = 1
-		
-		
-		
-		
-	}
-	752 = {
-		
-		
-	}
-	753 = {
-		
-		
-	}
-	754 = {
-		aqueduct_building = 2
-	}
-	762 = {
-		
-	}
-	763 = {
-		
-		
-	}
-	765 = {
-		
-	}
-	766 = { #Byblos
-		commerce_building = 1
-		
-		
-		
-		
-		
-	}
-	768 = { #Lebanos mons
-		modifier = { modifier = cedars_of_lebanon always = yes }
-	}
-	771 = {
-		
-	}
-	772 = {
-		
-		
-		
-	}
-	778 = {
-		
-	}
-	779 = { #Arados
-		commerce_building = 1 
-		
-	}
-	781 = {
-		
-	}
-	782 = { #Apamea (Syria)
-		
-		
-		
-		
-	}
-	783 = { #Bargylus Mons
-		modifier = { modifier = cedars_of_lebanon always = yes }
-	}
-	784 = {
-		
-		
-	}
-	785 = {
-		
-	}
-	786 = {
-		
-		
-		
-		
-	}
-	787 = {
-		
-		
-	}
-	788 = {
-		
-		
-	}
-	789 = {
-		
-		
-	}
-	790 = { #Antigonia
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	791 = {
-		
-	}
-	792 = {
-		
-	}
-	793 = {
-		
-	}
-	794 = {
-		
-	}
-	807 = { # Bambyce
-		
-	}
-	808 = { # Batnai
-		
-	}
-	809 = { # Europos
-		
-		
-		
-	}
-	810 = { # Zeugma
-		
-		
-		
-		
-		
-		
-	}
-	811 = { # Dolike
-		
-		
-	}
-	818 = { #Edessa
-		
-		
-		
-		
-		
-		
-		
-	}
-	821 = { # Resaina
-		
-		
-	}
-	822 = { # Nabada
-		
-	}
-	827 = { # Circesium
-		
-		
-	}
-	829 = { # Doura
-		fortress_building = 1
-		
-		
-		
-	}
-	830 = { # Nisibis
-		
-	}
-	832 = { # Ta'idu
-		
-		
-	}
-	833 = { # Pinaka
-		
-		
-		
-	}
-	834 = { # Satalka
-		
-		
-	}
-	835 = { # Hatra
-		
-		
-		
-		
-	}
-	836 = { # Samosata
-		
-		
-		
-		
-	}
-	837 = { # Tharsa
-		
-		
-		
-	}
-	838 = { #Tille
-		
-		
-		
-		
-	}
-	839 = { # Nymphaios
-		
-		
-		
-		
-	}
-	840 = { # Arsameia
-		
-		
-	}
-	843 = { # Cholmaron
-		fortress_building = 1
-		
-		
-		
-	}
-	844 = { # Antiochia Arabis
-		
-		
-		
-	}
-	
-	846 = {
-		fortress_building = 1
-	}
-	852 = { # Chaonia
-		
-		
-	}
-	855 = { # Siphrios
-		
-		
-	}
-	856 = { # Sardeoua
-		
-		
-		
-	}
-	858 = { # Aramosata
-		
-		
-		
-	}
-	860 = { # Anzitene
-		
-	}
-	861 = { # Apqu
-		
-		
-	}
-	862 = { # Nineveh
-		aqueduct_building = 1
-		
-		
-		
-		
-		
-		
-		
-	}
-	863 = { # Balad
-		
-		
-	}
-	867 = { # Shapur
-		
-	}
-	868 = { # Dhahir
-		
-	}
-	869 = { # Riskephas
-		
-		
-		
-	}
-	871 = { # Mard
-		fortress_building = 1
-		
-		
-	}
-	872 = { # Ammodios
-		
-		
-	}
-	873 = { # Hassu
-		
-	}
-	874 = {
-		fortress_building = 1
-	}
-	877 = { # Barsalium
-		
-	}
-	880 = { # Artela
-		aqueduct_building = 2
-	}
-	882 = { # Kalhu
-		
-		
-	}
-	883 = { # Ashur
-		
-		
-		
-		
-		
-	}
-	886 = { # Nuzi
-		
-	}
-	889 = { # Me-Turnat
-		
-	}
-	890 = { # Tell Gubba
-		
-		
-	}
-	892 = { # Dura
-		
-		
-	}
-	893 = { # Samarra
-		barracks_building = 1
-	}
-	896 = { # Artemita
-		barracks_building = 1
-		
-		
-		
-	}
-	897 = { # Daskara
-		
-		
-		
-	}
-	904 = { # Idu
-		
-		
-	}
-	911 = {
-		aqueduct_building = 2
-	}
-	915 = { # Cutha
-		barracks_building = 1
-	}
-	919 = { #Borsippa
-		
-		
-		
-		
-	}
-	922 = { # Aqola
-		
-		
-		
-	}
-	923 = { # Qadissiyya
-		
-		
-		
-	}
-	925 = { # Shemali
-		
-		
-		
-	}
-	972 = { barracks_building = 1 }
-	929 = { #Nippur
-		
-		
-		
-		
-	}
-	933 = { # Apameia
-		
-		
-		
-		
-		
-	}
-	934 = { # Kashkar
-		
-		
-		
-	}
-	935 = { # Girsu
-		
-	}
-	936 = { # Medain
-		
-		
-	}
-	937 = { #Uruk
-		barracks_building = 1
-		
-		
-		
-		
-	}
-	938 = { # Nina
-		
-	}
-	939 = { # Larsa
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	940 = { # Alexandria, Meshan
-		court_building = 1
-		town_hall_building = 1
-		commerce_building = 1
-		
-		
-		
-		
-		
-		
-	}
-	941 = { # Forat
-		barracks_building = 1
-		
-		
-		
-		
-		
-	}
-	942 = { barracks_building = 1 }
-	946 = { #Susa
-		
-		
-		
-		
-	}
-	947 = { # Shapur
-		
-		
-		
-	}
-	948 = { # Dezful
-		
-		
-		
-	}
-	954 = { # Haditha
-		
-		
-	}
-	955 = { # Sinn
-		
-	}
-	957 = { # Tell Mahuz
-		
-		
-	}
-	961 = { # Tell Bismaya
-		
-		
-		
-	}
-	962 = { # Tell Khay
-		
-		
-		
-	}
-	968 = { # Eridu
-		
-		
-		
-		
-	}
-	970 = { # Madhar
-		
-		
-	}
-	972 = { # Arac
-		
-	}
-	973 = { # Bakusaya
-		
-	}
-	975 = { # Cissia
-		
-		
-	}
-	979 = { # Mandali
-		
-		
-		
-	}
-	980 = { # Dashti
-		
-		
-	}
-	981 = { # Hulwan
-		aqueduct_building = 2
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	986 = { # Grai Darki
-		
-		
-	}
-	992 = { # Balales Pass
-		
-	}
-	997 = { # Kotorodz
-		
-		
-	}
-	1000 = { # Emporion
-		
-		
-		
-		
-	}
-	1001 = { # Rode
-		
-		
-		
-	}
-	1006 = { # Kallipolis Iberia
-		
-		
-		
-	}
-	1031 = { # Heremoskopeion
-		
-		
-		
-		
-		
-	}
-	1032 = { # Sikanion
-		
-		
-		
-	}
-	1036 = { #Mastia/Carthago Nova
-		town_hall_building = 2
-		modifier = { modifier = mastian_gold_range always = yes }
-		
-		
-	}
-	1209 = {
-		modifier = { modifier = lapis_specularis_segobriga always = yes }
-	}
-	1342 = { # Menesthei Limin
-		
-		
-		
-	}
-	1344 = {
-		modifier = { modifier = gades_garum always = yes }
-	}
-	1348 = { # Karta
-		
-		
-	}
-	1362 = {
-		
-		
-		
-	}
-	1501 = { # Naxouana
-		
-	}
-	1503 = { # Salamas
-		
-	}
-	1504 = { # Gazrik
-		
-		
-	}
-	1533 = { # Qara Zia Eddin tepe
-		
-	}
-	1532 = {
-		fortress_building = 1
-	}
-	1536 = {
-		fortress_building = 1
-	}
-	1538 = { # Sanora
-		
-		
-	}
-	1540 = { # Parakan
-		
-		
-	}
-	1541 = { # Oghlu Qal'eh
-		
-	}
-	1542 = { # Arxata
-		barracks_building = 1
-	}
-	1543 = { # Siah Qal'eh
-		
-		
-	}
-	1544 = { # Catispi
-		
-		
-	}
-	1545 = { # Barun Qal'eh
-		
-	}
-	1546 = { # Shawarshan
-		
-	}
-	1548 = { # Sangar Qal'eh
-		
-	}
-	1550 = {
-		basic_settlement_infratructure_building = 1
-	}
-	1551 = { # Hajestan Qal'eh
-		
-	}
-	1569 = { # Paracata
-		
-		
-	}
-	1570 = { # Armaouira (Capital of Armenia)
-		aqueduct_building = 2
-		town_hall_building = 2
-		commerce_building = 2
-	}
-	1571 = { # Artaxata
-		aqueduct_building = 2
-		town_hall_building = 2
-		commerce_building = 1
-		
-		
-		
-		
-	}
-	1572 = { # Doubios
-		town_hall_building = 3
-
-	}
-	1576 = { # Kainepolis Syracene
-		town_hall_building = 2
-	}
-	1577 = { # Motene
-		town_hall_building = 1
-		commerce_building = 1
-	}
-	1595 = { #Ecbatana
-		
-		
-		
-		
-	}
-	1596 = {
-		barracks_building = 1
-	}
-	1594 = { #Kangavar
-		barracks_building = 1
-		modifier = { modifier = nisean_horses always = yes }
-	}
-	1595 = { # Ecbatana/Ekvatana
-		aqueduct_building = 2
-	}
-	1579 = {
-		basic_settlement_infratructure_building = 1
-	}
-	1601 = {	
-		barracks_building = 1
-	}
-	1603 = { # Zagrou Pilai
-		
-	}
-	1606 = { # Berdatekh
-		
-	}
-	1607 = { # Idzhevan
-		
-	}
-	1609 = { # Kariglukh
-		
-	}
-	1611 = { # Sagajero
-
-	}
-	1623 = { # Arevik
-		
-		
-		
-	}
-	1638 = { # Warthan
-		
-		
-	}
-	1640 = { # Tigranakert
-		
-		
-	}
-	1644 = { # Paytakaran
-		
-	}
-	1647 = { # Salyan
-		
-	}
-	1654 = { # Mochi
-		
-	}
-	1668 = { # Vayots Dzor
-		
-	}
-	1669 = { # Chahuk
-		fortress_building = 1
-		
-	}
-	1670 = { # Partaw
-		
-		
-	}
-	1672 = { # Southeast Arran
-		
-		
-	}
-	1677 = { # Algeti
-		
-	}
-	1696 = { # Leukothea
-		
-	}
-	1697 = { # Akhaltsikhe
-		
-	}
-	1698 = { # Sinara
-		fortress_building = 1
-	}
-	1702 = { # Javakheti
-		
-	}
-	1720 = { # Phasis
-		
-		
-		
-		
-	}
-	1723 = { # Pichvnari
-		
-	}
-	1728 = { # Morthoula
-		
-	}
-	1731 = { # Ophis
-		
-		
-	}
-	1737 = { # Ziganne
-		
-		
-	}
-	1738 = { # Gyenos
-		
-	}
-	1741 = { # Dioskourias
-		
-	}
-	1744 = { # Karin
-
-	}
-	1754 = { # Artahan
-		
-	}
-	1755 = { # Colit
-		
-	}
-	1756 = { # Artanuji
-		
-	}
-	1758 = { # Pharangion
-		
-	}
-	1760 = { # Sinoria
-		
-	}
-	1761 = { # Charton
-		
-		
-	}
-	1763 = { # Darucinte
-		
-		
-	}
-	1767 = { # Eriza
-		
-	}
-	1769 = { # Salmalasso
-		
-	}
-	1770 = { # Satala
-		aqueduct_building = 1
-		
-	}
-	1771 = { # Domana
-		
-	}
-	1773 = { # Tzantzakon
-		
-	}
-	1775 = { # Magnana
-		
-	}
-	1776 = { # Arauraka
-		
-	}
-	1778 = { # Chorsabia
-		
-		
-	}
-	1779 = { # Olotoedariza
-		
-		
-		
-	}
-	1784 = { # Germanicopolis
-		
-		
-	}
-	1786 = { # Sauronisena
-		
-	}
-	1788 = { # Taulara
-		
-	}
-	1789 = { # Syderos
-		
-		
-		
-		
-	}
-	1792 = { # Kabeira
-		
-		
-		
-		
-	}
-	1793 = { # Polemonion
-		
-	}
-	1795 = { # Kotyora
-		
-	}
-	1796 = { # Eusebeia
-		
-		
-		
-		
-	}
-	1801 = { # Matuasco
-		
-	}
-	1804 = { # Boinasa
-		
-		
-		
-		
-	}
-	1806 = { # Themiskyra
-		
-	}
-	1807 = { #Amisos
-		
-		
-		
-	}
-	1808 = { # Eupatoria
-		
-		
-		
-	}
-	1812 = { #Sinope
-		
-		
-	}
-	1819 = { # Amaseia
-		aqueduct_building = 2
-	}
-	1821 = { # Thermai Phazemoniton
-		
-		
-		
-	}
-	1824 = { # Andrapa
-		
-		
-		
-		
-	}
-	1843 = { # Kamisa
-		
-	}
-	1844 = { # Sebasteia
-		
-		
-	}
-	1845 = { # Phiara
-		
-		
-		
-	}
-	1846 = { # Pedachthoe
-		
-		
-	}
-	1847 = { # Eudoixata
-		
-	}
-	1850 = { # Gundusa
-		
-	}
-	1852 = { # Siniskolon
-		
-		
-	}
-	1853 = { # Sartona
-		
-	}
-	1854 = { # Melitene
-		
-		
-		
-		
-	}
-	1859 = { # Arca
-		
-	}
-	1860 = { # Leugaisa
-		
-		
-	}
-	1861 = { # Zizoatra
-		
-	}
-	1863 = { # Nastae
-		
-	}
-	1865 = { # Miasena
-		
-		
-	}
-	1869 = { # Rhabaine
-		
-		
-	}
-	1872 = { # Cilician Gates
-		
-		
-		
-	}
-	1878 = { # Sipha
-		
-		
-		
-	}
-	1880 = { # Mopsouhestia
-		barracks_building = 1
-	}
-	1883 = { # Antiocheia Kyknou
-		
-		
-	}
-	1884 = { # Thebae
-		
-		
-		
-	}
-	1885 = { # Selge
-		
-		
-	}
-	1890 = { # Seleucia ad Calycadnum
-		
-		
-		
-	}
-	1891 = { # Karnalis
-		
-		
-		
-	}
-	1892 = { # Elaioussa
-		
-		
-		
-		
-	}
-	1893 = { # Ariaratheia
-		
-		
-	}
-	1894 = { # Olba
-		
-		
-		
-		
-	}
-	1895 = { # Ulnia
-		
-		
-	}
-	1896 = { # Ninica
-		
-		
-		
-	}
-	1897 = { # Gelenderis
-		barracks_building = 1
-	}
-	1898 = { # Gauraina
-		
-	}
-	1903 = { # Andros
-		
-		
-	}
-	1907 = { # Agranai
-		
-		
-		
-	}
-	1911 = { # Etenna
-		
-		
-		
-	}
-	1912 = { # Archalla
-		
-	}
-	1921 = { # Amblada
-		
-		
-	}
-	1930 = { # Apollonia
-		
-		
-	}
-	1933 = { # Seleucia Sidera
-		
-		
-		
-	}
-	1935 = { # Baris
-		
-	}
-	1936 = { # Apamea
-		
-		
-	}
-	1937 = { # Metropolis
-		
-		
-	}
-	1941 = { # Synnada
-		
-		
-	}
-	1942 = { # Fulvia
-		
-		
-	}
-	1943 = { # Anaua
-		
-		
-	}
-	1944 = { # Lounda
-		
-		
-	}
-	1945 = { # Kolossai
-		
-		
-	}
-	1946 = { # Hierapolis
-		
-		
-		
-		
-	}
-	1947 = { # Tripolis ad Maeandrum
-		
-		
-		
-	}
-	1948 = { # Laodikeia Lykou
-		
-		
-		
-	}
-	1952 = { # Aphrodisias
-		
-	}
-	1953 = { # Herakleia Salbake
-		
-		
-		
-	}
-	1956 = { # Tabai
-		
-	}
-	1957 = { # Kidrama
-		
-		
-	}
-	1958 = { # Cibyra
-		
-		
-	}
-	1959 = { # Salda
-		
-	}
-	1960 = { # Sinda
-		
-		
-		
-	}
-	1961 = { # Olbasa
-		
-		
-	}
-	1962 = { # Nysa
-		
-		
-		
-	}
-	1964 = { #Milos 
-		
-		
-	}
-	1970 = { #Kos
-		
-		
-	}
-	1979 = { # Baka
-		
-		
-		
-	}
-	1981 = { #Pergamon
-		
-		
-		
-		
-	}
-	1986 = { # Pogla
-		
-	}
-	1987 = { #Knidos
-		
-		
-	}
-	1988 = { # Cremna
-		
-	}
-	1990 = { # Oenoanda
-		
-	}
-	1997 = { # Lyrna
-		
-		
-	}
-	2260 = { # Agathe
-		
-		
-		
-	}
-	2325 = { # Massalia
-		
-		
-		
-		
-	}
-	3061 = { # Tinga
-		
-		
-		
-		
-		
-		
-	}
-	3062 = { # Lakish
-		
-		
-	}
-	3063 = { # Tamusida
-		
-	}
-	3066 = { # Frigidae
-		
-		
-	}
-	3068 = { # Shalat
-		
-		
-	}
-	3080 = { # Rusaddir
-		
-	}
-	3085 = { # Tamuda
-		
-		
-	}
-	3116 = { #Tipasa/Iol
-		
-		
-		
-		
-		
-	}
-	3144 = { # Muslubium
-		
-	}
-	3145 = { # Choba
-		
-		
-	}
-	3146 = { # Satafis
-		
-		
-	}
-	3150 = { # Igilgili
-		
-		
-	}
-	3160 = { # Tucca
-		
-	}
-	3161 = { # Chullu
-		
-	}
-	3163 = {
-		aqueduct_building = 1
-	}
-	3211 = { # Masclinae
-		
-	}
-	3212 = { # Aquae Regiae 
-		
-	}
-	3223 = { # Calama
-		
-		
-		
-		
-	}
-	3224 = { # Asuccuris
-		
-	}
-	3225 = { # Ubon
-		
-		
-	}
-	3226 = { # Culucitanis
-		
-		
-	}
-	3227 = { #Rusicade
-		
-		
-	}
-	3229 = { # Tuniza
-		
-		
-	}
-	3230 = { # Thabraca
-		
-		
-		
-		
-	}
-	3231 = { # Pagus Malarensium
-		
-	}
-	3233 = { # Bulla Regia
-		
-	}
-	3238 = { # Zama
-		
-	}
-	3239 = { # Uzappa
-		
-		
-		
-	}
-	3241 = { # Furnos Maius
-		
-		
-	}
-	3265 = { # Thimida Bure
-		
-		
-		
-	}
-	3267 = { # Numluli
-		
-		
-	}
-	3268 = { # Aunobaris
-		
-		
-		
-	}
-	3269 = { # Agbia
-		
-		
-	}
-	3271 = { # Thignica
-		
-		
-		
-	}
-	3272 = { # Muzuc
-		
-		
-	}
-	3279 = { # Vicus Augusti
-		
-		
-	}
-	3285 = { # Thaenae
-	}
-	3286 = { # Aeliae
-		
-		
-	}
-	3288 = { # Macomades Minores
-		
-		
-	}
-	3289 = { # Bennafa
-		
-		
-	}
-	3293 = { # Gigthis
-		
-		
-	}
-	3297 = { # Putea Pallene
-		
-	}
-	3298 = { # Zouchis
-		
-		
-	}
-	3299 = { # Pisida
-		
-	}
-	3300 = { # Locri
-		
-	}
-	3301 = { # Tsabratan
-		
-		
-	}
-	3303 = { # Oyat
-		
-		
-	}
-	3304 = { # Amarea
-		
-	}
-	3306 = { # Lapki
-		
-	}
-	3332 = { # Dysopon
-		
-		
-		
-	}
-	3333 = { # Euphranta
-		
-		
-	}
-	3335 = { # Aulazon
-		
-	}
-	3336 = { # Ad Palmam
-		
-		
-	}
-	3338 = { # Arae Philaenorum
-		
-		
-	}
-	3341 = { # Astrochonda
-		
-	}
-	3342 = { # Kainon
-		
-	}
-	3343 = { # Comicianum
-		
-	}
-	3344 = { # Serapeion
-		
-	}
-	3345 = { # Noetu
-		
-	}
-	3347 = { # Talliamunera
-		
-	}
-	3349 = { # Zau Taberna
-		
-	}
-	3359 = { # Balagrae
-		
-	}
-	3364 = { # Marandis
-		
-		
-	}
-	3368 = { # Batrachos
-		
-		
-	}
-	3428 = { # Kharanaq
-
-	}
-	3444 = {
-		aqueduct_building = 1
-	}
-	3446 = { # Yetaan
-		
-		
-		
-	}
-	3454 = { # Tusa
-		
-		
-	}
-	3481 = { #Sulcis
-		aqueduct_building = 2
-		town_hall_building = 1
-		court_building = 1
-	}
-	3483 = { #Nora
-		barracks_building = 1
-	}
-	3492 = { #Neapolis
-		
-	}
-	3493 = { #Tharos
-		
-		
-		
-		
-	}
-	3494 = { #Cornus
-		
-		
-		
-	
-	}
-	3504 = { #Olbia
-		
-		
-		
-		
-		
-		
-	}
-	3515 = { # Alalia
-		
-		
-		
-		
-	}
-	3517 = { # Tauroention
-		
-		
-		
-	}
-	3543 = { # Antipolis
-		
-		
-		
-	}
-	3547 = { # Savo
-		barracks_building = 1
-	}
-	3551 = { # Augusta Taurinorum
-		aqueduct_building = 1
-	}
-	3592 = { # Ferrara
-		aqueduct_building = 1
-	}
-	3810 = { # Embadina
-		aqueduct_building = 1
-	}
-
-	4037 = { # Kitharizon
-		
-	}
-	4300 = { # Pushkalavati
-		aqueduct_building = 3
-	}
-	4325 = {
-		basic_settlement_infratructure_building = 1
-	}
-	4355 = {
-		aqueduct_building = 1
-	}
-	4390 = { # Jalandhara
-		barracks_building = 1
-	}
-	4419 = { # Haridwar
-		barracks_building = 1
-	}
-	4473 = {
-		aqueduct_building = 2 
-	}
-	4479 = { # Dasapura
-		barracks_building = 1
-	}
-	4496 = { # Machhindrapur
-		barracks_building = 1
-	}
-	4498 = { # Dhammanahadika
-		barracks_building = 1
-	}
-	4562 = { #Hermonassa
-		
-		
-	}
-	4565 = { #Gorgippia
-		
-		
-	}
-	4615 = { # Dedan
-		
-		
-		
-	}
-	4616 = { # Ausara
-		
-	}
-	4619 = { # Apudia Vallis
-		
-	}
-	4621 = { # Harenae
-		
-	}
-	4624 = { # Aloure
-		
-	}
-	4645 = { # Emporion
-		
-	}
-	4648 = { # Saraka
-		
-	}
-	4656 = { # Dela
-		
-	}
-	4661 = { # Marimatha
-		
-	}
-	4681 = { # Raida
-		
-	}
-	4683 = { # Sirwa
-		
-	}
-	4687 = { # Qatabia
-		
-	}
-	4689 = { # Haraz
-		
-	}
-	4690 = { # Nashaq
-		
-	}
-	4716 = { # Tiamat
-		
-		
-	}
-	4717 = {
-
-	}
-	4719 = { # Coloera
-		
-	}
-	4720 = { # Eroe
-		
-	}
-	4976 = {
-		barracks_building = 1
-	}
-	4781 = { # Vehshapur
-		aqueduct_building = 3
-	}
-	4791 = { # Hormirzad
-		aqueduct_building = 2
-	}
-	4799 = {
-		court_building = 2
-		treasure_slots = { treasures = { 189 190 } }
-	}
-	4973 = { # Aspadana
-		aqueduct_building = 1
-	}
-	
-	4959 = { #Alexandria Carmana
-		modifier = { modifier = alexandria always = yes }
-		aqueduct_building = 2
-		
-		
-		
-		
-	}
-	4965 = { # Makash
-		barracks_building = 1
-	}
-	4966 = { # Shapur Khwast
-		
-	}
-	4967 = { # Kard
-		
-		
-	}
-	4985 = { # Kyropolis
-		aqueduct_building = 2
-	}
-	4991 = { # Rhagai
-		aqueduct_building = 2
-	}
-	4992 = {
-		barracks_building = 1
-	}
-	4994 = { # Semnon
-		barracks_building = 1
-	}
-
-
-
-	5390 = { # Acasta
-		
-		
-	}
-	5391 = { # Kalana
-		basic_settlement_infratructure_building = 1
-	}
-	5394 = { # Khiva
-		
-	}
-	5397 = { # Shenia
-		
-		
-	}
-	5422 = { # Tenetis
-		
-		
-		
-	}
-	5618 = { # Lhasa
-		aqueduct_building = 2
-	}
-
-	6301 = { # Rutubis
-		
-	}
-	6420 = { # Eulepa
-		barracks_building = 1
-	}
-	6478 = { # Amar
-		
-	}
-	6490 = { # Safim
-		
-	}
-	6540 = { # Cottabura
-
-	}
-	6560 = { #Zranka
-		barracks_building = 1
-		
-		
-		
-		
-	}
-	6629 = { # Curianda
-		
-		
-		
-		
-	}
-	6630 = { # Zaviaspa
-		
-		
-		
-		
-	}
-	6634 = { # Aspionia
-		
-		
-		
-		
-		
-		
-	}
-	6635 = { # Tambyzia
-		
-		
-	}
-	6636 = { # Tambyziana
-		
-		
-		
-		
-		
-	}
-	6637 = {
-		aqueduct_building = 2
-		modifier = { modifier = alexandria always = yes }
-	}
-	6645 = {
-		aqueduct_building = 3
-	}
-	6648 = { # Drapsaca
-		fortress_building = 1
-		
-		
-		
-		
-	}
-	6649 = { # Battak
-		
-		
-		
-	}
-	6651 = { # Kalak
-		
-		
-		
-		
-	}
-	6654 = { # Khilif
-		
-		
-		
-		
-		
-	}
-	6655 = { # Kumsar
-		
-		
-		
-		
-		
-	}
-	6656 = { # Asaak
-		
-		
-		
-	}
-	6661 = { # Dara
-		
-		
-		
-	}
-	6662 = { # Abivard
-		
-	}
-	6664 = { # Serakhis
-
-	}
-	6669 = { # Tapuria
-		
-		
-		
-	}
-	6671 = { # Antentia
-		
-		
-	}
-	6672 = { # Garuli
-		
-		
-		
-		
-		
-	}
-	6673 = { # Zeshoi
-			
-		
-		
-		
-	}
-	6674 = { # Emshi
-		barracks_building = 1
-		
-		
-		
-		
-		
-	}
-	6675 = { # Ankui
-		
-		
-		
-		
-	}
-	6676 = { # Ihnum
-		
-		
-	}
-	6677 = { # Denai
-		
-		
-		
-		
-	}
-	6679 = { # Rustam
-		
-		
-		
-		
-		
-		
-	}
-	6680 = { # Qush
-		
-		
-		
-	}
-	6682 = { # Marakanda
-		aqueduct_building = 2
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	6683 = { # Erbend
-		
-		
-	}
-	6684 = { # Haroba
-		
-		
-	}
-	6685 = { # Alan
-		
-		
-	}
-	6686 = { # Alexandreia Tarmita
-		modifier = { modifier = alexandria always = yes }
-		
-		
-		
-		
-		
-		
-	}
-	6587 = {
-
-	}
-	6688 = { # Alexandria Oxiana
-		modifier = { modifier = alexandria always = yes }
-		
-		
-		
-	}
-	6691 = { # Aruktau
-		
-		
-		
-		
-		
-	}
-	6692 = { # Kulm
-		
-		
-		
-	}
-	6693 = { # Aornos
-		
-		
-		
-	}
-	6695 = { # Cholbisana
-		
-		
-		
-		
-		
-	}
-	6696 = { # Kokul
-		
-		
-		
-		
-		
-	}
-	6697 = { # Kafir
-		
-		
-		
-		
-		
-		
-		
-		
-		aqueduct_building = 2
-	}
-	6698 = { # Ikroni
-		
-		
-	}
-	6699 = { # Terkul
-		
-		
-	}
-	6701 = { # Dushan
-		
-		
-	}
-	6703 = { # Cyropolis
-		
-		
-		
-		
-		
-		
-	}
-	6705 = { # Matuaspa
-		
-		
-	}
-	6706 = { # Nautaka
-		
-		
-		
-		
-	}
-	6708 = { # Chadracarta
-		
-		
-	}
-	6709 = { # Rapete
-		
-		
-	}
-	6711 = { # Charva
-		
-		
-		
-	}
-	6712 = { # Kattakurgan
-		
-		
-	}
-	6716 = { # Jurma
-		
-		
-	}
-	6719 = { # Baisun
-		fortress_building = 1
-		
-		
-		
-		
-		
-	}
-	6720 = { # Bascata
-		
-		
-	}
-	6722 = { # Imarash
-		
-		
-		
-	}
-	6723 = { # Dushak
-		
-	}
-	6724 = { # Teyen
-		
-		
-		
-	}
-	6725 = { # Akhur
-		
-		
-		
-		
-	}
-	6727 = { # Shikh
-		
-		
-		
-	}
-	6728 = { # Kilaleh
-		
-		
-	}
-	6729 = { # Dasht
-		
-		
-		
-	}
-	6730 = { # Khavakand
-		
-		
-		
-		
-	}
-	6731 = { # Massargetia
-		
-		
-		
-		
-		
-	}
-	6732 = { # Makhram
-		
-		
-		
-		
-		
-		
-		
-	}
-	6733 = { # Istarava
-		
-		
-	}
-	6737 = { # Andijan
-		aqueduct_building = 2
-	}
-	6739 = { # Akhsiket
-		
-		
-		
-		
-		
-	}
-	6744 = { # Kashgar
-		aqueduct_building = 3
-	}
-	6759 = { # Samti
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	6768 = { # Kokcha
-		
-	}
-	6776 = { # Dihistan
-		
-		
-		
-	}
-	6840 = { # Maltecoria 
-		aqueduct_building = 1
-	}
-	6857 = {
-		aqueduct_building = 3
-	}
-	6858 = { # Minnagara
-
-	}
-	6862 = { # Nousaripa
-		barracks_building = 1
-		
-		
-	}
-	6864 = { # Polipoula
-		
-		
-		
-	}
-	6865 = { # Paunar
-		barracks_building = 1
-		
-		
-		
-		
-	}
-	6866 = { # Nanaghat
-		
-		
-	}
-	6867 = { # Kalyana
-		
-		
-		
-	}
-	6868 = { # Surparaka
-		
-		
-		
-	}
-	6869 = { # Govardhana
-		
-		
-		
-	}
-	6884 = { # Chersonesos
-		
-		
-		
-		
-		
-	}
-	6885 = { # Nouira
-		
-		
-		
-	}
-	6887 = { # Pira
-		
-		
-		
-		
-	}
-	6893 = { # Tyndis
-		
-		
-		
-		
-	}
-	6894 = { # Koreoura
-		
-		
-		
-		
-		
-	}
-	6906 = { # Eyyal
-		
-		
-	}
-	6907 = { # Podoperoura
-		
-		
-		
-	}
-	6908 = { # Paloura
-		
-		
-		
-	}
-	6910 = { # Tandi
-		
-		
-	}
-	6917 = { # Matendra
-		
-		
-	}
-	6921 = { # Perinkari
-		
-		
-		
-		
-	}
-	6924 = { # Karukka 
-		
-		
-		
-		
-	}
-	6925 = { # Akour
-		
-		
-		
-	}
-	6926 = { # Bata
-		
-		
-		
-	}
-	6927 = { # Urayur
-		
-		
-		
-		
-		
-	}
-	6928 = { # Thanjavur
-		
-		
-		
-		
-		
-		
-	}
-	6930 = { # Karafur
-		
-		
-		
-	}
-	6932 = { # Koroula
-		barracks_building = 1
-	}
-	6935 = { # Chaberis
-		barracks_building = 1
-	}
-	6937 = { # Tennagora
-		
-		
-		
-		
-		
-		
-	}
-	6938 = { # Karur
-		
-		
-	}
-	6939 = { # Chavadi
-		
-		
-		
-		
-	}
-	6940 = { # Korelloura
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	6943 = { # Kathan
-		
-		
-		
-		
-		
-	}
-	6944 = { # Vellalore
-		
-		
-		
-		
-		
-	}
-	6945 = { # Kilandha
-		
-		
-		
-		
-		
-	}
-	6946 = { # Kavera
-		
-		
-		
-		
-		
-		
-	}
-	6947 = { # Modoura
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	6948 = { # Codasi
-		
-		
-		
-		
-		
-		
-	}
-	6949 = { # Kongu
-		
-		
-		
-		
-		
-	}
-	6950 = { # Anuradhapura
-		
-	}
-	6951 = { # Odoka
-		
-		
-		
-	}
-	6952 = { # Dagana
-		
-		
-	}
-	6954 = { # Qom
-		aqueduct_building = 1
-	}
-	6965 = { # Oulippada
-		
-	}
-	6966 = { # Rohanada
-		
-	}
-	6967 = { # Gokanna
-		
-		
-		
-	}
-	6969 = { # Jambukola Pattana
-		
-		
-		
-		
-	}
-	6970 = { # Vijitanagara
-		
-	}
-	6977 = { # Dighavapi
-		
-		
-	}
-	6980 = { # Salikhaprava
-		
-	}
-	6981 = { # Litta
-		
-		
-	}
-	6982 = { # Nabartha
-		
-		
-		
-	}
-	6991 = { # Karoura
-		
-		
-		
-	}
-
-
-
-	7015 = { # Vanavasi
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	7019 = { # Andhapura
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	7023 = { # Srnguri
-		
-		
-		
-	}
-	7030 = { # Mahisha
-		aqueduct_building = 1
-	}
-	7039 = { # Kantakossyla
-		
-		
-		
-	}
-	7040 = { # Mosali
-		aqueduct_building = 2
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	7041 = { # Kottobora
-		
-		
-		
-		
-		
-	}
-	7042 = { # Pitoura
-		
-		
-		
-	}
-	7043 = { # Mallayapalam
-		
-		
-		
-		
-	}
-	7044 = { # Nanagaina
-		
-		
-	}
-	7045 = { # Alluru
-		
-		
-		
-	}
-	7049 = { # Naconda
-		
-		
-		
-	}
-	7054 = { # Guntupalli
-		
-		
-		
-		
-	}
-	7055 = { # Pravarapura
-		
-		
-		
-		
-		
-		
-	}
-	7056 = { # Gummididurru
-		
-		
-		
-	}
-	7057 = { # Nagarjunikonda
-		aqueduct_building = 1
-		
-		
-		
-		
-		
-		
-	}
-	7058 = { # Kondapuram
-		
-		
-		
-	}
-	7062 = { # Nevasa		
-	}
-	7063 = { # Atathana
-		
-		
-	}
-	7065 = { # Ajanta
-		
-		
-		
-		
-		
-	}
-	7074 = { # Pattithana
-		aqueduct_building = 3
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	7076 = { # Bhaddavati
-		aqueduct_building = 2
-	}
-	7082 = { # Samapa
-		aqueduct_building = 2
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	7085 = { # Jaugada
-		
-		
-		
-		
-		
-		
-	}
-	7086 = { # Tosali
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	7100 = { # Mahdnada
-		
-		
-		
-		
-	}
-	7102 = { # Gurala
-		
-		
-		
-		
-	}
-	7105 = { # Siddhatek
-		
-		
-		
-		
-	}
-	7122 = { # Jagdalpur
-		aqueduct_building = 1
-	}
-	7127 = { # Trinagua
-		
-		
-		
-		
-		
-	}
-	7128 = { # Shegaon
-		
-		
-	}
-	7146 = { # Asmakhala
-		
-		
-		
-	}
-	7149 = { # Orugallu
-		
-		
-		
-	}
-	7159 = { # Devagiri
-		aqueduct_building = 1
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	7161 = { # Darur
-		
-		
-		
-		
-	}
-	7164 = { # Visakpura
-		
-		
-		
-	}
-	7170 = { # Magaris
-		
-		
-		
-		
-	}
-	7171 = { # Bhuvanesvara
-		
-		
-		
-		
-	}
-	7173 = { # Caritra
-		
-		
-		
-		
-		
-	}
-	7174 = { # Jajatipura
-		
-		
-		
-	}
-	7179 = { # Utkalava
-		
-		
-		
-		
-	}
-	7184 = { # Kuche
-		aqueduct_building = 2
-	}
-	7199 = { # Gerrha (Capital of Gerrha)
-		aqueduct_building = 1
-	}
-	7226 = { # Kaahka
-		
-	}
-	7227 = { # Kerki
-		
-	}
-	7228 = { # Dilberjin
-		
-	}
-	7231 = { # Burguchi
-		
-	}
-	7234 = { # Dabil
-		
-	}
-	7236 = { # Dilyar
-		
-	}
-	7238 = { # Maidan
-		
-	}
-	7245 = { # Chinaz
-		
-	}
-	7274 = { # Qalai
-		
-	}
-	7275 = { # Shahr
-		
-	}
-	7300 = { # Ayanakagraha
-		aqueduct_building = 4
-	}
-	7303 = { # Airakina
-		aqueduct_building = 2
-	}
-	7314 = {
-		aqueduct_building = 3
-	}
-	7327 = { # Karnasuvarna
-		aqueduct_building = 2
-	}
-	7345 = {
-		aqueduct_building = 2
-	}
-	7372 = { # Kusavati
-		barracks_building = 1
-	}
-	7378 = { # Lakhimpur
-		basic_settlement_infratructure_building = 1
-	}
-	7385 = {
-		aqueduct_building = 2
-	}
-	7403 = { # Govishana
-		basic_settlement_infratructure_building = 1
-	}
-	7405 = { # Pilibhit
-		basic_settlement_infratructure_building = 1
-	}
-	7426 = {
-		aqueduct_building = 2
-	}
-	7503 = { # Adouli
-		
-		
-			
-	}
-	7506 = { # Aksum
-		
-		
-		
-		
-		
-		
-	}
-	7515 = { # Aziris
-		
-	}
-	7519 = { # Punte
-		
-		
-		
-		
-		
-		
-		
-	}
-	7520 = { # Tanetjer
-		
-		
-		
-		
-	}
-	7521 = { # Atule
-		
-		
-	}
-	7534 = { # Dacca
-		
-		
-	}
-	7602 = { # Endzhara
-		
-	}
-	7657 = {
-		aqueduct_building = 2
-	}
-
-	7845 = { # Tordan
-		fortress_building = 1
-	}
-	
-	#Special Places:
-	
-	#Alexandrias (ie greek Settlements founded by Alexander, small civilization boost.
-	516 = { #By the Nile
-		modifier = { modifier = alexandria always = yes }
-		library_building = 2
-		commerce_building = 3
-		academy_building = 2
-	}
-	940 = { #In Mesopotamia
-		modifier = { modifier = alexandria always = yes }
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	1974 = { #Samos
-		
-		
-		
-	}
-	3672 = {
-		modifier = { modifier = noric_steel always = yes }
-	}
-	4131 = {
-		modifier = { modifier = noric_steel always = yes }
-	}
-	4316 = { # Boukephalia
-		modifier = { modifier = alexandria always = yes }
-	}
-	4322 = { # Alexandreia Nikaia
-		modifier = { modifier = alexandria always = yes }
-	}
-	4371 = { #By the Indus
-		modifier = { modifier = alexandria always = yes }
-		
-		
-		
-		
-	}
-	4372 = { # Alexandria Sogdiana
-		modifier = { modifier = alexandria always = yes }
-	}
-	5550 = { # Alexandrou Parembole
-		modifier = { modifier = alexandria always = yes }
-	}
-	6620 = { # Alexandria Rhambacia
-		modifier = { modifier = alexandria always = yes }
-	}
-	6518 = { # Alexandreia Prophtasia
-		modifier = { modifier = alexandria always = yes }
-	}
-	6552 = { #Sacastene
-		modifier = { modifier = alexandria always = yes }
-	}
-	6558 = { #Alexandreia Areiois
-		modifier = { modifier = alexandria always = yes }
-	}
-	6541 = { #Arachosia
-		modifier = { modifier = alexandria always = yes }
-		aqueduct_building = 1
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	6668 = { #In Persia
-		modifier = { modifier = alexandria always = yes }
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	6704 = { #Eschate
-		modifier = { modifier = alexandria always = yes }
-		aqueduct_building = 1
-		
-		
-		
-		
-		
-	}
-	6878 = {
-		aqueduct_building = 1
-	}
-	6895 = {
-		aqueduct_building = 2 
-	}
-	7015 = {
-		aqueduct_building = 2
-	}
-	7120 = {
-		aqueduct_building = 1
-	}
-	7135 = {
-		aqueduct_building = 1
-	}
-	7138 = {
-		aqueduct_building = 3 
-	}
-	7307 = {
-		aqueduct_building = 2 
-	}
-	7484 = { # Bhawaniganj
-		barracks_building = 1
-	}
-	7485 = { # Alexandria Hypasis
-		modifier = { modifier = alexandria always = yes }
-	}
-	7519 = {
-		aqueduct_building = 1
-	}
-	7842 = {
-		
-		
-		
-		
-		
-	}
-	7843 = {
-		
-		
-	}
-	#Gardens of Babylon
-	918 = {
-		modifier = { modifier = gardens_of_babylon always = yes }
-		aqueduct_building = 1
-		
-		
-		
-		
-		
-		
-		
-		
-	}
-	
-	#Pyramids of Giza
-	500 = {
-		modifier = { modifier = pyramid_complex always = yes }
-	}
-	
-	
-	#Anu Temple of Uruk
-	937 = {
-		modifier = { modifier = anu_temple always = yes }
-	}
-	#
-	290 = { #Ephesos
-		temple_building = 2
-		modifier = { modifier = artemis_temple always = yes }
-	}
-	1981 = { #Halicarnassus
-		temple_building = 2
-		modifier = { modifier = mausoleum_of_mausolos always = yes }
-	}
-	
-	#Bosporus
-	1453 = {
-		modifier = { modifier = bosporus always = yes }
-	}
-	240 = {
-		modifier = { modifier = bosporus always = yes }
-	}
-	241 = {
-		modifier = { modifier = bosporus always = yes }
-	}
-	
-	#Hellespont
-	349 = {
-		modifier = { modifier = hellespont always = yes }
-	}
-	261 = {
-		modifier = { modifier = hellespont always = yes }
-	}
-	
-	#Pillars of Hercules
-	1347 = {
-		modifier = { modifier = pillars_of_hercules always = yes }
-	}
-	3061 = {
-		modifier = { modifier = pillars_of_hercules always = yes }
-	}
-	
-	439 = { #Olympia
-		modifier = { modifier = olympic_games_modifier always = yes }
-		modifier = { modifier = zeus_temple_at_olympia always = yes }
-	}
-	
-	########################################
-	# Barbarian Spawn Spots
-	########################################
-	
-	#Egypt & Surroundings
-	
-	
-	5294 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5293 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5321 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5334 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5333 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5337 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5338 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5341 = {
-		modifier = { modifier = major_barbarian_spawn_place }
-	}
-	5352 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5355 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5366 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5367 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5947 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5948 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5989 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5991 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5992 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5993 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5994 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5995 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5157 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	
-	#Mauretania
-	5984 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5985 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5986 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5987 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	
-	#Germany
-	5023 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5029 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5031 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5141 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5114 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5145 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5047 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5068 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5076 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5079 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5085 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5103 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5110 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5136 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5298 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5283 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5284 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5381 = {
-		modifier = { modifier = minor_barbarian_spawn_place }
-	}
-	#Iberia
-	5184 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	
-	
-	5093 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	
-	#East
-	5217 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5263 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5232 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5233 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5237 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5247 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5274 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5226 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6046 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5290 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5291 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5296 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5300 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5301 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7558 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6045 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7573 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6049 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5208 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5224 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5252 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5303 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5934 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6064 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	
-	#India
-	5248 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5249 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5270 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5277 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5280 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5305 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5308 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5313 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5314 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5315 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5359 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5378 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5962 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	5958 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6057 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6058 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6059 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	3316 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7291 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6050 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6051 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6052 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6053 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6054 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6055 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	6056 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7051 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7021 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7357 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7299 = {
-		modifier = { modifier = major_barbarian_spawn_place }
-	}
-	7640 = {
-		modifier = { modifier = major_barbarian_spawn_place }
-	}
-	7641 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7642 = {
-		modifier = { modifier = major_barbarian_spawn_place }
-	}
-	7643 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	7644 = {
-		modifier = { modifier = generic_barbarian_spawn_place }
-	}
-	
-}
-
 road_network = {
 	1 = 15		#Roma - Ostia
 	#Via Appia:
@@ -6592,6 +1734,659 @@ road_network = {
 	508 = 510
 }		
 
+provinces = {
+
+	### BUILDINGS
+	1 = { #Rome
+		commerce_building = 1
+		military_building = 2
+	}
+	2 = {
+		military_building = 2
+	}
+	3 = {
+		military_building = 2
+	}
+	4 = {
+		barracks_building = 1
+	}
+	6 = {
+		military_building = 2
+	}
+	7 = {
+		military_building = 2
+	}
+	14 = { # Pyrgi
+		barracks_building = 1
+	}
+	25 = { #Norba
+		basic_settlement_infratructure_building = 1
+	}
+	26 = { # Fregellae
+		barracks_building = 1
+	}
+
+	943 = { barracks_building = 1 }
+
+	6678 = { #Bactra
+		commerce_building = 1
+		aqueduct_building = 3
+	}
+	
+	6688 = {
+		aqueduct_building = 3
+	}
+	
+	6694 = {	 #Citadel of Ay Khanum
+		aqueduct_building = 1
+		commerce_building = 1
+	}
+	
+	6611 = {	 #Indo Greek Capital
+		aqueduct_building = 2
+		modifier = { modifier = alexandria always = yes }
+	}
+	
+	6615 = { # Alexandreia Opiane
+		modifier = { modifier = alexandria always = yes }
+	}
+
+	6821 = {
+		modifier = { modifier = alexandria always = yes }
+		
+	}
+	7202 = {
+		commerce_building = 1
+	}
+
+	16 = {
+		military_building = 1
+	} #Veii
+	
+	407 = { #Chalchis
+		modifier = { modifier = chalkis_province_modifier always = yes }
+	}
+	416 = { #Athens
+		
+		modifier = { modifier = academy_of_athens always = yes }
+	}
+	
+	55 = { #metapontum
+		 
+		modifier = { modifier = pythagoras_tomb_modifier always = yes }
+	}
+	
+	146 = { # Bononia
+		aqueduct_building = 1
+	}
+
+	
+	3256 = { #carthago
+		commerce_building = 3
+		town_hall_building = 1
+		aqueduct_building = 2
+	}
+	
+	4787 = {
+		barracks_building = 1
+	}
+	829 = { #Dara
+		fortress_building = 2
+	}
+	872 = {
+		fortress_building = 1
+	}
+	841 = {
+		fortress_building = 1
+	}
+	1759 = {
+		fortress_building = 1
+	}
+	1782 = {
+		fortress_building = 1
+	}
+	790 = {
+		fortress_building = 1
+	}
+	750 = {
+		fortress_building = 1
+	}
+	687 = {
+		fortress_building = 1
+	}
+	500 = {
+		fortress_building = 1
+	}
+	516 = {
+		fortress_building = 1
+		commerce_building = 2
+	}
+	3352 = {
+		fortress_building = 1
+	}
+	2213 = {
+		fortress_building = 1
+	}
+	4248 = {
+		fortress_building = 1
+	}
+	4245 = {
+		fortress_building = 1
+	}
+	4235 = {
+		fortress_building = 1
+	}
+	4219 = {
+		fortress_building = 1
+	}
+	4206 = {
+		fortress_building = 1
+	}
+	4095 = {
+		fortress_building = 1
+	}
+	373 = {
+		fortress_building = 1
+	}
+	417 = {
+		fortress_building = 1
+	}
+	1453 = {
+		fortress_building = 2
+		commerce_building = 3
+		town_hall_building = 1
+		aqueduct_building = 2
+	}
+	912 = {
+		fortress_building = 1
+		commerce_building = 1
+		town_hall_building = 1
+		aqueduct_building = 1
+	}
+	3278 = {
+		fortress_building = 1
+	}
+	3256 = {
+		fortress_building = 1
+	}
+	3211 = {
+		fortress_building = 1
+	}
+	3215 = {
+		fortress_building = 1
+	}
+	3180 = {
+		fortress_building = 1
+	}
+	3144 = {
+		fortress_building = 1
+	}
+	3607 = {
+		fortress_building = 1
+	}
+	3659 = {
+		fortress_building = 1
+	}
+	3618 = {
+		fortress_building = 1
+	}
+	3611 = {
+		fortress_building = 1
+	}
+	3535 = {
+		fortress_building = 1
+	}
+	3530 = {
+		fortress_building = 1
+	}
+	3543 = {
+		fortress_building = 1
+	}
+	3549 = {
+		fortress_building = 1
+	}
+	142 = {
+		fortress_building = 1
+	}
+	154 = {
+		fortress_building = 1
+	}
+	123 = {
+		fortress_building = 1
+	}
+	1 = {
+		fortress_building = 1
+	}
+	106 = {
+		fortress_building = 1
+	}
+	7 = {
+		fortress_building = 1
+	}
+	71 = {
+		fortress_building = 1
+	}
+	80 = {
+		fortress_building = 1
+	}
+	84 = {
+		fortress_building = 1
+	}
+	94 = {
+		fortress_building = 1
+	}
+	3484 = {
+		fortress_building = 1
+	}
+	3501 = {
+		fortress_building = 1
+	}
+	3515 = {
+		fortress_building = 1
+	}
+	4278 = {
+		fortress_building = 1
+	}
+	4819 = {
+		fortress_building = 1
+	}
+	4812 = {
+		fortress_building = 1
+	}
+	4804 = {
+		fortress_building = 1
+	}
+	4294 = {
+		fortress_building = 1
+	}
+	4503 = {
+		fortress_building = 1
+	}
+	4262 = {
+		fortress_building = 1
+	}
+	4833 = {
+		fortress_building = 1
+	}
+	4848 = {
+		fortress_building = 1
+	}
+	4877 = {
+		fortress_building = 1
+	}
+	4873 = {
+		fortress_building = 1
+	}
+	3757 = {
+		fortress_building = 1
+	}
+	3818 = {
+		fortress_building = 1
+	}
+	3930 = {
+		fortress_building = 1
+	}
+	3916 = {
+		fortress_building = 1
+	}
+	4882 = {
+		fortress_building = 1
+	}
+	4919 = {
+		fortress_building = 1
+	}
+	4928 = {
+		fortress_building = 1
+	}
+	4914 = {
+		fortress_building = 1
+	}
+	4545 = {
+		fortress_building = 1
+	}
+	1347 = {
+		fortress_building = 1
+	}
+	3113 = {
+		fortress_building = 1
+	}
+	3123 = {
+		fortress_building = 1
+	}
+	3172 = {
+		fortress_building = 1
+	}
+	3077 = {
+		fortress_building = 1
+	}
+	6477 = {
+		fortress_building = 1
+	}
+	3067 = {
+		fortress_building = 1
+	}
+	1349 = {
+		fortress_building = 1
+	}
+	1284 = {
+		fortress_building = 1
+	}
+	1039 = {
+		fortress_building = 1
+	}
+	1256 = {
+		fortress_building = 1
+	}
+	1412 = {
+		fortress_building = 1
+	}
+	1323 = {
+		fortress_building = 1
+	}
+	1306 = {
+		fortress_building = 1
+	}
+	1176 = {
+		fortress_building = 1
+	}	
+	1218 = {
+		fortress_building = 1
+	}
+	1241 = {
+		fortress_building = 1
+	}
+	1058 = {
+		fortress_building = 1
+	}
+	2312 = {
+		fortress_building = 1
+	}
+	2274 = {
+		fortress_building = 1
+	}
+	1081 = {
+		fortress_building = 1
+	}
+	1101 = {
+		fortress_building = 1
+	}
+	1110 = {
+		fortress_building = 1
+	}
+	1126 = {
+		fortress_building = 1
+	}	
+	1170 = {
+		fortress_building = 1
+	}
+	1167 = {
+		fortress_building = 1
+	}
+	1290 = {
+		fortress_building = 1
+	}
+	1296 = {
+		fortress_building = 1
+	}
+	
+	3526 = {
+		fortress_building = 1
+	}
+	3609 = {
+		fortress_building = 1
+	}
+	2363 = {
+		fortress_building = 1
+	}
+	2284 = {
+		fortress_building = 1
+	}
+	2338 = {
+		fortress_building = 1
+	}
+	2291 = {
+		fortress_building = 1
+	}
+	2283 = {
+		fortress_building = 1
+	}
+	2347 = {
+		fortress_building = 1
+	}	
+	2486 = {
+		fortress_building = 1
+	}
+	2398 = {
+		fortress_building = 1
+	}
+	2156 = {
+		fortress_building = 1
+	}
+	3035 = {
+		fortress_building = 1
+	}
+	3006 = {
+		fortress_building = 1
+	}
+	2454 = {
+		fortress_building = 1
+	}
+	3733 = {
+		fortress_building = 1
+	}
+	3788 = {
+		fortress_building = 1
+	}
+	3851 = {
+		fortress_building = 1
+	}
+	3795 = {
+		fortress_building = 1
+	}
+	3852 = {
+		fortress_building = 1
+	}
+	3965 = {
+		fortress_building = 1
+	}	
+	3964 = {
+		fortress_building = 1
+	}
+	3837 = {
+		fortress_building = 1
+	}
+	3860 = {
+		fortress_building = 1
+	}
+	3869 = {
+		fortress_building = 1
+	}
+
+	3980 = {
+		fortress_building = 1
+	}
+	4015 = {
+		fortress_building = 1
+	}
+	4947 = {
+		fortress_building = 1
+	}
+	6244 = {
+		fortress_building = 1
+	}
+	6087 = {
+		fortress_building = 1
+	}
+	6142 = {
+		fortress_building = 1
+	}
+	4533 = {
+		fortress_building = 1
+	}
+	6155 = {
+		fortress_building = 1
+	}	
+	1711 = {
+		fortress_building = 1
+	}
+	1749 = {
+		fortress_building = 1
+	}
+	1676 = {
+		fortress_building = 1
+	}
+	1643 = {
+		fortress_building = 1
+	}
+
+	5869 = {
+		fortress_building = 1
+	}
+	7606 = {
+		fortress_building = 1
+	}
+	4563 = {
+		fortress_building = 1
+	}	
+	600 = {
+		fortress_building = 1
+	}
+	954 = {
+		fortress_building = 1
+	}
+	868 = {
+		fortress_building = 1
+	}
+	846 = {
+		fortress_building = 1
+	}
+	1751 = {
+		fortress_building = 1
+	}
+	1756 = {
+		fortress_building = 1
+	}
+	1579 = {
+		fortress_building = 1
+	}
+	1571 = {
+		fortress_building = 1
+	}
+	1617 = {
+		fortress_building = 1
+	}
+	1630 = {
+		fortress_building = 1
+	}
+	918 = {
+		fortress_building = 1
+	}
+	928 = {
+		fortress_building = 1
+	}
+	1603 = {
+		fortress_building = 1
+	}	
+	1555 = {
+		fortress_building = 1
+	}
+	4987 = {
+		fortress_building = 1
+	}
+	4998 = {
+		fortress_building = 1
+	}
+	3438 = {
+		fortress_building = 1
+	}
+
+	6656 = {
+		fortress_building = 1
+	}
+	6663 = {
+		fortress_building = 1
+	}
+	6631 = {
+		fortress_building = 1
+	}
+	6632 = {
+		fortress_building = 1
+	}
+	6620 = {
+		fortress_building = 1
+	}
+	6572 = {
+		fortress_building = 1
+	}
+	7199 = {
+		fortress_building = 1
+	}
+	7210 = {
+		fortress_building = 1
+	}
+	5421 = {
+		fortress_building = 1
+	}
+	726 = {
+		fortress_building = 1
+	}
+	4609 = {
+		fortress_building = 1
+	}
+	4626 = {
+		fortress_building = 1
+	}
+	4624 = {
+		fortress_building = 1
+	}
+	7575 = {
+		fortress_building = 1
+	}
+	7601 = {
+		fortress_building = 1
+	}
+	4699 = {
+		fortress_building = 1
+	}
+	4647 = {
+		fortress_building = 1
+	}
+	4705 = {
+		fortress_building = 1
+	}
+	4685 = {
+		fortress_building = 1
+	}
+	7518 = {
+		fortress_building = 1
+	}
+	7504 = {
+		fortress_building = 1
+	}
+}
+	
+diplomacy = {
+
+	dependency = { first = ERE second = LAZ subject_type = feudatory }
+	alliance = { first = ERE second = IBR }
+	alliance = { first = UTI second = GTH }
+	dependency = { first = PER second = ALB subject_type = feudatory }
+	dependency = { first = OGO second = BAV subject_type = tributary }
+
+	defensive_league = {
+		member = SKN
+		member = SLA
+		member = CRO
+		member = RAS
+	}
+
+	defensive_league = {
+		member = BAS
+		member = SUE
+	}
+
+}
+	
 #Country Files
 country = {
 	countries = {
@@ -6786,6 +2581,7 @@ country = {
 				7668 7689 7690 7688 7691 6431 6433 6420
 				7799 7802 7798 7803 7760 7765 #Extra
 				7889 7892 7891 7903 7897 7898 7904 7901 7899 7896 7902
+				828 829 908 #Dara
 			}
 			
 		}
@@ -6810,7 +2606,7 @@ country = {
 				6561 6552 6570 6551 6550 6569 6549 6594 6595 6546 #pactya
 				900 902 903 904 909 901 910 915 917 918 919 922 #babylonia_region
 				898 899 911 912 913 914 916 924 926 927 929 960 #asoristan_region
-				828 829 905 906 907 908 953 954 #euphrates_region
+				905 906 907 953 954 #euphrates_region
 				896 897 979 925 928 933 934 961 962 973 974 976 #beth_daraye_region
 				920 921 923 930 931 932 935 936 939 937 938 968 #veh_kavad_region
 				943 945 946 947 948 949 950 967 970 972 975 980 4969 #susiana_region
@@ -6864,7 +2660,7 @@ country = {
 				978 990 993 994 1562 1563 1564 1566 1567 1736 #tarawn_region
 				483 4037
 				1728 1756 1753 1752 1587 1586 1702 1755 1754 1697 1701
-				1609 1607 1610 1686 1677 3432
+				1609 1607 1610 1686 1677 3432 7723
 			}
 		}
 
@@ -7051,12 +2847,7 @@ country = {
 				4157 4158 4159 4156 4164 4161 4160 4162 4163 4166 
 				4155 4149 4148 4150 4151 4139 4132 4138
 				4141 4142 4144 4146 4147
-				3647 3646 3763 3648 3649 3650 3651 3652 3653 4145 3918 3674
-				3643 3644 3764 3762 3645
-				3640 3641 3751 3642 3753
-				3752 3757 3755 3754 3749 3748
-				3760 3761 3756 3759 3758
-				3774 3773 3765
+				3647 3648 3649 3650 3651 3652 3653 4145 3918 3674
 				4105 4104 4087 4088 4091
 				4189 # Sirmium was Ostrogothic after 504, it was retaken by ERE in 567
 				#Sicania
@@ -7069,7 +2860,19 @@ country = {
 			
 		}
 
-
+		BAV = {
+			government = tribal_chiefdom
+			primary_culture = bavarii
+			religion = arian
+			
+			capital = 3643
+			
+			own_control_core = {
+				3640 3641 3642 3748 3751 3753 3754 3755 3774 3749 3773 3752 3757 3765
+				3758 3759 3756 3760 3764 3761 3643 3644 3762 3645 3646 3763
+			}
+			
+		}
 		
 #Black Sea
 
@@ -7630,7 +3433,7 @@ country = {
 			government = tribal_chiefdom
 			primary_culture = lombards
 			religion = germanic_religion
-			centralization=75
+			centralization=50
 
 			capital = 3814
 
@@ -7723,32 +3526,61 @@ country = {
 
 			own_control_core = 	{
 				4843 4842 4846 4845 4844 4850 4849 4855 4854 4853 4852 4867 4874 4876 
-				4826 4831 4827 4828 4833 4832 4835 4834 4837 4829 4838 4840 4841 4836 4839 4861 4860 4851 4856 4857 4858 4859 4877 4881 4882 4880 4884 4883
-				4907 4906 4908 4905 4885 4927 4926 4886 4879 4878 4888 4875 4873 4870 4872 4871 4866 4869 4868 4848 4847
+				4826 4831 4827 4828 4833 4832 4835 4834 4837 4829 4838 4840 4841 4836 4839 4861 4860 4851 4856 4857 4858 4859 4877 4881 4880 4884
+				4926 4886 4879 4878 4888 4875 4873 4870 4872 4871 4866 4869 4868 4848 4847
 			}
 		}
 		
 		
 		SKN = {
 			government = tribal_kingdom
-			primary_culture = slavic
+			primary_culture = south_slavs
 			religion = slavic
 
 			capital = 4801
 
 			own_control_core = 	{
-				4818 4820 4822 4821 4823 4819 4816 4817 4810 4815 4809 4813 #Getia Occidentalis
-				4814 4812 4811 4807 4808 4805 4824 4803 4806 4804 4802 4801 #Getia Orientalis
-				4825 4913 4911 4912 4923 4924
-				4276 4267 4266 4268 4270 4278 4279 4277
-				4210 4262 4263 4211 4275 4274
-				4260 4261 4265 4264 
-				4291 4286 4289 4290 4288 4285 4284 4282 4283 4296
-				4281 4287 4280 4273 4272 4299 4292 4295 4269 4271
-				4294 4293
-				4298 4500 4501 4502 4909
-				4505 4297 4503 4504
-				4508 4507 4506 4511 4510 4509 4830 4910
+				4818 4820 4819 4816 4817 4810 4815 4809 4813 #Getia Occidentalis
+				4811 4807 4808 4806 4804 4802 4801 #Getia Orientalis
+				4913 4911 4912 4923 4924
+				4276 4267 4266 4268 4270 4278 4279 4277  
+			}
+		}
+		
+		CRO = {
+			government = tribal_kingdom
+			primary_culture = south_slavs
+			religion = slavic
+
+			capital = 4500
+
+			own_control_core = 	{
+				4505 4507 4504 4503 4502 4297 4296 4287 4295 4299 4298 4501 4500 4909 4910 4506
+			}
+		}
+		
+		SLA = {
+			government = tribal_kingdom
+			primary_culture = south_slavs
+			religion = slavic
+
+			capital = 4269
+
+			own_control_core = 	{
+				4271 4269 4272 4274 4273 4280 4822 4821 4823 4814 4824 4825 4294 4293 4292 4281 4803 4805 4812
+			}
+		}
+		
+		RAS = {
+			government = tribal_kingdom
+			primary_culture = south_slavs
+			religion = slavic
+
+			capital = 4830
+
+			own_control_core = 	{
+				4291 4286 4289 4284 4285 4290 4288 4830 4264 4265 4261 4260 4262 4263 4210
+				4211 4275 4283 4282
 			}
 		}
 		
@@ -7756,7 +3588,7 @@ country = {
 
 		HIJ = {
 			government = tribal_kingdom
-			primary_culture = nabatean
+			primary_culture = taif
 			religion = arabian_pantheon
 
 			capital = 4622
@@ -7769,7 +3601,7 @@ country = {
 
 		TAB = {
 			government = tribal_kingdom
-			primary_culture = nabatean
+			primary_culture = taif
 			religion = arabian_pantheon
 
 			capital = 727
@@ -7782,7 +3614,7 @@ country = {
 
 		YAT = {
 			government = tribal_kingdom
-			primary_culture = thamudi
+			primary_culture = taif
 			religion = arabian_pantheon
 
 			capital = 4719
@@ -7832,10 +3664,10 @@ country = {
 			}
 		}
 		
-		UMY = {
+		ARA = {
 			government = imperium
 			primary_culture = thamudi
-			religion = islam
+			religion = arabian_pantheon
 
 			capital = 7575
 			
@@ -8393,6 +4225,19 @@ country = {
 				3982 3987 3909 3989 3996 3994 3986 3984 3999 3995 4000 3894 3905 3906 3985 3983
 			}
 		}
+
+		HUN = {
+			government = tribal_chiefdom
+			primary_culture = huns
+			religion = tengri
+			centralization = 75
+			
+			capital = 4908
+			
+			own_control_core = {
+				4882 4907 4906 4908 4883 4885 4905 4927 4509 4510 4511 4508
+			}
+		}
 		
 		VEN = {
 			government = tribal_chiefdom
@@ -8412,8 +4257,8 @@ country = {
 		
 		POL = {
 			government = tribal_chiefdom
-			primary_culture = slavic
-			religion = polanes
+			primary_culture = polanes
+			religion = slavic
 			centralization = 75
 			
 			capital = 4901
@@ -8655,40 +4500,6 @@ country = {
 			own_control_core = 	{
 			}
 		}
-
-		#Balkan Slavs
-		CRO = {
-			government = tribal_kingdom
-			primary_culture = south_slavs
-			religion = slavic
-
-			capital = 4067
-
-			own_control_core = 	{
-			}
-		}
-		
-		SLA = {
-			government = tribal_kingdom
-			primary_culture = south_slavs
-			religion = slavic
-
-			capital = 4178
-
-			own_control_core = 	{
-			}
-		}
-		
-		RAS = {
-			government = tribal_kingdom
-			primary_culture = south_slavs
-			religion = slavic
-
-			capital = 422
-
-			own_control_core = 	{
-			}
-		}
 		
 		AAN = {
 			government = despotic_monarchy
@@ -8702,5 +4513,4 @@ country = {
 		}		
 	}
 }
-
 

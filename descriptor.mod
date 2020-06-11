@@ -1,6 +1,7 @@
-name="Ashes of Empire: The Dark Age Mod"
-supported_version="0.4"
+version=".25"
 tags={
-	"Overhaul"
+	"Historical"
 }
-remote_file_id="1994438012"
+name="Ashes Of Empire [ALPHA]"
+supported_version="1.4.2"
+remote_file_id="1741240278"
