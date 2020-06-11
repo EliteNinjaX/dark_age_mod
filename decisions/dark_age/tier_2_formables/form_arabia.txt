@@ -12,6 +12,7 @@
 			NOT = {
 				is_endgame_tag_trigger = yes
 			}
+			NOT = { has_global_variable = arabs_unite_decision_flag }
 			is_ai = no
 		}
 		
@@ -94,6 +95,9 @@
 			hidden_effect = {
 				set_global_variable = {    
 					name = arab_unifies_flag
+				}
+				set_global_variable = {    
+					name = arabs_unite_decision_flag
 				}
 			}
 		}

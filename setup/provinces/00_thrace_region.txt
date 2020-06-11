@@ -1337,7 +1337,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 

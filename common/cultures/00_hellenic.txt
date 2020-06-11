@@ -105,10 +105,7 @@
 		syracusan = {}
 		cyrenaican = {}
 		massalian = {}
-		#new stuff
 		greek = {}
-		cappadocian = {}
-		phrygian = {}
 	}
 	
 	barbarian_names = { 

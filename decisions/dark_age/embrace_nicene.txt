@@ -34,26 +34,26 @@
 			}
 		}
 		}
-	hidden_effect = {
-	every_character = {
-		limit = {
-			loyalty >= 60
-			NOT = { has_religion = chalcedonian }
-		}
-		set_character_religion = chalcedonian
-	}
-	}
-	hidden_effect = {
+		hidden_effect = {
 		every_character = {
 			limit = {
-			NOT = { has_religion = chalcedonian }
+				loyalty >= 60
+				NOT = { has_religion = chalcedonian }
+			}
+			set_character_religion = chalcedonian
 		}
-			add_loyalty = national_conversion_l
+		}
+		hidden_effect = {
+			every_character = {
+				limit = {
+				NOT = { has_religion = chalcedonian }
+			}
+				add_loyalty = national_conversion_l
+			}
 		}
 	}
-		ai_will_do = {
-			base = 0
-		}
+	ai_will_do = {
+		base = 0
 	}
 	}
 	}

@@ -175,10 +175,14 @@ islam = {
 slavic = {
 	color = hsv { 0.1 0.8 1.0 }
 	global_tribesmen_output = 0.05
+	manpower_recovery_speed = 0.1
+	global_manpower_modifier = 0.1
 	religion_category = pantheon
 }
 tengri = {
 	color = hsv { 0.49 1.0 0.5 }
 	global_tribesmen_happyness = 0.1
+	horse_archers_morale = 0.1
+	global_manpower_modifier = 0.1
 	religion_category = pantheon
 }

@@ -41,7 +41,7 @@ avars_modifier = {
 	land_morale_recovery = 0.05
 	global_tax_modifier = 0.2
 	happiness_for_wrong_culture_group_modifier = 0.2
-	happiness_for_same_culture_modifier = 0.2
+	army_maintenance_cost = -0.25
 }
 
 superpower_modifier = {
@@ -50,10 +50,8 @@ superpower_modifier = {
 	global_tax_modifier = 0.2
 }
 
-justinian_modifier = {
-	global_manpower_modifier = 0.2
-	global_tax_modifier = 0.2
-	global_unrest = -2.0
+empire_in_decline_modifier = {
+	research_points_modifier = -0.2
 }
 
 vulnerable_modifier = {
@@ -68,4 +66,15 @@ blinded = {
 	disallow_job = yes
 	disallow_office = yes
 	disallow_command = yes
+}
+
+arab_unification_modifier = {
+	global_manpower_modifier = 0.5
+	discipline = 0.1
+	land_morale = 0.1
+	land_morale_recovery = 0.05
+	global_tax_modifier = 0.2
+	happiness_for_wrong_culture_group_modifier = 0.2
+	army_maintenance_cost = -0.25
+	global_unrest = -2
 }

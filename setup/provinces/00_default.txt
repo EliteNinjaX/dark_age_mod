@@ -2190,8 +2190,8 @@
 
 5174={ #
 	terrain=""
-	culture="greco_greek"
-	religion="chalcedonian"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2200,8 +2200,8 @@
 
 5175={ #
 	terrain=""
-	culture="greco_greek"
-	religion="chalcedonian"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
