@@ -4241,8 +4241,8 @@ country = {
 		
 		VEN = {
 			government = tribal_chiefdom
-			primary_culture = slavic
-			religion = venedi
+			primary_culture = venedi
+			religion = slavic
 			centralization = 75
 			
 			capital = 4901
