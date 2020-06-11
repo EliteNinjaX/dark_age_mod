@@ -15,14 +15,18 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					is_in_area = dumnonia_area
-					is_in_area = durotrigia_area
-					is_in_area = cantiacia_area
-					is_in_area = icenia_area
-					is_in_area = dobunnia_area
-					is_in_area = coritania_area
-					is_in_area = cornovia_area
-					is_in_area = brigantia_area
+					province_id = 2022 #London
+					province_id = 2025 #York/Ebotacum
+					province_id = 2028 #Canuloduum
+					province_id = 2029 #Combertovium
+					province_id = 2026 #Duroconovium
+					province_id = 2007 #Durnovaria
+					province_id = 2003 #Dumnonia
+					province_id = 2012 #cunetio
+					province_id = 2047 #Deva
+					province_id = 2083 #Liguvalium
+					province_id = 2044 #Lactodorum
+					province_id = 2058 #Lindom
 				}
 			}
 		}
@@ -36,19 +40,23 @@
 					}
 				}
 			}
-			owns_or_subject_owns_area = dumnonia_area
-			owns_or_subject_owns_area = durotrigia_area
-			owns_or_subject_owns_area = cantiacia_area
-			owns_or_subject_owns_area = icenia_area
-			owns_or_subject_owns_area = dobunnia_area
-			owns_or_subject_owns_area = coritania_area
-			owns_or_subject_owns_area = cornovia_area
-			owns_or_subject_owns_area = brigantia_area
+			owns_or_subject_owns = 2022 #London
+			owns_or_subject_owns = 2025 #York/Ebotacum
+			owns_or_subject_owns = 2028 #Canuloduum
+			owns_or_subject_owns = 2029 #Combertovium
+			owns_or_subject_owns = 2026 #Duroconovium
+			owns_or_subject_owns = 2007 #Durnovaria
+			owns_or_subject_owns = 2003 #Dumnonia
+			owns_or_subject_owns = 2012 #cunetio
+			owns_or_subject_owns = 2047 #Deva
+			owns_or_subject_owns = 2083 #Liguvalium
+			owns_or_subject_owns = 2044 #Lactodorum
+			owns_or_subject_owns = 2058 #Lindom
 			can_form_nation_trigger = yes
-			OR = {
-				is_monarchy = yes
-				is_republic = yes
-			}
+		#	OR = {
+		#		is_monarchy = yes
+		#		is_republic = yes
+		#	}
 		}
 		
 		effect = {
@@ -58,6 +66,7 @@
 				change_country_adjective = "BRITANNIA_ADJECTIVE"
 				change_country_color =  "samnite_red"
 				change_country_tag = BRA
+				change_country_flag = BRA
 			}
 			if = {
 				limit = {

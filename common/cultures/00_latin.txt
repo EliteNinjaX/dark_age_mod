@@ -962,7 +962,6 @@
 		samnite = {}
 		messapian = {}
 		sardinian = {}
-		sardonian = {}
 		siculian = {}
 		bruttian = {}
 		lucanian = {}

@@ -1740,6 +1740,7 @@ provinces = {
 	1 = { #Rome
 		commerce_building = 1
 		military_building = 2
+		modifier = { modifier = rome always = yes }
 	}
 	2 = {
 		military_building = 2
@@ -1896,6 +1897,7 @@ provinces = {
 		commerce_building = 3
 		town_hall_building = 1
 		aqueduct_building = 2
+		modifier = { modifier = constantinople always = yes }
 	}
 	912 = {
 		fortress_building = 1
