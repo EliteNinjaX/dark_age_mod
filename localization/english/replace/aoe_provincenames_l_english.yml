@@ -5,7 +5,11 @@
  PROV1453_hellenic:0 "Constantinople"
  PROV790:1 "Antioch"
  PROV3256:1 "Carthage"
- PROV2474:0 "Paris"
+ PROV2325:0 "Marseille" # Formerly Massalia
+ PROV2301:0 "Lyon" # Formerly Lugundum
+ PROV2265:0 "Toulouse" # Formerly Tolosa
+ PROV2350:0 "Orleans" # Formerly Cenabaum
+ PROV2474:0 "Paris" # This should be Letutia, PROV2475
  PROV3049:0 "Rheims"
  PROV3045:0 "Soissons"
  PROV2022:0 "Londinium"
