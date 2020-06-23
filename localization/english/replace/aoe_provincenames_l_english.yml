@@ -38,15 +38,24 @@
  #
  # Hispania
  #
- PROV1006:0 "Barcelona" # Formerly Kallipolis Iberias
+ PROV1006:0 "Barcelona" # Formerly Kallipolis Iberias. Approximate location. Might be Barcino during this period.
  PROV1009:0 "Tarragona" # Formerly Tarraco
  PROV1012:0 "Tortosa" # Formerly Dertosa
+ PROV1013:0 "Saragossa" # Formerly Salduba
+ PROV1021:0 "Palencia" # Formerly Palantia
+ PROV1024:0 "Toledo" # Formerly Toletum. Transition might not have occurred yet.
  PROV1030:0 "Valencia" # Formerly Valentia
- PROV1031:0 "Denia" # Formerly Hermeroskopeion
+ PROV1031:0 "Denia" # Formerly Hermeroskopeion. Might be Dianum during this period.
  PROV1036:0 "Cartagena" # Formerly Mastia
+ PROV1045:0 "Astorga" # Formerly Asturicia
+ PROV1046:0 "Salamanca" # Formerly Salmantica
+ PROV1051:0 "Braga" # Formerly Bracara Augusta
+ PROV1147:0 "Lugo" # Formerly Lougia
+ #PROV1211:0 "Reccopolis" # Formerly Ocules. This is an approximate location.
+ PROV1314:0 "Santarem" # Formerly Scallabis
  PROV1344:0 "Gades" # Formerly Gadir. Modern name of "Cadiz" comes after Arabic rule.
- # PROV:0 " " # Formerly
- # PROV:0 " " # Formerly
+ #PROV1355:0 "Hispalis" # Game reflects name during this period. Modern name is Seville.
+ PROV1400:0 "Merida" # Formerly Augusta Emerita
  # The important Spanish city of Madrid was founded under Arab rule 
  #:0 ""
  # Britannia:0 ""
