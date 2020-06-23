@@ -35,7 +35,19 @@
  PROV3045:0 "Soissons"
  PROV3543:0 "Antibes" # Formerly Antipolis
  PROV3544:0 "Nice" # Formerly Navelis
-
+ #
+ # Hispania
+ #
+ PROV1006:0 "Barcelona" # Formerly Kallipolis Iberias
+ PROV1009:0 "Tarragona" # Formerly Tarraco
+ PROV1012:0 "Tortosa" # Formerly Dertosa
+ PROV1030:0 "Valencia" # Formerly Valentia
+ PROV1031:0 "Denia" # Formerly Hermeroskopeion
+ PROV1036:0 "Cartagena" # Formerly Mastia
+ PROV1344:0 "Gades" # Formerly Gadir. Modern name of "Cadiz" comes after Arabic rule.
+ # PROV:0 " " # Formerly
+ # PROV:0 " " # Formerly
+ # The important Spanish city of Madrid was founded under Arab rule 
  #:0 ""
  # Britannia:0 ""
  #:0 ""
