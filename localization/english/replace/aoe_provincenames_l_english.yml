@@ -5,17 +5,37 @@
  PROV1453_hellenic:0 "Constantinople"
  PROV790:1 "Antioch"
  PROV3256:1 "Carthage"
- PROV2325:0 "Marseille" # Formerly Massalia
- PROV2301:0 "Lyon" # Formerly Lugundum
- PROV2265:0 "Toulouse" # Formerly Tolosa
- PROV2350:0 "Orleans" # Formerly Cenabaum
- PROV2474:0 "Paris" # This should be Letutia, PROV2475
- PROV3049:0 "Rheims"
- PROV3045:0 "Soissons"
  PROV2022:0 "Londinium"
  PROV665:0 "Caesarea Maritima"
  PROV4719:0 "Medina"
  PROV7575:0 "Mecca"
+ #
+ # Gaul / Francia
+ #
+ PROV2212:0 "Nantes" # Formerly Namnetum
+ PROV2255:0 "Carcassone" # Formerly Carcasso
+ PROV2236:0 "Bordeaux" # Formerly Burdigala
+ PROV2265:0 "Toulouse" # Formerly Tolosa
+ PROV2282:0 "Perigueux" # Formerly Vesunna
+ PROV2283:0 "Clermont" # Formerly Augustoritum
+ PROV2301:0 "Lyon" # Formerly Lugundum
+ PROV2319:0 "Arles" # Formerly Arelatis
+ PROV2325:0 "Marseille" # Formerly Massali
+ PROV2345:0 "Poitiers" # Formerly Limonum
+ PROV2347:0 "Bourges" # Formerly Avaricum
+ PROV2350:0 "Orleans" # Formerly Cenabaum
+ PROV2352:0 "Angers" # Formerly Juliomagus
+ PROV2353:0 "Auxerre" # Formerly Autissodorum
+ PROV2394:0 "Tours" # Formerly Caesarodunum
+ PROV2441:0 "Chartres" # Formerly Autricum
+ PROV2443:0 "Rouen" # Formerly Rotomagus
+ PROV2474:0 "Paris" # This should be Letutia, PROV2475
+ PROV2449:0 "Troyes" # Formerly Augustobona
+ PROV3049:0 "Rheims"
+ PROV3045:0 "Soissons"
+ PROV3543:0 "Antibes" # Formerly Antipolis
+ PROV3544:0 "Nice" # Formerly Navelis
+
  #:0 ""
  # Britannia:0 ""
  #:0 ""
