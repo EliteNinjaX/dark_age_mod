@@ -57,9 +57,47 @@
  #PROV1355:0 "Hispalis" # Game reflects name during this period. Modern name is Seville.
  PROV1400:0 "Merida" # Formerly Augusta Emerita
  # The important Spanish city of Madrid was founded under Arab rule 
- #:0 ""
- # Britannia:0 ""
- #:0 ""
+ #
+ # Italia
+ #
+ PROV88:0 "Aidone" # Formerly Murgantia, settlement abandoned after 1st century
+ PROV86:0 "Agrigentum" # Formerly Acragas
+ PROV91:0 "Thermae Selinuntiae" # Formerly Selinus
+ PROV93:0 "Mazar" # Formerly Selinus
+ PROV95:0 "Erice" # Formerly Eryx
+ PROV7841:0 "Mutustratinus" # Formerly Myssistraton
+ PROV75:0 "Vibo Valentia" # Formerly Hipponium
+ PROV74:0 "Scolatium" # Formerly Stylacium
+ PROV52:0 "Copiae" # Formerly Thurii
+ PROV51:0 "Cerillae" # Formerly Laus
+ PROV61:0 "Bollita" # Formerly Siris
+ PROV54:0 "Herculaneum" # Formerly Heraclea
+ PROV47:0 "Volcei" # Formerly Acceronia
+ PROV10:0 "Salernum" # Formerly Salerna
+ PROV58:0 "Barulum" # Formerly Barduli
+ PROV71:0 "Aceruntia" # Formerly Stiglianum
+ PROV9:0 "Surrentum" # Formerly Pompeii
+ PROV4:0 "Tarracina" # Formerly Circeii, Circeii probably still existed but Tarracina was of greater importance
+ PROV16:0 "Augustum Veiens" # Formerly Veii
+ PROV15:0 "Portus" # Formerly Ostia, Portus became of greater importance
+ PROV17:0 "Centumcellae" # Formerly Tarquini
+ PROV103:0 "Spoletium" # Formerly Plestia, Important Gothic stronghold
+ PROV111:0 "Firmum Picenum" # Formerly Picenum
+ PROV3593:0 "Adria" # Formerly Hatria
+ PROV3602:0 "Caprulae" # Formerly Iulia Concordia, Town was destroyed during Attila
+ PROV3597:0 "Venetiae" # Formerly Ad Portum
+ PROV3607:0 "Sextilianum" # Formerly Fons Timavi
+ PROV3583:0 "Sirmio" # Formerly Ariolica
+ PROV3572:0 "Papia" # Formerly Ticinum, Supposely Lombards renamed this area and it became their capital in 568 AD
+ PROV3548:0 "Augusta Bagiennorum" # Formerly Bagiennia
+ PROV3551:0 "Taurinorum" # Formerly Taurasia
+ PROV3552:0 "Segesta Tigullorum" # Formerly Segesta
+ PROV3556:0 "Aquae Statiellae" # Formerly Statiellae
+ PROV3546:0 "Albingaunum" # Formerly Albom Ingaunom
+ PROV3445:0 "Vintimilium" # Formerly Album Intimilium
+ #
+ # Britannia
+ #
  PROV2095:0 "Cair Guorthigirn" #Cair refers to a town that was fortified according to Saint Bede and Gildas
  PROV2013:0 "Cair Guinntguic"  #There were 28 towns during this time that are referred as Cair according to Bebe
  PROV2027:0 "Cair Mincip"
