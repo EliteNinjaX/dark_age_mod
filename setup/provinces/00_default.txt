@@ -2221,7 +2221,7 @@
 5177={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=5
 	barbarian_power=0
@@ -2361,7 +2361,7 @@
 5191={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2371,7 +2371,7 @@
 5192={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2381,7 +2381,7 @@
 5193={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2391,7 +2391,7 @@
 5194={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2401,7 +2401,7 @@
 5195={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2411,7 +2411,7 @@
 5196={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2421,7 +2421,7 @@
 5197={ #
 	terrain=""
 	culture="ibero"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2431,7 +2431,7 @@
 5198={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2441,7 +2441,7 @@
 5199={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2451,7 +2451,7 @@
 5200={ #
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2461,7 +2461,7 @@
 5201={ #
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2471,7 +2471,7 @@
 5202={ #
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2481,7 +2481,7 @@
 5203={ #
 	terrain=""
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2491,7 +2491,7 @@
 5204={ #
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2501,7 +2501,7 @@
 5205={ #
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2511,7 +2511,7 @@
 5206={ #
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2521,7 +2521,7 @@
 5207={ #
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2531,7 +2531,7 @@
 5208={ #Aragats Volcano
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2541,7 +2541,7 @@
 5209={ #
 	terrain=""
 	culture="albanian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2551,7 +2551,7 @@
 5210={ #Bamni Volcano
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2561,7 +2561,7 @@
 5211={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2571,7 +2571,7 @@
 5212={ #Ararat Volcano
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2581,7 +2581,7 @@
 5213={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2591,7 +2591,7 @@
 5214={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2671,7 +2671,7 @@
 5222={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2701,7 +2701,7 @@
 5225={ #
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3681,7 +3681,7 @@
 5323={ #Caucasus Mons Volcano
 	terrain=""
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3691,7 +3691,7 @@
 5324={ #Iberia Mons Volcano
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3701,7 +3701,7 @@
 5325={ #
 	terrain=""
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -3721,7 +3721,7 @@
 5327={ #
 	terrain=""
 	culture="albanian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7431,7 +7431,7 @@
 7737={ #Qarqar Volcano
 	terrain=""
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=55
 	barbarian_power=0

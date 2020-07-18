@@ -2365,6 +2365,22 @@ provinces = {
 	7504 = {
 		fortress_building = 1
 	}
+	#Ireland
+	2161 = {
+		fortress_building = 1
+	}
+	2162 = {
+		workshop_building = 1
+		commerce_building = 1
+	}
+	2183 = {
+		fortress_building = 1
+	}
+	2190 = {
+		fortress_building = 1
+		commerce_building = 1
+		workshop_building = 1
+	}
 }
 	
 diplomacy = {
@@ -2939,7 +2955,7 @@ country = {
 			primary_culture = hibernian
 			religion = chalcedonian
 
-			capital = 2161
+			capital = 2162
 
 			own_control_core = 	{
 				2183 2180 2179 2176 2161 2177 2162 2178 2181 2182 2163
@@ -3696,7 +3712,7 @@ country = {
 		IBR = {
 			government = despotic_monarchy
 			primary_culture = ibero
-			religion = caucasian_religion
+			religion = chalcedonian
 
 			capital = 1676
 
@@ -3713,7 +3729,7 @@ country = {
 		LAZ = {
 			government = despotic_monarchy
 			primary_culture = colchian
-			religion = caucasian_religion
+			religion = chalcedonian
 
 			capital = 1737
 
@@ -3730,7 +3746,7 @@ country = {
 		ALB = {
 			government = tribal_chiefdom
 			primary_culture = albanian
-			religion = caucasian_religion
+			religion = chalcedonian
 
 			capital = 1636
 

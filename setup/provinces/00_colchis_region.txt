@@ -1,7 +1,7 @@
 ﻿1586={ #Hokhmik
 	terrain="forest"
 	culture="ibero"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=25
 	barbarian_power=0
@@ -20,7 +20,7 @@
 1587={ #Vardbach
 	terrain="forest"
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -36,7 +36,7 @@
 1610={ #Sary-tepe
 	terrain="forest"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -58,7 +58,7 @@
 1673={ #Iberian Gates
 	terrain="mountain"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -77,7 +77,7 @@
 1676={ #Meschistha-Harmozike
 	terrain="plains"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=25
 	barbarian_power=0
@@ -99,7 +99,7 @@
 1677={ #Algeti
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -111,7 +111,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -119,7 +119,7 @@
 1679={ #Kavtiskhevi
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -138,7 +138,7 @@
 1680={ #Zalissa
 	terrain="mountain"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -154,7 +154,7 @@
 1681={ #Aragvispiri
 	terrain="mountain"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=25
 	barbarian_power=0
@@ -173,7 +173,7 @@
 1683={ #Aghaiani
 	terrain="plains"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=25
 	barbarian_power=0
@@ -195,7 +195,7 @@
 1685={ #Uplistsikhe
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -214,7 +214,7 @@
 1686={ #Samshvilde
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=25
 	barbarian_power=0
@@ -233,7 +233,7 @@
 1689={ #Urbnisi
 	terrain="plains"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -249,7 +249,7 @@
 1690={ #Zghuderi
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -268,7 +268,7 @@
 1691={ #Dedoplis
 	terrain="plains"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -287,7 +287,7 @@
 1692={ #Tskhinvali
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -309,7 +309,7 @@
 1694={ #Surium
 	terrain="plains"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -331,7 +331,7 @@
 1695={ #Borjomi
 	terrain="forest"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -350,7 +350,7 @@
 1696={ #Leukothea
 	terrain="forest"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -365,7 +365,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -373,7 +373,7 @@
 1697={ #Akhaltsikhe
 	terrain="plains"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -382,7 +382,7 @@
 		amount=2
 	}
 	slaves={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	slaves={
@@ -396,7 +396,7 @@
 1699={ #Mzetamze
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -412,7 +412,7 @@
 1700={ #Zekari Pass
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -428,7 +428,7 @@
 1701={ #Goderdzi Pass
 	terrain="hills"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -447,7 +447,7 @@
 1702={ #Javakheti
 	terrain="forest"
 	culture="ibero"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=25
 	barbarian_power=0
@@ -459,7 +459,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
@@ -470,7 +470,7 @@
 1703={ #Bori
 	terrain="forest"
 	culture="ibero"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -492,7 +492,7 @@
 1704={ #Sarapanis
 	terrain="plains"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -511,7 +511,7 @@
 1705={ #Skandis
 	terrain="mountain"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -530,7 +530,7 @@
 1706={ #Rhodopolis
 	terrain="plains"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -549,7 +549,7 @@
 1707={ #Kotais
 	terrain="mountain"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -568,7 +568,7 @@
 1711={ #Telephis
 	terrain="plains"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -587,7 +587,7 @@
 1714={ #Onogouris
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
@@ -606,7 +606,7 @@
 1715={ #Archaiopolis
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=40
 	barbarian_power=0
@@ -628,7 +628,7 @@
 1717={ #Chaladidi
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
@@ -656,7 +656,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	citizen={
@@ -669,7 +669,7 @@
 		amount=2
 	}
 	slaves={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -677,7 +677,7 @@
 1722={ #Vashnari
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -696,7 +696,7 @@
 1723={ #Pichvnari
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -720,7 +720,7 @@
 1724={ #Apasidam
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
 	barbarian_power=0
@@ -742,7 +742,7 @@
 1725={ #Bathys Limen
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -764,7 +764,7 @@
 1726={ #Apsaros
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
@@ -780,7 +780,7 @@
 1727={ #Cissa
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -796,7 +796,7 @@
 1728={ #Morthoula
 	terrain="hills"
 	culture="armenian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
 	barbarian_power=0
@@ -811,7 +811,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -819,7 +819,7 @@
 1729={ #Athenon Akron
 	terrain="hills"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
 	barbarian_power=0
@@ -838,7 +838,7 @@
 1730={ #Rhizaeum
 	terrain="hills"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -860,14 +860,14 @@
 1731={ #Ophis
 	terrain="hills"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		culture="armenian"
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	citizen={
@@ -908,7 +908,7 @@
 1735={ #Ergeta
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
@@ -930,7 +930,7 @@
 1737={ #Ziganne
 	terrain="forest"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
 	barbarian_power=0
@@ -974,7 +974,7 @@
 		amount=3
 	}
 	tribesmen={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -982,7 +982,7 @@
 1739={ #Tqvarcheli
 	terrain="mountain"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=25
 	barbarian_power=0
@@ -1001,7 +1001,7 @@
 1740={ #Tzibile
 	terrain="mountain"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=25
 	barbarian_power=0
@@ -1035,7 +1035,7 @@
 		amount=2
 	}
 	tribesmen={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 }
@@ -1043,7 +1043,7 @@
 1742={ #Anakopia
 	terrain="hills"
 	culture="alans"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -1062,7 +1062,7 @@
 1743={ #Pityous
 	terrain="hills"
 	culture="alans"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -1081,7 +1081,7 @@
 1745={ #Masaitike
 	terrain="hills"
 	culture="alans"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -1100,7 +1100,7 @@
 1746={ #Itkhvissi
 	terrain="plains"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -1119,7 +1119,7 @@
 1748={ #Modinakhe
 	terrain="mountain"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=25
 	barbarian_power=0
@@ -1138,7 +1138,7 @@
 1749={ #Brili
 	terrain="mountain"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=25
 	barbarian_power=0
@@ -1157,7 +1157,7 @@
 1750={ #Klukhor Pass
 	terrain="mountain"
 	culture="colchian"
-	religion="caucasian_religion"
+	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=25
 	barbarian_power=0
@@ -1173,7 +1173,7 @@
 1752={ #Chorzene
 	terrain="plains"
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=40
 	barbarian_power=0
@@ -1195,7 +1195,7 @@
 1753={ #Kola
 	terrain="plains"
 	culture="ibero"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
 	barbarian_power=0
@@ -1214,7 +1214,7 @@
 1754={ #Artahan
 	terrain="plains"
 	culture="ibero"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="steppe_horses"
 	civilization_value=25
 	barbarian_power=0
@@ -1226,7 +1226,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
@@ -1237,7 +1237,7 @@
 1755={ #Colit
 	terrain="plains"
 	culture="ibero"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -1249,7 +1249,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
@@ -1260,7 +1260,7 @@
 1756={ #Artanuji
 	terrain="hills"
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
 	barbarian_power=0
@@ -1272,7 +1272,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
@@ -1283,7 +1283,7 @@
 1757={ #Kaballa
 	terrain="hills"
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
@@ -1302,7 +1302,7 @@
 1758={ #Pharangion
 	terrain="hills"
 	culture="armenian"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
@@ -1314,7 +1314,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="caucasian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={

@@ -149,7 +149,7 @@
 1766={ #Altintepe
 	terrain="hills"
 	culture="greco_pontic"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -165,7 +165,7 @@
 1767={ #Eriza
 	terrain="hills"
 	culture="greco_pontic"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0
@@ -188,7 +188,7 @@
 1768={ #Til
 	terrain="plains"
 	culture="greco_pontic"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
 	barbarian_power=0
@@ -207,7 +207,7 @@
 1769={ #Salmalasso
 	terrain="hills"
 	culture="greco_pontic"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
 	barbarian_power=0
@@ -239,7 +239,7 @@
 		amount=1
 	}
 	freemen={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	slaves={
@@ -265,7 +265,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
@@ -326,7 +326,7 @@
 		amount=1
 	}
 	tribesmen={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
@@ -337,7 +337,7 @@
 1778={ #Chorsabia
 	terrain="hills"
 	culture="greco_pontic"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
 	barbarian_power=0
@@ -370,11 +370,11 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=1
 	}
 	tribesmen={
-		religion="armenian_religion"
+		religion="chalcedonian"
 		amount=2
 	}
 	tribesmen={
@@ -1794,7 +1794,7 @@
 7844={ #Zimara
 	terrain="mountain"
 	culture="greco_pontic"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=25
 	barbarian_power=0
@@ -1810,7 +1810,7 @@
 7845={ #Tordan
 	terrain="mountain"
 	culture="greco_pontic"
-	religion="armenian_religion"
+	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
 	barbarian_power=0

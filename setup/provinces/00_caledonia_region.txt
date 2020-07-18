@@ -487,9 +487,9 @@
 2161={ #Ivernia
 	terrain="marsh"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -504,16 +504,22 @@
 	}
 }
 
-2162={ #Usdia Occidentalis
-	terrain="forest"
+2162={ #Usdia Occidentalis/Cork
+	terrain="farmland"
 	culture="hibernian"
-	religion="druidism"
-	trade_goods="wood"
-	civilization_value=5
+	religion="chalcedonian"
+	trade_goods="iron"
+	civilization_value=30
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=2
+		amount=4
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=9
 	}
 	tribesmen={
 		amount=2
@@ -523,9 +529,9 @@
 2163={ #Velaboria Australis
 	terrain="forest"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -541,7 +547,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -557,7 +563,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -573,7 +579,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -589,7 +595,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -605,7 +611,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -621,7 +627,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -637,7 +643,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -653,7 +659,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="salt"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -669,7 +675,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -685,7 +691,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -701,7 +707,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -717,7 +723,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -731,9 +737,9 @@
 2176={ #Ivernia Borealis
 	terrain="marsh"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -747,9 +753,9 @@
 2177={ #Ivernia Australis
 	terrain="marsh"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="base_metals"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -763,9 +769,9 @@
 2178={ #Usdia Orientalis
 	terrain="plains"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="salt"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -779,9 +785,9 @@
 2179={ #Velaboria Vesperis
 	terrain="marsh"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fish"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -795,9 +801,9 @@
 2180={ #Velaboria Borealis
 	terrain="marsh"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="grain"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -811,9 +817,9 @@
 2181={ #Velaboria Ortus
 	terrain="plains"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="wood"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -827,9 +833,9 @@
 2182={ #Velaboria
 	terrain="plains"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -843,9 +849,9 @@
 2183={ #Gangania Ortus
 	terrain="marsh"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="hemp"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -861,7 +867,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -877,7 +883,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -893,7 +899,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -913,7 +919,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="precious_metals"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -929,7 +935,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -945,7 +951,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -956,16 +962,22 @@
 	}
 }
 
-2190={ #Manapia Orientalis
-	terrain="forest"
+2190={ #Manapia Orientalis/Dublin
+	terrain="farmland"
 	culture="hibernian"
-	religion="druidism"
-	trade_goods="fur"
-	civilization_value=5
+	religion="chalcedonian"
+	trade_goods="incense"
+	civilization_value=30
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=2
+		amount=4
+	}
+	freemen={
+		amount=10
+	}
+	slaves={
+		amount=12
 	}
 	tribesmen={
 		amount=2
@@ -977,7 +989,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -993,7 +1005,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1009,7 +1021,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1025,7 +1037,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1041,7 +1053,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1057,7 +1069,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="hemp"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1071,9 +1083,9 @@
 2197={ #Autenia Borealis
 	terrain="marsh"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1093,7 +1105,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1109,7 +1121,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1125,7 +1137,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="salt"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1141,7 +1153,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1157,7 +1169,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1173,7 +1185,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1189,7 +1201,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1205,7 +1217,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1221,7 +1233,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1237,7 +1249,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1253,7 +1265,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=5
+	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
