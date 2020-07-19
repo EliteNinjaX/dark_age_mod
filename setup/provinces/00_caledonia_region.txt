@@ -3,7 +3,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -22,7 +22,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -38,14 +38,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -54,7 +54,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -70,7 +70,7 @@
 	culture="manavian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -89,14 +89,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="salt"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -105,7 +105,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -121,14 +121,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -137,14 +137,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -153,14 +153,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -169,7 +169,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -185,14 +185,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -201,14 +201,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -217,14 +217,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -233,14 +233,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -249,14 +249,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -265,7 +265,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -281,7 +281,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -297,14 +297,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -313,14 +313,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -329,14 +329,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -345,7 +345,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -361,7 +361,7 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -377,14 +377,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -393,14 +393,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -409,14 +409,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -425,14 +425,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -441,14 +441,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -457,14 +457,14 @@
 	culture="caledonian"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -473,14 +473,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="wild_game"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -489,7 +489,7 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -509,20 +509,20 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="iron"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="city"
 	citizen={
 		amount=4
 	}
 	freemen={
-		amount=12
+		amount=4
 	}
 	slaves={
-		amount=9
+		amount=5
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -531,14 +531,14 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -547,14 +547,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -563,7 +563,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -579,7 +579,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -595,14 +595,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -611,7 +611,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -627,14 +627,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -643,7 +643,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -659,14 +659,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="salt"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -675,7 +675,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -691,14 +691,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -707,14 +707,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -723,14 +723,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -739,14 +739,14 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="precious_metals"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -755,14 +755,14 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -771,7 +771,7 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="salt"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -787,14 +787,14 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="fish"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -803,14 +803,14 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="grain"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -819,14 +819,14 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="wood"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -835,14 +835,14 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="cattle"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -851,14 +851,14 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="hemp"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -867,7 +867,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -883,14 +883,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -899,7 +899,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -919,7 +919,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="precious_metals"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -935,14 +935,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -951,14 +951,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -967,20 +967,20 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="incense"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="city"
 	citizen={
 		amount=4
 	}
 	freemen={
-		amount=10
+		amount=9
 	}
 	slaves={
-		amount=12
+		amount=9
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -989,14 +989,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1005,7 +1005,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1021,14 +1021,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1037,14 +1037,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1053,7 +1053,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1069,14 +1069,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="hemp"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1085,7 +1085,7 @@
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="fur"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1096,7 +1096,7 @@
 		amount=4
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1105,14 +1105,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1121,7 +1121,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1137,7 +1137,7 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="salt"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1153,14 +1153,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1169,14 +1169,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1185,14 +1185,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1201,14 +1201,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="grain"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1217,14 +1217,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1233,14 +1233,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1249,14 +1249,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1265,14 +1265,14 @@
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
-	civilization_value=30
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1281,14 +1281,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1297,14 +1297,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="base_metals"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1313,14 +1313,14 @@
 	culture="pict"
 	religion="druidism"
 	trade_goods="woad"
-	civilization_value=10
+	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=4
 	}
 }
 

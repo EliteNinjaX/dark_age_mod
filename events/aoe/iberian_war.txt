@@ -24,7 +24,7 @@ iberian_war.1 = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
 			province = 1676
-			target = ERE
+			target = IBR
 		}
 		hidden_effect = {
 			create_unit = {
@@ -51,9 +51,18 @@ iberian_war.1 = {
 			}
 		}
 	}
+	option = {
+	name = "iberian_war.1.b"
+	ai_chance = {
+			factor = 0
+		}
+		add_stability = -10
+		add_popularity = subtract_popularity_medium
+	}
+	
 }
 
-iberian_war.2 = {
+iberian_war_ere = {
 	
 	type = country_event
 	title = "iberian_war.2.t"
@@ -86,6 +95,19 @@ iberian_war.2 = {
 					add_subunit = heavy_infantry
 				}
 			}
+		}
+	}
+	option = {
+		name = "iberian_war.2.b"
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -20
+		C:PER = {
+			make_subject = { 
+				target = LAZ
+				type = feudatory 
+			}		
 		}
 	}
 }

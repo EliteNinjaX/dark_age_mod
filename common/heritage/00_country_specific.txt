@@ -113,7 +113,7 @@ visigoth_heritage = {
 	modifier = {
 		#good
 		happiness_for_wrong_culture_group_modifier = 0.1
-		global_manpower_modifier = 0.05
+		discipline = 0.05
 		
 		#bad
 		diplomatic_reputation = -2
@@ -191,5 +191,95 @@ slavic_heritage = {
 	
 	trigger = {
 			country_culture_group = slavic	
+	}
+}
+
+LON_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.1
+		global_monthly_civilization = 0.01
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = LON
+			tag = CEL
+			tag = DUM
+			tag = CRN
+			tag = LUI
+		}
+	}
+}
+
+SAX_heritage = {
+	modifier = {
+		#good
+		recruit_mercenary_cost_modifier = -0.05
+		build_cost = -0.1
+		
+		#bad
+		global_defensive = -0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = CHC
+			tag = KEN
+			tag = WES
+			tag = MCA
+			tag = LIN
+			tag = EAN
+			tag = SUS
+		}
+	}
+}
+
+pretani_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.1
+		siege_ability = 0.05
+		
+		#bad
+		naval_morale_modifier = -0.05
+		
+	}
+	
+	trigger = {
+		country_culture_group = britannic
+	}
+}
+
+suebi_heritage = {
+	modifier = {
+		#good
+		global_pop_assimilation_speed_modifier = 0.1
+		happiness_for_same_religion_modifier = 0.1
+		
+		#bad
+		global_defensive = -0.1
+	}
+	
+	trigger = {
+		tag = SUE
+	}
+}
+
+basque_heritage = {
+	modifier = {
+		#good
+		manpower_recovery_speed = 0.1
+		discipline = 0.05
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		tag = BAS
 	}
 }

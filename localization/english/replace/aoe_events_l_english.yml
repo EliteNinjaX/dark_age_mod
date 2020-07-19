@@ -110,9 +110,11 @@
  iberian_war.1.t:0 "The Iberian War"
  iberian_war.1.desc:0 "The Iberian War was fought from 526 to 532 between the Roman Empire and the Sassanid Persian Empire over the kingdom of Iberia, which had recently defected to the Romans. The decisive battle of the war occured at the fortress of Doura, where a Roman army led by Belisarius defeated the main Persian army. Shall history repeat itself?"
  iberian_war.1.a:0 "We shall crush the Romans"
+ iberian_war.1.b:0 "The Roman might be too strong, back down."
  iberian_war.2.t:0 "The Iberian War"
  iberian_war.2.desc:0 "The Iberian War was fought from 526 to 532 between the Roman Empire and the Sassanid Persian Empire over the kingdom of Iberia, which had recently defected to the Romans. The decisive battle of the war occured at the fortress of Doura, where a Roman army led by Belisarius defeated the main Persian army. Shall history repeat itself?"
  iberian_war.2.a:0 "We shall defeat the infidels"
+ iberian_war.2.b:0 "We should make peace, and focus on consolidating our territories."
 ##Arab Invasion Events
  arab_news.1.t:0 "The Arabs Unite"
  arab_news.1.desc:0 "For most of history, the divided Arab tribes were not a major player in world affairs. This changed when they were united by Muhammad during the 7th century. They would go on to build one of the largest empires in the world.\n\nTo simulate this, a special conquest period has been initiated. If the Arabs capture key cities in Egypt, Syria, Assyria and Mesopotamia over the next 20 years, the surrounding regions will immediately transfer to their control."
