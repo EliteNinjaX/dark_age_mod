@@ -263,7 +263,7 @@
 2238={ #Segosa
 	terrain="forest"
 	culture="aquitani"
-	religion="chalcedonian"
+	religion="druidism"
 	trade_goods="salt"
 	civilization_value=20
 	barbarian_power=0
@@ -279,7 +279,7 @@
 2239={ #Mosconnum
 	terrain="plains"
 	culture="aquitani"
-	religion="chalcedonian"
+	religion="druidism"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0
@@ -314,7 +314,7 @@
 2241={ #Telonnum
 	terrain="forest"
 	culture="aquitani"
-	religion="chalcedonian"
+	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=20
 	barbarian_power=0
@@ -330,7 +330,7 @@
 2242={ #Coequosa
 	terrain="plains"
 	culture="aquitani"
-	religion="chalcedonian"
+	religion="druidism"
 	trade_goods="wine"
 	civilization_value=20
 	barbarian_power=0
@@ -362,7 +362,7 @@
 2244={ #Carasa
 	terrain="plains"
 	culture="aquitani"
-	religion="chalcedonian"
+	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=20
 	barbarian_power=0

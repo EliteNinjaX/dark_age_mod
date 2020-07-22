@@ -1,0 +1,94 @@
+﻿country_decisions = {
+	embrace_chalcedonian_as_pagan = {
+	potential = {
+			OR = {
+			religion = roman_pantheon
+			religion = egyptian_pantheon
+			religion = carthaginian_pantheon
+			religion = druidism
+			religion = germanic_religion
+			religion = slavic
+			religion = tengri
+			}
+			num_of_cities >= 20
+			NOT = {
+			has_variable = no_chalcedonian
+			}
+		}
+	allow = {
+			stability >= 15
+			christian_conversion_trigger = {
+				RELIGION = chalcedonian
+			}
+		}
+			
+	effect = {
+		add_stability = -15
+		set_country_religion = chalcedonian
+		current_ruler = {
+		if = {
+			limit = {
+				NOT = { has_religion = chalcedonian }
+			}
+			set_character_religion = chalcedonian
+		}
+		}
+		custom_tooltip = "convert_chalcedonian"
+		hidden_effect = {
+		current_ruler.family = {
+			every_family_member = {
+				limit = {
+					loyalty >= 60
+					NOT = { has_religion = chalcedonian }
+				}
+				set_character_religion = chalcedonian
+			}
+		}
+		}
+		hidden_effect = {
+		every_character = {
+			limit = {
+				loyalty >= 60
+				NOT = { has_religion = chalcedonian }
+			}
+			set_character_religion = chalcedonian
+		}
+		}
+		hidden_effect = {
+			every_character = {
+				limit = {
+				NOT = { has_religion = chalcedonian }
+			}
+				add_loyalty = national_conversion_l
+			}
+		}
+	}
+	ai_will_do = {
+		base = 0
+	}
+	}
+	fuck_off_chalcedonian = {
+	potential = {
+			OR = {
+			religion = roman_pantheon
+			religion = egyptian_pantheon
+			religion = carthaginian_pantheon
+			religion = druidism
+			religion = germanic_religion
+			religion = slavic
+			religion = tengri
+			}
+			num_of_cities >= 20
+			NOT = {
+			has_variable = no_chalcedonian
+			}
+		}
+		effect = {
+		set_variable = {
+		name = no_chalcedonian
+		days = 0
+		}
+		}
+	}
+	
+	}

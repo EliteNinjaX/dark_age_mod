@@ -18,15 +18,18 @@
 	terrain="hills"
 	culture="cantabrian"
 	religion="druidism"
-	trade_goods="fur"
-	civilization_value=10
+	trade_goods="glass"
+	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=3
+	}
+	slaves={
+		amount=2
 	}
 }
 
@@ -100,7 +103,7 @@
 1044={ #Lancia
 	terrain="plains"
 	culture="asturian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -213,17 +216,23 @@
 
 1108={ #Veseiasueca
 	terrain="hills"
-	culture="cantabrian"
-	religion="druidism"
-	trade_goods="fish"
-	civilization_value=10
+	culture="hispania"
+	religion="roman_pantheon"
+	trade_goods="gems"
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=5
 	}
 	tribesmen={
 		amount=3
+	}
+	slaves={
+		amount=8
 	}
 }
 
@@ -246,7 +255,7 @@
 1110={ #Camarica
 	terrain="plains"
 	culture="cantabrian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -262,7 +271,7 @@
 1111={ #Equosera
 	terrain="plains"
 	culture="cantabrian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -1192,7 +1201,7 @@
 1185={ #Camala
 	terrain="plains"
 	culture="cantabrian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=10
 	barbarian_power=0

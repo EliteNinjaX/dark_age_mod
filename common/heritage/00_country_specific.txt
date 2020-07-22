@@ -112,7 +112,7 @@ vandal_heritage = {
 visigoth_heritage = {
 	modifier = {
 		#good
-		happiness_for_wrong_culture_group_modifier = 0.1
+		agressive_expansion_impact = -0.15
 		discipline = 0.05
 		
 		#bad

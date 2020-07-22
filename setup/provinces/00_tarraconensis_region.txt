@@ -13,7 +13,7 @@
 		amount=5
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -35,7 +35,7 @@
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -47,11 +47,11 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="wood"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -63,11 +63,11 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="glass"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -79,11 +79,11 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="fish"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -95,11 +95,11 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="grain"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -115,13 +115,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -133,11 +133,11 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="wood"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -149,11 +149,11 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="fur"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -169,13 +169,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=5
@@ -191,7 +191,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -207,13 +207,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -229,13 +229,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=9
@@ -244,14 +244,14 @@
 
 1013={ #Salduba
 	terrain="plains"
-	culture="hispania"
+	culture="vasconian"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -263,11 +263,11 @@
 	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="wine"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -283,7 +283,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -295,14 +295,14 @@
 	culture="vasconian"
 	religion="chalcedonian"
 	trade_goods="stone"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -311,17 +311,32 @@
 
 1017={ #Oiasso
 	terrain="plains"
-	culture="vasconian"
-	religion="druidism"
-	trade_goods="salt"
-	civilization_value=20
+	culture="hispania"
+	religion="roman_pantheon"
+	trade_goods="base_metals"
+	civilization_value=30
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=4
+	}
+	freemen={
+		culture="vasconian"
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		culture="vasconian"
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+	slaves={
+		culture="vasconian"
+		amount=3
 	}
 }
 
@@ -334,13 +349,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -356,7 +371,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -372,7 +387,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -384,17 +399,17 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="base_metals"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -410,7 +425,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -426,7 +441,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -442,7 +457,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -454,11 +469,11 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="base_metals"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -470,17 +485,17 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="fur"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
-	}
-	freemen={
 		amount=2
 	}
+	freemen={
+		amount=3
+	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -492,11 +507,11 @@
 	culture="gothonic"
 	religion="arian"
 	trade_goods="wood"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -512,7 +527,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -528,7 +543,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -544,7 +559,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -560,7 +575,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -576,7 +591,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -592,7 +607,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -608,7 +623,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -624,7 +639,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -640,7 +655,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -656,7 +671,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -672,7 +687,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -684,11 +699,11 @@
 	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="marble"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -700,11 +715,11 @@
 	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="fur"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -716,11 +731,11 @@
 	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="fur"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -732,11 +747,11 @@
 	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="grain"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -748,11 +763,11 @@
 	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="stone"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -762,13 +777,13 @@
 1077={ #Iluberis
 	terrain="hills"
 	culture="vasconian"
-	religion="chalcedonian"
+	religion="druidism"
 	trade_goods="wood"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=5
@@ -780,11 +795,11 @@
 	culture="vasconian"
 	religion="druidism"
 	trade_goods="iron"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=5
@@ -796,11 +811,11 @@
 	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="fur"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -810,13 +825,13 @@
 1081={ #Carta
 	terrain="plains"
 	culture="vasconian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wood"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -828,11 +843,11 @@
 	culture="vasconian"
 	religion="druidism"
 	trade_goods="wood"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -844,11 +859,11 @@
 	culture="vasconian"
 	religion="druidism"
 	trade_goods="salt"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -860,14 +875,21 @@
 	culture="vasconian"
 	religion="druidism"
 	trade_goods="iron"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=2
+		religion="roman_pantheon"
+	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=3
+		amount=7
+	}
+	slaves={
+		amount=4
 	}
 }
 
@@ -876,11 +898,11 @@
 	culture="vasconian"
 	religion="druidism"
 	trade_goods="stone"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -892,15 +914,21 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
 		amount=3
 	}
+	slaves={
+		amount=4
+		}
 }
 
 1087={ #Vareia
@@ -908,11 +936,11 @@
 	culture="vasconian"
 	religion="druidism"
 	trade_goods="fur"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -924,11 +952,11 @@
 	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="fur"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -937,14 +965,14 @@
 
 1089={ #Cascantum
 	terrain="hills"
-	culture="hispania"
+	culture="vasconian"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -960,13 +988,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -982,10 +1010,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1001,7 +1029,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1013,20 +1041,20 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="cloth"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=3
 	}
 }
 
@@ -1035,11 +1063,11 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="base_metals"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -1051,11 +1079,11 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1071,7 +1099,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -1083,11 +1111,11 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="iron"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1099,11 +1127,11 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="fish"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1115,11 +1143,11 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="horses"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1131,11 +1159,11 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="base_metals"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1151,7 +1179,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -1167,10 +1195,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
+	}
+	slaves={
+		amount=2
 	}
 }
 
@@ -1183,10 +1214,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
+	}
+	slaves={
+		amount=2
 	}
 }
 
@@ -1195,14 +1229,17 @@
 	culture="autrigonian"
 	religion="druidism"
 	trade_goods="leather"
-	civilization_value=20
+	civilization_value=25
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
+	}
+	slaves={
+		amount=4
 	}
 }
 
@@ -1215,7 +1252,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1231,13 +1268,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1253,7 +1290,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
 		amount=3
@@ -1272,7 +1309,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1288,10 +1325,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1304,7 +1341,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1320,7 +1357,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1336,7 +1373,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1352,13 +1389,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -1374,7 +1411,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -1390,7 +1427,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1406,13 +1443,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1428,7 +1465,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1444,10 +1481,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1463,13 +1500,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1485,7 +1522,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -1501,10 +1538,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=3
@@ -1520,7 +1557,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -1536,10 +1573,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
-		amount=2
+		amount=3
 	}
 }
 
@@ -1552,7 +1589,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -1568,7 +1605,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1584,13 +1621,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=2
+		amount=3
 	}
 	tribesmen={
 		amount=5
@@ -1606,7 +1643,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -1622,7 +1659,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -1638,7 +1675,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=6
@@ -1654,7 +1691,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=4
@@ -1670,7 +1707,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=5
@@ -1686,7 +1723,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3

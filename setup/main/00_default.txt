@@ -3496,10 +3496,9 @@ country = {
 		}		
 
 		BAS = {
-			government = tribal_chiefdom
+			government = despotic_monarchy
 			primary_culture = vasconian
 			religion = druidism
-			centralization= 50
 			
 			capital = 1084
 			
