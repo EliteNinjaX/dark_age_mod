@@ -3,7 +3,7 @@
 	3={
 		first_name="Hilderic"
 		family = c:VAN.fam:Gaiseric
-		birth_date=1226.10.6
+		birth_date=473.10.6
 		culture="vandal"
 		religion="chalcedonian"
 		no_stats=yes
@@ -25,7 +25,7 @@
 	4={
 		first_name="Gelimer"
 		family = c:VAN.fam:Gaiseric
-		birth_date=1232.9.20
+		birth_date=479.9.20
 		culture="vandal"
 		religion="arian"
 		no_stats=yes
@@ -43,7 +43,7 @@
 	22={
 		first_name="Godas"
 		family_name="Gothica"
-		birth_date=1236.11.9
+		birth_date=483.11.9
 		culture="gothonic"
 		religion="arian"
 		no_stats=yes
@@ -60,7 +60,7 @@
 	23={
 		first_name="Tzazo"
 		family = c:VAN.fam:Gaiseric
-		birth_date=1232.9.20
+		birth_date=479.9.20
 		culture="vandal"
 		religion="arian"
 		no_stats=yes

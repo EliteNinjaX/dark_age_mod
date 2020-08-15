@@ -3,7 +3,7 @@
 	5={
 		first_name="Athalaric"
 		family = c:OGO.fam:Theodoric
-		birth_date=1268.12.15
+		birth_date=515.12.15
 		culture="gothonic"
 		religion="arian"
 		no_stats=yes
@@ -23,7 +23,7 @@
 	6={
 		first_name="Theodahad"
 		family = c:OGO.fam:Theodoric
-		birth_date=1240.12.29
+		birth_date=487.12.29
 		culture="gothonic"
 		religion="arian"
 		no_stats=yes
@@ -42,7 +42,7 @@
 	7={
 		first_name="Totila"
 		family_name="Theudis"
-		birth_date=1240.6.2
+		birth_date=487.6.2
 		culture="gothonic"
 		religion="arian"
 		no_stats=yes
@@ -64,7 +64,7 @@
 		first_name="Amalasuntha"
 		family = c:OGO.fam:Theodoric
 		female=yes
-		birth_date=1248.2.22
+		birth_date=495.2.22
 		culture="gothonic"
 		religion="arian"
 		no_stats=yes

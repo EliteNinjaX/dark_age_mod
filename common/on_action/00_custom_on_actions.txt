@@ -279,7 +279,7 @@ olympic_country_pulse = {
 				has_variable = olympic_4_year_cd
 			}
 		}
-		current_date < 452.12.12
+		current_date < -301.12.12
 	}
 	effect = {
 		if = {
@@ -631,7 +631,7 @@ main_event_pulse_country = {
 		100 = dhe_slave.6
 		100 = dhe_slave.7
 		100 = dhe_slave.8
-		# 1.1.0
+		# -752.1.0
 		50 = roman_flavor.8
 		# CO-CONSUL
 		250 = ip_republic.49
@@ -705,7 +705,7 @@ yearly_gambling_pulse = {
 yearly_disaster_pulse = {
 	trigger = {
 		num_of_cities >= 5
-		current_date > 480.1.1
+		current_date > -273.1.1
 	}
 	events = {
 
@@ -1019,7 +1019,7 @@ consul_conspiracy_pulse = {
 
 yearly_italian_flavor = {
 	trigger = {
-		current_date < 500.1.1
+		current_date < -253.1.1
 	}
 	events = {
 		italian_flavor.1 # Tarantine event chain

@@ -3,7 +3,7 @@
 	0={
 		first_name="Flavius"
 		family = c:ERE.fam:Justinian
-		birth_date=1254.9.22
+		birth_date=501.9.22
 		culture="illyria"
 		religion="chalcedonian"
 		marry_character=char:14
@@ -26,7 +26,7 @@
 	24={
 		first_name="Flavius"
 		family_name="Belisarius"
-		birth_date=1252.11.27
+		birth_date=499.11.27
 		culture="roman"
 		religion="chalcedonian"
 		no_stats=yes
@@ -45,7 +45,7 @@
 		first_name="Theodora"
 		family_name="Augusta"
 		female=yes
-		birth_date=1252.11.27
+		birth_date=499.11.27
 		culture="greek"
 		religion="miaphysite"
 		marry_character=char:0
@@ -64,7 +64,7 @@
 	15={
 		first_name="Narses"
 		family_name="Andonian"
-		birth_date=1222.8.17
+		birth_date=469.8.17
 		culture="armenian"
 		religion="chalcedonian"
 		no_stats=yes
@@ -82,7 +82,7 @@
 	16={
 		first_name="John"
 		family_name="Kasparian"
-		birth_date=1250.4.29
+		birth_date=497.4.29
 		culture="armenian"
 		religion="chalcedonian"
 		no_stats=yes
@@ -99,7 +99,7 @@
 	17={
 		first_name="Procopius"
 		family_name="Caesarea"
-		birth_date=1252.11.27
+		birth_date=499.11.27
 		culture="greek"
 		religion="chalcedonian"
 		no_stats=yes
@@ -116,7 +116,7 @@
 	19={
 		first_name="Germanus"
 		family = c:ERE.fam:Justinian
-		birth_date=1258.1.19
+		birth_date=505.1.19
 		culture="illyria"
 		religion="chalcedonian"
 		no_stats=yes
@@ -134,7 +134,7 @@
 	27={
 		first_name="Justin"
 		family = c:ERE.fam:Justinian
-		birth_date=1273.10.12
+		birth_date=520.10.12
 		culture="illyria"
 		religion="chalcedonian"
 		no_stats=yes
@@ -154,8 +154,8 @@
 #	28={
 #		first_name="Justin"
 #		family = c:ERE.fam:Justinian
-#		birth_date=1203.2.2
-#		death_date=1280.8.1
+#		birth_date=450.2.2
+#		death_date=527.8.1
 #		culture="illyria"
 #		religion="chalcedonian"
 #		dna="Fv8W/7ptum3i7uLuAoUChQJ8AnwCfgJ+AnoCegJyAnICdwJ3AnwCfAJ+An4ChwKHAocChwKTApMCagJqAmcCZwKTApMCeAJ4AoQChAJrAmsCfAJ8AnECcQJyAnICgAKAAm0CbQKTApMBYQFhAmcCZwJ0AnQCbwJvAnMCcwFiAWICdQJ1AmsCawJpAmkCkgKSA5kDmQJsAmwCawJrAo0CjQJwAnACgQKBAoMCgwJ0AnQCcQJxApgCmASzBLMCawJrAn8CfwKEAoQCjAKMAnwCfAJpAmkCZgJmApECkQJxAnECaAJoAmoCagJrAmsASwBLAuQC5AE6AToC9wL3AV0BXQA/AD8BeAF4AN4A3gBMAEwAHgAeAUkBSQAAAAABeAF4AB4AHgKxArEACgAKAvgC+ACnAKcB4wHjATgBOAAAAAAAcQBxAXEBcQF7AXsBfwF/AVkBWQKKAooCigKKAGEAYQAAAAAE2wTbAIIAggDnAOcKZgpmAAAAAAEnAScBoAGgAL4AvgkfCR8BPQE9AL4AvgAAAAAAAAAAAAAAAA=="
@@ -163,7 +163,7 @@
 	28={
 		first_name="Vigilantia"
 		family = c:ERE.fam:Justinian
-		birth_date=1205.1.1
+		birth_date=452.1.1
 		female=yes
 		culture="illyria"
 		religion="chalcedonian"

@@ -13,7 +13,7 @@ plague_events.6 = {
 				is_in_region = magna_graecia_region
 			}
 		}
-		current_date > 1296.2.1	
+		current_date > 543.2.1	
 		NOT = { has_global_variable = plague_wave_six }
 	}
 	option = {

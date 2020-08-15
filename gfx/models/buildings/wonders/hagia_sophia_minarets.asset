@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "hagia_sophia_minarets_mesh"
+	file = "hagia_sophia_minarets.mesh"
+
+	meshsettings = {
+		name = "hagia_sophia_minaretsShape"
+		index = 0
+		texture_diffuse = "hagia_sophia_diffuse.dds"
+		texture_normal = "hagia_sophia_normal.dds"
+		texture_specular = "hagia_sophia_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+    name = "hagia_sophia_minarets_entity"
+    pdxmesh = "hagia_sophia_minarets_mesh"
+}
+

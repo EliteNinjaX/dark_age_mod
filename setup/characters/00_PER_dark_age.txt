@@ -3,7 +3,7 @@
 	2={
 		first_name="Khosrow"
 		family = c:PER.fam:Sasan
-		birth_date=1248.10.8
+		birth_date=495.10.8
 		culture="median"
 		religion="zoroaster"
 		no_stats=yes
@@ -22,7 +22,7 @@
 	13={
 		first_name="Kavad"
 		family = c:PER.fam:Sasan
-		birth_date=1224.12.11
+		birth_date=471.12.11
 		culture="median"
 		religion="zoroaster"
 		no_stats=yes
@@ -44,8 +44,8 @@
 	29={
 		first_name="Zoroaster"
 		family_name="Spitama"
-		birth_date=1.1.2
-		death_date=60.1.2
+		birth_date=-752.1.2
+		death_date=-693.1.2
 		culture="bactrian"
 		religion="zoroaster"
 		no_stats=yes

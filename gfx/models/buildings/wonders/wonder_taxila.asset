@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "wonder_taxila_mesh"
+	file = "wonder_taxila.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 30.0 }
+		lod = { index = 2 percent = 12.5 }
+	}
+
+	meshsettings = {
+		name = "taxila_university_LOD0Shape"
+		index = 0
+		texture_diffuse = "wonder_taxila_diffuse.dds"
+		texture_normal = "wonder_taxila_normal.dds"
+		texture_specular = "wonder_taxila_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "taxila_university_LOD1Shape"
+		index = 0
+		texture_diffuse = "wonder_taxila_diffuse.dds"
+		texture_normal = "wonder_taxila_normal.dds"
+		texture_specular = "wonder_taxila_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "taxila_university_LOD2Shape"
+		index = 0
+		texture_diffuse = "wonder_taxila_diffuse.dds"
+		texture_normal = "wonder_taxila_normal.dds"
+		texture_specular = "wonder_taxila_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "wonder_taxila_entity"
+	pdxmesh = "wonder_taxila_mesh"
+}

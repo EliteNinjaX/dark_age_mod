@@ -3,7 +3,7 @@
 	20={
 		first_name="Elemund"
 		family = c:EVS.fam:Elemunding
-		birth_date=1254.9.22
+		birth_date=501.9.22
 		culture="gepids"
 		religion="germanic_religion"
 		no_stats=yes

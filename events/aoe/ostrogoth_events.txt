@@ -8,7 +8,7 @@ ostrogoth_events.1 = {
 	goto_location = root
 	trigger = {
 		tag = OGO
-		current_date > 1280.11.1
+		current_date > 527.11.1
 		region:magna_graecia_region = {
 			any_region_province = {
 				owned_or_subject_owned = root

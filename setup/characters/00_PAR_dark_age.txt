@@ -3,7 +3,7 @@
 	10={
 		first_name="Childebert"
 		family = c:PAR.fam:Merovingian
-		birth_date=1254.9.22
+		birth_date=501.9.22
 		culture="franks"
 		religion="chalcedonian"
 		no_stats=yes

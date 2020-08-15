@@ -9,7 +9,7 @@ ere_events.1 = {
 	goto_location = root
 	trigger = {
 		tag = ERE
-		current_date > 1285.2.1	
+		current_date > 532.2.1	
 		NOT = {
 			has_variable = rome100_flag
 		}

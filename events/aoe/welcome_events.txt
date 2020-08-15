@@ -9,7 +9,7 @@ welcome_events.1 = {
 	goto_location = root
 	trigger = {
 		is_ai = no
-		current_date > 1280.11.1	
+		current_date > 527.11.1	
 		NOT = {
 			has_variable = welcome100_flag
 		}

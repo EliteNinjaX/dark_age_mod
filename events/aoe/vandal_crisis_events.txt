@@ -9,7 +9,7 @@ vandal_crisis_events.1 = {
 	goto_location = root
 	trigger = {
 		tag = VAN
-		current_date > 1281.1.1	
+		current_date > 528.1.1	
 		NOT = {
 			has_variable = vandal_crisis_100_flag
 		}
@@ -51,7 +51,7 @@ vandal_crisis_events.2 = {
 	goto_location = root
 	trigger = {
 		tag = VAN
-		current_date > 1283.4.1
+		current_date > 530.4.1
 		has_variable = vandal_crisis_tolerance_flag		
 		NOT = {
 			has_variable = vandal_crisis_200_flag
@@ -90,7 +90,7 @@ vandal_crisis_events.3 = {
 	goto_location = root
 	trigger = {
 		tag = VAN
-		current_date > 1285.5.1		
+		current_date > 532.5.1		
 		NOT = {
 			has_variable = vandal_crisis_300_flag
 		}
@@ -161,7 +161,7 @@ vandal_crisis_events.4 = {
 	goto_location = root
 	trigger = {
 		tag = ERE
-		current_date > 1287.1.1	
+		current_date > 534.1.1	
 		exists = c:VAN
 		NOT = {
 			has_variable = vandal_crisis_ere_1_flag
@@ -208,7 +208,7 @@ vandal_crisis_events.5 = {
 	type = country_event
 	trigger = {
 		is_ai = yes
-		current_date < 1287.3.1
+		current_date < 534.3.1
 		tag = ERE
 		has_variable = vandal_crisis_ere_1_flag
 		NOT = {

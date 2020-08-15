@@ -1,0 +1,41 @@
+pdxmesh = {
+	name = "wonder_temple_artemis_mesh"
+	file = "wonder_temple_artemis.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 8.0 }
+	}
+
+	meshsettings = {
+		name = "temple_artemis_LOD0Shape"
+		index = 0
+		texture_diffuse = "wonder_temple_artemis_diffuse.dds"
+		texture_normal = "wonder_temple_artemis_normal.dds"
+		texture_specular = "wonder_temple_artemis_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "temple_artemis_LOD3Shape1"
+		index = 0
+		texture_diffuse = "wonder_temple_artemis_diffuse.dds"
+		texture_normal = "wonder_temple_artemis_normal.dds"
+		texture_specular = "wonder_temple_artemis_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "wonder_temple_artemis_entity"
+	pdxmesh = "wonder_temple_artemis_mesh"
+	
+	default_state = "idle"
+	state = { 
+		name = "idle"
+		state_time = 5
+		start_event = { node = brazier_1 particle = "environment/brazier_fire_01_effect" trigger_once = yes }
+		start_event = { node = brazier_2 particle = "environment/brazier_fire_01_effect" trigger_once = yes }
+	}
+}

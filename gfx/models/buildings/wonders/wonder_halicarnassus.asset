@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "wonder_halicarnassus_mesh"
+	file = "wonder_halicarnassus.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 15.0 }
+		lod = { index = 2 percent = 8.0 }
+	}
+
+	meshsettings = {
+		name = "halicarnassus_mausoleum_LOD0Shape"
+		index = 0
+		texture_diffuse = "wonder_halicarnassus_diffuse.dds"
+		texture_normal = "wonder_halicarnassus_normal.dds"
+		texture_specular = "wonder_halicarnassus_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1|halicarnassus_mausoleum_LOD1|halicarnassus_mausoleum_LOD1"
+		index = 0
+		texture_diffuse = "wonder_halicarnassus_diffuse.dds"
+		texture_normal = "wonder_halicarnassus_normal.dds"
+		texture_specular = "wonder_halicarnassus_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_2|halicarnassus_mausoleum_LOD1|halicarnassus_mausoleum_LOD1"
+		index = 0
+		texture_diffuse = "wonder_halicarnassus_diffuse.dds"
+		texture_normal = "wonder_halicarnassus_normal.dds"
+		texture_specular = "wonder_halicarnassus_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "wonder_halicarnassus_entity"
+	pdxmesh = "wonder_halicarnassus_mesh"
+}

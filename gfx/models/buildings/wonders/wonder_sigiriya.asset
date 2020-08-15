@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "wonder_sigiriya_mesh"
+	file = "wonder_sigiriya.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 30.0 }
+		lod = { index = 2 percent = 15.0 }
+	}
+
+	meshsettings = {
+		name = "wonder_sigiriya_lod0Shape"
+		index = 0
+		texture_diffuse = "wonder_sigiriya_diffuse.dds"
+		texture_normal = "wonder_sigiriya_normal.dds"
+		texture_specular = "wonder_sigiriya_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1|wonder_sigiriya_lod1|wonder_sigiriya_lod1Shape"
+		index = 0
+		texture_diffuse = "wonder_sigiriya_diffuse.dds"
+		texture_normal = "wonder_sigiriya_normal.dds"
+		texture_specular = "wonder_sigiriya_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_2|wonder_sigiriya_lod1|wonder_sigiriya_lod1Shape"
+		index = 0
+		texture_diffuse = "wonder_sigiriya_diffuse.dds"
+		texture_normal = "wonder_sigiriya_normal.dds"
+		texture_specular = "wonder_sigiriya_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "wonder_sigiriya_entity"
+	pdxmesh = "wonder_sigiriya_mesh"
+}
