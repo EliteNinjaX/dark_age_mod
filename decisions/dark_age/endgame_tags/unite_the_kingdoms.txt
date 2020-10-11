@@ -1,0 +1,73 @@
+﻿country_decisions = {
+	
+	# United the kingdoms
+	unite_the_kingdoms = {
+		
+		potential = {
+			num_of_cities >= 1
+			country_culture = anglosaxon
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+			NOT = {
+				tag = GBR
+			}
+			OR = {
+				is_ai = no
+				OR = {
+					num_of_cities >= 60
+					AND = {
+						is_tribal = no
+						num_of_cities >= 20
+					}
+				}	
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_region = britain_region
+					is_in_region = caledonia_region
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = formable_not_great_britain_exists
+				NOT = {
+					any_country = {
+						tag = GBR
+					}
+				}
+			}
+			OR = {
+				is_monarchy = yes
+				is_republic = yes
+			}
+			can_form_nation_trigger = yes
+			owns_region = britain_region
+			owns_region = caledonia_region
+		}
+		
+		effect = {
+			change_country_name = "BRITAIN_NAME"
+			hidden_effect = {
+				change_country_adjective = "BRITAIN_ADJECTIVE"
+				change_country_color =  "ck2_red"
+				change_country_tag = GBR
+				change_country_flag = GBR
+			}
+			add_country_modifier = {
+				name = formable_country_huge_modifier
+				duration = 7600
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
+
