@@ -823,8 +823,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=7
+		amount=6
 	}
 	freemen={
 		amount=4
@@ -864,10 +867,10 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=3
+	nobles = {
+		amount = 9
+		culture="vandal"
+		religion="arian"
 	}
 	citizen={
 		amount=31
@@ -891,14 +894,21 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
 		amount=10
 	}
 	freemen={
 		amount=6
+		culture="africa"
+		religion="chalcedonian"
 	}
 	slaves={
 		amount=7
+		culture="africa"
+		religion="chalcedonian"
 	}
 	tribesmen={
 		amount=4
@@ -1341,8 +1351,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=7
+		amount=6
 	}
 	freemen={
 		amount=4
@@ -1363,8 +1376,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=8
+		amount=7
 	}
 	freemen={
 		amount=4
@@ -1385,6 +1401,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
 		amount=7
 	}
@@ -1432,8 +1451,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=12
+		amount=11
 	}
 	freemen={
 		amount=6
@@ -1692,8 +1714,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=7
+		amount=6
 	}
 	freemen={
 		amount=7

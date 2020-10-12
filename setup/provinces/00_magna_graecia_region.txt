@@ -6,8 +6,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=5
+		amount=4
 	}
 	freemen={
 		amount=4
@@ -25,10 +28,8 @@
 	civilization_value=30
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=1
+	nobles = {
+		amount = 1
 	}
 	citizen={
 		amount=9
@@ -40,7 +41,7 @@
 		amount=5
 	}
 	tribesmen={
-		amount=2
+		amount=1
 	}
 }
 
@@ -143,17 +144,20 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
-	citizen={
+	nobles = {
 		amount=1
 	}
+	citizen={
+		amount=5
+	}
 	freemen={
-		amount=3
+		amount=4
 	}
 	slaves={
 		amount=4
 	}
 	tribesmen={
-		amount=11
+		amount=5
 	}
 }
 
@@ -206,8 +210,11 @@
 	civilization_value=30
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=10
+		amount=9
 	}
 	freemen={
 		amount=4
@@ -552,8 +559,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
-		amount=6
+		amount=5
 	}
 	freemen={
 		amount=3
@@ -593,8 +603,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
-		amount=8
+		amount=7
 	}
 	freemen={
 		amount=4
@@ -615,8 +628,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
-		amount=9
+		amount=8
 	}
 	freemen={
 		amount=4
@@ -637,8 +653,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
-		amount=10
+		amount=9
 	}
 	freemen={
 		amount=4
@@ -1165,12 +1184,15 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=2
+	}
 	citizen={
 		culture="greek"
 		amount=2
 	}
 	citizen={
-		amount=5
+		amount=3
 	}
 	freemen={
 		amount=7
@@ -1278,19 +1300,14 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		culture="achaean"
-		amount=1
+	nobles = {
+		amount=2
 	}
 	citizen={
 		amount=7
 	}
 	freemen={
 		amount=6
-	}
-	freemen={
-		culture="achaean"
-		amount=1
 	}
 	slaves={
 		amount=14
@@ -1338,8 +1355,7 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		culture="aegean"
+	nobles = {
 		amount=1
 	}
 	citizen={
@@ -1516,15 +1532,14 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
+	nobles = {
+		amount = 1
+	}
 	citizen={
 		amount=3
 	}
 	freemen={
-		amount=4
-	}
-	freemen={
-		culture="roman"
-		amount=8
+		amount=11
 	}
 	slaves={
 		amount=3

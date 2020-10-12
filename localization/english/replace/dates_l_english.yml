@@ -1,6 +1,6 @@
 ﻿l_english:
  CURRENT_DATE:0 "[GetDateString] AD"
- CURRENT_DATE_TOOLTIP:2 "#T Current Date#!\nThe game date counts from the death of Christ; Anno Domini. For those who prefer to count from the founding of Rome, Ab Urbe Condita, the current date is [GetDateString] AVC. [GetPlayerDatesString]\n\n#TF "For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, plans to give you hope and a future." -Jeremiah 29:11#!"
+ CURRENT_DATE_TOOLTIP:2 "#T Current Date#!\nThe game date counts from the death of Christ; Anno Domini. This is used in the Julian and Gregorian calendars. The term anno Domini is Medieval Latin and means "in the year of the Lord", however the full original phrase is "anno Domini nostri Jesu Christi", which translates to "in the year of our Lord Jesus Christ". [GetPlayerDatesString]\n\n#TF "For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, plans to give you hope and a future." -Jeremiah 29:11#!"
  THE_WORLD_TOOLTIP:1 "#T Current Date#!\nAD stands for Anno Domini, or 'The year of the lord' Sometimes also know as "After Death". This is a dating convention commonly used by christians in reference to the death of Christ."
  THE_WORLD:1 "[GetDateString] AD"
  DATE_AD_YEAR: "$YEAR$ AD"

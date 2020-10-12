@@ -601,6 +601,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
+	nobles = {
+		amount = 1
+	}
 	citizen={
 		amount=1
 	}

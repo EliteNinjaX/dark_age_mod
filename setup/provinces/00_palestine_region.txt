@@ -618,7 +618,7 @@
 	}
 }
 
-687={ #Ierusalem
+687={ #Ierusalem/Jerusalem
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -626,6 +626,9 @@
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
 		amount=7
 	}
@@ -638,6 +641,7 @@
 	tribesmen={
 		amount=2
 	}
+	holy_site = omen_samuel
 }
 
 688={ #Thekoa
@@ -1388,8 +1392,11 @@
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
-		amount=8
+		amount=7
 	}
 	freemen={
 		amount=4
@@ -1400,6 +1407,7 @@
 	tribesmen={
 		amount=4
 	}
+	holy_site = omen_al_qaum
 }
 
 730={ #Adrou

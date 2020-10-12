@@ -83,7 +83,7 @@
 	}
 }
 
-743={ #Tyrus
+743={ #Tyrus/Tyros
 	terrain="plains"
 	culture="aramaic"
 	religion="miaphysite"
@@ -91,6 +91,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"

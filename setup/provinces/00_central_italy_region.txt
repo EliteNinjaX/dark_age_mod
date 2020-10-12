@@ -6,10 +6,13 @@
 	civilization_value=50
 	barbarian_power=0
 	province_rank="city_metropolis"
+	nobles = {
+		amount=2
+	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=8
+		amount=7
 	}
 	citizen={
 		amount=12
@@ -155,8 +158,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=2
+	}
 	citizen={
-		amount=15
+		amount=13
 	}
 	freemen={
 		amount=21
@@ -580,8 +586,11 @@
 	civilization_value=30
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=2
+	}
 	citizen={
-		amount=9
+		amount=7
 	}
 	freemen={
 		amount=6
@@ -816,6 +825,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
 		amount=4
 	}
@@ -826,7 +838,7 @@
 		amount=11
 	}
 	tribesmen={
-		amount=7
+		amount=6
 	}
 }
 
@@ -882,8 +894,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
-		amount=8
+		amount=7
 	}
 	freemen={
 		amount=4
@@ -1033,6 +1048,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
 		amount=4
 	}
@@ -1043,7 +1061,7 @@
 		amount=4
 	}
 	tribesmen={
-		amount=8
+		amount=7
 	}
 }
 
@@ -1077,6 +1095,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
 		amount=6
 	}
@@ -1087,7 +1108,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=11
+		amount=10
 	}
 }
 
@@ -1360,8 +1381,11 @@
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 3
+	}
 	citizen={
-		amount=20
+		amount=17
 	}
 	freemen={
 		amount=19
@@ -2062,6 +2086,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
+	nobles = {
+		amount=1
+	}
 	citizen={
 		amount=3
 	}
@@ -2072,7 +2099,7 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 	}
 }
 

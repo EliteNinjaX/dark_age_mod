@@ -632,13 +632,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=33
+		amount=5
 	}
 	freemen={
-		amount=12
+		amount=10
 	}
 	slaves={
-		amount=15
+		amount=10
 	}
 }
 
@@ -647,20 +647,20 @@
 	culture="babylonian"
 	religion="nestorian"
 	trade_goods="papyrus"
-	civilization_value=40
+	civilization_value=50
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 10
+	}
 	citizen={
-		amount=5
+		amount=23
 	}
 	freemen={
-		amount=10
+		amount=12
 	}
 	slaves={
-		amount=14
-	}
-	tribesmen={
-		amount=3
+		amount=15
 	}
 }
 
@@ -672,14 +672,20 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}	
 	citizen={
-		amount=5
+		amount=4
 	}
 	freemen={
 		amount=10
 	}
 	slaves={
-		amount=10
+		amount=14
+	}
+	tribesmen={
+		amount=3
 	}
 }
 
@@ -764,25 +770,29 @@
 	civilization_value=50
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		amount=28
+	nobles = {
+		amount = 5
 	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=4
+	}
+	citizen={
+		amount=19
 	}
 	freemen={
 		amount=11
 	}
 	slaves={
-		amount=19
-	}
-	slaves={
 		culture="hebrew"
 		religion="judaism"
 		amount=4
 	}
+	slaves={
+		amount=13
+	}
+	holy_site = omen_marduk
 }
 
 919={ #Borsippa
@@ -1061,8 +1071,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=8
+		amount=7
 	}
 	freemen={
 		amount=3
@@ -1251,8 +1264,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 2
+	}
 	citizen={
-		amount=11
+		amount=9
 	}
 	freemen={
 		culture="babylonian"

@@ -941,6 +941,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 2
+	}
 	citizen={
 		amount=10
 	}
@@ -948,11 +951,7 @@
 		amount=9
 	}
 	slaves={
-		amount=3
-	}
-	tribesmen={
-		culture="gaul"
-		amount=4
+		amount=5
 	}
 }
 

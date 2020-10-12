@@ -6,8 +6,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city_metropolis"
+	nobles = {
+		amount = 8
+	}
 	citizen={
-		amount=39
+		amount=31
 	}
 	freemen={
 		amount=14

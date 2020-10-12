@@ -1479,17 +1479,20 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 3
+	}
 	citizen={
-		amount=7
+		amount=6
 	}
 	freemen={
-		amount=8
+		amount=7
 	}
 	slaves={
 		amount=6
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 

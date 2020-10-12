@@ -190,8 +190,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=1
+	}
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=4
@@ -847,6 +850,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
 		amount=7
 	}
@@ -871,7 +877,7 @@
 		amount=2
 	}
 	tribesmen={
-		amount=3
+		amount=2
 	}
 }
 
@@ -1242,8 +1248,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=14
+		amount=13
 	}
 	freemen={
 		amount=9

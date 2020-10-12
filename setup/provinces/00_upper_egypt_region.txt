@@ -372,7 +372,7 @@
 	}
 }
 
-569={ #Thebae Aegyptum
+569={ #Thebae Aegyptum/Thebai Hekatompyloi
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -380,13 +380,16 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount = 1
+	}
 	citizen={
 		amount=2
 	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=2
+		amount=1
 	}
 	freemen={
 		culture="hebrew"

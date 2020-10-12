@@ -42,7 +42,7 @@
 	}
 }
 
-591={ #Syene
+591={ #Syene/Swenett
 	terrain="plains"
 	culture="meroitic"
 	religion="miaphysite"
@@ -50,25 +50,29 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=2
+	}
+	citizen={
+		amount=7
+	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"
 		amount=4
 	}
-	citizen={
-		amount=9
-	}
-	freemen={
-		amount=2
-	}
 	freemen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
 	}
+	freemen={
+		amount=2
+	}
 	slaves={
 		amount=3
 	}
+	holy_site = omen_isis
 }
 
 592={ #Talmis
@@ -1021,13 +1025,24 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
-	freemen={
+	nobles = {
+		amount=1
+	}
+	citizen={
 		amount=15
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=3
 	}
 	freemen={
 		culture="hebrew"
 		religion="judaism"
 		amount=3
+	}
+	freemen={
+		amount=16
 	}
 	slaves={
 		amount=14

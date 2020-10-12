@@ -28,8 +28,11 @@
 	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
+	nobles = {
+		amount = 1
+	}
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
 		amount=3

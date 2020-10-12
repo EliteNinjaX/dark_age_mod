@@ -199,6 +199,9 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=2
+	}
 	citizen={
 		amount=10
 	}
@@ -711,7 +714,7 @@
 	}
 }
 
-1453={ #Constantinople
+1453={ #Constantinople/Byzantion
 	terrain="farmland"
 	culture="roman"
 	religion="chalcedonian"
@@ -719,6 +722,14 @@
 	civilization_value=60
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=4
+	}
+	nobles = {
+		amount=1
+		culture="thracian"
+		religion="roman_pantheon"
+	}
 	citizen={
 		culture="thracian"
 		religion="roman_pantheon"

@@ -1261,16 +1261,22 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
-	citizen={
-		amount=11
+	nobles = {
+		amount = 1
 	}
 	citizen={
-		culture="macedonian"
+		amount=10
+	}
+	citizen={
+		culture="greek"
 		religion="chalcedonian"
 		amount=5
 	}
 	freemen={
 		amount=7
+	}
+	slaves={
+		amount=3
 	}
 	tribesmen={
 		amount=1
