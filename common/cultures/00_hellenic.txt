@@ -95,6 +95,7 @@
 		aetolian = {}
 		aegean = {}
 		greco_pontic = {}
+		aeolian = { }
 		lydian = {}
 		troan = {}
 		ionian = {}

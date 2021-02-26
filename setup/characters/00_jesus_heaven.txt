@@ -62,7 +62,7 @@
 	43={
 		first_name="Mary"
 		nickname="'Mother of God'"
-		family = " Holy "
+		family_name=" "
 		birth_date=-53.1.1
 		death_date=-13.1.1
 		female=yes
