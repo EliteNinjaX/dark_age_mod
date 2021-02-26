@@ -2190,8 +2190,8 @@
 
 5174={ #
 	terrain=""
-	culture=""
-	religion=""
+	culture="greco_pontic"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -2200,8 +2200,8 @@
 
 5175={ #
 	terrain=""
-	culture=""
-	religion=""
+	culture="greco_pontic"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -4392,10 +4392,10 @@
 	terrain="jungle"
 	culture="kalingan"
 	religion="hindu"
-	trade_goods=""
+	trade_goods="grain"
 	civilization_value=0
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
 }
 
 5443={ #Chattisgarh Jungle
@@ -6290,12 +6290,12 @@
 
 6397={ #
 	terrain="ocean"
-	culture=""
-	religion=""
-	trade_goods=""
+	culture="gandhari"
+	religion="hindu"
+	trade_goods="grain"
 	civilization_value=0
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
 }
 
 6398={ #
@@ -6310,12 +6310,12 @@
 
 6399={ #
 	terrain="ocean"
-	culture=""
-	religion=""
-	trade_goods=""
+	culture="gandhari"
+	religion="hindu"
+	trade_goods="grain"
 	civilization_value=0
 	barbarian_power=0
-	province_rank=""
+	province_rank="settlement"
 }
 
 6400={ #
