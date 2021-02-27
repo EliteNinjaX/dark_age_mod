@@ -2,7 +2,7 @@
 	country="ERE"
 	0={
 		first_name="Flavius"
-		family = c:ERE.fam:Justinian
+		family_name="Justinian"
 		birth_date=501.9.22
 		culture="illyria"
 		religion="chalcedonian"
