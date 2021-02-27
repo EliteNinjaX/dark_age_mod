@@ -1,0 +1,285 @@
+﻿easter_roman_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_group_modifier = 0.1
+		diplomatic_reputation = 2
+		
+		#bad
+		global_population_growth = -0.1
+	}
+	
+	trigger = {
+		tag = ERE
+	}
+}
+
+westen_roman_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_group_modifier = 0.1
+		integrate_speed = 0.1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = WRE
+	}
+}
+
+roman_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_group_modifier = 0.1
+		integrate_speed = 0.1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = ROM
+	}
+}
+
+persian_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.05
+		discipline = 0.05
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = PER
+	}
+}
+
+ostrogoth_heritage = {
+	modifier = {
+		#good
+		happiness_for_wrong_culture_group_modifier = 0.1
+		build_cost = -0.1
+		
+		#bad
+		global_defensive = -0.1
+	}
+	
+	trigger = {
+		tag = OGO
+	}
+}
+
+frank_heritage = {
+	modifier = {
+		#good
+		global_population_growth = 0.05
+		happiness_for_wrong_culture_group_modifier = 0.1
+		
+		#bad
+		naval_morale_modifier = -0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = RHE
+			tag = PAR
+			tag = SOI
+		}
+	}
+}
+
+
+
+vandal_heritage = {
+	modifier = {
+		#good
+		global_export_commerce_modifier = 0.1
+		navy_maintenance_cost = -0.4
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		tag = VAN
+	}
+}
+
+visigoth_heritage = {
+	modifier = {
+		#good
+		agressive_expansion_impact = -0.15
+		discipline = 0.05
+		
+		#bad
+		diplomatic_reputation = -2
+	}
+	
+	trigger = {
+		tag = VGO
+	}
+}
+
+test1_heritage = {
+	modifier = {
+		#good
+		global_pop_conversion_speed_modifier = 0.25
+		global_commerce_modifier = 0.1
+		
+		#bad
+		increase_legitimacy_cost_modifier = 0.15
+	}
+	
+	trigger = {
+		tag = MUN
+	}
+}
+
+avar_heritage = {
+	modifier = {
+		#good
+		heavy_cavalry_morale = 0.1
+		discipline = 0.05
+		
+		#bad
+		global_import_commerce_modifier = -0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = AVA
+			tag = HUN
+			tag = UTI
+			tag = KUT
+			tag = PSS
+			tag = ALA
+		}
+	}
+}
+
+caliphate_heritage = {
+	modifier = {
+		#good
+		global_population_growth = 0.1
+		research_points_modifier = 0.1
+		
+		#bad
+		heavy_infantry_maintenance_cost = 0.05
+	}
+	
+	trigger = {
+		OR = {
+			country_culture_group = south_levantine	
+			country_culture_group = west_levantine
+		}	
+	}
+}
+
+slavic_heritage = {
+	modifier = {
+		#good
+		global_population_growth = 0.1
+		discipline = 0.05
+		
+		#bad
+		global_import_commerce_modifier = -0.05
+	}
+	
+	trigger = {
+			country_culture_group = slavic	
+	}
+}
+
+LON_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.1
+		global_monthly_civilization = 0.01
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = LON
+			tag = CEL
+			tag = DUM
+			tag = CRN
+			tag = LUI
+		}
+	}
+}
+
+SAX_heritage = {
+	modifier = {
+		#good
+		recruit_mercenary_cost_modifier = -0.05
+		build_cost = -0.1
+		
+		#bad
+		global_defensive = -0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = CHC
+			tag = KEN
+			tag = WES
+			tag = MCA
+			tag = LIN
+			tag = EAN
+			tag = SUS
+		}
+	}
+}
+
+pretani_heritage = {
+	modifier = {
+		#good
+		build_cost = -0.1
+		siege_ability = 0.05
+		
+		#bad
+		naval_morale_modifier = -0.05
+		
+	}
+	
+	trigger = {
+		country_culture_group = britannic
+	}
+}
+
+suebi_heritage = {
+	modifier = {
+		#good
+		global_pop_assimilation_speed_modifier = 0.1
+		happiness_for_same_religion_modifier = 0.1
+		
+		#bad
+		global_defensive = -0.1
+	}
+	
+	trigger = {
+		tag = SUE
+	}
+}
+
+basque_heritage = {
+	modifier = {
+		#good
+		manpower_recovery_speed = 0.1
+		discipline = 0.05
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		tag = BAS
+	}
+}

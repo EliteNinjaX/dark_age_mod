@@ -43,7 +43,7 @@ deity_api = {
 		}
 	}
 	icon = deity_wealth
-	passive_modifier = { create_trade_route_cost_modifier = deity_create_trade_route_cost_modifier_svalue }
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
 	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
 	religion = tengri
 	deity_category = economy #This Deity uses an Economy Slot
