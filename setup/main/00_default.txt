@@ -1,9 +1,8 @@
-family={
+﻿family={
 	families={
 		#Numbers do not have to appear in numerical order but do have to be unique:
 		#Current first free ID 11.
-		
-		#Eastern Roman Families:
+		#Eastern Roman Families on Start:
 		0={
 			key="Justinian"
 			owner=ERE
@@ -769,7 +768,7 @@ country = {
 #Easten Roman Empire
 		
 		ERE = {
-			family = 0
+		 family = 0
 			government = imperium
 			primary_culture = roman
 			religion = chalcedonian
@@ -966,7 +965,6 @@ country = {
 			government = aristocratic_monarchy
 			primary_culture = median
 			religion = zoroaster
-			diplomatic_stance=warmongering_stance
 			capital = 912
 			
 			own_control_core = {
