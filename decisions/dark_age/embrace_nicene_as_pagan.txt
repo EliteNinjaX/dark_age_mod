@@ -67,28 +67,4 @@
 		base = 0
 	}
 	}
-	fuck_off_chalcedonian = {
-	potential = {
-			OR = {
-			religion = roman_pantheon
-			religion = egyptian_pantheon
-			religion = carthaginian_pantheon
-			religion = druidism
-			religion = germanic_religion
-			religion = slavic
-			religion = tengri
-			}
-			num_of_cities >= 20
-			NOT = {
-			has_variable = no_chalcedonian
-			}
-		}
-		effect = {
-		set_variable = {
-		name = no_chalcedonian
-		days = 0
-		}
-		}
-	}
-	
 	}
