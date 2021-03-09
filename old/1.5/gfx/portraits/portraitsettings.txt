@@ -1,7 +1,0 @@
-enable_posteffects = yes
-cache_size = 512
-resolution = { 256 	384 }
-mip_count = 2
-		#mip0{ 256 	384 }
-		#mip1{ 128 	192 }
-		#mip3{ 64	96	}
