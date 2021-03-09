@@ -1,6 +1,16 @@
 ﻿latin = {
 	color = hsv { 0 0.91 0.55 }
 	
+	levy_template = levy_italic
+	
+	primary = archers
+	second = heavy_infantry
+	flank = light_cavalry
+
+	primary_navy = tetrere
+	secondary_navy = hexere
+	flank_navy = liburnian
+	
 	use_latin_name_rules = yes
 	
 	male_names = {
@@ -289,12 +299,11 @@
 	}
 
 	culture = {
-		roman = {}
-		osco_umbrian = {}
-		messapic = {}
+		roman = { levy_template = levy_roman }
 		venetic = {}
 		ligurian = {}
 		etruscan = {
+			levy_template = levy_etruscan
 			male_names = {
 				Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
 				Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
@@ -627,6 +636,7 @@
 			}
 		}
 		rhaetian = {
+			levy_template = levy_rhaetian
 			male_names = {
 				Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
 				Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
@@ -959,24 +969,25 @@
 			}
 		}
 		umbrian = {}
-		samnite = {}
-		messapian = {}
-		sardinian = {}
+		samnite = { levy_template = levy_samnite }
 		siculian = {}
 		bruttian = {}
 		lucanian = {}
+		#New Shit
 		hispania = {}
 		gaul = {}
 		brittania = {}
 		africa = {}	
 		illyria = {}
+
 	}
 	
-	barbarian_names = { BRUTTII CAMUNNI CARACENI CENOMANI EUGANEI FRINIATES LIBURNI LIGURES LEPONTII LUCANI MAMERTINI PATAVINI PENTRI VENETI }
+	barbarian_names = { BRUTTII CAMUNNI CARACENI CENOMANI EUGANEI FRINIATES LIBURNI LIGURES LEPONTII LUCANI MAMERTINI PATAVINI PENTRI }
 	
 	graphical_culture = roman_gfx
 
 	ethnicities = {
 		10 = roman
 	}
+
 }

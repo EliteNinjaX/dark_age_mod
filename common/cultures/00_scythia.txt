@@ -1,8 +1,15 @@
 ﻿scythia = {
 	color = hsv { 0.2 0.5 0.8 }
+	
+	levy_template = levy_steppes
+	
+	primary = light_infantry
+	second = heavy_cavalry
+	flank = horse_archers
 
-
-
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
 
 	male_names = {
 			Airawanta Ajatasatru Ajite Alp Ambare Ampratasarme Amrataraksite Amratodane Anande Anathapindike Aniruddhe Andhave Anktsas Arjune Aranemi Arnyartate Arslam Arthadarsi Aryamarg Aryaske Aryatewe Aryawarme Aryottame Asokamitre Asokaraksite Asoke Asarte Astawi Atakke Atidivakare Atyuccagami Atraikatte Bimbasare Caitike Caiytiska Cakravar Cakule Candramukhe Candravasu Candre Caracate Cina Cinatyuti Citre Cittaraksite Cowaske Dandakamal Devarakste Dhanike Dipankar Dirghanakhe Dravyasvare Durmukhe Ekasrinke Erkatsole Esmine Etrise Gayakasyape Gayasirs Gaye Gunacamdre Gunasampade Hariscandre Hastake Hetubalike Indradhvaje Indratewe Indre Indriske Issapake Jatisrone Jetavam Jnanacamndre Jnanaghose Jnanakame Jnanakupte Jnanamokse Jnanasene Jnanasome Jnanasthite Jnanawirye Kadike Kalodaye Kalyanamokse Kalyanavraddhi Kalyanawartane Kanake Kanaske Kanthake Kapilavarne Kapilavastu Kas Kasyap Katakarni Kaundinye
@@ -36,15 +43,18 @@
 		Kunlyu.Kunlyu.Kunlyus.Kunlayad
 	}
 	culture = {
-		scythian = {}
-		sarmatian = {}
-		roxolanian = {}
+		scythian = { levy_template = levy_scythians }
+		sarmatian = { levy_template = levy_sarmatian }
 		kharesmian = {}
-		margian = {}
-		derbiccan = {}
+		derbiccan = { levy_template = levy_dahae }
 		sindi = {}
 		siraci = {}
 		maeotian = {}
+		sakan = {}
+		thyssagetaen = {}
+		legian = {}
+		agathyrsian = {}
+		#New shit
 		avars = {}
 		bulgars = {}
 		alans = {}
