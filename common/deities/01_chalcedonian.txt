@@ -60,6 +60,10 @@ deity_constantine = {
 	icon = deity_war
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
+
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
 	religion = chalcedonian
 	deity_category = war #This Deity uses a War slot.
 	

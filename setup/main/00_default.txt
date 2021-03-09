@@ -1,13 +1,10 @@
-﻿treasure_manager = {
-    database = {
-	}
-}
 family={
 	families={
 		#Numbers do not have to appear in numerical order but do have to be unique:
 		#Current first free ID 11.
+		
 		#Eastern Roman Families:
-		11={
+		0={
 			key="Justinian"
 			owner=ERE
 			culture = roman

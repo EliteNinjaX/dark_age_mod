@@ -57,11 +57,12 @@ iberian_war.1 = {
 			factor = 0
 		}
 		add_stability = -10
+		add_popularity = subtract_popularity_medium
 	}
 	
 }
 
-iberian_war.2 = {
+iberian_war_ere = {
 	
 	type = country_event
 	title = "iberian_war.2.t"
