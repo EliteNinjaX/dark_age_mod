@@ -1,0 +1,35 @@
+I plan to move some jews around bc of history.
+This is a list of Jews removed.
+
+citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	4
+	1
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
