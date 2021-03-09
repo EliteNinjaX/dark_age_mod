@@ -1,0 +1,5 @@
+﻿ #Blinding
+ blinding:0 "Blind"
+ blinding_act:0 "Blinding is a type of physical punishment which results in complete or nearly complete loss of vision. It has been used as an act of revenge and torture."
+ blinding_act_past:0 "Blinded $CHAR$"
+ blinding_past:0 "Blinded $CHAR$"
