@@ -1,0 +1,287 @@
+
+template declare_war_ally
+{
+	
+	button = {
+		size = { 302 40 }
+		onmousehierarchyenter = "[SetHighlightCountry( DeclareWarAlly.GetCountry )]"
+		onmousehierarchyleave = "[ClearHighlightColors]"
+		
+
+		flowcontainer = {
+
+			country_flag = {
+				datacontext = "[DeclareWarAlly.GetCountry]"
+				tooltip = "COUNTRY_SHORTHAND_INFO"
+				
+				blockoverride "flag"
+				{
+					texture = "[DeclareWarAlly.GetCountry.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[DeclareWarAlly.GetCountry.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					framesize = { 56 56 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 36 36 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[OpenDiplomacy(DeclareWarAlly.GetCountry)]"
+				}
+			}
+			
+			textbox = {
+				text = "[DeclareWarAlly.GetCountry.GetName]"
+				autoresize = yes
+				maximumsize = { 300 -1 }
+				minimumsize = { 200 -1 }
+				fontcolor = { 0 0 0 1 }
+				font = "BaseFont"
+				fontsize = 16
+				margin_top = 5
+			}
+		}
+		
+		flowcontainer = {
+			parentanchor = top|right
+			
+			button = {
+				texture = "gfx/interface/buttons/checkbox.dds"
+				framesize = { 36 36 }
+				size = { 36 36 }
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_select"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				visible = "[DeclareWarAlly.IsCallAllyVisible]"
+				enabled = "[DeclareWarAlly.IsCallAllyEnabled]"
+				frame = "[DeclareWarAlly.GetCallAllyFrame]"
+				tooltip = "[DeclareWarAlly.GetCallAllyTooltip]"
+				onclick = "[DeclareWarAlly.OnCallAllyClick]"
+			}
+			
+			widget = {
+				size = { 32 36 }
+				icon = {
+					texture = "gfx/interface/icons/shared_icons/war_leader.dds"
+					size = { 32 32 }
+					position = { 0 3 }
+					#Should probably be a unique background as it shows that the ally will become the 	warleader
+					visible = "[DeclareWarAlly.WillBecomeWarleader]"
+					tooltip = "[DeclareWarAlly.GetWillJoinTooltip]"
+				}
+			}
+			
+			icon = {
+				texture = "gfx/interface/diplomacy/ai_accept_decline_icon.dds"
+				framesize = { 45 45 }
+				size = { 36 36 }
+				frame = "[DeclareWarAlly.GetWillJoinFrame]"
+				tooltip = "[DeclareWarAlly.GetWillJoinTooltip]"
+			}
+		}
+	}
+}
+
+window = {
+	gfxtype = windowgfx
+	name = "declare_war_window"
+	parentanchor = top|left
+	size = { 730 755 }
+	position = { 402 306 }
+	widgetanchor = top|left
+	movable = no
+	enabled = "[DeclareWarWindow.IsWindowEnabled]"
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 730 755 }
+		alwaystransparent = no
+		position = { -15 -76 }
+	}
+	
+	
+	textbox = {
+		position = { -17 -70 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "[DeclareWarWindow.GetTitle]"
+		align = center
+		parentanchor = top|hcenter
+		widgetanchor = top|hcenter
+	}
+	
+	textbox = {
+		position = { 482 355 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "CALL_ALLIES"
+		size = { 0 10 }
+	}
+	
+	textbox = {
+		position = { 105 355 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "ENEMY_ALLIES"
+	}
+	
+	textbox = {
+		position = { 475 -30 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "WAR_GOAL"
+	}
+	
+	scrollarea = {
+		position = { 372 0 }
+		size = { 310 260 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 0 5 }
+				size = { 280 200 }
+				datamodel = "[DeclareWarWindow.GetWarGoals]"
+				
+				item = {
+					container = {
+						tooltip = "[SelectWarGoal.GetInfo]"
+						
+						button_standard_white_marble_s = {
+							position = { 5 0 }
+							size = { 300 38 }
+							using = MarbleButtonFontS
+							text = "[SelectWarGoal.GetName]"
+							onclick = "[SelectWarGoal.OnClick]"
+							visible = "[Not(SelectWarGoal.IsSelected)]"
+						}
+						
+						button_standard_white_marble_s = {
+							position = { 5 0 }
+							size = { 300 38 }
+							using = GoldenFontS
+							text = "[SelectWarGoal.GetName]"
+							onclick = "[SelectWarGoal.OnClick]"
+							texture = "gfx/interface/tiles/marble_button_hl_s.dds"
+							visible = "[SelectWarGoal.IsSelected]"
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	textbox = {
+		size = { 360 350 }
+		position = { 5 0 }
+		
+		icon = {
+			size = { 102% 100% }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			position = { -5 0 }
+		}
+		
+		using = MarbleButtonFont
+		text = "[DeclareWarWindow.GetDesc]"
+		#autoresize = yes
+		maximumsize = { 330 -1 }
+		minimumsize = { 120 -1 }
+		margin_top = 5
+		margin_bottom = 5
+		multiline = yes
+		align = top|left
+	}
+	
+		icon = {
+			position = { 6 390 }
+			size = { 330 230 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+
+			scrollarea = {
+				position = { 0 1 }
+				size = { 324 228 }
+				scrollbarpolicy_horizontal = always_off
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+					blockoverride "ScrollBar_offset"
+					{
+						size = { 0 4 }
+					}
+				}
+				
+				scrollwidget = {
+					dynamicgridbox = {
+						datamodel = "[DeclareWarWindow.GetEnemyAllies]"
+						position = { 10 5 }
+						
+						item = {
+							using = declare_war_ally
+						}
+					}
+				}
+			}
+		}
+		
+		icon = {
+			position = { 368 390 }
+			size = { 330 230 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+
+			scrollarea = {
+				position = { 0 1 }
+				size = { 324 228 }
+				scrollbarpolicy_horizontal = always_off
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+					blockoverride "ScrollBar_offset"
+					{
+						size = { 0 4 }
+					}
+				}
+				
+				scrollwidget = {
+					dynamicgridbox = {
+						datamodel = "[DeclareWarWindow.GetPlayerAllies]"
+						position = { 10 5 }
+						
+						item = {
+							using = declare_war_ally
+						}
+					}
+				}
+			}
+		}
+	
+	button_standard_white_marble = {
+		position = { -34 -87 }
+		name = "accept_button"
+		text = "OK_BUTTON"
+		enabled = "[DeclareWarWindow.IsActionValid]"
+		onclick = "[DeclareWarWindow.OnAccept]"
+		clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_war_declare_war"
+		parentanchor = bottom|right
+	}
+	
+	button_standard_white_marble = {
+		position = { 8 -87 }
+		name = "decline_button"
+		text = "CANCEL_BUTTON"
+		shortcut = "close_window"
+		onclick = "[DeclareWarWindow.OnDecline]"
+		parentanchor = bottom|left
+	}
+}

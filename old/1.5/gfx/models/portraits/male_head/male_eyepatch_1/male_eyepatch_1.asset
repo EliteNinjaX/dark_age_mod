@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "male_eyepatch_1_mesh"
+	file = "male_eyepatch_1.mesh"
+
+	meshsettings = {
+		name = "eyepatch_1Shape"
+		index = 0
+		texture_diffuse = "male_eyepatch_1_diffuse.dds"
+		texture_normal = "male_eyepatch_1_normal.dds"
+		texture_specular = "male_eyepatch_1_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "mesh_eyes1Shape"
+		index = 0
+		texture_diffuse = "male_head_eyes_diffuse.dds"
+		texture_normal = "male_head_eyes_normal.dds"
+		texture_specular = "male_head_eyes_gloss.dds"
+		shader = "portrait_eye"
+		shader_file = "gfx/FX/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_eyepatch_1_entity"
+	pdxmesh = "male_eyepatch_1_mesh"
+}

@@ -1,0 +1,30 @@
+pdxmesh = {
+	name = "roman_gfx_port_mesh"
+	file = "roman_port.mesh"
+
+	meshsettings = {
+		name = "pCubeShape1"
+		index = 0
+		texture_diffuse = "roman_port_diffuse.dds"
+		texture_normal = "roman_port_normal.dds"
+		texture_specular = "roman_port_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "roman_gfx_port_entity"
+	pdxmesh = "roman_gfx_port_mesh"
+	default_state = "default"
+	state = {
+	name = default
+
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Naval/sfx_amb_3d_naval_port" } }
+	}
+}
+
+entity = {
+	name = "CAR_port_entity"
+	clone = "roman_gfx_port_entity"
+}

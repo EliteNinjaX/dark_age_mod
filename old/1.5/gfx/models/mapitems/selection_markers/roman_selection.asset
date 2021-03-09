@@ -1,0 +1,28 @@
+pdxmesh = {
+	name = "roman_gfx_selection_mesh"
+	file = "roman_selection.mesh"
+	scale = 3.5
+	animation = { id = "idle" type = "roman_selection_idle.anim" }
+
+	meshsettings = {
+		name = "pPipeShape1"
+		index = 0
+		texture_diffuse = "roman_selection_diffuse.dds"
+		texture_normal = "roman_selection_normal.dds"
+		shader = "standard_alpha_blend"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "roman_gfx_selection_entity"
+	pdxmesh = "roman_gfx_selection_mesh"
+
+	
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+	}
+}

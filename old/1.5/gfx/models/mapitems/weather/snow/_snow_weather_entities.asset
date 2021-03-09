@@ -1,0 +1,117 @@
+#entity = {
+#	name = "snow_weather_02"
+#	
+#	locator = { name = part1 }
+#	
+#	default_state = "idle"
+#	state = { name = "idle" state_time = 10
+#		event = { time = 0 node = "part1" particle = "environment/snow_weather_02_effect" trigger_once = yes}
+#		
+#	}
+#	
+#}
+
+
+entity = {
+	name = "snow_storm_01_small_entity"
+	
+	locator = { name = loc_01 position = { 0.0 0.0 0.0 } }
+		cull_radius = 30.0
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes
+		state_time = 5
+		start_event = {	
+			particle = "environment/snow_storm_01_small_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = yes 
+			sound = { soundeffect = "event:/SFX/Animations/Map/sfx_anim_map_snowstorm" } 
+		}
+    }
+	
+	state = { name = "end" state_time = 30 looping = no
+		
+	}	
+}
+
+entity = {
+	name = "snow_storm_01_medium_entity"
+	
+	locator = { name = loc_01 position = { 0.0 0.0 0.0 } }
+		cull_radius = 30.0
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes
+		state_time = 5
+		start_event = {	
+			particle = "environment/snow_storm_01_medium_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = yes 
+			sound = { soundeffect = "event:/SFX/Animations/Map/sfx_anim_map_snowstorm" } 
+		}
+    }
+	state = { name = "end" state_time = 30 looping = no
+		
+	}		
+}
+
+entity = {
+	name = "snow_storm_01_large_entity"
+	
+	locator = { name = loc_01 position = { 0.0 0.0 0.0 } }
+		cull_radius = 50.0
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes
+		state_time = 5
+		start_event = {	
+			particle = "environment/snow_storm_01_large_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = yes 
+			sound = { soundeffect = "event:/SFX/Animations/Map/sfx_anim_map_snowstorm" } 
+		}
+    }
+	state = { name = "end" state_time = 30 looping = no
+		
+	}		
+}
+
+#entity = {
+#	name = "snow_weather_01_entity"
+#	
+#	locator = { 
+#		name = loc_01 position = { 0.0 2.0 0.0 } 
+#		name = loc_02 position = { 0.0 12.0 0.0 } 
+#		name = loc_03 position = { 0.0 22.0 0.0 } 
+#	}
+#	
+#	default_state = "idle"
+#	state = {
+#		name = "idle"
+#		looping = yes	
+#		start_event = {
+#			#time = 0.0 	
+#			particle = "environment/snow_weather_01_effect"
+#			node = loc_01 
+#		}	
+#		start_event = {
+#			#time = 0.0 	
+#			particle = "environment/snow_weather_01_effect" 
+#			node = loc_02 
+#		}	
+#		start_event = {
+#			#time = 0.0 	
+#			particle = "environment/snow_weather_01_effect" 
+#			node = loc_03 
+#		}
+#    }
+#}

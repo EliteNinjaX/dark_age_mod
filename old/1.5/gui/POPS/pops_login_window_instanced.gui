@@ -1,0 +1,11 @@
+pops_login_window = {
+	
+	blockoverride "create_account_button"
+	{
+		visible = no
+	}
+	blockoverride "reset_password_button"
+	{
+		visible = no
+	}
+}

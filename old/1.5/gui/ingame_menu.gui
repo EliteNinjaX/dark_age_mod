@@ -1,0 +1,320 @@
+window = {
+	gfxtype = windowgfx
+	name = "ingame_pausemenu"
+	alwaystransparent = no
+	reorder_on_mouse = never
+	resizable = no
+	movable = no
+	
+	enabled = "[PauseMenu.IsMainWindowEnabled]"
+	
+	size = { 100% 100% }
+	parentanchor = vcenter|hcenter
+	widgetanchor = vcenter|hcenter
+	
+	state = {
+		name = _show
+		
+		on_finish = "[PdxGuiTriggerAllAnimations('blend_in')]"
+		
+	}
+	
+	state = {
+		name = _hide
+		
+		on_start = "[PdxGuiTriggerAllAnimations('blend_out')]"
+		
+	}
+	
+	widget = {
+		name = "background"
+		#using = DefaultTooltipBackground
+		size = { 100% 100% }
+		alwaystransparent = yes
+		alpha = 0
+		
+		
+		icon = {
+			name = "bg_menu"
+			texture = "gfx/interface/tiles/black_marble_texture_tile.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 0 0 }
+			size = { 100% 100% }
+			alpha = 1
+			
+		}
+		
+		icon = {
+			name = "bgDefaultTooltipWidget"
+			tintcolor = { 1.0 1.0 1.0 1.0 }
+		}
+		
+		state = {
+			name = blend_in
+			
+			animation = {
+				alpha = 0.3
+			}
+			
+			duration = 0
+			
+		}
+		
+		state = {
+			name = blend_out
+			
+			animation = {
+				alpha = 0
+			}
+			
+		}
+		
+	}
+	
+	widget = {
+		size = { 360 505 }
+		parentanchor = vcenter|hcenter
+		widgetanchor = vcenter|hcenter
+		using = small_window_type
+		
+		button_standard = {
+			position = { 40 25 }
+			size = { 280 46 }
+			name = "save_button"
+			text = "SAVE_GAME"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			onclick = "[PauseMenu.Save]"
+		}
+
+		button_standard = {
+			position = { 40 70 }
+			size = { 280 46 }
+			name = "load_ingame_button"
+			text = "LOAD_GAME"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			enabled = "[Not(GameIsMultiplayer)]"
+			onclick = "[PauseMenu.LoadIngame]"
+			tooltip = "[PauseMenu.LoadIngameTooltip]"
+		}
+		
+		button_standard = {
+			position = { 40 115 }
+			size = { 280 46 }
+			name = "multiplayer_button"
+			text = "OPEN_FOR_MULTIPLAYER"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			enabled = "[And(IsMultiplayerAvailable, And(JominiIsHostOrLocal, Not(GameIsMultiplayer)))]"
+			onclick = "[PauseMenu.OpenMultiplayer]"
+			tooltip = "[GetMultiplayerAccessibleString]"
+		}
+		
+		button_standard = {
+			position = { 40 160 }
+			size = { 280 46 }
+			text = "SETTINGS"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			onclick = "[PauseMenu.OpenSettings]"
+		}
+		
+		button_standard = {
+			#position = { 40 382 }
+			position = { 40 295 }
+			size = { 280 46 }
+			text = "AI_SETTINGS"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			onclick = "[PauseMenu.OpenAiSettings]"
+		}
+
+		button_standard = {
+			position = { 40 205 }
+			size = { 280 46 }
+			text = "MESSAGE_SETTINGS"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			onclick = "[PauseMenu.OpenMessageSettings]"
+		}
+		
+		button_standard = {
+			position = { 40 250 }
+			size = { 280 46 }
+			text = "ACHIEVEMENTS"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_close"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			visible = "[PauseMenu.IsAchievementsAvailable]"
+			onclick = "[PauseMenu.OpenAchievements]"
+		}
+		
+		# button_standard = {
+			# position = { 40 295 }
+			# size = { 280 46 }
+			# text = "PRIVACY_POLICY"
+			# clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_close"
+			# oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			# onclick = "[PauseMenu.OpenPrivacyPolicy]"
+		# }
+		
+		button_standard = {
+			name = "exit_button"
+			#position = { 40 295 }
+			position = { 40 340 }
+			size = { 280 46 }
+			text = "RESIGN"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_close"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			onclick = "[PauseMenu.ExitToFrontend]"
+		}
+		
+		button_standard = {
+			name = "quit_game_button"
+			position = { 40 386 }
+			size = { 280 46 }
+			text = "EXIT_TO_DESKTOP"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_close"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			onclick = "[PauseMenu.ExitToDesktop]"
+		}
+		
+		button_standard = {
+			position = { 0 -20 }
+			size = { 280 46 }
+			parentanchor = bottom|hcenter
+			name = "resume_button"
+			text = "RESUME"
+			shortcut = "close_window"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_close"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			onclick = "[PauseMenu.Resume]"
+		}
+	}
+}
+
+save_menu = {
+	name = "ingame_save_name"
+
+	blockoverride "save_game_datamodel" {
+		datamodel = "[SaveListWindow.AccessSaves]"
+	}
+}
+
+save_menu = {
+	name = "ingame_ironman_save"
+
+	blockoverride "save_game_datamodel" {
+		datamodel = "[SaveListWindow.AccessSaves]"
+	}
+
+	blockoverride "save_game_title" {
+		text = "IRONMAN_CHOOSE_SAVE"
+	}
+
+	blockoverride "confirm_button" {
+		text = "JOMINI_MULTIPLAYER_GUI_START"
+	}
+}
+
+load_menu = {
+	name = "ingame_load_ingame"
+	parentanchor = center
+	alwaystransparent = no
+	movable = no
+	resizable = no
+	
+	enabled = "[LoadIngameWindow.IsWindowEnabled]"
+
+	blockoverride "save_game_datamodel" {
+		datamodel = "[SaveListWindow.AccessSaves]"
+	}
+
+	blockoverride "on_delete" {
+		onclick = "[LoadIngameWindow.OnDelete]"
+	}
+
+	blockoverride "on_load" {
+		onclick = "[LoadIngameWindow.OnLoad]"
+	}
+
+	widget = {
+		position = { -8 8 }
+		size = { 100% 100% }
+		parentanchor = left
+
+		button_standard = {
+			name = "back_button"
+			position = { 0 -30 }
+			size = { 200 42 }
+			parentanchor = bottom|hcenter
+			shortcut = "close_window"
+			onclick = "[LoadIngameWindow.Cancel]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_close"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			textbox = {
+				parentanchor = bottom|hcenter
+				using = MarbleButtonFont
+				autoresize = yes
+				position = { 0 -9 }
+				text = "BACK"
+			}
+		}
+		
+		editbox = {
+			name = "save_filter"
+			position = { 30 712 }
+			size = { 696 32 }
+			using = MarbleButtonFont
+			alwaystransparent = no
+			focuspolicy = all
+			multiline = no
+			ontextedited = "[LoadIngameWindow.UpdateFilter]"
+
+			background = {
+				margin_left = 5
+				margin_right = 4
+				margin_bottom = 4
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+		}
+	}
+}
+
+confirm_window = {
+	name = "ingame_resign_confirmation"
+
+	blockoverride "body_text" {
+		text = "[ResignConfirmationWindow.GetText]"
+	}
+
+	blockoverride "cancel_button" {
+		onclick = "[ResignConfirmationWindow.Cancel]"
+	}
+
+	blockoverride "confirm_button" {
+		text = [ResignConfirmationWindow.GetConfirmButtonText]
+		onclick = "[ResignConfirmationWindow.Confirm]"
+	}
+}
+
+confirm_window = {
+	name = "ingame_overwrite_save_confirmation"
+
+	blockoverride "body_text" {
+		text = "[OverwriteSaveWindow.GetText]"
+	}
+
+	blockoverride "cancel_button" {
+		onclick = "[OverwriteSaveWindow.Cancel]"
+	}
+
+	blockoverride "confirm_button" {
+		text = "CONFIRM"
+		onclick = "[OverwriteSaveWindow.Confirm]"
+		shortcut = "confirm"
+	}
+}

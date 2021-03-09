@@ -1,0 +1,684 @@
+template POPSTextStyle
+{
+	block "pops_text_style"
+	{
+		font = "standard_font"
+		align = left
+		fontcolor = { 1 1 1 1 }
+		fontsize = 12
+	}
+}
+
+template POPSEditboxStyle
+{
+	block "pops_editbox_style"
+	{
+		layoutpolicy_horizontal = expanding
+		minimumsize = { 100 30 }
+		size = { 252 24 }
+		alwaystransparent = no
+		focuspolicy = all
+		maxcharacters = 255
+		using = MarbleButtonFont
+	}
+}
+
+template POPSButtonTextStyle 
+{
+	block "pops_button_text_style"
+	{
+		name = "pops_button_text"
+		parentanchor = vcenter|hcenter
+		font = "standard_font"
+		fontsize = 15
+		fontcolor = { 0.86 0.86 0.73 1 }
+		autoresize = yes
+		align = center
+	}
+}
+
+template POPSErrorTextStyle
+{
+	block "pops_error_text_style"
+	{
+		font = "standard_font"
+		align = left
+		fontcolor = { 1 0 0 1 }
+		fontsize = 13
+	}
+}
+
+template POPSButtonStyle
+{
+	block "pops_button_style"
+	{
+		text = "Words.."
+		gfxtype = buttongfx
+		shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
+		
+		clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+		#	upframe = 1
+		#	overframe = 2
+		#	downframe = 3
+		#	disableframe = 4
+		texture = "gfx/interface/tiles/marble_button_s.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 60 0 }
+		size = { 174 38 }
+		
+		buttonText = {
+			textbox = {
+				parentanchor = bottom|hcenter
+				using = MarbleButtonFont
+				autoresize = yes
+				position = { 0 -12 }
+			}
+		}
+	}
+}
+
+template POPSDropdownButtonStyle
+{
+	block "pops_dropdown_button_style"
+	{
+		texture = "gfx/editor_gui/editor_dropdown.dds"
+		spriteType = CorneredStretched
+		gfxtype = framedbuttongfx
+		effectname = "NoHighlight"
+		spriteborder = { 4 4 }
+		spriteborder_right = 24
+		button_trigger = none
+		framesize = { 32 16 }
+		upframe = 1
+		downframe = 2
+		overframe = 3
+		disableframe = 4
+	}
+}
+
+template pops_dropdown_enum
+{
+	block "pops_dropdown_enum"
+	{
+		alwaystransparent = no
+		active_item = {
+			widget = {
+				#size = { 160 40 }
+				block "active_item"
+				{
+					
+				}
+				
+				button = {
+					size = { 80 100% }
+					button_trigger = none
+					texture = "gfx/interface/buttons/dropdown_selected.dds"
+				}
+				
+				textbox = {
+					block "item_text"
+					{
+						text = ""
+					}
+					position = { 10 0 }
+					parentanchor = vcenter|left
+					using = MarbleButtonFont
+					fontsize = 14
+					margin_left = 6
+				}
+			}
+		}
+		
+		item = {
+			widget = {
+				size = { 70 28 }
+				block "item"
+				{
+				}
+				
+				button = {
+					size = { 70 20 }
+					texture = "gfx/editor_gui/editor_dropdown_item.dds"
+					spriteType = CorneredTiled
+					spriteborder = { 1 1 }
+					gfxtype = framedbuttongfx
+					framesize = { 8 8 }
+					upframe = 1
+					downframe = 2
+					overframe = 2
+					disableframe = 1
+					button_trigger = none
+				}
+				
+				editor_textbox = {
+					block "item_text"
+					{
+						text = ""
+					}
+					position = { 14 8 }
+					using = MarbleButtonFont
+					fontsize = 14
+				}
+			}
+		}
+		
+		list = {
+			scrollarea = {
+				position = { 2 28 }
+				#autoresizescrollarea = yes
+				alwaystransparent = yes
+				size = { 200 200 }
+				block "scrollarea"
+				{
+				}
+				
+				background = {
+					margin = { 2 2 }
+					margin_bottom = 6
+					margin_right = 6
+					texture = "gfx/interface/buttons/dropdown_drop_six.dds"
+					spriteType = CorneredStretched
+					spriteborder = { 6 6 }
+					spriteborder_right = 8
+					spriteborder_bottom = 8
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+				}
+				
+				scrollwidget = {
+					dynamicgridbox = {
+						alwaystransparent = no
+					}
+				}
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+				}
+				
+				scrollbar_horizontal = {
+					using = editor_horizontal_scrollbar
+				}
+			}
+		}
+	}
+}
+
+template pops_dropdown_enum_wider
+{
+	block "pops_dropdown_enum_wider"
+	{
+		alwaystransparent = no
+		active_item = {
+			widget = {
+				size = { 280 37 }
+				block "active_item"
+				{
+					
+				}
+				
+				button = {
+					button_trigger = none
+					size = { 100% 100% }
+					texture = "gfx/interface/buttons/dropdown_selected_wider.dds"
+				}
+				
+				editor_textbox = {
+					block "item_text"
+					{
+						text = ""
+					}
+					position = { 20 0 }
+					parentanchor = vcenter|left
+					fontsize = 14
+					using = MarbleButtonFontS
+				}
+			}
+		}
+		
+		item = {
+			widget = {
+				size = { 250 20 }
+				block "item"
+				{
+				}
+				
+				button = {
+					size = { 100% 100% }
+					texture = "gfx/editor_gui/editor_dropdown_item.dds"
+					spriteType = CorneredTiled
+					spriteborder = { 1 1 }
+					gfxtype = framedbuttongfx
+					framesize = { 8 8 }
+					upframe = 1
+					downframe = 2
+					overframe = 2
+					disableframe = 1
+					button_trigger = none
+				}
+				
+				editor_textbox = {
+					block "item_text"
+					{
+						text = ""
+					}
+					position = { 10 8 }
+					fontsize = 14
+					using = MarbleButtonFontS
+				}
+			}
+		}
+		
+		list = {
+			scrollarea = {
+				position = { 9 34 }
+				#autoresizescrollarea = yes
+				alwaystransparent = yes
+				size = { 256 210 }
+				block "scrollarea"
+				{
+				}
+				
+				background = {
+					margin = { 2 2 }
+					margin_bottom = 6
+					margin_right = 6
+					texture = "gfx/interface/buttons/dropdown_drop_six.dds"
+					spriteType = CorneredStretched
+					spriteborder = { 6 6 }
+					spriteborder_right = 8
+					spriteborder_bottom = 8
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+				}
+				
+				scrollwidget = {
+					dynamicgridbox = {
+						alwaystransparent = no
+					}
+				}
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+				}
+				
+				scrollbar_horizontal = {
+					using = editor_horizontal_scrollbar
+				}
+			}
+		}
+	}
+}
+
+types POPS
+{
+	type pops_vertical_spacer = widget {
+		block "pops_vertical_spacer"
+		{
+			size = { 0 5 }
+		}
+	}
+
+	type pops_horizontal_spacer = widget {
+		block "pops_horizontal_spacer"
+		{
+			size = { 5 0 }
+		}
+	}
+	
+	type pops_window = window {
+		block "pops_window"
+		{
+			resizable = no
+			size = { 100 64 }
+			movable = yes
+			
+			background = {
+				texture = "gfx/interface/tiles/marble_tile_l.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 0 0 }
+				margin = { -6 -6 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+
+			icon = {
+				texture = "gfx/interface/tiles/small_window_frame_corners.dds"
+				spriteType = Corneredtiled
+				size = { 100% 100% }
+				spriteborder = { 32 24 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+
+			#pops_textbox = {
+			#	position = { 10 4 }
+			#	size = { 20 20 }
+			#	autoresize = yes
+			#	
+			#	block "title"
+			#	{
+			#		text = "#BOLD;COLOR:{1.0,1.0,1.0} Untitled #!"
+			#	}
+			#}
+
+			vbox = {
+				block "vbox_properties"
+				{
+					margin = { 4 4 }
+					alwaystransparent = yes
+				}
+
+				widget = {
+					size = { 0 29 }
+					layoutpolicy_horizontal = Fixed
+				}
+
+				block "before_content"
+				{
+				}
+				
+				hbox = {
+					block "hbox_properties"
+					{
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = Preferred
+					}
+
+					widget = {
+						size = { 5 0 }
+						layoutpolicy_horizontal = Fixed
+					}
+
+					block "content_layout"
+					{
+						vbox = {
+							scissor = yes
+							
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = preferred
+						
+							block "content" 
+							{
+							}
+							
+							widget = {
+								layoutpolicy_vertical = preferred
+							}
+						}
+					}
+					
+					widget = {
+						size = { 5 0 }
+						layoutpolicy_horizontal = Fixed
+					}
+				}
+				
+				widget = {
+					size = { 0 5 }
+					layoutpolicy_vertical = Fixed
+				}
+			}
+		}
+		
+	}
+
+	type pops_button = button {
+		block "pops_button_size"
+		{
+			size = { 148 38 }
+			minimumsize = { 148 38 }
+		}
+
+		using = POPSButtonStyle
+		
+		buttonText = {
+			textbox = {
+				parentanchor = bottom|hcenter
+				using = MarbleButtonFontS
+				autoresize = yes
+				position = { 0 -12 }
+			}
+		}
+	}
+
+	type pops_button_marble = button {
+		block "pops_button_size"
+		{
+			size = { 150 38 }
+			minimumsize = { 150 38 }
+		}
+
+		text = "Words.."
+		gfxtype = buttongfx
+		shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
+		
+		clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+		texture = "gfx/interface/tiles/marble_button_s.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 60 0 }
+		size = { 174 38 }
+		
+		buttonText = {
+			textbox = {
+				parentanchor = bottom|hcenter
+				using = MarbleButtonFont
+				autoresize = yes
+				position = { 0 -12 }
+			}
+		}
+	}
+	type pops_button_wide_marble = pops_button_marble {
+		block "pops_button_size"
+		{
+			size = { 200 38 }
+			minimumsize = { 150 38 }
+		}
+	}
+
+	type pops_load_indicator = progressbar
+	{
+		parentanchor = vcenter|hcenter
+		size = { 44 44 }
+		gfxtype = framedprogressbargfx
+		texture = "gfx/interface/loading_progress.dds"
+		framesize = { 44 44 }
+		loopinterval = 1.5
+		max = 0
+		block "load_indicator"
+		{
+			visible = no
+		}
+	}
+
+	type pops_button_load_indicator = pops_button {
+		pops_load_indicator = {}
+	}
+
+	type pops_button_load_indicator_marble = pops_button_marble {
+		pops_load_indicator = {}
+	}
+	
+	type pops_textbox = textbox {
+		text = ""
+		block "textbox_size"
+		{
+			size = { 170 30 }
+		}
+		using = MarbleButtonFontS
+		block "textboxstyle"
+		{
+		}
+	}
+	type pops_error_textbox = textbox {
+		text = ""
+		# size = { 200 150 }
+		multiline = yes
+		layoutpolicy_vertical = expanding
+		using = MarbleButtonFontS
+		block "textboxstyle"
+		{
+		}
+	}
+	type pops_required_textbox = textbox {
+		block "required_field"
+		{
+			text = "*"
+		}
+		minimumsize = { 10 -1 }
+		using = MarbleButtonFontS
+		autoresize = yes
+		block "textboxstyle"
+		{
+		}
+		fontcolor = { 1 0 0 1 }
+	}
+	
+	type pops_editbox = editbox {
+		using = POPSEditboxStyle
+		
+		background = {
+			block "pops_editbox_background"
+			{
+				margin_left = 8
+				#margin_top = 0
+				margin_bottom = 2
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = CorneredTiled
+				spriteborder = { 12 12 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+		}
+		block "pops_editbox"
+		{
+		}
+		block "password"
+		{
+			password = no
+		}
+	}
+	
+	type pops_dropdown = dropDown {
+		layoutpolicy_horizontal = expanding
+		block "pops_dropdown_name"
+		{
+			name = "pops_dropdown"
+		}
+		block "pops_dropdown"
+		{
+		}
+		using = pops_dropdown_enum
+	}
+
+	type pops_dropdown_wider = dropDown {
+		layoutpolicy_horizontal = expanding
+		block "pops_dropdown_name_wider"
+		{
+			name = "pops_dropdown"
+		}
+		block "pops_dropdown_wider"
+		{
+		}
+		using = pops_dropdown_enum_wider
+	}
+	
+	type pops_textbox_entry = hbox {
+		layoutpolicy_horizontal = expanding
+		#restrictparent_min = yes
+		layoutpolicy_vertical = fixed
+		pops_required_textbox={}
+		#pops_vertical_spacer={}
+		pops_textbox = {
+			block "title"
+			{
+				text = "Title:"
+			}
+		}
+		pops_editbox = {
+			name = "pops_editbox"
+			block "editbox_text"
+			{
+				text = "Enter something"
+			}
+		}
+	}
+
+	type textbox_entry = hbox {
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = fixed
+
+		pops_textbox = {
+			block "title"
+			{
+				text = "Title:"
+			}
+			block "textbox_size"
+			{
+				size = { 134 30 }
+			}
+		}
+		pops_editbox = {
+			name = "pops_editbox"
+			block "editbox_text"
+			{
+				text = "Enter something"
+			}
+			block "pops_editbox_style"
+			{
+				layoutpolicy_horizontal = expanding
+				minimumsize = { 100 30 }
+				size = { 152 24 }
+				alwaystransparent = no
+				focuspolicy = all
+				cursorcolor = { 1 1 0.5 1 }
+				selectioncolor = { 0.45 0.45 0.45 0.7 }
+				maxcharacters = 255
+				using = MarbleButtonFont
+			}
+		}
+	}
+	
+	type pops_dropdown_entry = hbox {
+		layoutpolicy_horizontal = expanding
+		pops_required_textbox={}
+		textbox = {
+			size = { 108 37 }
+			using = MarbleButtonFontS
+			block "title"
+			{
+				text = "Title:"
+			}
+		}
+		pops_dropdown_wider = {
+		}
+	}
+	
+	type pops_checkbutton = hbox {
+		checkbutton = {
+			gfxtype = checkbuttongfx
+    		shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
+    		texture = "gfx/interface/buttons/checkbox.dds"
+    		framesize = { 36 36 }
+			
+			block "checkbutton"
+			{
+			}
+		}
+
+		#pops_horizontal_spacer={}
+		
+		pops_textbox = {
+			multiline = yes
+			margin_top = 4
+			margin_left = 4
+			#size = { 300 100% }
+			#maximumsize = { 140 800 }
+			align = top
+			
+			block "size"
+			{
+				size = { 150 50 }
+			}
+			
+			block "label"
+			{
+				text = "Label"
+			}
+		}
+	}
+}

@@ -1,0 +1,111 @@
+hbox = {
+	name = "layer_animated_text_hbox"
+	
+	window = {
+		name = "layer_animated_text_window"
+		layoutpolicy_horizontal = Expanding
+		layoutpolicy_vertical = Expanding
+		alwaystransparent = yes
+		movable = no
+		resizable = no
+		filter_mouse = none
+	}
+}
+
+### UNIT
+widget = {
+	name = "combat_loss"	
+	widgetanchor = center
+	
+	
+	widget = {
+		name = "track"
+		
+		
+		textbox = {
+			name = "text"
+			
+			size = { 32 20 }
+			multiline = no
+			using = RedFont
+			parentanchor = bottom|hcenter
+			align = top|hcenter        
+			text = "[MapAnimatedText.GetText]"
+			default_format = "#glow_color:{0.0,0.0,0.0,0.6};glow_offset:{0.0,0.0}"
+			alpha = 0.0		
+			
+			state = {
+				name = fadeout
+				alpha = 0.0
+				delay = 0.5
+				duration = 0.3
+				on_finish = "[MapAnimatedText.Done]"
+			}
+			
+			state = {
+				name = appear
+				trigger_on_create = yes
+				
+				next = fadeout
+				
+				alpha = 1.0
+				
+				animation = {
+					position = { 0 -40 }
+					bezier = { 0.2 0.4 0.6 0.9 }
+				}
+				
+				duration = 0.5
+			}
+
+		}
+	}	
+}
+
+
+widget = {
+	name = "animated_message_text"	
+	widgetanchor = center
+
+	widget = {
+		name = "track"
+		
+		
+		textbox = {
+			name = "text"
+			size = { 32 20 }
+			multiline = no
+			using = RedFont
+			parentanchor = bottom|hcenter
+			align = top|hcenter        
+			text = "[MapAnimatedText.GetText]"
+			default_format = "#glow_color:{0.0,0.0,0.0,0.6};glow_offset:{0.0,0.0}"
+			alpha = 0.0		
+			
+			state = {
+				name = fadeout
+				alpha = 0.0
+				delay = 0.5
+				duration = 10.0
+				on_finish = "[MapAnimatedText.Done]"
+			}
+			
+			state = {
+				name = appear
+				trigger_on_create = yes
+				
+				next = fadeout
+				
+				alpha = 1.0
+				
+				animation = {
+					position = { 0 -50 }
+					bezier = { 0.2 0.4 0.6 0.9 }
+				}
+				
+				duration = 1.5
+			}
+
+		}
+	}	
+}

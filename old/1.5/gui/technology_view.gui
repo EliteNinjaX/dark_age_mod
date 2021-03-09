@@ -1,0 +1,503 @@
+window = {
+	gfxtype = windowgfx
+	name = "technology_view"
+	
+	parentanchor = top|left
+	size = { 870 760 }
+	position = { 5 120 }
+	widgetanchor = top|left
+	movable = no
+
+	using = advice_trigger_highlights
+	
+	widget = {
+		name = "background"
+		using = Large_window_type
+		size = { 100% 100% }
+		alwaystransparent = yes
+		
+		blockoverride "header"
+		{
+			text = "TECHNOLOGY_MENU_HEADER"
+			tooltip = "TECHNOLOGY_MENU_HEADER_TT"
+		}
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -12 12 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[TechnologyView.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	left_arrow_button = {
+		name = "previous_button"
+		position = { 229 14 }
+		parentanchor = top|left
+		shortcut = "previous_window"
+		onclick = "[TechnologyView.OnPrevious]"
+		tooltip = "PREVIOUS_TECHNOLOGY_VIEW"
+	}
+
+	textbox = {
+		position = { 53 75 }
+		autoresize = yes
+		using = MarbleButtonFontS
+		text = "RESEARCH_EFFICIENCY"
+	}
+	
+	widget = {
+		size = { 195 52 }
+		position = { 52 102 }
+		tooltip = "[TechnologyView.GetResearchPointsDesc]"
+		
+		background = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+
+		icon = {
+			position = { 10 5 }
+			size = { 40 40 }
+			using = icon_research
+		}
+		
+		textbox = {
+			position = { 60 -3 }
+			autoresize = yes
+			using = MarbleButtonFontL
+			text = "[TechnologyView.GetResearchPointsInfo]"
+			parentanchor = left|vcenter
+			widgetanchor = left|vcenter
+		}
+	}
+	widget = {
+		size = { 100 25 }
+		position = { 252 102 }
+		tooltip = "[TechnologyView.GetResearchEfficiencyDesc]"
+		background = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+
+		icon = {
+			texture = "gfx/interface/arrows_strip.dds"
+			framesize = { 50 50 }
+			size = { 25 25 }
+			frame = "[TechnologyView.GetResearchRatioFrame]"
+			position = { 5 0 }
+		}
+		
+		textbox = {
+			position = { 33 0 }
+			autoresize = yes
+			using = MarbleButtonFontS
+			text = "[TechnologyView.GetResearchEfficiency|%2]"
+			#parentanchor = left|vcenter
+			#widgetanchor = left|vcenter
+		}
+		
+	}
+	
+	widget = {
+		size = { 100 25 }
+		position = { 252 130 }
+		tooltip = "[TechnologyView.GetMonthlyResearchDesc]"
+		background = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+
+		icon = {
+			texture = "gfx/interface/icons/font_icons/font_icon_time.dds"
+			#size = { 50 50 }
+			position = { 5 0 }
+		}
+		
+		textbox = {
+			position = { 33 0 }
+			autoresize = yes
+			using = MarbleButtonFontS
+			text = "[TechnologyView.GetMonthlyResearch|=+/%2]"
+		}
+		
+	}
+	
+	dynamicgridbox = {
+		name = "offices_grid"
+		position = { 48 158 }
+		size = { 180 200 }
+		
+		datamodel = "[TechnologyView.GetOffices]"
+		
+		item = {
+			widget = {
+				size = { 310 147 }
+				
+				portrait_button = {
+					using = portrait_50_no_pop
+					name = "player_portrait"
+					position = { 2 42 }
+					parentanchor = top|left
+					datacontext = "[TechOfficeItem.GetCharacter]"
+				
+				}
+				
+				button = {
+					position = { 62 46 }
+					size = { 40 40 }
+					onclick = "[ClickHighlight('btn_technology_assign_researcher')]"
+					onclick = "[TechOfficeItem.OpenSelection]"
+					tooltip = "CLICK_TO_REPLACE_TECHOFF"
+					texture = "gfx/interface/buttons/button_round_46.dds"
+					icon = {
+						texture = "gfx/interface/icons/shared_icons/change.dds"
+						parentanchor = center
+						size = { 28 28 }
+					}
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+
+					icon = {
+						using = highlight_button_circle_45
+						visible = "[And(Not(TechOfficeItem.HasHolder), ShouldHighlight('btn_technology_assign_researcher'))]"
+					}
+				}
+				
+				icon = {
+					visible = "[TechOfficeItem.HasHolder]"
+					position = { 120 46 }
+					size = { 88 38 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					tooltip = "[TechOfficeItem.GetCharacter.GetLoyaltyToolTip]"
+					
+					container = {
+						position = { 30 23 }
+						
+						icon = {
+							name = "progressbar_frame"
+							spriteType = Corneredtiled
+							spriteborder = { 5 2 }
+							size = { 50 11 }
+							texture = "gfx/interface/tiles/progressbar_green_frame.dds"
+						}
+						
+						progressbar = {
+							using = progressbar_green_horizontal
+							position = { 2 2 }
+							size = { 46 7 }
+							value = "[FixedPointToFloat(TechOfficeItem.GetCharacter.GetLoyalty)]"
+						}
+					}
+					
+					icon = {
+						name = "Loyalty"
+						using = icon_loyalty
+						size = { 32 32 }
+						position = { 0 2 }
+					}
+					
+					textbox = {
+						position = { 56 -2 }
+						text = "[TechOfficeItem.GetCharacter.GetLoyalty |0]"
+						widgetanchor = top|hcenter
+						align = center
+						autoresize = yes
+						using = MarbleButtonFont
+					}
+				}
+
+				
+				DefaultHeaderBackground = {
+					position = { -1 0 }
+					size = { 312 46 }
+					tooltip = "[TechOfficeItem.GetLevelInfo]"
+					blockoverride "text"
+					{
+						text = "[TechOfficeItem.GetName]"
+					}
+					blockoverride "position"
+					{
+						position = { 43 7 }
+					}
+					icon = {
+						position = { 9 9 }
+						size = { 27 27 }
+						texture = "gfx/interface/icons/icon_skills.dds"
+						framesize = { 50 50 }
+						frame = "[TechOfficeItem.GetIconFrame]"
+					}
+				}
+				
+				container = {
+					position = { 62 101 }
+					
+					icon = {
+						name = "progressbar_frame"
+						spriteType = Corneredtiled
+						spriteborder = { 5 2 }
+						size = { 244 14 }
+						position = { 0 12 }
+						texture = "gfx/interface/tiles/progressbar_green_frame.dds"
+					}
+					
+					progressbar = {
+						position = { 2 14 }
+						using = progressbar_green_horizontal
+						size = { 240 10 }
+						tooltip = "[TechOfficeItem.GetProgressDesc]"
+						value = "[TechOfficeItem.GetProgress]"
+					}
+				}
+				
+				flowcontainer = {
+					direction = vertical
+					position = { 212 46 }
+					spacing = 3
+					
+					icon = {
+						name = "Skill"
+						visible = "[TechOfficeItem.HasHolder]"
+						size = { 90 38 }
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 28 20 }												
+						tooltip = "[TechOfficeItem.GetCharacter.GetExperienceInformation]"
+						
+						icon = {
+							using = icon_statesmanship
+							size = { 30 30 }
+							position = { 2 3 }
+						}
+						
+						textbox = {
+							position = { 56 -2 }
+							text = "[TechOfficeItem.GetCharacter.GetExperience |0]"
+							widgetanchor = top|hcenter
+							align = center
+							autoresize = yes
+							using = MarbleButtonFont
+						}
+						
+						container = {
+							position = { 30 23 }
+							
+							icon = {
+								name = "progressbar_frame"
+								spriteType = Corneredtiled
+								spriteborder = { 5 2 }
+								size = { 50 11 }
+								texture = "gfx/interface/tiles/progressbar_green_frame.dds"
+							}
+							
+							progressbar = {
+								using = progressbar_green_horizontal
+								position = { 2 2 }
+								size = { 46 7 }
+								value = "[FixedPointToFloat(TechOfficeItem.GetCharacter.GetExperience)]"
+							}
+						}
+					}
+					
+					textbox = {
+						size = { 90 24 }
+						using = MarbleButtonFont
+						text = "[TechOfficeItem.GetSpeedModifier|0+%=]"
+						tooltip = "[TechOfficeItem.GetSpeedInfo]"
+						align = center|nobaseline
+
+						background = {
+							texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+							spriteType = Corneredtiled
+							spriteborder = { 10 10 }
+							shaderfile = "gfx/FX/pdxgui_default.shader"
+							margin_top = 1
+						}
+					}
+					
+				}
+				
+				textbox = {
+					position = { 63 89 }
+					autoresize = yes
+					using = MarbleButtonFontS
+					text = "[TechOfficeItem.GetLevel]"
+					tooltip = "[TechOfficeItem.GetLevelInfo]"
+					widgetanchor = top|left
+					align = left
+				}
+				
+			}
+		}
+	}
+	
+	container = {
+		position = { 366 70 }
+				
+		DefaultHeaderBackground = {
+			size = { 450 46 }
+			
+			blockoverride "text"
+			{
+				text = "INVENTIONS"
+				tooltip = "INVENTIONS_TT"
+			}
+		}
+		
+		container = {
+			position = { 355 3 }
+			tooltip = "[TechnologyView.GetPlayer.GetPriceTooltip('buy_invention')]"
+			textbox = {
+				position = { 3 1 }
+				autoresize = yes
+				using = MarbleButtonFontM
+				text = "[TechnologyView.GetPlayer.GetPrice('buy_invention')]"
+				fontcolor = { 1 1 1 1 }
+			}
+		}
+		
+		widget = {
+			visible = "[IsDataModelEmpty(TechnologyView.GetPossibleInventions)]"
+			size = { 440 28 }
+			position = { 0 300 }
+			
+			textbox = {
+				position = { 35 2 }
+				maximumsize = { 390 100 }
+				autoresize = yes
+				multiline = yes
+				using = MarbleButtonFontL
+				text = NO_POSSIBLE_INVENTIONS
+				align = center
+			}
+		}
+		
+		scrollarea = {
+			position = { 1 44 }
+			size = { 460 620 }
+
+			icon = {
+				using = highlight_list
+				Visible = "[ShouldHighlight('technology_invention_list')]"
+			}
+
+			scrollbarpolicy_horizontal = always_off
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+			}
+			
+			scrollwidget = {
+				dynamicgridbox = {
+					name = "inventions_grid"
+					datamodel = "[TechnologyView.GetPossibleInventions]"
+					
+					item = {
+						margin_widget = {
+							tooltip = "[InventionItem.GetTooltip]"
+							size = { 440 51 }
+							
+							button = {
+								visible = "[Not(InventionItem.GetInvention.IsSpecial)]"
+								#texture = "gfx/interface/tiles/entry_button_tiles.dds"
+								#spriteType = Corneredtiled
+								#spriteborder = { 40 8 }
+								#texture = "[GetInventionBackground(InventionItem.GetInvention)]"
+								texture = "gfx/interface/buttons/inventions/invention_button.dds"
+								onclick = "[ClickHighlight('technology_invention_list')]"
+								onclick = "[InventionItem.Buy]"
+								enabled = "[InventionItem.CanBuy]"
+								clicksound = "event:/SFX/UI/Actions/sfx_ui_action_unlock_invention"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+								#size = { 445 54 }
+							}
+
+							button = {
+								name = "Special Button"
+								visible = "[InventionItem.GetInvention.IsSpecial]"
+								#texture = "gfx/interface/tiles/entry_button_tiles.dds"
+								#spriteType = Corneredtiled
+								#spriteborder = { 40 8 }
+								#texture = "[GetInventionBackground(InventionItem.GetInvention)]"
+								texture = "gfx/interface/buttons/inventions/invention_button_2.dds"
+								onclick = "[ClickHighlight('technology_invention_list')]"
+								onclick = "[InventionItem.Buy]"
+								enabled = "[InventionItem.CanBuy]"
+								clicksound = "event:/SFX/UI/Actions/sfx_ui_action_unlock_invention"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+								#size = { 445 54 }
+							}
+							
+							#icon = {
+							#	texture = "gfx/interface/buttons/inventions/invention_button_3.dds"
+							#}
+							
+							icon = {
+								name = "skill_icon"
+								texture = "gfx/interface/icons/icon_skills.dds"
+								size = { 38 38 }
+								framesize = { 50 50 }
+								position = { 13 7 }
+								frame = "[InventionItem.GetFrame]"
+							}
+							
+							textbox = {
+								position = { 56 23 }
+								size = { 220 38 }
+								elide = right
+								multiline = yes
+								using = MarbleButtonFont
+								widgetanchor = left|vcenter
+								text = "[InventionItem.GetName]"
+							}
+							
+							modifier_desc_condensed = {
+								position = { 278 5 }
+								datacontext = "[InventionItem.GetInvention.GetModifier]"
+							}
+							
+							margin_widget = {
+								size = { 44 44 }
+								position = { 384 2 }
+								margin = { 4 4 }
+								
+								tooltip = "[InventionItem.GetInvention.GetRomanTooltip]"
+								
+								parentanchor = top|left
+								widgetanchor = top|left
+								
+								#background = {
+								#	texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+								#	spriteType = Corneredtiled
+								#	spriteborder = { 10 10 }
+								#	shaderfile = "gfx/FX/pdxgui_default.shader"
+								#}
+								
+								textbox = {
+									position = { 0 0 }
+									size = { 28 28 }
+									using = MarbleButtonFontS
+									parentanchor = vcenter|hcenter
+									widgetanchor = vcenter|hcenter
+									align = center
+									
+									text = "[InventionItem.GetInvention.GetRomanLevel]"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

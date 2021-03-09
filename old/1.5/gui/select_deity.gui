@@ -1,0 +1,103 @@
+window = {
+	gfxtype = windowgfx
+	name = "select_deity_window"
+	parentanchor = top|left
+	widgetanchor = top|left
+	movable = yes
+	position = { 424 656 }
+		
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -3 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectDeityWindow.OnClose]"
+		tooltip = "CLOSE"
+	}
+	textbox = {
+		parentanchor = top|hcenter
+		using = MarbleButtonFontL
+		text = "SELECT_DEITY_HEADER"
+		autoresize = yes
+		position = { 0 7 }
+	}
+	flowcontainer = {
+		direction = vertical
+		resizeparent = yes
+		margin_bottom = 62
+		margin_right = 26
+		position = { 12 52 }
+		
+		scrollarea = {
+			size = { 602 926 }
+			maximumsize = { 625 926 }
+			scrollbarpolicy_horizontal = always_off
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+				blockoverride "ScrollBar_offset"
+				{
+					size = { 0 4 }
+				}
+			}
+			
+			scrollwidget = {
+				
+				dynamicgridbox = {
+					resizeparent = yes
+					datamodel = "[SelectDeityWindow.GetDeityItems]"
+					
+					item = {
+						
+						entry_button = {
+							size = { 400 52 }
+							spriteborder = { 40 8 }
+							onclick = "[SelectableDeity.OnClick]"
+							tooltip = "[SelectableDeity.GetDeityTooltip]"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+							clicksound = "event:/SFX/UI/Religion/sfx_ui_religion_holy_site_create"
+							
+							container = {
+								position = { 0 0 }
+								
+								textbox = {
+									text = "[SelectableDeity.GetDeity.GetName]"
+									visible = "[Not(SelectableDeity.GetDeity.IsDeifiedRuler)]"
+									using = MarbleButtonFont
+									position = { 14 10 }
+									size = { 374 24 }
+									elide = right
+								}
+								
+								textbox = {
+									text = "DEIFIED_RULER_TEXT"
+									visible = "[SelectableDeity.GetDeity.IsDeifiedRuler]"
+									using = MarbleButtonFontS
+									position = { 54 2 }
+									elide = right
+									size = { 334 40 }
+								}
+								
+								portrait_button = {
+									visible = "[SelectableDeity.GetDeity.IsDeifiedRuler]"
+									enabled = "[SelectableDeity.GetDeity.IsDeifiedRuler]"
+									using = portrait_40_no_pop
+									datacontext = "[SelectableDeity.GetDeity.GetDeifiedRuler]"
+									position = { 12 -6 }
+								}
+							
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

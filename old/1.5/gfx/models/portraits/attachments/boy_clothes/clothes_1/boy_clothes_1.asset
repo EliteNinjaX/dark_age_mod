@@ -1,0 +1,55 @@
+pdxmesh = {
+	name = "boy_clothes_1_mesh"
+	file = "boy_clothes_1.mesh"
+
+	meshsettings = {
+		name = "boy_clothes_1Shape"
+		index = 0
+		texture_diffuse = "boy_clothes_1_diffuse.dds"
+		texture_normal = "boy_clothes_1_normal.dds"
+		texture_specular = "boy_clothes_1_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/portrait.shader"
+	}
+}
+
+entity = {
+	name = "boy_clothes_1_entity"
+	pdxmesh = "boy_clothes_1_mesh"
+}
+
+entity = {
+	name = "boy_clothes_1_color2_entity"
+	pdxmesh = "boy_clothes_1_mesh"
+	meshsettings = {
+		name = "boy_clothes_1Shape"
+		index = 0
+		texture_diffuse = "boy_clothes_1_color2_diffuse.dds"	
+		texture_normal = "boy_clothes_1_normal.dds"
+		texture_specular = "boy_clothes_1_properties.dds"		
+	}
+}
+
+entity = {
+	name = "boy_clothes_1_color3_entity"
+	pdxmesh = "boy_clothes_1_mesh"
+	meshsettings = {
+		name = "boy_clothes_1Shape"
+		index = 0
+		texture_diffuse = "boy_clothes_1_color3_diffuse.dds"	
+		texture_normal = "boy_clothes_1_normal.dds"
+		texture_specular = "boy_clothes_1_properties.dds"		
+	}
+}
+
+entity = {
+	name = "boy_clothes_1_color4_entity"
+	pdxmesh = "boy_clothes_1_mesh"
+	meshsettings = {
+		name = "boy_clothes_1Shape"
+		index = 0
+		texture_diffuse = "boy_clothes_1_color4_diffuse.dds"	
+		texture_normal = "boy_clothes_1_normal.dds"
+		texture_specular = "boy_clothes_1_properties.dds"		
+	}
+}

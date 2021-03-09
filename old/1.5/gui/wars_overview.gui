@@ -1,0 +1,101 @@
+
+widget = {
+	name = "wars_overview"
+	size = { 800 124 }
+	position = { -420 2 }
+	parentanchor = bottom|right
+	widgetanchor = bottom|right
+	
+	flowcontainer = {
+		parentanchor = bottom|right
+		widgetanchor = bottom|right
+		ignoreinvisible = yes
+		dynamicgridbox = {
+			flipdirection = yes
+			datamodel = "[WarsOverview.GetWars]"
+			
+			item = {
+				button = {
+					size = { 84 126 }
+					
+					icon = {
+						position = { 0 0 }
+						texture = "[WarsOverviewWar.GetWarEnthusiasmIcon]"
+						size = { 90 124 }
+					}
+
+					country_flag = {
+						position = { 42 28 }
+						
+						blockoverride "flag"
+						{
+							texture = "[WarsOverviewWar.GetMainEnemy.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+							frame = "[WarsOverviewWar.GetMainEnemy.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+							framesize = { 56 56 }
+						}
+						
+						blockoverride "size"
+						{
+							size = { 48 48 }
+						}
+					}
+					
+					textbox = {
+						position = { 55 96 }
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						fontsize = 17
+						text = "[WarsOverviewWar.GetWarScore]"
+						autoresize = yes
+					}
+					
+					button = {
+						position = { 20 20 }
+						size = { 70 100 }
+						onclick = "[WarsOverviewWar.OnClick]"
+						tooltip = "[WarsOverviewWar.GetWar.GetName]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					}
+				}
+			}
+		}
+		### ERROR PLATYPUS!
+		widget = {
+			size = { 113 126 }
+			visible = "[HasErrors]"  
+			container = {
+				button = {
+					name = "error_button"
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					texture = "gfx/interface/error_platy.dds"
+					tooltip = "[ErrorTooltip]"
+					onclick = "[OpenErrorLog]"
+					size = { 113 140 }
+					position = { 0 -16 }
+				}
+				
+				
+				icon = {
+					position = { -2 -10 }
+					size = { 80 32 }
+					parentanchor = bottom|hcenter
+					widgetanchor = bottom|hcenter
+					texture = "gfx/interface/error_banner.dds"
+				}
+				
+				textbox = {
+					name = "error_text"
+					position = { -1 -16 }
+					using = FontValue
+					parentanchor = bottom|hcenter
+					widgetanchor = bottom|hcenter
+					autoresize = yes
+					align = center|nobaseline
+					text = "[NumberOrErrors|b]"
+				}
+			}
+		}
+	}
+}

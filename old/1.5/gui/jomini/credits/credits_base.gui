@@ -1,0 +1,349 @@
+# Credits window
+
+template JominiCreditsWindowBackground {
+	block "background" {
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		texture = "gfx/editor_gui/editor_window.dds"
+		spriteType = CorneredStretched
+		spriteborder = { 6 6 }
+		spriteborder_top = 30
+		gfxtype = windowgfx
+	}
+}
+
+template JominiCreditsWindowScrollbar {
+	block "scrollbar" {
+		using = editor_vertical_scrollbar
+	}
+}
+
+template JominiCreditsWindowTextbox
+{
+	textbox = {
+		position = { 0 1000 }
+		block "textbox" {
+			using = MarbleButtonFontS
+			#fontsize = 14
+			fontcolor = { 1 1 1 1 }
+			widgetanchor = top|hcenter
+			parentanchor = top|hcenter
+			align = center
+		}
+		autoresize = yes
+		multiline = yes
+		text = "[CreditsWindow.GetCredits]"
+	}	
+}
+
+types CreditsWindow {
+			
+	# Button Style
+	type JominiCredistsViewButton = button {
+		block "buttonstyle" {
+			size = { 100% 40 }
+			texture = "gfx/editor_gui/editor_button.dds"
+			gfxtype = framedbuttongfx
+			spriteType = CorneredStretched
+			spriteborder = { 4 4 }
+			effectname = "NoHighlight"
+			framesize = { 16 16 }
+			upframe = 1
+			downframe = 2
+			overframe = 3
+			disableframe = 4
+			intersectionmask = yes
+		}
+	}
+		
+	type JominiCreditsWindowScrollarea = scrollarea {
+		name = "credits_scroll_area"
+		position = { 0 20}
+		size = { 98% 940 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			block "credits_window_scrollbar" {
+				#using = JominiCreditsWindowScrollbar
+				using = RopeScrollBar
+			}
+		}
+		
+		scrollwidget = {
+			using = JominiCreditsWindowTextbox
+		}
+	}
+
+	type JominiCreditsWindow = widget {
+		name = "JominiCreditsWindow"
+
+		size = { 820 1030 }
+		widgetanchor = top|hcenter
+		parentanchor = top|hcenter
+		position = { 17% 0 }
+
+		state = {
+			name = _show
+			next = "auto_scrollbar"
+		}
+
+		state = {
+			name = "auto_scrollbar"
+			delay = 0.5
+			on_finish = "[CreditsWindow.OnTogglePause]"
+		}
+
+		alwaystransparent = no
+
+		block "credits_background" {}
+		icon = {
+			texture = "gfx/interface/frontend/main_menu_credits_banner.dds"
+		}
+
+		JominiCreditsWindowScrollarea = {}
+
+#		JominiCreditsWindowCloseButton = {}
+		
+		widget ={}
+		
+#		button = {
+#			name = "close_button"
+#			texture = "gfx/interface/icons/font_icons/font_icon_paper_cross.dds"
+#			size = { 16 16 }
+#			framesize = { 16 16 }
+#			onclick = "[CreditsWindow.OnClose]"
+#			position = { -32 10 }
+#			#size = { 100 25 }
+#			parentanchor = top|right
+#			widgetanchor = top|right
+#		}
+
+		widget = {
+			size = { 128 38 }
+			position = { 300 -20 }
+			widgetanchor = bottom|hcenter
+			parentanchor = bottom|hcenter
+			
+			textbox = {
+				size = { 128 32 }
+				name = "close_button"
+				text = "CLOSE"
+				align = center
+				using = WhiteFont
+				fontsize = 20
+			}
+			
+			button = {
+				size = { 128 33 }
+				texture = "gfx/interface/frontend/credits_title_hovers.dds"
+				#spriteType = CorneredTiled
+				#spriteborder = { 1 1 }
+				gfxtype = framedbuttongfx
+				parentanchor = bottom
+				framesize = { 234 43 }
+				upframe = 1
+				downframe = 2
+				overframe = 2
+				#button_trigger = none
+				onclick = "[CreditsWindow.OnClose]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			}
+		}
+
+		widget = {
+			size = { 128 38 }
+			position = { -157 -20 }
+			widgetanchor = bottom|hcenter
+			parentanchor = bottom|hcenter
+			
+			textbox = {
+				size = { 128 32 }
+				name = "single_player_button"
+				text = "TIME_SPEED_DOWN"
+				using = BlackMarbleFontColor
+				font = BaseFont
+				fontsize = 20
+				fontcolor = { 1 1 1 1 }
+				align = center
+				visible = "[Not(CreditsWindow.IsSlowest)]"
+			}
+			button = {
+				size = { 128 33 }
+				texture = "gfx/interface/frontend/credits_title_hovers.dds"
+				#spriteType = CorneredTiled
+				#spriteborder = { 1 1 }
+				gfxtype = framedbuttongfx
+				parentanchor = bottom
+				framesize = { 234 43 }
+				upframe = 1
+				downframe = 2
+				overframe = 2
+				#button_trigger = none
+				onclick = "[CreditsWindow.OnSlower]"
+				visible = "[Not(CreditsWindow.IsSlowest)]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			}
+		}
+
+		widget = {
+			position = { -7 -20 }
+			size = { 128 38 }
+			widgetanchor = bottom|hcenter
+			parentanchor = bottom|hcenter
+			textbox = {
+				size = { 128 32 }
+				name = "single_player_button"
+				text = "[SelectLocalization(CreditsWindow.IsPaused,'CREDITS_CONTINUE','CREDITS_PAUSE')]"
+				using = BlackMarbleFontColor
+				font = BaseFont
+				fontsize = 20
+				fontcolor = { 1 1 1 1 }
+				align = center
+			}
+			button = {
+				size = { 128 33 }
+				texture = "gfx/interface/frontend/credits_title_hovers.dds"
+				#spriteType = CorneredTiled
+				#spriteborder = { 1 1 }
+				name = "toggle_pause_button"
+				gfxtype = framedbuttongfx
+				parentanchor = bottom
+				framesize = { 234 43 }
+				upframe = 1
+				downframe = 2
+				overframe = 2
+				#button_trigger = none
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				onclick = "[CreditsWindow.OnTogglePause]"
+			}
+		}
+
+		widget = {
+			size = { 128 38 }
+			position = { 143 -20 }
+			widgetanchor = bottom|hcenter
+			parentanchor = bottom|hcenter
+			textbox = {
+				name = "faster_button"
+				size = { 128 32 }
+				text = "TIME_SPEED_UP"
+				using = BlackMarbleFontColor
+				font = BaseFont
+				fontsize = 20
+				fontcolor = { 1 1 1 1 }
+				align = center
+				visible = "[Not(CreditsWindow.IsFastest)]"
+			}
+			button = {
+				size = { 128 33 }
+				texture = "gfx/interface/frontend/credits_title_hovers.dds"
+				gfxtype = framedbuttongfx
+				parentanchor = bottom
+				framesize = { 234 43 }
+				upframe = 1
+				downframe = 2
+				overframe = 2
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				
+				visible = "[Not(CreditsWindow.IsFastest)]"
+				onclick = "[CreditsWindow.OnFaster]"	
+			}
+		}
+	}
+
+#	type JominiCreditsWindowCloseButton = JominiCredistsViewButton {
+#		block "close_button"
+#		{
+#			size = { 100 25 }
+#			text = "CLOSE"
+#			parentanchor = top|right
+#			widgetanchor = top|right
+#		}
+#		name = "close_button"
+#		onclick = "[CreditsWindow.OnClose]"
+#	}
+
+	type JominiCreditsWindowTogglePauseButton = JominiCredistsViewButton {
+		block "toggle_pause_button"
+		{
+			size = { 100 25 }
+			text = "PAUSE"
+			parentanchor = bottom|hcenter
+			widgetanchor = bottom|hcenter
+		}
+		name = "toggle_pause_button"
+		onclick = "[CreditsWindow.OnTogglePause]"
+	}
+
+	type JominiCreditsWindowSlowerButton = JominiCredistsViewButton {
+		block "slower_button"
+		{
+			position = { -150 0 }
+			size = { 100 25 }
+			text = "SLOWER"
+			parentanchor = bottom|hcenter
+			widgetanchor = bottom|hcenter
+		}
+		name = "slower_button"
+		visible = "[Not(CreditsWindow.IsSlowest)]"
+		onclick = "[CreditsWindow.OnSlower]"
+	}
+
+
+
+	type JominiCreditsWindowFasterButton = JominiCredistsViewButton {
+		block "faster_button"
+		{
+			position = { 150 0 }
+			size = { 100 25 }
+			text = "FASTER"
+			parentanchor = bottom|hcenter
+			widgetanchor = bottom|hcenter
+		}
+		name = "faster_button"
+		visible = "[Not(CreditsWindow.IsFastest)]"
+		onclick = "[CreditsWindow.OnFaster]"		
+	}
+}
+
+# Credits frontend view
+
+template JominiCreditsViewBackground {
+	block "background" {
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		texture = "gfx/editor_gui/editor_window.dds"
+		spriteType = CorneredStretched
+		spriteborder = { 6 6 }
+		spriteborder_top = 30
+		gfxtype = windowgfx
+	}
+}
+
+types FrontEndCreditsView {
+	type JominiFrontEndCreditsView = widget {
+		name = "JominiFrontEndCreditsView"
+		size = { 100% 100% }
+		
+		background = {
+			using = JominiCreditsViewBackground
+		}
+		
+		JominiFrontEndCreditsViewBackButton = {}
+	}
+
+	type JominiFrontEndCreditsViewBackButton = JominiCredistsViewButton {
+		block "back_button"
+		{
+			parentanchor = bottom|hcenter
+			size = { 250 42 }
+			text = "BACK"
+		}
+		
+		name = "back_button"
+		shortcut = "close_window"
+		onclick = "[FrontEndCreditsView.OnBack]"
+	}
+}

@@ -1,0 +1,283 @@
+types POPS
+{
+	type pops_create_account_window = pops_window {
+		name = "pops_create_container"
+		parentanchor = vcenter|hcenter
+		movable = no
+
+		blockoverride "title"
+		{
+			#margin_top = 20
+			#margin_left = 10
+			text = "CREATE_POPS_ACCOUNT"
+			using = MarbleButtonFont
+			fontsize = 28
+			#parentanchor = top|hcenter
+			#position = { -10 0 }
+		}
+		blockoverride "hbox_properties"
+		{
+			layoutpolicy_horizontal = Preferred
+			layoutpolicy_vertical = Preferred
+		}
+		blockoverride "content_layout"
+		{
+
+				vbox = {
+					#parentanchor = top|left
+					layoutpolicy_vertical = expanding
+					layoutpolicy_horizontal = expanding
+					name = "pops_create_entries"
+					margin_left = 20
+					margin_right = 20
+					margin_top = 8
+					margin_bottom = 20
+					spacing = 6
+
+					widget = {
+						size = { 120 120 }
+
+						icon = {
+						parentanchor = top|hcenter
+							#position = { 0 20 }
+							texture = "gfx/interface/frontend/platypus_symbol_account.dds"
+							size = { 120 120 }
+						}
+					}
+
+					editor_textbox = {
+						#position = { 10 4 }
+						size = { 288 38 }
+						#autoresize = yes
+						
+						block "title"
+						{
+							text = "#BOLD;COLOR:{1.0,1.0,1.0} Untitled #!"
+						}
+					}
+
+					widget = {
+						size = { 388 188 }
+
+						vbox = {
+							textbox_entry = {
+								name = "pops_entry_create_email"
+								blockoverride "title"
+								{
+									text = "EMAIL"
+								}
+								blockoverride "editbox_text"
+								{
+									text = "[POPSCreateAccount.GetEmail]"
+								}
+								blockoverride "pops_editbox"
+								{
+									ontextchanged = "[POPSCreateAccount.SetEmail]"
+								}
+							}
+							textbox_entry = {
+								name = "pops_entry_create_password"
+								blockoverride "title"
+								{
+									text = "PASSWORD"
+								}
+								blockoverride "editbox_text"
+								{
+									text = "[POPSCreateAccount.GetPassword]"
+								}
+								blockoverride "pops_editbox"
+								{
+									ontextchanged = "[POPSCreateAccount.SetPassword]"
+								}
+								blockoverride "password"
+								{
+									password = yes
+								}
+							}
+							hbox =
+							{
+								layoutpolicy_horizontal = expanding
+								#layoutpolicy_vertical = expanding
+								#pops_required_textbox={}
+								#pops_vertical_spacer={}
+								textbox = {
+									text = "DATE_OF_BIRTH"
+									size = { 130 30 }
+									using = MarbleButtonFontS
+								}
+								pops_dropdown = {
+									layoutpolicy_horizontal = expanding
+									blockoverride "pops_dropdown"
+									{
+										datamodel = "[POPSCreateAccount.GetYears]"
+										onselectionchanged = "[POPSCreateAccount.OnYearChanged]"
+										selectedindex = "[POPSCreateAccount.GetSelectedYearIndex]"
+									}
+									name = "pops_year_dropdown"
+									blockoverride "item_text"
+									{
+										text = "[uint32.GetUint]"
+									}
+									blockoverride "active_item"
+									{
+										size = { 100 30 }
+									}
+									blockoverride "item"
+									{
+										size = { 70 20 }
+									}
+									blockoverride "scrollarea"
+									{
+										maximumsize = { 70 210 }
+									}
+								}
+								pops_dropdown = {
+									blockoverride "pops_dropdown"
+									{
+										datamodel = "[POPSCreateAccount.GetMonths]"
+										onselectionchanged = "[POPSCreateAccount.OnMonthChanged]"
+										selectedindex = "[POPSCreateAccount.GetSelectedMonthIndex]"
+									}
+									name = "pops_month_dropdown"
+									blockoverride "item_text"
+									{
+										text = "[uint32.GetUint]"
+									}
+									blockoverride "active_item"
+									{
+										size = { 70 30 }
+									}
+									blockoverride "item"
+									{
+										size = { 70 20 }
+									}
+									blockoverride "scrollarea"
+									{
+										maximumsize = { 70 210 }
+									}
+								}
+								#pops_horizontal_spacer = {}
+								pops_dropdown = {
+									blockoverride "pops_dropdown"
+									{
+										datamodel = "[POPSCreateAccount.GetDays]"
+										onselectionchanged = "[POPSCreateAccount.OnDayChanged]"
+										selectedindex = "[POPSCreateAccount.GetSelectedDayIndex]"
+									}
+									name = "pops_day_dropdown"
+									blockoverride "item_text"
+									{
+										text = "[uint32.GetUint]"
+									}
+									blockoverride "active_item"
+									{
+										size = { 70 30 }
+									}
+									blockoverride "item"
+									{
+										size = { 70 20 }
+									}
+									blockoverride "scrollarea"
+									{
+										maximumsize = { 70 210 }
+									}
+								}
+							}
+
+							pops_dropdown_entry = {
+								blockoverride "pops_dropdown_wider"
+								{
+									datamodel = "[POPSCreateAccount.GetCountries]"
+									onselectionchanged = "[POPSCreateAccount.OnCountryChanged]"
+									selectedindex = "[POPSCreateAccount.GetSelectedCountryIndex]"
+								}
+								name = "pops_dd_create_country"
+								blockoverride "title"
+								{
+									text = "COUNTRY"
+								}
+								blockoverride "pops_dropdown_name_wider"
+								{
+									name = "pops_country_dropdown"
+								}
+								blockoverride "item_text"
+								{
+									text = "[CountryEntry.GetCountry]"
+								}
+							}
+
+						}
+
+
+					}
+						
+					hbox = {
+						pops_button_wide_marble = {
+							name = "pops_create_btn_tou"
+							text = "TERMS_OF_USE"
+							onclick = "[POPSCreateAccount.ShowToU]"
+						}
+						#pops_vertical_spacer = {}
+						pops_button_wide_marble = {
+							name = "pops_create_btn_pp"
+							text = "PRIVACY_POLICY"
+							onclick = "[POPSCreateAccount.ShowPP]"
+						}
+					}
+					hbox = {
+						pops_checkbutton = {
+							blockoverride "size"
+							{
+								size = { 350 50 }
+							}
+							blockoverride "label"
+							{
+								text = "OPT_IN_TO_MARKETING"
+							}
+							blockoverride "checkbutton"
+							{
+								onclick = "[POPSCreateAccount.OnOptedIntoMarketingToggled]"
+								checked = "[POPSCreateAccount.GetOptedIntoMarketingChecked]"
+							}
+						}
+					}		
+
+					pops_error_textbox = {
+						name = "pops_create_lbl_error_message"
+						minimumsize = { 100 40 }
+						multiline = yes
+						layoutpolicy_vertical = expanding
+						text = "[POPSCreateAccount.GetErrorMessage]"
+					}
+					#pops_vertical_spacer = {}
+					pops_textbox = {
+						name = "pops_create_lbl_have_read_policies"
+						text = "CONFIRM_HAVE_READ_POLICIES"
+						size = { 400 100 }
+						multiline = yes
+					}			
+					#pops_vertical_spacer = {}
+
+					hbox = {
+					layoutpolicy_horizontal = expanding
+						pops_button_marble = {
+							name = "pops_create_btn_cancel"
+							text = "ACCOUNT_BUTTON_CANCEL"
+							onclick = "[POPSCreateAccount.Hide]"
+						}	
+
+						pops_button_load_indicator_marble = {
+							name = "pops_create_btn_create"
+							text = "ACCOUNT_BUTTON_CREATE"
+							onclick = "[POPSCreateAccount.CreateAccount]"
+							enabled = "[POPSCreateAccount.CanCreateAccount]"
+							blockoverride "load_indicator"
+							{
+								visible = "[POPSCreateAccount.IsCreatingAccount]"
+							}
+						}	
+					}
+				}
+			}
+		}
+	}

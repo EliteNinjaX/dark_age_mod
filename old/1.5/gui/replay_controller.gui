@@ -1,0 +1,131 @@
+
+window = {
+	gfxtype = windowgfx
+	name = "replay_controller"
+	
+	parentanchor = top|right
+	position = { 1 114 }
+	
+	size = { 318 506 }
+	movable = no
+
+	background = {
+		texture = "gfx/interface/icons/outliner/outliner_backdrop.dds"
+		#shaderfile = "gfx/FX/pdxgui_default.shader"
+		#adding dumb shader so we don't confuse with outliner...
+		shaderfile = "gfx/FX/pdxgui_glow_game.shader"
+	}
+	
+	textbox = {
+		using = MarbleButtonFont
+		text = "REPLAY_PLAYBACK"
+		fontsize = 20
+		position = { 124 15 }
+
+	}
+
+	
+	icon = {
+		position = { -4 32 }
+		parentanchor = right
+		texture = "gfx/interface/rope_scrollbar.dds"
+	}
+	
+	pause_button = {
+		name = "rewind_button"
+		size = { 42 42 }
+		
+		visible = yes
+		
+		position = { 4 44 }
+		
+		onclick = "[ReplayController.OnRewind]"
+		
+		tooltip = "REWIND"
+	}
+	
+	play_button = {
+		name = "max_backward_button"
+		size = { 42 42 }
+		
+		visible = yes
+		
+		position = { 44 44 }
+		
+		onclick = "[ReplayController.OnMaxBackward]"
+		
+		tooltip = "MAX_BACKWARD"
+	}
+	
+	play_button = {
+		name = "decelerate_button"
+		size = { 42 42 }
+		
+		visible = yes
+		
+		position = { 94 44 }
+		
+		onclick = "[ReplayController.OnDecelerate]"
+		
+		tooltip = "DECELERATE_TIME"
+	}
+	
+	pause_button = {
+		name = "stop_button"
+		size = { 42 42 }
+		
+		visible = yes
+		
+		position = { 144 44 }
+		
+		onclick = "[ReplayController.OnStop]"
+		
+		tooltip = "STOP_TIME"
+	}
+	
+	play_button = {
+		name = "accelerate_button"
+		size = { 42 42 }
+		
+		visible = yes
+		
+		position = { 194 44 }
+		
+		onclick = "[ReplayController.OnAccelerate]"
+		
+		tooltip = "ACCELERATE_TIME"
+	}
+	
+	play_button = {
+		name = "max_forward_button"
+		size = { 42 42 }
+		
+		visible = yes
+		
+		position = { 244 44 }
+		
+		onclick = "[ReplayController.OnMaxForward]"
+		
+		tooltip = "MAX_FORWARD"
+	}
+	
+	pause_button = {
+		name = "to_end_button"
+		size = { 42 42 }
+		
+		visible = yes
+		
+		position = { 284 44 }
+		
+		onclick = "[ReplayController.OnToEnd]"
+		
+		tooltip = "TO_END"
+	}
+	
+	textbox = {
+		using = MarbleButtonFont
+		text = "gUI D3sign © yolo design 2019"
+		fontsize = 16
+		position = { 64 450 }
+	}
+}

@@ -1,0 +1,1900 @@
+template diplomatic_actions
+{
+	dynamicgridbox = {
+		name = "actions_grid"
+		datamodel = "[DiplomaticActionCategory.GetActions]"
+		alpha = 1
+		state = {
+			name = hide_this
+			duration = 0.15
+			
+			animation = {
+				size = { 0 0 }
+				bezier = { 1.0 0.0 0.0 1.0 }
+			}
+			
+			animation = {
+				alpha = 0
+				bezier = { 1.0 0.0 0.0 1.0 }
+			}
+			
+			on_finish = "[DiplomaticActionCategory.OnClick]"
+			
+		}
+		
+		state = {
+			name = show_this
+			duration = 0
+			
+			animation = {
+				alpha = 1
+			}
+			
+			on_start = "[DiplomaticActionCategory.OnClick]"
+			
+		}
+
+		item = {
+			widget = {
+				name = "child_actions_category"
+				size = { 380 0 }
+				visible = no
+				alpha = 0
+				
+				state = {
+					name = _show
+					duration = 0.14
+
+					animation = {
+						size = { 380 38 }
+						bezier = { 1.0 0.0 0.0 1.0 }
+					}
+					
+					animation = {
+						alpha = 1
+					}
+				}
+				
+				state = {
+					name = _hide
+					
+					animation = {
+						alpha = 0
+					}
+					
+				}
+				
+				container = {
+					button_standard_white_marble_s = {
+						size = { 380 38 }
+						onclick = "[DiplomaticActionItem.OnClick]"
+						enabled = "[DiplomaticActionItem.IsEnabled]"
+						tooltip = "[DiplomaticActionItem.GetTooltip]"
+						clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						
+						
+						
+						buttonText = {
+							textbox = {
+								parentanchor = bottom|hcenter
+								using = MarbleButtonFontS
+								text = "[DiplomaticActionItem.GetTitle]"
+								autoresize = yes
+								position = { 0 -12 }
+							}
+						}
+					}
+					icon = {
+						position = { 345 0 }
+						framesize = { 46 46 }
+						size = { 36 36 }
+						visible = "[DiplomaticActionItem.RequireAcceptance]"
+						texture = "gfx/interface/diplomacy/ai_accept_decline_icon.dds"
+						frame = "[DiplomaticActionItem.GetAcceptanceFrame]"
+						tooltip = "[DiplomaticActionItem.GetAcceptanceTooltip]"
+					}
+				}
+
+				icon = {
+					name = "Base"
+					visible = "[DiplomaticActionItem.HasPrice]"
+					texture = "gfx/interface/tiles/value_bg.dds"
+				}
+				
+				textbox = {
+					position = { 44 2 }
+					widgetanchor = top|hcenter
+					
+					using = MarbleButtonFontS
+					autoresize = yes
+					tooltip = "[DiplomaticActionItem.GetPriceInfo]"
+					text = "[DiplomaticActionItem.GetPrice]"
+					visible = "[DiplomaticActionItem.HasPrice]"
+				}
+			}
+		}
+	}
+}
+
+window = {
+	gfxtype = windowgfx
+	name = "diplomatic_view"
+	
+	parentanchor = top|left
+	widgetanchor = top|left
+	size = { 1148 880 }
+	position = { 5 120 }
+	movable = no
+	
+	widget = {
+		name = "background"
+		using = Large_window_type
+		size = { 100% 100% }
+		alwaystransparent = yes
+		blockoverride "header"
+		{
+			text = "DIPLOMACY_MENU_HEADER"
+			tooltip = "DIPLOMACY_MENU_HEADER_TT"
+		}
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -12 12 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[DiplomaticView.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	left_arrow_button = {
+		name = "previous_button"
+		position = { 369 14 }
+		parentanchor = top|left
+		shortcut = "previous_window"
+		onclick = "[DiplomaticView.OnPrevious]"
+		tooltip = "PREVIOUS_DIPLOMATIC_VIEW"
+	}
+	
+	
+	
+	##############################################
+	# PlayerData
+	##############################################
+	container = {
+		position = { 50 72 }
+		
+		country_flag = {
+			position = { 14 42 }
+			datacontext = "[DiplomaticView.GetPlayer]"
+			
+			
+						
+			blockoverride "flag"
+			{
+				
+				texture = "[DiplomaticView.GetPlayer.AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+				frame = "[DiplomaticView.GetPlayer.AccessCoatOfArms.GetFrame('(int32)120','(int32)120'))]"
+				framesize = { 120 120 }
+			}
+			
+			blockoverride "size"
+			{
+				size = { 72 72 }
+			}
+			
+			blockoverride "click"
+			{
+				onclick = "[OpenDiplomacy(DiplomaticView.GetPlayer)]"
+			}
+			
+			blockoverride "hover_leave"
+			{
+				onmousehierarchyleave = "[DiplomaticView.ResetHighlight]"
+			}
+			
+			tooltip = "HOME_FLAG_EXPL"
+		
+		}
+		
+		icon = {
+			name = "Diplomatic Relations"
+			size = { 100 38 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+			
+			icon = {
+				position = { 4 2 }
+				size = { 34 34 }
+				texture = "gfx/interface/icons/modifiers/diplomatic_relations.dds"
+				tooltip = "[DiplomaticView.GetPlayer.GetActiveRelationsInfo]"
+			}
+			
+			flowcontainer = {
+				direction = horizontal
+				position = { 63 5 }
+				widgetanchor = top|hcenter
+				
+				textbox = {
+					autoresize = yes
+					multiline = no
+					using = MarbleButtonFont
+					text = "[DiplomaticView.GetPlayer.GetNumActiveRelations]"
+					tooltip = "[DiplomaticView.GetPlayer.GetActiveRelationsInfo]"
+				}
+				
+				widget = {
+					size = { 6 4 }
+				}
+				
+				icon = {
+					name = "vertical_divider_1"
+					texture = "gfx/interface/tiles/vertical_divider.dds"
+					spriteType = corneredtiled
+					spriteborder = { 0 10 }
+					size = { 6 28 }
+				}
+
+				widget = {
+					size = { 6 4 }
+				}
+				
+				textbox = {
+					autoresize = yes
+					multiline = no
+					using = MarbleButtonFont
+					text = "[DiplomaticView.GetPlayer.GetModifierValue('diplomatic_relations')]"
+					tooltip = "[DiplomaticView.GetPlayer.GetModifierTooltip('diplomatic_relations')]"
+				}
+			}
+		}
+		
+		flowcontainer = {
+			position = { 115 0 }
+			direction = vertical
+			alpha = "[TransparentIfZero(DiplomaticView.GetPlayer.GetCurrentAgressiveExpansion)]"
+			
+			icon = {
+				name = "Aggressive Expansion"
+				size = { 100 38 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				
+				tooltip = "[DiplomaticView.GetPlayer.GetCurrentAgressiveExpansionInfo]"
+				
+				icon = {
+					position = { 4 1 }
+					size = { 34 34 }
+					texture = "gfx/interface/icons/shared_icons/aggressive_expansion.dds"
+				}
+				
+				textbox = {
+					position = { 64 6 }
+					size = { 68 20 }
+					multiline = no
+					using = MarbleButtonFont
+					text = "[DiplomaticView.GetPlayer.GetCurrentAgressiveExpansion|2]"
+					widgetanchor = top|hcenter
+					align = center
+				}
+			}
+			
+			widget = {
+				size = { 6 6 }
+			}
+			
+			icon = {
+				size = { 100 32 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				
+				tooltip = "[DiplomaticView.GetPlayer.GetModifierTooltip('agressive_expansion_impact')]"
+				
+				icon = {
+					position = { 4 2 }
+					size = { 28 28 }
+					texture = "gfx/interface/icons/modifiers/agressive_expansion_impact.dds"
+				}
+				
+				textbox = {
+					position = { 64 5 }
+					size = { 68 20 }
+					multiline = no
+					using = MarbleButtonFontS
+					text = "[DiplomaticView.GetPlayer.GetModifierValue('agressive_expansion_impact')]"
+					widgetanchor = top|hcenter
+					align = center
+				}
+			}
+			
+			widget = {
+				size = { 6 6 }
+			}
+			
+			icon = {
+				size = { 100 32 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				
+				tooltip = "[DiplomaticView.GetAEChangeInfo]"
+				
+				icon = {
+					position = { 4 2 }
+					size = { 28 28 }
+					texture = "gfx/interface/icons/modifiers/agressive_expansion_monthly_decay.dds"
+				}
+				
+				textbox = {
+					position = { 64 5 }
+					size = { 68 20 }
+					multiline = no
+					using = MarbleButtonFontS
+					text = "[DiplomaticView.GetAEChange |2]"
+					widgetanchor = top|hcenter
+					align = center
+				}
+			}
+		}
+		
+		flowcontainer = {
+			direction = vertical
+			position = { 230 0 }
+			
+			icon = {
+				size = { 100 38 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				
+				tooltip = "DIP_VIEW_REPUTATION_TOOLTIP"
+				
+				icon = {
+					position = { 4 2 }
+					size = { 34 34 }
+					texture = "gfx/interface/icons/modifiers/diplomatic_reputation.dds"
+				}
+				
+				textbox = {
+					position = { 64 6 }
+					size = { 68 20 }
+					multiline = no
+					using = MarbleButtonFont
+					text = "[DiplomaticView.GetPlayer.GetModifierValue('diplomatic_reputation')]"
+					widgetanchor = top|hcenter
+					align = center
+				}
+			}
+			
+			widget = {
+				size = { 6 6 }
+			}
+			
+			icon = {
+				size = { 100 32 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				
+				tooltip = "[DiplomaticView.GetDiplomaticRangeTooltip]"
+				
+				icon = {
+					position = { 4 1 }
+					size = { 28 28 }
+					texture = "gfx/interface/icons/shared_icons/diplomatic_range.dds"
+				}
+				
+				textbox = {
+					position = { 64 5 }
+					size = { 68 20 }
+					multiline = no
+					using = MarbleButtonFontS
+					text = "[DiplomaticView.GetDiplomaticRange]"
+					widgetanchor = top|hcenter
+					align = center
+				}
+			}
+			
+			widget = {
+				size = { 6 6 }
+			}
+			
+			icon = {
+				size = { 100 32 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				
+				tooltip = "[DiplomaticView.GetPlayer.GetModifierTooltip('improve_relation_impact')]"
+				
+				icon = {
+					position = { 4 1 }
+					size = { 28 28 }
+					texture = "gfx/interface/icons/modifiers/improve_relation.dds"
+				}
+				
+				textbox = {
+					position = { 64 5 }
+					size = { 68 20 }
+					multiline = no
+					using = MarbleButtonFontS
+					text = "[DiplomaticView.GetPlayer.GetModifierValue('improve_relation_impact')]"
+					widgetanchor = top|hcenter
+					align = center
+				}
+			}
+		}
+	}
+	
+
+	##############################################
+	# Diplomatic Stance
+	##############################################
+	container = {
+		position = { 45 190 }
+
+		DefaultHeaderBackground = {
+			name = "province_header"
+			position = { -4 -2 }
+			size = { 345 46 }
+			
+			blockoverride "text"
+			{
+				margin_left = 38
+				text = "[DiplomaticView.GetPlayer.GetDiplomaticStance.GetName]"
+			}
+			tooltip = "[DiplomaticView.GetPlayer.GetDiplomaticStance.GetTooltip]"
+		}
+		
+		button = {
+			position = { 0 2 }
+			texture = "gfx/interface/buttons/button_square_40.dds"
+			tooltip = "[DiplomaticView.GetPlayer.GetDiplomaticStance.GetTooltip]"
+			onclick = "[DiplomaticView.ShowStances]"
+			
+			icon = {
+				position = { 2 2 }
+				size = { 36 36 }
+				texture = "[GetDiplomaticStanceIcon(DiplomaticView.GetPlayer.GetDiplomaticStance)]"
+				alwaystransparent = yes
+			}
+		}
+		
+		textbox = {
+			position = { -16 10 }
+			size = { 50 20 }
+			using = MarbleButtonFontS
+			align = right
+			widgetanchor = top|right
+			parentanchor = top|right
+			text = "[DiplomaticView.GetPlayer.GetModifierValue('change_diplomatic_stance_cost_modifier')]"
+			tooltip = "[DiplomaticView.GetPlayer.GetNumStanceChangesInfo]"
+		}
+	}
+	
+	
+	##############################################
+	# Relations
+	##############################################
+	
+	container = {
+		position = { 0 30 }
+	
+	
+		container = {
+			name = "neighbours"
+			tooltip = SHOW_NEIGHBOR_TT
+			position = { 47 205 }
+			
+			button = {
+				texture = "gfx/interface/buttons/checkbox.dds"
+				frame = "[DiplomaticView.GetNeighborIconFrame]"
+				onclick = "[DiplomaticView.ToggleNeighbor]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_select"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				framesize = { 36 36 }
+			}
+			
+			icon = {
+				name = "frame"
+				position = { 38 4 }
+				texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 8 8 }
+				size = { 120 28 }
+				
+				textbox = {
+					position = { 8 2 }
+					size = { 108 20 }
+					using = MarbleButtonFontS
+					text = SHOW_NEIGHBOR
+					widgetanchor = left
+					align = left
+				}
+			}
+		}
+		
+		container = {
+			name = "region"
+			tooltip = SHOW_REGION_TT
+			position = { 222 205 }
+			
+			button = {
+				texture = "gfx/interface/buttons/checkbox.dds"
+				frame = "[DiplomaticView.GetRegionIconFrame]"
+				onclick = "[DiplomaticView.ToggleRegion]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_select"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				framesize = { 36 36 }
+			}
+			
+			icon = {
+				name = "frame"
+				position = { 38 4 }
+				texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 8 8 }
+				size = { 120 28 }
+				
+				textbox = {
+					position = { 8 2 }
+					size = { 108 20 }
+					using = MarbleButtonFontS
+					text = SHOW_REGION
+					widgetanchor = left
+					align = left
+				}
+			}
+		}
+		
+		sort_button = {
+			name = "sort_name"
+			position = { 48 245 }
+			text = COUNTRY
+			tooltip = SORT_NAME_TT
+			onclick = "[DiplomaticView.Sort('name')]"
+			down = "[DiplomaticView.IsSorted('name')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			size = { 237 32 }
+			
+			using = MarbleButtonFontS
+			blockoverride "text_position"
+			{
+				position = { 0 -9 }
+			}
+		}
+		
+		sort_button = {
+			name = "sort_opinion"
+			position = { 284 245 }
+			tooltip = SORT_OPINION_TT
+			onclick = "[DiplomaticView.Sort('opinion')]"
+			down = "[DiplomaticView.IsSorted('opinion')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			size = { 50 32 }
+			
+			using = MarbleButtonFontS
+			blockoverride "text_position"
+			{
+				position = { 0 -9 }
+			}
+			icon = {
+				texture = "gfx/interface/icons/diplomatic_status/opinion_improvement_active.dds"
+				position = { 14 2 }
+				size = { 26 26 }
+			}
+		}
+		
+		sort_button = {
+			name = "sort_rank"
+			position = { 332 245 }
+			#text = SORT_RANK
+			tooltip = SORT_RANK_TT
+			onclick = "[DiplomaticView.Sort('rank')]"
+			down = "[DiplomaticView.IsSorted('rank')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			size = { 50 32 }
+			
+			using = MarbleButtonFontS
+			blockoverride "text_position"
+			{
+				position = { 0 -9 }
+			}
+			icon = {
+				texture = "gfx/interface/diplomacy/country_rank.dds"
+				position = { 0 2 }
+				size = { 26 26 }
+				framesize = { 54 54 }
+				parentanchor = top|hcenter
+				frame = 5
+			}
+		}
+		
+		
+		icon = {
+			position = { 50 280 }
+			size = { 330 538 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			
+			scrollarea = {
+				position = { 4 1 }
+				size = { 322 532 }
+				scrollbarpolicy_horizontal = always_off
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+					blockoverride "ScrollBar_offset"
+					{
+						size = { 0 4 }
+					}
+				}
+				
+				scrollwidget = {
+					fixedgridbox = {
+						name = "relations_grid"
+						datamodel = "[DiplomaticView.GetCountries]"
+						addcolumn = 312
+						addrow = 38
+						
+						item = {
+							widget = {
+								size = { 312 38 }
+								entry_button = {
+									size = { 280 40 }
+									using = MarbleButtonFontS
+									text = "[CountryDiplomaticItem.GetName]"
+									onclick = "[CountryDiplomaticItem.OnSelect]"
+									onmousehierarchyenter = "[SetHighlightCountry( CountryDiplomaticItem.GetCountry )]"
+									onmousehierarchyleave = "[DiplomaticView.ResetHighlight]"
+								}
+								country_flag = {
+									datacontext = "[CountryDiplomaticItem.GetCountry]"
+									tooltip = "COUNTRY_SHORTHAND_INFO"
+									
+									position = { 9 0 }
+									blockoverride "flag"
+									{
+										texture = "[CountryDiplomaticItem.GetCountry.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+										frame = "[CountryDiplomaticItem.GetCountry.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+										framesize = { 56 56 }
+									}
+									blockoverride "size"
+									{
+										size = { 38 38 }
+									}
+									
+									blockoverride "click"
+									{
+										onclick = "[OpenDiplomacy(CountryDiplomaticItem.GetCountry)]"
+									}
+									
+									blockoverride "hover_leave"
+									{
+										onmousehierarchyleave = "[DiplomaticView.ResetHighlight]"
+									}
+								}
+								textbox = {
+									position = { 267 5 }
+									autoresize = yes
+									using = MarbleButtonFontS
+									text = "[CountryDiplomaticItem.GetValue|+=]"
+									tooltip = "[CountryDiplomaticItem.GetTooltip]"
+									widgetanchor = right
+									align = right
+								}
+								
+								icon = {
+									position = { 278 1 }
+									framesize = { 54 54 }
+									size = { 36 36 }
+									texture = "gfx/interface/diplomacy/country_rank.dds"
+									frame = "[CountryDiplomaticItem.GetCountry.GetRankFrame]"
+									tooltip = "[CountryDiplomaticItem.GetCountry.GetRankInformation]"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	
+	
+	icon = {
+		texture = "gfx/interface/tiles/marble_divider_vertical.dds"
+		spriteType = Corneredtiled
+		position = { 386 59 }
+		size = { 9 802 }
+		spriteborder = { 19 16 }
+	}
+	
+	container = {
+		
+		######################################################################
+		# Selected Country
+		######################################################################
+		position = { 388 56 }
+		
+	
+		
+		
+		#Barbarian Specific stuff
+		container = {
+			position = { 10 10 }
+			visible = "[DiplomaticView.GetTargetCountry.IsBarbarian]"
+			
+			DefaultHeaderBackground = {
+				name = "province_header"
+				position = { -4 -2 }
+				size = { 705 46 }
+				
+				blockoverride "text"
+				{
+					margin_left = 50
+					text = "[DiplomaticView.GetHorde.GetName]"
+				}
+			}
+			
+			country_flag = {
+				position = { 2 -4 }
+				
+				blockoverride "flag"
+				{
+					texture = "[DiplomaticView.GetTargetCountry.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[DiplomaticView.GetTargetCountry.AccessCoatOfArms.GetFrame('(int32)56','(int32)56'))]"
+					framesize = { 56 56 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 52 52 }
+				}
+			}
+			
+			container = {
+				position = { -4 40 }
+				portrait_button = {
+					using = portrait_100_no_pop
+					name = "player_portrait"
+					
+					parentanchor = top|left
+					datacontext = "[DiplomaticView.GetHorde.GetLeader]"
+				}
+			
+			}
+			
+			flowcontainer = {
+				direction = horizontal
+				position = { 140 48 }
+				
+				icon = {
+					size = { 100 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetHorde.GetOccupationTooltip]"
+					
+					icon = {
+						position = { 4 1 }
+						size = { 28 28 }
+						texture = "gfx/interface/icons/shared_icons/city.dds"
+					}
+					
+					textbox = {
+						position = { 64 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetHorde.GetOccupationCount]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					size = { 100 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "HORDE_LOOT_TOOLTIP"
+					
+					icon = {
+						position = { 4 1 }
+						size = { 28 28 }
+						using = icon_treasury
+					}
+					
+					textbox = {
+						position = { 64 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetHorde.GetLoot|2]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					size = { 100 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "HORDE_SLAVES_TOOLTIP"
+					
+					icon = {
+						position = { 4 1 }
+						size = { 28 28 }
+						using = icon_pop_slaves
+					}
+					
+					textbox = {
+						name = "army_value"
+						position = { 64 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetHorde.GetPossibleSlaves]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					visible = "[DiplomaticView.GetHorde.HasArmy]"
+					size = { 100 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetHorde.GetArmy.GetTooltip]"
+					
+					icon = {
+						position = { 4 1 }
+						size = { 28 28 }
+						texture = "gfx/interface/icons/shared_icons/land_combat.dds"
+					}
+					
+					textbox = {
+						name = "army_value"
+						position = { 64 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetHorde.GetArmy.GetVisualStrength]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+			}
+			
+			icon = {
+				name = "Religion"
+				
+				position = { 140 100 }
+				
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 12 12 }
+				size = { 415 30 }
+				tooltip = "[DiplomaticView.GetHorde.GetReligion.GetTooltip]"
+				
+				textbox = {
+					position = { 10 0 }
+					size = { 100% 24 }
+					align = left
+					autoresize = yes
+					using = MarbleButtonFont
+					text = "RELIGION"
+				}
+				
+				textbox = {
+					size = { 100% 24 }
+					using = MarbleButtonFont
+					text = "[DiplomaticView.GetHorde.GetReligion.GetName]"
+					align = right
+					margin_right = 6
+				}
+			}
+			
+			icon = {
+				name = "Culture"
+				position = { 140 136 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 12 12 }
+				size = { 415 30 }
+				tooltip = "[DiplomaticView.GetHorde.GetCulture.GetTooltip]"
+				
+				textbox = {
+					position = { 10 0 }
+					size = { 100% 24 }
+					align = left
+					autoresize = yes
+					using = MarbleButtonFont
+					text = "CULTURE"
+				}
+				
+				textbox = {
+					size = { 100% 24 }
+					using = MarbleButtonFont
+					text = "[DiplomaticView.GetHorde.GetCulture.GetName]"
+					align = right
+					margin_right = 6
+				}
+			}
+		}
+		
+		#-------------------------------
+		#Non-Barbarian Specific stuff
+		container = {
+			position = { 10 10 }
+			visible = "[Not(DiplomaticView.GetTargetCountry.IsBarbarian)]"
+			
+			DefaultHeaderBackground = {
+				name = "province_header"
+				position = { -4 -2 }
+				size = { 705 46 }
+				
+				blockoverride "text"
+				{
+					margin_left = 50
+					text = "[DiplomaticView.GetTargetCountry.GetName]"
+					tooltip = "[DiplomaticView.GetTargetCountry.GetPersonality]"
+				}
+			}
+			
+			container = {
+				position = { -4 40 }
+				portrait_button = {
+					using = portrait_100_no_pop
+					name = "player_portrait"
+					
+					parentanchor = top|left
+					datacontext = "[DiplomaticView.GetTargetCountry.GetRuler]"
+				}
+			
+			}
+
+			
+			country_flag = {
+				position = { 2 -4 }
+
+				datacontext = "[DiplomaticView.GetTargetCountry]"
+				tooltip = "COUNTRY_SHORTHAND_INFO"
+				
+				blockoverride "flag"
+				{
+					texture = "[DiplomaticView.GetTargetCountry.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[DiplomaticView.GetTargetCountry.AccessCoatOfArms.GetFrame('(int32)56','(int32)56'))]"
+					framesize = { 56 56 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 52 52 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[OpenDiplomacy(DiplomaticView.GetTargetCountry)]"
+				}
+				
+				blockoverride "hover_leave"
+				{
+					onmousehierarchyleave = "[DiplomaticView.ResetHighlight]"
+				}
+			}
+			
+			textbox = {
+				position = { -48 6 }
+				autoresize = yes
+				using = BlackMarbleFont
+				text = "[DiplomaticView.GetTargetCountry.GetGovernment.GetName]"
+				tooltip = "[DiplomaticView.GetTargetCountry.GetGovernment.GetTooltip]"
+				parentanchor = top|right
+				widgetanchor = top|right
+			}
+			
+			
+			icon = {
+				position = { 648 -7 }
+				framesize = { 54 54 }
+				texture = "gfx/interface/diplomacy/country_rank.dds"
+				frame = "[DiplomaticView.GetTargetCountry.GetRankFrame]"
+				tooltip = "[DiplomaticView.GetTargetCountry.GetRankInformation]"
+			}
+			
+
+			
+			
+			widget = {
+				size = { 328 72 }
+				position = { 140 49 }
+				tooltip = "[DiplomaticView.GetTargetCountry.GetMilitaryTraditionToolTip]"
+				
+				mt_owned = {
+					datacontext = "[DiplomaticView.GetTargetCountry.GetMilitaryTradition.GetStartBonus]"
+					size = { 198 72 }
+					
+					blockoverride "texture"
+					{
+						texture = "[GetMilitaryBonusIcon(DiplomaticView.GetTargetCountry.GetMilitaryTradition.GetStartBonus)]"
+
+					}
+				}
+			}
+			
+			container = {
+				position = { -4 50 }
+				parentanchor = top|right
+				widgetanchor = top|right
+				
+				################################
+				# Opinions
+				################################
+				icon = {
+					name = "Opinion of Them"
+					size = { 100 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetTargetCountry.GetOpinionDescription(DiplomaticView.GetPlayer)]"
+					
+					icon = {
+						position = { 4 2 }
+						size = { 28 28 }
+						texture = "gfx/interface/icons/diplomatic_status/opinion_improvement_active.dds"
+					}
+					
+					textbox = {
+						position = { 64 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetTargetCountry.GetOpinionOf(DiplomaticView.GetPlayer)|+=]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				
+				icon = {
+					name = "Opinion of Us"
+					position = { 0 38 }
+					size = { 100 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetPlayer.GetOpinionDescription(DiplomaticView.GetTargetCountry)]"
+					
+					icon = {
+						position = { 4 2 }
+						size = { 28 28 }
+						texture = "gfx/interface/icons/diplomatic_status/opinion_improvement_passive.dds"
+					}
+					
+					textbox = {
+						position = { 64 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetPlayer.GetOpinionOf(DiplomaticView.GetTargetCountry)|+=]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				################################
+				# Technology Info
+				################################
+				dynamicgridbox = {
+					position = { 124 0 }
+					datamodel_wrap = 2
+					
+					datamodel = "[DiplomaticView.GetTechnologies]"
+					
+					item = {
+						widget = {
+							size = { 106 38 }
+							
+							tooltip = "[ForeignTechItem.GetLevelInfo]"
+							
+							icon = {
+								name = "army"
+								size = { 100 32 }
+								texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+								spriteType = Corneredtiled
+								spriteborder = { 28 20 }
+								
+								icon = {
+									position = { 4 2 }
+									texture = "gfx/interface/icons/icon_skills.dds"
+									framesize = { 50 50 }
+									frame = "[ForeignTechItem.GetIconFrame]"
+									size = { 28 28 }
+								}
+								
+								textbox = {
+									name = "army_value"
+									position = { 64 3 }
+									size = { 68 20 }
+									multiline = no
+									using = MarbleButtonFont
+									text = "[ForeignTechItem.GetLevel]"
+									widgetanchor = top|hcenter
+									align = center
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			
+			flowcontainer = {
+				position = { 140 128 }
+				direction = horizontal
+				
+				################################
+				# Ideas
+				################################
+				
+				fixedgridbox = {
+					name = "ideas_grid"
+					flipdirection = yes
+					size = { 480 160 }
+					addcolumn = 82
+					addrow = 100
+					maxhorizontalslots = 4
+					maxverticalslots = 1
+					
+					item = {
+						
+						container = {
+							
+							datacontext = "[IdeaItem.GetIdea]"
+							
+							icon = {
+								size = { 76 108 }
+								texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+								spriteType = Corneredtiled
+								spriteborder = { 28 20 }
+							}
+							
+							icon = {
+								visible = "[IdeaItem.IsValid]"
+								size = { 64 64 }
+								position = { 5 38 }
+								texture = "[IdeaItem.GetIcon]"
+								tooltip = IDEA_TOOLTIP
+							}
+							
+							icon = {
+								visible = "[Not(IdeaItem.IsValid)]"
+								texture = "gfx/interface/icons/ideas/empty.dds"
+								tooltip = "NO_IDEA_FOREIGN"
+								position = { 5 38 }
+								size = { 64 64 }
+							}
+							
+							icon = {
+								name = "overlay"
+								position = { 0 4 }
+								texture = "[IdeaItem.GetGroupTexture]"
+								size = { 32 32 }
+								parentanchor = top|hcenter
+								tooltip = "[IdeaItem.GetGroupMatchingTooltip]"
+							}
+							
+							icon = {
+								visible = "[IdeaItem.IsMisMatch]"
+								name = "mismatch_overlay_cross"
+								position = { 44 22 }
+								texture = "gfx/interface/icons/font_icons/font_icon_cross.dds"
+								size = { 16 16 }
+								tooltip = "IDEA_MISMATCH"
+							}
+						}
+					}
+				}
+				
+				
+				flowcontainer = {
+					direction = vertical
+					
+					icon = {
+						size = { 204 32 }
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 28 20 }
+						tooltip = "[DiplomaticView.GetTargetCountry.GetHeritage.GetTooltip]"
+						
+						modifier_icon = {
+							position = { 2 1 }
+							datacontext = "[DiplomaticView.GetTargetCountry.GetHeritage.GetModifier]"
+							tooltip = "[DiplomaticView.GetTargetCountry.GetHeritage.GetTooltip]"
+							size = { 30 30 }
+						}
+						
+						textbox = {
+							position = { 38 5 }
+							size = { 164 20 }
+							multiline = no
+							using = MarbleButtonFontS
+							text = "[DiplomaticView.GetTargetCountry.GetHeritage.GetName]"
+							elide = right
+						}
+					}
+
+					widget = {
+						size = { 6 6 }
+					}
+					
+					#LOYALTY
+					icon = {
+						size = { 204 32 }
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 28 20 }
+						
+						tooltip = "[DiplomaticView.GetTargetCountry.GetSubjectLoyaltyInfo]"
+						
+						icon = {
+							position = { 4 2 }
+							size = { 28 28 }
+							using = icon_loyalty
+						}
+						
+						textbox = {
+							position = { 116 4 }
+							size = { 160 20 }
+							multiline = no
+							using = MarbleButtonFont
+							visible = "[DiplomaticView.GetTargetCountry.IsSubject]"
+							text = "[DiplomaticView.GetTargetCountry.GetSubjectLoyalty|0]"
+							widgetanchor = top|hcenter
+							align = center
+						}
+						
+						textbox = {
+							position = { 116 4 }
+							size = { 160 20 }
+							multiline = no
+							using = MarbleButtonFont
+							visible = "[Not(DiplomaticView.GetTargetCountry.IsSubject)]"
+							text = "NOT_A_SUBJECT_MATE"
+							widgetanchor = top|hcenter
+							align = center
+						}
+					}
+					
+					widget = {
+						size = { 6 6 }
+					}
+					
+					container = {
+						
+						#CIVIL WAR
+						icon = {
+							size = { 204 32 }
+							texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+							spriteType = Corneredtiled
+							spriteborder = { 28 20 }
+							#alpha_recursive = "[TransparentIfZero(DiplomaticView.GetTargetCountry.GetProgressTowardsCivilWar)]"
+							
+							tooltip = "[DiplomaticView.GetTargetCountry.GetPossibleCivilWarTooltip]"
+							
+							icon = {
+								position = { 4 2 }
+								texture = "gfx/interface/icons/shared_icons/civil_war_active_inactive.dds"
+								frame = "[DiplomaticView.GetTargetCountry.GetCivilWarFrame]"
+								framesize = { 50 50 }
+								size = { 28 28 }
+							}
+							
+							container = {
+								
+								icon = {
+									name = "progressbar_frame"
+									spriteType = Corneredtiled
+									spriteborder = { 5 2 }
+									position = { 34 11 }
+									size = { 158 11 }
+									texture = "gfx/interface/tiles/progressbar_green_frame.dds"
+								}
+								
+								progressbar = {
+									using = progressbar_red_horizontal
+									position = { 36 13 }
+									size = { 154 7 }
+									value = "[FixedPointToFloat(DiplomaticView.GetTargetCountry.GetProgressTowardsCivilWar)]"
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			
+			flowcontainer = {
+				direction = horizontal
+				position = { 0 242 }
+				
+				
+				icon = {
+					name = "stance"
+					size = { 40 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+			
+					icon = {
+						size = { 30 30 }
+						position = { 4 0 }
+						texture = "[GetDiplomaticStanceIcon(DiplomaticView.GetTargetCountry.GetDiplomaticStance)]"
+						tooltip = "[DiplomaticView.GetTargetCountry.GetDiplomaticStance.GetTooltip]"
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					name = "treasury"
+					size = { 100 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetTargetCountry.GetTreasuryTooltip]"
+					
+					icon = {
+						position = { 4 0 }
+						size = { 30 30 }
+						using = icon_treasury
+					}
+					
+					textbox = {
+						name = "treasury_value"
+						position = { 64 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetTargetCountry.GetTreasury|0]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					name = "manpower"
+					size = { 100 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetTargetCountry.GetManpowerTooltip]"
+					
+					icon = {
+						position = { 4 2 }
+						size = { 28 28 }
+						using = icon_manpower
+					}
+					
+					textbox = {
+						name = "manpower_value"
+						position = { 64 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetTargetCountry.GetManpower]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					name = "army"
+					size = { 80 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					datacontext = "[DiplomaticView.GetTargetCountry]"
+					tooltip = "DIPLOMATIC_VIEW_TOTAL_COHORTS"
+					
+					icon = {
+						position = { 5 3 }
+						size = { 26 26 }
+						using = icon_land_combat
+					}
+					
+					textbox = {
+						name = "army_value"
+						position = { 54 3 }
+						size = { 68 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetTargetCountry.GetTotalNumOfCohorts]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					name = "navy"
+					size = { 80 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					datacontext = "[DiplomaticView.GetTargetCountry]"
+					tooltip = "DIPLOMATIC_VIEW_TOTAL_SHIPS"
+					
+					icon = {
+						position = { 4 2 }
+						size = { 28 28 }
+						using = icon_naval_combat
+					}
+					
+					textbox = {
+						name = "naval_value"
+						position = { 54 3 }
+						size = { 48 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetTargetCountry.GetTotalNumOfShips]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					name = "Stability"
+					size = { 72 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetTargetCountry.GetStabilityTooltip]"
+					
+					icon = {
+						position = { 4 2 }
+						size = { 28 28 }
+						using = icon_stability
+					}
+					
+					textbox = {
+						position = { 48 3 }
+						size = { 40 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetTargetCountry.GetStability|/1]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					name = "Cities"
+					size = { 72 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetTargetCountry.GetOwnedProvinceTooltip]"
+					
+					icon = {
+						position = { 4 2 }
+						size = { 28 28 }
+						using = icon_local
+					}
+					
+					textbox = {
+						position = { 48 3 }
+						size = { 40 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetTargetCountry.GetOwnedProvinceCount]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 4 4 }
+				}
+				
+				icon = {
+					name = "Pops"
+					size = { 94 32 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 28 20 }
+					
+					tooltip = "[DiplomaticView.GetTargetCountry.BuildTotalPopulationToolTip]"
+					
+					icon = {
+						position = { 5 2 }
+						size = { 28 28 }
+						using = icon_population
+					}
+					
+					textbox = {
+						position = { 61 3 }
+						size = { 40 20 }
+						multiline = no
+						using = MarbleButtonFont
+						text = "[DiplomaticView.GetTargetCountry.GetTotalPopulation]"
+						widgetanchor = top|hcenter
+						align = center
+					}
+				}
+				
+				widget = {
+					size = { 2 2 }
+				}
+				
+				widget = {
+					size = { 32 32 }
+					
+					button = {
+						position = { 0 -2 }
+						texture = "gfx/interface/buttons/family.dds"
+						tooltip = "VIEW_CHARACTERS"
+						size = { 36 36 }
+						onclick = "[DiplomaticView.ViewCharacters]"
+					}
+				}
+			}
+		}
+		
+		
+		icon = {
+			position = { 306 290 }
+			size = { 400 506 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			
+			
+			######################################################################
+			# Possible Actions
+			######################################################################
+			scrollarea = {
+				position = { 4 1 }
+				size = { 391 504 }
+				scrollbarpolicy_horizontal = always_off
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+					blockoverride "ScrollBar_offset"
+					{
+						size = { 0 4 }
+					}
+				}
+				
+				scrollwidget = {
+					
+					flowcontainer = {
+						ignoreinvisible = yes
+						direction = vertical
+						
+						container = {
+							visible = "[DiplomaticView.HasDiplomaticPending]"
+							widget = {
+								name = "frame"
+								position = { 1 4 }
+								
+								
+								tooltip = "[DiplomaticView.GetDiplomaticPendingTooltip]"
+								
+								background = {
+									texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 8 8 }
+									shaderfile = "gfx/FX/pdxgui_default.shader"
+								}
+								
+								flowcontainer = {
+									position = { 6 0 }
+									direction = vertical
+									resizeparent = yes
+									
+									textbox = {
+										autoresize = yes
+										multiline = yes
+										maximumsize = { 368 -1 }
+										using = MarbleButtonFontS
+										text = "[DiplomaticView.GetDiplomaticPendingText]"
+									}
+									
+									widget = {
+										size = { 376 7 }
+									}
+								}
+							}
+						}
+						
+						container = {
+							datacontext = "[DiplomaticView.GetDefaultActionCategory]"
+							using = diplomatic_actions
+						}
+						
+						dynamicgridbox = {
+							name = "actions_grid"
+							
+							datamodel = "[DiplomaticView.GetActions]"
+							
+							item = {
+								flowcontainer = {
+									direction = vertical
+									ignoreinvisible = yes
+									
+									widget = {
+										visible = "[Not(IsDataModelEmpty(DiplomaticView.GetActions))]"
+									
+										size = { 380 36 }
+
+										button_category_white_marble_a_s = {
+											size = { 380 38 }
+											onclick = "[PdxGuiWidget.AccessParent.AccessParent.FindChild('actions_grid').InterruptAnimation('hide_this')]"
+											onclick = "[PdxGuiWidget.AccessParent.AccessParent.FindChild('actions_grid').TriggerAnimation('hide_this')]"
+											#onclick = "[DiplomaticActionCategory.OnClick]"
+											clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+											oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+											
+											buttonText = {
+												textbox = {
+													parentanchor = bottom|hcenter
+													using = MarbleButtonFontS
+													text = "[DiplomaticActionCategory.GetName]"
+													autoresize = yes
+													position = { 0 -12 }
+												}
+											}
+											
+											visible = "[DiplomaticActionCategory.IsExpanded]"
+										}
+
+										button_category_white_marble_b_s = {
+											name = "close_button_dip"
+											size = { 380 38 }
+											onclick = "[PdxGuiWidget.AccessParent.AccessParent.FindChild('actions_grid').TriggerAnimation('show_this')]"
+											#onclick = "[DiplomaticActionCategory.OnClick]"
+											clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+											oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+											
+											buttonText = {
+												textbox = {
+													parentanchor = bottom|hcenter
+													using = MarbleButtonFontS
+													text = "[DiplomaticActionCategory.GetName]"
+													autoresize = yes
+													position = { 0 -12 }
+												}
+											}
+											
+											visible = "[Not(DiplomaticActionCategory.IsExpanded)]"
+										}
+									}
+									
+									container = {
+										using = diplomatic_actions
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		######################################################################
+		# Diplomatic Info
+		######################################################################
+		
+		icon = {
+			position = { 10 290 }
+			size = { 290 506 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			
+			scrollarea = {
+				position = { 4 1 }
+				size = { 282 504 }
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+					blockoverride "ScrollBar_offset"
+					{
+						size = { 0 4 }
+					}
+				}
+				scrollbarpolicy_horizontal = always_off
+				
+				scrollwidget = {
+					fixedgridbox = {
+						datamodel = "[DiplomaticView.GetDiplomaticRelations]"
+						
+						addrow = 36
+						addcolumn = 286
+						
+						item = {
+							flowcontainer = {
+								container = {
+									icon = {
+										texture = "[RelationTypeItem.AccessIcon]"
+										tooltip = "[RelationTypeItem.GetToolTip]"
+										position = { 2 2 }
+										size = { 34 34 }
+									}
+									
+									overlappingitembox = {
+										datamodel = "[RelationTypeItem.GetRelations]"
+										position = { 40 2 }
+										size = { 228 30 }
+										spacing = 2
+										
+										item = {
+											
+											country_flag = {
+												tooltip = "[RelationDescItem.GetToolTip]"
+												datacontext = "[RelationDescItem.GetCountry]"
+												
+												blockoverride "flag"
+												{
+													texture = "[RelationDescItem.AccessFlagIcon]"
+													frame = "[RelationDescItem.GetFlagFrame]"
+													framesize = { 56 56 }
+												}
+												
+												blockoverride "size"
+												{
+													size = { 30 30 }
+												}
+												
+												blockoverride "click"
+												{
+													onclick = "[RelationDescItem.OnClick]"
+												}
+												
+												blockoverride "hover_leave"
+												{
+													onmousehierarchyleave = "[DiplomaticView.ResetHighlight]"
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	###############################
+	# Stance Selection
+	################################
+	container = {
+		position = { 25 50 }
+		visible = "[DiplomaticView.IsShowStances]"
+
+		widget = {
+			name = "background"
+			using = standard_window_type
+			size = { 374 260 }
+			alwaystransparent = no
+			
+		}
+
+		square_close_button = {
+			position = { -4 4 }
+			parentanchor = top|right
+			shortcut = "close_window"
+			onclick = "[DiplomaticView.HideStances]"
+			tooltip = "CLOSE"
+		}
+
+		textbox = {
+			position = { 0 8 }
+			autoresize = yes
+			using = MarbleButtonFontL
+			text = "SELECT_STANCE"
+			align = center
+			parentanchor = top|hcenter
+			widgetanchor = top|hcenter
+		}
+
+		scrollarea = {
+			position = { 10 48 }
+			size = { 362 432 }
+			scrollbarpolicy_horizontal = always_off
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+				blockoverride "ScrollBar_offset"
+				{
+					size = { 0 4 }
+				}
+			}
+			
+			scrollwidget = {
+				dynamicgridbox = {
+					datamodel = "[DiplomaticView.GetStances]"
+					
+					item = {
+						entry_button = {
+							size = { 350 40 }
+							using = MarbleButtonFontS
+							text = "[DiplomaticStanceItem.GetStance.GetName]"
+							tooltip = "[DiplomaticStanceItem.GetClickTooltip]"
+							enabled = "[DiplomaticStanceItem.CanClick]"
+							onclick = "[DiplomaticStanceItem.OnClick]"
+
+							icon = {
+								position = { 12 -2 }
+								size = { 40 40 }
+								texture = "[GetDiplomaticStanceIcon(DiplomaticStanceItem.GetStance)]"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

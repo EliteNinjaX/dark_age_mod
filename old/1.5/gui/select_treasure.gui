@@ -1,0 +1,235 @@
+window = {
+	gfxtype = windowgfx
+	name = "select_treasure_window"
+	parentanchor = top|left
+	size = { 700 400 }
+	position = { 700 121 } 
+	widgetanchor = top|left
+	movable = yes
+	state = {
+		name = _show
+		
+		start_sound = {
+			soundeffect = "event:/SFX/UI/Religion/sfx_ui_religion_treasure_view"
+		}
+	}
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -3 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectTreasureWindow.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	textbox = {
+		parentanchor = top
+		using = MarbleButtonFontL
+		text = "RELIQUARY_HEADER"
+		autoresize = yes
+		position = { 20 7 }
+	}
+	
+	textbox = {
+		text = "LIST_OF_OWNED_TREASURES"
+		maximumsize = { 220 -1 }
+		using = MarbleButtonFontM
+		autoresize = yes
+		elide = right
+		align = left
+		position = { 20 48 }
+	}
+	
+	icon = {
+		name = "vertical_divider_1"
+		position = { 356 48 }
+		texture = "gfx/interface/tiles/vertical_divider.dds"
+		spriteType = corneredtiled
+		spriteborder = { 0 10 }
+		size = { 6 340 }
+	}
+	
+	icon = {
+		position = { 14 82 }
+		size = { 340 304 }
+		texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 10 10 }
+	}
+	
+	scrollarea = {
+		position = { 17 83 }
+		size = { 332 302 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+			blockoverride "ScrollBar_offset"
+			{
+				size = { 0 4 }
+			}
+		}
+		
+		textbox = {
+			text = "YOU_HAVE_NO_TREASURE_SAD"
+			visible = "[IsDataModelEmpty( SelectTreasureWindow.GetItems )]"
+			parentanchor = hcenter
+			autoresize = yes
+			using = MarbleButtonFont
+			alpha = 0.5
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				datamodel = "[SelectTreasureWindow.GetItems]"
+				item = {
+					entry_button = {
+						size = { 320 48 }
+						spriteborder = { 40 8 }
+						onclick = "[SelectableTreasure.OnClick]"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						tooltip = "[SelectableTreasure.GetTreasure.GetStateModifierIconSummary]"
+						
+						modify_texture = {
+							visible = "[SelectTreasureWindow.IsSelected(SelectableTreasure.Self)]"
+							texture = "gfx/interface/tiles/entry_button_tiles.dds"
+							alpha = 0.175
+						}
+
+						widget = {
+							position = { 15 0 }
+							size = { 310 10 }
+							
+							icon = {
+								size = { 42 42 }
+								texture = "[GetTreasureIcon(SelectableTreasure.GetTreasure))]"
+								position = { 0 1 }
+							}
+							
+							textbox = {
+								text = "[SelectableTreasure.GetTreasure.GetName]"
+								maximumsize = { 220 -1 }
+								using = MarbleButtonFont
+								autoresize = yes
+								elide = right
+								align = left
+								position = { 50 7 }
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+	
+	container = {
+		widgetanchor = top
+		parentanchor = top
+		position = { 356 48 }
+		visible = "[SelectTreasureWindow.HasSelection]"
+		
+		container = {
+			datacontext = "[SelectTreasureWindow.GetSelectedItem]"
+			position = { 10 0 }
+			
+			flowcontainer = {
+				spacing = 5
+				
+				container = {
+					icon = {
+						size = { 36 36 }
+						texture = "[GetTreasureIcon(SelectableTreasure.GetTreasure))]"
+						position = { 0 -3 }
+					}
+				}
+				
+				textbox = {
+					text = "[SelectableTreasure.GetTreasure.GetName]"
+					maximumsize = { 270 -1 }
+					using = MarbleButtonFontM
+					autoresize = yes
+					elide = right
+					align = left
+				}
+			}
+			
+			textbox = {
+				text = "[SelectableTreasure.GetTreasure.GetStateModifierIconSummary]"
+				maximumsize = { 300 -1 }
+				using = MarbleButtonFont
+				autoresize = yes
+				elide = right
+				align = left
+				position = { 0 40 }
+				fontsize = 16
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/horizontal_divider.dds"
+				spriteType = corneredtiled
+				spriteborder = { 10 -5 }
+				size = { 320 10 }
+				position = { 0 32 }
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/horizontal_divider.dds"
+				spriteType = corneredtiled
+				spriteborder = { 10 -5 }
+				size = { 320 10 }
+				position = { 0 82 }
+			}
+			
+			textbox = {
+				text = "RELIQUARY_ITEM_DESCRIPTION"
+				maximumsize = { 315 220 }
+				using = MarbleButtonFontS
+				autoresize = yes
+				elide = right
+				align = left 
+				position = { 0 92 }
+				multiline = yes
+			}
+		}
+		
+		button_standard_white_marble_s = {
+			visible = "[SelectTreasureWindow.HasTarget]"
+			onclick = "[SelectTreasureWindow.OnSelect]"
+			enabled = "[SelectTreasureWindow.HasSelection]"
+			clicksound = "event:/SFX/UI/Religion/sfx_ui_religion_treasure_deposit"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			position = { 80 306 }
+			
+			buttonText = { 
+				textbox = {
+					text = "DEPOSIT_BUTTON"
+					parentanchor = bottom|hcenter
+					using = MarbleButtonFontS
+					autoresize = yes
+					position = { 0 -12 }
+				}
+			}
+			
+			datacontext = [SelectTreasureWindow]
+			tooltip = "DEPOSIT_BUTTON_TT"
+			
+		}
+		
+	}
+	
+	state = {
+		name = close_reliquary
+		
+		on_finish = "[SelectTreasureWindow.OnClose]"
+	} 
+	
+}

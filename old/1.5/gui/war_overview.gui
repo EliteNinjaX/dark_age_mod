@@ -1,0 +1,914 @@
+
+template WarParticipants
+{
+	size = { 320 180 }
+	
+	item = {
+		button = {
+			size = { 400 46 }
+			onmousehierarchyenter = "[SetHighlightCountry( WarOverviewParticipant.GetCountry )]"
+			onmousehierarchyleave = "[ClearHighlightColors]"
+			
+			icon = {
+				visible = "[Not(WarOverviewParticipant.IsWarLeader)]"
+				texture = "gfx/interface/combat/war_bg_bronze.dds"
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				position = { 0 3 }
+				alpha = 0.9
+			}
+			icon = {
+				visible = "[WarOverviewParticipant.IsWarLeader]"
+				texture = "gfx/interface/combat/war_bg_gold.dds"
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				position = { 0 3 }
+				alpha = 0.9
+			}
+			
+			country_flag = {
+				position = { 4 2 }
+				datacontext = "[WarOverviewParticipant.GetCountry]"
+				tooltip = "COUNTRY_SHORTHAND_INFO"
+				
+				blockoverride "flag"
+				{
+					texture = "[WarOverviewParticipant.GetCountry.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[WarOverviewParticipant.GetCountry.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					framesize = { 56 56 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 45 45 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[OpenDiplomacy(WarOverviewParticipant.GetCountry)]"
+				}
+			}
+			
+			textbox = {
+				position = { 52 4 }
+				
+				autoresize = yes
+				using = BlacklSilkFont
+				text = "[WarOverviewParticipant.GetCountry.GetName]"
+			}
+			
+			textbox = {
+				name = "war_enthusiasm"
+				position = { 52 20 }
+				
+				autoresize = yes
+				using = MarbleButtonFontS
+				text = "[WarOverviewParticipant.GetWarEnthusiasm]"
+				tooltip = "[WarOverviewParticipant.GetWarEnthusiasmTooltip]"
+			}
+			
+			textbox = {
+				name = "war_exhaustion"
+				position = { 265 10 }
+				size = { 76 22 }
+				align = center
+				widgetanchor = top|hcenter
+				using = BlacklSilkFont
+				text = "[WarOverviewParticipant.GetCountry.GetWarExhaustion|2]"
+				tooltip = "[WarOverviewParticipant.GetCountry.GetWarExhaustionTooltip]"
+			}
+			
+			textbox = {
+				name = "stability"
+				position = { 326 10 }
+				size = { 36 22 }
+				align = center
+				widgetanchor = top|hcenter
+				using = BlacklSilkFont
+				text = "[WarOverviewParticipant.GetCountry.GetStability|2]"
+				tooltip = "[WarOverviewParticipant.GetCountry.GetStabilityTooltip]"
+			}
+			
+			textbox = {
+				name = "blockaded_percent"
+				position = { 385 10 }
+				size = { 76 22 }
+				align = center
+				widgetanchor = top|hcenter
+				using = BlacklSilkFont
+				text = "[WarOverviewParticipant.GetCountry.GetBlockadedPercent|2%]"
+				tooltip = "[WarOverviewParticipant.GetBlockadedPercentTooltip]"
+			}
+		}
+	}
+}
+
+window = {
+	gfxtype = windowgfx
+	name = "war_overview"
+	
+	parentanchor = center|center
+	size = { 1000 864 }
+	
+	widget = {
+		name = "background"
+		using = Large_window_type
+		size = { 100% 100% }
+		alwaystransparent = yes
+		
+		blockoverride "header_width"
+		{
+			size = { 640 54 }
+		}
+		
+		blockoverride "header_text_width"
+		{
+			size = { 600 26 }
+		}
+		
+		blockoverride "header"
+		{
+			text = "[WarOverview.GetWar.GetName]"
+			elide = right
+		}
+	}
+
+	widget = {
+		position = { 50 64 }
+		size = { 900 730 }
+		
+		icon = {
+			name = "Date"
+			position = { 0 7 }
+			texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 8 8 }
+			size = { 120 36 }
+			
+			textbox = {
+				position = { 0 2 }
+				autoresize = yes
+				using = MarbleButtonFont
+				text = "[WarOverview.GetWar.GetStartDate]"
+				tooltip = "WAR_OVERVIEW_DATE_TOOLTIP"
+				widgetanchor = top|hcenter
+				parentanchor = top|hcenter
+			}
+		}
+		
+		icon = {
+			name = "frame"
+			position = { 0 7 }
+			texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 8 8 }
+			size = { 170 36 }
+			visible = "[WarOverview.GetWar.HasTickingWarScore]"
+			widgetanchor = top|right
+			parentanchor = top|right
+			
+			button = {
+				texture = "gfx/interface/icons/diplomatic_status/enforce_peace.dds"
+				visible = "[WarOverview.GetWar.IsConquestWar]"
+				enabled = "[WarOverview.GetWar.IsTickingForAutoConquest]"
+				tooltip = "[WarOverview.GetWar.GetConquestInfo]"
+				position = { 6 2 }
+				size = { 30 30 }
+			}
+			
+			button = {
+				texture = "gfx/interface/icons/diplomatic_status/truce.dds"
+				visible = "[WarOverview.GetWar.IsConquestWar]"
+				enabled = "[WarOverview.GetWar.IsTickingForAutoWhitePeace]"
+				tooltip = "[WarOverview.GetWar.GetWhitePeaceInfo]"
+				position = { 46 2 }
+				size = { 30 30 }
+			}
+			
+			
+			textbox = {
+				position = { 0 1 }
+				size = { 70 26 }
+				using = MarbleButtonFontM
+				text = "[WarOverview.GetTickingWarScore|=]"
+				tooltip = "[WarOverview.GetTickingWarScoreTooltip]"
+				widgetanchor = top|right
+				parentanchor = top|right
+			}
+		}
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			size = { 606 46 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			position = { 124 2 }
+			
+			visible = "[WarOverview.HasTickingWarScore]"
+		    
+			icon = {
+				texture = "gfx/interface/arrows_strip.dds"
+				position = { 0 1 }
+				framesize = { 50 50 }
+				size = { 40 40 }
+				frame = "[WarOverview.GetTickingWarScoreChangeFrame]"
+				tooltip = "[WarOverview.GetTickingWarScoreChangeTooltip]"
+			}
+			
+			textbox = {
+				position = { 42 -2 }
+				size = { 606 42 }
+				#parentanchor = top|hcenter
+				align = left
+				multiline = yes
+				#autoresize = yes
+				using = MarbleButtonFontS
+				text = "[WarOverview.GetWar.GetWarGoal.GetName]"
+				tooltip = "WAR_OVERVIEW_WAR_GOAL_TOOLTIP"
+			}
+		}
+		container = {
+			position = { 0 54 }
+			
+			icon = {
+				name = "vertical_divider_1"
+				position = { 0 -2 }
+				texture = "gfx/interface/tiles/vertical_divider.dds"
+				spriteType = corneredtiled
+				spriteborder = { 0 10 }
+				size = { 6 400 }
+				parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				size = { 440 274 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				position = { 0 124 }
+			}
+			
+			sort_button = {
+				name = "Sort by Country"
+				position = { 2 130 }
+				text = "COUNTRY"
+				tooltip = "OFFER_PEACE_SORT_BY_NAME_TOOLTIP"
+				onclick = "[WarOverview.SortFriendly('name')]"
+				down = "[WarOverview.IsFriendlySorted('name')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				size = { 222 28 }
+				
+				using = MarbleButtonFontS
+				
+				blockoverride "text_position"
+				{
+					position = { 0 -7 }
+				}
+			}
+			
+			sort_button = {
+				name = "Sort by War Exhaustion"
+				position = { 224 130 }
+				tooltip = "OFFER_PEACE_SORT_BY_EXHAUSTION_TOOLTIP"
+				onclick = "[WarOverview.SortFriendly('exhaustion')]"
+				down = "[WarOverview.IsFriendlySorted('exhaustion')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				size = { 80 28 }
+				
+				using = MarbleButtonFontS
+				
+				icon = {
+					size = { 22 22 }
+					position = { 0 1 }
+					texture = "gfx/interface/icons/modifiers/war_exhaustion.dds"
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+				}
+			}
+			
+			sort_button = {
+				name = "Sort by Stability"
+				position = { 304 130 }
+				tooltip = "OFFER_PEACE_SORT_BY_STABILITY_TOOLTIP"
+				onclick = "[WarOverview.SortFriendly('stability')]"
+				down = "[WarOverview.IsFriendlySorted('stability')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				size = { 40 28 }
+				
+				icon = {
+					size = { 22 22 }
+					position = { 1 1 }
+					using = icon_stability
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+				}
+			}
+			
+			sort_button = {
+				name = "Sort by Blockade"
+				position = { 344 130 }
+				tooltip = "OFFER_PEACE_SORT_BY_BLOCKADE_TOOLTIP"
+				onclick = "[WarOverview.SortFriendly('blockade')]"
+				down = "[WarOverview.IsFriendlySorted('blockade')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				size = { 80 28 }
+				
+				icon = {
+					size = { 22 22 }
+					position = { 0 1 }
+					texture = "gfx/interface/icons/modifiers/blockade_efficiency.dds"
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+				}
+			}
+			
+			scrollarea = {
+				position = { 1 160 }
+				size = { 435 232 }
+				parentanchor = top|left
+				scrollbarpolicy_horizontal = always_off
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+				}
+				
+				scrollwidget = {
+					
+					dynamicgridbox = {
+						using = WarParticipants
+						#	position = { 8 164 }
+						datamodel = "[WarOverview.GetFriendlyParticipants]"
+					}
+				}
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				size = { 440 274 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				position = { 0 124 }
+				parentanchor = top|right
+			}
+			
+			sort_button = {
+				name = "Sort by Country Right"
+				position = { 462 130 }
+				text = "COUNTRY"
+				tooltip = "OFFER_PEACE_SORT_BY_NAME_TOOLTIP"
+				onclick = "[WarOverview.SortEnemy('name')]"
+				down = "[WarOverview.IsEnemySorted('name')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				size = { 222 28 }
+				
+				using = MarbleButtonFontS
+				
+				blockoverride "text_position"
+				{
+					position = { 0 -7 }
+				}
+			}
+			
+			sort_button = {
+				name = "Sort by War Exhaustion Right"
+				position = { 684 130 }
+				#	text = "WAR_EXHAUSTION"
+				tooltip = "OFFER_PEACE_SORT_BY_EXHAUSTION_TOOLTIP"
+				onclick = "[WarOverview.SortEnemy('exhaustion')]"
+				down = "[WarOverview.IsEnemySorted('exhaustion')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				size = { 80 28 }
+				
+				icon = {
+					size = { 22 22 }
+					position = { 0 1 }
+					texture = "gfx/interface/icons/modifiers/war_exhaustion.dds"
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+				}
+			}
+			
+			sort_button = {
+				name = "Sort by Stability Right"
+				position = { 764 130 }
+				#	text = "WAR_EXHAUSTION"
+				tooltip = "OFFER_PEACE_SORT_BY_STABILITY_TOOLTIP"
+				onclick = "[WarOverview.SortEnemy('stability')]"
+				down = "[WarOverview.IsEnemySorted('stability')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				size = { 40 28 }
+				
+				icon = {
+					size = { 22 22 }
+					position = { 1 1 }
+					using = icon_stability
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+				}
+			}
+			
+			sort_button = {
+				name = "Sort by Blockade Right"
+				position = { 804 130 }
+				#	text = "WAR_EXHAUSTION"
+				tooltip = "OFFER_PEACE_SORT_BY_BLOCKADE_TOOLTIP"
+				onclick = "[WarOverview.SortEnemy('blockade')]"
+				down = "[WarOverview.IsEnemySorted('blockade')]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				size = { 80 28 }
+				
+				icon = {
+					size = { 22 22 }
+					position = { 0 1 }
+					texture = "gfx/interface/icons/modifiers/blockade_efficiency.dds"
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+				}
+			}
+			
+			scrollarea = {
+				position = { -4 160 }
+				size = { 435 232 }
+				parentanchor = top|right
+				scrollbarpolicy_horizontal = always_off
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+				}
+				
+				scrollwidget = {
+					
+					dynamicgridbox = {
+						using = WarParticipants
+						#	position = { -10 150 }
+						
+						datamodel = "[WarOverview.GetEnemyParticipants]"
+					}
+				}
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				size = { 440 116 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+			
+			overlappingitembox = {
+				name = "Friendly_units"
+				size = { 432 116 }
+				using = UnitCards
+				position = { 4 4 }
+				datamodel = "[WarOverview.GetFriendlySubUnitCounts]"
+				parentanchor = top|left
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				size = { 440 116 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				parentanchor = top|right
+			}
+			
+			overlappingitembox = {
+				name = "Enemy_units"
+				size = { 432 116 }
+				using = UnitCards
+				position = { -4 4 }
+				#righttoleft = yes
+				datamodel = "[WarOverview.GetEnemySubUnitCounts]"
+				parentanchor = top|right
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				size = { 80 36 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				position = { 0 406 }
+				parentanchor = top|hcenter
+				
+				
+				visible = "[Not(WarOverview.GetWar.IsCivilWar)]"
+
+				textbox = {
+					parentanchor = top|hcenter
+					autoresize = yes
+					using = MarbleButtonFontL
+					text = "[WarOverview.GetWarScore]"
+					tooltip = "[WarOverview.GetWarScoreTooltip]"
+				}
+			}
+			
+			flowcontainer = {
+				position = { -4 -282 }
+				parentanchor = bottom|left
+				widgetanchor = top|left
+				
+				margin_widget = {
+					size = { 100 40 }
+					margin = { 4 4 }
+					
+					tooltip = "[WarOverview.GetFriendlyLandLossesTooltip]"
+					background = {
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 10 10 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+					}
+					icon = {
+						texture = "gfx/interface/icons/font_icons/font_icon_light_infantry.dds"
+						size = { 32 32 }
+					}
+					textbox = {
+						position = { 53 0 }
+						size = { 40 26 }
+						align = left
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						text = "[WarOverview.GetFriendlyLandLosses]"
+					}
+				}
+				
+				margin_widget = {
+					size = { 80 40 }
+					margin = { 4 4 }
+					
+					tooltip = "[WarOverview.GetFriendlyNavalLossesTooltip]"
+					background = {
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 10 10 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+					}
+					icon = {
+						texture = "gfx/interface/icons/font_icons/font_icon_trireme.dds"
+						size = { 32 32 }
+					}
+					textbox = {
+						position = { 53 0 }
+						size = { 40 26 }
+						align = left
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						text = "[WarOverview.GetFriendlyNavalLosses]"
+					}
+				}
+				margin_widget = {
+					size = { 80 40 }
+					margin = { 4 4 }
+					
+					tooltip = "POPS_KILLED"
+					background = {
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 10 10 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+					}
+					icon = {
+						texture = "gfx/interface/icons/shared_icons/attrition.dds"
+						size = { 32 32 }
+					}
+					textbox = {
+						position = { 53 0 }
+						size = { 40 26 }
+						align = left
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						text = "[WarOverview.GetFriendlyPopStats.GetKilled]"
+					}
+				}
+				margin_widget = {
+					size = { 80 40 }
+					margin = { 4 4 }
+					
+					tooltip = "POPS_ENSLAVED"
+					background = {
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 10 10 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+					}
+					icon = {
+						using = icon_pop_slaves
+						size = { 32 32 }
+					}
+					textbox = {
+						position = { 53 0 }
+						size = { 40 26 }
+						align = left
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						text = "[WarOverview.GetFriendlyPopStats.GetEnslaved]"
+					}
+				}
+			}
+
+			
+			flowcontainer = {
+				position = { 0 -282 }
+				parentanchor = bottom|right
+				widgetanchor = top|right
+				
+				margin_widget = {
+					size = { 100 40 }
+					margin = { 4 4 }
+					
+					tooltip = "[WarOverview.GetEnemyLandLossesTooltip]"
+					background = {
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 10 10 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+					}
+					icon = {
+						texture = "gfx/interface/icons/font_icons/font_icon_light_infantry.dds"
+						size = { 32 32 }
+					}
+					textbox = {
+						position = { 53 0 }
+						size = { 40 26 }
+						align = left
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						text = "[WarOverview.GetEnemyLandLosses]"
+					}
+				}
+				
+				margin_widget = {
+					size = { 80 40 }
+					margin = { 4 4 }
+					
+					tooltip = "[WarOverview.GetEnemyNavalLossesTooltip]"
+					background = {
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 10 10 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+					}
+					icon = {
+						texture = "gfx/interface/icons/font_icons/font_icon_trireme.dds"
+						size = { 32 32 }
+					}
+					textbox = {
+						position = { 53 0 }
+						size = { 40 26 }
+						align = left
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						text = "[WarOverview.GetEnemyNavalLosses]"
+					}
+				}
+				margin_widget = {
+					size = { 80 40 }
+					margin = { 4 4 }
+					
+					tooltip = "POPS_KILLED"
+					background = {
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 10 10 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+					}
+					icon = {
+						texture = "gfx/interface/icons/shared_icons/attrition.dds"
+						size = { 32 32 }
+					}
+					textbox = {
+						position = { 53 0 }
+						size = { 40 26 }
+						align = left
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						text = "[WarOverview.GetEnemyPopStats.GetKilled]"
+					}
+				}
+				margin_widget = {
+					size = { 80 40 }
+					margin = { 4 4 }
+					
+					tooltip = "POPS_ENSLAVED"
+					background = {
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 10 10 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+					}
+					icon = {
+						using = icon_pop_slaves
+						size = { 32 32 }
+					}
+					textbox = {
+						position = { 53 0 }
+						size = { 40 26 }
+						align = left
+						widgetanchor = top|hcenter
+						using = MarbleButtonFontS
+						text = "[WarOverview.GetEnemyPopStats.GetEnslaved]"
+					}
+				}
+			}
+			icon = {
+				name = "vertical_divider_2"
+				texture = "gfx/interface/tiles/vertical_divider.dds"
+				spriteType = corneredtiled
+				spriteborder = { 0 10 }
+				size = { 6 237 }
+				parentanchor = bottom|hcenter
+				widgetanchor = bottom|hcenter
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				size = { 440 234 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				position = { 0 448 }
+				
+				scrollarea = {
+					position = { 1 4 }
+					size = { 435 226 }
+					#	parentanchor = top|hcenter
+					scrollbarpolicy_horizontal = always_off
+					
+					scrollbar_vertical = {
+						using = MarbleScrollBar
+					}
+					
+					scrollwidget = {
+						
+						
+						dynamicgridbox = {
+							datamodel = "[WarOverview.GetBattlesWon]"
+							
+							item = {
+								widget = {
+									size = { 440 45 }
+									
+									icon = {
+										texture = "gfx/interface/combat/war_bg_bronze.dds"
+										shaderfile = "gfx/FX/pdxgui_default.shader"
+										alpha = 0.9
+									}
+									
+									icon = {
+										position = { 0 -3 }
+										size = { 50 50 }
+										texture = "[WarOverviewBattle.GetTypeTexture]"
+									}
+									
+									textbox = {
+										position = { 49 1 }
+										autoresize = yes
+										using = BlacklSilkFont
+										text = "[WarOverviewBattle.GetBattleResult.GetName]"
+									}
+									
+									textbox = {
+										position = { 49 17 }
+										
+										autoresize = yes
+										using = BlacklSilkFont
+										text = "[WarOverviewBattle.GetResult]"
+									}
+									
+									textbox = {
+										position = { 240 7 }
+										size = { 104 22 }
+										using = BlacklSilkFont
+										text = "[WarOverviewBattle.GetWinLose]"
+										align = center
+									}
+									
+									textbox = {
+										position = { 418 7 }
+										size = { 60 22 }
+										using = BlacklSilkFont
+										text = "[WarOverviewBattle.GetScore]"
+										widgetanchor = right|top
+										align = right
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			icon = {
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				size = { 440 234 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				position = { 460 448 }
+				
+				scrollarea = {
+					position = { 1 4 }
+					size = { 435 226 }
+					#	parentanchor = top|hcenter
+					scrollbarpolicy_horizontal = always_off
+					
+					scrollbar_vertical = {
+						using = MarbleScrollBar
+					}
+					
+					scrollwidget = {
+						
+						
+						dynamicgridbox = {
+							datamodel = "[WarOverview.GetBattlesLost]"
+							
+							item = {
+								widget = {
+									size = { 440 45 }
+									
+									icon = {
+										texture = "gfx/interface/combat/war_bg_bronze.dds"
+										shaderfile = "gfx/FX/pdxgui_default.shader"
+										alpha = 0.9
+									}
+									
+									icon = {
+										position = { 0 -3 }
+										size = { 50 50 }
+										texture = "[WarOverviewBattle.GetTypeTexture]"
+									}
+									
+									textbox = {
+										position = { 49 1 }
+										autoresize = yes
+										using = BlacklSilkFont
+										text = "[WarOverviewBattle.GetBattleResult.GetName]"
+									}
+									
+									textbox = {
+										position = { 49 17 }
+										
+										autoresize = yes
+										using = BlacklSilkFont
+										text = "[WarOverviewBattle.GetResult]"
+									}
+									
+									textbox = {
+										position = { 240 7 }
+										size = { 104 22 }
+										using = BlacklSilkFont
+										text = "[WarOverviewBattle.GetWinLose]"
+										align = center
+									}
+									
+									textbox = {
+										position = { 418 7 }
+										size = { 60 22 }
+										using = BlacklSilkFont
+										text = "[WarOverviewBattle.GetScore]"
+										widgetanchor = right|top
+										align = right
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	button_standard_white_marble = {
+		position = { 0 -20 }
+		name = "decline_button"
+		visible = "[Not(WarOverview.GetWar.IsCivilWar)]"
+		
+		text = "WAR_OVERVIEW_SUE_FOR_PEACE"
+		onclick = "[WarOverview.OnSueForPeace]"
+		tooltip = "WAR_OVERVIEW_SUE_FOR_PEACE_TOOLTIP"
+		parentanchor = bottom|hcenter
+		size = { 400 46 }
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -12 12 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[WarOverview.OnClose]"
+		tooltip = "CLOSE"
+	}
+
+}

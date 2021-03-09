@@ -1,0 +1,169 @@
+types GameConfiguration
+{
+	type spinner = hbox {
+		layoutpolicy_horizontal = expanding
+
+		widget = {
+			size = { 42 42 }
+
+			left_arrow_button = {
+				block "decrease_button" {}
+			}
+		}
+
+		textbox	= {
+			layoutpolicy_vertical = expanding
+			layoutpolicy_horizontal = expanding
+
+			size = { 100 10 }
+			align = center|nobaseline
+			elide = right
+
+			block "selected_value" {}
+
+			using = MarbleButtonFontS
+		}
+
+		widget = {
+			size = { 42 42 }
+
+			right_arrow_button = {
+				block "increase_button" {}
+			}
+		}
+	}
+}
+
+window = {
+	name = "game_configuration_window"
+
+	size = { 332 180 }
+	position = { 0 -52 }
+	parentanchor = bottom|right
+	resizable = no
+	movable = no
+	enabled = "[GameConfigurationWindow.CanChangeConfiguration]"
+
+	background = {
+		using = LobbyViewBackground
+	}
+
+	LobbyViewBackgroundBorders = {}
+
+	flowcontainer = {
+		direction = vertical
+
+		widget = {
+			size = { 332 50 }
+
+			icon = {
+				parentanchor = hcenter
+				texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 16 0 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				size = { 100% 50 }
+			}
+
+			textbox = {
+				margin_top = 12
+				parentanchor = hcenter
+				text = "JOMINI_MULTIPLAYER_GUI_GAME_CONFIGURATION"
+				autoresize = yes
+				fontsize = 20
+				align = center|nobaseline
+				using = MarbleButtonFont
+			}
+		}
+
+		widget = {
+			size = { 100% 120 }
+
+			widget = {
+				parentanchor = hcenter
+				size = { 90% 100% }
+
+				vbox = {
+					vbox = {
+						layoutpolicy_vertical = expanding
+						layoutpolicy_horizontal = expanding
+						spinner = {
+							tooltip = "[GameConfigurationWindow.GetDifficultyToolTip]"
+							using = tooltip_ne
+
+							blockoverride "decrease_button" {
+								onclick = "[GameConfigurationWindow.DecreaseDifficulty]"
+							}
+
+							blockoverride "selected_value" {
+								text = "[GameConfigurationWindow.GetDifficulty]"
+							}
+
+							blockoverride "increase_button" {
+								onclick = "[GameConfigurationWindow.IncreaseDifficulty]"
+							}
+						}
+					}
+
+					hbox = {
+						enabled = "[GameIsIronmanAvailable]"
+
+						layoutpolicy_vertical = expanding
+						layoutpolicy_horizontal = expanding
+						tooltip = "[GameGetIronmanToolTip]"
+						using = tooltip_ne
+                    
+						widget = {
+							size = { 50 34 }
+                    
+							button = {
+								texture = "gfx/interface/buttons/checkbox.dds"
+								framesize = { 36 36 }
+								frame = "[GameConfigurationWindow.GetIronmanFrame]"
+								onclick = "[GameConfigurationWindow.ToggleIronman]"
+							}
+						}
+                    
+						textbox = {
+							layoutpolicy_vertical = expanding
+							layoutpolicy_horizontal = expanding
+							using = tooltip_ne
+							text = "IRONMAN_MODE"
+							autoresize = yes
+							align = nobaseline
+							using = MarbleButtonFontS
+						}
+					}
+					
+					hbox = {
+						layoutpolicy_vertical = expanding
+						layoutpolicy_horizontal = expanding
+						tooltip = "GENDER_RULES_TOOLTIP"
+						using = tooltip_ne
+                    
+						widget = {
+							size = { 50 36 }
+                    
+							button = {
+								texture = "gfx/interface/buttons/checkbox.dds"
+								framesize = { 36 36 }
+								frame = "[GameConfigurationWindow.GetGenderRulesFrame]"
+								onclick = "[GameConfigurationWindow.ToggleGenderRules]"
+							}
+						}
+                    
+						textbox = {
+							layoutpolicy_vertical = expanding
+							layoutpolicy_horizontal = expanding
+							using = tooltip_ne
+							text = "MODERN_GENDER_RULES"
+							autoresize = yes
+							align = nobaseline
+							using = MarbleButtonFontS
+						}
+					}
+				}
+			}
+		}
+	}
+}

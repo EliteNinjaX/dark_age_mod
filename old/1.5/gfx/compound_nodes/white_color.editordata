@@ -1,0 +1,25 @@
+NodeEditorMeta={
+	View={
+		Position={ -63.000000 -120.000000 }
+		Zoom=1.000000
+	}
+	Nodes={
+		2={
+			Position={ 56.000000 260.000000 }
+		}
+		3={
+			Position={ 308.000000 193.000000 }
+		}
+		0={
+			Position={ 572.000000 302.000000 }
+		}
+		1={
+			Position={ 407.000000 247.000000 }
+			Inlined=yes
+		}
+		5={
+			Position={ 648.000000 411.000000 }
+			Inlined=yes
+		}
+	}
+}

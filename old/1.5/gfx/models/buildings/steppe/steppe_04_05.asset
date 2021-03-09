@@ -1,0 +1,80 @@
+pdxmesh = {
+	name = "steppe_04_05_mesh"
+	file = "steppe_04_05.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 10.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "steppe_04_05|LOD_0|polySurface22|polySurface22Shape"
+		index = 0
+		texture_diffuse = "steppe_building_01_diffuse.dds"
+		texture_normal = "steppe_building_01_normal.dds"
+		texture_specular = "steppe_building_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "steppe_04_05|LOD_0|polySurface69|polySurface69Shape"
+		index = 0
+		texture_diffuse = "dark_brown_dirt_diffuse.dds"
+		texture_normal = "dark_brown_dirt_normal.dds"
+		texture_specular = "dark_brown_dirt_material.dds"
+		texture = { file = "steppe_buildings_terrain_area.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "steppe_04_05|LOD_1|polySurface22|polySurface22Shape"
+		index = 0
+		texture_diffuse = "steppe_building_01_diffuse.dds"
+		texture_normal = "steppe_building_01_normal.dds"
+		texture_specular = "steppe_building_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "steppe_04_05|LOD_1|polySurface69|polySurface69Shape"
+		index = 0
+		texture_diffuse = "dark_brown_dirt_diffuse.dds"
+		texture_normal = "dark_brown_dirt_normal.dds"
+		texture_specular = "dark_brown_dirt_material.dds"
+		texture = { file = "steppe_buildings_terrain_area.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "steppe_04_05|LOD_2|polySurface69|polySurface69Shape"
+		index = 0
+		texture_diffuse = "dark_brown_dirt_diffuse.dds"
+		texture_normal = "dark_brown_dirt_normal.dds"
+		texture_specular = "dark_brown_dirt_material.dds"
+		texture = { file = "steppe_buildings_terrain_area.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "steppe_04_05|LOD_2|polySurface22|polySurface22Shape"
+		index = 0
+		texture_diffuse = "steppe_building_01_diffuse.dds"
+		texture_normal = "steppe_building_01_normal.dds"
+		texture_specular = "steppe_building_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "steppe_04_05_entity"
+	pdxmesh = "steppe_04_05_mesh"
+}

@@ -1,0 +1,79 @@
+pdxmesh = {
+	name = "shader_test_simple_mesh"
+	file = "shader_test_simple.mesh"
+
+	meshsettings = {
+		name = "polySurface1429Shape"
+		index = 0
+		texture_diffuse = "nodiffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "polySurface1408Shape"
+		index = 0
+		texture_diffuse = "blue.dds"
+		texture_normal = "brick_normal.dds"
+		texture_specular = "21_shades_of_metalness_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "polySurface894Shape"
+		index = 0
+		texture_diffuse = "blue.dds"
+		texture_normal = "brick_normal.dds"
+		texture_specular = "21_shades_of_spec_gloss.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "polySurface889Shape"
+		index = 0
+		texture_diffuse = "blue.dds"
+		texture_normal = "brick_normal.dds"
+		texture_specular = "21_shades_of_spec_gloss.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "polySurface884Shape"
+		index = 0
+		texture_diffuse = "blue.dds"
+		texture_normal = "brick_normal.dds"
+		texture_specular = "21_shades_of_spec_gloss.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "polySurface879Shape"
+		index = 0
+		texture_diffuse = "blue.dds"
+		texture_normal = "brick_normal.dds"
+		texture_specular = "21_shades_of_spec_gloss.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "polySurface878Shape"
+		index = 0
+		texture_diffuse = "blue.dds"
+		texture_normal = "brick_normal.dds"
+		texture_specular = "21_shades_of_spec_gloss.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "shader_test_simple_entity"
+	pdxmesh = "shader_test_simple_mesh"
+}

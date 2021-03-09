@@ -1,0 +1,55 @@
+pdxmesh = {
+	name = "infant_mesh"
+	file = "infant.mesh"
+
+	meshsettings = {
+		name = "infant|infant_head|infant_headShape"
+		index = 0
+		texture_diffuse = "infant_head_diffuse.dds"
+		texture_normal = "infant_head_normal.dds"
+		texture_specular = "male_head_properties.dds"
+		shader = "portrait_skin_face"
+		shader_file = "gfx/FX/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "infant|infant_eyes|infant_eyesShape"
+		index = 0
+		texture_diffuse = "male_head_eyes_diffuse.dds"
+		texture_normal = "male_head_eyes_normal.dds"
+		texture_specular = "male_head_eyes_gloss.dds"
+		shader = "portrait_eye"
+		shader_file = "gfx/FX/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "infant_clothes_1Shape"
+		index = 0
+		texture_diffuse = "infant_clothes_1_diffuse.dds"
+		texture_normal = "infant_clothes_1_normal.dds"
+		texture_specular = "infant_clothes_1_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "infant_hairShape"
+		index = 0
+		texture_diffuse = "infant_hair_diffuse.dds"
+		texture_normal = "infant_hair_normal.dds"
+		texture_specular = "infant_hair_properties.dds"
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/portrait.shader"
+	}
+	
+	
+		additive_animation = { id = "pose_1"					type = "male_head_pose_1.anim" }
+}
+
+entity = {
+	name = "head_basic_entity_infant"
+	pdxmesh = "infant_mesh"
+	
+	attribute = { name = "pose_1"					additive_animation = "pose_1" default = 0.5 }	
+	scale = 0.5
+}

@@ -1,0 +1,74 @@
+@diffuse_texture = "bronze_diff.dds"
+@normal_texture = "nonormal.dds"
+
+pdxmesh = {
+	name = "shader_test_mesh"
+	file = "shader_test.mesh"
+	scale = 4
+	cull_distance = 10000
+
+	meshsettings = {
+		name = "typeMeshShape10"
+		index = 0
+		texture_diffuse = @diffuse_texture
+		texture_normal = @normal_texture
+		texture_specular = "gloss_spec_test_metalness_0.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere152Shape"
+		index = 0
+		texture_diffuse = @diffuse_texture
+		texture_normal = @normal_texture
+		texture_specular = "gloss_spec_test_metalness_50.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere153Shape"
+		index = 0
+		texture_diffuse = @diffuse_texture
+		texture_normal = @normal_texture
+		texture_specular = "gloss_spec_test_metalness_25.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere154Shape"
+		index = 0
+		texture_diffuse = @diffuse_texture
+		texture_normal = @normal_texture
+		texture_specular = "gloss_spec_test_metalness_0.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere155Shape"
+		index = 0
+		texture_diffuse = @diffuse_texture
+		texture_normal = @normal_texture
+		texture_specular = "gloss_spec_test_metalness_75.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere156Shape"
+		index = 0
+		texture_diffuse = @diffuse_texture
+		texture_normal = @normal_texture
+		texture_specular = "gloss_spec_test_metalness_100.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "shader_test_entity"
+	pdxmesh = "shader_test_mesh"
+}

@@ -1,0 +1,218 @@
+
+window = {
+    gfxtype = windowgfx
+    name = "message_settings_menu"
+    alwaystransparent = no
+    reorder_on_mouse = never
+    resizable = no
+    movable = no
+    parentanchor = center
+    widgetanchor = center
+
+    size = { 790 825 }
+    using = small_window_type
+
+    widget = {
+        size = { 100% 50 }
+
+        icon = {
+            parentanchor = hcenter
+            texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+            spriteType = Corneredtiled
+            spriteborder = { 16 0 }
+            shaderfile = "gfx/FX/pdxgui_default.shader"
+            size = { 100% 50 }
+        }
+
+        textbox = {
+            margin_top = 14
+            parentanchor = hcenter
+            text = "MESSAGE_SETTINGS"
+            autoresize = yes
+            fontsize = 20
+            align = center|nobaseline
+            using = MarbleButtonFont
+        }
+    }
+	
+	blockoverride "header"
+    {
+        text = "MESSAGE_SETTINGS"
+    }
+
+    DefaultHeaderBackground = {
+        position = { 43 60 }
+        size = { 550 40 }
+        
+        blockoverride "text"
+        {
+            text = "MESSAGE_HEADER"
+        }
+    }
+
+    widget = {
+        position = { 596 60 }
+        size = { 144 40 }
+
+        hbox = {
+            icon = {
+                size = { 31 31 }
+                texture = "gfx/interface/icons/shared_icons/log_icon.dds"
+                tooltip = "MESSAGE_SETTINGS_LOG_TOOLTIP"
+            }
+            icon = {
+                size = { 31 31 }
+                texture = "gfx/interface/icons/shared_icons/popup_icon.dds"
+                 tooltip = "MESSAGE_SETTINGS_POPUP_TOOLTIP"
+            }
+
+            icon = {
+                size = { 31 31 }
+                texture = "gfx/interface/icons/shared_icons/pause_icon.dds"
+                tooltip = "MESSAGE_SETTINGS_PAUSE_TOOLTIP"
+            }
+            icon = {
+                size = { 31 31 }
+                texture = "gfx/interface/icons/shared_icons/map_icon.dds"
+                tooltip = "MESSAGE_SETTINGS_SHOW_ON_MAP_TOOLTIP"
+            }
+        }
+    }
+
+   #DefaultHeaderBackground = {
+   #    position = { 590 60 }
+   #    size = { 160 40 }
+   #    
+   #    blockoverride "text"
+   #    {
+   #        text = "SETTINGS_HEADER"
+   #    }
+   #}
+
+    square_close_button = {
+        name = "close_button"
+        position = { -2 5 }
+        parentanchor = top|right
+        tooltip = "CLOSE"
+        onclick = "[MessageSettingsMenu.Close]"
+        shortcut = "close_window"
+    }
+	
+	editbox = {
+		name = "message_filter"
+		position = { 243 697 }
+		size = { 300 32 }
+		using = MarbleButtonFont
+		alwaystransparent = no
+		focuspolicy = all
+		multiline = no
+		fontcolor = { 255 255 255 1 }
+		ontextedited = "[MessageSettingsMenu.UpdateFilter]"
+		#text = "Search..."
+
+		background = {
+			margin_left = 5
+			margin_right = 4
+			margin_bottom = 4
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+	}
+
+    button_standard_white_marble_s = {
+        name = "cancel_button"
+        text = "CANCEL_BUTTON"
+        parentanchor = bottom|left
+        position = { 65 -30 }
+        onclick = "[MessageSettingsMenu.Close]"
+        shortcut = "close_window"
+    }
+
+    button_standard_white_marble_s = {
+        name = "reset_button"
+        text = "RESET_TO_DEFAULT"
+        parentanchor = bottom|hcenter
+        position = { -25 -30 }
+        onclick = "[MessageSettingsMenu.Reset]"
+    }
+
+    button_standard_white_marble_s = {
+        name = "save_button"
+        text = "SAVE_AND_CLOSE"
+        parentanchor = bottom|right
+        position = { -65 -30 }
+        onclick = "[MessageSettingsMenu.Save]"
+        shortcut = "confirm"
+		size = { 225 38 }
+    }
+
+    scrollarea = {
+        size = { 700 70% }
+        position = { 50 100 }
+        scrollbarpolicy_horizontal = always_off
+        
+        scrollbar_vertical = {
+            using = MarbleScrollBar
+        }
+
+        scrollwidget = {
+            dynamicgridbox = {
+                datamodel = "[MessageSettingsMenu.GetItems]"
+                
+                item = {
+                    container = {
+                        textbox = {
+                            text = "[MessageMenuItem.GetText]"
+                            using = MarbleButtonFontS
+                            align = left
+                            autoresize = yes
+                            margin = { 0 6 }
+                            multiline = yes
+                            maximumsize = { 530 -1 }
+                        }
+
+                        flowcontainer = {
+                            position = { 546 0 }
+                            parentanchor = vcenter
+                            widgetanchor = vcenter
+
+                            checkbutton = {
+                                texture = "gfx/interface/buttons/checkbox.dds"
+                                framesize = { 36 36 }
+                                checked = "[MessageMenuItem.GetLog]"
+                                onclick = "[MessageMenuItem.SetLog(Not(MessageMenuItem.GetLog))]"
+                                tooltip = "MESSAGE_SETTINGS_LOG_TOOLTIP"
+                            }
+
+                            checkbutton = {
+                                texture = "gfx/interface/buttons/checkbox.dds"
+                                framesize = { 36 36 }
+                                checked = "[MessageMenuItem.GetPopup]"
+                                onclick = "[MessageMenuItem.SetPopup(Not(MessageMenuItem.GetPopup))]"
+                                tooltip = "MESSAGE_SETTINGS_POPUP_TOOLTIP"
+                            }
+
+                            checkbutton = {
+                                texture = "gfx/interface/buttons/checkbox.dds"
+                                framesize = { 36 36 }
+                                checked = "[MessageMenuItem.GetPause]"
+                                onclick = "[MessageMenuItem.SetPause(Not(MessageMenuItem.GetPause))]"
+                                tooltip = "MESSAGE_SETTINGS_PAUSE_TOOLTIP"
+                            }
+
+                            checkbutton = {
+                                texture = "gfx/interface/buttons/checkbox.dds"
+                                framesize = { 36 36 }
+                                checked = "[MessageMenuItem.GetShowOnMap]"
+                                onclick = "[MessageMenuItem.SetShowOnMap(Not(MessageMenuItem.GetShowOnMap))]"
+                                tooltip = "MESSAGE_SETTINGS_SHOW_ON_MAP_TOOLTIP"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

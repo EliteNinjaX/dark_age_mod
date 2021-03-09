@@ -1,0 +1,4 @@
+pops_create_account_window = {
+	size = { 600 800 }
+	
+}

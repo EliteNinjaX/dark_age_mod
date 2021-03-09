@@ -1,0 +1,80 @@
+pdxmesh = {
+	name = "indian_04_04_mesh"
+	file = "indian_04_04.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 10.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "polySurface909Shape"
+		index = 0
+		texture_diffuse = "indian_buildings_01_diffuse.dds"
+		texture_normal = "indian_buildings_01_normal.dds"
+		texture_specular = "indian_buildings_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "planes:polySurfaceShape21"
+		index = 0
+		texture_diffuse = "stone_tiles_diffuse.dds"
+		texture_normal = "stone_tiles_normal.dds"
+		texture_specular = "stone_tiles_material.dds"
+		texture = { file = "indian_buildings_terrain_mask.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "polySurface1117Shape"
+		index = 0
+		texture_diffuse = "indian_buildings_01_diffuse.dds"
+		texture_normal = "indian_buildings_01_normal.dds"
+		texture_specular = "indian_buildings_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "polySurfaceShape66"
+		index = 0
+		texture_diffuse = "stone_tiles_diffuse.dds"
+		texture_normal = "stone_tiles_normal.dds"
+		texture_specular = "stone_tiles_material.dds"
+		texture = { file = "indian_buildings_terrain_mask.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "polySurface1118Shape"
+		index = 0
+		texture_diffuse = "indian_buildings_01_diffuse.dds"
+		texture_normal = "indian_buildings_01_normal.dds"
+		texture_specular = "indian_buildings_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "polySurfaceShape1119"
+		index = 0
+		texture_diffuse = "stone_tiles_diffuse.dds"
+		texture_normal = "stone_tiles_normal.dds"
+		texture_specular = "stone_tiles_material.dds"
+		texture = { file = "indian_buildings_terrain_mask.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+}
+
+entity = {
+	name = "indian_04_04_entity"
+	pdxmesh = "indian_04_04_mesh"
+}

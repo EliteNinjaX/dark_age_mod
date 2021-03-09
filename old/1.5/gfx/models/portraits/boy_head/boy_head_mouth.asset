@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "boy_head_mouth_mesh"
+	file = "boy_head_mouth.mesh"
+
+	meshsettings = {
+		name = "boy_mouthShape"
+		index = 0
+		texture_diffuse = "mouth_diffuse.dds"
+		texture_normal = "mouth_normal.dds"
+		texture_specular = "mouth_gloss.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/portrait.shader"
+	}
+}
+
+entity = {
+	name = "boy_head_mouth_entity"
+	pdxmesh = "boy_head_mouth_mesh"
+}

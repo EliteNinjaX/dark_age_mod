@@ -1,0 +1,71 @@
+window = {
+	gfxtype = windowgfx
+	name = "select_intervene_window"
+	parentanchor = top|left
+	size = { 730 530 }
+	position = { 387 460 }
+	widgetanchor = top|left
+	movable = no
+	
+	widget = {
+			name = "background"
+			using = standard_window_type
+			size = { 100% 100% }
+			alwaystransparent = no
+		}
+
+	textbox = {
+		position = { 0 6 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "INTERVENE_IN_WARTITLE"
+		align = center
+		parentanchor = top|hcenter
+		widgetanchor = top|hcenter
+	}
+			
+	scrollarea = {
+		position = { 0 50 }
+		size = { 660 740 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = editor_vertical_scrollbar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 10 0 }
+				size = { 660 200 }
+				
+				
+				datamodel = "[SelectInterveneWindow.GetWars]"
+				
+				item = {
+					container = {
+						
+						button_standard_white_marble = {
+							position = { 0 0 }
+							size = { 650 46 }
+							using = MarbleButtonFont
+							text = "[SelectWar.GetName]"
+							tooltip = "[SelectWar.GetTooltip]"
+							onclick = "[SelectWar.OnClick]"
+						}
+
+					}
+				}
+			}
+		}
+	}
+	
+	button_standard_white_marble = {
+		position = { 10 -10 }
+		name = "decline_button"
+		text = "CANCEL_BUTTON"
+		onclick = "[SelectInterveneWindow.OnClose]"
+		parentanchor = bottom|left
+	}	
+	
+}
+

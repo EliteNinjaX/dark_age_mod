@@ -1,0 +1,198 @@
+pdxmesh = {
+	name = "italian_warship_mesh"
+	file = "italian_warship.mesh"
+	
+	animation = { id = "idle" 			type = "italian_warship_idle.anim" }
+	animation = { id = "move_start" 	type = "italian_warship_move_start.anim" }
+	animation = { id = "moving" 		type = "italian_warship_moving.anim" }
+	animation = { id = "port_idle" 		type = "italian_warship_port_idle.anim" }
+	animation = { id = "death" 			type = "italian_warship_death.anim" }
+	animation = { id = "combat" 		type = "italian_warship_combat.anim" }
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
+
+	meshsettings = {
+		name = "italian_warship_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "italian_warship_diffuse.dds"
+		texture_normal = "italian_warship_normal.dds"
+		texture_specular = "italian_warship_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "italian_warship_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "italian_warship_diffuse.dds"
+		texture_normal = "italian_warship_normal.dds"
+		texture_specular = "italian_warship_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "italian_warship_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "italian_warship_diffuse.dds"
+		texture_normal = "italian_warship_normal.dds"
+		texture_specular = "italian_warship_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	
+	#scale = 0.3
+	scale = 2.0
+}
+
+entity = {
+	name = "roman_gfx_trireme"
+	pdxmesh = "italian_warship_mesh"
+	
+	locator = { name = "combat_effect" position = { 0 0 0 } rotation = { -27 0 0 } }
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+    	animation = "idle"
+		event = { time = 0 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
+		event = { time = 3 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_idle"}}
+    }
+	state = {
+		name = "port_idle"
+    	animation = "port_idle"
+    }
+	state = {
+		name = "move"
+    	animation = "move_start"
+		looping = no
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"move" = 0
+			}
+		}
+		next_state = "move"
+		event = { time = 0 node = "hull_front_locator" particle = "units/ship_water_front_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "hull_back_locator" particle = "units/ship_water_back_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_wind_01_effect" keep_particle = yes trigger_once = yes }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_start"}}
+
+		
+   }
+	state = {
+		name = "move"
+    	animation = "moving"
+		looping = yes
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"move" = 100
+			}
+		}
+		next_state = "move"
+		event = { time = 0.25 node = "left_oars_locator" particle = "units/ship_water_oars_02_effect" keep_particle = yes trigger_once = no }
+		event = { time = 0.25 node = "right_oars_locator" particle = "units/ship_water_oars_02_effect" keep_particle = yes trigger_once = no }
+		event = { time = 0 node = "hull_front_locator" particle = "units/ship_water_front_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "hull_back_locator" particle = "units/ship_water_back_01_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "hull_back_locator" particle = "units/ship_water_oars_back_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_wind_01_effect" keep_particle = yes trigger_once = yes }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_move"}}
+		
+    }
+	state = {
+		name = "death"
+    	animation = "death"
+		looping = no
+		event = { time = 0 node = "hull_front_locator" particle = "units/ship_sinking_front_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "root" particle = "units/ship_sinking_middle_effect" keep_particle = yes trigger_once = no }
+		event = { time = 0 node = "root" particle = "units/ship_sinking_fire_01_effect" keep_particle = yes trigger_once = no }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_generic_death"}}
+		
+    }
+	state = {
+		name = "combat"
+    	animation = "combat"
+		looping = yes
+		event = { time = 0 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
+		event = { time = 3 node = "ship_main" particle = "units/ship_idle_wave_01_effect" keep_particle = yes trigger_once = no }
+		event = { time = 0 node = "combat_effect" particle = "units/naval_combat_arrow_effect" keep_particle = yes trigger_once = yes }
+		start_event = { sound = { soundeffect = "event:/SFX/Animations/Ships/Generic/sfx_anim_ship_vfx_combat_arrows"}}	
+	}
+	
+	#scale = 0.15
+	scale = 1
+}
+
+##############
+### Clones ### ----------------------------------------------------------------
+##############
+
+#Triremes:
+
+entity = {
+	name = "trireme"
+	clone = "roman_gfx_trireme"
+}
+
+#Liburnians:
+entity = {
+	name = "liburnian"
+	clone = "roman_gfx_trireme"
+}
+
+entity = {
+	name = "roman_gfx_liburnian"
+	clone = "roman_gfx_trireme"
+}
+
+
+#Tetreres:
+entity = {
+	name = "tetrere"
+	clone = "roman_gfx_trireme"
+}
+
+entity = {
+	name = "roman_gfx_tetrere"
+	clone = "roman_gfx_trireme"
+}
+
+
+#Hexeres:
+entity = {
+	name = "hexere"
+	clone = "roman_gfx_trireme"
+}
+
+entity = {
+	name = "roman_gfx_hexere"
+	clone = "roman_gfx_trireme"
+}
+
+#Octeres:
+entity = {
+	name = "octere"
+	clone = "roman_gfx_trireme"
+}
+
+entity = {
+	name = "roman_gfx_octere"
+	clone = "roman_gfx_trireme"
+}
+
+#Mega Polyremes:
+entity = {
+	name = "mega_galley"
+	clone = "roman_gfx_trireme"
+}
+
+entity = {
+	name = "roman_gfx_mega_galley"
+	clone = "roman_gfx_trireme"
+}
+

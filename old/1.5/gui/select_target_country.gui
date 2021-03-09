@@ -1,0 +1,356 @@
+
+window = {
+	gfxtype = windowgfx
+	name = "select_target_country"
+	
+	parentanchor = center
+	size = { 785 810 }
+
+	
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -3 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectTargetCountryView.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	textbox = {
+		parentanchor = top|hcenter
+		using = MarbleButtonFontL
+		text = "[SelectTargetCountryView.GetTitle]"
+		autoresize = yes
+		position = { 0 7 }
+	}
+
+	
+	flowcontainer = {
+		position = { 0 50 }
+		
+		widget = {
+			size = { 12 4 }
+		}
+		
+		sort_button = {
+			name = "sort_title"
+			size = { 199 40 }
+			tooltip = "SORT_BY_COUNTRY_NAME_TT"
+			onclick = "[SelectTargetCountryView.Sort('name')]"
+			down = "[SelectTargetCountryView.IsSorted('name')]"
+			
+			icon = {
+				position = { 6 3 }
+				parentanchor = hcenter
+				size = { 30 30 }
+				texture = "gfx/interface/icons/shared_icons/civilization.dds"
+			}
+		}
+		
+		sort_button = {
+			size = { 120 40 }
+			tooltip = "SORT_POPS_TT"
+			onclick = "[SelectTargetCountryView.Sort('population')]"
+			down = "[SelectTargetCountryView.IsSorted('population')]"
+			
+			icon = {
+				position = { 2 3 }
+				size = { 30 30 }
+				using = icon_population
+					parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+			}
+		}
+		
+		sort_button = {
+			size = { 76 40 }
+			tooltip = "SORT_CITIES_TT"
+			onclick = "[SelectTargetCountryView.Sort('cities')]"
+			down = "[SelectTargetCountryView.IsSorted('cities')]"
+			
+			icon = {
+				position = { 2 3 }
+				size = { 30 30 }
+				using = icon_city
+				parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+			}
+		}
+		
+		sort_button = {
+			size = { 76 40 }
+			tooltip = "SORT_COHORTS_TT"
+			onclick = "[SelectTargetCountryView.Sort('cohorts')]"
+			down = "[SelectTargetCountryView.IsSorted('cohorts')]"
+			
+			icon = {
+				position = { 2 3 }
+				size = { 30 30 }
+				using = icon_land_combat
+				parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+			}
+		}
+		
+		sort_button = {
+			size = { 76 40 }
+			tooltip = "SORT_SHIPS_TT"
+			onclick = "[SelectTargetCountryView.Sort('ships')]"
+			down = "[SelectTargetCountryView.IsSorted('ships')]"
+			
+			icon = {
+				position = { 2 3 }
+				size = { 30 30 }
+				using = icon_naval_combat
+				parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+			}
+		}
+	}
+	
+	widget = {
+		visible = "[IsDataModelEmpty(SelectTargetCountryView.GetTargetCountries)]"
+		size = { 600 28 }
+		position = { 0 300 }
+		
+		textbox = {
+			position = { 35 2 }
+			autoresize = yes
+			using = MarbleButtonFontL
+			text = NO_POSSIBLE_COUNTRIES
+			align = center
+		}
+	}
+
+	icon = {
+		position = { 12 92 }
+		size = { 760 706 }
+		texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 10 10 }
+	}
+
+	scrollarea = {
+		position = { 10 93 }
+		size = { 756 703 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+			blockoverride "ScrollBar_offset"
+			{
+				size = { 0 4 }
+			}
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 0 1 }
+				size = { 1080 700 }
+				datamodel = "[SelectTargetCountryView.GetTargetCountries]"
+				
+				item = {
+					widget = {
+						size = { 1120 46 }
+						
+						container = {
+							
+							country_flag = {
+								position = { 6 6 }
+								datacontext = "[SelectTargetCountryGlue.GetCountry]"
+								
+								blockoverride "flag"
+								{
+									texture = "[SelectTargetCountryGlue.GetCountry.AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+									frame = "[SelectTargetCountryGlue.GetCountry.AccessCoatOfArms.GetFrame('(int32)120','(int32)120'))]"
+									framesize = { 120 120 }
+								}
+								
+								blockoverride "size"
+								{
+									size = { 40 40 }
+								}
+								
+								blockoverride "click"
+								{
+									onclick = "[OpenDiplomacy(SelectTargetCountryGlue.GetCountry)]"
+								}
+								
+								blockoverride "hover_leave"
+								{
+									onmousehierarchyleave = "[ClearHighlightColors]"
+								}
+								tooltip = "[SelectTargetCountryGlue.GetCountry.GetDescriptiveName]"
+							}
+							
+							
+							flowcontainer = {
+								position = { 48 10 }
+								
+								icon = {
+									size = { 150 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									
+									textbox = {
+										position = { 5 -2 }
+										multiline = yes
+										using = MarbleButtonFont 
+										#parentanchor = hcenter|top
+										align = center
+										text = "[SelectTargetCountryGlue.GetCountry.GetName]"
+										size = { 120 30 }
+										elide = right
+										tooltip = "[SelectTargetCountryGlue.GetCountry.GetDescriptiveName]"
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								
+								icon = {
+									size = { 116 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[SelectTargetCountryGlue.GetCountry.BuildTotalPopulationToolTip]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_population
+									}
+									
+									textbox = {
+										size = { 80 20 }
+										position = { 65 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectTargetCountryGlue.GetCountry.GetTotalPopulation]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[SelectTargetCountryGlue.GetCountry.GetOwnedProvinceTooltip]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_city
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectTargetCountryGlue.GetCountry.GetOwnedProvinceCount]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									datacontext = "[SelectTargetCountryGlue.GetCountry]"
+									tooltip = "DIPLOMATIC_VIEW_TOTAL_COHORTS"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_land_combat
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectTargetCountryGlue.GetCountry.GetTotalNumOfCohorts]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									datacontext = "[SelectTargetCountryGlue.GetCountry]"
+									tooltip = "DIPLOMATIC_VIEW_TOTAL_SHIPS"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_naval_combat
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectTargetCountryGlue.GetCountry.GetTotalNumOfShips]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+							}
+							
+							button_standard_white_marble = {
+								position = { 548 4 }
+								size = { 200 46 }
+								using = MarbleButtonFont
+								text = "SELECT_TARGET"
+								onclick = "[SelectTargetCountryGlue.OnClick]"
+								tooltip = "[SelectTargetCountryGlue.GetCountry.GetName]"
+								
+								onmousehierarchyenter = "[SetHighlightCountry( SelectTargetCountryGlue.GetCountry )]"
+								onmousehierarchyleave = "[ClearHighlightColors]"
+								
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

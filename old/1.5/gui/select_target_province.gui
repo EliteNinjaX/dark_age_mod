@@ -1,0 +1,387 @@
+
+window = {
+	gfxtype = windowgfx
+	name = "select_target_province"
+	
+	parentanchor = center
+	size = { 920 800 }
+
+	
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -3 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectTargetProvinceView.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	textbox = {
+		parentanchor = top|hcenter
+		using = MarbleButtonFontL
+		text = "[SelectTargetProvinceView.GetTitle]"
+		autoresize = yes
+		position = { 0 7 }
+	}
+
+	
+	flowcontainer = {
+		position = { 10 50 }
+		
+		sort_button = {
+			size = { 207 40 }
+			tooltip = "SORT_BY_NAME_PROVINCE_TARGET"
+			onclick = "[SelectTargetProvinceView.Sort('name')]"
+			down = "[SelectTargetProvinceView.IsSorted('name')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			textbox = {
+				size = { 200 30 }
+				multiline = no
+				using = MarbleButtonFontM
+				text = "SORT_NAME_TITLE"
+				align = center
+			}
+		}
+
+		sort_button = {
+			size = { 76 40 }
+			tooltip = SORT_POPS_TT
+			onclick = "[SelectTargetProvinceView.Sort('population')]"
+			down = "[SelectTargetProvinceView.IsSorted('population')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			
+			icon = {
+				position = { 2 3 }
+				size = { 30 30 }
+				using = icon_population
+					parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+			}
+		}
+		sort_button = {
+			name = "sort_nobles"
+			size = { 76 40 }
+			tooltip = SORT_NOBLES_TT
+			onclick = "[SelectTargetProvinceView.Sort('nobles')]"
+			down = "[SelectTargetProvinceView.IsSorted('nobles')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			icon = {
+				using = icon_pop_nobles
+				size = { 30 30 }
+				position = { 39 3 }
+				widgetanchor = top|hcenter
+			}
+		}
+		sort_button = {
+			name = "sort_citizens"
+			size = { 76 40 }
+			tooltip = SORT_CITIZENS_TT
+			onclick = "[SelectTargetProvinceView.Sort('citizen')]"
+			down = "[SelectTargetProvinceView.IsSorted('citizen')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			icon = {
+				using = icon_pop_citizens
+				size = { 30 30 }
+				position = { 39 3 }
+				widgetanchor = top|hcenter
+			}
+		}
+		
+		sort_button = {
+			name = "sort_freemen"
+			size = { 76 40 }
+			tooltip = SORT_FREEMEN_TT
+			onclick = "[SelectTargetProvinceView.Sort('freemen')]"
+			down = "[SelectTargetProvinceView.IsSorted('freemen')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			icon = {
+				using = icon_pop_freemen
+				size = { 32 32 }
+				position = { 39 3 }
+				widgetanchor = top|hcenter
+			}
+		}
+		
+		sort_button = {
+			name = "sort_tribesmen"
+			size = { 76 40 }
+			tooltip = SORT_TRIBESMEN_TT
+			onclick = "[SelectTargetProvinceView.Sort('tribesmen')]"
+			down = "[SelectTargetProvinceView.IsSorted('tribesmen')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			icon = {
+				using = icon_pop_tribal
+				size = { 32 32 }
+				position = { 39 3 }
+				widgetanchor = top|hcenter
+			}
+		}
+		
+		sort_button = {
+			name = "sort_slaves"
+			size = { 76 40 }
+			tooltip = SORT_SLAVES_TT
+			onclick = "[SelectTargetProvinceView.Sort('slaves')]"
+			down = "[SelectTargetProvinceView.IsSorted('slaves')]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			icon = {
+				using = icon_pop_slaves
+				size = { 32 32 }
+				position = { 39 3 }
+				widgetanchor = top|hcenter
+			}
+		}
+		
+	}
+	
+	widget = {
+		visible = "[IsDataModelEmpty(SelectTargetProvinceView.GetTargetProvinces)]"
+		size = { 600 28 }
+		position = { 0 300 }
+		
+		textbox = {
+			position = { 35 2 }
+			autoresize = yes
+			using = MarbleButtonFontL
+			text = NO_POSSIBLE_PROVINCES
+			align = center
+		}
+	}
+
+	scrollarea = {
+		position = { 10 90 }
+		size = { 896 694 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+			blockoverride "ScrollBar_offset"
+			{
+				size = { 0 4 }
+			}
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 10 1 }
+				size = { 1080 694 }
+				datamodel = "[SelectTargetProvinceView.GetTargetProvinces]"
+				
+				item = {
+					widget = {
+						size = { 1122 48 }
+						
+						container = {
+							textbox = {
+								position = { 0 2 }
+								size = { 180 20 }
+								
+								using = MarbleButtonFont
+								parentanchor = top|left
+								align = left|top
+								text = "[SelectProvinceItem.GetProvince.GetName]"
+								elide = right
+								tooltip = "[SelectProvinceItem.GetProvince.GetState.GetName]"
+							}
+							
+							flowcontainer = {
+								position = { 200 0 }
+								
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[SelectProvinceItem.GetProvince.GetPopulationInfo]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_population
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectProvinceItem.GetProvince.GetPopulation('total')]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[SelectProvinceItem.GetProvince.GetPopulationTooltip('nobles')]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_pop_nobles
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectProvinceItem.GetProvince.GetPopulation('nobles')]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[SelectProvinceItem.GetProvince.GetPopulationTooltip('citizen')]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_pop_citizens
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectProvinceItem.GetProvince.GetPopulation('citizen')]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[SelectProvinceItem.GetProvince.GetPopulationTooltip('freemen')]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_pop_freemen
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectProvinceItem.GetProvince.GetPopulation('freemen')]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+																
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[SelectProvinceItem.GetProvince.GetPopulationTooltip('tribesmen')]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_pop_tribal
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectProvinceItem.GetProvince.GetPopulation('tribesmen')]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								icon = {
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[SelectProvinceItem.GetProvince.GetPopulationTooltip('slaves')]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_pop_slaves
+									}
+									
+									textbox = {
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[SelectProvinceItem.GetProvince.GetPopulation('slaves')]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								
+							}
+							
+							
+							
+							button_standard_white_marble = {
+								position = { 680 -7 }
+								size = { 200 46 }
+								using = MarbleButtonFont
+								text = "SELECT_TARGET"
+								onclick = "[SelectProvinceItem.OnClick]"
+								onmousehierarchyenter = "[SetHighlightProvince( SelectProvinceItem.GetProvince.GetId )]"
+								onmousehierarchyleave = "[ClearHighlightColors]"
+								tooltip = "[SelectProvinceItem.GetProvince.GetName]"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

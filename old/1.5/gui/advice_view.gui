@@ -1,0 +1,164 @@
+window = {
+	name = "advice_view"
+	gfxtype = windowgfx
+	parentanchor = vcenter|hcenter
+	size = { 762 607 }
+	widgetanchor = vcenter|hcenter
+	movable = yes
+
+	widget = {
+		name = "background"
+		size = { 100% 100% }
+		alwaystransparent = yes
+
+		background = {
+			texture = "gfx/interface/advice/advice_view_bg.dds"
+			spriteType = Corneredtiled
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+
+		square_close_button = {
+			name = "close_button"
+			position = { -7 6 }
+			parentanchor = top|right
+			shortcut = "close_window"
+			onclick = "[AdviceView.OnClose]"
+			tooltip = "CLOSE"
+		}
+	}
+
+	# Window Title
+	textbox = {
+		position = { 0 15 }
+		size = { 760 100 }
+		using = MarbleButtonFontM
+		align = top|hcenter
+		text = "[AdviceView.GetTitle]"
+	}
+
+	# Window Description
+	textbox = {
+		position = { 100 25 }
+		size = { 640 110 }
+		multiline = yes
+		using = MarbleButtonFontM
+		align = left|vcenter
+		text = "[AdviceView.GetDescription]"
+	}
+
+	# Alert Icon Background
+	icon = {
+		name = "advice_icon_background"
+		texture = "[AdviceView.GetAlertIconBackground]"
+		size = { 80 80 }
+		position = { 10 48 }
+	}
+
+	# Alert Icon
+	icon = {
+		name = "advice_icon"
+		texture = "[AdviceView.GetAlertIcon]"
+		using = alert_icon_size
+		position = { 25 60 }
+	}
+
+	# GOTO Button
+	button_standard_white_marble_s = {
+		position = { 10 8 }
+		size = { 120 38 }
+		onclick = "[AdviceView.GotoTarget]"
+		visible = "[AdviceView.HasGotoTarget]"
+
+		buttonText = {
+			textbox = {
+				position = { 0 -12 }
+				parentanchor = bottom|hcenter
+				text = "ADVICE_GOTO_TARGET"
+				using = MarbleButtonFontS
+				autoresize = yes
+			}
+		}
+	}
+
+	# Advice Items
+	scrollarea = {
+		position = { 11 124 }
+		size = { 739 486 }
+		scrollbarpolicy_horizontal = always_off
+
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+		}
+
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 0 0` }
+				datamodel = "[AdviceView.GetApplicableAdvice]"
+				item = {
+					widget = {
+						size = { 739 158 }
+
+						# Background
+						icon = {
+							texture = "gfx/interface/advice/advice_item_bg.dds"
+						}
+
+						icon = {
+							name = "advice_icon"
+							texture = "[AdviceItem.GetIcon]"
+							size = { 80	80 }
+							position = { 30 57 }
+						}
+
+						# Item Title
+						textbox = {
+							position = { 30 15 }
+							size = { 390 140 }
+							elide = right
+							multiline = yes
+							using = GoldenFontMB
+							widgetanchor = left|vcenter
+							text = "[AdviceItem.GetTitle]"
+						}
+
+						# Item Description
+						textbox = {
+							position = { 135 92 }
+							size = { 370 140 }
+							elide = right
+							multiline = yes
+							using = MarbleButtonFontS
+							widgetanchor = left|vcenter
+							text = "[AdviceItem.GetDescription]"
+						}
+
+						flowcontainer = {
+							direction = vertical
+							ignoreinvisible = yes
+							position = { 510 80 }
+
+							button_standard_white_marble_s = {
+								size = { 210 38 }
+								onclick = "[AdviceItem.Click]"
+								visible = "[AdviceItem.HasButton]"
+								enabled = "[AdviceItem.IsButtonEnabled]"
+								tooltip = "[AdviceItem.GetButtonTooltip]"
+
+								buttonText = {
+									textbox = {
+										position = { 0 -12 }
+										parentanchor = bottom|hcenter
+										text = "[AdviceItem.GetButtonLabel]"
+										using = MarbleButtonFontS
+										autoresize = yes
+
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

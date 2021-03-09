@@ -1,0 +1,692 @@
+
+window = {
+	template ArrowLine
+	{
+		gfxtype = linegfx
+		width = 11
+		
+		animation_speed = { 0.15 0.0 }
+		uv_scale = { 1.0 1.0 }
+		texture = "gfx/interface/missions/arrow_texture.dds"
+		mask_uv_scale = { 1.0 1.0 }
+		mask = "gfx/interface/missions/arrow_alpha.dds"
+	}
+	
+	gfxtype = windowgfx
+	name = "mission_view"
+	parentanchor = top|left
+	size = { 1010 900 }
+	position = { 5 120 }
+	widgetanchor = top|left
+	movable = no
+
+	using = advice_trigger_highlights
+
+	widget = {
+		name = "background"
+		using = Large_window_type
+		size = { 100% 100% }
+		alwaystransparent = yes
+		
+		blockoverride "header"
+		{
+			text = "MISSION_MENU_HEADER"
+			tooltip = "MISSION_MENU_HEADER_TT"
+		}
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -12 12 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[MissionView.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	left_arrow_button = {
+		name = "previous_button"
+		position = { 299 14 }
+		parentanchor = top|left
+		shortcut = "previous_window"
+		onclick = "[MissionView.OnPrevious]"
+		tooltip = "PREVIOUS_MISSION_VIEW"
+	}
+	
+	container = {
+		visible = "[MissionView.IsMissionSelectionVisible]"
+		
+		icon = {
+			position = { 49 74 }
+			size = {1100 210}
+			texture = "[MissionView.GetHeaderImage]"
+			#texture = "gfx/interface/missions/mission_image_rome.dds"
+			alpha = 0.8
+			scale = 0.83
+		}
+		
+		container = {
+			position = { 50 272 }
+			
+			icon = {
+				size = { 336 560 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+			}
+
+			scrollarea = {
+				position = { 0 4 }
+				size = { 330 554 }
+				scrollbarpolicy_horizontal = always_off
+				
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+					blockoverride "ScrollBar_offset"
+					{
+						size = { 0 4 }
+					}
+				}
+				
+				scrollwidget = {
+					fixedgridbox = {
+						addcolumn = 300
+						addrow = 140
+						maxhorizontalslots = 1
+						position = { 17 0 }
+						
+						datamodel = "[MissionView.GetAvailableMissions]"
+						
+						item = {
+							button = {
+								size = { 300 123 }
+								texture = "[MissionItem.GetImage]"
+								#texture = "gfx/interface/icons/missions/rome_1.dds"
+								tooltip = "[MissionItem.GetButtonTooltip]"
+								onclick = "[MissionItem.OnSelect]"
+								clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+								
+								icon = {
+									position = { -13 104 }
+									size = { 328 39}
+									texture = "gfx/interface/missions/mission_title_bar.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 60 0 }
+									
+									textbox = {
+										position = { 0 8 }
+										parentanchor = top|hcenter
+										using = MarbleButtonFontS
+										autoresize = yes
+										align = left|top
+										elide = right
+										text = "[MissionItem.GetTitle]"
+									}									
+								}
+								
+
+								
+								#textbox = {
+								#	position = { 8 30 }
+								#	using = MarbleButtonFontS
+								#	parentanchor = top|left
+								#	autoresize = yes
+								#	align = left|top
+								#	multiline = yes
+								#	text = "[MissionItem.GetButtonDetails]"
+								#}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		container = {
+			position = { 396 280 }
+			
+			datacontext = "[MissionView.GetSelectedMission]"
+
+			#icon = {
+			#	size = { 758 502 }
+			#	texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			#	spriteType = Corneredtiled
+			#	spriteborder = { 28 20 }
+			#}
+
+			scrollarea = {
+				position = { 4 1 }
+				size = { 550 540 }
+				scrollbarpolicy_horizontal = always_off
+				
+				using = ScrollMessageBackground_2
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+					blockoverride "ScrollBar_offset"
+					{
+						size = { 0 4 }
+					}
+				}
+				
+				scrollwidget = {
+					flowcontainer = {
+						margin = { 22 0 }
+						
+						direction = vertical
+						
+						container = {
+							textbox = {
+								position = { 0 0 }
+								using = MarbleButtonFontM
+								parentanchor = top|left
+								autoresize = yes
+								align = left|top
+								elide = right
+								text = "[MissionItem.GetTitle]"
+								
+								minimumsize = { 510 -1 }
+								maximumsize = { 510 -1 }
+							}
+							
+							textbox = {
+								position = { 0 30 }
+								using = MarbleButtonFontS
+								parentanchor = top|left
+								autoresize = yes
+								align = left|top
+								multiline = yes
+								text = "[MissionItem.GetDescription]"
+								
+								minimumsize = { 510 -1 }
+								maximumsize = { 510 -1 }
+							}
+						}
+						
+						container = {
+							textbox = {
+								position = { 0 0 }
+								using = MarbleButtonFontM
+								parentanchor = top|left
+								autoresize = yes
+								align = left|top
+								elide = right
+								text = "MISSION_VIEW_COMPLETION_CRITERIA"
+								visible = "[MissionView.HasAvailableMission]"
+								minimumsize = { 510 -1 }
+								maximumsize = { 510 -1 }
+							}
+							
+							textbox = {
+								position = { 0 30 }
+								using = MarbleButtonFontS
+								parentanchor = top|left
+								autoresize = yes
+								align = left|top
+								multiline = yes
+								text = "[MissionItem.GetCompletionCriteriaDescription]"
+								
+								minimumsize = { 510 -1 }
+								maximumsize = { 510 -1 }
+							}
+						}
+					}
+				}
+			}
+			
+			button_standard_white_marble_s = {
+				position = { 76 558 }
+				size = { 404 38 }
+				onclick = "[MissionItem.OnStart]"
+				enabled = "[MissionItem.IsStartAllowed]"
+				tooltip = "[MissionItem.GetStartTooltip]"
+				clicksound = "event:/SFX/UI/Missions/sfx_ui_mission_accept"
+				
+				buttonText = {
+					textbox = {
+						parentanchor = bottom|hcenter
+						text = "MISSION_VIEW_START_MISSION"
+						using = MarbleButtonFontS
+						autoresize = yes
+						position = { 0 -12 }
+					}
+				}
+			}			
+		}
+	}
+	
+	
+	
+	
+	container = {
+		visible = "[MissionView.IsActiveMissionVisible]"
+		enabled = "[MissionView.IsWindowEnabled]"
+		
+		datacontext = "[MissionView.GetActiveMission]"
+		
+		widget = {
+			position = { 50 70 }
+			size = { 1000 120 }
+				
+			icon = {
+				position = { -1 4 }
+				#parentanchor = "top|right"
+				texture = "[MissionView.GetHeaderImage]"
+				size = { 1100 210 }
+				#texture = "gfx/interface/missions/mission_image_rome.dds"
+				tooltip = "[MissionItem.GetImageTooltip]"
+				alpha = 0.8
+				scale = 0.83
+			}
+			
+			icon = {
+				position = { -10 -8 }
+				size = { 400 39 }
+				texture = "gfx/interface/missions/mission_title_bar.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 60 0 }
+				
+				textbox = {
+					position = { 0 6 }
+					using = MarbleButtonFontM
+					parentanchor = top|left
+					autoresize = yes
+					minimumsize = { -1 39 }
+					resizeparent = yes
+					align = left|top
+					elide = right
+					text = "[MissionItem.GetTitle]"
+					margin_left = 20
+					margin_right = 20
+				}
+			}			
+			
+			#flowcontainer = {
+			#	direction = vertical
+			#
+			#	container = {
+			#		textbox = {
+			#			position = { 0 0 }
+			#			using = MarbleButtonFontM
+			#			parentanchor = top|left
+			#			autoresize = yes
+			#			align = left|top
+			#			elide = right
+			#			text = "[MissionItem.GetTitle]"
+			#		}
+			#		
+			#		textbox = {
+			#			position = { 0 30 }
+			#			using = MarbleButtonFontS
+			#			parentanchor = top|left
+			#			autoresize = yes
+			#			align = left|top
+			#			multiline = yes
+			#			text = "[MissionItem.GetDescription]" 
+			#		}
+			#	}
+			#	
+			#	container = {
+			#		textbox = {
+			#			position = { 0 0 }
+			#			using = MarbleButtonFontM
+			#			parentanchor = top|left
+			#			autoresize = yes
+			#			align = left|top
+			#			elide = right
+			#			text = "MISSION_VIEW_COMPLETION_CRITERIA"
+			#		}
+			#		
+			#		textbox = {
+			#			position = { 0 30 }
+			#			using = MarbleButtonFontS
+			#			parentanchor = top|left
+			#			autoresize = yes
+			#			align = left|top
+			#			multiline = yes
+			#			text = "[MissionItem.GetCompletionCriteriaDescription]"
+			#		}
+			#	}
+			#}
+		}
+		
+		container = {
+			position = { 50 260 }
+			
+			icon = {
+				size = { 908 582 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+			}
+			
+			scrollarea = {
+				position = { 4 1 }
+				size = { 900 580 }
+
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+					blockoverride "ScrollBar_offset"
+					{
+						size = { 0 4 }
+					}
+				}
+				
+				scrollbar_horizontal = {
+					using = MarbleScrollBarHorizontal
+				}
+					
+				scrollwidget = {
+					container  = {
+						min_width = 900
+						flowcontainer = {
+							margin_bottom = 150
+							parentanchor = "top|hcenter"
+							widgetanchor = "top|hcenter"
+							container = {						
+								# These two widgets determine the margin between graph nodes
+								widget = {
+									name = "margin_top_left" # Do not change this name
+									size = { 5 25 }
+								}
+								widget = {
+									name = "margin_bottom_right" # Do not change this name
+									size = { 5 25 }
+								}
+								# This widget tells the layout how to offset and space the lines
+								widget = {
+									name = "line_offset" # Do not change this name
+									position = { 1 -4 } # Fixed offset (i.e. to compensate for line width
+									size = { 20 0 } # Spacing between edges
+								}
+								
+								# Container for all the edges in the graph
+								container = {
+									name = "line_area" # Do not change this name
+								
+									position = { 0 0 }
+									datamodel = "[MissionView.GetLineItems]"
+									item = {
+										container = {
+											position = "[MissionLineItem.GetPosition]"
+						
+											line = {
+												using = ArrowLine
+												line_type = BSpline
+												points = "[MissionLineItem.GetPointsInContainer]"
+												# points = "[MissionLineItem.GetPoints]" # If no container is used for the line
+											}
+										}
+									}
+								}
+								
+								# Container for all the nodes in the graph
+								container = {
+									name = "node_area" # Do not change this name
+									
+									position = { 0 0 }
+									datamodel = "[MissionView.GetTaskItems]"
+									
+									item = {
+
+										widget = {
+											size = { 160 230 }
+											widgetid = "[MissionTaskItem.GetKey]"
+											position = "[MissionTaskItem.GetPosition]"
+										
+											onmousehierarchyenter = "[MissionTaskItem.OnMouseEnter]"
+											onmousehierarchyleave = "[MissionTaskItem.OnMouseLeave]"
+											
+											container = {
+												button = {
+													spriteType = Corneredtiled
+													spriteborder = { 12 0 }
+													size = { 158 226 }
+													onclick = "[MissionTaskItem.OnClick]"
+													enabled = "[And(Or(MissionTaskItem.IsPossible, MissionTaskItem.IsInProgress), Not(MissionTaskItem.IsCompleted))]"
+												}
+												tooltip = "[MissionTaskItem.GetTooltip]"
+												icon = {
+													name = "Standard_frame_2"
+													texture = "gfx/interface/missions/task_frame_standard_highlight.dds"
+													position = { -1 -1 }
+													visible = "[Or(Or(MissionTaskItem.IsBypassed, MissionTaskItem.IsPreventedByHighlightedTask ),MissionTaskItem.IsPreventedBy) ]"
+													state = {
+														name = _show
+														animation = {
+															alpha = 1
+														}
+														
+														next = red_fadeout
+													}
+												
+													state = {
+														name = red_fadein
+														animation = {
+															alpha = 1
+														}
+														
+														duration = 1
+													
+														next = red_fadeout
+													}
+												
+													state = {
+														name = red_fadeout
+														animation = {
+															alpha = 0.5
+														}
+													
+														duration = 1
+														
+														next = red_fadein
+													}
+												
+												}
+
+												icon = {
+													name = "Standard_frame"
+													texture = "gfx/interface/missions/task_frame_standard.dds"
+													position = { 0 4}
+													visible = "[And(Not(MissionTaskItem.IsCompleted), Not(MissionTaskItem.IsFinal))]"
+													scale = 0.9
+												}
+
+												icon = {
+													name = "Standard_frame_complete"
+													texture = "gfx/interface/missions/task_frame_standard_complete.dds"
+													position = { 0 4}
+													tooltip = "MISSION_VIEW_TASK_IS_COMPLETED_TOOLTIP"
+													visible = "[And(Or(MissionTaskItem.IsCompleted, MissionTaskItem.IsBypassed), Not(MissionTaskItem.IsFinal))]"
+													scale = 0.9
+												}
+											
+												icon = {
+													name = "final_frame"
+													texture = "gfx/interface/missions/task_frame_final.dds"
+													position = { 0 4}
+													tooltip = "MISSION_VIEW_TASK_IS_FINAL_TOOLTIP"
+													visible = "[And(MissionTaskItem.IsFinal, Not(MissionTaskItem.IsCompleted))]"
+													scale = 0.9
+												}
+												
+												icon = {
+													name = "final_frame_complete"
+													texture = "gfx/interface/missions/task_frame_final_complete.dds"
+													position = { 0 4}
+													tooltip = "MISSION_VIEW_TASK_IS_COMPLETED_TOOLTIP"
+													visible = "[And(MissionTaskItem.IsFinal, Or(MissionTaskItem.IsCompleted, MissionTaskItem.IsBypassed))]"
+													scale = 0.9
+												}
+
+												icon = {
+													position = { 0 4}
+													alwaystransparent = yes
+													size = { 175 186 }
+													texture = "[MissionTaskItem.GetIcon]"
+												
+													visible = "[And(And(Not(MissionTaskItem.IsPreventedByHighlightedTask), Not(MissionTaskItem.IsBypassed)), Not(MissionTaskItem.IsPreventedBy)) ]"
+													scale = 0.9
+												}											
+
+												icon = {
+													position = { 0 4}
+													alwaystransparent = yes
+													size = { 175 186 }
+													visible = "[Or(Or(MissionTaskItem.IsBypassed, MissionTaskItem.IsPreventedByHighlightedTask ),MissionTaskItem.IsPreventedBy) ]"
+													texture = "gfx/interface/icons/mission_tasks/task_unavailable.dds"
+													scale = 0.9
+												}
+
+												button = {
+													position = { 1 164 }
+													spriteType = Corneredtiled
+													spriteborder = { 12 0 }
+													size = { 158 68 }
+													texture = "gfx/interface/missions/task_button.dds"
+													onclick = "[MissionTaskItem.OnClick]"
+													tooltip = "[MissionTaskItem.GetTooltip]"
+													enabled = "[And(Or(MissionTaskItem.IsPossible, MissionTaskItem.IsInProgress), Not(MissionTaskItem.IsCompleted))]"
+
+													icon = {
+														using = highlight_button_task
+														visible = "[And(ShouldHighlight('btn_mission_finish_task'),And(Or(MissionTaskItem.IsPossible,MissionTaskItem.IsInProgress), Not(MissionTaskItem.IsCompleted)))]"
+													}
+
+													flowcontainer = {
+														direction = vertical
+														parentanchor = hcenter|vcenter
+														ignoreinvisible = yes
+															
+														container = {
+															parentanchor = top|hcenter
+														
+															textbox = {
+																position = { 2 0 }
+																using = MarbleButtonFontS
+																size = { 132 42 }
+																text = "[MissionTaskItem.GetText]"
+																multiline = yes
+																elide = left
+																align = center|nobaseline
+															}
+														}
+													
+														container = {
+															tooltip = "[MissionTaskItem.GetProgressTooltip]"
+														
+															#visible = "[MissionTaskItem.IsInProgress]"
+															visible = "[And(Not(MissionTaskItem.IsInstant), Not(MissionTaskItem.IsCompleted))]"
+														
+															icon = {
+																name = "progressbar_frame"
+																position = { 2 0 }															
+																spriteType = Corneredtiled
+																spriteborder = { 5 2 }
+																size = { 134 9 }
+																texture = "gfx/interface/tiles/progressbar_green_frame.dds"
+															}
+															
+															progressbar = {
+																using = progressbar_green_horizontal
+																position = { 4 2 }
+																size = { 130 5 }
+																value = "[MissionTaskItem.GetProgress]"
+															}
+
+															# mission in progress animation
+															state = {							
+																name = "progress_down"
+															
+																animation = {
+																	alpha = 0.5
+																}
+																duration = 0.5
+																
+																trigger_when = "[MissionTaskItem.IsInProgress]"
+
+																next = "progress_up"
+															}
+														
+															state = {		
+																name = "progress_up"
+																
+																animation = {
+																	alpha = 1
+																}
+																duration = 1.0
+																
+																next = "progress_down"
+															}
+														}													
+													}	
+												}
+											}
+										}
+									}
+								}
+								
+								# Extra container for all the arrow heads on edges
+								container = {
+									position = { 0 0 }
+									datamodel = "[MissionView.GetLineItems]"
+									item = {
+										widget = {
+											position = "[MissionLineItem.GetTo]"
+											size = { 32 32 }
+											
+											visible = "[Not(MissionLineItem.IsToNodeVirtual)]"
+						
+											icon = {
+												name = "arrow_head"
+												position = { -13 -9 }
+												texture = "gfx/interface/missions/arrow_tip_d.dds"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		button_standard_white_marble_s = {
+			position = { 80 843 }
+			size = { 404 38 }
+			onclick = "[MissionItem.OnAbort]"
+			enabled = "[MissionItem.IsAbortAllowed]"
+			tooltip = "[MissionItem.GetAbortTooltip]"
+			
+			buttonText = {
+				textbox = {
+					parentanchor = bottom|hcenter
+					text = "MISSION_VIEW_ABORT_MISSION"
+					using = MarbleButtonFontS
+					autoresize = yes
+					position = { 0 -12 }
+				}
+			}
+		}
+		
+		button_standard_white_marble_s = {
+			position = { 520 843 }
+			size = { 404 38 }
+			onclick = "[MissionItem.OnComplete]"
+			enabled = "[MissionItem.IsCompleteAllowed]"
+			tooltip = "[MissionItem.GetCompleteTooltip]"
+			
+			buttonText = {
+				textbox = {
+					parentanchor = bottom|hcenter
+					text = "MISSION_VIEW_COMPLETE_MISSION"
+					using = MarbleButtonFontS
+					autoresize = yes
+					position = { 0 -12 }
+				}
+			}
+		}
+	}
+}

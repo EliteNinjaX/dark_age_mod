@@ -1,0 +1,110 @@
+window = {
+	gfxtype = windowgfx
+	name = "barbarian_pay_off_window"
+	parentanchor = top|left
+	size = { 730 270 }
+	position = { 387 714 }
+	widgetanchor = top|left
+	movable = no
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	
+	textbox = {
+		position = { 0 6 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "[BarbarianPayOffWindow.GetTitle]"
+		align = center
+		parentanchor = top|hcenter
+		widgetanchor = top|hcenter
+	}
+	
+	
+	scrollbar = {
+		size = { 220 14 }
+		position = { 66 73 }
+		direction = horizontal
+		min = 0
+		max = 100
+		step = 1
+		wheelstep = 1
+		value = "[BarbarianPayOffWindow.GetPricePercent]"
+		onvaluechanged = "[BarbarianPayOffWindow.OnPriceChanged]"
+		
+		track = {
+			using = SettingsValueTrack
+		}
+		
+		slider = {
+			using = SettingsValueSlider
+		}
+		
+		dec_button = {
+			using = SettingsValueDecButton
+		}
+		
+		inc_button = {
+			using = SettingsValueIncButton
+		}
+	}
+	
+	textbox = {
+		icon = {
+			size = { 102% 100% }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			position = { -5 0 }
+		}
+		position = { 20 118 }
+		using = MarbleButtonFont
+		text = "[BarbarianPayOffWindow.GetDesc]"
+		size = { 680 80 }
+		#autoresize = yes
+		multiline = yes
+		align = top|left
+	}
+	
+	icon = {
+		position = { 18 55 }
+		framesize = { 46 46 }
+		size = { 41 41 }
+		using = icon_treasury
+	}
+	
+	icon = {
+		position = { 292 60 }
+		framesize = { 46 46 }
+		size = { 41 41 }
+		texture = "gfx/interface/diplomacy/ai_accept_decline_icon.dds"
+		frame = "[BarbarianPayOffWindow.GetAcceptanceFrame]"
+		tooltip = "[BarbarianPayOffWindow.GetAcceptanceTooltip]"
+	}
+	
+	
+	button_standard_white_marble = {
+		position = { -10 -10 }
+		name = "accept_button"
+		text = "OK_BUTTON"
+		onclick = "[BarbarianPayOffWindow.OnAccept]"
+		clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_war_declare_war"
+		parentanchor = bottom|right
+	}
+	
+	button_standard_white_marble = {
+		position = { 10 -10 }
+		name = "decline_button"
+		text = "CANCEL_BUTTON"
+		onclick = "[BarbarianPayOffWindow.OnDecline]"
+		parentanchor = bottom|left
+	}
+
+
+}
+

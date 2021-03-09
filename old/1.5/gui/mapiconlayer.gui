@@ -1,0 +1,1906 @@
+template country_capital_banner
+{
+	texture = "gfx/interface/tiles/tile_capital_banner.dds"
+	spriteType = Corneredtiled
+	spriteborder = { 66 0 }
+}
+
+hbox = {
+	name = "layer_hbox"
+	
+	window = {
+		name = "layer_window"
+		layoutpolicy_horizontal = Expanding
+		layoutpolicy_vertical = Expanding
+		alwaystransparent = yes
+		movable = no
+		resizable = no
+		filter_mouse = none
+	}
+}
+
+template combatant_mapicon
+{
+	container = {
+		container = {
+			block "stats_position"
+			{
+				position = { 32 0 }
+			}
+			
+			button = {
+				name = "unit_bg"
+				position = { 0 0 }
+				framesize = { 83 33 }
+				texture = "gfx/interface/mapitems/army_bg.dds"
+				parentanchor = top|hcenter
+				
+				block "frame"
+				{
+					frame = 1
+				}
+				block "click"
+				{
+					onclick = "[CombatMapIcon.OnClick]"
+					onclick = "[SelectUnit(Combatant.GetLeadingUnit)]"
+				}
+			}
+			
+			textbox = {
+				position = { 0 3 }
+				size = { 90 20 }
+				multiline = no
+				using = WhiteFont
+				parentanchor = top|hcenter
+				align = top|hcenter
+				text = "[Combatant.GetVisualStrength]"
+				tooltip = "[Combatant.GetVisualStrengthTooltip]"
+			}
+		}
+		
+		container = {
+			position = { 40 32 }
+			
+			progressbar = {
+				using = progressbar_green_horizontal
+				block "progressbar_position"
+				{
+					position = { 0 0 }
+				}
+				value = "[Combatant.GetMoralePercent]"
+				tooltip = "[Combatant.GetMoraleTooltip]"
+				size = { 72 10 }
+			}
+		}
+		
+		country_flag = {
+			datacontext = "[Combatant.GetCountry]"
+			tooltip = "COUNTRY_FLAG_TT"
+			
+			block "flag_position"
+			{
+				position = { 0 0 }
+			}
+			
+			blockoverride "flag"
+			{
+				texture = "[Country.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+				frame = "[Country.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+				framesize = { 56 56 }
+			}
+			
+			blockoverride "click"
+			{
+				onclick = "[OpenDiplomacy(Country.Self)]"
+			}
+			blockoverride "hover" {}
+			
+			blockoverride "size"
+			{
+				size = { 42 42 }
+			}
+		}
+	
+		portrait_button = {
+			using = portrait_40
+			name = "portrait"
+			inherit_visual_state = no
+			distribute_visual_state = no
+
+			block "portrait_position"
+			{
+				position = { 0 0 }
+			}
+			parentanchor = top|left
+			datacontext = "[Combatant.GetCommander]"
+		}
+	}
+}
+
+
+### COMBAT
+button = {
+	name = "combat_widget"
+	widgetanchor = center
+	size = { 305 46 }
+	onclick = "[CombatMapIcon.OnClick]"
+	using = standard_window_type
+	
+	container = {
+		datacontext = "[CombatMapIcon.GetCombat.GetAttacker]"
+		using = combatant_mapicon
+		
+		blockoverride "frame"
+		{
+			frame = "[CombatMapIcon.GetAttackerFrame]"
+		}
+		
+		blockoverride "portrait_position"
+		{
+			position = { 0 -10 }
+		}
+		blockoverride "flag_position"
+		{
+			position = { 35 0 }
+		}
+		blockoverride "stats_position"
+		{
+			position = { 67 0 }
+		}
+		blockoverride "progressbar_position"
+		{
+			position = { 36 0 }
+			invertprogress = yes
+		}
+	}
+	
+	container = {
+		position = { 118 0 }
+		datacontext = "[CombatMapIcon.GetCombat.GetDefender]"
+		using = combatant_mapicon
+		
+		onclick = "[CombatMapIcon.OnClick]"
+		
+		blockoverride "frame"
+		{
+			frame = "[CombatMapIcon.GetDefenderFrame]"
+		}
+		blockoverride "flag_position"
+		{
+			position = { 111 0 }
+		}
+		blockoverride "portrait_position"
+		{
+			position = { 148 -10 }
+		}
+	}
+	
+	container = {
+		position = { 133 0 }
+		icon = {
+			texture = "gfx/interface/mapitems/combat_map_icon.dds"
+		}
+	}
+}
+
+### CITY
+widget = {
+	name = "city_widget"
+	#position = { 50 0 }
+	widgetanchor = center
+
+	textbox = {
+		
+		#size = { 150 0 }
+		position = { 0 15 }
+		multiline = no
+		using = FontValue
+		autoresize = yes
+		parentanchor = center
+		text = "[CityMapIcon.GetLabel|b]"
+		
+		background = {
+			using = country_capital_banner
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		margin_top = 5
+		margin_left = 42
+		margin_right = 40
+		margin_bottom = 20
+	}
+
+
+}
+
+### Port Icon
+widget = {
+	size = { 40 40 }
+	name = "port_widget"
+	widgetanchor = center
+	
+	tooltip = "[PortMapIcon.GetTooltip]"
+	tooltip_offset = { 20 20 }
+	
+	icon = {
+		name = "port_icon"
+		texture = "gfx/interface/mapitems/port_map_icon.dds"
+		visible = "[PortMapIcon.ShouldBeShown]"
+		size = { 30 30 }
+		framesize = { 50 50 }
+		frame = "[Select_int32(PortMapIcon.HasVisibleShips,'(int32)2','(int32)1'))]"
+		widgetanchor = top|hcenter
+		parentanchor = top|hcenter
+		position = { 0 5 }
+	}
+}
+
+### County capital
+country_flag = {
+	name = "county_capital_widget"
+	widgetanchor = top|hcenter
+	position = { 0 0 }
+	size = { 32 32 }
+	
+	tooltip = "[CapitalMapIcon.GetTooltip]"
+	blockoverride "click"
+	{
+		onclick = "[CapitalMapIcon.OnCoaClicked]"
+	}
+	blockoverride "hover" {}
+	
+	blockoverride "flag"
+	{
+		texture = "[CapitalMapIcon.GetCountry.AccessCoatOfArms.GetTexture('(int32)32','(int32)32')]"
+		frame = "[CapitalMapIcon.GetCountry.AccessCoatOfArms.GetFrame('(int32)32','(int32)32')]"
+		framesize = { 32 32 }
+	}
+	
+	blockoverride "size"
+	{
+		size = { 32 32 }
+	}
+	
+	icon = {
+		position = { -8 -4 }
+		texture = "gfx/interface/icons/map_icon_ally.dds"
+		visible = "[CapitalMapIcon.IsAlly]"
+	}
+	
+	icon = {
+		position = { -5 15 }
+		texture = "gfx/interface/icons/map_icon_war.dds"
+		visible = "[And( CapitalMapIcon.IsWar, Not(IsGameViewOpen('macro_builder')))]"
+	}
+}
+
+### FORT ICON AND SIEGE PROGRESS
+container = {
+	position = { 0 -13 }
+	widgetanchor = center
+	name = "fort_widget"
+	ignoreinvisible = yes
+	
+	button = {
+		visible = "[FortMapIcon.HasSiege]"
+		name = "fort_widget"
+		alwaystransparent = no
+		texture = "gfx/interface/province/fortification.dds"
+		size = { 32 32 }
+		parentanchor = center
+		widgetanchor = center
+		onclick = "[FortMapIcon.OnClick]"
+		frame = "[FortMapIcon.GetFrame]"
+		tooltip = "[FortMapIcon.GetTooltip]"
+		filter_mouse = left
+	}
+	
+	icon = {
+		visible = "[Not(FortMapIcon.HasSiege)]"
+		alwaystransparent = no
+		texture = "gfx/interface/province/fortification.dds"
+		size = { 32 32 }
+		parentanchor = center
+		widgetanchor = center
+		frame = "[FortMapIcon.GetFrame]"
+		tooltip = "[FortMapIcon.GetTooltip]"
+	}
+	
+	country_flag = {
+		visible = "[FortMapIcon.HasSiege]"
+		position = { 30 22 }
+		tooltip = "[FortMapIcon.GetSiege.GetSiegePhaseProgressTooltip]"
+		
+		blockoverride "flag"
+		{
+			texture = "[FortMapIcon.GetSiege.GetBesieger.AccessCoatOfArms.GetTexture('(int32)32','(int32)32')]"
+			frame = "[FortMapIcon.GetSiege.GetBesieger.AccessCoatOfArms.GetFrame('(int32)32','(int32)32')]"
+			framesize = { 32 32 }
+			parentanchor = center
+			widgetanchor = center
+		}
+		
+		blockoverride "size"
+		{
+			size = { 24 24 }
+		}
+		icon = {
+			position = { -30 0 }
+			texture = "gfx/interface/mapitems/too_few_men.dds"
+			visible = "[FortMapIcon.GetSiege.IsTooFewMen]"
+		}
+	}
+}
+
+### Military Construction
+widget = {
+	name = "military_construction_widget"
+	position = { 4 30 }
+	size = { 68 22 }
+	widgetanchor = center
+	
+	tooltip = "[MilitaryConstructionIcon.GetTooltip]"
+	tooltip_offset = { 20 20 }
+	
+	icon = {
+		name = "square_card"
+		position = { -1 0 }
+		size = { 22 22 }
+		texture = "gfx/interface/unit_view/unit_card_square.dds"
+	}
+	
+	icon = {
+		name = "type_icon"
+		position = { 0 1 }
+		size = { 20 20 }
+		texture = "[GetSubUnitIcon(MilitaryConstructionIcon.GetType)]"
+	}
+	
+	container = {
+		position = { 20 8 }
+		icon = {
+			texture = "gfx/interface/map/small_bar_frame_h.dds"
+			position = { 0 -5 }
+		}
+		
+		progressbar = {
+			using = building_bar
+			position = { 4 0 }
+			value = "[MilitaryConstructionIcon.GetProgress]"
+		}
+	}
+
+
+}
+
+# Building Construction
+widget = {
+	name = "building_construction_widget"
+	
+	position = { 4 0 }
+	size = { 68 22 }
+	widgetanchor = center
+	
+	tooltip = "[BuildingConstructionIcon.GetTooltip]"
+	tooltip_offset = { 20 20 }
+	
+	icon = {
+		size = { 20 20 }
+		texture = "[GetBuildingIcon(BuildingConstructionIcon.GetBuilding)]"
+	}
+	
+	container = {
+		position = { 20 8 }
+		
+		icon = {
+			texture = "gfx/interface/map/small_bar_frame_h.dds"
+			position = { 0 -5 }
+		}
+		
+		progressbar = {
+			using = building_bar
+			position = { 4 0 }
+			value = "[BuildingConstructionIcon.GetProgress]"
+		}
+	}
+}
+
+### FortFlipRestore Icon
+widget = {
+	name = "flip_widget"
+	position = { 0 30 }
+	size = { 60 30 }
+	widgetanchor = center
+	
+	tooltip = "[FortFlipRestoreIcon.GetTooltip]"
+	tooltip_offset = { 20 20 }
+	
+	container = {
+		position = { 20 0 }
+		
+		icon = {
+			name = "progressbar_frame"
+			spriteType = Corneredtiled
+			spriteborder = { 5 2 }
+			size = { 54 11 }
+			position = { 0 0 }
+			texture = "gfx/interface/tiles/progressbar_green_frame.dds"
+		}
+		
+		progressbar = {
+			using = progressbar_green_horizontal
+			position = { 2 2 }
+			size = { 50 7 }
+			value = "[FortFlipRestoreIcon.GetProgress]"
+		}
+	}
+}
+
+### Combat Imminent Icon
+widget = {
+	name = "combat_imminent_widget"
+	size = { 30 30 }
+	widgetanchor = center
+	
+	tooltip = "[CombatImminentIcon.GetTooltip]"
+	tooltip_offset = { 10 0 }
+	
+	icon = {
+		size = { 30 30 }
+		texture = "[CombatImminentIcon.GetIconTexture]"
+	}
+
+}
+
+### Barbarian Power Icon
+widget = {
+	name = "barbarian_power_widget"
+	position = { 0 0 }
+	size = { 30 30 }
+	widgetanchor = center
+	tooltip = "[SimpleProvinceIcon.GetProvince.GetBarbarianPowerTooltip]"
+	
+	icon = {
+		position = { -37 -8 }
+		texture = "gfx/interface/map/barnarian_banner_bg.dds"
+	}
+	
+	textbox = {
+		position = { 0 0 }
+		using = MarbleButtonFontS
+		text = "[SimpleProvinceIcon.GetProvince.GetBarbarianPower|R]"
+		autoresize = yes
+	}
+	
+	textbox = {
+		position = { 0 16 }
+		using = MarbleButtonFontS
+		text = "[SimpleProvinceIcon.GetProvince.GetBarbarianPowerChange|-]"
+		autoresize = yes
+	}
+}
+
+
+### Governor Icon
+widget = {
+	name = "governor_widget"
+	position = { 0 -56 }
+	widgetanchor = center
+	size = { 318 86 }
+	
+	icon = {
+		#	name = "background"
+		#	using = standard_window_type
+		texture = "gfx/interface/map/governor_bg.dds"
+		size = { 318 86 }
+		alwaystransparent = no
+	}
+	
+	
+	DefaultHeaderBackground = {
+		name = "province_header"
+		position = { 61 -1 }
+		size = { 256 46 }
+		
+		blockoverride "text"
+		{
+			margin_left = 40
+			text = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetName]"
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetStatesInfo]"
+		}
+	}
+	
+	country_flag = {
+		position = { 67 3 }
+		tooltip = "[SimpleProvinceIcon.GetProvince.GetOwner.GetDescriptiveName]"
+		
+		blockoverride "flag"
+		{
+			texture = "[SimpleProvinceIcon.GetProvince.GetOwner.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+			frame = "[SimpleProvinceIcon.GetProvince.GetOwner.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+			framesize = { 56 56 }
+		}
+		
+		blockoverride "size"
+		{
+			size = { 42 42 }
+		}
+	}
+	
+	portrait_button = {
+		using = portrait_50
+		position = { 4 -7 }
+		datacontext = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetGovernorOrRuler]"
+	}
+	
+	
+	flowcontainer = {
+		direction = horizontal
+		position = { 66 45 }
+		spacing = 4
+		
+		icon = {
+			name = "Loyalty"
+			size = { 76 32 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetGovernorOrRuler.GetLoyaltyToolTip]"
+			
+			icon = {
+				position = { 4 1 }
+				size = { 28 28 }
+				using = icon_loyalty
+			}
+			
+			textbox = {
+				name = "Charisma_value"
+				size = { 40 20 }
+				position = { 50 3 }
+				multiline = no
+				using = MarbleButtonFontM
+				text = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetGovernorOrRuler.GetLoyalty|/0]"
+				widgetanchor = top|hcenter
+				align = center
+			}
+		}
+
+		icon = {
+			name = "Corruption"
+			size = { 76 32 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetGovernorOrRuler.GetCorruptionToolTip]"
+			
+			icon = {
+				position = { 4 1 }
+				size = { 28 28 }
+				using = icon_corruption
+			}
+			
+			textbox = {
+				name = "Charisma_value"
+				size = { 40 20 }
+				position = { 50 3 }
+				multiline = no
+				using = MarbleButtonFontM
+				text = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetGovernorOrRuler.GetCorruption]"
+				widgetanchor = top|hcenter
+				align = center
+			}
+		}
+		
+		icon = {
+			name = "Population"
+			size = { 86 32 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetPopulationInfo]"
+			
+			icon = {
+				position = { 4 1 }
+				size = { 28 28 }
+				using = icon_population
+			}
+			
+			textbox = {
+				name = "Charisma_value"
+				size = { 54 20 }
+				position = { 55 3 }
+				multiline = no
+				using = MarbleButtonFontM
+				text = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.GetTotalPopulation]"
+				widgetanchor = top|hcenter
+				align = center
+			}
+		}
+	}
+}
+
+### State Capital Icon
+widget = {
+	name = "state_capital_widget"
+	widgetanchor = center
+	size = { 32 32 }
+	icon = {
+		position = { 0 0 }
+		visible = "[And(And( SimpleProvinceIcon.GetProvince.IsStateCapital, Not(IsMapMode('religion'))),Not(SimpleProvinceIcon.GetProvince.IsCapital))]"
+		size = { 32 32 }
+		using = icon_state_capital
+		tooltip = "SIMPLE_PROVINCE_ICON_STATE_CAPITAL_TOOLTIP"
+	}
+	icon = {
+		position = { 0 0 }
+		visible = "[And( SimpleProvinceIcon.GetProvince.IsCapital, Not(IsMapMode('religion')))]"
+		size = { 32 32 }
+		using = icon_country_capital
+		tooltip = "SIMPLE_PROVINCE_ICON_COUNTRY_CAPITAL_TOOLTIP"
+	}
+}
+
+### Duplicated GUI code, should be refactored to reuse unit_widget
+### ZOOMED OUT UNIT
+widget = {
+	name = "small_unit_widget"
+	position = { 5 8 }
+	widgetanchor = top|hcenter
+	
+	container = {
+		resizeparent = yes
+		
+		fixedgridbox = {
+			name = "unit_items_grid"
+			setitemsizefromcell = yes
+			addcolumn = 150
+			addrow = 28
+			visible = "[Not(IsMapMode('religion'))]"
+			item = {
+				widget = {
+					tooltip = "[UnitItem.GetTooltip]"
+					
+					
+					#short width
+					button = {
+						name = "unit_bg_short"
+						position = { 0 0 }
+						framesize = { 57 33 }
+						texture = "gfx/interface/mapitems/army_bg_short.dds"
+						parentanchor = top|hcenter
+						onclick = "[UnitItem.OnClick]"
+						frame = "[UnitItem.GetBackgroundFrame]"
+						
+						button_ignore = right
+					
+					}
+					
+					progressbar = {
+						name = "morale_bar_short"
+						using = progress_bar_unit_onmap
+						parentanchor = top|hcenter
+						position = { 0 25 }
+						size = { 43 3 }
+						value = "[UnitItem.GetAverageMoralePercent]"
+					}
+					
+					country_flag = {
+						name = "unit_flag"
+						parentanchor = top|hcenter
+						position = { -40 2 }
+						
+						blockoverride "flag"
+						{
+							texture = "[UnitItem.GetFlagTexture('(int32)32','(int32)32')]"
+							frame = "[UnitItem.GetFlagTextureFrame('(int32)32','(int32)32')]"
+							framesize = { 32 32 }
+						}
+						
+						blockoverride "size"
+						{
+							size = { 28 28 }
+						
+						}
+						
+						blockoverride "click"
+						{
+							onclick = "[UnitItem.OnClick]"
+						}
+						blockoverride "hover" {}
+					}
+					
+					#label short
+					textbox = {
+						name = "name_short"
+						position = { 0 3 }
+						size = { 90 20 }
+						multiline = no
+						using = WhiteFont
+						parentanchor = top|hcenter
+						align = top|hcenter
+						text = "[UnitItem.GetLabel]"
+					}
+					
+					#Selected graphics frame
+					icon = {
+						name = "unit_highlight_short"
+						position = { 0 -6 }
+						size = { 57 44 }
+						framesize = { 84 44 }
+						texture = "gfx/interface/mapitems/army_highlight_h.dds"
+						parentanchor = top|hcenter
+						visible = "[UnitItem.IsSelected]"
+						tintcolor = "[GetHighlightTint]"
+					}
+					
+					#status icon & general strength
+					widget = {
+						
+						icon = {
+							position = { 42 17 }
+							texture = "gfx/interface/mapitems/movement_lock.dds"
+							tooltip = "MOVEMENT_LOCKED"
+							size = { 24 22 }
+							visible = "[UnitItem.IsMovementLocked]"
+						}
+						
+						icon = {
+							position = { 25 15 }
+							using = icon_attrition
+							tooltip = "[UnitItem.GetAttritionTooltip]"
+							size = { 24 24 }
+							visible = "[UnitItem.IsLosingSoldiers]"
+						}
+						
+						icon = {
+							position = { 25 15 }
+							using = icon_food_deficiency
+							tooltip = "[UnitItem.GetAttritionTooltip]"
+							size = { 24 24 }
+							visible = "[UnitItem.IsLosingFood]"
+						}
+						icon = {
+							position = { 26 20 }
+							texture = "gfx/interface/icons/shared_icons/has_attrition_with_food_supply.dds"
+							tooltip = "[UnitItem.GetAttritionTooltip]"
+							size = { 20 20 }
+							visible = "[UnitItem.IsRegainingFood]"
+						}
+						
+						icon = {
+							position = { 85 -7 }
+							texture = "gfx/interface/icons/shared_icons/exiles.dds"
+							size = { 32 32 }
+							visible = "[UnitItem.IsExiled]"
+						}
+						
+						icon = {
+							position = { 85 -7 }
+							texture = "gfx/interface/icons/shared_icons/retreating.dds"
+							size = { 24 24 }
+							visible = "[UnitItem.IsRetreating]"
+						}
+						
+						icon = {
+							position = { 85 -7 }
+							texture = "gfx/interface/icons/shared_icons/siege.dds"
+							size = { 24 24 }
+							visible = "[UnitItem.IsSieging]"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+### UNIT
+widget = {
+	name = "unit_widget"
+	position = { 5 8 }
+	widgetanchor = top|hcenter
+	
+	flowcontainer = {
+		resizeparent = yes
+		direction = vertical
+		ignoreinvisible = yes
+		
+		container = {
+			parentanchor = top|hcenter
+			widgetanchor = top|hcenter
+			ignoreinvisible = yes
+			
+			entry_button = {
+				position = { -8 0 }
+				size = { 147 35 }
+				visible = "[UnitMapIcon.HasSiege]"
+				parentanchor = top|hcenter
+				widgetanchor = top|hcenter
+				onclick = "[OpenSiege(UnitMapIcon.GetSiege)]"
+				
+				container = {
+					position = { 10 7 }
+					icon = {
+						texture = "gfx/interface/icons/shared_icons/siege.dds"
+						size = { 24 24 }
+						position = { 0 -3 }
+						tooltip = "[UnitMapIcon.GetSiege.GetFallChanceTooltip]"
+					}
+					
+					container = {
+						position = { 24 0 }
+						container = {
+							visible = "[Not(UnitMapIcon.GetSiege.IsTooFewMen)]"
+							
+							icon = {
+								name = "progressbar_frame"
+								spriteType = Corneredtiled
+								spriteborder = { 5 4 }
+								size = { 102 20 }
+								texture = "gfx/interface/tiles/progressbar_green_frame.dds"
+							}
+							
+							progressbar = {
+								position = { 2 2 }
+								using = progressbar_green_horizontal
+								size = { 98 16 }
+								value = "[UnitMapIcon.GetSiege.GetSiegePhaseProgress]"
+								tooltip = "[UnitMapIcon.GetSiege.GetSiegePhaseProgressTooltip]"
+								
+								blockoverride "L_bar"
+								{
+									spriteType = Corneredtiled
+									spriteborder = { 0 2 }
+								}
+							}
+						}
+						
+						widget = {
+							size = { 96 16 }
+							
+							textbox = {
+								margin_left = 6
+								size = { 96 16 }
+								visible = "[Not(UnitMapIcon.GetSiege.IsTooFewMen)]"
+								using = MarbleButtonFontS
+								align = left|nobaseline
+								text = "[UnitMapIcon.GetSiege.GetFallChance|2%]"
+								autoresize = yes
+								tooltip = "[UnitMapIcon.GetSiege.GetFallChanceTooltip]"
+							}
+							textbox = {
+								margin_left = 6
+								size = { 96 16 }
+								visible = "[UnitMapIcon.GetSiege.IsTooFewMen]"
+								using = MarbleButtonFontS
+								align = left|nobaseline
+								text = "SIEGE_TOO_FEW_MEN_TXT"
+								autoresize = yes
+								tooltip = "SIEGE_TOO_FEW_MEN_TOOLTIP"
+							}
+						}
+					}
+				}
+			}
+		
+		}
+		
+		fixedgridbox = {
+			name = "unit_items_grid"
+			addcolumn = 230
+			addrow = 28
+			visible = "[Not(IsMapMode('religion'))]"
+			item = {
+				container = {
+					ignoreinvisible = yes
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					
+					flowcontainer = {
+						ignoreinvisible = yes
+						
+						#Stacked plates information
+						#This is really hacky and should probably be fixed
+						widget = {
+							size = { 28 33 }
+							visible = "[And(UnitItem.ShowTotalUnits, UnitItem.ShouldBeShownFullWidth)]"
+							tooltip = "STACK_OF_UNITS_TT"
+							
+							button = {
+								name = "total_units_bg"
+								framesize = { 83 33 }
+								frame = "[UnitItem.GetBackgroundFrame]"
+								texture = "gfx/interface/mapitems/army_bg_noprogressbar.dds"
+								onclick = "[UnitItem.OnClick]"
+								visible = "[UnitItem.IsClickable]"
+								
+								textbox = {
+									name = "total_units"
+									position = { 14 -2 }
+									size = { 32 33 }
+									align = left|nobaseline
+									multiline = no
+									using = WhiteFont
+									visible = "[UnitItem.ShowTotalUnits]"
+									text = "[UnitItem.GetTotalUnits]"
+								}
+							}
+							
+							icon = {
+								name = "total_units_bg_unclickable"
+								framesize = { 83 33 }
+								frame = "[UnitItem.GetBackgroundFrame]"
+								texture = "gfx/interface/mapitems/army_bg_noprogressbar.dds"
+								visible = "[Not(UnitItem.IsClickable)]"
+								
+								textbox = {
+									name = "total_units"
+									position = { 14 -2 }
+									size = { 32 33 }
+									align = left|nobaseline
+									multiline = no
+									using = WhiteFont
+									visible = "[UnitItem.ShowTotalUnits]"
+									text = "[UnitItem.GetTotalUnits]"
+								}
+							}
+						}
+						
+						container = {
+							#Full width button
+							button = {
+								name = "unit_bg"
+								framesize = { 83 33 }
+								texture = "gfx/interface/mapitems/army_bg.dds"
+								position = { 24 0 }
+								onclick = "[UnitItem.OnClick]"
+								frame = "[UnitItem.GetBackgroundFrame]"
+								visible = "[And(UnitItem.ShouldBeShownFullWidth, UnitItem.IsClickable)]"
+								button_ignore = right
+								tooltip = "[UnitItem.GetTooltip]"
+							}
+							
+							icon = {
+								name = "unit_bg_unclickable"
+								framesize = { 83 33 }
+								texture = "gfx/interface/mapitems/army_bg.dds"
+								position = { 24 0 }
+								frame = "[UnitItem.GetBackgroundFrame]"
+								visible = "[And(UnitItem.ShouldBeShownFullWidth, Not(UnitItem.IsClickable))]"
+								tooltip = "[UnitItem.GetTooltip]"
+							}
+							
+							#Full width selected graphics frame
+							icon = {
+								name = "unit_highlight"
+								position = { 23 -7 }
+								size = { 84 44 }
+								framesize = { 84 44 }
+								texture = "gfx/interface/mapitems/army_highlight_h.dds"
+								visible = "[And(UnitItem.IsSelected, UnitItem.ShouldBeShownFullWidth)]"
+								tintcolor = "[GetHighlightTint]"
+							}
+							
+							#Short button
+							button = {
+								name = "unit_bg_short"
+								framesize = { 57 33 }
+								texture = "gfx/interface/mapitems/army_bg_short.dds"
+								parentanchor = top|hcenter
+								onclick = "[UnitItem.OnClick]"
+								frame = "[UnitItem.GetBackgroundFrame]"
+								visible = "[UnitItem.ShouldBeShownShortWidth]"
+								button_ignore = right
+								tooltip = "[UnitItem.GetTooltip]"
+							}
+							
+							icon = {
+								name = "unit_bg_short_unclickable"
+								framesize = { 57 33 }
+								texture = "gfx/interface/mapitems/army_bg_short.dds"
+								parentanchor = top|hcenter
+								frame = "[UnitItem.GetBackgroundFrame]"
+								tooltip = "[UnitItem.GetTooltip]"
+								visible = "[And(UnitItem.ShouldBeShownShortWidth, Not(UnitItem.IsClickable))]"
+							}
+							
+							
+							#Short button highlight
+							icon = {
+								name = "unit_highlight_short"
+								position = { 0 -6 }
+								size = { 57 44 }
+								framesize = { 84 44 }
+								texture = "gfx/interface/mapitems/army_highlight_h.dds"
+								parentanchor = top|hcenter
+								visible = "[And(UnitItem.IsSelected, UnitItem.ShouldBeShownShortWidth)]"
+								tintcolor = "[GetHighlightTint]"
+							}
+							
+							#Full width progressbar
+							progressbar = {
+								using = progress_bar_unit_onmap
+								position = { 31 25 }
+								size = { 70 3 }
+								value = "[UnitItem.GetAverageMoralePercent]"
+								visible = "[UnitItem.ShouldBeShownFullWidth]"
+								tooltip = "[UnitItem.GetUnit.GetMoraleTooltip]"
+							}
+							
+							#Short progressbar
+							progressbar = {
+								name = "morale_bar_short"
+								using = progress_bar_unit_onmap
+								parentanchor = top|hcenter
+								position = { 0 25 }
+								size = { 43 3 }
+								value = "[UnitItem.GetAverageMoralePercent]"
+								visible = "[UnitItem.ShouldBeShownShortWidth]"
+								tooltip = "[UnitItem.GetUnit.GetMoraleTooltip]"
+							}
+							
+							#label full
+							textbox = {
+								name = "name"
+								position = { 28 3 }
+								size = { 75 20 }
+								using = WhiteFont
+								parentanchor = left|top
+								align = top|hcenter
+								visible = "[UnitItem.ShouldBeShownFullWidth]"
+								text = "[UnitItem.GetLabel]"
+							}
+							
+							#label short
+							textbox = {
+								name = "name_short"
+								position = { 0 3 }
+								size = { 45 20 }
+								multiline = no
+								using = WhiteFont
+								parentanchor = top|hcenter
+								align = top|hcenter
+								visible = "[UnitItem.ShouldBeShownShortWidth]"
+								text = "[UnitItem.GetLabel]"
+							}
+							
+							#Clickable Flag
+							container = {
+								visible = "[Not(UnitItem.GetUnit.IsUnemployedMercenary)]"
+								country_flag = {
+									datacontext = "[UnitItem.GetUnit.GetCountry]"
+									tooltip = "COUNTRY_FLAG_TT"
+									
+									name = "unit_flag"
+									
+									blockoverride "flag"
+									{
+										texture = "[UnitItem.GetFlagTexture('(int32)32','(int32)32')]"
+										frame = "[UnitItem.GetFlagTextureFrame('(int32)32','(int32)32')]"
+										framesize = { 32 32 }
+									}
+									
+									blockoverride "size"
+									{
+										size = { 32 32 }
+									}
+									
+									blockoverride "click"
+									{
+										onclick = "[UnitItem.OnFlagClick]"
+									}
+									
+									blockoverride "hover" {}
+								}
+							}
+							
+							#Mercenary flag
+							container = {
+								visible = "[UnitItem.GetUnit.IsMercenary]"
+								country_flag = {
+									name = "unit_flag"
+									visible = "[UnitItem.ShouldBeShownFullWidth]"
+									tooltip = "MERC_FLAG_TT"
+									
+									blockoverride "flag"
+									{
+										texture = "[UnitItem.GetFlagTexture('(int32)32','(int32)32')]"
+										frame = "[UnitItem.GetFlagTextureFrame('(int32)32','(int32)32')]"
+										framesize = { 32 32 }
+									}
+									
+									blockoverride "size"
+									{
+										size = { 32 32 }
+									}
+									
+									blockoverride "click"
+									{
+										onclick = "[UnitItem.OnClick]"
+									}
+									blockoverride "hover" {}
+								}
+							}
+							
+							#Full size status icon & general strength
+							container = {
+								visible = "[UnitItem.ShouldBeShownFullWidth]"
+								ignoreinvisible = yes
+								position = { -7 0 }
+								
+								# Has General
+								button = {
+									position = { 105 0 }
+									name = "ranking"
+									framesize = { 60 32 }
+									frame = "[UnitItem.GetLeaderFrame]"
+									texture = "gfx/interface/map/ranking.dds"
+									visible = "[GreaterThan_int32(UnitItem.GetLeaderFrame,'(int32)1')]"
+									onclick = "[UnitItem.OnLeaderClick]"
+									tooltip = "GENERAL_TT"
+								}
+								
+								# No General
+								button = {
+									position = { 105 0 }
+									framesize = { 60 32 }
+									frame = 2
+									texture = "gfx/interface/map/ranking.dds"
+									visible = "[Not(GreaterThan_int32(UnitItem.GetLeaderFrame,'(int32)1'))]"
+									onclick = "[UnitItem.OnClick]"
+									tooltip = "NO_LEADER_TT"
+								}
+								
+								icon = {
+									position = { 0 15 }
+									texture = "gfx/interface/mapitems/movement_lock.dds"
+									tooltip = "MOVEMENT_LOCKED"
+									size = { 24 22 }
+									visible = "[UnitItem.IsMovementLocked]"
+								}
+								
+								icon = {
+									position = { 25 15 }
+									using = icon_attrition
+									tooltip = "[UnitItem.GetAttritionTooltip]"
+									size = { 24 24 }
+									visible = "[UnitItem.IsLosingSoldiers]"
+								}
+								
+								icon = {
+									position = { 25 15 }
+									using = icon_food_deficiency
+									tooltip = "[UnitItem.GetAttritionTooltip]"
+									size = { 24 24 }
+									visible = "[UnitItem.IsLosingFood]"
+								}
+								
+								icon = {
+									position = { 27 18§ }
+									texture = "gfx/interface/icons/shared_icons/has_attrition_with_food_supply.dds"
+									tooltip = "[UnitItem.GetAttritionTooltip]"
+									size = { 20 20 }
+									visible = "[UnitItem.IsRegainingFood]"
+								}
+								
+								icon = {
+									position = { 100 14 }
+									texture = "[UnitItem.GetActiveAbilityIcon]"
+									size = { 24 24 }
+									visible = "[UnitItem.ShowActiveAbility]"
+									tooltip = "[UnitItem.GetActiveAbilityTooltip]"
+								}
+								
+								icon = {
+									position = { 100 -7 }
+									texture = "gfx/interface/icons/shared_icons/exiles.dds"
+									size = { 32 32 }
+									visible = "[UnitItem.IsExiled]"
+									tooltip = "IS_EXILED_TT"
+								}
+								
+								icon = {
+									position = { 100 -7 }
+									texture = "gfx/interface/icons/shared_icons/retreating.dds"
+									size = { 24 24 }
+									visible = "[UnitItem.IsRetreating]"
+									tooltip = "UNIT_IS_RETREAT_TT"
+								}
+							
+							#icon = {
+							#	position = { 100 -7 }
+							#	texture = "gfx/interface/icons/shared_icons/siege.dds"
+							#	size = { 24 24 }
+							#	visible = "[UnitItem.IsSieging]"
+							#}
+							}
+							
+							#Short status icon & general strength
+							container = {
+								visible = "[UnitItem.ShouldBeShownShortWidth]"
+								ignoreinvisible = yes
+								parentanchor = top|hcenter
+								widgetanchor = top|hcenter
+								position = { -17 0 }
+								
+								icon = {
+									position = { 42 15 }
+									texture = "gfx/interface/mapitems/movement_lock.dds"
+									tooltip = "MOVEMENT_LOCKED"
+									size = { 24 22 }
+									visible = "[UnitItem.IsMovementLocked]"
+								}
+								
+								icon = {
+									position = { 25 19 }
+									using = icon_attrition
+									tooltip = "[UnitItem.GetAttritionTooltip]"
+									size = { 20 20 }
+									visible = "[UnitItem.IsLosingSoldiers]"
+								}
+								
+								icon = {
+									position = { 25 19 }
+									using = icon_food_deficiency
+									tooltip = "[UnitItem.GetAttritionTooltip]"
+									size = { 20 20 }
+									visible = "[UnitItem.IsLosingFood]"
+								}
+								icon = {
+									position = { 25 19 }
+									texture = "gfx/interface/icons/shared_icons/has_attrition_with_food_supply.dds"
+									tooltip = "[UnitItem.GetAttritionTooltip]"
+									size = { 20 20 }
+									visible = "[UnitItem.IsRegainingFood]"
+								}
+								
+								icon = {
+									position = { 85 -7 }
+									texture = "gfx/interface/icons/shared_icons/exiles.dds"
+									size = { 32 32 }
+									visible = "[UnitItem.IsExiled]"
+									tooltip = "IS_EXILED_TT"
+								}
+								
+								icon = {
+									position = { 85 -7 }
+									texture = "gfx/interface/icons/shared_icons/retreating.dds"
+									size = { 24 24 }
+									visible = "[UnitItem.IsRetreating]"
+									tooltip = "UNIT_IS_RETREAT_TT"
+								}
+								
+								icon = {
+									position = { 85 -7 }
+									texture = "gfx/interface/icons/shared_icons/siege.dds"
+									size = { 24 24 }
+									visible = "[UnitItem.IsSieging]"
+								}
+							}
+						}
+						
+						#horrible hack to get the unit plates to look balanced
+						widget = {
+							size = { 28 33 }
+							visible = "[And(UnitItem.ShowTotalUnits, UnitItem.ShouldBeShownFullWidth)]"
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+### Area Icon
+widget = {
+	name = "area_widget"
+	position = { 0 -56 }
+	widgetanchor = center
+	size = { 192 124 }
+	
+	icon = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+		
+		blockoverride "header_size"
+		{
+			size = { 100% 42 }
+			spriteborder = { 16 12 }
+		}
+		
+		blockoverride "header"
+		{
+			text = "[SimpleProvinceIcon.GetProvince.GetState.GetShortName]"
+			size = { 144 22 }
+			max_width = 144
+			elide = right
+			position = { 0 6 }
+		}
+	}
+
+	container = {
+		position = { 13 42 }
+
+		icon = {
+			name = "Loyalty"
+			size = { 86 32 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetLoyaltyTooltip]"
+			
+			icon = {
+				position = { 4 1 }
+				size = { 28 28 }
+				using = icon_loyalty
+			}
+			
+			textbox = {
+				size = { 40 20 }
+				position = { 42 3 }
+				multiline = no
+				using = MarbleButtonFontM
+				text = "[SimpleProvinceIcon.GetProvince.GetState.GetStateLoyalty|/0]"
+				widgetanchor = top|hcenter
+				align = center
+			}
+			
+			icon = {
+				texture = "gfx/interface/arrows_strip.dds"
+				position = { 59 2 }
+				framesize = { 50 50 }
+				size = { 28 28 }
+				frame = "[SimpleProvinceIcon.GetProvince.GetState.GetMonthlyLoyaltyFrame]"
+				visible = "[Not(SimpleProvinceIcon.GetProvince.GetState.IsCapitalState)]"
+			}
+		}
+
+		icon = {
+			name = "Population"
+			position = { 0 38 }
+			size = { 86 32 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetPopulationInfo('total')]"
+			
+			icon = {
+				position = { 4 1 }
+				size = { 28 28 }
+				using = icon_population
+			}
+			
+			textbox = {
+				size = { 54 20 }
+				position = { 55 3 }
+				multiline = no
+				using = MarbleButtonFontM
+				text = "[SimpleProvinceIcon.GetProvince.GetState.GetTotalPopulation]"
+				widgetanchor = top|hcenter
+				align = center
+			}
+		}
+
+		button = {
+			name = "Policy"
+			position = { 90 13 }
+			texture = "gfx/interface/buttons/button_square_42.dds"
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorPoliciesTooltip]"
+			onclick = "[ChangePolicy(SimpleProvinceIcon.GetProvince.GetState)]"
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			
+			icon = {
+				position = { 0 -1 }
+				parentanchor = center
+				widgetanchor = center
+				size = { 42 42 }
+				tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorPoliciesTooltip]"
+				texture = "[GetGovernorPolicyIcon(SimpleProvinceIcon.GetProvince.GetState.GetGovernorPolicy)]"
+			}
+
+		}	
+
+		container = {
+			position = { 134 -1 }
+			icon = {
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteborder = { 12 12 }
+					spriteType = Corneredtiled
+					size = { 30 72 }
+					position = { 2 0 }
+			}
+			icon = { 
+				name = "food_bar_frame"
+				position = { 11 4 }
+				spriteborder = { 2 5 }
+				size = { 11 45 }
+				texture = "gfx/interface/tiles/morale_progress_bar_frame.dds"
+				spriteType = Corneredtiled
+				
+				progressbar = {
+					name = "foodbar"
+					position = { 3 1 }
+					size = { 7 43 }
+					visible = "[GreaterThanOrEqualTo_CFixedPoint(SimpleProvinceIcon.GetProvince.GetState.GetMonthlyFood, '(CFixedPoint)0')]"
+					using = progressbar_green_vertical
+					value = "[FixedPointToFloat(SimpleProvinceIcon.GetProvince.GetState.GetFoodCapacityPercent)]"
+				}
+				progressbar = {
+					name = "foodbar_negative"
+					position = { 3 1 }
+					size = { 7 43 }
+					visible = "[LessThan_CFixedPoint(SimpleProvinceIcon.GetProvince.GetState.GetMonthlyFood, '(CFixedPoint)0')]"
+					using = progressbar_red_vertical
+					value = "[FixedPointToFloat(SimpleProvinceIcon.GetProvince.GetState.GetFoodCapacityPercent)]"
+				}
+			}
+			
+			icon = {
+				position = { 5 46 }
+				size = { 24 24 }
+				texture = "gfx/interface/icons/shared_icons/food_capacity.dds"
+			} 
+			
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetFoodTooltip][SimpleProvinceIcon.GetProvince.GetState.GetFoodModifierEffect]"
+		}
+		
+	}
+}
+
+### Loyalty widget
+widget = {
+	name = "loyalty_widget"
+	position = { 0 -56 }
+	widgetanchor = center
+	size = { 162 140 }
+	
+	icon = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+		
+		blockoverride "header_size"
+		{
+			size = { 100% 42 }
+			spriteborder = { 16 12 }
+		}
+		
+		blockoverride "header"
+		{
+			text = "[SimpleProvinceIcon.GetProvince.GetState.GetShortName]"
+			size = { 144 22 }
+			max_width = 144
+			elide = right
+			position = { 0 6 }
+		}
+	}
+	
+	flowcontainer = {
+		direction = vertical
+		position = { 14 40 }
+		spacing = 4
+		
+		widget = {
+			size = { 80 48 }
+			
+			portrait_button = {
+				using = portrait_40_no_pop
+				position = { 3 0 }
+				scale = 0.8
+				datacontext = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorOrRuler]"
+			}
+			
+			icon = {
+				name = "governor_loyalty"
+				position = { 40 8 }
+				size = { 92 32 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorOrRuler.GetLoyaltyToolTip]"
+				
+				icon = {
+					position = { 4 1 }
+					size = { 28 28 }
+					using = icon_loyalty
+				}
+				
+				textbox = {
+					size = { 40 20 }
+					position = { 42 3 }
+					multiline = no
+					using = MarbleButtonFontM
+					text = "[SimpleProvinceIcon.GetProvince.GetState.GetGovernorOrRuler.GetLoyalty|/0]"
+					widgetanchor = top|hcenter
+					align = center
+				}
+				
+			}
+		}
+
+		flowcontainer = {
+			spacing = 4
+
+
+			icon = {
+				name = "province"
+				size = { 36 36 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetPopulationInfo('total')]"
+				
+				icon = {
+					widgetanchor = center
+					parentanchor = center
+					size = { 32 32  }
+					using = icon_population
+				}
+			}
+			
+			icon = {
+				name = "province_loyalty"
+				parentanchor = vcenter
+				size = { 92 32 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 28 20 }
+				tooltip = "[SimpleProvinceIcon.GetProvince.GetState.GetLoyaltyTooltip]"
+				
+				icon = {
+					position = { 4 1 }
+					size = { 28 28 }
+					using = icon_loyalty
+				}
+				
+				textbox = {
+					size = { 40 20 }
+					position = { 42 3 }
+					multiline = no
+					using = MarbleButtonFontM
+					text = "[SimpleProvinceIcon.GetProvince.GetState.GetStateLoyalty|/0]"
+					widgetanchor = top|hcenter
+					align = center
+				}
+				
+				icon = {
+					texture = "gfx/interface/arrows_strip.dds"
+					position = { 59 2 }
+					framesize = { 50 50 }
+					size = { 28 28 }
+					frame = "[SimpleProvinceIcon.GetProvince.GetState.GetMonthlyLoyaltyFrame]"
+					visible = "[Not(SimpleProvinceIcon.GetProvince.GetState.GetGovernorship.IsCapitalRegion)]"
+				}
+			}
+		}
+	}
+}
+
+
+
+### Population widget
+widget = {
+	name = "population_widget"
+	position = { 0 -56 }
+	widgetanchor = center
+	size = { 190 138 }
+	
+	icon = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+		
+		blockoverride "header_size"
+		{
+			size = { 100% 42 }
+			spriteborder = { 16 12 }
+		}
+		
+		blockoverride "header"
+		{
+			text = "[SimpleProvinceIcon.GetProvince.GetName]"
+			size = { 144 22 }
+			max_width = 144
+			elide = right
+			position = { 0 6 }
+		}
+	}
+	
+	flowcontainer = {
+		direction = vertical
+		position = { 8 44 }
+		
+		container = {
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetPopulationTooltip('citizen')]"
+			alpha = "[TransparentIfZero_int32(SimpleProvinceIcon.GetProvince.GetPopulation('citizen'))]"
+
+			icon = {
+				position = { 48 0 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 12 12 }
+				size = { 34 34 }
+			
+				textbox = {
+					position = { 0 2 }
+					autoresize = yes
+					using = MarbleButtonFont
+					text = "[SimpleProvinceIcon.GetProvince.GetPopulation('citizen')]"
+					widgetanchor = top|hcenter
+					parentanchor = top|hcenter
+				}
+			}
+
+			icon = {
+				framesize = { 50 50 }
+				position = { 24 14 }
+				size = { 24 24 }
+				visible = "[SimpleProvinceIcon.GetProvince.HasPopulation('citizen')]"
+				texture = "gfx/interface/icons/shared_icons/pop_happy.dds"
+				frame = "[SimpleProvinceIcon.GetProvince.GetPopHappyFrame('citizen')]"
+				tooltip = "[SimpleProvinceIcon.GetProvince.GetPopHappyInformation('citizen')]"
+			}
+
+		
+			icon = {
+				position = { -2 0 }
+				using = icon_pop_citizens
+				size = { 36 36 }
+			}
+			
+			icon = {
+				visible = "[SimpleProvinceIcon.GetProvince.IsPopGrowing('citizen')]"
+				#tooltip = "[SimpleProvinceIcon.GetProvince.GetGrowthInformation]"
+				using = icon_plus
+				position = { -2 0 }
+			}
+			
+			icon = {
+				visible = "[SimpleProvinceIcon.GetProvince.IsPopDeclining('citizen')]"
+				using = icon_minus
+				position = { -2 0 }
+			}
+		}
+		
+		container = {
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetPopulationTooltip('freemen')]"
+			alpha = "[TransparentIfZero_int32(SimpleProvinceIcon.GetProvince.GetPopulation('freemen'))]"
+
+			icon = {
+				position = { 48 0 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 12 12 }
+				size = { 34 34 }
+			
+				textbox = {
+					position = { 0 2 }
+					autoresize = yes
+					using = MarbleButtonFont
+					text = "[SimpleProvinceIcon.GetProvince.GetPopulation('freemen')]"
+					widgetanchor = top|hcenter
+					parentanchor = top|hcenter
+				}
+			}
+
+			icon = {
+				position = { -2 0 }
+				using = icon_pop_freemen
+				size = { 36 36 }
+			}
+			
+			icon = {
+				framesize = { 50 50 }
+				position = { 24 14 }
+				size = { 24 24 }
+				visible = "[SimpleProvinceIcon.GetProvince.HasPopulation('freemen')]"
+				texture = "gfx/interface/icons/shared_icons/pop_happy.dds"
+				frame = "[SimpleProvinceIcon.GetProvince.GetPopHappyFrame('freemen')]"
+				tooltip = "[SimpleProvinceIcon.GetProvince.GetPopHappyInformation('freemen')]"
+			}
+
+			icon = {
+				visible = "[SimpleProvinceIcon.GetProvince.IsPopGrowing('freemen')]"
+				using = icon_plus
+				position = { -2 0 }
+			}
+			
+			icon = {
+				visible = "[SimpleProvinceIcon.GetProvince.IsPopDeclining('freemen')]"
+				using = icon_minus
+				position = { -2 0 }
+			}
+		}
+	}
+	
+	flowcontainer = {
+		direction = vertical
+		position = { 94 44 }
+		
+		container = {
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetPopulationTooltip('tribesmen')]"
+			alpha = "[TransparentIfZero_int32(SimpleProvinceIcon.GetProvince.GetPopulation('tribesmen'))]"
+
+			icon = {
+				position = { 48 0 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 12 12 }
+				size = { 34 34 }
+			
+				textbox = {
+					position = { 0 2 }
+					autoresize = yes
+					using = MarbleButtonFont
+					text = "[SimpleProvinceIcon.GetProvince.GetPopulation('tribesmen')]"
+					widgetanchor = top|hcenter
+					parentanchor = top|hcenter
+				}
+			}
+			
+			icon = {
+				position = { -2 0 }
+				using = icon_pop_tribal
+				size = { 36 36 }
+			}
+
+			icon = {
+				framesize = { 50 50 }
+				position = { 24 14 }
+				size = { 24 24 }
+				visible = "[SimpleProvinceIcon.GetProvince.HasPopulation('tribesmen')]"
+				texture = "gfx/interface/icons/shared_icons/pop_happy.dds"
+				frame = "[SimpleProvinceIcon.GetProvince.GetPopHappyFrame('tribesmen')]"
+				tooltip = "[SimpleProvinceIcon.GetProvince.GetPopHappyInformation('tribesmen')]"
+			}
+
+			icon = {
+				visible = "[SimpleProvinceIcon.GetProvince.IsPopGrowing('tribesmen')]"
+				using = icon_plus
+				position = { -2 0 }
+			}
+			
+			icon = {
+				visible = "[SimpleProvinceIcon.GetProvince.IsPopDeclining('tribesmen')]"
+				using = icon_minus
+				position = { -2 0 }
+			}
+		}
+		
+		container = {
+			alpha = "[TransparentIfZero_int32(SimpleProvinceIcon.GetProvince.GetPopulation('slaves'))]"
+			tooltip = "[SimpleProvinceIcon.GetProvince.GetPopulationTooltip('slaves')]"
+
+			icon = {
+				position = { 48 0 }
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 12 12 }
+				size = { 34 34 }
+			
+				textbox = {
+					position = { 0 2 }
+					autoresize = yes
+					using = MarbleButtonFont
+					text = "[SimpleProvinceIcon.GetProvince.GetPopulation('slaves')]"
+					widgetanchor = top|hcenter
+					parentanchor = top|hcenter
+				}
+			}
+
+			icon = {
+				position = { -2 0 }
+				using = icon_pop_slaves
+				size = { 36 36 }
+			}
+			
+			icon = {
+				framesize = { 50 50 }
+				position = { 24 14 }
+				size = { 24 24 }
+				visible = "[SimpleProvinceIcon.GetProvince.HasPopulation('slaves')]"
+				texture = "gfx/interface/icons/shared_icons/pop_happy.dds"
+				frame = "[SimpleProvinceIcon.GetProvince.GetPopHappyFrame('slaves')]"
+				tooltip = "[SimpleProvinceIcon.GetProvince.GetPopHappyInformation('slaves')]"
+			}
+			
+			icon = {
+				visible = "[SimpleProvinceIcon.GetProvince.IsPopGrowing('slaves')]"
+				#tooltip = "[SimpleProvinceIcon.GetProvince.GetGrowthInformation]"
+				using = icon_plus
+				position = { -2 0 }
+			}
+			
+			icon = {
+				visible = "[SimpleProvinceIcon.GetProvince.IsPopDeclining('slaves')]"
+				#tooltip = "[SimpleProvinceIcon.GetProvince.GetGrowthInformation]"
+				using = icon_minus
+				position = { -2 0 }
+			}
+		}
+	}
+}
+
+
+### Piracy Haven Icon
+widget = {
+	name = "piracy_haven_widget"
+	position = { 0 0 }
+	size = { 30 30 }
+	widgetanchor = center
+	
+	tooltip = "PIRATE_HAVEN_MAP_TT"
+	
+	icon = {
+		texture = "gfx/interface/icons/modifiers/pirate_haven.dds"
+		size = { 30 30 }
+		position = { 0 0 }
+	}
+}
+
+### HOLY_SITE
+widget = {
+	name = "holy_site_widget"
+	widgetanchor = center
+	entry_button = {
+		resizeparent = yes
+		onclick = "[OpenGameView('religion')]"
+		flowcontainer = {
+			resizeparent = yes  
+			margin_top = 6
+			margin_bottom = 7
+			margin_left = 10
+			margin_right = 10
+			icon = {
+				texture = "[GetHolySiteRankIcon( SimpleProvinceIcon.GetProvince.GetRank )]"
+				size = { 30 30 }
+				framesize = { 50 50 }
+			}		
+			textbox = {
+				multiline = no
+				using = MarbleButtonFont
+				autoresize = yes
+				parentanchor = left
+				text = "[SimpleProvinceIcon.GetProvince.GetName]"
+				
+				margin_left = 10 
+				margin_right = 10
+			}
+			flowcontainer = {
+				datacontext = "[SimpleProvinceIcon.GetProvince.GetTreasureSlots]"
+				ignoreinvisible = yes
+				
+				icon = {
+					visible = "[ProvinceTreasures.HasValidTreasureAt( '(int32)0')]"
+					texture = "[GetTreasureIcon( ProvinceTreasures.GetTreasureAt( '(int32)0').Self )]"
+					size = { 26 26 }
+					tooltip = "[ProvinceTreasures.GetTreasureAt( '(int32)0').GetName|T] [ProvinceTreasures.GetTreasureAt( '(int32)0').GetStateEffectIconCondensed]"
+				}
+				
+				icon = {
+					visible = "[ProvinceTreasures.HasValidTreasureAt( '(int32)1')]"
+					texture = "[GetTreasureIcon( ProvinceTreasures.GetTreasureAt( '(int32)1').Self )]"
+					size = { 26 26 }
+					tooltip = "[ProvinceTreasures.GetTreasureAt( '(int32)1').GetName|T] [ProvinceTreasures.GetTreasureAt( '(int32)1').GetStateEffectIconCondensed]"
+				}
+				
+				icon = {
+					visible = "[ProvinceTreasures.HasValidTreasureAt( '(int32)2')]"
+					texture = "[GetTreasureIcon( ProvinceTreasures.GetTreasureAt( '(int32)2').Self )]"
+					size = { 26 26 }
+					tooltip = "[ProvinceTreasures.GetTreasureAt( '(int32)2').GetName|T] [ProvinceTreasures.GetTreasureAt( '(int32)2').GetStateEffectIconCondensed]"
+				}
+				
+			}
+			datacontext = "[SimpleProvinceIcon.GetProvince]"
+			tooltip = "HOLY_SITE_TOOLTIP_MM" 
+		}
+		
+	}
+}

@@ -1,0 +1,281 @@
+window = {
+	name = "achievements_window"
+	parentanchor = vcenter|hcenter
+	using = small_window_type
+	size = { 700 80% }
+	
+	icon = {
+		texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+		spriteType = Corneredtiled
+		position = { 0 0 }
+		size = { 100% 51 }
+		spriteborder = { 16 0 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+	}
+	
+	textbox = {
+		text = "ACHIEVEMENTS"
+		size = { 100% 24 }
+		using = MarbleButtonFont
+		position = { 0 13 }
+		fontsize = 24
+		align = center
+	}
+	
+	button = {
+		name = "close"
+		parentanchor = top|right
+		onclick = "[AchievementWindow.Hide]"
+		shortcut = "close_window"
+		size = { 40 40 }
+		position = { -1 6 }
+		texture = "gfx/interface/buttons/button_square_close.dds"
+	}
+	
+	widget = {
+		position = { 14 48 }
+		size = { 672 36 }
+		
+		checkbutton = {
+			texture = "gfx/interface/buttons/checkbox.dds"
+			framesize = { 36 36 }
+			checked = "[AchievementWindow.ShouldShowNotPossible]"
+			onclick = "[AchievementWindow.ToggleFilterNotPossible]"
+			using = MarbleButtonFontS
+		}
+
+		icon = {
+			name = "frame"
+			position = { 38 2 }
+			texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 8 8 }
+			size = { 634 32 }
+		}
+		
+		textbox = {
+			position = { 42 3 }			
+			size = { 566 26 }
+			margin_left = 6
+			text = "SHOW_ALL_ACHIEVEMENTS"
+			using = MarbleButtonFontS		
+		}
+	}
+	
+	widget = {
+		position = { 356 84 }
+		size = { 330 36 }
+		
+		checkbutton = {
+			texture = "gfx/interface/buttons/checkbox.dds"
+			framesize = { 36 36 }
+			checked = "[AchievementWindow.ShouldShowLocked]"
+			onclick = "[AchievementWindow.ToggleFilterLocked]"
+			using = MarbleButtonFontS
+		}
+		
+		icon = {
+			name = "frame"
+			position = { 38 2 }
+			texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 8 8 }
+			size = { 292 32 }
+		}
+		
+		textbox = {
+			position = { 42 3 }			
+			size = { 224 26 }
+			margin_left = 6
+			text = "ACHIEVEMENT_FILTER_LOCKED"
+			using = MarbleButtonFontS	
+		}
+	}
+	
+	widget = {
+		position = { 14 84 }
+		size = { 330 36 }
+		
+		checkbutton = {
+			texture = "gfx/interface/buttons/checkbox.dds"
+			#size = { 200 26 }
+			framesize = { 36 36 }
+			checked = "[AchievementWindow.ShouldShowUnlocked]"
+			onclick = "[AchievementWindow.ToggleFilterUnlocked]"
+			using = MarbleButtonFontS
+		}
+		
+		icon = {
+			name = "frame"
+			position = { 38 2 }
+			texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 8 8 }
+			size = { 292 32 }
+		}		
+		
+		textbox = {
+			position = { 42 3 }			
+			size = { 224 26 }
+			margin_left = 6
+			text = "ACHIEVEMENT_FILTER_UNLOCKED"
+			using = MarbleButtonFontS	
+		}
+	}
+	
+	icon = {
+		name = "background"
+		position = { 14 123 }
+		size = { 672 84% }
+		texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 10 10 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		alwaystransparent = yes
+	}
+	
+	scrollarea = {
+		position = { 18 124 }
+		size = { 664 83.5% }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+			blockoverride "ScrollBar_offset"
+			{
+				size = { 0 4 }
+			}
+		}
+		
+		scrollwidget = {
+			
+			dynamicgridbox = {
+				datamodel = "[AchievementWindow.AccessGroups]"
+				
+				item = {
+					flowcontainer = {
+						direction = vertical
+						ignoreinvisible = yes
+						
+						flowcontainer = {
+							ignoreinvisible = yes
+							
+							button_category_white_marble_b_s = {
+								size = { 652 38 }
+								onclick = "[Group.ToggleCollapsed]"
+								clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+								tooltip = "ACHIEVEMENT_GROUP_TOOLTIP"
+								visible = "[Group.IsCollapsed]"
+								
+								buttonText = {
+									textbox = {
+										parentanchor = bottom|hcenter
+										using = MarbleButtonFontS
+										text = "ACHIEVEMENT_GROUP_TITLE"
+										autoresize = yes
+										position = { 0 -12 }
+									}
+								}
+							}
+							
+							button_category_white_marble_a_s = {
+								size = { 652 38 }
+								onclick = "[Group.ToggleCollapsed]"
+								clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_sub_tab"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+								tooltip = "ACHIEVEMENT_GROUP_TOOLTIP"
+								visible = "[Not(Group.IsCollapsed)]"
+								
+								buttonText = {
+									textbox = {
+										parentanchor = bottom|hcenter
+										using = MarbleButtonFontS
+										text = "ACHIEVEMENT_GROUP_TITLE"
+										autoresize = yes
+										position = { 0 -12 }
+									}
+								}
+							}
+						}
+						
+						dynamicgridbox = {
+							datamodel = "[Group.AccessVisibleAchievements]"
+							visible = "[Not(Group.IsCollapsed)]"
+							
+							item = {
+								widget = {
+									size = { 652 92 }
+									
+									container = {
+										position = { 0 8 }
+										
+										icon = {
+											name = "shadow"
+											texture = "gfx/interface/achievement/achievement_shadow.dds"
+										}
+										
+										icon = {
+											texture = "[GUIAchievement.AccessTexture]"
+											position = { 5 4 }
+											size = { 64 64 }
+											tooltip = "ACHIEVEMENT_UNLOCKED"
+											visible = "[GUIAchievement.GetAchievement.IsUnlocked]"
+										}
+										
+										icon = {
+											texture = "[GUIAchievement.AccessLockedTexture]"
+											position = { 5 4 }
+											size = { 64 64 }
+											tooltip = "ACHIEVEMENT_LOCKED"
+											visible = "[Not(GUIAchievement.GetAchievement.IsUnlocked)]"
+										}
+									}
+									
+									icon = {
+										name = "frame"
+										position = { 74 2 }
+										texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+										spriteType = Corneredtiled
+										spriteborder = { 8 8 }
+										size = { 576 88 }
+									}
+									
+									icon = {
+										texture = "gfx/interface/achievement/achievement_locked.dds"
+										position = { 0 9 }
+										tooltip = "ACHIEVEMENT_NOT_POSSIBLE"
+										visible = "[Not(GUIAchievement.IsPossible)]"
+									}
+									
+									textbox = {
+										position = { 82 2 }
+										name = "achievement_name"
+										text = "[GUIAchievement.GetName]"
+										tooltip = "[GUIAchievement.GetHappenedDescription]"
+										autoresize = no
+										using = MarbleButtonFont
+										size = { 540 20 }
+									}
+									
+									
+									textbox = {
+										position = { 82 52 }
+										size = { 560 64 }
+										tooltip = "[GUIAchievement.GetHappenedDescription]"
+										text = "[GUIAchievement.GetDescription]"
+										multiline = yes
+										using = MarbleButtonFontS
+										elide = right
+										align = left
+										widgetanchor = vcenter|left
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,151 @@
+NodeEditorMeta={
+	View={
+		Position={ -746.052734 -110.304108 }
+		Zoom=1.000000
+	}
+	Nodes={
+		0={
+			Position={ 657.641724 0.000000 }
+		}
+		40={
+			Position={ 1283.074219 104.860168 }
+		}
+		32={
+			Position={ 995.074463 70.489777 }
+		}
+		3={
+			Position={ 56.860191 159.588501 }
+		}
+		5={
+			Position={ 663.641724 111.000000 }
+		}
+		6={
+			Position={ 1004.555664 1392.341431 }
+		}
+		37={
+			Position={ -0.000008 509.674866 }
+		}
+		46={
+			Position={ 970.975098 188.000000 }
+		}
+		18={
+			Position={ 1642.185059 208.230621 }
+		}
+		4={
+			Position={ 991.222412 1211.341675 }
+		}
+		22={
+			Position={ 752.386414 534.526611 }
+		}
+		20={
+			Position={ 1187.608154 701.859619 }
+		}
+		43={
+			Position={ 1374.719360 559.970764 }
+		}
+		31={
+			Position={ 486.333496 972.000000 }
+			Inlined=yes
+		}
+		33={
+			Position={ 1695.000000 1375.000000 }
+			Inlined=yes
+		}
+		1={
+			Position={ 1646.000244 1370.999878 }
+			Inlined=yes
+		}
+		25={
+			Position={ 1646.000244 1370.999878 }
+			Inlined=yes
+		}
+		19={
+			Position={ 1018.781616 343.000000 }
+			Inlined=yes
+		}
+		2={
+			Position={ 1695.000000 1375.000000 }
+			Inlined=yes
+		}
+		15={
+			Position={ 235.333496 846.666687 }
+			Inlined=yes
+		}
+		16={
+			Position={ 1210.444702 415.851929 }
+			Inlined=yes
+		}
+		27={
+			Position={ 486.333496 972.000000 }
+			Inlined=yes
+		}
+		17={
+			Position={ 1695.000000 1375.000000 }
+			Inlined=yes
+		}
+		13={
+			Position={ 1695.000000 1375.000000 }
+			Inlined=yes
+		}
+		30={
+			Position={ 1290.781616 64.510223 }
+			Inlined=yes
+		}
+		14={
+			Position={ 235.333496 846.666687 }
+			Inlined=yes
+		}
+		29={
+			Position={ 1265.781616 225.000000 }
+			Inlined=yes
+		}
+		44={
+			Position={ 1646.000244 1370.999878 }
+			Inlined=yes
+		}
+		26={
+			Position={ 1018.781616 343.000000 }
+			Inlined=yes
+		}
+		9={
+			Position={ 1290.781616 64.510223 }
+			Inlined=yes
+		}
+		36={
+			Position={ 1265.781616 225.000000 }
+			Inlined=yes
+		}
+		41={
+			Position={ 1695.000000 1375.000000 }
+			Inlined=yes
+		}
+		28={
+			Position={ 391.489288 126.119072 }
+			Inlined=yes
+		}
+		38={
+			Position={ 584.053101 728.526611 }
+			Inlined=yes
+		}
+		34={
+			Position={ 584.053101 728.526611 }
+			Inlined=yes
+		}
+		39={
+			Position={ 584.053101 728.526611 }
+			Inlined=yes
+		}
+		7={
+			Position={ 610.386475 749.193298 }
+			Inlined=yes
+		}
+		11={
+			Position={ 812.608215 1116.859619 }
+			Inlined=yes
+		}
+		42={
+			Position={ 812.608215 1116.859619 }
+			Inlined=yes
+		}
+	}
+}

@@ -1,0 +1,68 @@
+window = {
+	gfxtype = windowgfx
+	name = "setup_editor"
+	parentanchor = top|left
+	size = { 270 740 }
+	position = { 5 200 }
+	widgetanchor = top|left
+	movable = yes
+	using = editor_window
+	
+	textbox = {
+		position = { 10 1 }
+		autoresize = yes
+		using = FontNormal
+		#using = FontHeading1
+		text = "Province data setup"
+	}
+	textbox = {
+		position = { 10 30 }
+		#size = { 200 20 }
+		autoresize = yes
+		using = FontNormal
+		#using = FontHeading1
+		text = "[SetupEditor.GetCurrent]"
+		multiline = yes
+		maximumsize = { 260 60 }
+		fontcolor = { 0.9 0.6 0.2 1.0  }
+		default_format = "#glow_color:{0.0,0.0,0.0,1.0};glow_offset:{0.0,1.0}"
+	}
+	
+	
+	scrollarea = {
+		position = { 10 70 }
+		size = { 250 650 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = editor_vertical_scrollbar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				name = "buildings_grid"
+				position = { 0 40 }
+				size = { 300 400 }
+				
+				
+				datamodel = "[SetupEditor.GetEntries]"
+				
+				
+				item = {
+					widget = {
+						size = { 200 31 }
+						editor_button = {
+							position = { 0 0 }
+							text = "[SetupEntry.GetName]"
+							onclick = "[SetupEntry.OnClick]"
+							size = { 230 30 }
+							using = editor_text
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+

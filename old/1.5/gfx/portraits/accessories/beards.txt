@@ -1,0 +1,198 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+
+## ROMAN BEARDS - USED FOR MOST CULTURES ##
+male_beard_1 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_1_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_1_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_1_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_1_fat2_half_entity" node = shared_pose_entity }	
+}
+
+male_beard_2 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_2_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_2_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_2_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_2_fat2_half_entity" node = shared_pose_entity }	
+}
+
+male_beard_3 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_3_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_3_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_3_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_3_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_3_fat2_half_entity" node = shared_pose_entity }	
+}
+
+
+male_beard_4 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_4_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_4_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_4_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_4_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_4_fat2_half_entity" node = shared_pose_entity }	
+}
+
+male_beard_5 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_5_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_5_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_5_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_5_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_5_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_6 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_6_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_6_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_6_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_6_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_6_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_7 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_7_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_7_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_7_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_7_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_7_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_8 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_8_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_8_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_8_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_8_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_8_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_9 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_9_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_9_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_9_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_9_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_9_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_10 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_10_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_10_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_10_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_10_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_10_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_11 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_11_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_11_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_11_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_11_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_11_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_12 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_12_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_12_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_12_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_12_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_12_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_13 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_13_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_13_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_13_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_13_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_13_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_14 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_14_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_14_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_14_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_14_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_14_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_15 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_15_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_15_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_15_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_15_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_15_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_15_b = {
+	entity = { required_tags = "no_fat" entity = "male_beard_15_b_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_15_b_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_15_b_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_15_b_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_15_b_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_16 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_16_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_16_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_16_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_16_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_16_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_17 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_17_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_17_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_17_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_17_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_17_fat2_half_entity" node = shared_pose_entity }		
+}
+
+male_beard_18 = {
+	entity = { required_tags = "no_fat" entity = "male_beard_18_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_max" entity = "male_beard_18_fat1_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat1_normal" entity = "male_beard_18_fat1_half_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_max" entity = "male_beard_18_fat2_entity" node = shared_pose_entity }	
+	entity = { required_tags = "fat2_normal" entity = "male_beard_18_fat2_half_entity" node = shared_pose_entity }		
+}
+#
+#male_beard_19 = {
+#	entity = { required_tags = "no_fat" entity = "male_beard_19_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_max" entity = "male_beard_19_fat1_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_normal" entity = "male_beard_19_fat1_half_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_max" entity = "male_beard_19_fat2_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_normal" entity = "male_beard_19_fat2_half_entity" node = shared_pose_entity }		
+#}
+#
+#male_beard_20 = {
+#	entity = { required_tags = "no_fat" entity = "male_beard_20_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_max" entity = "male_beard_20_fat1_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_normal" entity = "male_beard_20_fat1_half_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_max" entity = "male_beard_20_fat2_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_normal" entity = "male_beard_20_fat2_half_entity" node = shared_pose_entity }		
+#}
+#
+#male_beard_21 = {
+#	entity = { required_tags = "no_fat" entity = "male_beard_21_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_max" entity = "male_beard_21_fat1_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_normal" entity = "male_beard_21_fat1_half_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_max" entity = "male_beard_21_fat2_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_normal" entity = "male_beard_21_fat2_half_entity" node = shared_pose_entity }		
+#}
+#
+#male_beard_22 = {
+#	entity = { required_tags = "no_fat" entity = "male_beard_22_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_max" entity = "male_beard_22_fat1_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_normal" entity = "male_beard_22_fat1_half_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_max" entity = "male_beard_22_fat2_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_normal" entity = "male_beard_22_fat2_half_entity" node = shared_pose_entity }		
+#}
+#
+#male_beard_23 = {
+#	entity = { required_tags = "no_fat" entity = "male_beard_23_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_max" entity = "male_beard_23_fat1_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat1_normal" entity = "male_beard_23_fat1_half_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_max" entity = "male_beard_23_fat2_entity" node = shared_pose_entity }	
+#	entity = { required_tags = "fat2_normal" entity = "male_beard_23_fat2_half_entity" node = shared_pose_entity }		
+#}
+
+

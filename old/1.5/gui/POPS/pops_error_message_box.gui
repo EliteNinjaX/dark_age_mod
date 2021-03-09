@@ -1,0 +1,42 @@
+
+types POPS
+{
+	type pops_error_message_box = pops_window {
+		name = "pops_error_message_box"
+		parentanchor = vcenter|hcenter
+		size = { 300 -1 }
+		minimumsize = { 300 -1 }
+		blockoverride "title"
+		{
+			text = "POPS_ERROR_MESSAGE_BOX_TITLE"
+			using = MarbleButtonFontM
+		}
+		blockoverride "hbox_properties"
+		{
+			layoutpolicy_horizontal = Preferred
+			layoutpolicy_vertical = fixed
+		}
+		blockoverride "content_layout"
+		{
+			vbox = {
+				layoutpolicy_vertical = expanding
+				layoutpolicy_horizontal = expanding
+				pops_textbox = {
+					layoutpolicy_horizontal = expanding
+					align = center
+					text = "#BOLD;COLOR:{1.0,0.2,0.2} [ErrorMessageBox.GetErrorMessage]#!"
+					multiline = yes
+					# autoresize = yes
+					minimumsize = {-1 -1}
+					maximumsize = {-1 -1}
+				}
+				pops_vertical_spacer = {}
+				pops_button_marble = {
+					text = "OK"
+					onclick = "[ErrorMessageBox.Hide]"
+				}
+				pops_vertical_spacer = {}
+			}
+		}
+	}
+}

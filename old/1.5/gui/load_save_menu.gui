@@ -1,0 +1,420 @@
+template save_game_scroll_area
+{
+	icon = {
+		name = "background"
+		position = { 0 0 }
+		size = { 780 576 }
+		texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 10 10 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		alwaystransparent = yes
+	}
+	
+	scrollarea = {
+		name = "saved_games_scrollarea"
+		position = { 2 2 }
+		size = { 772 572 }
+#		parentanchor = top|hcenter
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+		}
+		
+		scrollwidget = {
+			fixedgridbox = {
+				name = "saved_games_grid"
+				position = { 0 0 }
+				addcolumn = 380
+				addrow = 72
+				flipdirection = yes
+				datamodel_wrap = 2
+				
+				block "save_game_datamodel"
+				{
+				}
+				
+				item = {
+					widget = {
+						size = { 440 90 }
+						
+						entry_button = {
+							spriteType = Corneredtiled
+							position = { 0 0 }
+							size = { 380 72 }
+							onclick = "[SaveGameItem.Select]"
+						}
+						
+						flowcontainer = {
+							widgetanchor = top|right
+							parentanchor = top|right
+							direction = horizontal
+							position = { -68 32 }
+						
+							icon = {
+								size = { 32 32 }
+								using = icon_missing_dlc
+                                visible = "[SaveGameItem.HasMissingDLC]"
+								tooltip = "[SaveGameItem.GetMissingDLCString]"
+							}
+							
+							icon = {
+								size = { 32 32 }
+								texture = "gfx/interface/icons/shared_icons/cloud_save.dds"
+                                visible = "[SaveGameItem.IsCloudSave]"
+								tooltip = "LOAD_CLOUDSAVE_TOOLTIP"
+								enabled = "[Not(SaveGameItem.HasMissingDLC)]"
+							}
+	
+							icon = {
+								size = { 32 32 }
+								using = icon_ironman
+								visible = "[SaveGameItem.IsIronman]"
+								tooltip = "IRONMAN_MODE"
+								enabled = "[Not(SaveGameItem.HasMissingDLC)]"
+							}
+	
+							icon = {
+								size = { 32 32 }
+								using = icon_different_version
+								visible = "[SaveGameItem.IsDifferentVersion]"
+								tooltip = "DIFFERENT_VERSION"
+								enabled = "[Not(SaveGameItem.HasMissingDLC)]"
+							}
+						
+						}
+						
+						textbox = {
+							name = "name"
+							position = { 14 5 }
+							size = { 356 26 }
+							using = MarbleButtonFont
+							text = "[SaveGameItem.GetName]"
+							alwaystransparent = yes
+							multiline = yes
+							enabled = "[Not(SaveGameItem.HasMissingDLC)]"
+						}
+						
+						textbox = {
+							name = "date"
+							position = { 14 28 }
+							size = { 200 36 }
+							using = MarbleButtonFontS
+							text = "[SaveGameItem.GetRealDate]"
+							alwaystransparent = yes
+							multiline = yes
+							enabled = "[Not(SaveGameItem.HasMissingDLC)]"
+						}
+					}
+				}
+			}
+		}
+	}
+
+	textbox = {
+		name = "cloud_saves_msg"
+		position = { 2 578 }
+		size = { 100% 26 }
+		using = MarbleButtonFont
+		text = "CLOUDSAVE_UNVAVAILABLE_TOOLTIP"
+		multiline = no
+		visible = "[Not(GameIsCloudStorageAvailable)]"
+		align = center
+		fontsize = 20
+	}
+
+}
+
+types LoadSaveTypes {
+	type save_menu = window
+	{
+		gfxtype = windowgfx
+		parentanchor = center
+		alwaystransparent = no
+		movable = no
+		resizable = no
+		
+        position = { 0 0 }
+		size = { 810 774 }
+		using = small_window_type
+
+		enabled = "[SaveNameWindow.IsWindowEnabled]"
+
+		textbox = {
+			text = "FILE_NAME_INVALID"
+			using = MarbleButtonFontM
+			position = { 0 -44 }
+			parentanchor = bottom|hcenter
+			align = center
+			alwaystransparent = yes
+			visible = "[Not(SaveNameWindow.IsSaveNameOk)]"
+		}
+
+		widget = {
+			size = { 100% 50 }
+
+			icon = {
+				parentanchor = hcenter
+				texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 16 0 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+				size = { 100% 50 }
+			}
+
+			textbox = {
+				margin_top = 14
+				parentanchor = hcenter
+				block "save_game_title"
+				{
+					text = "SAVE_GAME"
+				}
+				autoresize = yes
+				fontsize = 20
+				align = center|nobaseline
+				using = MarbleButtonFont
+			}
+		}
+
+		square_close_button = {
+			name = "close_button"
+			position = { -2 5 }
+			parentanchor = top|right
+			tooltip = "CLOSE"
+			onclick = "[SaveNameWindow.Cancel]"
+			shortcut = "close_window"
+		}
+		
+		container = {
+			position = { 14 54 }
+
+			using = save_game_scroll_area
+		}
+		
+		button_standard_white_marble = {
+			position = { -18 -18 }
+			parentanchor = bottom|right
+			name = "save_button"
+			onclick = "[SaveNameWindow.Save]"
+			enabled = "[SaveNameWindow.IsSaveOk]"
+			tooltip = "[SaveNameWindow.GetSaveErrors]"
+
+			block "confirm_button"
+			{
+				text = "SAVE"
+			}
+			
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_game_saved"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		
+		}
+		
+		button_standard_white_marble = {
+			name = "cancel_button"
+			position = { 18 -18 }
+			text = "CANCEL"
+			parentanchor = bottom|left
+			onclick = "[SaveNameWindow.Cancel]"
+			shortcut = "close_window"
+		}
+		
+		flowcontainer = {
+			position = { -4 -70 }
+			parentanchor = bottom|hcenter
+			widgetanchor = bottom|hcenter
+			
+			checkbutton = {
+				name = "cloud_save"
+				framesize = { 36 36 }
+				texture = "gfx/interface/buttons/checkbox.dds"
+				tooltip = "[SaveNameWindow.CloudSaveTooltip]"
+				onclick = "[SaveNameWindow.OnCloudSaveClick]"
+				enabled = "[SaveNameWindow.CanToggleCloudSaves]"
+			}
+
+			widget = {
+				size = { 36 36 }
+				
+				icon = {
+					size = { 32 32 }
+					texture = "gfx/interface/icons/shared_icons/cloud_save.dds"
+					tooltip = "LOAD_CLOUDSAVE_TOOLTIP"
+				}
+				
+				enabled = "[SaveNameWindow.CanToggleCloudSaves]"
+			}
+
+			widget = {
+				size = { 10 5 }
+			}
+
+			editbox = {
+				name = "save_name"
+				size = { 696 32 }
+				using = MarbleButtonFont
+				alwaystransparent = no
+				focuspolicy = all
+				multiline = no
+				onreturnpressed = "[SaveNameWindow.Save]"
+
+				background = {
+					margin_left = 5
+					margin_right = 4
+					margin_bottom = 4
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 10 10 }
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+				}
+			}
+		}
+	}
+
+    type load_menu = window {
+        position = { 0 50 }
+		size = { 810 820 }
+		parentanchor = top|hcenter
+		
+		using = small_window_type
+		
+		icon = {
+			texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+			spriteType = Corneredtiled
+			position = { 0 0 }
+			size = { 100% 51 }
+			spriteborder = { 16 0 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		textbox = {
+			text = "LOAD"
+			size = { 100% 24 }
+			using = MarbleButtonFont
+			position = { 0 13 }
+			fontsize = 24
+			align = center
+		}		
+		
+		container = {
+			position = { 14 138 }
+
+			using = save_game_scroll_area
+		}
+
+		
+		icon = {
+			name = "frame"
+			texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+			position = { 14 54 }
+			spriteType = Corneredtiled
+			spriteborder = { 8 8 }
+			size = { 780 80 }
+		}
+
+		widget  = {
+			name = "load_info"
+			size = { 754 100% }
+			position = { 22 52 }
+			
+			textbox = {
+				name = "name"
+				position = { 0 0 }
+				size = { 754 32 }
+				using = MarbleButtonFontL
+				text = "[SaveGameItem.GetName]"
+				multiline = yes
+			}
+			
+			flowcontainer = {
+				direction = horizontal
+				position = { 0 28 }
+			
+				textbox = {
+					name = "character"
+					using = MarbleButtonFontM
+					text = "[SaveGameItem.GetPlayerName]"
+					autoresize = yes
+				}
+				
+				widget = { 
+					size = { 14 0 }
+				}
+				
+				widget = {
+					textbox = {
+						name = "date" 
+						position = { 0 2 }
+						using = MarbleButtonFont
+						text = "[SaveGameItem.GetDate]"
+						autoresize = yes
+						resizeparent = yes
+					}
+				}
+			}
+			
+			textbox = {
+				name = "date"
+				position = { 0 52 }
+				using = MarbleButtonFont
+				text = "[SaveGameItem.GetRealDate]"
+				autoresize = yes
+			}
+			
+			button_standard = {
+				name = "delete_button"
+				size = { 228 42 }
+				parentanchor = bottom|left
+				position = { 20 -74 }
+				shortcut = "delete"
+				buttonText = {
+					textbox = {
+						parentanchor = bottom|hcenter
+						using = MarbleButtonFont
+						autoresize = yes
+						position = { 0 -9 }
+						text = "DELETE"
+					}
+				}
+				block "on_delete"
+				{
+				}
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_new_game"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			}
+			
+			button_standard = {
+				name = "load_button"
+				size = { 228 42 }
+				parentanchor = bottom|right
+				position = { -20 -74 }
+				buttonText = {
+					textbox = {
+						parentanchor = bottom|hcenter
+						using = MarbleButtonFont
+						autoresize = yes
+						position = { 0 -9 }
+						text = "LOAD"
+					}
+				}
+				block "on_load"
+				{
+				}
+				enabled = "[SaveGameItem.IsEnabled]"
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_new_game"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			
+			}			
+		#	textbox = {
+		#		name = "version"
+		#		position = { 25 500 }
+		#		using = FontNormal
+		#		text = "[SaveGameItem.GetVersionName]"
+		#		autoresize = yes
+		#	}
+		}
+		
+		
+		
+    }
+}

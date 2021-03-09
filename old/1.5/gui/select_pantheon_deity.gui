@@ -1,0 +1,338 @@
+@sort_button_width = 68
+
+window = {
+	gfxtype = windowgfx
+	name = "select_pantheon_deity_window"
+	parentanchor = top|left
+	size = { 440 648 }
+	position = { 701 291 }
+	widgetanchor = top|left
+	movable = yes
+	
+	using = advice_trigger_highlights
+
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -3 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectPantheonDeityWindow.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	textbox = {
+		parentanchor = top|hcenter
+		using = MarbleButtonFontM
+		text = "PANTHEON_SELECT_DEITY_HEADER"
+		autoresize = yes
+		position = { 0 10 }
+		maximumsize = { 340 26 }
+		elide = right
+	}
+	
+	widget = {
+		size = { 410 100 }
+		position = { 14 52 }
+		
+		hbox = {
+			
+			icon = {
+				size = { 100 100 }
+				texture = "[GetDeityCategoryIcon(SelectPantheonDeityWindow.GetDeityCategory.GetIcon)]"
+				layoutpolicy_horizontal = fixed
+				layoutpolicy_vertical = fixed
+				framesize = { 100 100 }
+				frame = 2
+			}	
+			
+			widget = {
+				name = "Spacing_widget"
+				size = { 4 4 }
+			}				
+			
+			button_standard_white_marble_s = {
+				size = { 300 38 }
+				enabled = "[SelectPantheonDeityWindow.CanDeifyRuler]"
+				visible = "[HasDlc('Magna Graecia')]"
+				#onclick = "[SelectPantheonDeityWindow.ToggleView('deify_ruler')]"
+				onclick = "[SelectPantheonDeityWindow.ShowDeifyRulerWindow]"
+				clicksound = "event:/SFX/UI/Religion/sfx_ui_religion_ruler_deify"
+				text = "DEIFY_RULER_BUTTON"
+				tooltip = "DEIFY_RULER_TT"
+			}
+		}
+	}
+
+	flowcontainer = {
+		position = { 18 152 }
+		
+		textbox = {
+			using = MarbleButtonFontS
+			text = "SORT_BY_SITES"
+			autoresize = yes
+		}
+		
+		widget = {
+			name = "Spacing_widget"
+			size = { 4 4 }
+		}
+		
+		sort_button = {
+			size = { @sort_button_width 28 }
+			onclick = "[SelectPantheonDeityWindow.SortDeities('name')]"
+			tooltip = "SORT_BY_DEITY_NAME"
+			text = "A_Z_SORT"
+			
+			using = MarbleButtonFontS
+			
+			blockoverride "text_position"
+			{
+				position = { 1 -7 }
+			}
+		}
+		
+		sort_button = {
+			size = { @sort_button_width 28 }
+			tooltip = SORT_BY_SITES_RELIGION
+			onclick = "[SelectPantheonDeityWindow.SortDeities('religion')]" 
+			
+			icon = {
+				position = { 1 -2 }
+				size = { 20 20 }
+				texture = "gfx/interface/icons/shared_icons/religion.dds"
+				parentanchor = vcenter|hcenter
+				widgetanchor = vcenter|hcenter
+			}
+			
+		}
+	}
+
+	icon = {
+		position = { 14 182 }
+		size = { 412 454 }
+		texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 10 10 }
+	}
+	
+	scrollarea = {
+		position = { 16 183 }
+		size = { 406 452 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+			blockoverride "ScrollBar_offset"
+			{
+				size = { 0 4 }
+			}
+		}
+		
+		scrollwidget = {
+		
+			dynamicgridbox = {
+				datamodel = "[SelectPantheonDeityWindow.GetDeities]"
+				
+				item = {
+				
+					entry_button = {
+						size = { 396 64 }
+						spriteborder = { 40 8 }
+						onclick = "[SelectableDeity.OnClick]"
+						onclick = "[ClickHighlight(SelectableDeity.GetHighlightKey)]"
+						tooltip = "[SelectableDeity.GetDeityTooltip]"
+						#clicksound = "[SelectableDeity.GetClickSound]"
+						oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+						text = ""
+						
+						icon = {
+							using = highlight_button_policy
+							visible = "[ShouldHighlight(SelectableDeity.GetHighlightKey)]"
+						}
+
+						flowcontainer = {
+							
+							container = {
+								parentanchor = vcenter
+								portrait_button = {
+									visible = "[SelectableDeity.GetDeity.IsDeifiedRuler]"
+									enabled ="[SelectableDeity.GetDeity.IsDeifiedRuler]"
+									using = deified_portrait_40
+									datacontext = "[SelectableDeity.GetDeity.GetDeifiedRuler]"
+									position = { 22 2 }
+									scale = 1
+								}
+							}
+							
+							container = {
+								textbox = {
+									text = "DEIFIED_RULER_TEXT" 
+									visible = "[SelectableDeity.GetDeity.IsDeifiedRuler]"
+									using = MarbleButtonFont
+									position = { 16 6 }
+									autoresize = yes
+								}
+							}
+						}
+							
+						widget = {
+							position = { 15 4 }
+							size = { 368 20 }
+							
+							hbox = {
+								flowcontainer = {
+									ignoreinvisible = yes
+									spacing = 4
+									textbox = {
+										text = "[SelectableDeity.GetDeity.GetName]"
+										maximumsize = { 200 -1 }
+										visible = "[Not(SelectableDeity.GetDeity.IsDeifiedRuler)]"
+										using = MarbleButtonFont
+										autoresize = yes
+										elide = right
+										layoutpolicy_horizontal = fixed
+										layoutpolicy_vertical = fixed
+									}	
+									container = {
+										visible = "[And( SelectableDeity.GetDeity.HasHolySite, Not( SelectableDeity.GetDeity.IsDeifiedRuler ))]"
+										icon = {
+											texture = "[GetHolySiteRankIcon(SelectableDeity.GetDeity.GetHolySite.GetRank)]"
+											layoutpolicy_horizontal = fixed
+											layoutpolicy_vertical = fixed
+											size = { 24 24 }
+											datacontext = "[SelectableDeity.GetDeity]"
+											tooltip = "HOLY_SITE_SELECT_PANTHEON_TT"
+											parentanchor = vcenter
+											position = { 0 2 }
+										}
+									}
+									container = {
+										visible = "[And( SelectableDeity.GetDeity.HasHolySite, Not( SelectableDeity.GetDeity.IsDeifiedRuler ) )]"
+										country_flag = {
+											visible = "[SelectableDeity.GetDeity.GetHolySite.HasOwner]"
+											datacontext = "[SelectableDeity.GetDeity.GetHolySite.GetOwner]"
+											tooltip = "HOLY_SITE_OWNED_BY" 
+											
+											position = { 0 2 }
+											
+											blockoverride "flag"
+											{
+												texture = "[SelectableDeity.GetDeity.GetHolySite.GetOwner.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+												frame = "[SelectableDeity.GetDeity.GetHolySite.GetOwner.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+												framesize = { 56 56 }
+											}
+											
+											blockoverride "size"
+											{
+												size = { 24 24 }
+											}
+											
+											blockoverride "click"
+											{
+												#onclick = "[OpenDiplomacy(SelectableDeity.GetDeity.GetHolySite.GetOwner)]"
+												effectname = "NoHighlight"
+												alwaystransparent = yes
+											}
+										}
+									}
+									container = {
+										visible = "[And( SelectableDeity.GetDeity.HasHolySite, SelectableDeity.GetDeity.IsDeifiedRuler)]"
+										icon = {
+											texture = "[GetHolySiteRankIcon(SelectableDeity.GetDeity.GetHolySite.GetRank)]"
+											#visible = "[Not(SelectableDeity.GetDeity.IsDeifiedRuler)]"
+											layoutpolicy_horizontal = fixed
+											layoutpolicy_vertical = fixed
+											size = { 24 24 }
+											datacontext = "[SelectableDeity.GetDeity]"
+											tooltip = "HOLY_SITE_SELECT_PANTHEON_TT"
+											parentanchor = vcenter
+											position = { 240 4 }
+										} 
+									}
+									container = {
+										visible = "[And( SelectableDeity.GetDeity.HasHolySite, SelectableDeity.GetDeity.IsDeifiedRuler )]"
+										country_flag = {
+											visible = "[SelectableDeity.GetDeity.GetHolySite.HasOwner]"
+											datacontext = "[SelectableDeity.GetDeity.GetHolySite.GetOwner]"
+											tooltip = "HOLY_SITE_OWNED_BY" 
+											
+											position = { 0 4 }
+											
+											blockoverride "flag"
+											{
+												texture = "[SelectableDeity.GetDeity.GetHolySite.GetOwner.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+												frame = "[SelectableDeity.GetDeity.GetHolySite.GetOwner.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+												framesize = { 56 56 }
+											}
+											
+											blockoverride "size"
+											{
+												size = { 24 24 }
+											}
+											
+											blockoverride "click"
+											{
+												#onclick = "[OpenDiplomacy(SelectableDeity.GetDeity.GetHolySite.GetOwner)]"
+												effectname = "NoHighlight"
+												alwaystransparent = yes
+											}
+										}
+									}
+									
+								}
+								
+								textbox = {
+									using = MarbleButtonFontS
+									text = "[SelectableDeity.GetDeity.GetPassiveEffectIcon]"
+									align = right
+									elide = right
+									fontsize = 14
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = fixed									
+								}	
+							}
+						} 
+						
+						widget = {
+							position = { 15 30 }
+							size = { 368 20 }
+							
+							hbox = {
+								
+								textbox = {
+									text = "[SelectableDeity.GetDeity.GetReligion.GetName]"
+									maximumsize = { 200 -1 }
+									using = MarbleButtonFontS
+									autoresize = yes
+									elide = right
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = fixed	
+									visible = "[Not(SelectableDeity.GetDeity.IsDeifiedRuler)]"								
+								}									
+								
+								
+								textbox = {
+									using = MarbleButtonFontS
+									text = "[SelectableDeity.GetDeity.GetOmenEffectIcon]"
+									size = { 140 20 }
+									align = right
+									elide = right
+									fontsize = 14
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = fixed	
+								}							
+							}
+						}						
+					}
+				}
+			}
+		}
+	}
+}

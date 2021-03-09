@@ -1,0 +1,109 @@
+window = {
+	gfxtype = windowgfx
+	name = "select_culture_group_window"
+	parentanchor = top|left
+	#size = { 625 626 }
+	position = { 640 220 }
+	minimumsize = { 300 200}
+	widgetanchor = top|left
+	movable = yes
+	using = standard_window_type
+
+	blockoverride "header"
+	{
+		text = "CHOOSE_CULTURE_GROUP_HEADER"
+		tooltip = "CHOOSE_CULTURE_GROUP_HEADER_TT"
+		align = left
+		parentanchor = top|left
+		widgetanchor = top|left
+		margin_left = 20
+	}	
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -3 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectCultureGroupView.OnClose]"
+		tooltip = "CLOSE"
+	}
+
+	flowcontainer = {
+		direction = vertical
+		resizeparent = yes
+		margin_bottom = 62
+		margin_right = 26
+		position = { 12 50 }
+		
+		scrollarea = {
+			size = { 602 700 }
+			maximumsize = { 625 626 }
+			scrollbarpolicy_horizontal = always_off
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+				blockoverride "ScrollBar_offset"
+				{
+					size = { 0 4 }
+				}
+			}
+			
+			scrollwidget = {
+			
+				dynamicgridbox = {
+					resizeparent = yes
+					datamodel = "[SelectCultureGroupView.GetCultureGroups]"
+					
+					item = {
+						flowContainer = {
+							direction = horizontal
+							parentanchor = top|left
+							name = "Culture_group_options"
+
+								#	container = {
+								#	position = { 10 0 }
+				
+									button  = {
+											name = "select_culture_group"
+											#position = { 5 4 }
+											texture = "gfx/interface/buttons/checkbox.dds"
+											frame = "[SelectableCultureGroup.GetSelectionFrame]"
+											#tooltip = "[DecisionItem.GetAllowedDesc]"
+											framesize = { 36 36 }
+											onclick = "[SelectableCultureGroup.OnClick]"
+										}
+				
+										textbox = {
+											autoresize = yes
+											using = MarbleButtonFontM
+											align = left|nobaseline
+											text = "[SelectableCultureGroup.GetCultureGroup.GetName]"
+											margin_left = 1
+											widgetanchor = left|vcenter
+											parentanchor = left|vcenter
+										}
+										#	entry_button = {
+								#tooltip = "COMBAT_TACTIC_BUTTON_LIST"
+								#size = { 600 80 }
+								#spriteborder = { 40 8 }
+								#onclick = "[SelectableCultureGroup.OnClick]"
+								#clicksound = "[SelectablePopType.GetClickSound]"
+								#oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+								#text = "[SelectableCultureGroup.GetCultureGroup.GetName]"
+									
+					
+				
+								
+				
+		
+							#}
+									
+								}
+						
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,80 @@
+pdxmesh = {
+	name = "indian_02_05_mesh"
+	file = "indian_02_05.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 10.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "polySurface1076Shape"
+		index = 0
+		texture_diffuse = "indian_buildings_01_diffuse.dds"
+		texture_normal = "indian_buildings_01_normal.dds"
+		texture_specular = "indian_buildings_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "indian_02_05|LOD_0|polySurface50|polySurfaceShape50"
+		index = 0
+		texture_diffuse = "stone_tiles_diffuse.dds"
+		texture_normal = "stone_tiles_normal.dds"
+		texture_specular = "stone_tiles_material.dds"
+		texture = { file = "indian_buildings_terrain_mask.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "polySurface637Shape"
+		index = 0
+		texture_diffuse = "indian_buildings_01_diffuse.dds"
+		texture_normal = "indian_buildings_01_normal.dds"
+		texture_specular = "indian_buildings_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "planes:polySurfaceShape5"
+		index = 0
+		texture_diffuse = "stone_tiles_diffuse.dds"
+		texture_normal = "stone_tiles_normal.dds"
+		texture_specular = "stone_tiles_material.dds"
+		texture = { file = "indian_buildings_terrain_mask.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "indian_02_05|LOD_2|polySurface50|polySurfaceShape50"
+		index = 0
+		texture_diffuse = "stone_tiles_diffuse.dds"
+		texture_normal = "stone_tiles_normal.dds"
+		texture_specular = "stone_tiles_material.dds"
+		texture = { file = "indian_buildings_terrain_mask.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "polySurface1077Shape"
+		index = 0
+		texture_diffuse = "indian_buildings_01_diffuse.dds"
+		texture_normal = "indian_buildings_01_normal.dds"
+		texture_specular = "indian_buildings_01_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "indian_02_05_entity"
+	pdxmesh = "indian_02_05_mesh"
+}

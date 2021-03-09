@@ -1,0 +1,113 @@
+
+
+############### 2D Ambient Emmiters
+
+
+entity = {
+	name = "map_ambient_2D_base_wind"
+	# pdxmesh = "test_object_mesh"
+
+	default_state = "default"
+
+	state = {
+	name = default
+
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/2DMapEmitters/Nature/sfx_amb_base_wind" } keep_sound = yes }
+	}
+
+
+}
+
+
+############### 3D Emmiters
+
+entity = {
+	name = "map_ambient_3D_forest"
+	# pdxmesh = "test_object_mesh"
+
+	default_state = "default"
+
+	state = {
+	name = default
+
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_forest" } keep_sound = yes }
+	}
+}
+
+entity = {
+	name = "map_ambient_3D_mountain"
+	# pdxmesh = "test_object_mesh"
+
+	default_state = "default"
+
+	state = {
+	name = default
+
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_mountain" } keep_sound = yes }
+	}
+}
+
+entity = {
+	name = "map_ambient_3D_river"
+	# pdxmesh = "test_object_mesh"
+
+	default_state = "default"
+
+	state = {
+	name = default
+
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_river" } keep_sound = yes }
+	}
+}
+
+entity = {
+	name = "map_ambient_3D_ocean"
+	# pdxmesh = "test_object_mesh"
+
+	default_state = "default"
+
+	state = {
+	name = default
+
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_ocean" } keep_sound = yes }
+	}
+}
+
+entity = {
+	name = "map_ambient_3D_field"
+	# pdxmesh = "test_object_mesh"
+
+	default_state = "default"
+
+	state = {
+	name = default
+
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_field" } keep_sound = yes }
+	}
+}
+
+entity = {
+	name = "map_ambient_3D_desert"
+	# pdxmesh = "test_object_mesh"
+
+	default_state = "default"
+
+	state = {
+	name = default
+
+		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_desert" } keep_sound = yes }
+	}
+}
+
+#entity = {
+#	name = "map_ambient_3D_steppe"
+#	# pdxmesh = "test_object_mesh"
+#
+#	default_state = "default"
+#
+#	state = {
+#	name = default
+#
+#		start_event = { trigger_once = yes sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_steppe" } keep_sound = yes }
+#	}
+#}

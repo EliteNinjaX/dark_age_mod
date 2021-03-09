@@ -1,0 +1,678 @@
+template event_portrait 
+{
+	flowcontainer = {
+		direction = vertical
+	
+	
+		container = {
+			portrait_button = {
+				position = { 38 0 }
+				using = portrait_80_no_pop
+				parentanchor = top|left
+			}
+		}
+		
+		container = {
+			DefaultHeaderBackground = {
+				name = "header"
+				position = { -4 -12 }
+				scale = 1
+				size = { 160 50 }
+				tooltip = "[Character.GetFamilyMemberText]"
+				
+				textbox =
+				{
+					text = "[Character.GetPraenomen]"
+					position = { 8 10 }
+					using = GoldenFontSB
+					align = center
+					size = { 100% 10 }
+				}
+				
+				blockoverride "text"{}
+				
+				textbox = 
+				{
+					text = "[Character.GetFamilyDisplayName]"
+					position = { 8 24 }
+					using = GoldenFontL
+					align = center 
+					size = { 100% 10 } 
+				}
+			
+			}
+		
+			country_flag = {
+				position = { 140 -8 }
+				tooltip = "[Character.GetEmployer.GetDescriptiveName]"
+				
+				
+				
+				datacontext = "[Character.GetEmployer]"
+
+				blockoverride "flag"
+				{
+					texture = "[Character.GetEmployer.AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[Character.GetEmployer.AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 44 44 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[OpenDiplomacy(Character.GetEmployer)]"
+				}
+			}
+		}
+	}
+}
+
+template minor_event_portrait 
+{
+	flowcontainer = {
+		direction = vertical
+		scale = 0.95
+	
+		container = {
+			
+			portrait_button = {
+				position = { 0 0 }
+				using = portrait_100_no_pop_minor_window
+				parentanchor = top|left
+			}
+			
+		}
+		
+		container = {
+			DefaultHeaderBackground = {
+				name = "header"
+				position = { -4 -12 }
+				scale = 1
+				size = { 148 50 }
+				tooltip = "[Character.GetFamilyMemberText]"
+				
+				textbox =
+				{
+					text = "[Character.GetPraenomen]"
+					position = { 8 10 }
+					using = GoldenFontSB
+					align = center
+					size = { 100% 10 }
+				}
+				
+				blockoverride "text"{}
+				
+				textbox = 
+				{
+					text = "[Character.GetFamilyDisplayName]"
+					position = { 8 24 }
+					using = GoldenFontL
+					align = center 
+					size = { 100% 10 } 
+				}
+			
+			}
+		}
+		
+	}
+}
+
+
+window = {
+	gfxtype = windowgfx
+	name = "event_window"
+	parentanchor = center
+	
+	background = {
+		texture = "gfx/interface/tiles/marble_tile_l.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 0 0 }
+		margin = { -6 -6 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+	}
+	
+	icon = {
+		texture = "gfx/interface/tiles/small_window_frame_corners.dds"
+		spriteType = Corneredtiled
+		position = { 0 0 }
+		size = { 100% 100% }
+		spriteborder = { 32 32 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		visible = "[EventWindow.HasPortraitCharacters]"
+	}
+	
+	
+	
+	flowcontainer = {
+		name = "Bottom"
+		resizeparent = yes
+		direction = horizontal
+		position = { 0 0 }
+		ignoreinvisible = yes
+		
+		container = {
+			name = "portraits_left"
+			visible = "[EventWindow.HasLeftPortraitCharacter('0')]"
+			ignoreinvisible = yes
+			
+			container = {
+				using = event_portrait
+				name = "portrait_left"
+				position = { 14 48 }
+				parentanchor = top|left
+				datacontext = "[EventWindow.GetLeftPortraitCharacter('0')]"
+				visible = "[EventWindow.HasLeftPortraitCharacter('0')]"
+			}
+			container = {
+				using = event_portrait
+				name = "portrait_left_small_1"
+				position = { 14 230 }
+				parentanchor = top|left
+				datacontext = "[EventWindow.GetLeftPortraitCharacter('1')]"
+				visible = "[EventWindow.HasLeftPortraitCharacter('1')]"
+			}
+			container = {
+				using = event_portrait
+				name = "portrait_left_small_2"
+				position = { 14 412 }
+				parentanchor = top|left
+				datacontext = "[EventWindow.GetLeftPortraitCharacter('2')]"
+				visible = "[EventWindow.HasLeftPortraitCharacter('2')]"
+			}
+		}
+		
+		
+		flowcontainer = {
+			name = "Center_Box"
+			direction = vertical
+			margin = { 30 0 }
+			ignoreinvisible = yes
+			
+			widget = {
+				name = "spacing_w"
+				size = { 10 52 }
+			}
+			
+			background = {
+				texture = "gfx/interface/tiles/marble_tile_l.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 0 0 }
+				margin = { -6 -6 }
+				margin_top = -38
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+			
+			background = {
+				texture = "gfx/interface/tiles/small_window_frame_p_corners.dds"
+				spriteType = Corneredtiled
+				size = { 100% 100% }
+				margin_top = -38
+				margin_bottom = 1
+				spriteborder = { 32 24 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+			
+
+			margin_widget = {
+				size = { 600 249 }
+
+				icon = {
+					name = "event_picture"
+					size = { 600 239 }
+					texture = "[EventWindow.GetEventPicture]"
+					tooltip = "[EventWindow.GetDebugInfo]"
+					alpha = 0.8
+				}
+			}
+
+			scrollarea = {
+				name = "description_scrollarea"
+				maximumsize = { -1 300 }
+				scrollbarpolicy_horizontal = always_off
+				
+				using = ScrollMessageBackground_2
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+				}
+				
+				scrollwidget = {
+					textbox = {
+						name = "description"
+						resizeparent = yes
+						minimumsize = { 600 -1 }
+						maximumsize = { 600 -1 }
+						multiline = yes
+						using = MarbleButtonFontS
+						autoresize = yes
+						margin = { 22 0 }
+						align = top|left
+						text = "[EventWindow.GetDescription]"
+					}
+				}
+			}
+			
+			widget = {
+				name = "spacer_2"
+				size = { 0 30 }
+			}
+			
+			fixedgridbox = {
+				name = "option_grid"
+				addcolumn = 600
+				addrow = 38
+				
+				item = {
+					container = {
+						using = eventbutton
+					}
+				}
+			}
+			
+			widget = {
+				name = "spacer_3"
+				size = { 0 20 }
+			}
+		}
+		
+		container = {
+			name = "portraits_right"
+			#size = { 600 150 }
+			visible = "[EventWindow.HasRightPortraitCharacter('0')]"
+			ignoreinvisible = yes
+			
+			widget = {
+				size = { 196 0 }
+			}
+			
+			container = {
+				using = event_portrait
+				name = "portrait_right"
+				position = { -14 48 }
+				parentanchor = top|right
+				datacontext = "[EventWindow.GetRightPortraitCharacter('0')]"
+				visible = "[EventWindow.HasRightPortraitCharacter('0')]"
+				blockoverride "portrait_transformation"
+				{
+					portrait_scale = { -1 1 }
+					portrait_offset = { 1 0 }
+				}
+			}
+			
+			container = {
+				using = event_portrait
+				name = "portrait_right_small_1"
+				position = { -14 230 }
+				parentanchor = top|right
+				datacontext = "[EventWindow.GetRightPortraitCharacter('1')]"
+				visible = "[EventWindow.HasRightPortraitCharacter('1')]"
+				blockoverride "portrait_transformation"
+				{
+					portrait_scale = { -1 1 }
+					portrait_offset = { 1 0 }
+				}
+			}
+			
+			container = {
+				using = event_portrait
+				name = "portrait_right_small_2"
+				position = { -14 412 }
+				parentanchor = top|right
+				datacontext = "[EventWindow.GetRightPortraitCharacter('2')]"
+				visible = "[EventWindow.HasRightPortraitCharacter('2')]"
+				blockoverride "portrait_transformation"
+				{
+					portrait_scale = { -1 1 }
+					portrait_offset = { 1 0 }
+				}
+			}
+		}
+	}
+	
+	icon = {
+		texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+		spriteType = Corneredtiled
+		position = { 0 3 }
+		size = { 100% 50 }
+		spriteborder = { 16 10 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+	}
+
+	go_to_button = {
+		name = "close_button"
+		position = { 8 10 }
+		shortcut = "go_to_button"
+		visible = "[EventWindow.HasLocation]"
+		onclick = "[EventWindow.GoToLocation]"
+		tooltip = "go_to"
+	}
+	
+	textbox = {
+		name = "title"
+		position = { 0 9 }
+		minimumsize = { 714 32 }
+		maximumsize = { 714 32 }
+		multiline = yes
+		using = MarbleButtonFontL
+		fontsize = 22
+		autoresize = yes
+		parentanchor = top|hcenter
+		align = center
+		elide = right
+		text = "[EventWindow.GetTitle]"
+	}
+
+}
+
+#Use for tutorial window also
+window = { 
+	gfxtype = windowgfx
+	name = "major_event_window"
+	parentanchor = center
+	
+	flowcontainer = {
+		name = "Bottom"
+		resizeparent = yes
+		direction = horizontal
+		ignoreinvisible = yes
+		
+		flowcontainer = {
+			name = "Center_Box"
+			direction = vertical
+			margin = { 30 0 }
+			ignoreinvisible = yes
+			
+			widget = {
+				name = "spacing_w"
+				size = { 10 52 }
+			}
+			
+			background = {
+				texture = "gfx/interface/tiles/marble_tile_l.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 0 0 }
+				margin = { -6 -6 }
+				margin_top = -38
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+			
+			background = {
+				texture = "gfx/interface/tiles/small_window_frame_p_corners.dds"
+				spriteType = Corneredtiled
+				size = { 100% 100% }
+				margin_top = -38
+				margin_bottom = 1
+				spriteborder = { 32 24 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+			
+			widget = {
+				size = { 800 264 }
+				widgetanchor = top|hcenter
+				parentanchor = top|hcenter
+
+				icon = {
+					widgetanchor = top|hcenter
+					parentanchor = top|hcenter
+					name = "event_picture"
+					scale = 0.62
+					texture = "gfx/interface/event_window/Event_test.dds"
+					tooltip = "[EventWindow.GetDebugInfo]"
+					alpha = 0.8
+					alwaystransparent = yes
+				}
+			}
+			
+			scrollarea = {
+				name = "description_scrollarea"
+				maximumsize = { -1 300 }
+				scrollbarpolicy_horizontal = always_off
+				
+				using = ScrollMessageBackground_2
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+				}
+				
+				scrollwidget = {
+					textbox = {
+						name = "description"
+						resizeparent = yes
+						minimumsize = { 800 -1 }
+						maximumsize = { 800 -1 }
+						multiline = yes
+						using = MarbleButtonFontS
+						autoresize = yes
+						margin = { 20 0 }
+						align = top|left
+						text = "[EventWindow.GetDescription]"
+					}
+				}
+			}
+			
+			widget = {
+				name = "spacer_2"
+				size = { 0 10 }
+			}
+			
+			fixedgridbox = {
+				name = "option_grid"
+				parentanchor = hcenter
+				addcolumn = 600
+				addrow = 38
+				item = {
+					container = {
+						using = eventbutton
+					}
+				}
+			}
+			
+			widget = {
+				name = "spacer_3"
+				size = { 0 20 }
+			}
+		}
+	}
+	
+	icon = {
+		texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+		spriteType = Corneredtiled
+		position = { 0 3 }
+		size = { 100% 50 }
+		spriteborder = { 16 10 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+	}
+	
+	textbox = {
+		name = "title"
+		position = { 0 11 }
+		minimumsize = { 514 -1 }
+		maximumsize = { 514 -1 }
+		multiline = yes
+		using = MarbleButtonFontL
+		fontsize = 22
+		autoresize = yes
+		parentanchor = top|hcenter
+		align = center
+		text = "[EventWindow.GetTitle]"
+	}
+	
+	go_to_button = {
+		name = "close_button"
+		position = { 8 10 }
+		shortcut = "go_to_button"
+		visible = "[EventWindow.HasLocation]"
+		onclick = "[EventWindow.GoToLocation]"
+		tooltip = "go_to"
+	}
+}
+
+window = {
+	gfxtype = windowgfx
+	name = "minor_event_window"
+	parentanchor = bottom|hcenter
+	movable = yes
+	scale = 1
+	position = { 0 400 }
+	
+	background = {
+		texture = "gfx/interface/tiles/marble_tile_l.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 0 0 }
+		margin = { -6 -6 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+	}
+	
+	icon = {
+		texture = "gfx/interface/tiles/small_window_frame_corners.dds"
+		spriteType = Corneredtiled
+		position = { 0 0 }
+		size = { 100% 100% }
+		spriteborder = { 32 32 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		visible = "[EventWindow.HasPortraitCharacters]"
+	}
+	
+	icon = {
+		texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+		spriteType = Corneredtiled
+		position = { 0 1 }
+		size = { 100% 50 }
+		spriteborder = { 16 10 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		
+		textbox = {
+			name = "title"
+			position = { 0 4 }
+			minimumsize = { 280 32 }
+			maximumsize = { 280 32 }
+			multiline = yes
+			using = MarbleButtonFontL
+			fontsize = 20
+			autoresize = yes
+			margin_top = 4
+			parentanchor = hcenter
+			align = center
+			elide = right
+			text = "[EventWindow.GetTitle]"
+		}
+		
+	}
+	
+	flowcontainer = {
+		name = "Bottom"
+		resizeparent = yes
+		direction = horizontal
+		position = { 0 0 }
+		ignoreinvisible = yes
+		
+		
+		
+		container = {
+			name = "portraits_left"
+			visible = "[EventWindow.HasLeftPortraitCharacter('0')]"
+			ignoreinvisible = yes
+
+			container = {
+				using = minor_event_portrait
+				name = "portrait_left"
+				position = { 24 48 } 
+				datacontext = "[EventWindow.GetLeftPortraitCharacter('0')]"
+				visible = "[EventWindow.HasLeftPortraitCharacter('0')]"
+			}
+			
+		}
+		
+		flowcontainer = {
+			name = "Center_Box"
+			direction = vertical
+			margin_right = 50
+			margin_left = 0
+			margin_bottom = 0
+			ignoreinvisible = yes
+			
+			widget = {
+				name = "spacey"
+				size = { 0 50 }
+			}
+			
+			scrollarea = {
+				name = "description_scrollarea"
+				minimumsize = { -1 100 }
+				maximumsize = { -1 280 }
+				parentanchor = center
+				scrollbarpolicy_horizontal = always_off
+				
+				using = ScrollMessageBackground_2
+				
+				scrollbar_vertical = {
+					using = MarbleScrollBar
+				}
+				
+				scrollwidget = {
+					textbox = {
+						name = "description"
+						resizeparent = yes
+						minimumsize = { 360 -1 }
+						maximumsize = { 360 -1 }
+						multiline = yes
+						using = MarbleButtonFontS
+						autoresize = yes
+						margin = { 22 0 }
+						align = top|left
+						text = "[EventWindow.GetDescription]"
+					}
+				}
+			}
+			
+			widget = {
+				name = "spacer_2"
+				size = { 0 50 }
+			}
+			
+			fixedgridbox = {
+				name = "option_grid"
+				addcolumn = 340
+				addrow = 36
+				parentanchor = hcenter
+				item = {
+					container = {
+						using = minoreventbutton
+					}
+				}
+			}
+			
+			widget = {
+				name = "spacer_3"
+				size = { 0 20 }
+			}
+		}
+	}
+
+	go_to_button = {
+		name = "close_button"
+		parentanchor = top|right
+		shortcut = "go_to_button"
+		visible = "[EventWindow.HasLocation]"
+		onclick = "[EventWindow.GoToLocation]"
+		tooltip = "go_to"
+		position = { -6 7 }
+	}
+	
+	state = {
+		name = on_appear
+		
+		animation = {
+			position = { 0 -400 }
+		}
+		
+		trigger_on_create = yes
+		duration = 0.10
+		
+	}
+
+}

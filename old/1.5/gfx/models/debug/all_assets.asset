@@ -1,0 +1,790 @@
+    
+    
+		entity = {
+			name = "debug_all_ships_units_entity"
+			
+			locator = { name = "pos_01" position = { 0 0 0 } }
+			locator = { name = "pos_02" position = { -20 0 0 } }
+			locator = { name = "pos_03" position = { -40 0 0 } }
+			locator = { name = "pos_04" position = { -60 0 0 } }
+			locator = { name = "pos_05" position = { -80 0 0 } }
+			locator = { name = "pos_06" position = { -100 0 0 } }
+    
+			attach = { pos_01 = "egyptian_gfx_trireme" }
+			attach = { pos_02 = "greek_gfx_trireme" }
+			attach = { pos_03 = "north_indian_gfx_trireme" }
+			attach = { pos_04 = "roman_gfx_trireme" }
+			attach = { pos_05 = "persian_gfx_trireme" }
+			attach = { pos_06 = "celtic_gfx_trireme" }
+    
+    
+		}
+    
+		entity = {
+			name = "arabian_gfx_heavy_infantry_debug_entity"
+			pdxmesh = "arabian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "arabian_sword_01_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "arabian_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "barbarian_gfx_light_infantry_debug_entity"
+			pdxmesh = "barbarian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "ROM_spear_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "germanic_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "carthaginian_gfx_heavy_infantry_debug_entity"
+			pdxmesh = "carthaginian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "carthaginian_sword_01_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "carthaginian_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "celtic_gfx_heavy_infantry_debug_entity"
+			pdxmesh = "celtic_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "celtic_sword_01_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "celtic_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "dravidian_gfx_heavy_infantry_debug_entity"
+			pdxmesh = "dravidian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "dravidian_sword_01_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "dravidian_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "egyptian_gfx_light_infantry_debug_entity"
+			pdxmesh = "egyptian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_1_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "ROM_spear_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "egyptian_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "german_gfx_light_infantry_debug_entity"
+			pdxmesh = "germanic_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_1_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "ROM_spear_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "germanic_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "greek_gfx_light_infantry_debug_entity"
+			pdxmesh = "greek_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_1_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "ROM_spear_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "greek_shield_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "iberian_gfx_light_infantry_debug_entity"
+			pdxmesh = "iberian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "iberian_sword_01_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "iberian_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "roman_gfx_light_infantry_debug_entity"
+			pdxmesh = "italian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_1_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "ROM_spear_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "italian_shield_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "north_indian_gfx_light_infantry_debug_entity"
+			pdxmesh = "mauryan_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "mauryan_sword_01_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "mauryan_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "nubian_gfx_heavy_infantry_debug_entity"
+			pdxmesh = "nubian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "nubian_sword_01_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "nubian_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "persian_gfx_light_infantry_debug_entity"
+			pdxmesh = "persian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "ROM_spear_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "persian_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+    
+		entity = {
+			name = "EGY_light_infantry_debug_entity"
+			pdxmesh = "ptolomeic_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_1_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "ROM_spear_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "ptolomeic_shield_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "ROM_heavy_infantry_debug_entity"
+			pdxmesh = "ROM_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "ROM_sword_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "ROM_shield_entity" }
+			
+			Scale = 0.1
+		}
+    
+		entity = {
+			name = "scythian_gfx_light_infantry_debug_entity"
+			pdxmesh = "scythian_infantry_01_mesh"
+			
+			default_state = "idle"
+			state = {
+				name = "idle"
+				animation = "idle_2_base_animation"
+				looping = yes
+			}
+			attach = { THE_RIG:Right_hand_node_1 = "scythian_sword_01_entity" }
+			attach = { THE_RIG:Left_hand_node_1 = "scythian_shield_01_entity" }
+			
+			Scale = 0.1
+		}
+    
+    
+    
+		entity = {
+			name = "debug_all_units_entity"
+			
+			locator = { name = "pos_01" position = { 0 0 0 } }
+			locator = { name = "pos_02" position = { 10 0 0 } }
+			locator = { name = "pos_03" position = { 20 0 0 } }
+			locator = { name = "pos_04" position = { 30 0 0 } }
+			locator = { name = "pos_05" position = { 40 0 0 } }
+			locator = { name = "pos_06" position = { 50 0 0 } }
+			locator = { name = "pos_07" position = { 60 0 0 } }
+			locator = { name = "pos_08" position = { 70 0 0 } }
+			locator = { name = "pos_09" position = { 80 0 0 } }
+			locator = { name = "pos_10" position = { 90 0 0 } }
+			locator = { name = "pos_11" position = { 100 0 0 } }
+			locator = { name = "pos_12" position = { 110 0 0 } }
+			locator = { name = "pos_13" position = { 120 0 0 } }
+			locator = { name = "pos_14" position = { 130 0 0 } }
+			locator = { name = "pos_15" position = { 140 0 0 } }
+			locator = { name = "pos_16" position = { 150 0 0 } }
+    
+			
+			attach = { pos_01 = "arabian_gfx_heavy_infantry_debug_entity" }
+			attach = { pos_02 = "barbarian_gfx_light_infantry_debug_entity" }
+			attach = { pos_03 = "carthaginian_gfx_heavy_infantry_debug_entity" }
+			attach = { pos_04 = "celtic_gfx_heavy_infantry_debug_entity" }
+			attach = { pos_05 = "dravidian_gfx_heavy_infantry_debug_entity" }
+			attach = { pos_06 = "egyptian_gfx_light_infantry_debug_entity" }
+			attach = { pos_07 = "german_gfx_light_infantry_debug_entity" }
+			attach = { pos_08 = "greek_gfx_light_infantry_debug_entity" }
+			attach = { pos_09 = "iberian_gfx_light_infantry_debug_entity" }
+			attach = { pos_10 = "roman_gfx_light_infantry_debug_entity" }
+			attach = { pos_11 = "north_indian_gfx_light_infantry_debug_entity" }
+			attach = { pos_12 = "nubian_gfx_heavy_infantry_debug_entity" }
+			attach = { pos_13 = "persian_gfx_light_infantry_debug_entity" }
+			attach = { pos_14 = "EGY_light_infantry_debug_entity" }
+			attach = { pos_15 = "ROM_heavy_infantry_debug_entity" }
+			attach = { pos_16 = "scythian_gfx_light_infantry_debug_entity" }
+    
+		}
+    
+    
+    
+		entity = {
+			name = "debug_all_african_buildings_entity"
+			
+			locator = { name = "pos_00" position = { 0    0 0 } }
+			locator = { name = "pos_01" position = { 2.5  0 0 } }
+			locator = { name = "pos_02" position = { 5 0  0 } }
+			locator = { name = "pos_03" position = { 7.5  0 0 } }
+			locator = { name = "pos_04" position = { 10   0 0 } }
+			locator = { name = "pos_05" position = { 12.5 0 0 } }
+			locator = { name = "pos_06" position = { 15   0 0 } }
+			locator = { name = "pos_07" position = { 17.5 0 0 } }
+			locator = { name = "pos_08" position = { 20   0 0 } }
+			locator = { name = "pos_09" position = { 22.5 0 0 } }	
+			locator = { name = "pos_10" position = { 25   0 0 } }
+			locator = { name = "pos_11" position = { 27.5 0 0 } }
+			locator = { name = "pos_12" position = { 30   0 0 } }
+			locator = { name = "pos_13" position = { 32.5 0 0 } }
+			locator = { name = "pos_14" position = { 35   0 0 } }
+			locator = { name = "pos_15" position = { 37.5 0 0 } }
+			locator = { name = "pos_16" position = { 40   0 0 } }
+			locator = { name = "pos_17" position = { 42.5 0 0 } }
+			locator = { name = "pos_18" position = { 45   0 0 } }
+			locator = { name = "pos_19" position = { 47.5 0 0 } }
+			locator = { name = "pos_20" position = { 50   0 0 } }
+			locator = { name = "pos_21" position = { 52.5 0 0 } }
+			locator = { name = "pos_22" position = { 55   0 0 } }
+			locator = { name = "pos_23" position = { 57.5 0 0 } }
+    
+			attach = { pos_00 = "african_center_entity" }
+			attach = { pos_01 = "african_01_01_entity" }
+			attach = { pos_02 = "african_01_02_entity" }
+			attach = { pos_03 = "african_01_03_entity" }
+			attach = { pos_04 = "african_01_04_entity" }
+			attach = { pos_05 = "african_02_01_entity" }
+			attach = { pos_06 = "african_02_02_entity" }
+			attach = { pos_07 = "african_02_03_entity" }
+			attach = { pos_08 = "african_02_04_entity" }
+			attach = { pos_09 = "african_02_05_entity" }
+			attach = { pos_10 = "african_02_06_entity" }
+			attach = { pos_11 = "african_03_01_entity" }
+			attach = { pos_12 = "african_03_02_entity" }
+			attach = { pos_13 = "african_03_03_entity" }
+			attach = { pos_14 = "african_03_04_entity" }
+			attach = { pos_15 = "african_03_05_entity" }
+			attach = { pos_16 = "african_03_06_entity" }
+			attach = { pos_17 = "african_04_01_entity" }
+			attach = { pos_18 = "african_04_02_entity" }
+			attach = { pos_19 = "african_04_03_entity" }
+			attach = { pos_20 = "african_04_04_entity" }
+			attach = { pos_20 = "african_04_05_entity" }
+			attach = { pos_21 = "african_04_06_entity" }
+			attach = { pos_22 = "african_04_07_entity" }
+			attach = { pos_23 = "african_04_08_entity" }
+    
+			scale = 2.0
+		}
+    
+		entity = {
+			name = "debug_all_hellenistic_buildings_entity"
+			
+			locator = { name = "pos_00" position = { 0    0 0 } }
+			locator = { name = "pos_01" position = { 2.5  0 0 } }
+			locator = { name = "pos_02" position = { 5 0  0 } }
+			locator = { name = "pos_03" position = { 7.5  0 0 } }
+			locator = { name = "pos_04" position = { 10   0 0 } }
+			locator = { name = "pos_05" position = { 12.5 0 0 } }
+			locator = { name = "pos_06" position = { 15   0 0 } }
+			locator = { name = "pos_07" position = { 17.5 0 0 } }
+			locator = { name = "pos_08" position = { 20   0 0 } }
+			locator = { name = "pos_09" position = { 22.5 0 0 } }	
+			locator = { name = "pos_10" position = { 25   0 0 } }
+			locator = { name = "pos_11" position = { 27.5 0 0 } }
+			locator = { name = "pos_12" position = { 30   0 0 } }
+			locator = { name = "pos_13" position = { 32.5 0 0 } }
+			locator = { name = "pos_14" position = { 35   0 0 } }
+			locator = { name = "pos_15" position = { 37.5 0 0 } }
+			locator = { name = "pos_16" position = { 40   0 0 } }
+			locator = { name = "pos_17" position = { 42.5 0 0 } }
+			locator = { name = "pos_18" position = { 45   0 0 } }
+			locator = { name = "pos_19" position = { 47.5 0 0 } }
+			locator = { name = "pos_20" position = { 50   0 0 } }
+			locator = { name = "pos_21" position = { 52.5 0 0 } }
+			locator = { name = "pos_22" position = { 55   0 0 } }
+			locator = { name = "pos_23" position = { 57.5 0 0 } }
+			locator = { name = "pos_24" position = { 62 0 0 } }
+			locator = { name = "pos_25" position = { 68 0 0 } }
+			locator = { name = "pos_26" position = { 72.5 0 0 } }
+			locator = { name = "pos_27" position = { 75 0 0 } }
+			locator = { name = "pos_28" position = { 77.5 0 0 } }
+    
+    
+			attach = { pos_00 = "hellenistic_center_entity" }
+			attach = { pos_01 = "hellenistic_01_01_entity" }
+			attach = { pos_02 = "hellenistic_01_02_entity" }
+			attach = { pos_03 = "hellenistic_01_03_entity" }
+			attach = { pos_04 = "hellenistic_02_01_entity" }
+			attach = { pos_05 = "hellenistic_02_02_entity" }
+			attach = { pos_06 = "hellenistic_02_03_entity" }
+			attach = { pos_07 = "hellenistic_02_04_entity" }
+			attach = { pos_08 = "hellenistic_02_05_entity" }
+			attach = { pos_09 = "hellenistic_03_01_entity" }
+			attach = { pos_10 = "hellenistic_03_02_entity" }
+			attach = { pos_11 = "hellenistic_03_03_entity" }
+			attach = { pos_12 = "hellenistic_03_04_entity" }
+			attach = { pos_13 = "hellenistic_03_05_entity" }
+			attach = { pos_14 = "hellenistic_03_06_entity" }
+			attach = { pos_15 = "hellenistic_03_07_entity" }
+			attach = { pos_16 = "hellenistic_04_01_entity" }
+			attach = { pos_17 = "hellenistic_04_02_entity" }
+			attach = { pos_18 = "hellenistic_04_03_entity" }
+			attach = { pos_19 = "hellenistic_04_04_entity" }
+			attach = { pos_20 = "hellenistic_04_05_entity" }
+			attach = { pos_20 = "hellenistic_04_06_entity" }
+			attach = { pos_21 = "hellenistic_04_07_entity" }
+			attach = { pos_22 = "hellenistic_04_08_entity" }
+			attach = { pos_23 = "hellenistic_04_08_entity" }
+			attach = { pos_24 = "greek_gfx_fort_entity" }
+			attach = { pos_25 = "roman_gfx_port_entity" }
+			attach = { pos_26 = "roman_bridge_entity" }
+			attach = { pos_27 = "roman_bridge_medium_entity" }
+			attach = { pos_28 = "roman_bridge_small_entity" }
+    
+			scale = 2.0
+		}
+    
+		entity = {
+			name = "debug_all_indian_buildings_entity"
+			
+			locator = { name = "pos_00" position = { 0    0 0 } }
+			locator = { name = "pos_01" position = { 2.5  0 0 } }
+			locator = { name = "pos_02" position = { 5 0  0 } }
+			locator = { name = "pos_03" position = { 7.5  0 0 } }
+			locator = { name = "pos_04" position = { 10   0 0 } }
+			locator = { name = "pos_05" position = { 12.5 0 0 } }
+			locator = { name = "pos_06" position = { 15   0 0 } }
+			locator = { name = "pos_07" position = { 17.5 0 0 } }
+			locator = { name = "pos_08" position = { 20   0 0 } }
+			locator = { name = "pos_09" position = { 22.5 0 0 } }	
+			locator = { name = "pos_10" position = { 25   0 0 } }
+			locator = { name = "pos_11" position = { 27.5 0 0 } }
+			locator = { name = "pos_12" position = { 30   0 0 } }
+			locator = { name = "pos_13" position = { 32.5 0 0 } }
+			locator = { name = "pos_14" position = { 35   0 0 } }
+			locator = { name = "pos_15" position = { 37.5 0 0 } }
+			locator = { name = "pos_16" position = { 40   0 0 } }
+			locator = { name = "pos_17" position = { 42.5 0 0 } }
+			locator = { name = "pos_18" position = { 45   0 0 } }
+			locator = { name = "pos_19" position = { 47.5 0 0 } }
+			locator = { name = "pos_20" position = { 50   0 0 } }
+			locator = { name = "pos_21" position = { 52.5 0 0 } }
+			locator = { name = "pos_22" position = { 55   0 0 } }
+			locator = { name = "pos_23" position = { 57.5 0 0 } }
+			locator = { name = "pos_24" position = { 60   0 0 } }
+			locator = { name = "pos_25" position = { 65 0 0 } rotation = { 90 0 0 } }
+    
+			attach = { pos_00 = "indian_center_entity" }
+			attach = { pos_01 = "indian_01_01_entity" }
+			attach = { pos_02 = "indian_01_02_entity" }
+			attach = { pos_03 = "indian_01_03_entity" }
+			attach = { pos_04 = "indian_01_04_entity" }
+			attach = { pos_05 = "indian_02_01_entity" }
+			attach = { pos_06 = "indian_02_02_entity" }
+			attach = { pos_07 = "indian_02_03_entity" }
+			attach = { pos_08 = "indian_02_04_entity" }
+			attach = { pos_09 = "indian_02_05_entity" }
+			attach = { pos_10 = "indian_02_06_entity" }
+			attach = { pos_11 = "indian_03_01_entity" }
+			attach = { pos_12 = "indian_03_02_entity" }
+			attach = { pos_13 = "indian_03_03_entity" }
+			attach = { pos_14 = "indian_03_04_entity" }
+			attach = { pos_15 = "indian_03_05_entity" }
+			attach = { pos_16 = "indian_03_06_entity" }
+			attach = { pos_17 = "indian_03_07_entity" }
+			attach = { pos_18 = "indian_04_01_entity" }
+			attach = { pos_19 = "indian_04_02_entity" }
+			attach = { pos_20 = "indian_04_03_entity" }
+			attach = { pos_20 = "indian_04_04_entity" }
+			attach = { pos_21 = "indian_04_05_entity" }
+			attach = { pos_22 = "indian_04_06_entity" }
+			attach = { pos_23 = "indian_04_07_entity" }
+			attach = { pos_24 = "indian_04_08_entity" }
+			attach = { pos_25 = "north_indian_gfx_fort_entity" }
+    
+			scale = 2.0
+		}
+    
+		entity = {
+			name = "debug_all_persian_buildings_entity"
+			
+			locator = { name = "pos_00" position = { 0    0 0 } }
+			locator = { name = "pos_01" position = { 2.5  0 0 } }
+			locator = { name = "pos_02" position = { 5 0  0 } }
+			locator = { name = "pos_03" position = { 7.5  0 0 } }
+			locator = { name = "pos_04" position = { 10   0 0 } }
+			locator = { name = "pos_05" position = { 12.5 0 0 } }
+			locator = { name = "pos_06" position = { 15   0 0 } }
+			locator = { name = "pos_07" position = { 17.5 0 0 } }
+			locator = { name = "pos_08" position = { 20   0 0 } }
+			locator = { name = "pos_09" position = { 22.5 0 0 } }	
+			locator = { name = "pos_10" position = { 25   0 0 } }
+			locator = { name = "pos_11" position = { 27.5 0 0 } }
+			locator = { name = "pos_12" position = { 30   0 0 } }
+			locator = { name = "pos_13" position = { 32.5 0 0 } }
+			locator = { name = "pos_14" position = { 35   0 0 } }
+			locator = { name = "pos_15" position = { 37.5 0 0 } }
+			locator = { name = "pos_16" position = { 40   0 0 } }
+			locator = { name = "pos_17" position = { 42.5 0 0 } }
+			locator = { name = "pos_18" position = { 45   0 0 } }
+			locator = { name = "pos_19" position = { 47.5 0 0 } }
+			locator = { name = "pos_20" position = { 50   0 0 } }
+			locator = { name = "pos_21" position = { 52.5 0 0 } }
+			locator = { name = "pos_22" position = { 58   0 0 } rotation = { 90 0 0 } }
+			locator = { name = "pos_23" position = { 65.0 0 0 } }
+    
+			attach = { pos_00 = "persian_center_entity" }
+			attach = { pos_01 = "persian_01_01_entity" }
+			attach = { pos_02 = "persian_01_02_entity" }
+			attach = { pos_03 = "persian_01_03_entity" }
+			attach = { pos_04 = "persian_01_04_entity" }
+			attach = { pos_05 = "persian_02_01_entity" }
+			attach = { pos_06 = "persian_02_02_entity" }
+			attach = { pos_07 = "persian_02_03_entity" }
+			attach = { pos_08 = "persian_02_04_entity" }
+			attach = { pos_09 = "persian_02_05_entity" }
+			attach = { pos_10 = "persian_02_06_entity" }
+			attach = { pos_11 = "persian_03_01_entity" }
+			attach = { pos_12 = "persian_03_02_entity" }
+			attach = { pos_13 = "persian_03_03_entity" }
+			attach = { pos_14 = "persian_03_04_entity" }
+			attach = { pos_15 = "persian_03_05_entity" }
+			attach = { pos_16 = "persian_03_06_entity" }
+			attach = { pos_17 = "persian_04_01_entity" }
+			attach = { pos_18 = "persian_04_02_entity" }
+			attach = { pos_19 = "persian_04_03_entity" }
+			attach = { pos_20 = "persian_04_04_entity" }
+			attach = { pos_20 = "persian_04_05_entity" }
+			attach = { pos_21 = "persian_04_06_entity" }
+			attach = { pos_22 = "persian_gfx_fort_entity" }
+			attach = { pos_23 = "persian_gfx_port_entity" }
+    
+			scale = 2.0
+		}
+    
+		entity = {
+			name = "debug_all_steppe_buildings_entity"
+			
+			locator = { name = "pos_00" position = { 0    0 0 } }
+			locator = { name = "pos_01" position = { 2.5  0 0 } }
+			locator = { name = "pos_02" position = { 5 0  0 } }
+			locator = { name = "pos_03" position = { 7.5  0 0 } }
+			locator = { name = "pos_04" position = { 10   0 0 } }
+			locator = { name = "pos_05" position = { 12.5 0 0 } }
+			locator = { name = "pos_06" position = { 15   0 0 } }
+			locator = { name = "pos_07" position = { 17.5 0 0 } }
+			locator = { name = "pos_08" position = { 20   0 0 } }
+			locator = { name = "pos_09" position = { 22.5 0 0 } }	
+			locator = { name = "pos_10" position = { 25   0 0 } }
+			locator = { name = "pos_11" position = { 27.5 0 0 } }
+			locator = { name = "pos_12" position = { 30   0 0 } }
+			locator = { name = "pos_13" position = { 32.5 0 0 } }
+			locator = { name = "pos_14" position = { 35   0 0 } }
+			locator = { name = "pos_15" position = { 37.5 0 0 } }
+			locator = { name = "pos_16" position = { 40   0 0 } }
+			locator = { name = "pos_17" position = { 42.5 0 0 } }
+			locator = { name = "pos_18" position = { 45   0 0 } }
+			locator = { name = "pos_19" position = { 47.5 0 0 } }
+			locator = { name = "pos_20" position = { 50   0 0 } }
+			locator = { name = "pos_21" position = { 52.5 0 0 } }
+			locator = { name = "pos_22" position = { 55   0 0 } }
+		#	locator = { name = "pos_23" position = { 57.5 0 0 } }
+		#	locator = { name = "pos_24" position = { 60.5   0 0 } }
+		#	locator = { name = "pos_25" position = { 62.5 0 0 } }
+		#	locator = { name = "pos_26" position = { 68.5 0 0 0 }
+		#	locator = { name = "pos_27" position = { 67.5 0 0 } }
+		#	locator = { name = "pos_28" position = { 70   0 0 } }
+		#	locator = { name = "pos_29" position = { 72.5 0 0 } }
+    
+			attach = {  pos_00 = "steppe_center_entity" }
+			attach = {  pos_01 = "steppe_01_01_entity" }
+			attach = {  pos_02 = "steppe_01_02_entity" }
+			attach = {  pos_03 = "steppe_01_03_entity" }
+			attach = {  pos_04 = "steppe_01_04_entity" }
+			attach = {  pos_05 = "steppe_01_05_entity" }
+			attach = {  pos_06 = "steppe_02_01_entity" }
+			attach = {  pos_07 = "steppe_02_02_entity" }
+			attach = {  pos_08 = "steppe_02_03_entity" }
+			attach = {  pos_09 = "steppe_02_04_entity" }
+			attach = {  pos_10 = "steppe_02_05_entity" }
+			attach = {  pos_11 = "steppe_02_06_entity" }
+			attach = {  pos_12 = "steppe_02_07_entity" }
+			attach = {  pos_13 = "steppe_03_01_entity" }
+			attach = {  pos_14 = "steppe_03_02_entity" }
+			attach = {  pos_15 = "steppe_03_03_entity" }
+			attach = {  pos_16 = "steppe_03_04_entity" }
+			attach = {  pos_17 = "steppe_03_05_entity" }
+			attach = {  pos_18 = "steppe_04_01_entity" }
+			attach = {  pos_19 = "steppe_04_02_entity" }
+			attach = {  pos_20 = "steppe_04_03_entity" }
+			attach = {  pos_20 = "steppe_04_04_entity" }
+			attach = {  pos_21 = "steppe_04_05_entity" }
+			attach = {  pos_22 = "steppe_04_06_entity" }
+    
+			scale = 2.0
+		}
+    
+		entity = {
+			name = "debug_all_tribal_buildings_entity"
+			
+			locator = { name = "pos_00" position = { 0    0 0 } }
+			locator = { name = "pos_01" position = { 2.5  0 0 } }
+			locator = { name = "pos_02" position = { 5 0  0 } }
+			locator = { name = "pos_03" position = { 7.5  0 0 } }
+			locator = { name = "pos_04" position = { 10   0 0 } }
+			locator = { name = "pos_05" position = { 12.5 0 0 } }
+			locator = { name = "pos_06" position = { 15   0 0 } }
+			locator = { name = "pos_07" position = { 17.5 0 0 } }
+			locator = { name = "pos_08" position = { 20   0 0 } }
+			locator = { name = "pos_09" position = { 22.5 0 0 } }	
+			locator = { name = "pos_10" position = { 25   0 0 } }
+			locator = { name = "pos_11" position = { 27.5 0 0 } }
+			locator = { name = "pos_12" position = { 30   0 0 } }
+			locator = { name = "pos_13" position = { 32.5 0 0 } }
+			locator = { name = "pos_14" position = { 35   0 0 } }
+			locator = { name = "pos_15" position = { 37.5 0 0 } }
+			locator = { name = "pos_16" position = { 40   0 0 } }
+			locator = { name = "pos_17" position = { 42.5 0 0 } }
+			locator = { name = "pos_18" position = { 45   0 0 } }
+			locator = { name = "pos_19" position = { 47.5 0 0 } }
+			locator = { name = "pos_20" position = { 50   0 0 } }
+			locator = { name = "pos_21" position = { 52.5 0 0 } }
+			locator = { name = "pos_22" position = { 55   0 0 } }
+			locator = { name = "pos_23" position = { 57.5 0 0 } }
+			locator = { name = "pos_24" position = { 60   0 0 } }
+			locator = { name = "pos_25" position = { 65   0 0 } }
+			locator = { name = "pos_26" position = { 72   0 0 } }
+		#	locator = { name = "pos_27" position = { 67.5 0 0 } }
+		#	locator = { name = "pos_28" position = { 70   0 0 } }
+		#	locator = { name = "pos_29" position = { 72.5 0 0 } }
+    
+			attach = {  pos_00 = "tribal_center_entity" }
+			attach = {  pos_01 = "tribal_01_01_entity" }
+			attach = {  pos_02 = "tribal_01_02_entity" }
+			attach = {  pos_03 = "tribal_01_03_entity" }
+			attach = {  pos_04 = "tribal_01_04_entity" }
+			attach = {  pos_05 = "tribal_02_01_entity" }
+			attach = {  pos_06 = "tribal_02_02_entity" }
+			attach = {  pos_07 = "tribal_02_03_entity" }
+			attach = {  pos_08 = "tribal_02_04_entity" }
+			attach = {  pos_09 = "tribal_02_05_entity" }
+			attach = {  pos_10 = "tribal_02_06_entity" }
+			attach = {  pos_11 = "tribal_03_01_entity" }
+			attach = {  pos_12 = "tribal_03_02_entity" }
+			attach = {  pos_13 = "tribal_03_03_entity" }
+			attach = {  pos_14 = "tribal_03_04_entity" }
+			attach = {  pos_15 = "tribal_03_05_entity" }
+			attach = {  pos_16 = "tribal_03_06_entity" }
+			attach = {  pos_17 = "tribal_03_07_entity" }
+			attach = {  pos_18 = "tribal_04_01_entity" }
+			attach = {  pos_19 = "tribal_04_02_entity" }
+			attach = {  pos_20 = "tribal_04_03_entity" }
+			attach = {  pos_20 = "tribal_04_04_entity" }
+			attach = {  pos_21 = "tribal_04_05_entity" }
+			attach = {  pos_22 = "tribal_04_06_entity" }
+			attach = {  pos_23 = "tribal_04_07_entity" }
+			attach = {  pos_24 = "tribal_04_08_entity" }
+			attach = {  pos_25 = "celtic_gfx_fort_entity" }
+			attach = {  pos_26 = "celtic_gfx_port_entity" }
+    
+			scale = 2.0
+		}
+    
+		entity = {
+			name = "wonder_giza_debug_entity"
+			pdxmesh = "wonder_giza_mesh"
+			scale = 0.4
+		}
+    
+		entity = {
+			name = "debug_all_misc_buildings_entity"
+			
+			locator = { name = "pos_00" position = { 0    0 -1 } }
+			locator = { name = "pos_01" position = { -10  0 0 } }
+			locator = { name = "pos_02" position = { -20  0 0 } }
+			locator = { name = "pos_03" position = { -30  0 0 } }
+			locator = { name = "pos_04" position = { -40  0 0 } }
+			locator = { name = "pos_05" position = { -50  0 0 } }
+			locator = { name = "pos_06" position = { -50  0 0 } }
+			locator = { name = "pos_07" position = { -60  0 0 } }
+			locator = { name = "pos_08" position = { -70  0 0 } }
+			locator = { name = "pos_09" position = { -80  0 0 } }	
+			locator = { name = "pos_10" position = { -90  0 0 } }
+			locator = { name = "pos_11" position = { -100 0 0 } }
+			locator = { name = "pos_12" position = { -10 0 0 } }
+			locator = { name = "pos_13" position = { -10 0 0 } }
+			locator = { name = "pos_14" position = { -10 0 0 } }
+			locator = { name = "pos_15" position = { -10 0 0 } }
+			locator = { name = "pos_16" position = { -10 0 0 } }
+			locator = { name = "pos_17" position = { -10 0 0 } }
+			locator = { name = "pos_18" position = { -10 0 0 } }
+			locator = { name = "pos_19" position = { -10 0 0 } }
+			locator = { name = "pos_20" position = { -10 0 0 } }
+			locator = { name = "pos_21" position = { -10 0 0 } }
+			locator = { name = "pos_22" position = { -10 0 0 } }
+			locator = { name = "pos_23" position = { -10 0 0 } }
+			locator = { name = "pos_24" position = { -10 0 0 } }
+		#	locator = { name = "pos_25" position = { -65   0 0 } }
+		#	locator = { name = "pos_26" position = { -72   0 0 } }
+		#	locator = { name = "pos_27" position = { -67.5 0 0 } }
+		#	locator = { name = "pos_28" position = { -70   0 0 } }
+		#	locator = { name = "pos_29" position = { -72.5 0 0 } }
+    
+			attach = {  pos_00 = "wonder_giza_debug_entity" }
+			attach = {  pos_01 = "wonder_colossus_of_rhodes_entity" }
+			attach = {  pos_02 = "wonder_halicarnassus_entity" }
+			attach = {  pos_03 = "wonder_temple_artemis_entity" }
+			attach = {  pos_04 = "wonder_taxila_entity" }
+			attach = {  pos_05 = "wonder_hanging_gardens_entity" }
+			attach = {  pos_06 = "wonder_stonehenge_entity" }
+			attach = {  pos_07 = "wonder_temple_artemis_entity" }
+			attach = {  pos_08 = "wonder_lighthouse_of_pharos_entity" }
+			attach = {  pos_09 = "wonder_temple_of_zeus_entity" }
+		#	attach = {  pos_10 = "" }
+		#	attach = {  pos_11 = "" }
+		#	attach = {  pos_12 = "" }
+		#	attach = {  pos_13 = "" }
+		#	attach = {  pos_14 = "" }
+		#	attach = {  pos_15 = "" }
+		#	attach = {  pos_16 = "" }
+		#	attach = {  pos_17 = "" }
+		#	attach = {  pos_18 = "" }
+		#	attach = {  pos_19 = "" }
+		#	attach = {  pos_20 = "" }
+		#	attach = {  pos_20 = "" }
+		#	attach = {  pos_21 = "" }
+		#	attach = {  pos_22 = "" }
+		#	attach = {  pos_23 = "" }
+		#	attach = {  pos_24 = "" }
+    
+    
+			scale = 2.0
+		}
+    
+		entity = {
+			name = "all_assets"
+			
+			locator = { name = "pos_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+			locator = { name = "pos_02" position = { -15 0 0 } rotation = { 0 0 0 } }
+			locator = { name = "pos_03" position = { 0 0 -10 } rotation = { 0 0 0 } }
+			locator = { name = "pos_04" position = { 0 0 -20 } rotation = { 0 0 0 } }
+			locator = { name = "pos_05" position = { 0 0 -30 } rotation = { 0 0 0 } }
+			locator = { name = "pos_06" position = { 0 0 -40 } rotation = { 0 0 0 } }
+			locator = { name = "pos_07" position = { 0 0 -50 } rotation = { 0 0 0 } }
+			locator = { name = "pos_08" position = { 0 0 -60 } rotation = { 0 0 0 } }
+			locator = { name = "pos_09" position = { -25 0 -25 } rotation = { 0 0 0 } }
+			
+			attach = { pos_01 = "debug_all_units_entity" }
+			attach = { pos_02 = "debug_all_ships_units_entity" }
+			attach = { pos_03 = "debug_all_african_buildings_entity" }
+			attach = { pos_04 = "debug_all_indian_buildings_entity" }
+			attach = { pos_05 = "debug_all_hellenistic_buildings_entity" }
+			attach = { pos_06 = "debug_all_persian_buildings_entity" }
+			attach = { pos_07 = "debug_all_steppe_buildings_entity" }
+			attach = { pos_08 = "debug_all_tribal_buildings_entity" }
+			attach = { pos_09 = "debug_all_misc_buildings_entity" }
+			
+			cull_radius = 150
+		}

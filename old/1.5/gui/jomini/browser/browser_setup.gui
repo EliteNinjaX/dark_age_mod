@@ -1,0 +1,122 @@
+types CreditsWindow {
+	type JominiWebView = webwindow {
+		name = "webwindow"
+		block "webstyle" {
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			texture = "gfx/browser/background.png"
+			alwaystransparent = no
+			focuspolicy = all
+			size = { 800 900 }
+		}
+		
+		block "url" {
+			url = "https://www.paradoxplaza.com/"
+			useragent = "OurGame"
+		}
+	}
+	
+	type JominiWebViewButton = button {
+		block "buttonstyle" {
+			size = { 40 40 }
+		}
+	}
+
+	type JominiWebViewAddressBox = editbox {
+		text = "[BrowserWindow.GetUrl]"
+		oneditingfinished = [BrowserWindow.SetUrl];
+		using = MarbleButtonFont
+
+		block "addressstyle" {
+			alwaystransparent = no
+			focuspolicy = all
+
+			cursorcolor = { 1 1 1 1 }
+			selectioncolor = { 0.45 0.45 0.45 0.7 }
+			
+			background = {
+				margin_left = 5
+				margin_top = 0
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = CorneredTiled
+				spriteborder = { 12 12 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+		}
+	}
+	
+	type JominiBrowserWindowBackwardButton = JominiWebViewButton {
+		name = "backward_button"
+		block "buttontexture" {
+			texture = "gfx/interface/buttons/button_left_arrow.dds"
+		}
+		enabled = "[BrowserWindow.CanGoBack]"
+		onclick = "[BrowserWindow.GoBack]"
+	}
+	
+	type JominiBrowserWindowForwardButton = JominiWebViewButton {
+		name = "forward_button"
+		block "buttontexture" {
+			texture = "gfx/interface/buttons/button_right_arrow.dds" 
+		}
+		enabled = "[BrowserWindow.CanGoForward]"
+		onclick = "[BrowserWindow.GoForward]"
+	}
+	
+	type JominiBrowserWindowReloadButton = JominiWebViewButton {
+		name = "reload_button"
+		block "buttontexture" {
+			texture = "gfx/interface/buttons/button_value_base.dds"
+		}
+		onclick = "[BrowserWindow.ReloadPage]"
+	}
+	
+	type JominiBrowserWindowHomeButton = JominiWebViewButton {
+		name = "home_button"
+		block "buttontexture" {
+			texture = "gfx/interface/buttons/button_menu.dds"
+		}
+		onclick = "[BrowserWindow.GoHome]"
+	}
+	
+	type JominiBrowserWindowCloseButton = JominiWebViewButton {
+		name = "close_button"
+		block "buttontexture" {
+			texture = "gfx/interface/buttons/button_close.dds"
+		}
+		onclick = "[BrowserWindow.Close]"
+	}
+	
+	type JominiBrowserWindowAddressBox = JominiWebViewAddressBox {
+		layoutpolicy_horizontal = expanding
+	}
+	
+	type JominiBrowserWindow = window {
+		name = "JominiBrowserWindow"
+		maximumsize = { 4096 2160 }
+		
+		block "browserwindowstyle" {
+			parentanchor = center
+			size = { 800 900 }
+			minimumsize = { 250 250 }
+			resizable = yes
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			spriteType = Corneredtiled
+			spriteborder = { 0 0 }
+			gfxtype = windowgfx
+			
+			widget = {
+				size = { 800 900 }
+				
+				JominiWebView = {}
+
+				widget = {
+					size = { 40 40 }
+					position = { -16 0 }
+					parentanchor = top|right
+					JominiBrowserWindowCloseButton = {}
+					
+				}
+			}
+		}
+	}
+}

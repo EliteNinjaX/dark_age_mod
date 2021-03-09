@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "substance_bg_mesh"
+	file = "substance_bg.mesh"
+
+	meshsettings = {
+		name = "pPlaneShape1"
+		index = 0
+		texture_diffuse = "substance_bg.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	scale = 0.7
+}
+
+entity = {
+	name = "shader_test_all_test_objects"
+	pdxmesh = "substance_bg_mesh"
+	
+	locator = { name = loc_01 position = { 35.0 1.0 -25.0 } }
+	locator = { name = loc_02 position = { 40.0 1.0 10.0 } }
+	locator = { name = loc_03 position = { -35.0 1.0 -25.0 } }
+	
+	attach = { loc_01 = "multi_test_object_roughness_entity" }
+	attach = { loc_02 = "multi_test_object_entity" }
+	attach = { loc_03 = "shader_test_simple_entity" }
+	scale = 1.2
+}

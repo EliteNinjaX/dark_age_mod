@@ -1,0 +1,173 @@
+entity = {
+	name = "siege_fire_01_entity"
+	
+	locator = { 
+		name = loc_01 position = { 0.0 0.0 0.0 } 
+	}
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes
+		 		
+		#next_state = "idle"
+		state_time = 5
+		start_event = { sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_fire"} keep_sound = yes}
+		event = {			
+			particle = "environment/siege_fire_01_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = yes 
+		}
+    }
+	state = { name = "end" state_time = 30 looping = no
+		
+	}	
+}
+
+entity = {
+	name = "siege_fire_02_entity"
+	
+	locator = { 
+		name = loc_01 position = { 0.0 0.0 0.0 } 
+	}
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes
+		 		
+		#next_state = "idle"
+		state_time = 5
+		start_event = { sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_fire"} keep_sound = yes}
+		event = {			
+			particle = "environment/siege_fire_02_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = yes 
+		}
+    }
+	state = { name = "end" state_time = 30 looping = no
+		
+	}	
+}
+
+entity = {
+	name = "siege_fort_fire_01_entity"
+	
+	locator = { 
+		name = loc_01 position = { 0.0 0.0 0.0 } 
+	}
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes
+		 		
+		#next_state = "idle"
+		state_time = 5
+		start_event = { sound = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Nature/sfx_amb_3d_fire"} keep_sound = yes}
+		event = {			
+			particle = "environment/siege_fort_fire_01_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = yes 
+		}
+    }
+	state = { name = "end" state_time = 30 looping = no
+		
+	}	
+}
+
+	
+entity = {
+	name = "fire_01_entity"
+	
+	locator = { 
+		name = loc_01 position = { 0.0 2.0 0.0 } 
+	}
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes	
+		start_event = {
+			#time = 0.0 	
+			particle = "environment/fire_01_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = yes 
+		}
+    }
+	state = { name = "end" state_time = 30 looping = no
+		
+	}	
+}
+
+entity = {
+	name = "siege_smoke_01_entity"
+	
+	locator = { 
+		name = loc_01 position = { 0.0 2.0 0.0 } 
+	}
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		state_time = 5
+		event = {
+			time = 0.0 	
+			particle = "environment/siege_smoke_01_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = yes
+		}
+    }
+	state = { name = "end" state_time = 30 looping = no
+		
+	}	
+}
+
+entity = {
+	name = "naval_combat_arrow_01_entity"
+	
+	locator = { 
+		name = loc_01 position = { 0.0 2.0 0.0 } 
+	}
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes
+		state_time = 3
+		event = {
+			time = 0.0 	
+			particle = "units/naval_combat_arrow_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = no
+		}
+    }
+}
+
+entity = {
+	name = "wave_splash_01_entity"
+	
+	locator = { 
+		name = loc_01 position = { 0.0 2.0 0.0 } 
+	}
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+		looping = yes
+		state_time = 3
+		event = {
+			time = 0.0 	
+			particle = "environment/wave_splash_01_effect"
+			node = loc_01
+			keep_particle = yes
+			trigger_once = no 
+		}
+    }
+}

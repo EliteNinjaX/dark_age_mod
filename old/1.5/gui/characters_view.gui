@@ -1,0 +1,1500 @@
+types CharacterFilterTypes
+{
+	type CharacterFilterButton = sort_button {
+		size = { 40 40 }
+		down = yes
+		tooltip = "CHARACTER_VIEW_FILTER_TOGGLE_TOOLTIP"
+		clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_select"
+		
+		block "button_values"
+		{
+			name = "filter_generic"
+		}
+	}
+	
+	type CharacterFilterButtonIcon = icon {
+		position = { 9 6 }
+		size = { 25 25 }
+	}
+	
+	type CharacterFiltericon = Icon {
+		texture = "gfx/interface/tiles/value_slot_corner_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 8 8 }
+		size = { 140 28 }
+		parentanchor = vcenter
+		
+		block "icon_values"
+		{
+			tooltip = "CHARACTER_VIEW_FILTER_BY_EMPLOYMENT_TOOLTIP"
+		}
+		
+		textbox = {
+			position = { 8 -2 }
+			size = { 108 20 }
+			using = MarbleButtonFontS
+			align = left
+			parentanchor = vcenter
+			
+			block "textbox_values"
+			{
+				text = "CHARACTER_VIEW_FILTER_BY_EMPLOYMENT"
+			}
+		}
+	}
+}
+
+window = {
+	gfxtype = windowgfx
+	name = "characters_view"
+	
+	parentanchor = top|left
+	size = { 1300 860 }
+	position = { 5 120 }
+	widgetanchor = top|left
+	movable = no
+	
+	widget = {
+		name = "background"
+		using = Large_window_type
+		size = { 100% 100% }
+		alwaystransparent = yes
+		position = { 0 0 }
+		
+		blockoverride "header"
+		{
+			text = "CHARACTERS_MENU_HEADER"
+			tooltip = "CHARACTERS_MENU_HEADER_TT"
+		}
+		
+		blockoverride "width_L"
+		{
+			size = { 360 64 }
+		}
+		
+		blockoverride "width_R"
+		{
+			size = { 360 64 }
+		}
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -12 12 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[CharactersView.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	left_arrow_button = {
+		name = "previous_button"
+		position = { 444 14 }
+		parentanchor = top|left
+		shortcut = "previous_window"
+		onclick = "[CharactersView.OnPrevious]"
+		tooltip = "PREVIOUS_CHARACTER_VIEW"
+	}
+	
+	
+	
+	sort_button = {
+		name = "show_characters"
+		visible = yes
+		position = { 50 67 }
+		size = { 300 40 }
+		tooltip = CHARACTER_VIEW_CHARS_TOOLTIP
+		onclick = "[CharactersView.ShowCharacters]"
+		down = "[Not(CharactersView.IsShowFamily)]"
+		
+		
+		textbox = {
+			using = MarbleButtonFontM
+			#parentanchor = top|left
+			size = { 280 24 }
+			position = { 12 4 }
+			align = center
+			text = "CHARACTERS_LIST"
+		}
+	
+	
+	}
+	
+	sort_button = {
+		name = "show_family"
+		visible = yes
+		position = { -60 67 }
+		parentanchor = top|right
+		
+		size = { 300 40 }
+		tooltip = CHARACTER_VIEW_FAMILY_TOOLTIP
+		onclick = "[CharactersView.ShowFamily]"
+		down = "[CharactersView.IsShowFamily]"
+		
+		textbox = {
+			visible = "[Not(CharactersView.GetSelectedCountry.GetGovernment.IsTribal)]"
+			using = MarbleButtonFontM
+			#parentanchor = top|left
+			size = { 280 24 }
+			position = { 12 4 }
+			align = center
+			text = "FAMILY_LIST"
+		}
+		
+		textbox = {
+			visible = [CharactersView.GetSelectedCountry.GetGovernment.IsTribal]
+			using = MarbleButtonFontM
+			#parentanchor = top|left
+			size = { 280 24 }
+			position = { 12 4 }
+			align = center
+			text = "FAMILY_LIST_TRIBAL"
+		}
+	
+	
+	}
+	
+	country_flag = {
+		position = { 48 120 }
+		datacontext = "[CharactersView.GetSelectedCountry]"
+		visible = "[Not(CharactersView.IsShowFamily)]"
+		
+					
+		blockoverride "flag"
+		{
+			
+			texture = "[CharactersView.GetSelectedCountry.AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+			frame = "[CharactersView.GetSelectedCountry.AccessCoatOfArms.GetFrame('(int32)120','(int32)120'))]"
+			framesize = { 120 120 }
+		}
+		
+		blockoverride "size"
+		{
+			size = { 64 64 }
+		}
+		
+		blockoverride "click"
+		{
+			onclick = "[OpenDiplomacy(CharactersView.GetSelectedCountry)]"
+		}
+		
+		tooltip = "COUNTRY_SHORTHAND_INFO"
+
+		
+	}
+	
+	
+	sort_button = {
+		name = "sort_traits"
+		size = { 183 40 }
+		position = { 750 67 }
+		text = "SHOW_PLAYER"
+		onclick = "[CharactersView.ResetCountry]"
+		visible = "[Not(CharactersView.IsPlayer)]"
+		using = MarbleButtonFontM
+		
+		blockoverride "text_position"
+		{
+			position = { 0 -12 }
+		}
+	}
+	
+	
+	icon = {
+		position = { 50 159 }
+		size = { 1196 667 }
+		texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 28 20 }
+		visible = "[CharactersView.IsShowFamily]"
+	}
+	
+	container = {
+		visible = "[CharactersView.IsShowFamily]"
+		
+		flowcontainer = {
+			position = { 0 111 }
+			
+			widget = {
+				size = { 52 4 }
+			}
+			
+			sort_button = {
+				size = { 50 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_SIZE_TOOLTIP
+				onclick = "[CharactersView.SortFamily('size')]"
+				down = "[CharactersView.IsFamilySorted('size')]"
+				
+				icon = {
+					position = { 10 3 }
+					size = { 32 32 }
+					texture = "gfx/interface/icons/shared_icons/family_size.dds"
+				}
+			}
+			
+			sort_button = {
+				text = "FAMILY_NAME_BTN"
+				size = { 810 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_NAME_TOOLTIP
+				onclick = "[CharactersView.SortFamily('name')]"
+				down = "[CharactersView.IsFamilySorted('name')]"
+				using = MarbleButtonFontM
+				
+				blockoverride "text_position"
+				{
+					position = { 0 -12 }
+				}
+			}
+			
+			sort_button = {
+				name = "sort_power_base"
+				size = { 72 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_POWER_BASE_TOOLTIP
+				onclick = "[CharactersView.SortFamily('powerbase')]"
+				down = "[CharactersView.IsFamilySorted('powerbase')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					using = icon_power_base
+				}
+			}
+			sort_button = {
+				name = "wage_sort"
+				size = { 112 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_WAGE_TOOLTIP
+				onclick = "[CharactersView.SortFamily('wage')]"
+				down = "[CharactersView.IsFamilySorted('wage')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					texture = "gfx/interface/icons/shared_icons/office.dds"
+				}
+			}
+			
+			sort_button = {
+				size = { 80 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_PRESTIGE_TOOLTIP
+				onclick = "[CharactersView.SortFamily('prestige')]"
+				down = "[CharactersView.IsFamilySorted('prestige')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					texture = "gfx/interface/icons/modifiers/monthly_character_fam_prestige.dds"
+				}
+			}
+			
+			
+		}
+		
+		
+		scrollarea = {
+			position = { 54 161 }
+			size = { 1185 660 }
+			scrollbarpolicy_horizontal = always_off
+			
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+				blockoverride "ScrollBar_offset"
+				{
+					size = { 0 4 }
+				}
+			}
+			
+			scrollwidget = {
+				dynamicgridbox = {
+					name = "families_grid"
+					position = { 0 0 }
+					#addcolumn = 1192
+					#addrow = 124
+					#maxhorizontalslots = 1
+					
+					datamodel = "[CharactersView.GetFamilies]"
+					
+					item = {
+						container = {
+							
+							container = {
+								DefaultHeaderBackground = {
+									position = { -4 0 }
+									size = { 1182 42 }
+									
+									
+									blockoverride "family_tile"
+									{
+										texture = "gfx/interface/tiles/family_tile.dds"
+										position = { 3 10 }
+										color = "[FamilyGlue.GetFamily.GetBackgroundColor]"
+										size = { 340 22 }
+										alpha = 0.6
+									}
+									
+									blockoverride "position"
+									{
+										position = { 12 7 }
+									}
+									
+									blockoverride "text"
+									{
+										text = "[FamilyGlue.GetFamily.GetName]"
+										using = BlackMarbleFont
+									}
+								}
+								
+								icon = {
+									position = { -248 7 }
+									size = { 32 32 }
+									parentanchor = top|right
+									widgetanchor = top|right
+									using = icon_power_base
+									tooltip = "[FamilyGlue.GetFamily.GetPowerBaseInfo]"
+								}
+								textbox = {
+
+									parentanchor = top|right
+									widgetanchor = top|right
+									position = { -278 14 }
+									size = { 80 12 }
+									align = right
+									tooltip = "[FamilyGlue.GetFamily.GetPowerBaseInfo]"
+									
+									using = MarbleButtonFont
+									text = "[FamilyGlue.GetFamily.GetPowerBase|1Y]"
+								}
+								
+								
+								
+								widget = {
+									name = "Power Base"
+									
+									
+							
+		
+								
+									
+				
+									
+
+								
+								
+								}
+								
+
+								icon = {
+									position = { -158 11 }
+									parentanchor = top|right
+									widgetanchor = top|right
+
+									texture = "gfx/interface/icons/shared_icons/tick_cross.dds"
+
+									frame = "[Select_int32(FamilyGlue.GetFamily.IsScorned,'(int32)1','(int32)2'))]"
+									size = { 22 22 }
+									framesize = { 25 25 }
+
+									tooltip = [FamilyGlue.GetFamily.GetWageTooltip]
+								}
+								
+								textbox = {
+									position = { -182 8 }
+									autoresize = yes
+									using = MarbleButtonFont
+									text = "[FamilyGlue.GetFamily.GetNumberOfJobs] / [FamilyGlue.GetFamily.GetNumberOfExpectedJobs]"
+									parentanchor = top|right
+									fontcolor = { 1 1 1 1 }
+									widgetanchor = top|right
+									
+									tooltip = "[FamilyGlue.GetFamily.GetWageTooltip]"
+								}
+								
+								
+								icon = {
+									position = { -60 7 }
+									size = { 32 32 }
+									parentanchor = top|right
+									widgetanchor = top|right
+									texture = "gfx/interface/icons/modifiers/monthly_character_fam_prestige.dds"
+									
+									tooltip = "[FamilyGlue.GetFamily.GetPrestigeTooltip]"
+								}
+								
+								textbox = {
+									position = { -92 8 }
+									autoresize = yes
+									using = MarbleButtonFont
+									text = "[FamilyGlue.GetFamily.GetPrestige|0]"
+									parentanchor = top|right
+									fontcolor = { 1 1 1 1 }
+									widgetanchor = top|right
+									
+									tooltip = "[FamilyGlue.GetFamily.GetPrestigeTooltip]"
+								}
+							}
+							button = {
+								name = "family_expand_button"
+								position = { 1126 8 }
+								visible = "[GreaterThan_int32( GetDataModelSize( FamilyGlue.GetCharacters ), '(int32)19')]"
+								onclick = "[PdxGuiWidget.AccessParent.FindChild('family_grid_small').Hide]"
+								onclick = "[PdxGuiWidget.AccessParent.FindChild('family_grid_big').Show]"
+								
+								onclick = "[PdxGuiWidget.AccessParent.FindChild('family_minimize_button').Show]"
+								onclick = "[PdxGuiWidget.Hide]"
+								
+								texture = "gfx/interface/buttons/minimap_button_hide.dds"
+								
+							}
+							button = {
+								name = "family_minimize_button"
+								position = { 1126 8 }
+								visible = no
+								onclick = "[PdxGuiWidget.AccessParent.FindChild('family_grid_big').Hide]"
+								onclick = "[PdxGuiWidget.AccessParent.FindChild('family_grid_small').Show]"
+								
+								onclick = "[PdxGuiWidget.AccessParent.FindChild('family_expand_button').Show]"
+								onclick = "[PdxGuiWidget.Hide]"
+								
+								texture = "gfx/interface/buttons/minimap_button_show.dds"
+								
+							}
+							overlappingitembox = {
+								position = { 0 42 }
+								name = "family_grid_small"
+								datamodel = "[FamilyGlue.GetCharacters]"
+								size = { 1177 90 }  
+								
+								item = {
+									flowcontainer = {
+										button = {
+											using = portrait_50_no_pop
+											size = { 60 90 }
+											datacontext = "[FamilyMember.GetCharacter]"
+											parentanchor = top|left
+											clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+										}
+										widget = {
+											name = spacererer
+											size = { 2 0 }
+										}
+									}
+								}
+							}
+							dynamicgridbox = {
+								position = { 0 42 }
+								name = "family_grid_big"
+								flipdirection = yes
+								datamodel = "[FamilyGlue.GetCharacters]"
+								datamodel_wrap = 19
+								visible = no
+
+								item = {
+									flowcontainer = {
+										button = {
+											using = portrait_50_no_pop
+											size = { 60 90 }
+											datacontext = "[FamilyMember.GetCharacter]"
+											parentanchor = top|left
+											clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+										}
+										widget = {
+											name = spacererer
+											size = { 2 0 }
+										}
+									}
+								}
+							}
+							
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	container = {
+		visible = "[Not(CharactersView.IsShowFamily)]"
+		
+		flowcontainer = {
+			parentanchor = hcenter
+			position = { 0 112 }
+			
+			CharacterFilterButton = {
+				onclick = "[CharactersView.Filter('imprison')]"
+				down = "[CharactersView.IsFiltered('imprison')]"
+				
+				blockoverride "button_values"
+				{
+					name = "filter_imprisoned"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterYes('imprison')]"
+					texture = "gfx/interface/icons/font_icons/font_icon_tick.dds"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterNo('imprison')]"
+					texture = "gfx/interface/icons/font_icons/font_icon_cross.dds"
+				}
+			}
+			
+			CharacterFiltericon = {
+				blockoverride "icon_values"
+				{
+					tooltip = "CHARACTER_VIEW_FILTER_BY_IMPRISONED_TOOLTIP"
+				}
+				
+				blockoverride "textbox_values"
+				{
+					text = "CHARACTER_VIEW_FILTER_BY_IMPRISONED"
+				}
+			}
+			
+			widget = {
+				size = { 10 0 }
+			}
+			
+			CharacterFilterButton = {
+				onclick = "[CharactersView.Filter('gender')]"
+				down = "[CharactersView.IsFiltered('gender')]"
+				
+				blockoverride "button_values"
+				{
+					name = "filter_gender"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterYes('gender')]"
+					using = icon_character_sex
+					frame = 1
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterNo('gender')]"
+					using = icon_character_sex
+					frame = 2
+				}
+			}
+			
+			CharacterFiltericon = {
+				blockoverride "icon_values"
+				{
+					tooltip = "CHARACTER_VIEW_FILTER_BY_GENDER_TOOLTIP"
+				}
+				
+				blockoverride "textbox_values"
+				{
+					text = "CHARACTER_VIEW_FILTER_BY_GENDER"
+				}
+			}
+			
+			widget = {
+				size = { 10 0 }
+			}
+			
+			CharacterFilterButton = {
+				onclick = "[CharactersView.Filter('employed')]"
+				down = "[CharactersView.IsFiltered('employed')]"
+				
+				blockoverride "button_values"
+				{
+					name = "filter_employed"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterYes('employed')]"
+					texture = "gfx/interface/icons/font_icons/font_icon_tick.dds"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterNo('employed')]"
+					texture = "gfx/interface/icons/font_icons/font_icon_cross.dds"
+				}
+			}
+			
+			CharacterFiltericon = {
+				blockoverride "icon_values"
+				{
+					tooltip = "CHARACTER_VIEW_FILTER_BY_EMPLOYMENT_TOOLTIP"
+				}
+				
+				blockoverride "textbox_values"
+				{
+					text = "CHARACTER_VIEW_FILTER_BY_EMPLOYMENT"
+				}
+			}
+			
+			widget = {
+				size = { 10 0 }
+			}
+			
+			CharacterFilterButton = {
+				onclick = "[CharactersView.Filter('ruler')]"
+				down = "[CharactersView.IsFiltered('ruler')]"
+				
+				blockoverride "filter_ruler"
+				{
+					name = "filter_rulerruler"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterYes('ruler')]"
+					texture = "gfx/interface/icons/font_icons/font_icon_tick.dds"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterNo('ruler')]"
+					texture = "gfx/interface/icons/font_icons/font_icon_cross.dds"
+				}
+			}
+			container = {
+				parentanchor = vcenter
+				CharacterFiltericon = {
+					visible = "[CharactersView.GetSelectedCountry.GetGovernment.IsTribal]"
+					blockoverride "icon_values"
+					{
+						tooltip = "CHARACTER_VIEW_FILTER_BY_RULER_TOOLTIP_TRIBAL"
+					}
+					
+					blockoverride "textbox_values"
+					{
+						text = "CHARACTER_VIEW_FILTER_BY_RULER_TRIBAL"
+					}
+				}
+				CharacterFiltericon = {
+					visible = "[Not(CharactersView.GetSelectedCountry.GetGovernment.IsTribal)]"
+					blockoverride "icon_values"
+					{
+						tooltip = "CHARACTER_VIEW_FILTER_BY_RULER_TOOLTIP"
+					}
+					
+					blockoverride "textbox_values"
+					{
+						text = "CHARACTER_VIEW_FILTER_BY_RULER"
+					}
+				}
+		}
+			
+			widget = {
+				size = { 10 0 }
+			}
+			
+			CharacterFilterButton = {
+				onclick = "[CharactersView.Filter('major')]"
+				down = "[CharactersView.IsFiltered('major')]"
+				
+				blockoverride "filter_ruler"
+				{
+					name = "filter_rulerruler"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterYes('major')]"
+					texture = "gfx/interface/icons/font_icons/font_icon_tick.dds"
+				}
+				
+				CharacterFilterButtonIcon = {
+					visible = "[CharactersView.IsFilterNo('major')]"
+					texture = "gfx/interface/icons/font_icons/font_icon_cross.dds"
+				}
+			}
+			container = {
+				parentanchor = vcenter
+				CharacterFiltericon = {
+					visible = "[Not(CharactersView.GetSelectedCountry.GetGovernment.IsTribal)]"
+					blockoverride "icon_values"
+					{
+						tooltip = "CHARACTER_VIEW_FILTER_BY_MAJOR_TOOLTIP"
+					}
+					
+					blockoverride "textbox_values"
+					{
+						text = "CHARACTER_VIEW_FILTER_BY_MAJOR"
+					}
+				}
+				
+				CharacterFiltericon = {
+					visible = "[CharactersView.GetSelectedCountry.GetGovernment.IsTribal]"
+					blockoverride "icon_values"
+					{
+						tooltip = "CHARACTER_VIEW_FILTER_BY_MAJOR_TOOLTIP_TRIBAL"
+					}
+					
+					blockoverride "textbox_values"
+					{
+						text = "CHARACTER_VIEW_FILTER_BY_MAJOR_TRIBAL"
+					}
+				}
+			}
+		}
+		
+		flowcontainer = {
+			position = { 50 157 }
+			
+			widget = {
+				size = { 62 4 }
+			}
+			
+			sort_button = {
+				name = "sort_title"
+				size = { 40 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_TITLE_TOOLTIP
+				onclick = "[CharactersView.Sort('title')]"
+				down = "[CharactersView.IsSorted('title')]"
+				
+				icon = {
+					position = { 7 3 }
+					size = { 30 30 }
+					texture = "gfx/interface/icons/shared_icons/office.dds"
+				}
+			}
+			
+			sort_button = {
+				name = "sort_name"
+				text = "OFFER_PEACE_SORT_BY_NAME"
+				size = { 110 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_NAME_TOOLTIP
+				onclick = "[CharactersView.Sort('name')]"
+				down = "[CharactersView.IsSorted('name')]"
+				using = MarbleButtonFontM
+				
+				blockoverride "text_position"
+				{
+					position = { 0 -12 }
+				}
+			}
+			
+			sort_button = {
+				name = "sort_martial"
+				size = { 40 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_MARTIAL_TOOLTIP
+				onclick = "[CharactersView.Sort('martial')]"
+				down = "[CharactersView.IsSorted('martial')]"
+				
+				icon = {
+					position = { 7 3 }
+					size = { 30 30 }
+					using = icon_military
+				}
+			}
+			
+			sort_button = {
+				name = "sort_finesse"
+				size = { 40 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_FINESS_TOOLTIP
+				onclick = "[CharactersView.Sort('finesse')]"
+				down = "[CharactersView.IsSorted('finesse')]"
+				
+				icon = {
+					position = { 7 3 }
+					size = { 30 30 }
+					using = icon_civic
+				}
+			}
+			
+			sort_button = {
+				name = "sort_charisma"
+				size = { 40 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_CHARISMA_TOOLTIP
+				onclick = "[CharactersView.Sort('charisma')]"
+				down = "[CharactersView.IsSorted('charisma')]"
+				
+				icon = {
+					position = { 7 3 }
+					size = { 30 30 }
+					using = icon_oratory
+				}
+			}
+			
+			sort_button = {
+				name = "sort_zeal"
+				size = { 40 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_ZEAL_TOOLTIP
+				onclick = "[CharactersView.Sort('zeal')]"
+				down = "[CharactersView.IsSorted('zeal')]"
+				
+				icon = {
+					position = { 7 3 }
+					size = { 30 30 }
+					using = icon_religious
+				}
+			}
+			
+			widget = {
+				size = { 10 4 }
+			}
+			
+			sort_button = {
+				visible = "[CharactersView.GetSelectedCountry.HasParties]"
+				name = "sort_party"
+				size = { 40 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_PARTY_TOOLTIP
+				onclick = "[CharactersView.Sort('party')]"
+				down = "[CharactersView.IsSorted('party')]"
+				
+				icon = {
+					position = { 5 5 }
+					size = { 30 30 }
+					texture = "gfx/interface/icons/shared_icons/political_parties.dds"
+				}
+			}
+			
+			widget = {
+				size = { 10 4 }
+			}
+			sort_button = {
+				name = "sort_power_base"
+				size = { 64 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_POWER_BASE_TOOLTIP
+				onclick = "[CharactersView.Sort('power_base')]"
+				down = "[CharactersView.IsSorted('power_base')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					using = icon_power_base
+				}
+			}
+			
+			sort_button = {
+				name = "sort_prominence"
+				size = { 64 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_PROMINENCE_TOOLTIP
+				onclick = "[CharactersView.Sort('prominence')]"
+				down = "[CharactersView.IsSorted('prominence')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					using = icon_prominence
+				}
+			}
+			
+			sort_button = {
+				name = "sort_popularity"
+				size = { 64 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_POPULARITY_TOOLTIP
+				onclick = "[CharactersView.Sort('popularity')]"
+				down = "[CharactersView.IsSorted('popularity')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					using = icon_popularity
+				}
+			}
+			
+			sort_button = {
+				name = "sort_loyalty"
+				size = { 64 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_LOYALTY_TOOLTIP
+				onclick = "[CharactersView.Sort('loyalty')]"
+				down = "[CharactersView.IsSorted('loyalty')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					using = icon_loyalty
+				}
+			}
+			
+			sort_button = {
+				name = "sort_corruption"
+				size = { 64 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_CORRUPTION_TOOLTIP
+				onclick = "[CharactersView.Sort('corruption')]"
+				down = "[CharactersView.IsSorted('corruption')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					using = icon_corruption
+				}
+			}
+			
+			widget = {
+				size = { 10 4 }
+			}
+			
+			sort_button = {
+				name = "sort_health"
+				size = { 63 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_HEALTH_TOOLTIP
+				onclick = "[CharactersView.Sort('health')]"
+				down = "[CharactersView.IsSorted('health')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					texture = "gfx/interface/icons/modifiers/health.dds"
+				}
+			}
+			
+			sort_button = {
+				name = "sort_age"
+				size = { 63 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_AGE_TOOLTIP
+				onclick = "[CharactersView.Sort('age')]"
+				down = "[CharactersView.IsSorted('age')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					using = icon_age
+				}
+			}
+			
+			sort_button = {
+				name = "sort_wealth"
+				size = { 104 40 }
+				tooltip = CHARACTER_VIEW_SORT_BY_WEALTH_TOOLTIP
+				onclick = "[CharactersView.Sort('wealth')]"
+				down = "[CharactersView.IsSorted('wealth')]"
+				
+				icon = {
+					position = { 2 3 }
+					parentanchor = top|hcenter
+					widgetanchor = top|hcenter
+					size = { 30 30 }
+					using = icon_treasury
+				}
+			}
+			
+			widget = {
+				size = { 10 4 }
+			}
+			
+			sort_button = {
+				name = "sort_traits"
+				size = { 173 40 }
+				text = "TRAITS"
+				tooltip = CHARACTER_VIEW_SORT_BY_TRAITS_TOOLTIP
+				onclick = "[CharactersView.Sort('traits')]"
+				down = "[CharactersView.IsSorted('traits')]"
+				using = MarbleButtonFontM
+				
+				blockoverride "text_position"
+				{
+					position = { 0 -12 }
+				}
+			}
+		}
+		
+		
+		icon = {
+			position = { 50 200 }
+			size = { 1186 636 }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 28 20 }
+		}
+		
+		scrollarea = {
+			position = { 54 201 }
+			size = { 1195 633 }
+			scrollbarpolicy_horizontal = always_off
+			
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+				blockoverride "ScrollBar_offset"
+				{
+					size = { 0 4 }
+				}
+			}
+			
+			scrollwidget = {
+				fixedgridbox = {
+					name = "characters_grid"
+					addcolumn = 1195
+					addrow = 83
+					maxhorizontalslots = 1
+					
+					datamodel = "[CharactersView.GetCharacters]"
+					
+					item = {
+						widget = {
+							size = { 1195 83 }
+							button = {
+								using = portrait_50_no_pop
+								size = { 60 90 }
+								datacontext = "[CharacterGlue.GetCharacter]"
+								parentanchor = top|left
+								position = { 0 -1 }
+								clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+							}
+
+							icon = {
+								name = "background"
+								position = { 58 1 }
+								texture = "gfx/interface/tiles/character_bg.dds"
+								size = { 1120 87 }
+							}
+							
+							flowcontainer = {
+								position = { 70 12 }
+								ignoreinvisible = yes
+								
+								textbox = {
+									using = MarbleButtonFontM
+									parentanchor = top|left
+									autoresize = yes
+									align = left|top
+									visible = "[CharacterGlue.GetCharacter.HasTitle]"
+									text = "[CharacterGlue.GetCharacter.GetTitleName]"
+									tooltip = "[CharacterGlue.GetCharacter.GetTitleTooltip]"
+								}
+								
+								widget = {
+									size = { 4 4 }
+									visible = "[CharacterGlue.GetCharacter.HasTitle]"
+								}
+								
+								icon = {
+									name = "vertical_divider_1"
+									texture = "gfx/interface/tiles/vertical_divider.dds"
+									spriteType = corneredtiled
+									spriteborder = { 0 10 }
+									visible = "[CharacterGlue.GetCharacter.HasTitle]"
+									size = { 6 20 }
+								}
+								
+								widget = {
+									size = { 4 4 }
+									visible = "[CharacterGlue.GetCharacter.HasTitle]"
+								}
+								
+								container = {
+									textbox = {
+										position = { 0 2 }
+										multiline = yes
+										using = MarbleButtonFont
+										parentanchor = top|left
+										align = left|top
+										text = "[CharacterGlue.GetCharacter.GetName]"
+										autoresize = yes
+									}
+								}
+								
+								container = { 
+								
+									button = {
+										clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+										oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+										position = { 6 -1 }
+										framesize = { 50 50 }
+										size = { 28 28 }
+										texture = "gfx/interface/icons/shared_icons/star.dds"
+										onclick = "[CharacterGlue.FavoriteToggle]"
+										visible = "[CharacterGlue.IsFavorite]"
+										frame = "[Select_int32(CharacterGlue.IsFavorite,'(int32)2','(int32)1'))]"
+										tooltip = "[CharacterGlue.GetTooltip]"
+									}
+								}								
+							}
+							
+							country_flag = {
+								position = { 488 10 }
+								datacontext = "[CharacterGlue.GetCharacter]"
+								visible = "[Not( EqualTo_int32( CharacterGlue.GetCharacter.GetCountry.GetId, CharacterGlue.GetCharacter.GetEmployer.GetId ) )]"
+											
+								blockoverride "flag"
+								{
+									
+									texture = "[CharacterGlue.GetCharacter.GetCountry.AccessCoatOfArms.GetTexture('(int32)32','(int32)32')]"
+									frame = "[CharacterGlue.GetCharacter.GetCountry.AccessCoatOfArms.GetFrame('(int32)32','(int32)32'))]"
+									framesize = { 32 32 }
+								}
+								
+								blockoverride "size"
+								{
+									size = { 32 32 }
+								}
+								
+								blockoverride "click"
+								{
+									onclick = "[OpenDiplomacy(CharacterGlue.GetCharacter.GetCountry)]"
+								}
+								
+								tooltip = "FOREIGN_CHARACTER_BLURB"
+
+								
+							}
+							
+							icon = {
+								visible = "[EqualTo_int32( CharacterGlue.GetCharacter.GetCountry.GetId, CharacterGlue.GetCharacter.GetEmployer.GetId )]" 
+								texture = "gfx/interface/tiles/family_tile.dds"
+								size = { 340 30 }
+								color = "[CharacterGlue.GetCharacter.GetFamily.GetBackgroundColor]"
+								#color = { 0.85490  0.81569  0.80784	0.5 }
+								parentanchor = left
+								position = { 480 10 }
+								
+								textbox = {
+									using = MarbleButtonFont
+									text = "[CharacterGlue.GetCharacter.GetFamilyDisplayAdjective]"
+									#align = center
+									parentanchor = vcenter|left
+									widgetanchor = vcenter|left
+									position = { 8 -2 }
+								}
+								
+							}
+							
+							flowcontainer = {
+								position = { 68 45 }
+								
+								icon = {
+									name = "Military"
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetMartialToolTip]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_military
+									}
+									
+									textbox = {
+										name = "military_value"
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetMartial]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									name = "Finesse"
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetFinesseToolTip]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_civic
+									}
+									
+									textbox = {
+										name = "civic_value"
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetFinesse]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									name = "Charisma"
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetCharismaToolTip]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_oratory
+									}
+									
+									textbox = {
+										name = "Charisma_value"
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetCharisma]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									name = "Zeal"
+									size = { 72 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetZealToolTip]"
+									
+									icon = {
+										position = { 4 1 }
+										size = { 28 28 }
+										using = icon_religious
+									}
+									
+									textbox = {
+										name = "Charisma_value"
+										size = { 40 20 }
+										position = { 48 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetZeal]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+							}
+							
+							icon = {
+								position = { 380 40 }
+								size = { 38 38 }
+								visible = "[CharacterGlue.GetCharacter.ShowParty]"
+								texture = "[GetPartyIcon(CharacterGlue.GetCharacter.GetParty)]"
+								tooltip = "[CharacterGlue.GetCharacter.GetPartyTooltip]"
+							}
+							
+							flowcontainer = {
+								position = { 430 45 }
+								
+								icon = {
+									size = { 60 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetPowerBaseInfo]"
+									
+									textbox = {
+										size = { 60 20 }
+										position = { 30 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetPowerBase|0]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								icon = {
+									size = { 60 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetProminenceToolTip]"
+									
+									textbox = {
+										size = { 60 20 }
+										position = { 30 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetProminence|0]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								icon = {
+									size = { 60 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetPopularityToolTip]"
+									
+									textbox = {
+										size = { 60 20 }
+										position = { 30 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetPopularity|0]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									size = { 60 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetLoyaltyToolTip]"
+									
+									textbox = {
+										size = { 60 20 }
+										position = { 30 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetLoyalty|0]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									size = { 60 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetCorruptionToolTip]"
+									
+									textbox = {
+										size = { 60 20 }
+										position = { 30 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetCorruption|0]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+							}
+							
+							flowcontainer = {
+								position = { 766 45 }
+								
+								icon = {
+									name = "Health"
+									size = { 60 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetHealthInformation]"
+									
+									textbox = {
+										size = { 60 20 }
+										position = { 30 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetHealth|0]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									name = "Age"
+									size = { 60 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetAgeOnDeathOrBirthDate]"
+									
+									textbox = {
+										size = { 60 20 }
+										position = { 30 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetAge]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+								
+								widget = {
+									size = { 4 4 }
+								}
+								
+								icon = {
+									name = "Wealth"
+									size = { 100 32 }
+									texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+									spriteType = Corneredtiled
+									spriteborder = { 28 20 }
+									tooltip = "[CharacterGlue.GetCharacter.GetWealthInformation]"
+									
+									textbox = {
+										size = { 100 20 }
+										position = { 50 3 }
+										multiline = no
+										using = MarbleButtonFontM
+										text = "[CharacterGlue.GetCharacter.GetWealth|0]"
+										widgetanchor = top|hcenter
+										align = center
+									}
+								}
+							}
+							
+							fixedgridbox = {
+								name = "traits_grid"
+								flipdirection = yes
+								size = { 572 40 }
+								datamodel_wrap = 4
+								addrow = 37
+								addcolumn = 40
+								
+								datamodel = "[CharacterGlue.GetTraitItems]"
+
+								position = { 1005 0 }
+								widgetanchor = vcenter|left
+								parentanchor = vcenter|left
+								
+								
+								item = {
+									icon = {
+										size = { 40 40 }
+										texture = "[TraitItem.GetIcon]"
+										tooltip = "[TraitItem.GetTooltip]"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

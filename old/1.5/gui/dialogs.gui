@@ -1,0 +1,140 @@
+window = {
+	using = small_window_type
+	name = "basic_info_popup"
+	parentanchor = center
+	size = { 400 228 }
+
+	textbox = {
+		name = "title"
+		size = { 120 30 }
+		position = { 0 28 }
+		using = MarbleButtonFontL
+		parentanchor = top|hcenter
+		align = center|nobaseline
+	}
+
+	textbox = {
+		name = "description"
+		position = { 0 60 }
+		size = { 380 100 }
+		multiline = yes
+		using = MarbleButtonFontS
+		parentanchor = top|hcenter
+		align = center|nobaseline
+	}
+
+
+	button_standard_white_marble_s = {
+		position = { 0 172 }
+		parentanchor = hcenter
+		widgetanchor = hcenter
+		name = "accept_button"
+		size = { 280 38 }
+		text = "OK"
+		enabled = "[JominiIsMultiplayerAccessible]"
+		onclick = "[LobbyView.OpenMultiplayer]"
+		tooltip = "[JominiGetMultiplayerAccessibleString]"
+	}
+}
+
+window = {
+	name = "basic_confirmation_popup"
+	parentanchor = center
+	size = { 460 300 }
+	
+	widget = {
+		name = "background"
+		using = ScrollMessageBackground
+		size = { 100% 100% }
+		alwaystransparent = no
+		
+		blockoverride "margins_1"
+		{
+			margin_left = -20
+			margin_right = -20
+			margin_top = -10
+			margin_bottom = 2
+		}
+	
+		blockoverride "margins_2"
+		{
+			margin_left = 14
+			margin_right = 14
+			margin_top = 36
+			margin_bottom = 40
+		}			
+	}
+
+	flowcontainer = {
+		direction = horizontal
+		resizeparent = yes
+		
+		widget = {
+			size = { 18 10 }
+		}
+	
+		flowcontainer = {
+			direction = vertical
+			
+			widget = {
+				size = { 10 10 }
+			}	
+			
+			textbox = {
+				name = "title"
+				size = { 120 30 }
+				using = MarbleButtonFont
+				parentanchor = top|hcenter
+				align = center|nobaseline
+			}
+		
+			textbox = {
+				name = "description"
+				maximumsize = { 460 -1 }
+				minimumsize = { 460 -1 }
+				autoresize = yes
+				multiline = yes
+				margin_left = 10
+				margin_right = 10
+				using = MarbleButtonFontS
+				parentanchor = top|hcenter
+				align = center
+				margin_bottom = 5
+			}
+	
+			widget = {
+				parentanchor = hcenter
+				size = { 380 40 }
+	
+				button_standard_white_marble_s = {
+					position = { 100 0 }
+					name = "accept_button"
+					text = "OK_BUTTON"
+					parentanchor = hcenter
+					shortcut = "confirm"
+					
+					clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_offer_accept"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+	
+				}
+				
+				button_standard_white_marble_s = {
+					position = { -100 0 }
+					name = "decline_button"
+					text = "CANCEL_BUTTON"
+					parentanchor = hcenter
+					shortcut = "close_window"				
+	
+					clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_offer_decline"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}
+			}
+			
+		}
+		
+		widget = {
+			size = { 18 10 }
+		}			
+	}
+}
+

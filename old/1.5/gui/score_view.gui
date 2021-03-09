@@ -1,0 +1,210 @@
+window = {
+	gfxtype = windowgfx
+	name = "score_view"
+	parentanchor = vcenter|hcenter
+	size = { 400 460 }
+	movable = yes
+	position = { 0 0 }
+	
+	widget = {
+		name = "background"
+		using = ScrollMessageBackground_2
+		size = { 400 460 }
+		alwaystransparent = no
+		position = { 0 0 }
+		
+		textbox = {
+			text = "SCORE_VIEW_TITLE"
+			using = MarbleButtonFontL
+			parentanchor = hcenter
+			position = { -27 22 }
+		}
+		
+		tooltip = "SCORE_VIEW_TITLE_TOOLTIP"
+
+		scrollarea = {
+			name = "contents"
+			position = { 12 52 }
+			size = { 382 400 }
+			
+			scrollbarpolicy_horizontal = always_off
+			scrollbarpolicy_vertical = as_needed
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+				blockoverride "ScrollBar_offset"
+				{ 
+					#size = { 0 6 } 
+					position = { -4 0 }
+				}			
+			}
+			
+			scrollwidget = {
+				dynamicgridbox = {
+					datamodel = "[ScoreView.GetCountries]"
+					
+					ignoreinvisible = yes
+					
+					item = {
+						widget = {
+							size = { 382 40 }
+							visible = "[Or(LessThanOrEqualTo_int32(ScoreView.GetScoreRank( Country.Self ),'(int32)10'),Country.IsHuman)]"
+							tooltip = "SCORE_VIEW_COUNTRY_TOOLTIP"
+							onmousehierarchyenter = "[SetHighlightCountry( Country.GetCountry )]"
+							onmousehierarchyleave = "[ClearHighlightColors]"
+							
+							#Hook In: Change icon depending on the relation to that player.						
+							
+							button = {
+								texture = "gfx/interface/tiles/entry_button_tiles.dds"
+								position = { 10 4 }
+								spriteType = Corneredtiled
+								spriteborder = { 70 8 }
+								size = { 355 36 }
+								visible = "[Not(IsLocalPlayer(Country.GetCountry))]"
+								onclick = "[PanToCountry(Country.GetCountry)]"
+								
+								textbox = {
+									position = { 52 3 }
+									#size = { 50 20 }
+									autoresize = yes
+									using = MarbleButtonFont
+									text = "[ScoreView.GetScoreRank( Country.Self )]"
+									#widgetanchor = top|hcenter
+									#align = left
+								}
+								
+								country_flag = {
+									position = { 12 0 }
+									tooltip = "[Country.GetName]"
+									
+									blockoverride "flag"
+									{
+										texture = "[Country.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+										frame = "[Country.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+										framesize = { 56 56 }
+									}
+									
+									blockoverride "size"
+									{
+										size = { 36 36 }
+									}
+									
+									blockoverride "click"
+									{
+										onclick = "[OpenDiplomacy(Country.GetCountry)]"
+									}
+								}	
+								
+								buttonText = {
+									textbox = {
+										parentanchor = bottom|hcenter
+										using = MarbleButtonFontS
+										autoresize = yes
+										position = { 0 -10 }
+										text = "[Country.GetName]"
+									}
+								}
+								
+								textbox = {
+									position = { 340 3 }
+									autoresize = yes
+									#size = { 50 20 }
+									widgetanchor = top|right
+									using = MarbleButtonFont
+									text = "[Country.GetScore|0]"
+									align = left
+								}
+							}
+							
+							button = {
+								texture = "gfx/interface/tiles/entry_button_tiles.dds"
+								position = { 10 4 }
+								spriteType = Corneredtiled
+								spriteborder = { 70 8 }
+								size = { 355 36 }
+								visible = "[IsLocalPlayer(Country.GetCountry)]"
+								onclick = "[PanToCountry(Country.GetCountry)]"
+								
+								textbox = {
+									position = { 52 3 }
+									#size = { 50 20 }
+									autoresize = yes
+									using = MarbleButtonFont
+									text = "[ScoreView.GetScoreRank( Country.Self )]"
+									#widgetanchor = top|hcenter
+									#align = left
+								}
+								
+								country_flag = {
+									position = { 12 0 }
+									tooltip = "[Country.GetName]"
+									
+									blockoverride "flag"
+									{
+										texture = "[Country.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+										frame = "[Country.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+										framesize = { 56 56 }
+									}
+									
+									blockoverride "size"
+									{
+										size = { 36 36 }
+									}
+									
+									blockoverride "click"
+									{
+										onclick = "[OpenDiplomacy(Country.GetCountry)]"
+									}
+								}	
+								
+								
+								flowcontainer = {
+									parentanchor = top|hcenter
+									position = { 0 6 }
+									
+									textbox = {
+										using = MarbleButtonFontS
+										autoresize = yes
+										text = "[Country.GetName]"
+									}
+
+									widget = {
+										size = { 30 32 }
+										visible = "[Country.IsHuman]"
+										
+										icon = {
+											position = { 4 -2 }
+											size = { 26 26 }
+											texture = "gfx/interface/icons/outliner/l_human_player_self.dds"
+											
+										}
+									}
+								}
+								
+								textbox = {
+									position = { 340 3 }
+									autoresize = yes
+									#size = { 50 20 }
+									widgetanchor = top|right
+									using = MarbleButtonFont
+									text = "[Country.GetScore|0]"
+									align = left
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		square_close_button = {
+			name = "close_button"
+			position = { -22 6 }
+			parentanchor = top|right
+			shortcut = "close_window"
+			onclick = "[ScoreView.OnClose]"
+			tooltip = "CLOSE"
+		}
+	}
+}

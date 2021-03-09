@@ -1,0 +1,141 @@
+types "tutorial" {
+	type tutorial_item_list = dynamicgridbox {
+		name = "tutorial_grid"
+		ignoreinvisible = yes
+		
+		block "datamodel" {}
+		
+		item = {
+			widget = {
+				size = { 324 38 }
+
+				icon = {
+					using = icon_achieve
+					position = { 2 -1 }
+					size = { 40 40 }
+					frame = "[TutorialItem.GetCompletedFrame]"
+				}
+				icon = {
+					name = "frame"
+					position = { 48 4 }
+					texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+					spriteType = Corneredtiled
+					spriteborder = { 12 12 }
+					size = { 260 28 }
+				}
+				textbox = {
+					position = { 39 0 }
+					size = { 280 30 }
+					align = center
+					using = MarbleButtonFontS
+					text = "[TutorialItem.GetName]"
+					enabled = "[TutorialItem.IsAllowed]"
+					tooltip = "[TutorialItem.GetEffect]"
+				}
+				button_standard_white_marble_s = {
+					position = { 40 0 }
+					size = { 280 38 }
+					using = MarbleButtonFontS
+					enabled = "[TutorialItem.IsAllowed]"
+					tooltip = "[TutorialItem.GetEffect]"
+					onclick = "[TutorialItem.Complete]"
+					visible = "[Not(TutorialItem.IsAllowed)]"
+
+					buttonText = {
+						textbox = {
+							parentanchor = bottom|hcenter
+							text = "[TutorialItem.GetName]"
+							using = MarbleButtonFontS
+							autoresize = yes
+							position = { 0 -12 }
+						}
+					}							
+				}
+
+				button_standard_white_marble_g_s = {
+					position = { 40 0 }
+					size = { 280 38 }
+					onclick = "[TutorialItem.Complete]"
+					visible = "[TutorialItem.IsAllowed]"
+					tooltip = "[TutorialItem.GetEffect]"
+					
+					buttonText = {
+						textbox = {
+							parentanchor = bottom|hcenter
+							text = "[TutorialItem.GetName]"
+							using = MarbleButtonFontS
+							autoresize = yes
+							position = { 0 -12 }
+						}
+					}										
+				}						
+			}
+		}
+	}
+}
+
+window = {
+	gfxtype = windowgfx
+	name = "tutorial_view"
+	
+	parentanchor = top|left
+	size = { 360 570 }
+	position = { -5 255 }
+	widgetanchor = top|left
+	movable = no
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = yes
+		position = { 0 0 }
+		
+		blockoverride "header"
+		{
+			using = MarbleButtonFontM
+			text = "TUTORIAL_HEADER_OBJECTIVES"
+		}
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -4 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[TutorialView.OnClose]"
+		onclick = "[ClearHighlightColors]"
+		tooltip = "CLOSE"
+	}
+	
+	scrollarea = {
+		position = { 10 52 }
+		size = { 334 506 }
+		
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+		}
+		
+		scrollwidget = {
+			flowcontainer = {
+				direction = vertical
+
+				tutorial_item_list = {
+					blockoverride "datamodel" {
+						datamodel = "[TutorialView.GetObjectives]"
+					}
+				}
+
+				widget = { size = { 10 10 } }
+
+				tutorial_item_list = {
+					blockoverride "datamodel" {
+						datamodel = "[TutorialView.GetCompletedObjectives]"
+					}
+				}
+			}
+		}
+	}
+}

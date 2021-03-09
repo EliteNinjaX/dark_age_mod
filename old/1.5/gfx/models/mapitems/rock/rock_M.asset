@@ -1,0 +1,64 @@
+pdxmesh = {
+	name = "rock_M_mesh"
+	file = "rock_M.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+	}
+
+	meshsettings = {
+		name = "|rock_M|LOD_0|rock_M|rock_MShape"
+		index = 0
+		texture_diffuse = "rocks_diffuse.dds"
+		texture_normal = "rocks_normal.dds"
+		texture_specular = "rocks_properties.dds"
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "|rock_M|LOD_1|rock_M|rock_MShape"
+		index = 0
+		texture_diffuse = "rocks_diffuse.dds"
+		texture_normal = "rocks_normal.dds"
+		texture_specular = "rocks_properties.dds"
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+pdxmesh = {
+	name = "rock_M_red_mesh"
+	file = "rock_M.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+	}
+
+	meshsettings = {
+		name = "|rock_M|LOD_0|rock_M|rock_MShape"
+		index = 0
+		texture_diffuse = "rocks_red_diffuse.dds"
+		texture_normal = "rocks_red_normal.dds"
+		texture_specular = "rocks_red_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "|rock_M|LOD_1|rock_M|rock_MShape"
+		index = 0
+		texture_diffuse = "rocks_red_diffuse.dds"
+		texture_normal = "rocks_red_normal.dds"
+		texture_specular = "rocks_red_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+
+
+entity = {
+	name = "rock_M_entity"
+	pdxmesh = "rock_M_mesh"
+}

@@ -1,0 +1,61 @@
+window = {
+	gfxtype = windowgfx
+	name = "select_techoffice_window"
+	size = { 680 560 }
+	position = { 600 120 }
+	widgetanchor = top|left
+	using = small_window_type
+
+	icon = {
+		texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+		spriteType = Corneredtiled
+		position = { 0 0 }
+		size = { 680 51 }
+		spriteborder = { 16 0 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+	}
+
+	square_close_button = {
+		name = "close_button"
+		position = { -2 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectTechOfficeWindow.Close]"
+		tooltip = "CLOSE"
+	}	
+
+	textbox = {
+		name = "header"
+		position = { 0 8 }
+		size = { 500 30 }
+		multiline = yes
+		using = MarbleButtonFontM
+		parentanchor = top|hcenter
+		widgetanchor = top|hcenter
+		align = center
+		text = "SELECT_TECHOFFICE_HEADER"
+	}
+	
+	button_standard_white_marble = {
+		position = { 245 502 }
+		size = { 200 42 }
+		text = "DETACH_CHARACTER"
+		enabled = [SelectTechOfficeWindow.CanDetachCharacter]
+		onclick = [SelectTechOfficeWindow.DetachCharacter]
+		clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+		
+		buttonText = {
+			textbox = {
+				parentanchor = bottom|hcenter
+				using = MarbleButtonFont
+				autoresize = yes
+				position = { 0 -10 }
+			}
+		}
+	}
+
+	widget = {
+		using = select_character_list
+	}
+}
+

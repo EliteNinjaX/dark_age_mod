@@ -1,0 +1,171 @@
+pdxmesh = {
+	name = "multi_test_object_mesh"
+	file = "multi_test_object.mesh"
+
+	meshsettings = {
+		name = "gold|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "gold_m_diffuse.dds"
+		texture_normal = "gold_m_normal.dds"
+		texture_specular = "gold_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "iron|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "iron_m_diffuse.dds"
+		texture_normal = "iron_m_normal.dds"
+		texture_specular = "iron_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "bronze|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "bronze_m_diffuse.dds"
+		texture_normal = "bronze_m_normal.dds"
+		texture_specular = "bronze_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "steel_rough|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "steel_rough_m_diffuse.dds"
+		texture_normal = "steel_rough_m_normal.dds"
+		texture_specular = "steel_rough_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "steel_rust|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "red_aluminum_diffuse.dds"
+		texture_normal = "red_aluminum_normal.dds"
+		texture_specular = "red_aluminum_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "wood_shiny|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "wood_shiny_m_diffuse.dds"
+		texture_normal = "wood_shiny_m_normal.dds"
+		texture_specular = "wood_shiny_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "wood_rough|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "wood_rough_m_diffuse.dds"
+		texture_normal = "wood_rough_m_normal.dds"
+		texture_specular = "wood_rough_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "leather|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "leather_m_diffuse.dds"
+		texture_normal = "leather_m_normal.dds"
+		texture_specular = "leather_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "cloth|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "cloth_m_diffuse.dds"
+		texture_normal = "cloth_m_normal.dds"
+		texture_specular = "cloth_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "rubber|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "rubber_m_diffuse.dds"
+		texture_normal = "rubber_m_normal.dds"
+		texture_specular = "rubber_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "plastic|pCube1|pCube1Shape"
+		index = 0
+		texture_diffuse = "plastic_m_diffuse.dds"
+		texture_normal = "plastic_m_normal.dds"
+		texture_specular = "plastic_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "copper|head_polySurface7|head_polySurface7Shape"
+		index = 0
+		texture_diffuse = "copper_m_diffuse.dds"
+		texture_normal = "copper_m_normal.dds"
+		texture_specular = "copper_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "marble|head_polySurface7|head_polySurface7Shape"
+		index = 0
+		texture_diffuse = "marble_m_diffuse.dds"
+		texture_normal = "marble_m_normal.dds"
+		texture_specular = "marble_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "skin|head_polySurface7|head_polySurface7Shape"
+		index = 0
+		texture_diffuse = "skin_m_diffuse.dds"
+		texture_normal = "skin_m_normal.dds"
+		texture_specular = "skin_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "silver|head_polySurface7|head_polySurface7Shape"
+		index = 0
+		texture_diffuse = "silver_m_diffuse.dds"
+		texture_normal = "silver_m_normal.dds"
+		texture_specular = "silver_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "concrete|head_polySurface7|head_polySurface7Shape"
+		index = 0
+		texture_diffuse = "concrete_m_diffuse.dds"
+		texture_normal = "concrete_m_normal.dds"
+		texture_specular = "concrete_m_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	
+	scale = 0.4
+}
+
+entity = {
+	name = "multi_test_object_entity"
+	pdxmesh = "multi_test_object_mesh"
+}

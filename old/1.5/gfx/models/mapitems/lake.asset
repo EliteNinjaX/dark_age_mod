@@ -1,0 +1,22 @@
+pdxmesh = {
+	name = "lake_mesh"
+	file = "lake.mesh"
+
+	meshsettings = {
+		name = "pPlaneShape1"
+		index = 0
+		texture_diffuse = "nodiffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+		shader = "lake"
+		shader_file = "gfx/FX/pdxwater.shader"
+		subpass = Water
+	}
+	scale = 1.0
+}
+
+entity = {
+	name = "lake_entity"
+	pdxmesh = "lake_mesh"
+	
+}

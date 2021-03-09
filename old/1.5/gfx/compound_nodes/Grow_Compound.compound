@@ -1,0 +1,108 @@
+compound_node={
+	id=Grow_Compound
+	graph={
+		Nodes={
+			pdxns:math:AddF={
+				Id=15
+				Node={
+				}
+				Inputs={
+					Link = { PinId = "term1" LinkedNode = 1 LinkedPin = "GrowFactor" }
+					Link = { PinId = "term2" LinkedNode = 7 LinkedPin = "size" }
+				}
+			}
+			pdxns:common:GraphInterface={
+				Id=1
+				Node={
+					pins={
+						pin={
+							id=GrowFactor
+							label="GrowFactor"
+							input=no
+							type=Float
+						}
+						pin={
+							id=Tag
+							label="Tag"
+							input=no
+							type=Int
+						}
+						pin={
+							id=AgeStart
+							label="AgeStart"
+							input=no
+							type=Float
+						}
+						pin={
+							id=Empty
+							label="Empty"
+							input=yes
+							flags=optional
+							type=Int
+						}
+					}
+				}
+				Inputs={
+				}
+			}
+			pdxns:particle:GetSize={
+				Id=7
+				Node={
+				}
+				Inputs={
+				}
+			}
+			pdxns:math:And={
+				Id=6
+				Node={
+				}
+				Inputs={
+					Link = { PinId = "op1" LinkedNode = 17 LinkedPin = "value" }
+					Link = { PinId = "op2" LinkedNode = 12 LinkedPin = "value" }
+				}
+			}
+			pdxns:particle:GetTag={
+				Id=9
+				Node={
+				}
+				Inputs={
+				}
+			}
+			pdxns:math:EqualI={
+				Id=17
+				Node={
+				}
+				Inputs={
+					Link = { PinId = "op1" LinkedNode = 9 LinkedPin = "tag" }
+					Link = { PinId = "op2" LinkedNode = 1 LinkedPin = "Tag" }
+				}
+			}
+			pdxns:math:GreaterThanEqualF={
+				Id=12
+				Node={
+				}
+				Inputs={
+					Link = { PinId = "op1" LinkedNode = 3 LinkedPin = "age" }
+					Link = { PinId = "op2" LinkedNode = 1 LinkedPin = "AgeStart" }
+				}
+			}
+			pdxns:particle:GetAge={
+				Id=3
+				Node={
+				}
+				Inputs={
+				}
+			}
+			pdxns:particle:SetSize={
+				Id=19
+				Node={
+				}
+				Inputs={
+					Link = { PinId = "size" LinkedNode = 15 LinkedPin = "sum" }
+					Link = { PinId = "condition" LinkedNode = 6 LinkedPin = "value" }
+				}
+			}
+		}
+	}
+
+}

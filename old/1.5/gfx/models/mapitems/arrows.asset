@@ -1,0 +1,79 @@
+arrowType = {
+	name = "retreatArrow"
+	texture = "gfx/map/movement_arrows/retreatarrow_move.dds"
+	effect = "gfx/FX/arrow.shader"
+	subdivisions = 50
+}
+
+arrowType = {
+	name = "retreatArrowFlatMap"
+	texture = "gfx/map/movement_arrows/retreatarrow_move.dds"
+	effect = "gfx/FX/arrow.shader"
+	effectname = "ArrowEffectFlatMap"
+	size = 4.0
+	subdivisions = 10
+}
+
+arrowType = {
+	name = "attackArrow"
+	texture = "gfx/map/movement_arrows/attackarrow_move.dds"
+	effect = "gfx/FX/arrow.shader"
+	subdivisions = 50
+}
+
+arrowType = {
+	name = "attackArrowFlatMap"
+	texture = "gfx/map/movement_arrows/attackarrow_move_flat_map.dds"
+	effect = "gfx/FX/arrow.shader"
+	effectname = "ArrowEffectFlatMap"
+	size = 4.0
+	subdivisions = 10
+}
+
+arrowType = {
+	name = "moveLockedArrow"
+	texture = "gfx/map/movement_arrows/movelockedarrow_move.dds"
+	effect = "gfx/FX/arrow.shader"
+	subdivisions = 50
+}
+
+arrowType = {
+	name = "moveLockedArrowFlatMap"
+	texture = "gfx/map/movement_arrows/movelockedarrow_move_flat_map.dds"
+	effect = "gfx/FX/arrow.shader"
+	effectname = "ArrowEffectFlatMap"
+	size = 4.0
+	subdivisions = 10
+}
+
+arrowType = {
+	name = "moveArrow"
+	texture = "gfx/map/movement_arrows/movearrow_move.dds"
+	effect = "gfx/FX/arrow.shader"
+	subdivisions = 50
+}
+
+arrowType = {
+	name = "moveArrowFlatMap"
+	texture = "gfx/map/movement_arrows/movearrow_move_flat_map.dds"
+	effect = "gfx/FX/arrow.shader"
+	effectname = "ArrowEffectFlatMap"
+	size = 4.0
+	subdivisions = 10
+}
+
+arrowType = {
+	name = "autotransportArrow"
+	texture = "gfx/map/movement_arrows/movearrow_autotransport.dds"
+	effect = "gfx/FX/arrow.shader"
+	subdivisions = 50
+}
+
+arrowType = {
+	name = "autotransportArrowFlatMap"
+	texture = "gfx/map/movement_arrows/movearrow_move_flat_map.dds"
+	effect = "gfx/FX/arrow.shader"
+	effectname = "ArrowEffectFlatMap"
+	size = 4.0
+	subdivisions = 10
+}

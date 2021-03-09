@@ -1,0 +1,139 @@
+template DefaultTooltipText
+{
+	using = WhiteFont
+	align = left
+	autoresize = yes
+	alwaystransparent = yes
+}
+
+
+
+template TooltipAlignRight
+{
+	tooltip_parentanchor = "top|right"
+	tooltip_widgetanchor = "top|left"
+}
+
+
+container = {
+	name = "ProvinceTooltipWidget"
+	filter_mouse = all
+	alwaystransparent = yes
+	
+	flowcontainer = {
+		position = { 25 25 }
+		direction = vertical
+
+		widget = {
+			name = "background"
+			using = DefaultTooltipBackground
+			size = { 100% 100% }
+			alwaystransparent = yes
+
+			icon = {
+				name = "bgProvinceTooltipWidget"
+				tintcolor = { 1.0 1.0 1.0 1.0 }
+			}
+		}
+		
+		textbox = {
+			using = DefaultTooltipText
+			name = "TooltipText"
+			margin = { 20 10 }
+			autoresize = yes
+			margin_bottom = 0
+		}
+		
+		widget = {
+			name = "bottom_padding"
+			size = { 100% 12 }
+			alwaystransparent = yes
+			filter_mouse = none
+		}
+	}
+}
+
+container = {
+	name = "DefaultTooltipWidget"
+	filter_mouse = all
+	alwaystransparent = yes
+	
+	flowcontainer = {
+		position = { 25 25 }
+		direction = vertical
+
+		widget = {
+			name = "background"
+			using = DefaultTooltipBackground
+			size = { 100% 100% }
+			alwaystransparent = yes
+
+			icon = {
+				name = "bgDefaultTooltipWidget"
+				tintcolor = { 1.0 1.0 1.0 1.0 }
+			}
+		}
+		
+		textbox = {
+			name = "TooltipText"
+			using = DefaultTooltipText
+			margin = { 20 20 }
+			margin_top = 10
+			multiline = yes
+			maximumsize = { 640 -1 }
+		}
+
+		textbox = {
+			name = "TooltipTextShortcut"
+			using = DefaultTooltipText
+			parentanchor = bottom|right
+			margin_right = 12
+			margin_bottom = 20
+			margin_top = -20
+		}
+	}
+}
+
+
+
+
+#flowcontainer = {
+#	name = "DefaultTooltipWidget" 
+#	direction = vertical
+#	filter_mouse = all
+#	
+#	widget = {
+#		name = "top_padding"
+#		size = { 100% 12 }
+#		alwaystransparent = yes
+#	}
+#	
+#	container = {		
+#			
+#		
+#		widget = {
+#			name = "background"
+#			using = DefaultTooltipBackground
+#			size = { 100% 100% }
+#			alwaystransparent = no
+#		}
+#		
+#		textbox = {
+#			name = "TooltipText"
+#			using = DefaultTooltipText
+#			margin = { 20 20 }
+#			margin_top = 10
+#			multiline = yes
+#			maximumsize = { 400 -1 }
+#		}
+#	}
+#	
+#	widget = {
+#		name = "bottom_padding"
+#		size = { 100% 12 }
+#		alwaystransparent = yes
+#		filter_mouse = none
+#	}
+#		
+#}
+#

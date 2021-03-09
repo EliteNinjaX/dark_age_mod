@@ -1,0 +1,117 @@
+window = {
+	name = "jomini_confirmation_popup"
+	parentanchor = center
+	size = { 460 300 }
+
+	widget = {
+		name = "background"
+		using = ScrollMessageBackground
+		size = { 100% 100% }
+		alwaystransparent = no
+
+		blockoverride "margins_1"
+		{
+			margin_left = -20
+			margin_right = -20
+			margin_top = -10
+			margin_bottom = 2
+		}
+
+		blockoverride "margins_2"
+		{
+			margin_left = 14
+			margin_right = 14
+			margin_top = 36
+			margin_bottom = 40
+		}
+	}
+
+	flowcontainer = {
+		direction = horizontal
+		resizeparent = yes
+
+		widget = {
+			size = { 18 10 }
+		}
+
+		flowcontainer = {
+			direction = vertical
+
+			widget = {
+				size = { 10 10 }
+			}
+
+			textbox = {
+				text = "[JominiNotification.GetTitle]"
+				size = { 120 30 }
+				using = MarbleButtonFont
+				parentanchor = top|hcenter
+				align = center|nobaseline
+			}
+
+			textbox = {
+				text = "[JominiNotification.GetText]"
+				maximumsize = { 460 -1 }
+				minimumsize = { 460 -1 }
+				autoresize = yes
+				multiline = yes
+				margin_left = 10
+				margin_right = 10
+				using = MarbleButtonFontS
+				parentanchor = top|hcenter
+				align = center
+				margin_bottom = 5
+			}
+
+			widget = {
+				parentanchor = hcenter
+				size = { 380 40 }
+
+				# Only OK button, no Cancel
+				button_standard_white_marble_s = {
+					position = { 100 0 }
+					parentanchor = hcenter
+					shortcut = "close_window" # Escape closes OK when there is only that
+
+					text = "[JominiNotification.GetAcceptButtonText]"
+					onclick = "[JominiNotification.OnAccept]"
+					visible = "[Not(Or(JominiNotification.HasOnAccept, JominiNotification.HasOnDecline))]"
+					
+					clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_offer_accept"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}
+
+				button_standard_white_marble_s = {
+					position = { 100 0 }
+					parentanchor = hcenter
+					shortcut = "confirm"
+					
+					text = "[JominiNotification.GetAcceptButtonText]"
+					onclick = "[JominiNotification.OnAccept]"
+					visible = "[Or(JominiNotification.HasOnAccept, JominiNotification.HasOnDecline)]"
+					
+					clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_offer_accept"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}
+
+				button_standard_white_marble_s = {
+					position = { -100 0 }
+					parentanchor = hcenter
+					shortcut = "close_window"
+
+					text = "[JominiNotification.GetDeclineButtonText]"
+					onclick = "[JominiNotification.OnDecline]"
+					visible = "[Or(JominiNotification.HasOnAccept, JominiNotification.HasOnDecline)]"
+
+					clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_offer_decline"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}
+			}
+			
+		}
+
+		widget = {
+			size = { 18 10 }
+		}
+	}
+}

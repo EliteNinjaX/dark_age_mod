@@ -1,0 +1,106 @@
+window = {
+	gfxtype = windowgfx
+	name = "transfer_occupation_window"
+	size = { 627 390 }
+	parentanchor = bottom|left
+	position = { 323 0 }
+	widgetanchor = bottom|left
+	movable = no
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	textbox = {
+		position = { 15 10 }
+		autoresize = yes
+		using = MarbleButtonFont
+		text = "TRANSFER_OCCUPATION"
+	}	
+	
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -2 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[TransferOccupationWindow.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	
+	scrollarea = {
+		position = { 9 48 }
+		size = { 600 330 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 0 0 }
+				size = { 600 200 }
+				
+				
+				
+				datamodel = "[TransferOccupationWindow.GetTargets]"
+				
+				item = {
+					container = {
+						tooltip = "[SelectTransferGlue.GetTooltip]"
+						
+						country_flag = {
+							position = { 8 10 }
+							tooltip = "[SelectTransferGlue.GetCountry.GetName]"
+							
+							blockoverride "flag"
+							{
+								texture = "[SelectTransferGlue.GetCountry.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+								frame = "[SelectTransferGlue.GetCountry.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+								framesize = { 56 56 }
+							}
+							
+							blockoverride "size"
+							{
+								size = { 52 52 }
+							}
+							
+							blockoverride "click"
+							{
+							#onclick = "[OpenDiplomacy(SelectTransferGlue.GetCountry)]"
+							}
+						}
+						
+						textbox = {
+							position = { 80 15 }
+							#size = { 610 16 }
+							margin_top = 4
+							autoresize = yes
+							align = center|nobaseline
+							using = MarbleButtonFontL
+							text = "[SelectTransferGlue.GetCountry.GetName]"
+						}
+						
+						
+						
+						button_standard_white_marble = {
+							position = { 400 10 }
+							size = { 180 44 }
+							using = MarbleButtonFont
+							text = "TRANSFER"
+							onclick = "[SelectTransferGlue.OnClick]"
+						}
+					
+					}
+				}
+			}
+		}
+	}
+}
+
+

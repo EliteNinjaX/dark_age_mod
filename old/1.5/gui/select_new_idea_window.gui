@@ -1,0 +1,267 @@
+window = {
+	name = "select_idea_view"
+	gfxtype = windowgfx
+	parentanchor = top|left
+	position = { 0 120 }
+	widgetanchor = top|left
+	movable = yes
+
+	# Need a delayed trigger since some idea element animations gets
+	# instantiated AFTER the intial _show trigger
+	using = advice_trigger_highlights
+
+	size = { 680 544 }
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -2 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectNewIdeaWindow.Close]"
+		tooltip = "CLOSE"
+	}
+
+	textbox = {
+		position = { 10 6 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "SELECT_NEW_IDEA"
+	
+	}
+	
+	
+	flowcontainer = {
+		position = { 16 96 }
+		direction = horizontal
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		widget = {
+			size = { 2 2 }
+		}
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		widget = {
+			size = { 2 2 }
+		}	
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+	}
+
+	flowcontainer = {
+		position = { 16 216 }
+		direction = horizontal
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		widget = {
+			size = { 2 2 }
+		}
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		widget = {
+			size = { 2 2 }
+		}	
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+	}
+
+	flowcontainer = {
+		position = { 16 336 }
+		direction = horizontal
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		widget = {
+			size = { 2 2 }
+		}
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		widget = {
+			size = { 2 2 }
+		}	
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+	}
+
+	flowcontainer = {
+		position = { 16 456 }
+		direction = horizontal
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		widget = {
+			size = { 2 2 }
+		}
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+		
+		widget = {
+			size = { 2 2 }
+		}	
+		
+		icon = {
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			size = { 214 72 }
+			spriteborder = { 10 10 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+		}
+	}
+
+	dynamicgridbox = {
+		name = "group_grid"
+		datamodel = "[SelectNewIdeaWindow.GetIdeaGroups]"
+		position = { 12 48 }
+		
+		
+		item = {
+			widget = {
+				DefaultHeaderBackground = {
+					name = "province_header"
+					size = { 656 46 }
+					
+					blockoverride "position"
+					{
+						position = { 42 7 }
+					}
+					
+					blockoverride "text"
+					{
+						text = "[IdeaGroupsArray.GetName]"
+					}
+				}
+				
+				container = {
+					position = { 572 4 }
+					tooltip = "[SelectNewIdeaWindow.GetPlayer.GetPriceTooltip('buy_idea')]"
+					
+					textbox = {
+						position = { 0 4 }
+						autoresize = yes
+						using = MarbleButtonFont
+						text = "[SelectNewIdeaWindow.GetPlayer.GetPrice('buy_idea')]"
+						parentanchor = top|right
+						fontcolor = { 1 1 1 1 }
+						widgetanchor = top|right
+					}
+				}
+
+				icon = {
+					name = "ideas_icon"
+					position = { 8 9 }
+					size = { 28 28 }
+					texture = "[IdeaGroupsArray.GetIconTexture]"
+				}
+				
+				fixedgridbox = {
+					name = "ideas_grid"
+					datamodel = "[IdeaGroupsArray.GetItems]"
+					
+					flipdirection = yes
+					resizeparent = yes
+					position = { 6 52 }
+					addcolumn = 72
+					addrow = 120
+					
+					item = {
+						container = {
+							button = {
+								texture = "[IdeaItem.GetIcon]"
+								size = { 64 64 }
+								#texture = "gfx/interface/icons/ideas/empty.dds"
+								enabled = "[IdeaItem.CanBePicked]"
+								onclick = "[ClickHighlight(IdeaItem.GetHighlightKey)]"
+								onclick = "[IdeaItem.Pick]"
+								tooltip = "[IdeaItem.GetPickInformation]"
+								clicksound = "event:/SFX/UI/Actions/sfx_ui_action_select_idea"
+								oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+								icon = {
+									using = highlight_button_square_64
+									visible = "[ShouldHighlight(IdeaItem.GetHighlightKey)]"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

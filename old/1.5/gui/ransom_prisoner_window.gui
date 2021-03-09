@@ -1,0 +1,152 @@
+window = {
+	gfxtype = windowgfx
+	name = "ransom_prisoner_window"
+	parentanchor = top|left
+	size = { 580 410 }
+	position = { 383 469 }
+	widgetanchor = top|left
+	movable = no
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	
+	textbox = {
+		position = { 0 6 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "[RansomPrisonerWindow.GetTitle]"
+		align = center
+		parentanchor = top|hcenter
+		widgetanchor = top|hcenter
+	}
+	
+	
+	
+	
+	scrollarea = {
+		position = { 14 51 }
+		size = { 550 140 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 0 0 }
+				size = { 280 200 }
+				
+				
+				datamodel = "[RansomPrisonerWindow.GetPrisoners]"
+				
+				item = {
+					container = {
+						# SelectRansomPrisoner.GetPrisoner will give you the character in case you want to add a portrait
+
+						tooltip = "[SelectRansomPrisoner.GetTooltip]"
+						
+						button_standard_white_marble = {
+							position = { 0 0 }
+							size = { 540 46 }
+							using = MarbleButtonFont
+							text = "[SelectRansomPrisoner.GetName]"
+							onclick = "[SelectRansomPrisoner.OnClick]"
+							enabled = "[SelectRansomPrisoner.IsSelectable]"
+						}
+						
+						icon = {
+							texture = "gfx/interface/diplomacy/wargoal_indicator.dds"
+							position = { 32 6 }
+							framesize = { 38 38 }
+							frame = 2
+							size = { 32 32 }
+							visible = "[SelectRansomPrisoner.IsSelected]"
+						}
+					
+					}
+				
+				}
+			}
+		}
+	}
+
+	scrollbar = {
+		size = { 520 14 }
+		position = { 20 190 }
+		direction = horizontal
+		min = 0
+		max = 100
+		step = 1
+		wheelstep = 1
+		
+		onvaluechanged = "[RansomPrisonerWindow.OnPriceChanged]"
+		
+		
+		track = {
+			using = SettingsValueTrack
+		}
+
+		slider = {
+			using = SettingsValueSlider
+		}
+		
+			dec_button = {
+				using = SettingsValueDecButton
+			}
+
+			inc_button = {
+				using = SettingsValueIncButton
+			}
+	}
+	
+	textbox = {
+		position = { 43 233 }
+		using = MarbleButtonFont
+		text = "[RansomPrisonerWindow.GetDesc]"
+		size = { 550 150 }
+		#autoresize = yes
+		maximumsize = { 460 -1 }
+		minimumsize = { 460 -1 }
+		multiline = yes
+		align = top|left
+	}
+
+	icon = {
+		position = { 2 350 }
+		framesize = { 46 46 }
+		size = { 41 41 }
+		texture = "gfx/interface/diplomacy/ai_accept_decline_icon.dds"
+		frame = "[RansomPrisonerWindow.GetAcceptanceFrame]"
+		tooltip = "[RansomPrisonerWindow.GetAcceptanceTooltip]"
+		
+		parentanchor = hcenter|top
+		
+	}
+	
+	button_standard_white_marble = {
+		position = { -10 -10 }
+		name = "accept_button"
+		text = "OK_BUTTON"
+		enabled = "[RansomPrisonerWindow.CanAccept]"
+		onclick = "[RansomPrisonerWindow.OnAccept]"
+		clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_war_declare_war"
+		parentanchor = bottom|right
+	}
+	
+	button_standard_white_marble = {
+		position = { 10 -10 }
+		name = "decline_button"
+		text = "CANCEL_BUTTON"
+		onclick = "[RansomPrisonerWindow.OnDecline]"
+		parentanchor = bottom|left
+	}
+
+
+}
+

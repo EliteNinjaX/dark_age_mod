@@ -1,0 +1,230 @@
+types EndGameView {
+	type EndGameViewContent = widget
+	{
+		size = { 100% 100% }
+		
+		icon = {
+			position = { 0 0 }
+			parentanchor = vcenter|hcenter
+			widgetanchor = vcenter|hcenter
+			
+			block "image"
+			{
+				texture = "gfx/interface/placeholder.dds"
+			}
+		}
+		
+		icon = {
+			texture = "gfx/interface/tiles/small_window_title_header_corners.dds"
+			spriteType = Corneredtiled
+			position = { 0 40 }
+		#	size = { 320 60 }
+			spriteborder = { 16 16 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			parentanchor = top|hcenter
+			widgetanchor = top|hcenter
+	
+			icon = {
+				name = "header_standard"
+				position = { 0 0 }
+				size = { 100% 60 }
+				resizeparent = yes
+				parentanchor = hcenter
+				
+				heading_text = {
+					name = ""
+					position = { 0 6 }
+					parentanchor = top|hcenter
+				#	size = { -1 22 }
+					widgetanchor = top|hcenter
+					align = center
+					resizeparent = yes
+					margin_bottom = 20
+					margin_left = 20
+					margin_right = 20
+					
+					block "title"
+					{
+						text = "Title"
+					}
+					autoresize = yes
+				}
+			}
+		}
+		
+		scrollarea = {
+			name = "description_scrollarea"
+			position = { 0 -100 }
+			maximumsize = { -1 500 }
+			scrollbarpolicy_horizontal = always_off
+			widgetanchor = bottom|hcenter
+			parentanchor = bottom|hcenter
+			
+			using = ScrollMessageBackground_2
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+			}
+			
+			scrollwidget = {
+				textbox = {
+					name = "description"
+					resizeparent = yes
+					minimumsize = { 800 -1 }
+					maximumsize = { 800 -1 }
+					multiline = yes
+					using = MarbleButtonFontS
+					autoresize = yes
+					margin = { 22 0 }
+					align = top|left
+					text = "[EndGameView.GetText]"
+				}
+			}
+		}			
+	}
+}
+
+
+
+
+window = {
+	gfxtype = windowgfx
+	name = "end_game_view"
+	alwaystransparent = no
+	reorder_on_mouse = never
+	resizable = no
+	movable = no
+
+	position = { 0 0 }
+	size = { 100% 100% }
+	
+	proportional_icon = {
+		texture = "gfx/interface/frontend_marble_background.dds"
+		size = { 100% 100% }
+	}
+	
+	# The Greatest Empire in History
+	widget = {
+		position = { 0 0 }
+		size = { 100% 100% }
+		
+		visible = "[EqualTo_int32(EndGameView.GetRank,'(int32)1')]"
+		
+		EndGameViewContent = {
+			blockoverride "image"
+			{
+				texture = "gfx/interface/end_game/greatest_empire.dds"
+			}
+			blockoverride "title"
+			{
+				text = "END_GAME_VIEW_GREATEST_EMPIRE_TITLE"
+			}
+		}
+	}
+	
+	# Imperial Glory
+	widget = {
+		position = { 0 0 }
+		size = { 100% 100% }
+		
+		visible = "[And(GreaterThanOrEqualTo_int32(EndGameView.GetRank,'(int32)2'),LessThanOrEqualTo_int32(EndGameView.GetRank,'(int32)5'))]"
+		
+		EndGameViewContent = {
+			blockoverride "image"
+			{
+				texture = "gfx/interface/end_game/imperial_glory.dds"
+			}
+			blockoverride "title"
+			{
+				text = "END_GAME_VIEW_IMPERIAL_GLORY_TITLE"
+			}
+		}
+	}
+	
+	# Surviving
+	widget = {
+		position = { 0 0 }
+		size = { 100% 100% }
+		
+		visible = "[GreaterThan_int32(EndGameView.GetRank,'(int32)5')]"
+		
+		EndGameViewContent = {
+			blockoverride "image"
+			{
+				texture = "gfx/interface/end_game/surviving.dds"
+			}
+			blockoverride "title"
+			{
+				text = "END_GAME_VIEW_SURVIVING_TITLE"
+			}
+		}
+	}
+	
+	# Losing
+	widget = {
+		position = { 0 0 }
+		size = { 100% 100% }
+		
+		visible = "[LessThan_int32(EndGameView.GetRank,'(int32)0')]"
+		
+		EndGameViewContent = {
+			blockoverride "image"
+			{
+				texture = "gfx/interface/end_game/losing.dds"
+			}
+			blockoverride "title"
+			{
+				text = "END_GAME_VIEW_LOSING_TITLE"
+			}
+		}
+	}
+	
+	flowcontainer = {
+		position = { 0 -50 }
+		parentanchor = bottom|hcenter
+		
+		direction = horizontal
+		ignoreinvisible = yes
+		
+		button_standard = {
+			size = { 280 46 }
+			text = "EXIT_TO_DESKTOP"
+			
+			onclick = "[EndGameView.OnExitToDesktop]"
+			
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		}
+		
+		button_standard = {
+			size = { 280 46 }
+			text = "RESIGN"
+			
+			onclick = "[EndGameView.OnExitToFrontEnd]"
+			
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		}
+		
+		button_standard = {
+			size = { 280 46 }
+			text = "OBSERVE"
+#			visible = "[GameIsMultiplayer]"
+			
+			onclick = "[EndGameView.OnObserve]"
+			
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		}
+		
+		button_standard = {
+			size = { 380 46 }
+			text = "CONTINUE_PAST_END_DATE"
+			visible = "[EndGameView.CanContinuePastEndDate]"
+			onclick = "[EndGameView.OnContinue]"
+
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_confirm"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		}
+	}
+}

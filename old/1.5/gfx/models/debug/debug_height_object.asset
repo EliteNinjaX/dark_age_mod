@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "debug_height_object_mesh"
+	file = "debug_height_object.mesh"
+
+	meshsettings = {
+		name = "pCubeShape1"
+		index = 0
+		texture_diffuse = "test_height_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "debug_height_object_entity"
+	pdxmesh = "debug_height_object_mesh"
+}

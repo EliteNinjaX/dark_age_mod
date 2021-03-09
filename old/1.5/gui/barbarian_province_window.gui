@@ -1,0 +1,285 @@
+window = {
+	gfxtype = windowgfx
+	name = "barbarian_province_window"
+	parentanchor = bottom|left
+	size = { 376 270 }
+	widgetanchor = bottom|left
+	movable = no
+	using = small_window_type
+	visible = "[BarbarianProvinceView.HasProvince]"
+	
+	state = {
+		name = _show
+		
+		start_sound = {
+			soundeffect = "event:/SFX/UI/Province/sfx_ui_province_select"
+		}
+	}
+	container = {
+		
+		position = { -16 0 }
+		
+		parentanchor = top|right
+		widgetanchor = top|right
+		
+		######################################
+		# Temporary  Modifiers
+		######################################
+		textbox = {
+			position = { 0 44 }
+			autoresize = yes
+			using = MarbleButtonFont
+			
+			text = "PROVINCE_MODIFIERS"
+		}
+		
+		margin_widget = {
+			size = { 164 40 }
+			position = { 0 70 }
+			margin = { 8 8 }
+			
+			background = {
+				texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+				spriteType = Corneredtiled
+				spriteborder = { 10 10 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+			
+			overlappingitembox = {
+				datamodel = "[BarbarianProvinceView.GetProvince.GetTemporaryModifiers]"
+				position = { 0 -4 }
+				size = { 150 30 }
+				spacing = 5
+				
+				item = {
+					modifier_icon = {
+						datacontext = "[TimedModifier.GetModifier]"
+						tooltip = "[TimedModifier.GetTooltip]"
+					}
+				}
+			}
+		
+			textbox = {
+				visible = "[IsDataModelEmpty(BarbarianProvinceView.GetProvince.GetTemporaryModifiers)]"
+				tooltip = NO_CURRENT_MODIFIERS_PROVINCE
+				size = { 100% 100% }
+				using = MarbleButtonFontS
+				text = None
+				align = left|nobaseline
+			}
+		}
+	}
+	
+	flowcontainer = {
+		direction = vertical
+		ignoreinvisible = yes
+
+		container = {
+
+			###########################################################
+			# Common Province Details
+			###########################################################
+			container = {
+				position = { 13 1 }
+				
+				icon = {
+					texture = "gfx/interface/tiles/small_window_title_header_right_corners.dds"
+					spriteType = Corneredtiled
+					position = { -14 0 }
+					size = { 370 51 }
+					spriteborder = { 14 0 }
+				}
+				
+				square_close_button = {
+					name = "close_button_only_prov"
+					position = { 314 5 }
+					shortcut = "close_window"
+					onclick = "[BarbarianProvinceView.OnClose]"
+					tooltip = "CLOSE"
+				}
+				
+				textbox = {
+					position = { 5 8 }
+					autoresize = yes
+					max_width = 312
+					elide = right
+					using = MarbleButtonFontL
+					text = "[BarbarianProvinceView.GetProvince.GetName]"
+				}
+
+				############################
+				# Province Data
+				############################
+				
+				container = {
+					container = {
+						position = { 0 45 }
+						tooltip = "[BarbarianProvinceView.GetProvince.GetCivilizationTooltip]"
+						
+						icon = {
+							texture = "gfx/interface/province/civilization.dds"
+							size = { 46 46 }
+						}
+						
+						icon = {
+							name = "frame"
+							position = { 47 8 }
+							using = inset_frame
+							size = { 66 34 }
+						}
+						
+						textbox = {
+							position = { 81 9 }
+							autoresize = yes
+							using = MarbleButtonFont
+							widgetanchor = top|hcenter
+							text = "[FixedPointToInt(BarbarianProvinceView.GetProvince.GetCivilizationValue)]"
+						}
+					}
+					
+					container = {
+						position = { 0 90 }
+						tooltip = "[BarbarianProvinceView.GetProvince.GetBarbarianPowerTooltip]"
+						
+						icon = {
+							texture = "gfx/interface/province/barbarian_power.dds"
+							size = { 46 46 }
+						}
+						
+						icon = {
+							name = "frame"
+							position = { 47 8 }
+							using = inset_frame
+							size = { 66 34 }
+						}
+						
+						textbox = {
+							position = { 81 9 }
+							autoresize = yes
+							using = MarbleButtonFont
+							widgetanchor = top|hcenter
+							text = "[BarbarianProvinceView.GetProvince.GetBarbarianPower|2]"
+							tooltip = "[BarbarianProvinceView.GetProvince.GetBarbarianPowerTooltip]"
+						}
+					}
+					
+					container = {
+						name = "Supply"
+						tooltip = "[BarbarianProvinceView.GetSupplyLimitDescription]"
+						tooltip_verticalbehavior = flip
+						position = { 0 135 }
+						
+						icon = {
+							texture = "gfx/interface/icons/shared_icons/supply_limit.dds"
+							size = { 46 46 }
+						}
+						
+						icon = {
+							name = "frame"
+							position = { 47 8 }
+							using = inset_frame
+							size = { 66 34 }
+						}
+						
+						textbox = {
+							position = { 81 9 }
+							autoresize = yes
+							using = MarbleButtonFont
+							text = "[BarbarianProvinceView.GetSupplyLimit|2]"
+							widgetanchor = top|hcenter
+						}
+					}
+				}
+				
+				widget = {
+					size = { 344 30 }
+					position = { 2 220 }
+					
+					icon = {
+						name = "frame"
+						position = { 0 0 }
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 12 12 }
+						size = { 344 30 }
+					}
+					# textbox = {
+						# position = { 10 1 }
+						#size = { 100% 24 }
+						# align = left
+						# autoresize = yes
+						# using = MarbleButtonFont
+						# text = "RELIGION"
+					# }
+					icon = {
+							position = { 5 -1 }
+							texture = "gfx/interface/icons/shared_icons/province_religion.dds"
+							size = { 30 30 }
+					}
+					textbox = {
+						size = { 100% 24 }
+						using = MarbleButtonFont
+						text = "[BarbarianProvinceView.GetProvince.GetReligion.GetName]"
+						tooltip = "[BarbarianProvinceView.GetProvince.GetReligion.GetTooltip]"
+						align = left
+						elide = right
+						margin_left = 37
+						margin_right = 12
+						position = { 0 1 }
+					}
+				}
+				
+				widget = {
+					size = { 344 30 }
+					position = { 2 185 }
+					
+					icon = {
+						name = "frame"
+						position = { 0 2 }
+						texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+						spriteType = Corneredtiled
+						spriteborder = { 12 12 }
+						size = { 344 30 }
+					}
+					
+					# textbox = {
+						# position = { 10 2 }
+						# autoresize = yes
+						# using = MarbleButtonFont
+						# text = "CULTURE"
+					# }
+					icon = {
+							position = { 5 2 }
+							texture = "gfx/interface/icons/shared_icons/province_culture.dds"
+							size = { 30 30 }
+					}
+					
+					textbox = {
+						size = { 100% 24 }
+						using = MarbleButtonFont
+						text = "[BarbarianProvinceView.GetProvince.GetCulture.GetName]"
+						tooltip = "[BarbarianProvinceView.GetProvince.GetCulture.GetTooltip]"
+						align = left
+						elide = right
+						margin_left = 37
+						margin_right = 12
+						position = { 0 2 }
+					}
+				}
+				
+				container = {
+					name = "terrain"
+					position = { 300 131 }
+					visible = "[BarbarianProvinceView.GetProvince.GetTerrain.IsValid]"
+					
+					icon = {
+						name = "terrain_icon"
+						size = { 46 46 }
+						texture = "[GetTerrainIcon(BarbarianProvinceView.GetProvince.GetTerrain)]"
+						tooltip = "[BarbarianProvinceView.GetProvince.GetTerrain.GetTooltip]"
+					}
+				}
+			}
+		}
+	}
+}

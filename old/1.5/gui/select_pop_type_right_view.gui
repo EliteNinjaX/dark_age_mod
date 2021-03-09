@@ -1,0 +1,105 @@
+window = {
+	gfxtype = windowgfx
+	name = "select_pop_type_right_window"
+	parentanchor = top|left
+	minimumsize = { 325 200 }
+	position = { 640 550 }
+	widgetanchor = top|left
+	movable = yes
+	
+	using = standard_window_type
+	
+	state = {
+		name = "culture_view_closed"
+		
+		on_start = "[SelectPopTypeRightView.OnClose]" 
+		
+	}
+	
+	blockoverride "header"
+	{
+		text = "SELECT_CIVIC_RIGHT_HEADER"
+		tooltip = "SELECT_CIVIC_RIGHT_HEADER_TT"
+		align = left
+		parentanchor = top|left
+		widgetanchor = top|left
+		margin_left = 20
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -3 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[SelectPopTypeRightView.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	flowcontainer = {
+		direction = vertical
+		margin_bottom = 62
+		margin_right = 26
+		position = { 12 50 }
+		resizeparent = yes
+		
+		scrollarea = {
+			maximumsize = { 625 626 }
+			scrollbarpolicy_horizontal = always_off
+			
+			scrollbar_vertical = {
+				using = MarbleScrollBar
+				blockoverride "ScrollBar_offset"
+				{
+					size = { 0 4 }
+				}
+			}
+			
+			scrollwidget = {
+			
+				dynamicgridbox = {
+					datamodel = "[SelectPopTypeRightView.GetPopTypes]"
+					resizeparent = yes
+					
+					item = {
+	
+						entry_button = {
+							onclick = "[SelectablePopType.OnClick]"
+							size = { 290 50 }
+							tooltip = "[SelectablePopType.GetTooltip]"
+							enabled = "[Not( EqualTo_string( SelectPopTypeRightView.GetCivicRight.GetName, SelectablePopType.GetPopType.GetName ) )]" #TODO Pwn - let's not use CString here in future.
+							
+							flowContainer = {
+								direction = horizontal
+								parentanchor = left
+
+								widget = {
+									size = { 60 40 }
+
+									icon = {
+										name = "pop_type_icon"
+										widgetanchor = vcenter|hcenter
+										parentanchor = vcenter|hcenter
+										size = { 40 40 }
+										position = { 0 4 }
+										texture = "[SelectablePopType.GetIconTexture]"
+									}
+
+								}
+
+								textbox = {
+									autoresize = yes
+									using = MarbleButtonFontM
+									#align = left|nobaseline
+									text = "[SelectablePopType.GetPopType.GetName]"
+									margin_top = 8
+									#widgetanchor = left|vcenter
+									#parentanchor = left|vcenter
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

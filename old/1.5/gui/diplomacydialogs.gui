@@ -1,0 +1,190 @@
+
+
+template DiplomacyBackground
+{
+	icon = {
+		name = "bg"
+		texture = "gfx/interface/tooltips/tooltip_bg.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 16 16 }
+		#shaderfile = "gfx/FX/pdxgui_default.shader"
+		size = { 100% 100% }
+	}
+	icon = {
+		name = "frame"
+		texture = "gfx/interface/tooltips/tooltip_frame.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 20 20 }
+		size = { 100% 100% }
+	}
+
+}
+
+
+window = {
+	name = "diplomacy_dialog"
+	parentanchor = center
+
+	state = {
+		name = _show
+	
+		start_sound = { 
+			soundeffect = "event:/SFX/UI/Notifications/sfx_ui_notification_message_appears"
+		}
+	}
+
+	container = {
+		resizeparent = yes
+
+		widget = {
+			name = "background"
+			using = ScrollMessageBackground
+			size = { 100% 100% }
+			alwaystransparent = no
+			
+			blockoverride "margins_1"
+			{
+				margin_left = -20
+				margin_right = -20
+				margin_top = -10
+				margin_bottom = 2
+			}
+		
+			blockoverride "margins_2"
+			{
+				margin_left = 14
+				margin_right = 14
+				margin_top = 36
+				margin_bottom = 40
+			}			
+		}
+
+		flowcontainer = {
+			direction = horizontal
+			resizeparent = yes
+			
+			widget = {
+				size = { 17 10 }
+			}
+
+			flowcontainer = {
+				direction = vertical
+				container = {
+					
+					textbox = {
+						name = "title"
+						autoresize = yes
+						position = { 63 20 }
+						maximumsize = { 300 51 }
+						minimumsize = { 300 51 }
+						multiline = yes
+						using = MarbleButtonFontM
+						align = center|nobaseline
+						elide = right
+					}
+					
+					country_flag = {
+						position = { 7 16 }
+						datacontext = "[DiplomacyDialog.GetCountry]"
+						tooltip = "COUNTRY_SHORTHAND_INFO"
+
+						blockoverride "flag"
+						{
+						texture = "[DiplomacyDialog.GetCountry.AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+						frame = "[DiplomacyDialog.GetCountry.AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+							framesize = { 56 56 }
+						}
+						
+						blockoverride "size"
+						{
+							size = { 56 56 }
+						}
+						
+						blockoverride "click"
+						{
+							onclick = "[OpenDiplomacy(DiplomacyDialog.GetCountry)]"
+						}					
+					}				
+					
+					icon = {
+						position = { 363 20 }
+						texture = "[DiplomacyDialog.GetIconTexture]"
+						framesize = { 50 50 }
+						size = { 50 50 }
+					}
+	
+				}
+	
+				textbox = {
+					name = "description"
+					maximumsize = { 420 -1 }
+					minimumsize = { 420 -1 }
+					autoresize = yes
+					multiline = yes
+					using = MarbleButtonFontS
+					parentanchor = top|hcenter
+					align = center
+				}
+	
+				widget = {
+					name = "spacing_1"
+					size = { 10 10 }
+				}
+	
+				button_standard_white_marble_s = {
+					size = { 340 38 }
+					text = "[DiplomacyDialog.GetActionName('OptionA')]"
+					visible = "[DiplomacyDialog.ShowAction('OptionA')]"
+					onclick = "[DiplomacyDialog.OnAction('OptionA')]"
+					tooltip = "[DiplomacyDialog.GetToolTip('OptionA')]"
+					clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_offer_accept"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+	
+					parentanchor = top|hcenter
+					align = center|nobaseline
+					
+					shortcut = "confirm"
+					
+					buttonText = {
+						textbox = {
+							parentanchor = bottom|hcenter
+							using = MarbleButtonFont
+							autoresize = yes
+							position = { 0 -8 }
+						}
+					}				
+				}
+	
+				button_standard_white_marble_s = {
+					size = { 340 38 }
+					text = "[DiplomacyDialog.GetActionName('OptionB')]"
+					visible = "[DiplomacyDialog.ShowAction('OptionB')]"
+					onclick = "[DiplomacyDialog.OnAction('OptionB')]"
+					tooltip = "[DiplomacyDialog.GetToolTip('OptionB')]"
+	
+					clicksound = "event:/SFX/UI/Diplomacy/sfx_ui_diplomacy_offer_decline"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+	
+					parentanchor = top|hcenter
+					align = center|nobaseline
+	
+					buttonText = {
+						textbox = {
+							parentanchor = bottom|hcenter
+							using = MarbleButtonFont
+							autoresize = yes
+							position = { 0 -8 }
+						}
+					}				
+				}
+			}
+		
+			widget = {
+				size = { 17 10 }
+			}
+		}
+	}
+}
+
+
+

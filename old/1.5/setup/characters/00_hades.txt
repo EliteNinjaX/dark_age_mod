@@ -1,0 +1,380 @@
+﻿"Elysium_MAC"={
+	country="MAC"
+	2={
+		first_name="Iollas" # Father of Antipater
+		family = c:MAC.fam:Antipatrid
+		birth_date=320.1.1
+		death_date=378.10.1
+		religion="roman_pantheon"
+		culture="macedonian"
+		add_trait="antipatrid"
+	}
+	6={
+		first_name="Magas" # Father of Berenike I of Egypt
+		family = c:EGY.fam:Magid
+		birth_date=379.6.17
+		death_date=436.12.11
+		culture="macedonian"
+		religion="roman_pantheon"
+	}
+	7={
+		first_name="Kassandros" # Brother of Antipater
+		family = c:MAC.fam:Antipatrid
+		father="char:2"
+		birth_date=357.2.13
+		death_date=429.7.8
+		religion="roman_pantheon"
+		culture="macedonian"
+		add_trait="antipatrid"
+	}
+	8={
+		first_name="Antigone" # Mother of Berenike I of Egypt
+		family = c:MAC.fam:Antipatrid
+		birth_date=385.1.3
+		death_date=441.8.5
+		culture="macedonian"
+		religion="roman_pantheon"
+		father="char:7"
+		female = yes
+		add_trait="antipatrid"
+	}
+	9={
+		first_name="Antipatros" # Antipater, father of Cassander
+		family = c:MAC.fam:Antipatrid
+		father="char:2"
+		birth_date=354.9.12
+		death_date=435.7.6
+		culture="macedonian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=6
+		add_finesse=7
+		add_zeal=6
+		no_traits=yes
+		add_trait="antipatrid"
+		add_trait="shrewd"
+	}
+	33={
+		first_name="Nikesipolis" # Mother of Thessalonike
+		family_name = "Pheraeid"
+		birth_date=379.1.1
+		death_date=409.10.1
+		culture="macedonian"
+		religion="roman_pantheon"
+		female = yes
+	}
+	34={
+		first_name="Olympias" # Mother of Alexander the Great
+		family = c:EPI.fam:Aiakid
+		father = char:1
+		birth_date=379.1.1
+		death_date=438.10.1
+		culture="epirote"
+		religion="roman_pantheon"
+		no_stats=yes
+		female = yes
+		add_martial=5
+		add_charisma=8
+		add_finesse=10
+		add_zeal=4
+		no_traits=yes
+		add_trait="original_thinker"
+		add_trait="ambitious"
+		add_trait="assertive"
+		add_trait="shrewd"
+		save_scope_as = olympias
+	}
+	35={
+		first_name="Philippos" # Father of Alexander the Great
+		nickname = "NICKNAME_II"
+		family_name="Argead"
+		birth_date=372.1.1
+		death_date=418.10.1
+		religion="roman_pantheon"
+		culture="macedonian"
+		no_stats=yes
+		add_martial=8
+		add_charisma=8
+		add_finesse=10
+		add_zeal=7
+		no_traits=yes
+		add_trait="original_thinker"
+		add_trait="ambitious"
+		add_trait="founder"
+		add_trait="argeads"
+		add_trait="one_eyed"
+		save_scope_as = philippos
+		dna="P6Fg38OQv3Xnk+eTAn0CfQKMAowCeAJ4AokCiQKAAoACmQKZAnkCeQAhACEBUQFRAv8CfwOaA5oCmQKZAm4CbgKBAoECbgJuAngCeAKYAooCeAJ4AnwCfAJ3AncCjAKMAnYCdgJqAmoClQKVAnUCdQKYApgChAKEAo8CjwKXApcCewJ7AmYCZgJ6AnoCjgKOApgCmAS9BL0CaQJpAo4CjgKDAoMCawJrAnUCdQFbAVsCdQJ1ApUClQOdA50ChwKHApACkAKUApQCcwJzBDcENwKBAoECjwKPA64DrgKEAoQCcAJwAn4CfgLLAssAgACAAX8BfwB7AHsAHAAcAXkBeQC0ALQBdQF1ABAAEAFEAUQA5wDnAuEC4QAAAAAAmwCbAPoA+gD1APUBOAE4AXMBcwAWABYDOAM4ABIAEgAAAAAAMQAxAEEAQQE8ATwBWAFYABAAEAEPAQ8BcQFxAEgASAC7AOsAqACoAGUAZQCVAJUGKgt7AAAAAARIBEwFwwVSAM4AbwWnBacCPQJOAi8CPQMAAAAAAAAAAAAAAA=="
+	}
+	39={
+		first_name="Alexander" # Alexander the Great
+		nickname="NICKNAME_THE_GREAT"
+		father = scope:philippos
+		mother = scope:olympias
+		family_name="Argead"
+		birth_date=398.7.1
+		death_date=431.6.1
+		culture="macedonian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=16
+		add_charisma=16
+		add_finesse=6
+		add_zeal=12
+		no_traits=yes
+		add_trait="brave"
+		add_trait="victorious"
+		add_trait="ambitious"
+		add_trait="rash"
+		add_trait="argeads"
+		save_scope_as = alexander_the_great
+		dna="bHUc8ZKEooMW//PZAnICjwKjAo4CrQKDA40CjQRnApQCWwKYAFoCgQJsAmwDqQOpAmcCZwJ6AnsCggKLAmQCiQJ2AmoCawJ5BDYCkALLAoYCcAJyArsCjwJnAoYCaQJsAJcCeAJuAm4CaAKSAl8CgAGRA6YCaAJoArgCfwJ2AnYCaQJpAqACjAN7A60ApwJuArYCeAFPAVEEYwJvAl8CiAJ0AncCAAJ8AlEChAIfAnoCaAJsAnwCagLPAnQCbQKNAjYCbAKGAoYCiAKIAnQCdAKTApYCjAKPAq0CgwKKAnEE3AJuApMCmAKSAv4AowCjAOEA4QBfAF8ApADRADYANgCYAToAXQBdAjgAMQE1ADoAMgAyARwBHAAAAAAAagBqAV4BbwFCAG8AawBrAHUAkgEoASEDAAOLAWwBbAI4AAABAACeAmYBZgFAAUACngLAAvkATQDlAOUC7wC8BFYAlQDGAMYBXQFdAwEBVAQfA2gH6AudAAAAAABUAC8F/wXZAFAA9QUHBQM2ugIfAT4CHAAAAAAAAAAAAAAAAA=="
+	}
+	40={
+		first_name="Kleopatra" # Sister of Alexander the Great
+		family_name="Argead"
+		birth_date=400.5.20
+		death_date=446.1.18
+		culture="macedonian"
+		religion="roman_pantheon"
+		father="char:35"
+		mother="char:34"
+		female=yes
+		no_traits=yes
+		add_trait="argeads"
+	}
+	149={
+		first_name="Philippos" # Brother of Cassander
+		family = c:MAC.fam:Antipatrid
+		birth_date=410.12.12
+		death_date=431.6.15
+		culture="macedonian"
+		religion="roman_pantheon"
+		father="char:9"
+		add_trait="antipatrid"
+	}
+	291={
+		first_name="Alexandros" # Son of Alexander the Great
+		nickname = "NICKNAME_IV"
+		family_name="Argead"
+		birth_date=431.8.1
+		death_date=445.8.1
+		culture="macedonian"
+		religion="roman_pantheon"
+		father=scope:alexander_the_great
+		no_stats=yes
+		add_martial=2
+		add_charisma=3
+		add_finesse=1
+		add_zeal=2
+		no_traits=yes
+		add_trait="argeads"
+		dna="zdFsdcp8koS1/hb/AVICcgKjApUCaQKtAgADjQJwBGcCfwJbAFoCiQKAAmwDqQJwAmcCfgJ6ApACkgKCAokCcQJ2AnQCgQJrBDYCaQLLApcCcgJxA6oCuwJnAm8CaQKJAJcCbQKWAm4CegJoAoAClwGRAnECaAJ4ArgCigJ2AncCaQKRAqACmAJ+A3sCbgJ+ArYChQFPAoECeAJvAooCXwJ0Am0CcwIAApICUQKVAnoCaAJ4AVICfALPBOADowJtAm8CNgKGA7ICiAJoAnQAQAJ0ApMBXwKMAq0E4gKHAooCbwTcAoECkwCDAv4AowLVAOEAzQC9AF8BFQCkAr8ANgE6AP0AXQDFADEAugDMADoA6wAyARwBQgAAAAAAagLlAV4AuwBUAUIAyQBrAJIAJgDyASEDiwEuAWwBSwAAAjgBAAAMAmYBEwAvAUABdwLAAvkC0QDlApQC7wAcAW0AlQBHAMYBXQNlAwEAQAQfAUcH6AfDAAAAAALDAFQFdgWqAKEAoQXeBd4CegLhAlICCQAAAAAAAAAAAAAAAA=="
+	}
+	295={
+		first_name="Iollas" # Brother of Cassander
+		family = c:MAC.fam:Antipatrid
+		father="char:9"
+		birth_date=407.1.2
+		death_date=444.2.3
+		culture="macedonian"
+		religion="roman_pantheon"
+		add_trait="antipatrid"
+	}
+	304={
+		first_name="Philippos" # Brother of Alexander the Great
+		family_name="Argead"
+		nickname = "NICKNAME_ARRIDAIOS"
+		birth_date=395.2.6
+		death_date=437.9.28
+		culture="macedonian"
+		religion="roman_pantheon"
+		father="char:35"
+		no_stats=yes
+		add_martial=2
+		add_charisma=4
+		add_finesse=1
+		add_zeal=1
+		no_traits=yes
+		add_trait="argeads"
+		add_trait="dumb"
+	}
+}
+
+"Elysium_SYR"={
+	country="SYR"
+	
+	19={
+		first_name="Karkinos" # Father of Agathokles and Antander
+		family = c:SYR.fam:Agathoklid
+		birth_date=367.1.2
+		death_date=443.2.3
+		culture="syracusan"
+		religion="roman_pantheon"
+	}
+	292={
+		first_name="Archagathos" # Son of Agathokles, father of Archagathos
+		family = c:SYR.fam:Agathoklid
+		birth_date=416.12.12
+		death_date=447.6.15
+		culture="syracusan"
+		religion="roman_pantheon"
+		father="char:56"
+	}
+	293={
+		first_name="Herakleides" # Son of Agathokles
+		family = c:SYR.fam:Agathoklid
+		birth_date=418.11.11
+		death_date=447.6.15
+		culture="syracusan"
+		religion="roman_pantheon"
+		father="char:56"
+	}
+}
+
+"Elysium_PRY"={
+	country="PRY"
+	
+	16={
+		first_name="Krateros" # Krateros
+		family_name="Kraterid"
+		birth_date=384.8.22
+		death_date=433.7.15
+		culture="macedonian"
+		religion="roman_pantheon"
+		no_stats=yes
+		add_martial=9
+		add_charisma=8
+		add_finesse=5
+		add_zeal=4
+		no_traits=yes
+		add_trait="brave"
+	}
+}
+
+"Elysium_MAP"={
+	country="MAP"
+	
+	335={
+		first_name="Zoroaster"
+		family_name="Spitama"
+		birth_date=1.1.2
+		death_date=60.1.2
+		culture="bactrian"
+		religion="zoroaster"
+		no_stats=yes
+		add_martial=5
+		add_charisma=16
+		add_finesse=10
+		add_zeal=16
+		dna="MLUm6JObk5vj5uPmAngCeAKNAo0CjgKOApcClwFaAVoDqgOqAm0CbQKJAokCbAJsAVEBUQKCAoIAVwBXApUClQA8ADwCdgJ2AngCeAJpAmkChQKFA64DrgJrAmsChgKGAnYCdgAbABsCcAJwABUAFQOjA6MCbwJvAnUCdQKZApkCdQJ1Ao8CjwJxAnECjAKMAVUBVQFZAVkCdQJ1AVMBUwJvAm8CfwJ/AoUChQKBAoECdAJ0AosCiwKKAooAYQBhAoQChAJ9An0CcgJyAo8CjwKpAqkCbwJvAVoBWgKEAoQClwKXApcClwIyAjIBFAEUANkA2QD3APcBMQExAJ8AnwALAAsAAAAAAIwAjAFGAUYA4wDjAscCxwAAAAAA8gDyAQsBCwAKAAoAqwCrAC8ALwKEAoQAlwCXADwAPAAAAAAAagBqAT8BPwAAAAAAqQCpAu4C7gFvAW8AKgAqAY0EmAK9Ar0BNQE1ATUBNQD4APgHeAd4AAAAAAU4BTgQKhAqAZMBkwWwBbAEqQ2EC14FdwAAAAAAAAAAAAAAAA=="
+	}
+}
+
+"Elysium_EPI"={
+	country="EPI"
+	0={
+		first_name="Alketas" # Great Grandfather of Pyrrhos
+		nickname = "NICKNAME_I"
+		family = c:EPI.fam:Aiakid
+		birth_date=327.1.1
+		death_date=384.7.2
+		religion="roman_pantheon"
+		culture="epirote"
+		no_stats=yes
+		add_martial=6
+		add_charisma=7
+		add_finesse=6
+		add_zeal=5
+		no_traits=yes
+		add_trait="aeacidae"
+	}
+	1={
+		first_name="Neoptolemos" # Grandfather of Neoptolemos II
+		nickname = "NICKNAME_II"
+		family = c:EPI.fam:Aiakid
+		father = char:0
+		birth_date=353.1.1
+		death_date=397.10.9
+		religion="roman_pantheon"
+		culture="epirote"
+		no_stats=yes
+		add_martial=8
+		add_charisma=6
+		add_finesse=7
+		add_zeal=6
+		no_traits=yes
+		add_trait="aeacidae"
+	}
+	4={
+		first_name="Arybbas" # Grandfather of Pyrrhos
+		family = c:EPI.fam:Aiakid
+		father = char:0
+		birth_date=355.1.1
+		death_date=411.4.3
+		religion="roman_pantheon"
+		culture="epirote"
+		no_stats=yes
+		add_martial=6
+		add_charisma=8
+		add_finesse=7
+		add_zeal=3
+		no_traits=yes
+		add_trait="aeacidae"
+	}
+	12={
+		first_name="Alexandros" # Father of Neoptolemos II
+		family = c:EPI.fam:Aiakid
+		father = char:1
+		birth_date=383.1.1
+		death_date=423.11.12
+		religion="roman_pantheon"
+		culture="epirote"	
+		no_stats=yes
+		add_martial=9
+		add_charisma=8
+		add_finesse=6
+		add_zeal=6
+		no_traits=yes	
+		add_trait="brave"
+		add_trait="ambitious"
+		add_trait="aeacidae"
+		dna="a+Nr44aDhoPoheiFA5sDmwKRAnECdQAZAVcBVwJsAmwCbAKYAoUChgKFApADowJ/Ao4CjgJuAmoCbwKGAmoCagKIAogCbgKGAmYCZgFUApQCdAJ0AnMCcwJtAm0ChQKOAm0CfwJ2AnYCkQKRAoYChgKAAoUBWQJ3ApACkAKUApQCZgOwAoUCcwKTAnICeQJ5AoUDrAKKAooCZwJuAoQCdwFRAo8BVgJnAnYCdgOnAnkCegJyApgCmAKEAmoCgwFRAoUCcwJqA7ACfgJwApICcgKPA6wCaQJuAnsCbwKOAn0CgAKFApICggKVAo8C9wL3AQcC1gB+AH4ANQCiARQBFADLAMsAVQEXAPQA9AK+AOMA4ABWAG4AbgAAAAAA6ADoAGAAYACsAKYASQBJAo4AywDiAOIASQEJARgBGAAAAAAA/AAaAWMBYwBzAFkAIwAjAUYBVwAhACECkgFNATEBMQKyAM4DYwA1AOAA4ACfAJ8EAAF0AAAAAAKUApQFcAUBAIIAggXNBUwqAgKfAvcC9wAAAAAAAAAAAAAAAA=="
+	}
+	13={
+		first_name="Aiakides" # Father of Pyrrhos
+		family = c:EPI.fam:Aiakid
+		father = char:4
+		birth_date=391.1.1
+		death_date=441.7.24
+		religion="roman_pantheon"
+		culture="epirote"		
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=5
+		no_traits=yes
+		add_trait="reckless"
+		add_trait="aeacidae"
+	}
+	15={
+		first_name="Alketas" # Uncle of Pyrrhos
+		nickname = "NICKNAME_II"
+		family = c:EPI.fam:Aiakid
+		father = char:4
+		birth_date=388.1.1
+		death_date=448.12.15
+		religion="roman_pantheon"
+		culture="epirote"	
+		no_stats=yes
+		add_martial=7
+		add_charisma=4
+		add_finesse=3
+		add_zeal=4
+		no_traits=yes	
+		add_trait="cruel"
+		add_trait="aeacidae"
+	}
+}

@@ -1,0 +1,1394 @@
+template alert_icon_size
+{
+	size = { 48 48 }
+}
+
+template red_alert
+{
+	widget = {
+		size = { 64 90 }
+		button = {
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			position = { 0 -40 }
+			size = { 62 110 }
+			texture = "gfx/interface/alerts/alert_red.dds"
+			block "button_click"
+			{
+			}
+		}
+		icon = {
+			position = { 8 13 }
+			block "icon_texture"
+			{}
+		}
+		
+		state = {
+			name = _show
+			
+			start_sound = {
+				soundeffect = "event:/SFX/UI/Notifications/sfx_ui_notification_alert"
+				soundparam = {
+					name = AlertLevel
+                	value = 3.0
+            	}
+			}
+		}
+	}
+}
+template yellow_alert
+{
+	widget = {
+		size = { 64 90 }
+		button = {
+			position = { 0 -40 }
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			
+			size = { 62 110 }
+			texture = "gfx/interface/alerts/alert_yellow.dds"
+			block "button_click"
+			{
+			}
+		}
+		icon = {
+			position = { 8 13 }
+			block "icon_texture"
+			{}
+		}
+		state = {
+			name = _show
+			
+			start_sound = {
+				soundeffect = "event:/SFX/UI/Notifications/sfx_ui_notification_alert"
+				soundparam = {
+					name = AlertLevel
+					value = 2.0
+            	}
+			}
+		}
+	}
+}
+
+template green_alert
+{
+	widget = {
+		size = { 64 90 }
+		button = {
+			position = { 0 -40 }
+			clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+			oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+			
+			size = { 62 110 }
+			texture = "gfx/interface/alerts/alert_green.dds"
+			block "button_click"
+			{
+			}
+		}
+		icon = {
+			position = { 8 13 }
+			block "icon_texture"
+			{
+			#texture = "gfx/interface/alerts/alert_green.dds"
+			}
+		}
+		state = {
+			name = _show
+			
+			start_sound = {
+				soundeffect = "event:/SFX/UI/Notifications/sfx_ui_notification_alert"
+				soundparam = {
+             	   name = AlertLevel
+                	value = 1.0
+            	}
+			}
+		}
+	}
+}
+
+
+
+widget = {
+	name = "alert_manager"
+	position = { 1100 40 }
+	size = { 1000 160 }
+	
+	dynamicgridbox = {
+		name = "diploicon_grid"
+		size = { 580 200 }
+		flipdirection = yes
+
+		datamodel = "[AlertManager.GetDiploIcons]"
+		
+		item = {
+			widget = {
+				size = { 58 160 }
+				
+				button = {
+					position = { -2 -10 }
+					clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+					texture = "gfx/interface/alerts/alert_white.dds"
+					onclick = "[DiploIcon.OnClick]"
+					onrightclick = "[DiploIcon.OnRightClick]"
+					tooltip = "[DiploIcon.GetTooltip]"
+					size = { 62 174 }
+				}
+				
+				country_flag = {
+					position = { 5 66 }
+					tooltip = "[DiploIcon.GetTooltip]"
+					
+					datacontext = "[DiploIcon.GetCountry]"
+					
+					blockoverride "flag"
+					{
+						texture = "[DiploIcon.GetFlagTexture('(int32)56','(int32)56')]"
+						frame = "[DiploIcon.GetFlagTextureFrame('(int32)56','(int32)56')]"
+						framesize = { 56 56 }
+					}
+					
+					blockoverride "size"
+					{
+						size = { 49 49 }
+					}
+					blockoverride "click"
+					{
+						onclick = "[DiploIcon.OnClick]"
+					}
+				}
+				
+				icon = {
+					position = { -4 -26 }
+					texture = "[DiploIcon.GetIconTexture]"
+					framesize = { 40 40 }
+					size = { 40 40 }
+					alwaystransparent = yes
+					widgetanchor = center
+					parentanchor = bottom|hcenter
+				}
+			}
+		}
+	}
+	
+	
+	flowcontainer = {		
+		ignoreinvisible = yes
+		visible = "[AlertManager.GetPlayer.Exists]"
+		
+		###########################################################################
+		# RED ALERTS
+		###########################################################################		
+
+		############################
+		# Call For Peace
+		############################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasCallForPeace, AlertManager.ShowAlert('call_for_peace'))]"
+			tooltip = "[AlertManager.GetCallForPeaceInfo]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onrightclick = "[AlertManager.ToggleShowAlert('call_for_peace')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					#TODO fix icon!
+					texture = "gfx/interface/icons/governor_policies/bleed_them_dry.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		
+		############################
+		# Is At War!
+		############################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasTrueWar, AlertManager.ShowAlert('war'))]"
+			tooltip = "[AlertManager.GetTrueWar]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextAtWarWith]"
+					onrightclick = "[AlertManager.ToggleShowAlert('war')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/alerts/war.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		
+		############################
+		# Peace may enforced on us in a war.
+		############################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasNegativeEnforcedWarGoal, AlertManager.ShowAlert('enforce_peace'))]"
+			tooltip = "[AlertManager.GetNegativeEnforcedWarGoalInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				
+				blockoverride "button_click"
+				{
+					onrightclick = "[AlertManager.ToggleShowAlert('enforce_peace')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/diplomatic_status/enforce_peace.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		############################
+		# White Peace may enforced on us in a war.
+		############################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasNegativeWhitePeace, AlertManager.ShowAlert('enforce_white_peace'))]"
+			tooltip = "[AlertManager.GetNegativeWhitePeaceInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				
+				blockoverride "button_click"
+				{
+					onrightclick = "[AlertManager.ToggleShowAlert('enforce_white_peace')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/diplomatic_status/truce.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		
+		###########################
+		#Alliance Breaking
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasAllianceBreaking, AlertManager.ShowAlert('alliance_breaking'))]"
+			tooltip = "[AlertManager.GetAllianceBreakingInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextAllianceBreaking]"
+					onrightclick = "[AlertManager.ToggleShowAlert('alliance_breaking')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/diplomatic_status/alliance.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Above Diplomatic Relations Limit
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasOverDiplomacyLimit, AlertManager.ShowAlert('diplomacy_limit'))]"
+			tooltip = "[AlertManager.GetOverDiplomacyLimitInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[OpenGameView('diplomacy')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('diplomacy_limit')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/relations.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Civil War Tick
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.GetPlayer.IsInCivilWar, AlertManager.ShowAlert('civil_war'))]"
+			tooltip = "ALERT_CIVIL_WAR"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[OpenDiplomacy(AlertManager.GetPlayer.GetCurrentCivilWar)]"
+					onrightclick = "[AlertManager.ToggleShowAlert('civil_war')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/diplomatic_status/civil_war.dds"
+					framesize = { 44 44 }
+					frame = 2
+					using = alert_icon_size
+				}
+			}
+		}
+
+		###########################
+		# red (Imminent) Revolt Tick
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasImminentRevolt, AlertManager.ShowAlert('revolt'))]"
+			tooltip = "[AlertManager.GetPossibleRevoltInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.RevoltTick]"
+					onrightclick = "[AlertManager.ToggleShowAlert('revolt')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/revolt_active_inactive.dds"
+					framesize = {50 50}
+					frame = 1
+					using = alert_icon_size
+				}
+			}
+		}	
+
+
+		###########################
+		#Civil War Tick
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.GetPlayer.HasProgressToCivilWar, AlertManager.ShowAlert('civil_war_progress'))]"
+			tooltip = "[AlertManager.GetPossibleCivilWarInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextDisloyalCharacter('civil_war_progress')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('civil_war_progress')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/civil_war_active_inactive.dds"
+					framesize = {50 50}
+					frame = 1
+					using = alert_icon_size
+				}
+			}
+		}
+		
+		###########################
+		#Deficit
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasDangerousDeficit, AlertManager.ShowAlert('deficit'))]"
+			tooltip = "[AlertManager.GetDeficitInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowDeficit]"
+					onrightclick = "[AlertManager.ToggleShowAlert('deficit')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/bankruptcy.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Low Army Maintenance
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasLowArmyMaintenance, AlertManager.ShowAlert('low_army_maintenance'))]"
+			tooltip = "[AlertManager.GetLowArmyMaintenanceInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowEconomyWindow('low_army_maintenance')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('low_army_maintenance')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/modifiers/army_maintenance_cost.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		
+		###########################
+		#Low Navy Maintenance
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasLowNavyMaintenance, AlertManager.ShowAlert('low_navy_maintenance'))]"
+			tooltip = "[AlertManager.GetLowNavyMaintenanceInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowEconomyWindow('low_navy_maintenance')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('low_navy_maintenance')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/modifiers/navy_maintenance_cost.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#High Warexhaustion
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasHighWarExhaustion, AlertManager.ShowAlert('high_war_exhaustion'))]"
+			tooltip = "[AlertManager.GetPlayer.GetWarExhaustionTooltipPlayer]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowReligionWindow('high_war_exhaustion')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('high_war_exhaustion')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/modifiers/war_exhaustion.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+	
+		###########################
+		#Disloyal Character
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(Not(AlertManager.GetPlayer.HasProgressToCivilWar),And(AlertManager.HasDisloyalCharacter, AlertManager.ShowAlert('disloyal_character')))]"
+			tooltip = "[AlertManager.GetDisloyalCharacterInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextDisloyalCharacter('disloyal_character')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('disloyal_character')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					using = icon_loyalty
+					using = alert_icon_size
+				}
+			}
+		}		
+
+		###########################
+		#Army without food
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasArmyWithoutFood, AlertManager.ShowAlert('army_without_food'))]"
+			tooltip = "[AlertManager.GetArmyWithoutFood]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextArmyWithoutFood]"
+					onrightclick = "[AlertManager.ToggleShowAlert('army_without_food')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/food.dds"
+					using = alert_icon_size
+				}
+			}
+		}			
+					
+		###########################
+		#Scorned Families
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasScornedFamily, AlertManager.ShowAlert('scorned_families'))]"
+			tooltip = "[AlertManager.GetScornedFamilyInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[OpenFamiliesView]"
+					onrightclick = "[AlertManager.ToggleShowAlert('scorned_families')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/scorned_family.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################################################################
+		# YELLOW ALERTS
+		###########################################################################	
+
+		###########################
+		#Weak In research
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.GetPlayer.HasWeakResearch, AlertManager.ShowAlert('bad_research'))]"
+			tooltip = "[AlertManager.GetBadResearchInfo]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[OpenGameView('technology')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('bad_research')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					using = icon_research
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Unused Trade Slots in Capital
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasUnusedCapitalTradeSlots, AlertManager.ShowAlert('unused_trade_slots_capital'))]"
+			tooltip = "[AlertManager.GetUnusedCapitalTradeSlotsInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.UnusedTradeSlotsInCapital]"
+					onrightclick = "[AlertManager.ToggleShowAlert('unused_trade_slots_capital')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/trade.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Army without leader
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasArmyWithoutLeader, AlertManager.ShowAlert('army_without_leader'))]"
+			tooltip = "[AlertManager.GetArmyWithoutLeader]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextArmyWithoutLeader]"
+					onrightclick = "[AlertManager.ToggleShowAlert('army_without_leader')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/military.dds"
+					using = alert_icon_size
+				}
+			}
+		}			
+		
+		###########################
+		#Outside of naval range
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasNavyOutsideRange, AlertManager.ShowAlert('navy_outside_range'))]"
+			tooltip = "[AlertManager.GetNavyOutsideRange]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextNavyOutsideRange]"
+					onrightclick = "[AlertManager.ToggleShowAlert('navy_outside_range')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/naval_range.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Region Lacks Governor
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasWithoutGovernor, AlertManager.ShowAlert('region_without_governor'))]"
+			tooltip = "[AlertManager.GetWithoutGovernor]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextWithoutGovernor]"
+					onrightclick = "[AlertManager.ToggleShowAlert('region_without_governor')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/select_new_person.dds"
+					using = alert_icon_size
+				}
+			}
+		}	
+		
+		###########################
+		#Office without office holder.
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasEmptyOffice, AlertManager.ShowAlert('empty_office'))]"
+			tooltip = "[AlertManager.GetEmptyOfficeInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowGovernmentOfficesWindow]"
+					onrightclick = "[AlertManager.ToggleShowAlert('empty_office')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/office.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+
+		###########################
+		#Lack Researcher
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasEmptyResearch, AlertManager.ShowAlert('empty_research'))]"
+			tooltip = "[AlertManager.GetEmptyResearchInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowTechnologyWindow('lack_researcher')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('empty_research')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/select_new_person.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+
+		###########################
+		#Disloyal Province
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasDisloyalProvince, AlertManager.ShowAlert('disloyal_province'))]"
+			tooltip = "[AlertManager.GetDisloyalProvinceInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextDisloyalProvince]"
+					onrightclick = "[AlertManager.ToggleShowAlert('disloyal_province')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/modifiers/local_monthly_state_loyalty.dds"
+					using = alert_icon_size
+					position = { 8 18 }
+				}
+			}
+		}		
+		
+		###########################
+		#Starving Province
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasStarvingProvince, AlertManager.ShowAlert('starving_province'))]"
+			tooltip = "[AlertManager.GetStarvingProvinceInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextStarvingProvince]"
+					onrightclick = "[AlertManager.ToggleShowAlert('starving_province')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					using = icon_food_deficiency
+					using = alert_icon_size
+				}
+			}
+		}	
+		
+		###########################
+		#Pops Starving
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasStarvingPops, AlertManager.ShowAlert('starving_pops'))]"
+			tooltip = "[AlertManager.GetStarvingPopsInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextStarvingPop]"
+					onrightclick = "[AlertManager.ToggleShowAlert('starving_pops')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/population.dds"
+					using = alert_icon_size
+				}
+				state = {
+					name = _show
+				
+					start_sound = {
+						soundeffect = "event:/SFX/UI/Notifications/sfx_ui_notification_alert"
+						soundparam = {
+	        	 	    name = AlertLevel
+	        	 	    value = 2.0
+	        	 	   	}
+					}
+				}
+			}
+		}
+		
+		###########################
+		#Blockaded Ports
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasBlockadedPorts, AlertManager.ShowAlert('blockaded_ports'))]"
+			tooltip = "[AlertManager.GetBlockadedPortsInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextBlockadedPort]"
+					onrightclick = "[AlertManager.ToggleShowAlert('blockaded_ports')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/blockade_efficiency.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Election soon
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasElectionSoon, AlertManager.ShowAlert('election_soon'))]"
+			tooltip = "[AlertManager.GetElectionSoonInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[OpenGameView('government')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('election_soon')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/election_term.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+
+		###########################
+		#Exiled Units
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasExiledUnits, AlertManager.ShowAlert('exiled_units'))]"
+			tooltip = "[AlertManager.GetExiledUnitsInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextExiledUnit]"
+					onrightclick = "[AlertManager.ToggleShowAlert('exiled_units')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/exiles.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Barbarians in territory
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasBarbarians, AlertManager.ShowAlert('barbarians'))]"
+			tooltip = "[AlertManager.GetBarbariansInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextBarbarian]"
+					onrightclick = "[AlertManager.ToggleShowAlert('barbarians')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/barbarian_power.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#have hostage 
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasHostage, AlertManager.ShowAlert('hostage'))]"
+			tooltip = "[AlertManager.GetHostageInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextHostage]"
+					onrightclick = "[AlertManager.ToggleShowAlert('hostage')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/diplomatic_status/ransom_prisoner.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Pretender Support
+		###########################
+		
+
+				
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasPretenderSupport, AlertManager.ShowAlert('pretender_support'))]"
+			tooltip = "[AlertManager.GetPretenderSupportInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextPretenderSupport]"
+					onrightclick = "[AlertManager.ToggleShowAlert('pretender_support')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/legitimacy.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		# (Eventual) Yellow Revolt Tick
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(And(Not(AlertManager.HasImminentRevolt), AlertManager.HasPossibleRevolt), AlertManager.ShowAlert('revolt'))]"
+			tooltip = "[AlertManager.GetPossibleRevoltInformation]"
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.RevoltTick]"
+					onrightclick = "[AlertManager.ToggleShowAlert('revolt')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/revolt_active_inactive.dds"
+					framesize = {50 50}
+					frame = 1
+					using = alert_icon_size
+				}
+			}
+		}	
+		
+		###########################################################################
+		# GREEN ALERTS
+		###########################################################################			
+		
+		
+		
+		###########################
+		#Unmarried Ruler
+		###########################
+		
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasUnmarried, AlertManager.ShowAlert('unmarried'))]"
+			tooltip = "[AlertManager.GetUnmarriedInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = yellow_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.OpenRuler]"
+					onrightclick = "[AlertManager.ToggleShowAlert('unmarried')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/fertility.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		
+		###########################
+		#enough for an invention
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.CanBuyInventions, AlertManager.ShowAlert('invention_afford'))]"
+			tooltip = "ALERT_CAN_AFFORD_INVENTION"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowTechnologyWindow('can_buy_invention')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('invention_afford')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/invention.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Can Call Omen
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.CanCallOmen, AlertManager.ShowAlert('call_omen'))]"
+			tooltip = "ALERT_CAN_CALL_OMEN"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowReligionWindow('can_call_omen')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('call_omen')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					using = icon_omen
+					using = alert_icon_size
+				}
+			}
+		}		
+		
+		###########################
+		#Can Buy Military Tradition
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.CanGetMilitaryTradition, AlertManager.ShowAlert('military_tradition'))]"
+			tooltip = "ALERT_CAN_BUY_MILITARY_TRADITION"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowMilitaryWindow]"
+					onrightclick = "[AlertManager.ToggleShowAlert('military_tradition')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/military_tradition.dds"
+					using = alert_icon_size
+				}
+			}
+		}		
+
+		###########################
+		#Can Call Ally
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.CanCallAlly, AlertManager.ShowAlert('call_ally'))]"
+			tooltip = "[AlertManager.GetCallAllyInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextCallAlly]"
+					onrightclick = "[AlertManager.ToggleShowAlert('call_ally')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/diplomatic_status/calls_ally.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		###########################
+		#Completed Mission Task
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasCompletedMissionTask, AlertManager.ShowAlert('completed_mission_task'))]"
+			tooltip = "[AlertManager.GetCompletedMissionTaskInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.OpenMissionWindow]"
+					onrightclick = "[AlertManager.ToggleShowAlert('completed_mission_task')]"
+				}
+				
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/completed_mission_task.dds"
+					using = alert_icon_size
+				}
+			}
+		}	
+				
+		###################################
+		# We are getting a wargoal accepted
+		###################################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasPositiveEnforcedWarGoal, AlertManager.ShowAlert('wargoal accepted'))]"
+			tooltip = "[AlertManager.GetPositiveEnforcedWarGoalInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+				
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.OpenEnforceWarGoal]"
+					onrightclick = "[AlertManager.ToggleShowAlert('wargoal accepted')]"
+				}
+
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/diplomatic_status/enforce_peace.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		####################################
+		# We are being saved by White Peace
+		####################################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasPositiveWhitePeace, AlertManager.ShowAlert('positive_white_peace'))]"
+			tooltip = "[AlertManager.GetPositiveWhitePeaceInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+				
+				blockoverride "button_click"
+				{
+					onrightclick = "[AlertManager.ToggleShowAlert('positive_white_peace')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/diplomatic_status/truce.dds"
+					using = alert_icon_size
+				}
+			}
+		}
+		
+		###########################
+		#Can Do Decision
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.CanDoDecision, AlertManager.ShowAlert('do_decision'))]"
+			tooltip = "ALERT_CAN_DO_DECISION"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+				blockoverride "button_click"
+				{
+					onclick = "[OpenOverviewDecisionsView]"
+					onrightclick = "[AlertManager.ToggleShowAlert('do_decision')]"
+				}
+
+				blockoverride "icon_texture"
+				{
+					using = icon_decision
+					using = alert_icon_size
+				}
+			}
+		}		
+
+		###########################
+		# Free Idea Slots
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasFreeIdeaSlots, AlertManager.ShowAlert('free_idea_slots'))]"
+			tooltip = "ALERT_FREE_IDEA_SLOTS"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.ShowFreeIdeaSlot]"
+					onrightclick = "[AlertManager.ToggleShowAlert('free_idea_slots')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/ideas/empty.dds"
+					#using = alert_icon_size
+					size = { 42 42 }
+					position = { 10 16 }
+				}
+			}
+		}
+		###########################
+		# Colonize Province
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.CanColonizeProvince, AlertManager.ShowAlert('can_colonize_province'))]"
+			tooltip = "[AlertManager.GetColonizeProvinceInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = green_alert
+
+				blockoverride "button_click"
+				{
+					onclick = "[AlertManager.NextColonizableProvince]"
+					onrightclick = "[AlertManager.ToggleShowAlert('can_colonize_province')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/alert_colonize_province.dds"
+					#using = alert_icon_size
+					size = { 42 42 }
+					position = { 10 16 }
+				}
+			}
+		}
+
+		###########################
+		# Max Political Influence
+		###########################
+		widget = {
+			size = { 58 80 }
+			visible = "[And(AlertManager.HasMaxInfluence, AlertManager.ShowAlert('max_influence'))]"
+			tooltip = "[AlertManager.GetMaxInfluenceInformation]"
+			
+			container = {
+				position = { -2 0 }
+				using = red_alert
+
+				blockoverride "button_click"
+				{
+					onclick = "[OpenGameView('religion')]"
+					onrightclick = "[AlertManager.ToggleShowAlert('max_influence')]"
+				}
+				
+				blockoverride "icon_texture"
+				{
+					texture = "gfx/interface/icons/shared_icons/political_influence.dds"
+					size = { 42 42 }
+					position = { 10 16 }
+				}
+			}
+		}	
+	}	

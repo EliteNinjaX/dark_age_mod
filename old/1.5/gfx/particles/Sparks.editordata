@@ -1,0 +1,227 @@
+NodeEditorMeta={
+	View={
+		Position={ -736.850220 -727.221558 }
+		Zoom=1.000000
+	}
+	Nodes={
+		63={
+			Position={ 216.999985 572.444458 }
+			Name="Base color"
+		}
+		54={
+			Position={ 408.222229 518.333496 }
+			Name="Speed"
+		}
+		68={
+			Position={ 580.666870 1321.259033 }
+			Name="Alpha fade"
+		}
+		66={
+			Position={ 1733.296631 1465.370117 }
+		}
+		16={
+			Position={ 1255.592285 1110.518555 }
+		}
+		78={
+			Position={ 750.555664 83.000000 }
+		}
+		71={
+			Position={ 90.370316 416.740723 }
+			Name="Pitch"
+		}
+		58={
+			Position={ 290.666687 1448.777588 }
+		}
+		23={
+			Position={ 312.666809 1328.259033 }
+		}
+		7={
+			Position={ 753.555786 472.333252 }
+			Name="Particle size"
+		}
+		41={
+			Position={ 453.370300 389.740723 }
+			Name="Emission Direction"
+		}
+		51={
+			Position={ 595.666748 1505.777588 }
+		}
+		38={
+			Position={ 1278.629395 1751.407104 }
+			Name="Gravity"
+		}
+		56={
+			Position={ 111.370316 317.740723 }
+			Name="Yaw"
+		}
+		1={
+			Position={ 398.555542 -0.000000 }
+		}
+		31={
+			Position={ 806.037109 759.074097 }
+			Name="Life time"
+		}
+		75={
+			Position={ 305.111084 798.666748 }
+		}
+		36={
+			Position={ 1052.777344 470.333374 }
+		}
+		43={
+			Position={ 582.777954 1104.888916 }
+		}
+		8={
+			Position={ 886.777954 1101.888916 }
+		}
+		62={
+			Position={ 0.000015 598.444458 }
+		}
+		52={
+			Position={ 447.555542 108.000000 }
+		}
+		53={
+			Position={ 216.999985 687.444458 }
+			Name="Tag"
+		}
+		46={
+			Position={ 368.000000 1104.333252 }
+		}
+		18={
+			Position={ 907.739258 1385.074585 }
+		}
+		49={
+			Position={ 1439.960938 1327.332764 }
+		}
+		6={
+			Position={ 1223.960938 1331.332764 }
+		}
+		14={
+			Position={ 801.222168 681.889038 }
+			Inlined=yes
+		}
+		77={
+			Position={ 801.222168 681.889038 }
+			Inlined=yes
+		}
+		3={
+			Position={ 933.555542 740.259277 }
+			Inlined=yes
+		}
+		9={
+			Position={ 2528.222656 3118.444336 }
+			Inlined=yes
+		}
+		40={
+			Position={ 434.555542 606.259277 }
+			Inlined=yes
+		}
+		26={
+			Position={ 675.111084 733.222229 }
+			Inlined=yes
+		}
+		79={
+			Position={ 365.111084 992.666748 }
+			Inlined=yes
+		}
+		64={
+			Position={ 2650.000000 2830.000000 }
+			Inlined=yes
+		}
+		28={
+			Position={ 566.555542 552.259277 }
+			Inlined=yes
+		}
+		20={
+			Position={ 305.370239 280.296326 }
+			Inlined=yes
+		}
+		83={
+			Position={ 234.370239 200.296326 }
+			Inlined=yes
+		}
+		59={
+			Position={ 226.000000 807.000000 }
+			Inlined=yes
+		}
+		2={
+			Position={ 933.555542 740.259277 }
+			Inlined=yes
+		}
+		0={
+			Position={ 365.111084 992.666748 }
+			Inlined=yes
+		}
+		82={
+			Position={ 365.111084 992.666748 }
+			Inlined=yes
+		}
+		72={
+			Position={ 999.370239 600.296326 }
+			Inlined=yes
+		}
+		76={
+			Position={ 1008.000122 1857.925781 }
+			Inlined=yes
+		}
+		74={
+			Position={ 566.555542 552.259277 }
+			Inlined=yes
+		}
+		34={
+			Position={ 2650.000000 2830.000000 }
+			Inlined=yes
+		}
+		30={
+			Position={ 434.555542 606.259277 }
+			Inlined=yes
+		}
+		25={
+			Position={ 999.370239 600.296326 }
+			Inlined=yes
+		}
+		22={
+			Position={ 365.111084 992.666748 }
+			Inlined=yes
+		}
+		65={
+			Position={ 864.555542 607.259277 }
+			Inlined=yes
+		}
+		32={
+			Position={ 234.370239 200.296326 }
+			Inlined=yes
+		}
+		42={
+			Position={ 365.111084 992.666748 }
+			Inlined=yes
+		}
+		81={
+			Position={ 1008.000122 1857.925781 }
+			Inlined=yes
+		}
+		29={
+			Position={ 305.370239 280.296326 }
+			Inlined=yes
+		}
+		21={
+			Position={ 2528.222656 3118.444336 }
+			Inlined=yes
+		}
+		80={
+			Position={ 1006.665161 1490.852173 }
+			Inlined=yes
+		}
+		27={
+			Position={ 1598.960938 1426.332764 }
+			Inlined=yes
+		}
+		55={
+			Position={ 1598.960938 1426.332764 }
+			Inlined=yes
+		}
+		50={
+			Position={ 1598.960938 1426.332764 }
+			Inlined=yes
+		}
+	}
+}

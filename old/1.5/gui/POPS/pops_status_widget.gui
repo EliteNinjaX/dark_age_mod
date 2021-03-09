@@ -1,0 +1,154 @@
+template POPSStatusWidgetWindowStyle
+{
+	block "status_widget_background_style" {}
+}
+	
+types POPS 
+{
+	type pops_status_widget = window 
+	{
+		name = "pops_status_widget"
+		using = POPSStatusWidgetWindowStyle
+		alwaystransparent = no
+		resizable = no
+		movable = no
+		filter_mouse = none
+		size = { 200 254 }
+
+		vbox = {
+			ignoreinvisible = yes
+
+			widget = { 
+				size = { 0 20 }
+			}
+
+			widget ={
+				size = { 200 48 }
+				pops_load_indicator = {
+					blockoverride "load_indicator"
+					{
+						visible = "[POPSStatusIsLoggingIn]"
+					}
+				}
+
+				# Bind button is disabled
+				
+				# textbox = {
+					# size = { 200 28 }
+					# text = "J_POPS_BIND_ACCOUNT_TO_STEAM"
+					# using = MarbleButtonFontS
+					# multiline = yes
+					# align  = center
+					# visible = "[And(POPSStatusIsLoggedIn,And(Not(POPSStatusWidget.IsAccountConnected), POPSStatusWidget.SupportsConnectAccount))]"
+				# }
+
+				# textbox = {
+					# size = { 140 48 }
+					# parentanchor = center
+					# #size = { 200 28 }
+					# text = "J_POPS_UNBIND_ACCOUNT_TO_STEAM"
+					# using = MarbleButtonFontS
+					# multiline = yes
+					# align  = center
+					# visible = "[And(POPSStatusIsLoggedIn,And(POPSStatusWidget.IsAccountConnected, POPSStatusWidget.SupportsConnectAccount))]"
+				# }
+			}
+
+			
+			# Bind button is disabled
+			
+			# pops_button_load_indicator = {
+				# text = "BIND"
+				# size = { 168 38 }
+				# using = MarbleButtonFontS
+				# onclick = "[POPSStatusWidget.ConnectAccount]"
+				# visible = "[And(And(POPSStatusIsLoggedIn,Not(POPSStatusWidget.IsAccountConnected)),POPSStatusWidget.SupportsConnectAccount)]"
+				# enabled = "[And(Not(POPSStatusWidget.IsBusy),And(And(POPSStatusIsLoggedIn,Not(POPSStatusWidget.IsAccountConnected)),POPSStatusWidget.SupportsConnectAccount))]"
+
+				# blockoverride "load_indicator"
+				# {
+					# visible = "[Not(And(Not(POPSStatusWidget.IsBusy),And(And(POPSStatusIsLoggedIn,Not(POPSStatusWidget.IsAccountConnected)),POPSStatusWidget.SupportsConnectAccount)))]"
+				# }
+			# }
+			# pops_button_load_indicator = {
+				# text = "UNBIND"
+				# size = { 168 38 }
+				# using = MarbleButtonFontS
+				# onclick = "[POPSStatusWidget.DisconnectAccount]"
+				# visible = "[And(And(POPSStatusIsLoggedIn,POPSStatusWidget.IsAccountConnected),POPSStatusWidget.SupportsConnectAccount)]"
+				# enabled = "[And(Not(POPSStatusWidget.IsBusy),And(And(POPSStatusIsLoggedIn,POPSStatusWidget.IsAccountConnected),POPSStatusWidget.SupportsConnectAccount))]"
+
+				# blockoverride "load_indicator"
+				# {
+					# visible = "[Not(And(Not(POPSStatusWidget.IsBusy),And(And(POPSStatusIsLoggedIn,POPSStatusWidget.IsAccountConnected),POPSStatusWidget.SupportsConnectAccount)))]"
+				# }
+			# }
+
+			vbox = {
+				pops_button = {
+					name = "login_button"
+					text = "LOGIN"
+					onclick = "[POPSStatusWidget.ToggleLoginWindow]"
+					visible = "[Not(POPSStatusIsLoggedIn)]"
+					enabled = "[Not(POPSStatusIsLoggingIn)]"
+					using = MarbleButtonFont
+					size = { 168 38 }
+				}
+
+				widget = {
+					visible = "[Not(POPSStatusIsLoggedIn)]"
+					size = { 0 4 }
+				}
+
+				pops_button = {
+					name = "logout_button"
+					text = "LOGOUT"
+					onclick = "[POPSStatusWidget.Logout]"
+					visible = "[POPSStatusIsLoggedIn]"
+					enabled = "[Not(POPSStatusIsLoggingIn)]"
+					using = MarbleButtonFont
+					size = { 168 38 }
+				}
+	
+				# Create account, currently disabled if we're not using the steam browser due to potential stability issues.
+				widget = {
+					size = { 168 38 }
+					visible = "[Not(POPSStatusIsLoggedIn)]"
+					pops_button = {
+						visible = "[IsUsingSteamBrowser]"
+						size = { 100% 100% }
+						text = "CREATE_ACCOUNT"
+						onclick = "[POPSStatusWidget.ToggleCreateAccountWindow]"
+						using = MarbleButtonFont
+					}
+					pops_button = {
+						visible = "[Not(IsUsingSteamBrowser)]"
+						size = { 100% 100% }
+						enabled = no
+						text = "CREATE_ACCOUNT"
+						tooltip = "CREATE_ACCOUNT_DESC"
+						using = MarbleButtonFont
+					}
+				}
+			
+				pops_button = {
+					text = "SOCIAL_PROFILE"
+					tooltip = "SOCIAL_PROFILE_DESC"
+					visible = "[POPSStatusIsLoggedIn]"
+					onclick = "[POPSStatusWidget.ToggleCreateProfileWindow]"
+					using = MarbleButtonFont
+					size = { 168 38 }
+				}
+			}
+			
+
+			block "paradox_icon" 
+			{
+				icon = {
+					texture = "gfx/interface/frontend/platypus_symbol_account.dds"
+					size = { 90 90 }
+				}
+			}
+		}
+	}
+}

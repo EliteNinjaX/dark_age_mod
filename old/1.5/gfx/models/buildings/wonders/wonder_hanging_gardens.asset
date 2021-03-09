@@ -1,0 +1,81 @@
+pdxmesh = {
+	name = "wonder_hanging_gardens_mesh"
+	file = "wonder_hanging_gardens.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 15.0 }
+		lod = { index = 2 percent = 7.5 }
+		lod = { index = 3 percent = 3.5 }
+	}
+
+	meshsettings = {
+		name = "hanging_gardens_of_babylon_LOD0Shape"
+		index = 0
+		texture_diffuse = "wonder_hanging_gardens_diffuse.dds"
+		texture_normal = "wonder_hanging_gardens_normal.dds"
+		texture_specular = "wonder_hanging_gardens_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "hanging_gardens_of_babylon_LOD1Shape"
+		index = 0
+		texture_diffuse = "wonder_hanging_gardens_diffuse.dds"
+		texture_normal = "wonder_hanging_gardens_normal.dds"
+		texture_specular = "wonder_hanging_gardens_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "hanging_gardens_of_babylon_LOD2Shape"
+		index = 0
+		texture_diffuse = "wonder_hanging_gardens_diffuse.dds"
+		texture_normal = "wonder_hanging_gardens_normal.dds"
+		texture_specular = "wonder_hanging_gardens_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "hanging_gardens_of_babylon_LOD3Shape"
+		index = 0
+		texture_diffuse = "wonder_hanging_gardens_diffuse.dds"
+		texture_normal = "wonder_hanging_gardens_normal.dds"
+		texture_specular = "wonder_hanging_gardens_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "wonder_hanging_gardens_entity"
+	pdxmesh = "wonder_hanging_gardens_mesh"
+	
+	locator = { name = "root" }
+	
+	default_state = "idle"
+	state = { 
+		name = "idle" 
+		state_time = 5 
+		start_event = {
+			node = "garden_effect_1"
+			particle = environment/wonder_glow_01_effect
+			keep_particle = yes 
+			trigger_once = yes 
+		} 
+		start_event = {
+			node = "garden_effect_2"
+			particle = environment/wonder_glow_01_effect
+			keep_particle = yes 
+			trigger_once = yes 
+		} 
+		start_event = {
+			node = "garden_effect_3"
+			particle = environment/wonder_glow_01_effect
+			keep_particle = yes 
+			trigger_once = yes 
+		}
+	}
+}

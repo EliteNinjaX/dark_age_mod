@@ -1,0 +1,108 @@
+
+window = {
+	gfxtype = windowgfx
+	name = "character_rightclick"
+	
+	parentanchor = top|left
+	size = { 408 560 }
+	widgetanchor = top|left
+	movable = yes
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	square_close_button = {
+		name = "close_button"
+		position = { -3 5 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[CharacterRightClickMenu.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	
+	flowcontainer = {
+		position = { 10 7 }
+		direction = horizontal
+		spacing = 4
+		
+		container = {
+			textbox = {
+				using = MarbleButtonFontM
+				text = "[CharacterRightClickMenu.GetCharacter.GetName]"
+				autoresize = yes
+				parentanchor = bottom|left
+				position = { 2 3 }
+			}
+		}
+
+		container = {
+			name = "favorite_star"
+			button = {
+				clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+				oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				position = { 0 2 }
+				framesize = { 50 50 }
+				size = { 32 32 }
+				texture = "gfx/interface/icons/shared_icons/star.dds"
+				onclick = "[CharacterRightClickMenu.FavoriteToggle]"
+				frame = "[Select_int32(CharacterRightClickMenu.IsFavorite,'(int32)2','(int32)1'))]"
+				tooltip = "[CharacterRightClickMenu.GetTooltip]"
+			}
+		}
+	}
+
+	scrollarea = {
+		position = { 20 50 }
+		size = { 366 500 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+			blockoverride "ScrollBar_offset"
+			{
+				size = { 0 4 }
+			}
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				name = "interactions_grid"
+				position = { 0 1 }
+				size = { 180 200 }
+				
+				datamodel = "[CharacterRightClickMenu.GetInteractions]"
+				
+				item = {
+					widget = {
+						size = { 366 38 }
+						
+						button_standard_white_marble_s = {
+							size = { 366 38 }
+							onclick = "[InteractionItem.OnClick]"
+							enabled = "[InteractionItem.IsEnabled]"
+							tooltip = "[InteractionItem.GetTooltip]"
+							clicksound = "[InteractionItem.GetClickSound]"
+							oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+							
+							buttonText = {
+								textbox = {
+									parentanchor = bottom|hcenter
+									using = MarbleButtonFontS
+									text = "[InteractionItem.GetName]"
+									autoresize = yes
+									position = { 0 -12 }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

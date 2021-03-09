@@ -1,0 +1,182 @@
+window = {
+	gfxtype = windowgfx
+	name = "sell_province_window"
+	parentanchor = top|left
+	size = { 730 530 }
+	position = { 387 460 }
+	widgetanchor = top|left
+	movable = no
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+	
+	
+	textbox = {
+		position = { 0 6 }
+		autoresize = yes
+		using = MarbleButtonFontL
+		text = "[SellProvinceWindow.GetTitle]"
+		align = center
+		parentanchor = top|hcenter
+		widgetanchor = top|hcenter
+	}
+	
+	
+	
+	
+	scrollarea = {
+		position = { 14 51 }
+		size = { 700 300 }
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = MarbleScrollBar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				position = { 0 0 }
+				size = { 700 240 }
+				
+				
+				datamodel = "[SellProvinceWindow.GetProvinces]"
+				
+				item = {
+					container = {
+						tooltip = "[SelectSellProvince.GetTooltip]"
+						
+						button_standard_white_marble_s = {
+							position = { 0 0 }
+							size = { 680 38 }
+							using = MarbleButtonFont
+							text = "[SelectSellProvince.GetName]"
+							onclick = "[SelectSellProvince.OnClick]"
+							enabled = "[SelectSellProvince.IsSelectable]"
+							#clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+							#oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+							visible = "[Not(SelectSellProvince.IsSelected)]"
+						}
+						
+						button_standard_white_marble_s = {
+							position = { 0 0 }
+							size = { 680 38 }
+							using = GoldenFontS
+							text = "[SelectSellProvince.GetName]"
+							#onclick = "[SelectSellProvince.OnClick]"
+							#enabled = "[SelectSellProvince.IsSelectable]"
+							#clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_click"
+							#oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+							texture = "gfx/interface/tiles/marble_button_hl_s.dds"
+							visible = "[SelectSellProvince.IsSelected]"
+						}
+						
+						#icon = {
+						#	texture = "gfx/interface/diplomacy/wargoal_indicator.dds"
+						#	framesize = { 38 38 }
+						#	visible = "[SelectSellProvince.IsSelected]"
+						#}
+					
+					}
+				
+				}
+			}
+		}
+	}
+
+	scrollbar = {
+		size = { 220 14 }
+		position = { 70 365 }
+		direction = horizontal
+		min = 0
+		max = 2000
+		step = 1
+		wheelstep = 1
+		value = "[SellProvinceWindow.GetPrice]"
+		onvaluechanged = "[SellProvinceWindow.OnPriceChanged]"
+		visible = "[SellProvinceWindow.HasSelected]"
+		
+		track = {
+			using = SettingsValueTrack
+		}
+
+		slider = {
+			using = SettingsValueSlider
+		}
+		
+			dec_button = {
+				using = SettingsValueDecButton
+			}
+
+			inc_button = {
+				using = SettingsValueIncButton
+			}
+	}
+	
+	textbox = {
+		icon = {
+			size = { 102% 100% }
+			texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+			spriteType = Corneredtiled
+			spriteborder = { 10 10 }
+			position = { -5 0 }
+		}
+		
+		position = { 25 395 }
+		using = MarbleButtonFont
+		text = "[SellProvinceWindow.GetDesc]"
+		size = { 670 80 }
+		#autoresize = yes
+		multiline = yes
+		align = top|left
+		visible = "[SellProvinceWindow.HasSelected]"
+	}
+
+	icon = {
+		position = { 25 350 }
+		framesize = { 46 46 }
+		size = { 41 41 }
+		using = icon_treasury
+		frame = "[SellProvinceWindow.GetAcceptanceFrame]"
+		tooltip = "[SellProvinceWindow.GetAcceptanceTooltip]"
+		visible = "[SellProvinceWindow.HasSelected]"
+	}
+	
+	icon = {
+		position = { 300 350 }
+		framesize = { 46 46 }
+		size = { 41 41 }
+		texture = "gfx/interface/diplomacy/ai_accept_decline_icon.dds"
+		frame = "[SellProvinceWindow.GetAcceptanceFrame]"
+		tooltip = "[SellProvinceWindow.GetAcceptanceTooltip]"
+		visible = "[SellProvinceWindow.HasSelected]"
+	}
+
+	
+	button_standard_white_marble = {
+		position = { -10 -10 }
+		name = "accept_button"
+		text = "OK_BUTTON"
+		onclick = "[SellProvinceWindow.OnAccept]"
+		clicksound = "event:/SFX/Events/Generic/sfx_event_generic_trade"
+		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		parentanchor = bottom|right
+		enabled = "[SellProvinceWindow.HasSelected]"
+	}
+	
+	button_standard_white_marble = {
+		position = { 10 -10 }
+		name = "decline_button"
+		text = "CANCEL_BUTTON"
+		shortcut = "close_window"
+		onclick = "[SellProvinceWindow.OnDecline]"
+		oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+		parentanchor = bottom|left
+	}
+
+
+}
+

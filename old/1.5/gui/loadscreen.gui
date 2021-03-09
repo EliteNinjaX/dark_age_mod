@@ -1,0 +1,107 @@
+widget = {
+	name = "load_screen"
+	size = { 100% 100% }
+	
+	icon = {
+		gfxtype = propstretchedicongfx
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		texture = "[GetCurrentLoadingScreen]"
+		size = { 100% 100% }
+	}
+	hbox = {
+		widget = {
+			layoutpolicy_horizontal = Expanding
+			layoutpolicy_vertical = Expanding
+
+		
+				### TOP
+			flowcontainer = {
+				parentanchor = top|left
+				position = { 0 -185 }
+				
+				icon = {
+					texture = "gfx/interface/frontend/black_border.dds"
+				}
+				icon = {
+					texture = "gfx/interface/frontend/black_border.dds"
+				}
+				icon = {
+					texture = "gfx/interface/frontend/black_border.dds"
+				}
+				icon = {
+					texture = "gfx/interface/frontend/black_border.dds"
+				}
+				icon = {
+					texture = "gfx/interface/frontend/black_border.dds"
+				}
+			}
+
+				textbox = {
+					name = "load_status_text"
+					position = { -60 13 }
+					using = BlackMarbleFont
+					parentanchor = top|right
+					align = center|nobaseline
+					autoresize = yes
+				}
+				
+				progressbar = {
+					position = { -14 6 }
+					parentanchor = top|right
+					size = { 36 36 }
+					gfxtype = framedprogressbargfx
+					texture = "gfx/interface/frontend/loading_progress.dds"
+					framesize = { 44 44 }
+					loopinterval = 1.5
+					max = 0
+				}
+
+				### BOTTOM
+				flowcontainer = {
+					parentanchor = bottom|left
+					position = { 0 110 }
+					
+					icon = {
+						texture = "gfx/interface/frontend/black_border.dds"
+					}
+					icon = {
+						texture = "gfx/interface/frontend/black_border.dds"
+					}
+					icon = {
+						texture = "gfx/interface/frontend/black_border.dds"
+					}
+					icon = {
+						texture = "gfx/interface/frontend/black_border.dds"
+					}
+					icon = {
+						texture = "gfx/interface/frontend/black_border.dds"
+					}
+				}
+					
+
+				textbox = {
+					name = "load_tip_text"
+					position = { 0 10 }
+					size = { 1000 150 }
+					using = BlackMarbleFont
+					parentanchor = bottom|hcenter
+					align = center|nobaseline
+					multiline = yes
+				}
+		}
+	}
+	
+	textbox = {
+		visible = "[Not(IsLiveBuild)]"
+		parentanchor = bottom|right
+		widgetanchor = bottom|right
+		position = { -280 6 }
+		name = "version_label"
+		text = "[GetCompleteVersionInfoString]"
+		size = { 400 120 }
+		using = MarbleButtonFont
+		multiline = yes
+		fontsize = 16
+		align = right
+	}
+}

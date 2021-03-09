@@ -1,0 +1,63 @@
+pdxmesh = {
+	name = "rock_jagged_2_mesh"
+	file = "rock_jagged_2.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+	}
+
+	meshsettings = {
+		name = "rock_jagged_2|LOD_0|Rock_Jagged_2_low|Rock_Jagged_2_lowShape"
+		index = 0
+		texture_diffuse = "rocks_diffuse.dds"
+		texture_normal = "rocks_normal.dds"
+		texture_specular = "rocks_properties.dds"
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "rock_jagged_2|LOD_1|Rock_Jagged_2_low|Rock_Jagged_2_lowShape"
+		index = 0
+		texture_diffuse = "rocks_diffuse.dds"
+		texture_normal = "rocks_normal.dds"
+		texture_specular = "rocks_properties.dds"
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+	scale = 0.8
+}
+
+pdxmesh = {
+	name = "rock_jagged_2_red_mesh"
+	file = "rock_jagged_2.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+	}
+
+	meshsettings = {
+		name = "rock_jagged_2|LOD_0|Rock_Jagged_2_low|Rock_Jagged_2_lowShape"
+		index = 0
+		texture_diffuse = "rocks_red_diffuse.dds"
+		texture_normal = "rocks_red_normal.dds"
+		texture_specular = "rocks_red_properties.dds"
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "rock_jagged_2|LOD_1|Rock_Jagged_2_low|Rock_Jagged_2_lowShape"
+		index = 0
+		texture_diffuse = "rocks_red_diffuse.dds"
+		texture_normal = "rocks_red_normal.dds"
+		texture_specular = "rocks_red_properties.dds"
+		shader = "tree"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "rock_jagged_2_entity"
+	pdxmesh = "rock_jagged_2_mesh"
+}

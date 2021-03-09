@@ -1,0 +1,179 @@
+pdxmesh = {
+	name = "multi_test_object_roughness_mesh"
+	file = "multi_test_object_roughness.mesh"
+
+	meshsettings = {
+		name = "polySurface1429Shape"
+		index = 0
+		texture_diffuse = "nodiffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere59Shape"
+		index = 0
+		texture_diffuse = "red_aluminum_diffuse.dds"
+		texture_normal = "red_aluminum_normal.dds"
+		texture_specular = "21_shades_of_metalness_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere60Shape"
+		index = 0
+		texture_diffuse = "copper_m_diffuse.dds"
+		texture_normal = "copper_m_normal.dds"
+		texture_specular = "21_shades_of_metalness_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere61Shape"
+		index = 0
+		texture_diffuse = "bronze_m_diffuse.dds"
+		texture_normal = "bronze_m_normal.dds"
+		texture_specular = "21_shades_of_metalness_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere62Shape"
+		index = 0
+		texture_diffuse = "gold_m_diffuse.dds"
+		texture_normal = "gold_m_normal.dds"
+		texture_specular = "21_shades_of_metalness_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere63Shape"
+		index = 0
+		texture_diffuse = "silver_m_diffuse.dds"
+		texture_normal = "silver_m_normal.dds"
+		texture_specular = "21_shades_of_metalness_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere64Shape"
+		index = 0
+		texture_diffuse = "iron_m_diffuse.dds"
+		texture_normal = "iron_m_normal.dds"
+		texture_specular = "21_shades_of_metalness_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere65Shape"
+		index = 0
+		texture_diffuse = "steel_rough_m_diffuse.dds"
+		texture_normal = "steel_rough_m_normal.dds"
+		texture_specular = "21_shades_of_metalness_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere66Shape"
+		index = 0
+		texture_diffuse = "wood_rough_m_diffuse.dds"
+		texture_normal = "wood_rough_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere67Shape"
+		index = 0
+		texture_diffuse = "wood_shiny_m_diffuse.dds"
+		texture_normal = "wood_shiny_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere68Shape"
+		index = 0
+		texture_diffuse = "leather_m_diffuse.dds"
+		texture_normal = "leather_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere69Shape"
+		index = 0
+		texture_diffuse = "concrete_m_diffuse.dds"
+		texture_normal = "concrete_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere70Shape"
+		index = 0
+		texture_diffuse = "marble_m_diffuse.dds"
+		texture_normal = "marble_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere71Shape"
+		index = 0
+		texture_diffuse = "skin_m_diffuse.dds"
+		texture_normal = "skin_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere72Shape"
+		index = 0
+		texture_diffuse = "rubber_m_diffuse.dds"
+		texture_normal = "rubber_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere73Shape"
+		index = 0
+		texture_diffuse = "plastic_m_diffuse.dds"
+		texture_normal = "plastic_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "pSphere74Shape"
+		index = 0
+		texture_diffuse = "cloth_m_diffuse.dds"
+		texture_normal = "cloth_m_normal.dds"
+		texture_specular = "21_shades_of_fixed_spec_roughness.dds"
+		shader = "material_test"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "multi_test_object_roughness_entity"
+	pdxmesh = "multi_test_object_roughness_mesh"
+}

@@ -1,0 +1,67 @@
+
+window = {
+	gfxtype = windowgfx
+	name = "outliner_settings"
+	
+	parentanchor = top|right
+	position = { -300 180 }
+	
+	size = { 200 250 }
+	movable = yes
+	
+	widget = {
+		name = "background"
+		using = standard_window_type
+		size = { 100% 100% }
+		alwaystransparent = no
+	}
+
+	square_close_button = {
+		name = "close_button"
+		position = { -12 12 }
+		parentanchor = top|right
+		shortcut = "close_window"
+		onclick = "[OutlinerSettings.OnClose]"
+		tooltip = "CLOSE"
+	}
+	
+	scrollarea = {
+		position = { -1 46 }
+		size = { 190 200 }
+		parentanchor = top|hcenter
+		
+		scrollbarpolicy_horizontal = always_off
+		
+		scrollbar_vertical = {
+			using = editor_vertical_scrollbar
+		}
+		
+		scrollwidget = {
+			dynamicgridbox = {
+				name = "category_grid"
+				
+				datamodel = "[OutlinerSettings.GetCategories]"
+				
+				item = {
+					container = {
+						checkbutton = {
+							using = editor_checkbutton
+							position = { 10 5 }
+							checked = "[OutlinerCategory.IsVisible]"
+							onclick = "[OutlinerCategory.ToggleVisible]"
+							tooltip = "[OutlinerCategory.GetTooltip]"
+						}
+
+						textbox = {
+							position = { 30 0 }
+							autoresize = yes
+							using = MarbleButtonFont
+							text = "[OutlinerCategory.GetName]"
+							tooltip = "[OutlinerCategory.GetTooltip]"
+						}
+					}
+				}
+			}
+		}
+	}
+}

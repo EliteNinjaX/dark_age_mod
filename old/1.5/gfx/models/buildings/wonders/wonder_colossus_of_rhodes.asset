@@ -1,0 +1,58 @@
+pdxmesh = {
+	name = "wonder_colossus_of_rhodes_mesh"
+	file = "wonder_colossus_of_rhodes.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
+
+	meshsettings = {
+		name = "wonder_colossus_of_rhodes_LOD4Shape"
+		index = 0
+		texture_diffuse = "wonder_colossus_of_rhodes_diffuse.dds"
+		texture_normal = "wonder_colossus_of_rhodes_normal.dds"
+		texture_specular = "wonder_colossus_of_rhodes_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "wonder_colossus_of_rhodes_LOD3Shape"
+		index = 0
+		texture_diffuse = "wonder_colossus_of_rhodes_diffuse.dds"
+		texture_normal = "wonder_colossus_of_rhodes_normal.dds"
+		texture_specular = "wonder_colossus_of_rhodes_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "wonder_colossus_of_rhodes_LOD5Shape"
+		index = 0
+		texture_diffuse = "wonder_colossus_of_rhodes_diffuse.dds"
+		texture_normal = "wonder_colossus_of_rhodes_normal.dds"
+		texture_specular = "wonder_colossus_of_rhodes_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "wonder_colossus_of_rhodes_entity"
+	pdxmesh = "wonder_colossus_of_rhodes_mesh"
+	
+	locator = { name = "cup_effect" position = { 0.24 13.9 0.3 } }
+	
+	default_state = "idle"
+	state = { 
+		name = "idle" 
+		state_time = 5 
+		start_event = {
+			node = "cup_effect"
+			particle = environment/colossus_of_rhodes_fire_effect
+			keep_particle = yes 
+			trigger_once = yes 
+		}
+	}
+}

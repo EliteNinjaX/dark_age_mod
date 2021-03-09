@@ -1,0 +1,467 @@
+template SocialTextStyle
+{
+	block "social_text_style"
+	{
+		font = "standard_font"
+		align = left
+		fontcolor = { 1 1 1 1 }
+		fontsize = 12
+	}
+}
+
+template SocialEditboxStyle
+{
+	block "social_editbox_style"
+	{
+		layoutpolicy_horizontal = expanding
+		minimumsize = { 100 30 }
+		size = { 252 24 }
+		alwaystransparent = no
+		focuspolicy = all
+		cursorcolor = { 1 1 0.5 1 }
+		selectioncolor = { 0.45 0.45 0.45 0.7 }
+		maxcharacters = 255
+		using = SocialTextStyle
+	}
+}
+
+template SocialButtonTextStyle
+{
+	block "social_button_text_style"
+	{
+		name = "social_button_text"
+		parentanchor = vcenter|hcenter
+		font = "standard_font"
+		fontsize = 15
+		fontcolor = { 0.86 0.86 0.73 1 }
+		autoresize = yes
+		position = { 0 0 }
+		align = center
+	}
+}
+
+template SocialErrorTextStyle
+{
+	block "social_error_text_style"
+	{
+		font = "standard_font"
+		align = left
+		fontcolor = { 1 0 0 1 }
+		fontsize = 13
+	}
+}
+
+template SocialButtonStyle
+{
+	block "social_button_style"
+	{
+		texture = "gfx/editor_gui/editor_button.dds"
+		gfxtype = framedbuttongfx
+		spriteType = CorneredStretched
+		spriteborder = { 4 4 }
+		effectname = "NoHighlight"
+		framesize = { 16 16 }
+		upframe = 1
+		downframe = 2
+		overframe = 3
+		disableframe = 4
+		intersectionmask = yes
+	}
+}
+
+template SocialDropdownButtonStyle
+{
+	block "social_dropdown_button_style"
+	{
+		texture = "gfx/editor_gui/editor_dropdown.dds"
+		spriteType = CorneredStretched
+		gfxtype = framedbuttongfx
+		effectname = "NoHighlight"
+		spriteborder = { 4 4 }
+		spriteborder_right = 24
+		button_trigger = none
+		framesize = { 32 16 }
+		upframe = 1
+		downframe = 2
+		overframe = 3
+		disableframe = 4
+	}
+}
+
+template SocialWindowStyle
+{
+	block "social_window_style"
+	{
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		texture = "gfx/editor_gui/editor_window.dds"
+		spriteType = CorneredStretched
+		spriteborder = { 6 6 }
+		spriteborder_top = 30
+		gfxtype = windowgfx
+	}
+}
+
+template SocialVerticalScrollbar
+{
+	block "social_vertical_scrollbar"
+	{
+		using = editor_vertical_scrollbar
+	}
+}
+
+template SocialHorizontalScrollbar
+{
+	block "social_horizontal_scrollbar"
+	{
+		using = editor_horizontal_scrollbar
+	}
+}
+
+template social_dropdown_enum
+{
+	block "social_dropdown_enum"
+	{
+		alwaystransparent = no
+		active_item = {
+			widget = {
+				size = { 250 30 }
+				block "active_item"
+				{
+					
+				}
+				
+				button = {
+					size = { 100% 100% }
+					using = SocialDropdownButtonStyle
+				}
+				
+				editor_textbox = {
+					block "item_text"
+					{
+						text = ""
+					}
+					position = { 10 0 }
+					parentanchor = vcenter|left
+					fontsize = 12
+				}
+			}
+		}
+		
+		item = {
+			widget = {
+				size = { 250 20 }
+				block "item"
+				{
+				}
+				
+				button = {
+					size = { 100% 100% }
+					texture = "gfx/editor_gui/editor_dropdown_item.dds"
+					spriteType = CorneredTiled
+					spriteborder = { 1 1 }
+					gfxtype = framedbuttongfx
+					framesize = { 8 8 }
+					upframe = 1
+					downframe = 2
+					overframe = 2
+					disableframe = 1
+					button_trigger = none
+				}
+				
+				editor_textbox = {
+					block "item_text"
+					{
+						text = ""
+					}
+					position = { 10 8 }
+					fontsize = 12
+				}
+			}
+		}
+		
+		list = {
+			scrollarea = {
+				position = { 2 30 }
+				autoresizescrollarea = yes
+				alwaystransparent = yes
+				maximumsize = { 250 210 }
+				block "scrollarea"
+				{
+				}
+				
+				background = {
+					margin = { 2 2 }
+					margin_bottom = 6
+					margin_right = 6
+					texture = "gfx/editor_gui/editor_dropdown_list.dds"
+					spriteType = CorneredStretched
+					spriteborder = { 6 6 }
+					spriteborder_right = 8
+					spriteborder_bottom = 8
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+				}
+				
+				scrollwidget = {
+					dynamicgridbox = {
+						alwaystransparent = no
+					}
+				}
+				
+				scrollbar_vertical = {
+					using = SocialVerticalScrollbar
+				}
+				
+				scrollbar_horizontal = {
+					using = SocialHorizontalScrollbar
+				}
+			}
+		}
+	}
+}
+
+types Social
+{
+	type social_vertical_spacer = widget {
+		block "social_vertical_spacer"
+		{
+			size = { 0 15 }
+		}
+	}
+
+	type social_horizontal_spacer = widget {
+		block "social_horizontal_spacer"
+		{
+			size = { 25 0 }
+		}
+	}
+	
+	type social_window = window {
+		block "social_window"
+		{
+			alwaystransparent = no
+			resizable = yes
+			scissor = yes
+			# size = { 128 64 }
+			movable = yes
+			filter_mouse = none
+
+			using = SocialWindowStyle
+
+
+			
+			editor_textbox = {
+				position = { 10 4 }
+				size = { 20 20 }
+				autoresize = yes
+				
+				block "title"
+				{
+					text = "#BOLD;COLOR:{1.0,1.0,1.0} Untitled #!"
+				}
+			}
+
+			button = {
+				parentanchor = top|right
+				texture = "gfx/social/remove.dds"
+				position = { -5 5 }
+				size = { 16 16 }
+				block "close_button"
+				{
+
+				}
+			}
+
+			vbox = {
+				block "vbox_properties"
+				{
+					margin = { 4 4 }
+					alwaystransparent = yes
+					restrictparent_min = yes
+				}
+				
+				widget = {
+					size = { 0 29 }
+					layoutpolicy_horizontal = Fixed
+				}
+
+				block "before_content"
+				{
+				}
+				
+				hbox = {
+					block "hbox_properties"
+					{
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = Preferred
+					}
+
+					social_horizontal_spacer={}
+
+					block "content_layout"
+					{
+						vbox = {
+							scissor = yes
+							
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = preferred
+						
+							block "content" 
+							{
+							}
+							
+							widget = {
+								layoutpolicy_vertical = preferred
+							}
+						}
+					}
+					
+					social_horizontal_spacer={}
+				}
+				
+				social_vertical_spacer={}
+			}
+		}
+	}
+
+	type social_button = button {
+		block "social_button_size"
+		{
+			size = { 150 50 }
+			minimumsize = { 150 50 }
+		
+
+			using = SocialButtonStyle
+		
+			buttonText = {
+				textbox = {
+					using = SocialButtonTextStyle
+				}
+			}
+		}
+	}
+
+	type social_load_indicator = progressbar
+	{
+		parentanchor = vcenter|hcenter
+		size = { 44 44 }
+		gfxtype = framedprogressbargfx
+		texture = "gfx/interface/loading_progress.dds"
+		framesize = { 44 44 }
+		loopinterval = 1.5
+		max = 0
+		block "load_indicator"
+		{
+			visible = no
+		}
+	}
+
+	type social_button_load_indicator = social_button {
+		social_load_indicator = {}
+	}
+	
+	type social_textbox = textbox {
+		text = ""
+		block "textbox_size"
+		{
+			size = { 200 30 }
+		}
+		block "textboxstyle" {
+			using = SocialTextStyle
+		}
+	}
+	type social_error_textbox = textbox {
+		text = ""
+		# size = { 200 150 }
+		multiline = yes
+		layoutpolicy_vertical = expanding
+		using = SocialErrorTextStyle
+		block "textboxstyle"
+		{
+		}
+	}
+	type social_required_textbox = textbox {
+		block "required_field"
+		{
+			text = "*"
+		}
+		minimumsize = { 10 -1 }
+		using = SocialTextStyle
+		autoresize = yes
+		block "textboxstyle"
+		{
+		}
+		fontcolor = { 1 0 0 1 }
+	}
+	
+	type social_editbox = editbox {
+		using = SocialEditboxStyle
+		
+		background = {
+			block "social_editbox_background"
+			{
+				margin_left = 5
+				margin_top = 0
+				texture = "gfx/editor_gui/editor_field.dds"
+				spriteType = CorneredStretched
+				spriteborder = { 4 4 }
+				shaderfile = "gfx/FX/pdxgui_default.shader"
+			}
+		}
+		block "social_editbox"
+		{
+			
+		}
+
+		block "password"
+		{
+			password = no
+		}
+	}
+	
+	type social_dropdown = dropDown {
+		layoutpolicy_horizontal = expanding
+		block "social_dropdown_name"
+		{
+			name = "social_dropdown"
+		}
+		block "social_dropdown"
+		{
+		}
+		using = social_dropdown_enum
+	}
+	
+	type social_textbox_entry = hbox {
+		layoutpolicy_horizontal = expanding
+		restrictparent_min = yes
+		layoutpolicy_vertical = fixed
+		social_required_textbox={}
+		social_vertical_spacer={}
+		social_textbox = {
+			block "title"
+			{
+				text = "Title:"
+			}
+		}
+		social_editbox = {
+			name = "social_editbox"
+			block "editbox_text"
+			{
+				text = "Enter something"
+			}
+		}
+	}
+	
+	type social_dropdown_entry = hbox {
+		layoutpolicy_horizontal = expanding
+		social_required_textbox={}
+		social_vertical_spacer={}
+		social_textbox = {
+			block "title"
+			{
+				text = "Title:"
+			}
+		}
+		social_dropdown = {
+		}
+	}
+}

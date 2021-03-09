@@ -1,0 +1,35 @@
+template movement_portrait
+{
+	using = portrait_button_template
+	alwaystransparent = no
+	size = { 86 129 }
+
+	portrait_scale = { 1.0 1.0 }
+	portrait_offset = { 0.0 0.0 }
+
+	portrait_texture = [Character.GetPortrait]
+	background_texture = "gfx/portraits/portrait_background_d.dds"
+	texture = "gfx/portraits/portrait_frame_60.dds"
+	framesize = { 86 129 }
+	frame_tier = [Character.GetPortraitFrameFrame]
+	
+	
+}
+
+template movement_portrait_small
+{
+	using = portrait_button_template
+	alwaystransparent = no
+	size = { 43 65 }
+
+	portrait_scale = { 1.0 1.0 }
+	portrait_offset = { 0.0 0.0 }
+
+	portrait_texture = [Character.GetPortrait]
+	background_texture = "gfx/portraits/portrait_background_d.dds"
+	texture = "gfx/interface/temp/portrait_frame_30.dds"
+	framesize = { 43 65 }
+	frame_tier = [Character.GetPortraitFrameFrame]
+	
+	
+}

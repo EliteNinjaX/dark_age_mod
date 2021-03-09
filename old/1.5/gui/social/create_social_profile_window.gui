@@ -1,0 +1,155 @@
+create_social_profile_window = {
+
+	blockoverride "textboxstyle" {
+		using = MarbleButtonFontS
+	}
+
+	blockoverride "textbox_size"
+	{
+		size = { 130 60 }
+	}
+
+	blockoverride "social_editbox_background"
+	{
+		texture = "gfx/interface/tiles/list_slot_corner_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 10 10 }
+		shaderfile = "gfx/FX/pdxgui_default.shader"
+		margin_left = 10
+	}
+
+	blockoverride "social_editbox_properties"{
+		using = MarbleButtonFontS
+	}
+
+	blockoverride "social_window"
+	{
+		using = small_window_type
+		
+		editor_textbox = {
+			parentanchor = top|hcenter
+			position = { 0 18 }
+			size = { 20 20 }
+			autoresize = yes
+			fontsize = 24
+			using = MarbleButtonFontS
+			
+			block "title"
+			{
+				text = "#BOLD;COLOR:{1.0,1.0,1.0} Untitled #!"
+			}
+		}
+
+		square_close_button = {
+			name = "close_button"
+			position = { -7 7 }
+			parentanchor = top|right
+			shortcut = "close_window"
+			tooltip = "CLOSE"
+			block "close_button" {}
+		}
+
+		vbox = {
+			block "vbox_properties"
+			{
+				margin = { 4 4 }
+				alwaystransparent = yes
+				restrictparent_min = yes
+			}
+			
+			widget = {
+				size = { 0 58 }
+				layoutpolicy_horizontal = Fixed
+			}
+
+			block "before_content"
+			{
+			}
+			
+			hbox = {
+				block "hbox_properties"
+				{
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = Preferred
+				}
+
+				social_horizontal_spacer={}
+
+				block "content_layout"
+				{
+					vbox = {
+						scissor = yes
+						
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = preferred
+					
+						block "content" 
+						{
+						}
+						
+						widget = {
+							layoutpolicy_vertical = preferred
+						}
+					}
+				}
+				
+				social_horizontal_spacer={}
+			}
+			
+			social_vertical_spacer={}
+		}
+	}
+
+	blockoverride "social_button_size"
+	{
+		size = { 200 46 }
+
+		gfxtype = buttongfx
+		shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
+		texture = "gfx/interface/tiles/text_button_tiles.dds"
+		spriteType = Corneredtiled
+		spriteborder = { 80 0 }
+	
+		buttonText = {
+			textbox = {
+				parentanchor = bottom|hcenter
+				using = MarbleButtonFont
+				autoresize = yes
+				position = { 0 -13 }
+			}
+		}
+	}
+	
+	blockoverride "textbox_error"
+	{
+		autoresize = yes
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
