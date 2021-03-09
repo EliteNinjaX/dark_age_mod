@@ -1,0 +1,121 @@
+﻿track1 = {
+	music = "file:/music/ashes/eu_rome/auxiliaries.mp3"
+	weight = 25
+	can_be_interrupted = yes
+}
+
+track2 = {
+	music = "file:/music/ashes/eu_rome/barbariansapproaching.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track3 = {
+	music = "file:/music/ashes/eu_rome/citizens.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track4 = {
+	music = "file:/music/ashes/eu_rome/eagleflynorth.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track5 = {
+	music = "file:/music/ashes/eu_rome/elysianfields.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track6 = {
+	music = "file:/music/ashes/eu_rome/grief.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track7 = {
+	music = "file:/music/ashes/eu_rome/legionsofrome.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track8 = {
+	music = "file:/music/ashes/eu_rome/ridingtobattle.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track9 = {
+	music = "file:/music/ashes/eu_rome/rockandrome.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track10 = {
+	music = "file:/music/ashes/eu_rome/romegoestowar.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track11 = {
+	music = "file:/music/ashes/eu_rome/romeisthelight.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track12 = {
+	music = "file:/music/ashes/eu_rome/thebattleofzama.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track13 = {
+	music = "file:/music/ashes/eu_rome/thefield.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track14 = {
+	music = "file:/music/ashes/eu_rome/thesenate.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track15 = {
+	music = "file:/music/ashes/eu_rome/tovictory.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+track16 = {
+	music = "file:/music/ashes/eu_rome/traderoutes.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+track17 = {
+	music = "file:/music/ashes/eu_rome/vaevictis.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+track17 = {
+	music = "file:/music/ashes/eu_rome/victorious_finale.mp3"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
