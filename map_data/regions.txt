@@ -39,12 +39,11 @@ sarmatia_asiatica_region = {		#8 areas
 	}
 }
 
-greece_region = {	#10 areas
+greece_region = {	#9 areas
 	areas = {
 		crete_area
 		aegean_islands_area
 		achaea_area
-		epirus_area
 		aetolia_area
 		central_greece_area
 		south_peleponnesos_area
@@ -697,9 +696,9 @@ illyria_region = {			#7 regions
 		dalmatia_occidentalis_area
 		dalmatia_centralis_area
 		dalmatia_orientalis_area
-		illyria_graeca_area
 		savia_occidentalis_area
 		savia_orientalis_area
+		dardania_superioris_area
 	}
 }
 	
@@ -757,18 +756,19 @@ venedia_region = {	#9 areas
 	}
 }
 
-macedonia_region = { #7 areas
+macedonia_region = { #8 areas
 	areas = {
 		macedonia_area
 		upper_macedonia_area
 		chalkidiki_area
 		macedonia_salutaris_area
 		dardania_inferioris_area
-		dardania_superioris_area
 		thessaly_area
+		illyria_graeca_area
+		epirus_area
 	}
+	color = rgb { 80 80 80 }
 }
-
 
 central_gaul_region = {	#7 areas
 	areas = {
