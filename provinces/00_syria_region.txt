@@ -1,0 +1,1660 @@
+﻿738={ #Maked
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+740={ #Paneas
+	terrain="hills"
+	culture="hebrew"
+	religion="miaphysite"
+	trade_goods="honey"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="aramaic"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+741={ #Iyyon
+	terrain="hills"
+	culture="roman"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="aramaic"
+		amount=1
+	}
+	slaves={
+		culture="aramaic"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+742={ #Kadasa
+	terrain="forest"
+	culture="hebrew"
+	religion="miaphysite"
+	trade_goods="wine"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=4
+	}
+}
+
+743={ #Tyrus/Tyros
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount=1
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	citizen={
+		amount=8
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		amount=9
+	}
+	slaves={
+		amount=6
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+}
+
+744={ #Ecdippa
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="glass"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+745={ #Gelil
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+746={ #Serepta
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="glass"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+747={ #Sidon
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=5
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+}
+
+748={ #Berytus
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="earthware"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+749={ #Brochoi
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+750={ #Damascus
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="cloth"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=5
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+751={ #Chalybon
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+}
+
+752={ #Gerra
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="roman"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="roman"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+753={ #Zenopolis
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="glass"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="roman"
+		amount=1
+	}
+}
+
+754={ #Palmyra
+	terrain="hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="stone"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+755={ #Veriaraca
+	terrain="hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="stone"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+756={ #Cunna
+	terrain="hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+757={ #Oneuatha
+	terrain="hills"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+758={ #Vallis Alba
+	terrain="desert"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+759={ #Thelseae
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="earthware"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+760={ #Iabrouda
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="horses"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+761={ #Triparadeisos
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=6
+	}
+}
+
+762={ #Conna
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="roman"
+		amount=1
+	}
+}
+
+763={ #Heliopolitana
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="roman"
+		amount=1
+	}
+	slaves={
+		amount=5
+	}
+	slaves={
+		culture="roman"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+764={ #Chalcis sub Libano
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="honey"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+}
+
+765={ #Berothe
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		culture="roman"
+		amount=1
+	}
+}
+
+766={ #Byblus
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+}
+
+767={ #Botrus
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="cloth"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+768={ #Libanus Mons
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+769={ #Tripoli
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="earthware"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+770={ #Cara
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="honey"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+771={ #Arca
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+772={ #Laodicea ad Libanum
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="roman"
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="roman"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="roman"
+		amount=1
+	}
+}
+
+774={ #Hemesa
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+}
+
+775={ #Heliaramia
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="honey"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+776={ #Otthara
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+777={ #Amathe
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=4
+	}
+}
+
+778={ #Mariamme
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="roman"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+779={ #Aradus
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="cloth"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+}
+
+780={ #Carne
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+781={ #Larissa
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="hemp"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="roman"
+		amount=1
+	}
+}
+
+782={ #Apamea ad Orontem
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="glass"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="roman"
+		amount=1
+	}
+	slaves={
+		amount=5
+	}
+}
+
+783={ #Bargylus Mons
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+}
+
+784={ #Sigon
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="macedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+785={ #Sucas
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="macedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+786={ #Laodicea ad Mare
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="spices"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="roman"
+		amount=1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="roman"
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+787={ #Lysias
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="incense"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="roman"
+		amount=1
+	}
+	citizen={
+		culture="macedonian"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+788={ #Posideion
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="cloth"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+789={ #Palaeopolis
+	terrain="forest"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+790={ #Antiochia
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="glass"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=3
+	}
+	citizen={
+		amount=13
+	}
+	freemen={
+		amount=11
+	}
+	slaves={
+		amount=9
+	}
+	slaves={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+}
+
+791={ #Darcush
+	terrain="hills"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+792={ #Trapezon
+	terrain="forest"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+793={ #Gindaros
+	terrain="hills"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="macedonian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+794={ #Cyrrhus
+	terrain="hills"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+797={ #Chalcis ad Belum
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+798={ #Beroea Syriae
+	terrain="plains"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="dates"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+	holy_site = omen_simeon_the_stylite
+
+}
+
+799={ #Adrona
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+800={ #Gennaes
+	terrain="desert"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="wild_game"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+801={ #Helela
+	terrain="desert"
+	culture="qedarite"
+	religion="arabian_pantheon"
+	trade_goods="spices"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+802={ #Oriza
+	terrain="desert"
+	culture="qedarite"
+	religion="miaphysite"
+	trade_goods="wild_game"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+803={ #Resafa
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="camel"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+804={ #Nicephorium
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="dates"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+805={ #Amphipolis Syriae
+	terrain="plains"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+806={ #Birtha
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+807={ #Hierapolis
+	terrain="plains"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+808={ #Batnai
+	terrain="plains"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+809={ #Europus
+	terrain="plains"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="macedonian"
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="macedonian"
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+810={ #Zeugma
+	terrain="plains"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="earthware"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=8
+	}
+}
+
+811={ #Doliche
+	terrain="hills"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		culture="macedonian"
+		amount=1
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+812={ #Nicopolis Syriae
+	terrain="hills"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+813={ #Anasartha
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="vegetables"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+814={ #Barbalissus
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+815={ #Seriane
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="horses"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+816={ #Theleda
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+847={ #Dausara
+	terrain="plains"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+850={ #Occaraba
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+851={ #Ammattha
+	terrain="desert"
+	culture="aramaic"
+	religion="miaphysite"
+	trade_goods="horses"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+852={ #Chaonia
+	terrain="plains"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="macedonian"
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1870={ #Amani Portae
+	terrain="mountain"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+1871={ #Syriae Portae
+	terrain="mountain"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+

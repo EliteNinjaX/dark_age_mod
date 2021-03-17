@@ -1,0 +1,1800 @@
+﻿5396={ #Ghore
+	terrain="desert"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+5397={ #Shenia
+	terrain="desert"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+6682={ #Marakanda
+	terrain="hills"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="earthware"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		religion="tengri"
+		amount=4
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		religion="tengri"
+		amount=6
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		religion="tengri"
+		amount=2
+	}
+	tribesmen={
+		religion="tengri"
+		amount=1
+	}
+}
+
+6683={ #Erbend
+	terrain="desert"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="horses"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="tengri"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6687={ #Gazaba
+	terrain="hills"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+6698={ #Ikroni
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		religion="chalcedonian"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6699={ #Marouka
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="tengri"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="tengri"
+		amount=1
+	}
+}
+
+6700={ #Petra Arimazou
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		religion="tengri"
+		amount=1
+	}
+	slaves={
+		religion="tengri"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6701={ #Petra Chorienou
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="gems"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6702={ #Shakria
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="earthware"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6703={ #Kyropolis Baktriane
+	terrain="hills"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="grain"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		religion="tengri"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		religion="tengri"
+		amount=2
+	}
+	tribesmen={
+		religion="tengri"
+		amount=1
+	}
+}
+
+6704={ #Alexandria Eschate
+	terrain="farmland"
+	culture="hephthalites"
+	religion="chalcedonian"
+	trade_goods="silk"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 1
+	}
+	citizen={
+		amount=17
+	}
+	freemen={
+		amount=14
+	}
+	slaves={
+		amount=8
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6705={ #Matuaspa
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="tengri"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		religion="tengri"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6706={ #Kis
+	terrain="hills"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="hemp"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="zoroaster"
+		amount=2
+	}
+	slaves={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+6707={ #Tribactra
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="cloth"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6708={ #Chadracarta
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+6709={ #Rapete
+	terrain="desert"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		religion="tengri"
+		amount=1
+	}
+	tribesmen={
+		religion="tengri"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6710={ #Xenippa
+	terrain="desert"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6711={ #Charva
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="fur"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		religion="zoroaster"
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+6712={ #Kaza
+	terrain="hills"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+6713={ #Kermine
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="earthware"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6714={ #Karnab
+	terrain="hills"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6715={ #Naura
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="cloth"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+6716={ #Nautaka
+	terrain="hills"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="fur"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	freemen={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+6717={ #Branchidai
+	terrain="desert"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="camel"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6718={ #Kogon
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6719={ #Petra Sisimithrou
+	terrain="hills"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="tengri"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		religion="tengri"
+		amount=1
+	}
+	tribesmen={
+		religion="tengri"
+		amount=2
+	}
+}
+
+6721={ #Drepsiana
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="leather"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6722={ #Imarash
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	slaves={
+		religion="tengri"
+		amount=1
+	}
+	tribesmen={
+		religion="tengri"
+		amount=1
+	}
+}
+
+6730={ #Khavakand
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="chalcedonian"
+		amount=2
+	}
+}
+
+6731={ #Massargetia
+	terrain="farmland"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=10
+	}
+	freemen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=2
+	}
+	slaves={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+6732={ #Makhram
+	terrain="hills"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=2
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	slaves={
+		religion="zoroaster"
+		amount=1
+	}
+	slaves={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		religion="chalcedonian"
+		amount=1
+	}
+}
+
+6733={ #Istarava
+	terrain="mountain"
+	culture="hephthalites"
+	religion="zoroaster"
+	trade_goods="fur"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="tengri"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		religion="tengri"
+		amount=1
+	}
+}
+
+6734={ #Chust
+	terrain="hills"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="salt"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+6735={ #Dawan
+	terrain="hills"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6736={ #Osh
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6737={ #Andijan
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=19
+	}
+	slaves={
+		amount=2
+	}
+}
+
+6738={ #Namakan
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6739={ #Akhsiket
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="silk"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="macedonian"
+		religion="chalcedonian"
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		religion="chalcedonian"
+		amount=2
+	}
+}
+
+6740={ #Shakrikhan
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="silk"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6777={ #Uvikat
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+6778={ #Balasaghun
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="salt"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6779={ #Suyab
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="base_metals"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6780={ #Nevaket
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+}
+
+6781={ #Yul
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="salt"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=11
+	}
+}
+
+6782={ #Ashpara
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6783={ #Kulan
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="hemp"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6784={ #Barskhan
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="fur"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6785={ #Shelji
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6786={ #Tobe
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="fur"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+}
+
+6787={ #Narin
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="horses"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6788={ #Shura
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="base_metals"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6789={ #Uskat
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="hemp"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+6790={ #Tunket
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="hemp"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+}
+
+6791={ #Chach
+	terrain="mountain"
+	culture="turks"
+	religion="tengri"
+	trade_goods="cattle"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+6792={ #Isfijab
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="wood"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+6793={ #Otrar
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="hemp"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+6794={ #Kuyruk
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="cloth"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+6795={ #Shavgar
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="fur"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=1
+	}
+}
+
+6802={ #Varakhsha
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7231={ #Burguchi
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="steppe_horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+7238={ #Nikhshapaya
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="stone"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+}
+
+7240={ #Zariaspa
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+7241={ #Artamis
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7242={ #Depe
+	terrain="plains"
+	culture="hephthalites"
+	religion="tengri"
+	trade_goods="steppe_horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7245={ #Chinaz
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		religion="zoroaster"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7246={ #Yangikent
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7247={ #Altinasar
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7248={ #Janaqala
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7249={ #Akkum
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7250={ #Koga
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7251={ #Besta
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7261={ #Maidankoga
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7262={ #Maidankuyryk
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7263={ #Jaxartes
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7264={ #Maidanchach
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7265={ #Zintik
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7266={ #Qaram
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7267={ #Araq
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="steppe_horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+7268={ #Osht
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7269={ #Jaxartia
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="camel"
+	civilization_value=5
+	barbarian_power=0
+	province_rank=""
+	tribesmen={
+		amount=3
+	}
+}
+
+7270={ #Kashram
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="camel"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7271={ #Kush
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="wild_game"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7272={ #Khanus
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods=""
+	civilization_value=5
+	barbarian_power=0
+	province_rank=""
+	tribesmen={
+		amount=3
+	}
+}
+
+7273={ #Poshkar
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+7274={ #Gabae
+	terrain="hills"
+	culture="turks"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7275={ #Shahr Jaxartha
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="camel"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7276={ #Ust
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7277={ #Arcum
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="camel"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7278={ #Padri
+	terrain="plains"
+	culture="turks"
+	religion="tengri"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+

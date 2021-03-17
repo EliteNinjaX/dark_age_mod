@@ -1,0 +1,1937 @@
+﻿1470={ #Cossyra
+	terrain="plains"
+	culture="africa"
+	religion="miaphysite"
+	trade_goods="stone"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3190={ #Thiges
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="elephants"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3191={ #Castra Neptitana
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3194={ #Thelepte
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3195={ #Gemellia
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3196={ #Capsa Iustiniana
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3197={ #Sufetula
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3198={ #Cillium
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="cloth"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3199={ #Nara Maxyesia
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3200={ #Oviscae
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="spices"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3201={ #Tabira
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wine"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3202={ #Silesva
+	terrain="plains"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3205={ #Menegesum
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wine"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3209={ #Thala Musulamia
+	terrain="forest"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wine"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3210={ #Sufes
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3211={ #Masclinae
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="africa"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3212={ #Aquae Regiae
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="africa"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3230={ #Thabraca
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="berber"
+		religion="berber_religion"
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3233={ #Bulla Regia
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="cattle"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3234={ #Sicca Veneria
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="spices"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3235={ #Lares
+	terrain="forest"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3236={ #Assuras
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wine"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3237={ #Obba
+	terrain="forest"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3238={ #Zama Regia
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="earthware"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		religion="chalcedonian"
+		amount=1
+	}
+}
+
+3239={ #Uzappa
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wine"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	citizen={
+		culture="africa"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="africa"
+		religion="chalcedonian"
+		amount=1
+	}
+	tribesmen={
+		religion="chalcedonian"
+		amount=1
+	}
+}
+
+3240={ #Seressi
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3241={ #Furnos Maius
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	slaves={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3242={ #Abthugni
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3243={ #Feradi Maius
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3244={ #Pupput
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3245={ #Curubis
+	terrain="farmland"
+	culture="vandal"
+	religion="arian"
+	trade_goods="spices"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=22
+	}
+	freemen={
+		amount=13
+	}
+	slaves={
+		amount=9
+	}
+	tribesmen={
+		amount=12
+	}
+}
+
+3246={ #Mactaris
+	terrain="forest"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3247={ #Althiburos
+	terrain="forest"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3248={ #Thugga Terebenthina
+	terrain="forest"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="horses"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3249={ #Ziqua
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3250={ #Uthina
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+3251={ #Membressa
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3252={ #Carpis
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3253={ #Nepheris
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3254={ #Kerkouane
+	terrain="farmland"
+	culture="vandal"
+	religion="arian"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3255={ #Missua
+	terrain="farmland"
+	culture="vandal"
+	religion="arian"
+	trade_goods="stone"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3256={ #Carthage
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 9
+		culture="vandal"
+		religion="arian"
+	}
+	citizen={
+		amount=31
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=10
+	}
+}
+
+3257={ #Utica
+	terrain="farmland"
+	culture="vandal"
+	religion="arian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 1
+	}
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=6
+		culture="africa"
+		religion="chalcedonian"
+	}
+	slaves={
+		amount=7
+		culture="africa"
+		religion="chalcedonian"
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3258={ #Hippo Diarrhytus
+	terrain="plains"
+	culture="vandal"
+	religion="arian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3259={ #Uzali Sar
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3260={ #Matar
+	terrain="farmland"
+	culture="vandal"
+	religion="arian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3261={ #Thisika
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3262={ #Kinna Thabracania
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3263={ #Rucuma
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3264={ #Septimia
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3265={ #Thimida Bure
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	slaves={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3266={ #Ureu
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3267={ #Numluli
+	terrain="forest"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3268={ #Aunobaris
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="base_metals"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	citizen={
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="africa"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3269={ #Thugga
+	terrain="forest"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		culture="africa"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3270={ #Bisica Lucana
+	terrain="forest"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3271={ #Thignica
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3272={ #Muzuc
+	terrain="hills"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="berber"
+		amount=1
+	}
+}
+
+3273={ #Aquae Casae
+	terrain="hills"
+	culture="berber"
+	religion="berber_religion"
+	trade_goods="grain"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3274={ #Mediccera
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3275={ #Ulizibbira
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3276={ #Hadrametum
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3277={ #Leptis Minor
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 1
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3278={ #Thapsus
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 1
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3279={ #Vicus Augusti
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="elephants"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="berber_religion"
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+}
+
+3280={ #Acholla
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 1
+	}
+	citizen={
+		amount=11
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3281={ #Bararus
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3282={ #Thysdrus
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3283={ #Usula
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3284={ #Cercina
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3285={ #Thaenae
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="berber_religion"
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+}
+
+3286={ #Aeliae
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+}
+
+3287={ #Taparura
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="elephants"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3288={ #Macomades Minores
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="berber_religion"
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3289={ #Bennafa
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		religion="berber_religion"
+		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		religion="berber_religion"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3290={ #Turris Tamalleni
+	terrain="plains"
+	culture="africa"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3291={ #Tacape
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	nobles = {
+		amount = 1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=7
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3292={ #Bezereos
+	terrain="plains"
+	culture="africa"
+	religion="berber_religion"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3293={ #Gigthis
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3294={ #Tipasa
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3295={ #Gergis
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3296={ #Zitha
+	terrain="farmland"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3297={ #Putea Pallene
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+}
+
+3298={ #Zouchis
+	terrain="plains"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3299={ #Pisida
+	terrain="desert"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3300={ #Locri
+	terrain="desert"
+	culture="africa"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="berber"
+		religion="berber_religion"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
