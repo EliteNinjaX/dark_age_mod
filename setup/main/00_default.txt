@@ -2625,8 +2625,9 @@ country = {
 				795 796 1873 1874 1875 1876 1877 1878 1879 1880 1881 1884 #cilicia_pedias_region
 				792 794 805 808 811 812 852 1871 #syria_cyrrestice_region
 				787 789 790 791 793 797 798 813 814 847 851 #syria_region
-				#south_phoenicia
-				#north_phoenicia
+				767 769 771 784 785 786 788 #south_phoenicia. 768 & 783 deleted from game? might need to add 770 787 here
+               	 		740 741 742 743 744 745 746 748 749 #north_phoenicia. might need to add 747 here
+
 				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
 				772 761 762 770 774 776 777 778 781 782 799 816 #apamene_region
 				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
