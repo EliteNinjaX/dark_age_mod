@@ -109,9 +109,9 @@
 	}
 }
 
-206={ #Aegealus
+206={ #Cytorus
 	terrain="forest"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -133,7 +133,7 @@
 
 207={ #Heraclea Pontica
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
@@ -159,7 +159,7 @@
 
 208={ #Sesamus
 	terrain="forest"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -181,7 +181,7 @@
 
 209={ #Tius
 	terrain="forest"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -197,7 +197,7 @@
 
 210={ #Dadybra
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -211,9 +211,9 @@
 	}
 }
 
-211={ #Ziporea
+211={ #Ziporeia
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -247,7 +247,7 @@
 
 212={ #Parthenia
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -267,9 +267,9 @@
 	}
 }
 
-213={ #Sora
+213={ #Kimista
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -297,9 +297,9 @@
 	}
 }
 
-214={ #Proseilemmene
+214={ #Timonium
 	terrain="hills"
-	culture="greco_pontic"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
@@ -325,7 +325,7 @@
 
 215={ #Krateia
 	terrain="hills"
-	culture="greco_pontic"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -364,7 +364,7 @@
 	}
 }
 
-217={ #Antoniopolis
+217={ #Tobata
 	terrain="hills"
 	culture="greco_pontic"
 	religion="chalcedonian"
@@ -394,35 +394,9 @@
 	}
 }
 
-218={ #Anadynata
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="grain"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="bithynian"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
 219={ #Bithynium
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
@@ -442,29 +416,7 @@
 	}
 }
 
-220={ #Carus Vicus
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="cattle"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=6
-	}
-}
-
-221={ #Artiknos
+221={ #Peion
 	terrain="hills"
 	culture="phrygian"
 	religion="chalcedonian"
@@ -591,7 +543,7 @@
 
 233={ #Prusias
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=40
@@ -608,9 +560,9 @@
 	}
 }
 
-234={ #Chelae
+234={ #Calpa
 	terrain="forest"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -627,31 +579,9 @@
 	}
 }
 
-235={ #Trikomia
-	terrain="plains"
-	culture="bithynian"
-	religion="chalcedonian"
-	trade_goods="hemp"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-236={ #Tarsus
+236={ #Tarsus Bithynis
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -670,7 +600,7 @@
 
 237={ #Embolus
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40
@@ -689,7 +619,7 @@
 
 238={ #Dia
 	terrain="forest"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -708,7 +638,7 @@
 
 239={ #Psillium
 	terrain="plains"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -730,7 +660,7 @@
 
 240={ #Chalcedon
 	terrain="plains"
-	culture="bithynian"
+	culture="roman"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -752,7 +682,7 @@
 
 241={ #Rhebas
 	terrain="plains"
-	culture="bithynian"
+	culture="roman"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
@@ -774,7 +704,7 @@
 
 242={ #Libyssa
 	terrain="plains"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -796,7 +726,7 @@
 
 243={ #Astacus
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=40
@@ -818,7 +748,7 @@
 
 244={ #Nicaea
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -862,7 +792,7 @@
 
 246={ #Strobilus
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40
@@ -923,7 +853,7 @@
 	}
 }
 
-249={ #Eikote
+249={ #Apollonia Rhyndakos
 	terrain="hills"
 	culture="greek"
 	religion="chalcedonian"
@@ -945,55 +875,25 @@
 	}
 }
 
-315={ #Dorylaeum
-	terrain="forest"
-	culture="phrygian"
+250={ #Helge
+	terrain="hills"
+	culture="greek"
 	religion="chalcedonian"
-	trade_goods="grain"
+	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=2
+		amount=7
 	}
 	freemen={
-		amount=3
-	}
-	freemen={
-		culture="bithynian"
-		amount=1
+		amount=6
 	}
 	slaves={
-		amount=3
+		amount=9
 	}
 	tribesmen={
-		amount=1
-	}
-}
-
-316={ #Midaeum
-	terrain="forest"
-	culture="phrygian"
-	religion="chalcedonian"
-	trade_goods="wood"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=2
-	}
-	slaves={
-		culture="bithynian"
-		amount=1
-	}
-	tribesmen={
-		amount=2
+		amount=5
 	}
 }
 
@@ -1069,7 +969,7 @@
 
 325={ #Kabia
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -1091,7 +991,7 @@
 
 326={ #Modra
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -1141,9 +1041,9 @@
 	}
 }
 
-329={ #Milia
+329={ #Dableis
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -1160,289 +1060,6 @@
 	}
 	tribesmen={
 		amount=1
-	}
-}
-
-1733={ #Kaine Parembole
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="salt"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-1734={ #Trapezus
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="cloth"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=4
-	}
-	freemen={
-		amount=4
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1775={ #Magnana
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="wood"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="greco_pontic"
-		amount=1
-	}
-}
-
-1786={ #Sauronisena
-	terrain="hills"
-	culture="greco_pontic"
-	religion="zoroaster"
-	trade_goods="stone"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		culture="greco_pontic"
-		religion="chalcedonian"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-1791={ #Ibora
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="leather"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1792={ #Kabeira
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="wood"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="greco_pontic"
-		amount=1
-	}
-	slaves={
-		religion="zoroaster"
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		religion="zoroaster"
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-1793={ #Polemonium
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="wood"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="greco_pontic"
-		religion="zoroaster"
-		amount=1
-	}
-}
-
-1795={ #Cotyura
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="salt"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="greco_pontic"
-		religion="zoroaster"
-		amount=1
-	}
-}
-
-1797={ #Coralla
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="stone"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-}
-
-1798={ #Cerasus
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="fish"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=2
-	}
-}
-
-1801={ #Matuasco
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="wine"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		religion="zoroaster"
-		amount=1
-	}
-	tribesmen={
-		amount=1
-	}
-}
-
-1804={ #Boinasa
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="wood"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=1
-	}
-	freemen={
-		culture="greco_pontic"
-		amount=1
-	}
-	slaves={
-		culture="greco_pontic"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
 	}
 }
 
@@ -1492,40 +1109,6 @@
 	}
 	tribesmen={
 		amount=2
-	}
-	tribesmen={
-		culture="greco_pontic"
-		amount=1
-	}
-}
-
-1808={ #Eupatoria
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="wood"
-	civilization_value=40
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=3
-	}
-	freemen={
-		culture="greco_pontic"
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		culture="greco_pontic"
-		amount=1
 	}
 	tribesmen={
 		culture="greco_pontic"
@@ -1625,7 +1208,7 @@
 	}
 }
 
-1815={ #Colusa
+1815={ #Abonutecus
 	terrain="hills"
 	culture="greco_pontic"
 	religion="chalcedonian"
@@ -1669,154 +1252,7 @@
 	}
 }
 
-1819={ #Amaseia
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="earthware"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=14
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=5
-	}
-	tribesmen={
-		amount=5
-	}
-}
-
-1821={ #Phazemoniton
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="precious_metals"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		culture="greco_pontic"
-		amount=1
-	}
-	slaves={
-		culture="greco_pontic"
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1822={ #Cromen
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="cattle"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=4
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1823={ #Diakopa
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="cattle"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1824={ #Andrapa
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="hemp"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		culture="greco_pontic"
-		amount=1
-	}
-	citizen={
-		culture="greco_pontic"
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	slaves={
-		culture="greco_pontic"
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=2
-	}
-	tribesmen={
-		culture="greco_pontic"
-		amount=1
-	}
-}
-
-1826={ #Pteria Pontus
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="hemp"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=3
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1827={ #Pompeiopolis
+1827={ #Sakorsa
 	terrain="forest"
 	culture="greco_pontic"
 	religion="chalcedonian"
@@ -1838,7 +1274,7 @@
 	}
 }
 
-1828={ #Sallar
+1828={ #Domanion
 	terrain="forest"
 	culture="greco_pontic"
 	religion="chalcedonian"
@@ -1860,7 +1296,7 @@
 	}
 }
 
-1829={ #Timonion
+1829={ #Blaine
 	terrain="forest"
 	culture="greco_pontic"
 	religion="chalcedonian"
@@ -1882,66 +1318,6 @@
 	}
 }
 
-1830={ #Kalekapi
-	terrain="forest"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="wood"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=3
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
-1831={ #Pimolisa
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="wood"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	citizen={
-		amount=2
-	}
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
-	}
-}
-
-1837={ #Carissa
-	terrain="hills"
-	culture="greco_pontic"
-	religion="chalcedonian"
-	trade_goods="vegetables"
-	civilization_value=25
-	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
-	}
-	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=4
-	}
-}
-
 7763={ #Sophon Pass
 	terrain="mountain"
 	culture="bithynian"
@@ -1952,9 +1328,9 @@
 	province_rank=""
 }
 
-7765={ #Transmonte
+7765={ #Tattaios
 	terrain="hills"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=40
@@ -1972,5 +1348,15 @@
 	tribesmen={
 		amount=1
 	}
+}
+
+7914={ #Modra Pass
+	terrain="mountain"
+	culture="bithynian"
+	religion="roman_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 

@@ -3,14 +3,11 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="base_metals"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=3
@@ -22,7 +19,6 @@
 	culture="utian"
 	religion="zoroaster"
 	trade_goods="honey"
-	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -38,10 +34,10 @@
 	culture="utian"
 	religion="zoroaster"
 	trade_goods="fur"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=3
 	}
 	freemen={
@@ -54,14 +50,11 @@
 	culture="utian"
 	religion="zoroaster"
 	trade_goods="fur"
-	civilization_value=30
+	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=1
@@ -73,10 +66,10 @@
 	culture="utian"
 	religion="zoroaster"
 	trade_goods="fur"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
 	slaves={
@@ -84,19 +77,16 @@
 	}
 }
 
-3460={ #Tabai Persica
+3460={ #Tabai Persikai
 	terrain="hills"
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="camel"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -108,10 +98,10 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="spices"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
 	slaves={
@@ -127,10 +117,10 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="woad"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
 	slaves={
@@ -146,10 +136,11 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="fur"
-	civilization_value=40
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="pasargadi"
 		amount=1
 	}
 	freemen={
@@ -165,7 +156,7 @@
 	culture="median"
 	religion="zoroaster"
 	trade_goods="spices"
-	civilization_value=35
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -187,7 +178,7 @@
 	culture="median"
 	religion="zoroaster"
 	trade_goods="cloth"
-	civilization_value=35
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -209,27 +200,35 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="wood"
-	civilization_value=40
+	civilization_value=44
 	barbarian_power=0
 	province_rank="city"
 	citizen={
 		culture="macedonian"
-		religion="chalcedonian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
-		amount=7
+		culture="pasargadi"
+		amount=6
+	}
+	citizen={
+		amount=1
 	}
 	freemen={
 		culture="macedonian"
-		religion="chalcedonian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
-		amount=8
+		culture="pasargadi"
+		amount=2
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=5
+		amount=8
 	}
 	tribesmen={
 		amount=6
@@ -241,10 +240,10 @@
 	culture="utian"
 	religion="zoroaster"
 	trade_goods="camel"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
 	slaves={
@@ -260,14 +259,15 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=40
+	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		culture="pasargadi"
+		amount=1
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=1
@@ -322,10 +322,10 @@
 	culture="median"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=35
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
 	tribesmen={
@@ -338,7 +338,7 @@
 	culture="median"
 	religion="zoroaster"
 	trade_goods="base_metals"
-	civilization_value=35
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -351,7 +351,7 @@
 	culture="median"
 	religion="zoroaster"
 	trade_goods="honey"
-	civilization_value=35
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -367,7 +367,7 @@
 	culture="median"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=35
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -380,7 +380,7 @@
 	culture="median"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
-	civilization_value=35
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -399,7 +399,7 @@
 	culture="median"
 	religion="zoroaster"
 	trade_goods="precious_metals"
-	civilization_value=35
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -412,10 +412,11 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="precious_metals"
-	civilization_value=25
+	civilization_value=39
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="macedonian"
 		amount=2
 	}
 	slaves={
@@ -431,7 +432,7 @@
 	culture="utian"
 	religion="zoroaster"
 	trade_goods="elephants"
-	civilization_value=40
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -450,7 +451,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=40
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -470,24 +471,29 @@
 6541={ #Alexandropolis
 	terrain="desert"
 	culture="macedonian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="honey"
-	civilization_value=40
+	civilization_value=33
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=4
+		amount=3
+	}
+	citizen={
+		culture="pactyan"
+		religion="zoroaster"
+		amount=1
 	}
 	freemen={
 		amount=5
 	}
 	slaves={
+		amount=3
+	}
+	slaves={
 		culture="pactyan"
 		religion="zoroaster"
 		amount=7
-	}
-	slaves={
-		amount=3
 	}
 	tribesmen={
 		culture="pactyan"
@@ -501,7 +507,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="leather"
-	civilization_value=25
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -513,8 +519,8 @@
 	terrain="hills"
 	culture="pactyan"
 	religion="zoroaster"
-	trade_goods="vegetables"
-	civilization_value=25
+	trade_goods="cattle"
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -530,7 +536,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="spices"
-	civilization_value=25
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -549,7 +555,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=25
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -565,7 +571,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="glass"
-	civilization_value=40
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -581,7 +587,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=40
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -592,12 +598,12 @@
 	}
 }
 
-6552={ #Alexandria Sacastene
+6552={ #Alexandreia Sakastenes
 	terrain="desert"
 	culture="macedonian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="cloth"
-	civilization_value=40
+	civilization_value=43
 	barbarian_power=0
 	province_rank="city"
 	citizen={
@@ -619,7 +625,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="marble"
-	civilization_value=25
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -635,7 +641,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="horses"
-	civilization_value=25
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -654,7 +660,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=25
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -673,7 +679,7 @@
 	culture="parthian"
 	religion="zoroaster"
 	trade_goods="marble"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -684,34 +690,41 @@
 	}
 }
 
-6558={ #Alexandria Ariorum
+6558={ #Alexandreia Areia
 	terrain="hills"
 	culture="macedonian"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="cloth"
-	civilization_value=40
+	civilization_value=44
 	barbarian_power=0
 	province_rank="city"
 	citizen={
 		amount=5
 	}
 	freemen={
-		amount=5
+		amount=3
+	}
+	freemen={
+		culture="pasargadi"
+		religion="zoroaster"
+		amount=2
 	}
 	slaves={
 		amount=1
 	}
 	tribesmen={
+		culture="sattagydian"
+		religion="zoroaster"
 		amount=2
 	}
 }
 
-6559={ #Artacabana
+6559={ #Artacabane
 	terrain="hills"
 	culture="sattagydian"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
-	civilization_value=25
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -733,12 +746,12 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		culture="macedonian"
-		religion="chalcedonian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
@@ -746,7 +759,7 @@
 	}
 	freemen={
 		culture="macedonian"
-		religion="chalcedonian"
+		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
@@ -762,7 +775,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="honey"
-	civilization_value=40
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -778,18 +791,16 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
 		amount=2
 	}
+	holy_site=omen_atar
 }
 
 6563={ #Zimyra
@@ -797,7 +808,7 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="grain"
-	civilization_value=30
+	civilization_value=31
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -816,10 +827,10 @@
 	culture="parthian"
 	religion="zoroaster"
 	trade_goods="marble"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
 	tribesmen={
@@ -832,14 +843,14 @@
 	culture="sattagydian"
 	religion="zoroaster"
 	trade_goods="leather"
-	civilization_value=25
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
 		amount=1
@@ -851,7 +862,7 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -870,14 +881,15 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="wood"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		culture="pasargadi"
+		amount=1
 	}
 	freemen={
-		amount=1
+		amount=3
 	}
 }
 
@@ -886,10 +898,10 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
 	tribesmen={
@@ -902,7 +914,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="spices"
-	civilization_value=25
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -915,11 +927,14 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=40
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=1
+	}
 	slaves={
-		amount=2
+		amount=1
 	}
 	tribesmen={
 		amount=2
@@ -931,7 +946,7 @@
 	culture="parecanian"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
-	civilization_value=20
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -947,7 +962,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="horses"
-	civilization_value=40
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -966,7 +981,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="camel"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -979,7 +994,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="hemp"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -998,14 +1013,11 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=40
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
-		amount=1
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -1017,7 +1029,7 @@
 	culture="gedrosian"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=25
+	civilization_value=31
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1033,7 +1045,7 @@
 	culture="gedrosian"
 	religion="zoroaster"
 	trade_goods="cattle"
-	civilization_value=25
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	slaves={
@@ -1049,10 +1061,10 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="woad"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
 	tribesmen={
@@ -1065,7 +1077,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="precious_metals"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1084,10 +1096,11 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=40
+	civilization_value=27
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="pasargadi"
 		amount=2
 	}
 	freemen={
@@ -1106,7 +1119,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="incense"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1119,7 +1132,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="camel"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1135,7 +1148,7 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="horses"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1151,10 +1164,10 @@
 	culture="carmanian"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
 	tribesmen={
@@ -1167,7 +1180,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="cloth"
-	civilization_value=25
+	civilization_value=18
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1186,7 +1199,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="hemp"
-	civilization_value=25
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1205,10 +1218,11 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="vegetables"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="pasargadi"
 		amount=1
 	}
 	freemen={
@@ -1227,10 +1241,11 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="pasargadi"
 		amount=2
 	}
 	freemen={
@@ -1246,7 +1261,7 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="honey"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1265,10 +1280,11 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="base_metals"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="pasargadi"
 		amount=2
 	}
 	freemen={
@@ -1287,7 +1303,7 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="precious_metals"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1306,10 +1322,11 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="leather"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="pasargadi"
 		amount=2
 	}
 	freemen={
@@ -1328,7 +1345,7 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="grain"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
@@ -1350,10 +1367,11 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="pasargadi"
 		amount=2
 	}
 	freemen={
@@ -1372,14 +1390,15 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="hemp"
-	civilization_value=30
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		culture="pasargadi"
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
 		amount=2
@@ -1394,10 +1413,11 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="base_metals"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="pasargadi"
 		amount=3
 	}
 	freemen={
@@ -1413,14 +1433,14 @@
 	culture="sagartian"
 	religion="zoroaster"
 	trade_goods="horses"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=3
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	tribesmen={
 		amount=3
@@ -1432,7 +1452,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="hemp"
-	civilization_value=25
+	civilization_value=19
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1451,7 +1471,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="leather"
-	civilization_value=25
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1470,7 +1490,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="precious_metals"
-	civilization_value=25
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1489,7 +1509,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="iron"
-	civilization_value=25
+	civilization_value=17
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
@@ -1505,17 +1525,17 @@
 
 6646={ #Soteira
 	terrain="hills"
-	culture="parthian"
+	culture="sattagydian"
 	religion="zoroaster"
-	trade_goods="vegetables"
-	civilization_value=30
+	trade_goods="cattle"
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=4
+		amount=1
 	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=1
@@ -1524,13 +1544,13 @@
 
 6647={ #Nisibis
 	terrain="hills"
-	culture="parthian"
+	culture="sattagydian"
 	religion="zoroaster"
 	trade_goods="wood"
-	civilization_value=30
+	civilization_value=29
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
 	slaves={
@@ -1546,7 +1566,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="wild_game"
-	civilization_value=25
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
@@ -1559,7 +1579,7 @@
 	culture="pactyan"
 	religion="zoroaster"
 	trade_goods="wild_game"
-	civilization_value=20
+	civilization_value=28
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
