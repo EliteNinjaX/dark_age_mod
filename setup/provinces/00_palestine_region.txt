@@ -83,7 +83,7 @@
 	}
 }
 
-660={ #Ascalon
+660={ #Ascalona
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -109,7 +109,7 @@
 	}
 }
 
-661={ #Azoton
+661={ #Azotona
 	terrain="plains"
 	culture="hebrew"
 	religion="miaphysite"
@@ -175,7 +175,7 @@
 	}
 }
 
-664={ #Apollonia Palestinum
+664={ #Apollonia Palestinorum
 	terrain="plains"
 	culture="hebrew"
 	religion="miaphysite"
@@ -381,7 +381,7 @@
 	}
 }
 
-675={ #Pella Palestinum
+675={ #Pella Palestinorum
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -596,7 +596,7 @@
 	}
 }
 
-686={ #Nicopolis Iudaeam
+686={ #Nicopolis Iudaeorum
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -618,7 +618,7 @@
 	}
 }
 
-687={ #Ierusalem/Jerusalem
+687={ #Ierusalem
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -626,7 +626,7 @@
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
-	nobles = {
+	nobles={
 		amount=1
 	}
 	citizen={
@@ -641,7 +641,7 @@
 	tribesmen={
 		amount=2
 	}
-	holy_site = omen_samuel
+	holy_site=omen_samuel
 }
 
 688={ #Thekoa
@@ -1392,7 +1392,7 @@
 	civilization_value=35
 	barbarian_power=0
 	province_rank="city"
-	nobles = {
+	nobles={
 		amount=1
 	}
 	citizen={
@@ -1407,7 +1407,7 @@
 	tribesmen={
 		amount=4
 	}
-	holy_site = omen_al_qaum
+	holy_site=omen_al_qaum
 }
 
 730={ #Adrou
@@ -1471,7 +1471,7 @@
 	}
 }
 
-733={ #Abila Decapolis
+733={ #Abila Decapolita
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"
@@ -1595,7 +1595,7 @@
 	}
 }
 
-739={ #Neue
+739={ #Neues
 	terrain="plains"
 	culture="hebrew"
 	religion="judaism"

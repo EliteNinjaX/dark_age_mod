@@ -1,0 +1,1645 @@
+﻿4018={ #Tergeste
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4019={ #Parentium
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4020={ #Pola
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4021={ #Flanona
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4022={ #Piquentum
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4023={ #Tarsatica
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4024={ #Emona
+	terrain="mountain"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4025={ #Carnium
+	terrain="mountain"
+	culture="rhaetian"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+4026={ #Longaticum
+	terrain="hills"
+	culture="rhaetian"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4027={ #Latobicorum
+	terrain="mountain"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4032={ #Curicum
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4033={ #Senia
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4034={ #Apsaros
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4035={ #Ortopla
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4036={ #Metulum
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4038={ #Andautonia
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4040={ #Ad Fines Catariae
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4041={ #Segestica
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+4042={ #Raetinium
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4043={ #Clandate
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4044={ #Crucium
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4045={ #Colapia
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4046={ #Valdasus
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4049={ #Vegium
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4050={ #Arupium
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4051={ #Ancus
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4052={ #Kissa
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4053={ #Ainona
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4054={ #Idassa
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4055={ #Argyruntum
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4056={ #Asseria
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=25
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4057={ #Bournion
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4058={ #Skardon
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4059={ #Synodion
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4060={ #Tragourion
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4061={ #Splonum
+	terrain="mountain"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4062={ #Salona
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="marble"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4063={ #Osinion
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4064={ #Pelva
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4065={ #Salvium
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4066={ #Delminion
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4067={ #Bariduum
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4068={ #Bistua Nova
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4069={ #Ad Matricem
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4070={ #Baloia
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4071={ #Leusaba
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4072={ #Aemate
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4073={ #Ad Praetorium
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+4074={ #Servitium
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4075={ #Castra
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4076={ #Urbate
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4078={ #Bercellum
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4079={ #Stanecli
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4080={ #Aquae Sulphurae
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4081={ #Eidiseis
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4082={ #Narona
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4083={ #Dilenton
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4084={ #Pharos
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4085={ #Epidauros Illyrikos
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4086={ #Salthoua
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4087={ #Anderba
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4088={ #Rhizon
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4100={ #Municipium Dardanorum
+	terrain="farmland"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4101={ #Arsia
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4102={ #Grabaeum
+	terrain="mountain"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=30
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+4103={ #Sevastum
+	terrain="mountain"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+}
+
+4104={ #Leusinium
+	terrain="mountain"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4105={ #Pecina
+	terrain="mountain"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4106={ #Risetia
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=5
+	}
+}
+
+4107={ #Haedum
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4118={ #Gramrianae
+	terrain="plains"
+	culture="thracian"
+	religion="chalcedonian"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4119={ #Celegerorum
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4120={ #Praesidium Illyrum
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4121={ #Gradus
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4122={ #Parthinia
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4127={ #Malvesia
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="precious_metals"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4176={ #Pyrri
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4177={ #Varianis
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4178={ #Municipium Iassorum
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4179={ #Serota
+	terrain="forest"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4181={ #Savia
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4183={ #Incero
+	terrain="plains"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+4184={ #Dravia
+	terrain="hills"
+	culture="illyria"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+8026={ #Issa
+	terrain="hills"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="wine"
+	civilization_value=29
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		culture="greco_illyrian"
+		amount=1
+	}
+	slaves={
+		culture="greco_illyrian"
+		amount=3
+	}
+	port_building=1
+}
+
+8027={ #Korkyra Melaina
+	terrain="hills"
+	culture="italiotian"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		culture="greco_illyrian"
+		amount=2
+	}
+	slaves={
+		culture="greco_illyrian"
+		amount=1
+	}
+	port_building=1
+}
+

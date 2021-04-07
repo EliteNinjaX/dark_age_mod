@@ -27,7 +27,7 @@
 	}
 }
 
-551={ #Besa
+551={ #Moncaneis
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -87,7 +87,7 @@
 	}
 }
 
-554={ #Morae
+554={ #Pocis
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -131,7 +131,7 @@
 	}
 }
 
-556={ #Anteu
+556={ #Anteus
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -194,7 +194,7 @@
 	}
 }
 
-559={ #Ptolemais Inferioris
+559={ #Ptolemais Inferior
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -232,7 +232,7 @@
 	}
 }
 
-561={ #Abydus Aegyptum
+561={ #Abydus Aegypti
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -289,7 +289,7 @@
 	}
 }
 
-564={ #Caene
+564={ #Caena
 	terrain="desert"
 	culture="egyptian"
 	religion="miaphysite"
@@ -337,7 +337,7 @@
 	}
 }
 
-567={ #Apollonopolis Parva
+567={ #Apollinopolis Parva
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -356,7 +356,7 @@
 	}
 }
 
-568={ #Ceramice
+568={ #Ceramices
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -372,7 +372,7 @@
 	}
 }
 
-569={ #Thebae Aegyptum/Thebai Hekatompyloi
+569={ #Thebae Aegypti
 	terrain="plains"
 	culture="egyptian"
 	religion="miaphysite"
@@ -380,8 +380,8 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
-	nobles = {
-		amount = 1
+	nobles={
+		amount=1
 	}
 	citizen={
 		amount=2
@@ -751,7 +751,7 @@
 	}
 }
 
-647={ #Leucus Limen
+647={ #Albus Limen
 	terrain="desert"
 	culture="egyptian"
 	religion="miaphysite"

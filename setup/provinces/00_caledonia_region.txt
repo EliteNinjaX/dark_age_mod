@@ -1,0 +1,1326 @@
+﻿2086={ #Buthceaster
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2089={ #Munucceaster
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2090={ #Wercewode
+	terrain="plains"
+	culture="pict"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2091={ #Ystrad Nidd
+	terrain="plains"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2108={ #Menvev
+	terrain="plains"
+	culture="manavian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+2109={ #Rosnat
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2110={ #i nGall Gaidhealaib
+	terrain="plains"
+	culture="pict"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2111={ #Bebbanburh
+	terrain="plains"
+	culture="pict"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2112={ #Inbhir Air
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2113={ #Niwesteall
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2114={ #Eidyn
+	terrain="plains"
+	culture="pict"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2115={ #Scoine
+	terrain="plains"
+	culture="pict"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2116={ #Aberdon
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2117={ #Cair Brithon
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2118={ #Argyle
+	terrain="marsh"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2119={ #Carnonacae
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2120={ #Craig Phadrig
+	terrain="mountain"
+	culture="pict"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2121={ #Caereni
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2122={ #Vík
+	terrain="marsh"
+	culture="pict"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2123={ #Fortriu
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2124={ #Cathures
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2125={ #Ce
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2126={ #Hii
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2127={ #Carnones
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2128={ #Skye
+	terrain="marsh"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2129={ #Hærri
+	terrain="marsh"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2130={ #Ywst
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2131={ #Catanes
+	terrain="marsh"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2132={ #Orcades
+	terrain="forest"
+	culture="caledonian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2133={ #Dundè
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2161={ #Iverni
+	terrain="marsh"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2162={ #Corcach
+	terrain="forest"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="iron"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2163={ #Velaboria Australis
+	terrain="forest"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2164={ #Cill Chainnigh
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2165={ #Garrchon
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2166={ #Ariu
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2167={ #Áth Truim
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2168={ #Baile na Lorgan
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2169={ #Dún Gaillimhe
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2170={ #Emain Macha
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2171={ #Sligeach
+	terrain="hills"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2172={ #Ardboe
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2173={ #Ráth Mór
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2174={ #Doire Calgach
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2175={ #Béal Átha Seanaidh
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2176={ #Innisfallen
+	terrain="marsh"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="precious_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2177={ #Dáirine
+	terrain="marsh"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2178={ #Les Mór
+	terrain="plains"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2179={ #An Cheallúnach
+	terrain="marsh"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2180={ #Sliabh Luachra
+	terrain="marsh"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2181={ #Cromadh
+	terrain="plains"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2182={ #Dún Eochair Maigue
+	terrain="plains"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2183={ #Inis Sibhtonn
+	terrain="marsh"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2184={ #Cruachan
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2185={ #Músgraige
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2186={ #Dún Garbhán
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+	tribesmen={
+		religion="chalcedonian"
+		amount=4
+	}
+}
+
+2187={ #Éile
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+2188={ #Cheinnselaig
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2189={ #Ferna
+	terrain="hills"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2190={ #Duibhlinn
+	terrain="forest"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="incense"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=9
+	}
+	slaves={
+		amount=9
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2191={ #Tethba
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="stone"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2192={ #Laeighsech
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2193={ #Sráid Bhaile
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2194={ #Cairbre
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2195={ #Dún Droma Dáirine
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2196={ #Dairtre
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2197={ #Fiachrach Muaidhe
+	terrain="marsh"
+	culture="hibernian"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		religion="chalcedonian"
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2198={ #Sliabh Lugha
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2199={ #Gaileng
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2200={ #Conmaicne Mara
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2201={ #Breifne
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2202={ #Fir Manach
+	terrain="hills"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2203={ #Leitirceanainn
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2204={ #Tír Conaill
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2205={ #Clochar
+	terrain="plains"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2206={ #Orighella
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2207={ #An Baile Meadhonach
+	terrain="marsh"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2208={ #An Iúrach
+	terrain="forest"
+	culture="hibernian"
+	religion="druidism"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+6311={ #Dalriads
+	terrain="plains"
+	culture="pict"
+	religion="druidism"
+	trade_goods="fur"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7739={ #Lugii
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+7740={ #Aberbrothock
+	terrain="forest"
+	culture="pict"
+	religion="druidism"
+	trade_goods="woad"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+

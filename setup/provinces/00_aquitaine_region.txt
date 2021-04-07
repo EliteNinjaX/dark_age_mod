@@ -1,0 +1,1746 @@
+﻿1721={ #Fines
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2225={ #Pictavia Australis
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2226={ #Becciacum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2228={ #Pictonia
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2229={ #Novioregum Santonum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=2
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2230={ #Mediolanum Santonum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2231={ #Lamnum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=2
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2232={ #Tannum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2233={ #Noviomagus Aquitanum
+	terrain="marsh"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2234={ #Burgus
+	terrain="marsh"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+2235={ #Akroterion
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2236={ #Bordeaux
+	terrain="marsh"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2237={ #Losa
+	terrain="forest"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2238={ #Segosa
+	terrain="forest"
+	culture="aquitani"
+	religion="druidism"
+	trade_goods="salt"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2239={ #Mosconnum
+	terrain="plains"
+	culture="aquitani"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2240={ #Lapurdum
+	terrain="plains"
+	culture="aquitani"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2241={ #Telonnum
+	terrain="forest"
+	culture="aquitani"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2242={ #Coequosa
+	terrain="plains"
+	culture="aquitani"
+	religion="druidism"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2243={ #Aquae Tarbellicae
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2244={ #Carasa
+	terrain="plains"
+	culture="aquitani"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2245={ #Stomatas
+	terrain="forest"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2246={ #Iluro
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="marble"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2247={ #Bene Harnum
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2248={ #Novum Oppidum
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+2249={ #Tarba
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2250={ #Atura
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="marble"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2251={ #Aquae Convenarum
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2252={ #Lugdunum Convenarum
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2269={ #Divona
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2270={ #Aginnum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2271={ #Lactora
+	terrain="plains"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2272={ #Cossium
+	terrain="forest"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2273={ #Eleusa
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2274={ #Saviniago
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2275={ #Elimberrum
+	terrain="plains"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2276={ #Calagorris
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+2277={ #Belsinum
+	terrain="plains"
+	culture="aquitani"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2278={ #Casinomagus
+	terrain="plains"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="stone"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2279={ #Sarnali
+	terrain="plains"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2281={ #Ussubium
+	terrain="plains"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2282={ #Perigueux
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="iron"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2283={ #Clermont
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="precious_metals"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2287={ #Corterate
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2288={ #Praemiacum
+	terrain="forest"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2289={ #Lucaniacum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2290={ #Iculisma
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2291={ #Sarrum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2292={ #Pompegiaco
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2293={ #Excisum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2294={ #Travectus
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2326={ #Decaniacum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2327={ #Acuciago
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2328={ #Briva
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2329={ #Nonniacus
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="iron"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2330={ #Userca
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2331={ #Gemilliacum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2332={ #Negiacum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2333={ #Canaviacum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2334={ #Campaniacum
+	terrain="farmland"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2335={ #Marcelliago
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2337={ #Argenta
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2338={ #Eustriacum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2340={ #Tiniacum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="honey"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2341={ #Curisiacum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2343={ #Salviacum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2344={ #Durotincum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+2345={ #Poitiers
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2346={ #Argentomagus
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2382={ #Idunum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2383={ #Ferruciacum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2384={ #Vosagum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2385={ #Andecamulum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2386={ #Ambiacum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="marble"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2387={ #Exidualum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2388={ #Comodoliacus
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2389={ #Cassinomagum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2390={ #Rauranum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2391={ #Brigiosum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2392={ #Aunnedonacum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2393={ #Voglada
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2396={ #Clinno
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2397={ #Vultaconum
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2399={ #Toarcius
+	terrain="plains"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=15
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2404={ #Sisciacum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2405={ #Pontiniacum
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2419={ #Claudiomagus
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2420={ #Iciodoro
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3000={ #Sermanicomago
+	terrain="farmland"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="earthware"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		culture="franks"
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3307={ #Confluenta
+	terrain="forest"
+	culture="gaul"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=20
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+

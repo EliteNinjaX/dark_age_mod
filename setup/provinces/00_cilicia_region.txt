@@ -1,0 +1,1860 @@
+﻿156={ #Myra
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+	}
+	holy_site=omen_nicholas
+}
+
+159={ #Choma
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="honey"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+160={ #Arykanda
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+161={ #Limyra
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+162={ #Olympus
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+164={ #Phaselis
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	slaves={
+		amount=1
+	}
+}
+
+165={ #Olbia Pamphylum
+	terrain="plains"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+166={ #Perge
+	terrain="plains"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="greek"
+		amount=1
+	}
+}
+
+167={ #Pednelissus
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		culture="greek"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+168={ #Aspendus
+	terrain="plains"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="greek"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+170={ #Termessus
+	terrain="mountain"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+	tribesmen={
+		culture="greek"
+		amount=1
+	}
+}
+
+171={ #Isinda
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+330={ #Carpasia
+	terrain="hills"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+331={ #Salamis Kyprias
+	terrain="plains"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="glass"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=9
+	}
+	citizen={
+		culture="greek"
+		amount=2
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=9
+	}
+}
+
+332={ #Citium
+	terrain="forest"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+333={ #Soli Cypriani
+	terrain="hills"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+334={ #Paphus
+	terrain="hills"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=2
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=14
+	}
+}
+
+335={ #Cyrenia
+	terrain="hills"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+336={ #Tamasus
+	terrain="hills"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+338={ #Amathus
+	terrain="hills"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+795={ #Alexandria ad Issum
+	terrain="plains"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+796={ #Issus
+	terrain="plains"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1870={ #Amanian Gates
+	terrain="mountain"
+	culture="aramaic"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+1872={ #Panormus
+	terrain="mountain"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1873={ #Erana
+	terrain="hills"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="honey"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1874={ #Viniandus
+	terrain="farmland"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1875={ #Kastabala
+	terrain="plains"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1877={ #Anazarbos
+	terrain="plains"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1878={ #Pindenisson
+	terrain="hills"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="iron"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		culture="cappadocian"
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+	slaves={
+		culture="cappadocian"
+		amount=1
+	}
+}
+
+1879={ #Aegeae
+	terrain="plains"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1880={ #Mopsouestia
+	terrain="farmland"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1881={ #Mallus
+	terrain="farmland"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=21
+	}
+	slaves={
+		amount=10
+	}
+}
+
+1882={ #Adanus
+	terrain="plains"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="olive"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=10
+	}
+}
+
+1883={ #Tarsus
+	terrain="plains"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1885={ #Selge
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		culture="greek"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1887={ #Soli
+	terrain="hills"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1889={ #Magarsa
+	terrain="marsh"
+	culture="cilician"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1890={ #Holmoi
+	terrain="plains"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="cilician"
+		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		culture="cilician"
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1892={ #Elaeousa
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		culture="cilician"
+		amount=2
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="cilician"
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1894={ #Olba
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	slaves={
+		culture="greek"
+		amount=1
+	}
+}
+
+1896={ #Ninica
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="honey"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		culture="cilician"
+		amount=2
+	}
+	slaves={
+		culture="cilician"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1897={ #Celenderis
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1901={ #Anemurium
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1904={ #Selinous Kilikias
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1905={ #Coracesium
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+}
+
+1906={ #Lairtes
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1908={ #Colybrassus
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="honey"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1910={ #Side
+	terrain="plains"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="dye"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+}
+
+1911={ #Sillyon
+	terrain="plains"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		culture="greek"
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=7
+	}
+	slaves={
+		culture="greek"
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1917={ #Lakaine
+	terrain="mountain"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1921={ #Amblada
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1927={ #Tityassos
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1931={ #Adada
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+1933={ #Conana
+	terrain="hills"
+	culture="phrygian"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=2
+	}
+	slaves={
+		culture="greek"
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		culture="greek"
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1935={ #Baris
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1949={ #Sagalassus
+	terrain="hills"
+	culture="phrygian"
+	religion="chalcedonian"
+	trade_goods="honey"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1958={ #Cibyra
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wild_game"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+	tribesmen={
+		amount=6
+	}
+}
+
+1959={ #Takina
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+1960={ #Lagbe
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	slaves={
+		culture="greek"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1961={ #Olbasa
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wine"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1986={ #Comama
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1988={ #Cremna
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+1990={ #Oinoanda
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="greek"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1991={ #Podalia
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="glass"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1992={ #Telmessus
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1993={ #Tlos
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=5
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+1995={ #Xanthus
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+1997={ #Boubon
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="greek"
+		amount=1
+	}
+}
+
+1998={ #Patara
+	terrain="hills"
+	culture="greek"
+	religion="chalcedonian"
+	trade_goods="glass"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+6431={ #Marion
+	terrain="hills"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+6433={ #Chythroi
+	terrain="plains"
+	culture="cypriot"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+}
+
+7760={ #Prostanna
+	terrain="hills"
+	culture="phrygian"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=40
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7942={ #Daidala
+	terrain="hills"
+	culture="ionian"
+	religion="roman_pantheon"
+	trade_goods="hemp"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="lycian"
+		religion="anatolian_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		culture="lycian"
+		religion="anatolian_religion"
+		amount=1
+	}
+	tribesmen={
+		culture="cabalian"
+		religion="anatolian_religion"
+		amount=1
+	}
+}
+
+7947={ #Balboura
+	terrain="hills"
+	culture="cabalian"
+	religion="anatolian_religion"
+	trade_goods="stone"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="lycian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="milyadian"
+		amount=1
+	}
+}
+
+7948={ #Kadyanda
+	terrain="hills"
+	culture="lycian"
+	religion="roman_pantheon"
+	trade_goods="cattle"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="cabalian"
+		amount=1
+	}
+	tribesmen={
+		culture="milyadian"
+		amount=1
+	}
+}
+
+7949={ #Kandyba
+	terrain="hills"
+	culture="lycian"
+	religion="roman_pantheon"
+	trade_goods="vegetables"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="milyadian"
+		religion="anatolian_religion"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="milyadian"
+		religion="anatolian_religion"
+		amount=1
+	}
+}
+
+7951={ #Kitanaura
+	terrain="hills"
+	culture="pamphylian"
+	religion="anatolian_religion"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		religion="roman_pantheon"
+		amount=1
+	}
+	freemen={
+		culture="lycian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		culture="pisidian"
+		amount=1
+	}
+	tribesmen={
+		culture="milyadian"
+		amount=1
+	}
+}
+
+7954={ #Kormasa
+	terrain="hills"
+	culture="milyadian"
+	religion="anatolian_religion"
+	trade_goods="wild_game"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		culture="pisidian"
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="pisidian"
+		amount=1
+	}
+}
+
+7956={ #Ariassos
+	terrain="hills"
+	culture="pisidian"
+	religion="anatolian_religion"
+	trade_goods="cloth"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="pamphylian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+7958={ #Kotenna
+	terrain="hills"
+	culture="pisidian"
+	religion="anatolian_religion"
+	trade_goods="wood"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	freemen={
+		culture="pamphylian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=1
+	}
+}
+
+7962={ #Ano Kotradis
+	terrain="hills"
+	culture="lalasian"
+	religion="anatolian_religion"
+	trade_goods="leather"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		culture="pamphylian"
+		religion="roman_pantheon"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+	tribesmen={
+		culture="pisidian"
+		amount=1
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=1
+	}
+}
+
+7968={ #Kyinda
+	terrain="mountain"
+	culture="cilician"
+	religion="anatolian_religion"
+	trade_goods="base_metals"
+	civilization_value=22
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="isaurian"
+		amount=1
+	}
+	tribesmen={
+		culture="kennataian"
+		amount=1
+	}
+}
+
+7971={ #Eriza Karias
+	terrain="hills"
+	culture="cabalian"
+	religion="anatolian_religion"
+	trade_goods="cattle"
+	civilization_value=13
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="lydian"
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+	tribesmen={
+		culture="milyadian"
+		amount=1
+	}
+}
+
+7986={ #Commagenian Gates
+	terrain="mountain"
+	culture="kennataian"
+	religion="anatolian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7990={ #Kourion
+	terrain="forest"
+	culture="cypriot"
+	religion="roman_pantheon"
+	trade_goods="wood"
+	civilization_value=24
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+}
+
+7991={ #Idalion
+	terrain="plains"
+	culture="cypriot"
+	religion="roman_pantheon"
+	trade_goods="olive"
+	civilization_value=26
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		culture="phoenician"
+		religion="carthaginian_pantheon"
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+}
+
+8021={ #Syrian Gates
+	terrain="mountain"
+	culture="kennataian"
+	religion="anatolian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+8022={ #Cilician Gates
+	terrain="mountain"
+	culture="kennataian"
+	religion="anatolian_religion"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+

@@ -1,0 +1,1544 @@
+﻿3647={ #Ovilava
+	terrain="hills"
+	culture="rhaetian"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3648={ #Lauriacum
+	terrain="hills"
+	culture="rhaetian"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3649={ #Loacus Felicis
+	terrain="hills"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3650={ #Namare
+	terrain="hills"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3651={ #Faviana
+	terrain="hills"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="cloth"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+3652={ #Augustinia
+	terrain="hills"
+	culture="gothonic"
+	religion="arian"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3749={ #Vindelicia
+	terrain="plains"
+	culture="bavarii"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3752={ #Ambrae
+	terrain="plains"
+	culture="bavarii"
+	religion="arian"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3757={ #Celeusum
+	terrain="plains"
+	culture="bavarii"
+	religion="arian"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3765={ #Abusina
+	terrain="plains"
+	culture="bavarii"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3766={ #Germanicum
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3767={ #Biriciana
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="honey"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3768={ #Mediana Vendelicia
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3769={ #Losodica
+	terrain="forest"
+	culture="alamanni"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=2
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+}
+
+3772={ #Ad Fines Germaniae
+	terrain="forest"
+	culture="alamanni"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+	}
+}
+
+3773={ #Venaxamodurum
+	terrain="plains"
+	culture="bavarii"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3774={ #Parrodunum
+	terrain="plains"
+	culture="bavarii"
+	religion="arian"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3775={ #Summuntorium
+	terrain="plains"
+	culture="alamanni"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=2
+	}
+	freemen={
+		culture="franks"
+		religion="chalcedonian"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+}
+
+3806={ #Varistia
+	terrain="plains"
+	culture="alamanni"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	citizen={
+		culture="franks"
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+}
+
+3807={ #Nariscia
+	terrain="plains"
+	culture="alamanni"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	citizen={
+		culture="franks"
+		amount=2
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		culture="franks"
+		amount=1
+	}
+}
+
+3808={ #Vandulia
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3809={ #Bibacum
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3811={ #Brodentia
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3812={ #Strevinta
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3813={ #Reganus
+	terrain="hills"
+	culture="lombards"
+	religion="arian"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3814={ #Parmacampia
+	terrain="hills"
+	culture="lombards"
+	religion="arian"
+	trade_goods="cloth"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3815={ #Augustania
+	terrain="hills"
+	culture="lombards"
+	religion="arian"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3816={ #Marcomannia
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3817={ #Brodentica
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3818={ #Setuacatum
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3819={ #Furgisatis
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3820={ #Cantiabis
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+}
+
+3821={ #Moenosgadia
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3822={ #Devona
+	terrain="plains"
+	culture="franks"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3910={ #Susidaea
+	terrain="plains"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+3911={ #Nomisterium
+	terrain="hills"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3912={ #Redintuinum
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3913={ #Marobudum
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="earthware"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3914={ #Coridorgis
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3915={ #Meliodunum
+	terrain="forest"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="cloth"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3916={ #Abilunum
+	terrain="hills"
+	culture="lombards"
+	religion="arian"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3917={ #Adrabae
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3921={ #Regnia Secunda
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3922={ #Medioslanium
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3923={ #Teracatriae
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3928={ #Felicia Boioa
+	terrain="hills"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3930={ #Phargisatus
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3931={ #Tavia
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3932={ #Hercyniana
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3933={ #Quadia
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="vegetables"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3934={ #Ad Periam
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3935={ #Ad Limen
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+}
+
+3936={ #Sylvaria Prima
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3937={ #Baemia
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3938={ #Boioa
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3939={ #Budorgis
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="fish"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3940={ #Corcontia
+	terrain="plains"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3941={ #Vandalicia
+	terrain="plains"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="stone"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3942={ #Hegetmatia
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3943={ #Butonia
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=4
+	}
+}
+
+3944={ #Extremadura
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=3
+	}
+}
+
+3945={ #Sudetiana
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3946={ #Sudetica Planus
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3948={ #Turoniana
+	terrain="forest"
+	culture="franks"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=3
+	}
+}
+
+3950={ #Calaegia
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="horses"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3951={ #Luphurdum
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3952={ #Sudetia
+	terrain="hills"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3953={ #Dandutia
+	terrain="hills"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="cloth"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3954={ #Camulia
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+3955={ #Candulum
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="woad"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3956={ #Melocabus
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="stone"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3957={ #Bicurdium
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="honey"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+3959={ #Argelia
+	terrain="plains"
+	culture="saxonian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+3961={ #Fosia
+	terrain="plains"
+	culture="saxonian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+3966={ #Aregelliana
+	terrain="plains"
+	culture="saxonian"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3979={ #Colancorum
+	terrain="plains"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+3980={ #Ad Fines Boiohaemi
+	terrain="hills"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="woad"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3981={ #Thuringiana
+	terrain="forest"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="stone"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3988={ #Caluconia
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3990={ #Hercynia
+	terrain="plains"
+	culture="irminonic"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+3991={ #Buriana
+	terrain="plains"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+3992={ #Buria
+	terrain="plains"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3993={ #Stragona Buria
+	terrain="plains"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="cattle"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+}
+
+3997={ #Suevia Minor
+	terrain="plains"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3998={ #Suevia Maior
+	terrain="plains"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="grain"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=1
+	}
+}
+
+4001={ #Diduniana
+	terrain="forest"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="hemp"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+4002={ #Budorigum
+	terrain="forest"
+	culture="venedi"
+	religion="slavic"
+	trade_goods="fur"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4008={ #Asciburgia
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="cloth"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+4009={ #Galaegia
+	terrain="forest"
+	culture="lombards"
+	religion="arian"
+	trade_goods="wood"
+	civilization_value=5
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=2
+	}
+}
+

@@ -2638,6 +2638,7 @@ country = {
 				7942 7947 7948 7949 7951 7954 7956 7958 7962 7968 7971 #cilicia_region_new
 				7961 7963 7964 #galatia_region_new
 				8003 8016 8018 #greece_region_new
+				6399 7897 7908 7941 7938 7939 7934 7935 7936 7937 8015 7990 7991 8011 7985 6397 8009 8007 8010 8008 #Marius
 			}
 			
 		}	
@@ -3394,7 +3395,7 @@ country = {
 		LTG = {
 			government = tribal_chiefdom
 			primary_culture = lombards
-			religion = germanic_religion
+			religion = arian
 			centralization=50
 
 			capital = 3814
@@ -3498,6 +3499,7 @@ country = {
 				7840 7837
 				#Siculia
 				7838 7839
+				8027 8026 #Marius
 			}
 			
 		}

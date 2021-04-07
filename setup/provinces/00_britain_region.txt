@@ -1,0 +1,2169 @@
+﻿2000={ #Cornubia
+	terrain="forest"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="salt"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2001={ #Defnas
+	terrain="forest"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2002={ #Herculis Promontorium
+	terrain="forest"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2003={ #Escanceaster
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=9
+	}
+}
+
+2004={ #Bedeford
+	terrain="forest"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2005={ #Cair Draitou
+	terrain="forest"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2006={ #Tone Tun
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2007={ #Cair Urnarc
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2008={ #Cair Pensa vel Coyt
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2009={ #Acemannesceastre
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2010={ #Blæge
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2011={ #Searoburh
+	terrain="farmland"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="earthware"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2012={ #Cippanhamme
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2013={ #Cair Guinntguic
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+2014={ #Cair Peris
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="precious_metals"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2015={ #Andefera
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2016={ #Cair Celemion
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2017={ #Cissa
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2018={ #Suþrige
+	terrain="marsh"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2019={ #Portus Ladda
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2020={ #Hastingas
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="iron"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2021={ #Cair Ceint
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+2022={ #Londinium
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="glass"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=5
+	}
+	slaves={
+		amount=12
+	}
+}
+
+2023={ #Ægelesthrep
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="amber"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2024={ #Thornbyrig
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2025={ #Beranbyrig
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2026={ #Rhyddinge
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2027={ #Cair Mincip
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2028={ #Cair Colun
+	terrain="forest"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="earthware"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+}
+
+2029={ #Gipeswic
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2030={ #Eastseaxe
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2031={ #Norþfolc
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2032={ #Northwic
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="earthware"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=8
+	}
+}
+
+2033={ #Cnobheresburg
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2034={ #Elge
+	terrain="marsh"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2035={ #Suþfloc
+	terrain="marsh"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="fur"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2036={ #Dommoc
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2037={ #Llyn
+	terrain="marsh"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2038={ #Herutford
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2039={ #Cyrneceastre
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="iron"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2040={ #Cair Guent
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2041={ #Oxenaforda
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2042={ #Lygea-Byrig
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2043={ #Buccingaham
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2044={ #Tofeceaster
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2045={ #Northantone
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2046={ #Cair Meguaid
+	terrain="plains"
+	culture="briton"
+	religion="druidism"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2047={ #Cair Legion
+	terrain="farmland"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2048={ #Alencestre
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2049={ #Cair Guiragon
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+	}
+}
+
+2050={ #Hludhlaw
+	terrain="plains"
+	culture="briton"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2051={ #Cair Grauth
+	terrain="plains"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2052={ #Godmundcestre
+	terrain="marsh"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="iron"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2053={ #Medyhæmstede
+	terrain="marsh"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2054={ #Cair Lerion
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2055={ #Hinckleáh
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2056={ #Cair Luit Coyt
+	terrain="plains"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2057={ #Hyrnecastre
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2058={ #Lindocolina
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2059={ #Cair Guricon
+	terrain="plains"
+	culture="briton"
+	religion="druidism"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2060={ #Pengwern
+	terrain="plains"
+	culture="briton"
+	religion="druidism"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2061={ #Theocsbury
+	terrain="farmland"
+	culture="brittania"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2062={ #Medeltone
+	terrain="forest"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2063={ #Spaldingas
+	terrain="marsh"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="salt"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2064={ #Mildestwyc
+	terrain="farmland"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="earthware"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2065={ #Norþworþig
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2066={ #Buccstán
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2067={ #Cair Daun
+	terrain="marsh"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2068={ #Gæignesburh
+	terrain="plains"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2069={ #Meocburh
+	terrain="marsh"
+	culture="anglosaxon"
+	religion="germanic_religion"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2070={ #Cair Maunguid
+	terrain="farmland"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="cattle"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2071={ #Trewigan
+	terrain="plains"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2072={ #Ribceaster
+	terrain="hills"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2073={ #Fleotwudu
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2074={ #Ilecliue
+	terrain="hills"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2075={ #Cair Ebrauc
+	terrain="marsh"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2076={ #Elmeslac
+	terrain="marsh"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="fish"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2077={ #Aldburh
+	terrain="marsh"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2078={ #Dæl
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2079={ #Streanæshealh
+	terrain="plains"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="cloth"
+	civilization_value=35
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2080={ #Loneceaster
+	terrain="hills"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2081={ #Ulurestun
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2082={ #Wurcingtun
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="grain"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2083={ #Cair Ligualid
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2084={ #Penrhyd
+	terrain="hills"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+}
+
+2085={ #Dearthingtun
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="iron"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2087={ #Heruteu
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="stone"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2088={ #Virosidum
+	terrain="hills"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="vegetables"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2092={ #Cair Usic
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2093={ #Glywysing
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2094={ #Ystrad Tywi
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2095={ #Cair Guorthigirn
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2096={ #Llanddewi Brefi
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="precious_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2097={ #Brychan
+	terrain="hills"
+	culture="briton"
+	religion="druidism"
+	trade_goods="cloth"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2098={ #Cair Caratauc
+	terrain="plains"
+	culture="briton"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2099={ #Dyfed
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2100={ #Garth Madrun
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="leather"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2101={ #Leintwardine
+	terrain="hills"
+	culture="briton"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2102={ #Mathratal
+	terrain="hills"
+	culture="briton"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2103={ #Ceredigon
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2104={ #Meirionydd
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+2105={ #Cair Segeint
+	terrain="forest"
+	culture="briton"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+2106={ #Rhos
+	terrain="plains"
+	culture="briton"
+	religion="druidism"
+	trade_goods="hemp"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+2107={ #Llangollen
+	terrain="hills"
+	culture="briton"
+	religion="druidism"
+	trade_goods="base_metals"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+}
+
+3057={ #Ceaster
+	terrain="marsh"
+	culture="briton"
+	religion="germanic_religion"
+	trade_goods="fish"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3058={ #Táda
+	terrain="forest"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="horses"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3059={ #Kirkebythore
+	terrain="hills"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+3060={ #Coria
+	terrain="hills"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="fur"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5432={ #Bogas
+	terrain="mountain"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="wood"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=2
+	}
+	tribesmen={
+		amount=3
+	}
+}
+
+5433={ #Ecclesbourne
+	terrain="hills"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="woad"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
+5434={ #Aldclif
+	terrain="mountain"
+	culture="briton"
+	religion="chalcedonian"
+	trade_goods="wild_game"
+	civilization_value=10
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=1
+	}
+	tribesmen={
+		amount=2
+	}
+}
+
