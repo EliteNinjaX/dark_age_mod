@@ -271,11 +271,18 @@ provinces = {
 	417 = {
 		fortress_building = 1
 	}
+	345 = {
+		port_building = 1
+	}
+	354 = {
+		port_building = 1
+	}
 	1453 = {
 		fortress_building = 2
 		commerce_building = 3
 		town_hall_building = 1
-		aqueduct_building = 2
+		aqueduct_building = 6
+		port_building = 2
 		modifier = { modifier = constantinople always = yes }
 	}
 	912 = {
@@ -2411,11 +2418,11 @@ country = {
 		
 		ERE = {
 		 family = 0
-			government = imperium
+			government = roman_imperium
 			primary_culture = roman
 			religion = chalcedonian
 			diplomatic_stance=trading_stance
-
+			monarchy_military_reforms = work_for_the_best
 			capital = 1453
 			
 			poptype_rights = { 
@@ -2426,28 +2433,30 @@ country = {
 			}
 			poptype_rights = { 
 				{
-					culture = macedonian 
+					culture = greek ##I don't know if I should use Macedonian or Greek yet
 					type = citizen
 				}
 			}
 			
 			
 			technology={
-				military_tech={ level=4 progress=0 }
-				civic_tech={ level=4 progress=0 }
-				oratory_tech={ level=4 progress=0 }
-				religious_tech= { level=4 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 		
 			own_control_core = 	{
 							###Thrace/Constantinople###
-				#Constantinople
+				#Europa
 				1453 #Constantiople
 				341  #Philia
 				345  #Selymbria
+				7908
 							###Macedonia###
 				#Chalkidiki 356 363 364 414 365 369 366 377 374 378 376
-				371 373 379 381 382 383 384 385 386 380 428 369 
+				379 6399 #Emathia
+				371 373 381 382 383 384 385 386 380 428 369 
 				393 400 405 408 411 412 3125 3175 3356 #Upper Macedonia
 				356 363 364 365 366 374 376 377 378 #Chalkidiki
 				388 389 390 391 392 394 395 396 398 404 420 #Thessaly
@@ -2464,6 +2473,23 @@ country = {
 				343 4314 4154 489 495 482 481 480 #Haemimontus
 				7898 7904 7901 7899 7896 7902
 				828 829 908 #Dara
+							###Greece/Cyprus###
+				330 331 332 333 334 335 336 338 6431 6433 7990 7991 #Cyprus
+				416 7897 # Attica
+							###Asia###
+				8015 7937 7936	#Sporades
+				7935 7934 #Caria Inferioris
+				7938 7939 7941 #Caria Superoris
+							###Assyria###
+				6397 #Commagene
+				8009 8007 8010 8008 #Sopgene
+							####Syria####
+				7985 # Syria 2.0
+				787 789 790 791 793 797 798 813 814 847 851 #syria_region
+				8011 772 761 762 770 774 776 777 778 781 782 799 816 #apamene_region
+				784 788 786 785 771 769 767 #north_phoenicia
+				748 749 752 747 741 746 743 744 745 742 740#south_phoenicia
+				
 				####This really needs to be looked at total mess no wonder it did not work at first.###
 				4247 4248 4249 #Parts of Moesia Orientalis
 				4520 4519 4518 4517 4516 4515 4514 4512 4255 4254 4250 #Scythia
@@ -2552,7 +2578,7 @@ country = {
 				4190 4193
 				845 1761 1757 1758 1759 1760 1762 1698
 				857 870
-				7668 7689 7690 7688 7691 6431 6433 6420
+				7668 7689 7690 7688 7691 6420
 				7799 7802 7798 7803 7760 7765 #Extra
 				7889 7892 7891 7903
 				#
@@ -2581,7 +2607,6 @@ country = {
 				663 664 665 #samaria_region
 				660 662 661 690 693 #philistia_region
 				817 818 819 820 821 837 844 848 849 854 853 879 #osroene_region
-				334 338 333 336 332 335 331 330 #Cyprus
 				157 158 163 1852 1854 1859 1860 1861 1865 1886 1898 1929 #cappadocia_melitene_region
 				155 172 1802 1803 1893 1902 1976 1979 1982 1983 1994 1999 #cappadocia_cataonia_region
 				173 205 1813 1888 1900 1938 1940 1951 1954 1978 #cappadocia_garsauritis_region
@@ -2599,7 +2624,6 @@ country = {
 				683 684 685 686 687 688 689 691 692 711 713 715 #judea_region
 				681 710 712 714 716 717 720 731
 				671 676 678 679 680 682 719
-				747
 				779 780
 				766
 				836 838 839 1862 1863 1864 1867 1868 1869 1895
@@ -2624,12 +2648,7 @@ country = {
 				1780 1872 1882 1883 1887 1889 1890 1892 1894 1896 1897 #cilicia_trachea_region
 				795 796 1873 1874 1875 1876 1877 1878 1879 1880 1881 1884 #cilicia_pedias_region
 				792 794 805 808 811 812 852 1871 #syria_cyrrestice_region
-				787 789 790 791 793 797 798 813 814 847 851 #syria_region
-				767 769 771 784 785 786 788 #south_phoenicia. 768 & 783 deleted from game? might need to add 770 787 here
-               	 		740 741 742 743 744 745 746 748 749 #north_phoenicia. might need to add 747 here
-
-				738 750 751 752 753 757 758 759 760 763 764 765 #syria_coele_region
-				772 761 762 770 774 776 777 778 781 782 799 816 #apamene_region
+				738 750 751 753 757 758 759 760 763 764 765 #syria_coele_region
 				754 755 756 775 800 801 802 803 804 806 815 850 #palmyra_region
 				673 675 718 721 722 723 732 733 734 735 736 737 739 #decapolis_region
 				### provinces added for 2.0 update ###
@@ -2638,17 +2657,21 @@ country = {
 				7942 7947 7948 7949 7951 7954 7956 7958 7962 7968 7971 #cilicia_region_new
 				7961 7963 7964 #galatia_region_new
 				8003 8016 8018 #greece_region_new
-				6399 7897 7908 7941 7938 7939 7934 7935 7936 7937 8015 7990 7991 8011 7985 6397 8009 8007 8010 8008 #Marius
 			}
 			
 		}	
 		PER = {
 			family = 3
-			government = aristocratic_monarchy
-			primary_culture = median
+			government = imperium
+			primary_culture = pasargadi
 			religion = zoroaster
 			capital = 912
-			
+			poptype_rights = { 
+				{
+					culture = median 
+					type = citizen
+				}
+			}
 			own_control_core = {
 				3435 6727 7222 7223  #New
 				3441 6728 6729 3445 3448 6656 3447 3446 3450 3454 #parthia
@@ -2998,10 +3021,10 @@ country = {
 		}
 
 		SUS = {
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = anglosaxon
 			religion = germanic_religion
-
+			centralization=50
 			capital = 2020
 
 			own_control_core = 	{
@@ -3011,17 +3034,17 @@ country = {
 
 		
 		LON = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = brittania
 			religion = chalcedonian
-			centralization=50
+			
 
 			capital = 2022
 
 			own_control_core = 	{
 				2028 2029 2030 2036 2038 2042 2027 2018 2022 2051
 			}
-		}		
+		}
 
 		EAN = {
 			government = despotic_monarchy
@@ -3395,8 +3418,8 @@ country = {
 		LTG = {
 			government = tribal_chiefdom
 			primary_culture = lombards
-			religion = arian
-			centralization=50
+			religion = germanic_religion
+			centralization=-50
 
 			capital = 3814
 
@@ -3499,7 +3522,6 @@ country = {
 				7840 7837
 				#Siculia
 				7838 7839
-				8027 8026 #Marius
 			}
 			
 		}
@@ -3876,6 +3898,19 @@ country = {
 				3861 3857 3860 3859 3862
 				3864 3863 3856
 				3865 3868
+			}
+		}
+	#Denmark
+DEN= {
+			government = tribal_chiefdom
+			primary_culture = herulian
+			religion = germanic_religion
+			centralization=75
+			
+			capital = 3887
+			
+			own_control_core = {
+			3887 3885 3886 3884 3881 3883 3882 6004 6001 6000 6002 6003
 			}
 		}
 	
@@ -4361,7 +4396,7 @@ country = {
 				6168 6172 6171 6174 6173 6176 6175 6181 6182 6184 6179 6183
 				6133 6132 6134 6136 6137 6140 6150 6143 6152 6148 6149 6153
 				4530 4531 4532 7190 7192 7193 6124 6144 6146 6147
-				4533 4551 4552 4553 4554 4555 4556
+				4533 4551 4552 4553 4554 4555 4556 4557
 				
 			}
 		}

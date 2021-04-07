@@ -132,6 +132,7 @@ CMB = "setup/countries/germania/cimbria.txt" #Saxons
 SXS = "setup/countries/germania/saxones.txt" #Frisia
 THU = "setup/countries/slavs/thuringia.txt"
 ANG = "setup/countries/germania/anglia.txt"
+DEN = "setup/countries/germania/denmark.txt"
 
 #Goths
 GTH = "setup/countries/germania/gothonia.txt"

@@ -33,7 +33,7 @@
 	}
 }
 
-1021={ #Palencia
+1021={ #Palantia
 	terrain="plains"
 	culture="hispania"
 	religion="chalcedonian"
@@ -86,8 +86,8 @@
 
 1042={ #Brigaecium
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -102,7 +102,7 @@
 
 1044={ #Lancia
 	terrain="plains"
-	culture="asturian"
+	culture="suebian"
 	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
@@ -122,10 +122,10 @@
 	}
 }
 
-1045={ #Astorga
+1045={ #Asturicia
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -140,8 +140,8 @@
 
 1047={ #Lucus
 	terrain="forest"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -159,8 +159,8 @@
 
 1048={ #Forum Limicorum
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -324,8 +324,8 @@
 
 1114={ #Gigia
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -356,8 +356,8 @@
 
 1116={ #Lucus Asturum
 	terrain="hills"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -372,8 +372,8 @@
 
 1117={ #Memoriana
 	terrain="hills"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -388,8 +388,8 @@
 
 1118={ #Flavionavia
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -404,8 +404,8 @@
 
 1119={ #Legio Gemina
 	terrain="forest"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -420,8 +420,8 @@
 
 1120={ #Vallata
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -436,8 +436,8 @@
 
 1121={ #Interamnium
 	terrain="forest"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -455,8 +455,8 @@
 
 1122={ #Spadonium
 	terrain="forest"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -471,8 +471,8 @@
 
 1123={ #Mons Rubeum
 	terrain="forest"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -490,8 +490,8 @@
 
 1124={ #Paesicia
 	terrain="hills"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -506,8 +506,8 @@
 
 1125={ #Villadonga
 	terrain="hills"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -522,8 +522,8 @@
 
 1126={ #Luggonia
 	terrain="hills"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -538,8 +538,8 @@
 
 1127={ #Bergidum Flavium
 	terrain="forest"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -554,8 +554,8 @@
 
 1128={ #Uttaris
 	terrain="farmland"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -573,8 +573,8 @@
 
 1129={ #Caranicum
 	terrain="farmland"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -589,8 +589,8 @@
 
 1130={ #Flavium Brigantium
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -605,8 +605,8 @@
 
 1131={ #Phlaouia Lambris
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -621,8 +621,8 @@
 
 1132={ #Arronia
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -637,8 +637,8 @@
 
 1133={ #Varrinia
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -653,8 +653,8 @@
 
 1134={ #Varina Marinia
 	terrain="forest"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -669,8 +669,8 @@
 
 1135={ #Cibarcia
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -688,8 +688,8 @@
 
 1136={ #Aviliobris
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -707,8 +707,8 @@
 
 1137={ #Artabron Limen
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -723,8 +723,8 @@
 
 1138={ #Noouion
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -739,8 +739,8 @@
 
 1139={ #Assegonia
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -755,8 +755,8 @@
 
 1140={ #Brevis
 	terrain="forest"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -771,8 +771,8 @@
 
 1141={ #Aquae Quintinae
 	terrain="forest"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -787,8 +787,8 @@
 
 1142={ #Castellum Meidunium
 	terrain="forest"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -803,8 +803,8 @@
 
 1143={ #Baedia
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -819,8 +819,8 @@
 
 1145={ #Gemestarum
 	terrain="forest"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -835,8 +835,8 @@
 
 1146={ #Interamicia
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -849,10 +849,10 @@
 	}
 }
 
-1147={ #Lugo
+1147={ #Lougia
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -865,10 +865,10 @@
 	}
 }
 
-1148={ #Aquae Gallaecia
+1148={ #Aquae Callaecia
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -883,8 +883,8 @@
 
 1149={ #Ad Duos Pontes
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -899,8 +899,8 @@
 
 1150={ #Vicus Spacorum
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -915,8 +915,8 @@
 
 1151={ #Limia
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
@@ -931,8 +931,8 @@
 
 1152={ #Aquis Querquennis
 	terrain="forest"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -947,8 +947,8 @@
 
 1154={ #Aquae Originae
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -963,8 +963,8 @@
 
 1155={ #Germinae
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -979,8 +979,8 @@
 
 1165={ #Nemetobriga
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -995,8 +995,8 @@
 
 1166={ #Gigurria
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -1011,8 +1011,8 @@
 
 1168={ #Pettavonium
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1027,8 +1027,8 @@
 
 1169={ #Argentiolum
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1043,8 +1043,8 @@
 
 1170={ #Relicta Asturia
 	terrain="forest"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -1059,8 +1059,8 @@
 
 1171={ #Praterion
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="horses"
 	civilization_value=10
 	barbarian_power=0
@@ -1123,7 +1123,7 @@
 
 1178={ #Comeniaca
 	terrain="plains"
-	culture="asturian"
+	culture="suebian"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
