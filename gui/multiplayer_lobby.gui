@@ -2073,7 +2073,33 @@ JominiMultiplayerLobby = {
 					onclick = "[SetLobbyCountryTag('PER')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
+				}		
+			}
+			
+			country_flag = {
+				name = "Vandals"
+				tooltip = "VANINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('VAN').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+					{
+					texture = "[GetCountry('VAN').AccessCoatOfArms.GetTexture('(int32)56','(int32)56')]"
+					frame = "[GetCountry('VAN').AccessCoatOfArms.GetFrame('(int32)56','(int32)56')]"
+					framesize = { 56 56 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('VAN')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}		
 			}
 			
 			country_flag = {
@@ -2153,6 +2179,110 @@ JominiMultiplayerLobby = {
 				}			
 			}
 			
+				country_flag = {
+				name = "Kingdom of Paris"
+				tooltip = "PARINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PAR').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('PAR').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('PAR').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('PAR')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+				country_flag = {
+				name = "Kingdom of Soissons"
+				tooltip = "SOIINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SOI').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('SOI').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('SOI').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('SOI')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+	
+				country_flag = {
+				name = "Kingdom of Rheims"
+				tooltip = "RHEINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('RHE').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('RHE').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('RHE').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('RHE')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+				country_flag = {
+				name = "Kingdom of Munster"
+				tooltip = "MUNINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MUN').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('MUN').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('MUN').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('MUN')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+		
+			
 			country_flag = {
 				name = "Gupta"
 				tooltip = "GUPINTRO"
@@ -2177,306 +2307,6 @@ JominiMultiplayerLobby = {
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}			
-			}
-			
-			country_flag = {
-				name = "Massalia"
-				tooltip = "MASINTRO" #TODO TEAM CD
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAS').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('MAS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('MAS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('MAS')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Egypt"
-				tooltip = "EGYINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EGY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('EGY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('EGY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('EGY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-			
-			country_flag = {
-				name = "Egypt2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EGY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('EGY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('EGY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('EGY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-			
-			country_flag = {
-				#position = { 164 0 }
-				name = "Macedon"
-				tooltip = "MACINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAC').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('MAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('MAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('MAC')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				#position = { 164 0 }
-				name = "Macedon2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('MAC').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('MAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('MAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('MAC')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-	
-			country_flag = {
-				#position = { 218 0 }
-				name = "Seleucids"
-				tooltip = "SELINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SEL').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SEL').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SEL').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SEL')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-			
-			country_flag = {
-				#position = { 218 0 }
-				name = "Seleucids2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('SEL').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('SEL').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('SEL').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('SEL')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-	
-			country_flag = {
-				#position = { 272 0 }
-				name = "Phrygia"
-				tooltip = "PRYINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PRY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('PRY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('PRY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('PRY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-			
-			country_flag = {
-				#position = { 272 0 }
-				name = "Phrygia2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PRY').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('PRY').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('PRY').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('PRY')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-			
-			country_flag = {
-				#position = { 272 0 }
-				name = "Thrace"
-				tooltip = "TREINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('TRE').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'Heirs of Alexander' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('TRE').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('TRE').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('TRE')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
-			}
-			
-			country_flag = {
-				#position = { 272 0 }
-				name = "Thrace2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('TRE').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'Heirs of Alexander' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_HEIRS_OF_ALEXANDER"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('TRE').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('TRE').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('TRE')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}
 			}
 			
 		}

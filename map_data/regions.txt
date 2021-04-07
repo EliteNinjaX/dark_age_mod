@@ -1,4 +1,4 @@
-﻿central_italy_region = {		#9 areas
+﻿central_italy_region = {		#10 areas
 	areas = {
 		roma_area
 		south_etruria_area
@@ -9,9 +9,11 @@
 		corsica_area
 		sardinia_septentrionalis
 		sardinia_meridionalis
+		pisae_area
+		
 	}
 	
-	# color = hsv { 0.5 1.0 1.0 }  # or named color, or rgb
+	color = rgb { 193 37 37 }
 }
 
 taurica_region = { #8
@@ -51,6 +53,7 @@ greece_region = {	#9 areas
 		arcadia_area
 		euboea_area
 	}
+	color = rgb { 37 73 117 }
 }
 
 #Anatolia
@@ -233,6 +236,7 @@ syria_region = {		#7 areas
 		apamene_area
 		palmyra_area
 	}
+	color = rgb { 113 58 87 }
 }
 
 palestine_region = {	#7 areas
@@ -245,6 +249,7 @@ palestine_region = {	#7 areas
 		peraea_area
 		decapolis_area
 	}
+	color = rgb { 99 193 217 }
 }
 sarmatia_europea_region = {			#9 areas
 	areas = {
@@ -589,14 +594,13 @@ lower_egypt_region = {		#7 areas
 	}
 }
 
-pannonia_region = {		#9 areas
+pannonia_region = {		#8 areas
 	areas = {
 		pannonia_prima_occidentalis_area	
 		pannonia_prima_orientalis_area
 		pannonia_valeria_area
 		carnuntia_area
 		pannonia_terminus_area
-		noricum_mediterranum_area
 		transcarpathia_occidentalis_area
 		pannonia_secunda_area
 	}
@@ -614,20 +618,20 @@ thrace_region = { #8 areas
 	}
 }
 
-moesia_region = { #8
+moesia_region = { #7
 	areas = {
-		getia_occidentalis_area
-		getia_orientalis_area
-		malvensis_area
 		dacia_inferioris_area
 		dacia_superioris_area
 		dacia_mediterranea_area
 		moesia_prima_orientalis_area
 		moesia_prima_occidentalis_area
+		dardania_superioris_area
+		dardania_inferioris_area
 	}
+	color = rgb { 152 34 48 }
 }
 
-dacia_region = {				#7 areas
+dacia_region = {				#10 areas
 	areas = {
 		apulensis_area
 		porolissensis_area
@@ -636,7 +640,11 @@ dacia_region = {				#7 areas
 		iazygia_minoris_area
 		iazygia_majoris_area
 		transcarpathia_centralis_area
+		getia_occidentalis_area
+		getia_orientalis_area
+		malvensis_area
 	}
+	color = rgb { 122 128 43 }
 }
 
 colchis_region = { #7
@@ -698,8 +706,9 @@ illyria_region = {			#7 regions
 		dalmatia_orientalis_area
 		savia_occidentalis_area
 		savia_orientalis_area
-		dardania_superioris_area
+		noricum_mediterranum_area
 	}
+	color = rgb { 43 124 141 }
 }
 	
 
@@ -756,13 +765,12 @@ venedia_region = {	#9 areas
 	}
 }
 
-macedonia_region = { #8 areas
+macedonia_region = { #7 areas
 	areas = {
 		macedonia_area
 		upper_macedonia_area
 		chalkidiki_area
 		macedonia_salutaris_area
-		dardania_inferioris_area
 		thessaly_area
 		illyria_graeca_area
 		epirus_area
@@ -873,11 +881,10 @@ britain_region = {			#10 areas
 	}
 }
 
-cisalpine_gaul_region = {	#8 areas
+cisalpine_gaul_region = {	#7 areas
 	areas = {
 		venetia_area
 		east_insubria_area
-		pisae_area
 		liguria_area
 		aemilla_area
 		transpadana_area
