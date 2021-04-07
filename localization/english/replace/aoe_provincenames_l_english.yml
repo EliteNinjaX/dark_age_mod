@@ -181,7 +181,7 @@
  PROV2055:0 "Hinckleáh"
  PROV2062:0 "Medeltone"
  PROV2065:0 "Norþworþig"
- PROV5433:0 "Ecclesbourne"
+ PROV5433:0 "Letocetum" #Old Ecclesbourne: I can't find this name anywere and if we want Romanon-British then we should use Letocetum
  PROV2066:0 "Buccstán"
  PROV2064:0 "Mildestwyc"
  PROV2063:0 "Spaldingas"
@@ -289,3 +289,8 @@
  PROV2194:0 "Cairbre"
  PROV2196:0 "Dairtre"
  PROV2201:0 "Breifne"
+ #Cyprus
+ PROV331:0 "Salamis Constantia"
+ #Thrace
+ PROV347:0 "Resistos"
+ PROV348:0 "Arcadiopolis"
