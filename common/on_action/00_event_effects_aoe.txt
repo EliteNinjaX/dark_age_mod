@@ -1,0 +1,31 @@
+﻿on_game_initialized = {
+	effect = {
+	if = {
+			limit = { tag = ERE }
+			#current_ruler = {
+			#	add_rival = C:EGY.current_ruler
+			#	add_rival = C:SEL.current_ruler
+			#	add_rival = C:MAC.current_ruler
+			#}
+			#char:97 = {
+			#	add_friend = char:38
+			#} 
+			random_navy = {
+				add_subunit = mega_galley
+				add_subunit = mega_galley
+				add_subunit = mega_galley
+				add_subunit = octere
+				add_subunit = octere
+				add_subunit = octere
+				add_subunit = octere
+				add_subunit = octere
+			}
+			set_variable = me_ant_start_flag
+			rome_legion_setup_effect = yes
+		#	add_opinion = { target = c:MAC modifier = diadochi_rivals }
+		#	add_opinion = { target = c:TRE modifier = diadochi_rivals }
+		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }
+		#	add_opinion = { target = c:SEL modifier = diadochi_rivals }
+		}
+	}
+}
