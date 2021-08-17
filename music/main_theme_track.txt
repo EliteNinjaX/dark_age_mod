@@ -1,5 +1,5 @@
 ﻿main_theme_track = {
-	music = "file:/music/ashes/imperator.mp3"
+	music = "file:/music/Dark_Age/imperator.mp3"
 	can_be_interrupted = yes
 
 }
