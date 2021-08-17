@@ -1,8 +1,8 @@
 ﻿easter_roman_heritage = {
 	modifier = {
 		#good
-		happiness_for_wrong_culture_group_modifier = 0.1
-		diplomatic_reputation = 2
+		happiness_for_wrong_culture_group_modifier = 0.05
+		build_cost = -0.1
 		
 		#bad
 		global_population_growth = -0.1
@@ -92,7 +92,20 @@ frank_heritage = {
 	}
 }
 
-
+burgundian_heritage = {
+	modifier = {
+		#good
+		global_population_growth = 0.05
+		discipline = 0.05
+		
+		#bad
+		naval_morale_modifier = -0.05
+	}
+	
+	trigger = {
+		tag = BUR
+	}
+}
 
 vandal_heritage = {
 	modifier = {

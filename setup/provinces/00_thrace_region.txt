@@ -954,7 +954,7 @@
 	trade_goods="silk"
 	civilization_value=63
 	barbarian_power=0		
-	province_rank="city"
+	province_rank="city_metropolis"
 	nobles = {
 		amount=8
 	}
