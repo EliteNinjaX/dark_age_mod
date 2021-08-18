@@ -54,6 +54,9 @@ aoe_startup_events.2 = {
 		set_variable = {
 			name = persia_1_flag
 		}
+		hidden_effect = {
+			perisa_flavor_event_claim_effect = yes
+		}
 	}
 	
 	option = {

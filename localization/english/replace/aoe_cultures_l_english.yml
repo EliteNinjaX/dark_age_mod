@@ -12,7 +12,6 @@
  pomeranian:0 "Pomeranian"
  frisian:0 "Frisian"
  greek:0 "Greek"
- #macedonian:0 "Greek" I can't make up my mind on how I want to do Greek Cutltue in this.
  hispania:0 "Romano-Hispanic"
  gaul:0 "Romano-Gaul"
  brittania:0 "Romano-British"
@@ -39,6 +38,7 @@
  sardinian:0 "Sardinian"
  gothonic:0 "Gothic"
  herulian:0 "Danish"
+ egyptian:0 "Egyptian"
  #etruscan:0 "Corsican" No longer needed as They added Corsican
  #greco_pontic:0 "Pontic"
  #pontic:0 "Old-Pontic"

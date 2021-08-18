@@ -918,7 +918,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -938,7 +938,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -989,7 +989,7 @@
 		amount=1
 	}
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	citizen={
@@ -1120,7 +1120,7 @@
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1267,7 +1267,7 @@
 }
 
 804={ #Nicephorium
-	terrain="desert"
+	terrain="farmland"
 	culture="aramaic"
 	religion="miaphysite"
 	trade_goods="dates"
@@ -1310,10 +1310,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1325,14 +1325,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1364,7 +1361,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	citizen={
@@ -1374,7 +1371,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1391,10 +1388,10 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=8
+		amount=9
 	}
 	freemen={
-		amount=6
+		amount=4
 	}
 	slaves={
 		amount=8
@@ -1416,7 +1413,7 @@
 		amount=4
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1591,7 +1588,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1611,7 +1608,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	freemen={

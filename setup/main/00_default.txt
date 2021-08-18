@@ -2422,7 +2422,7 @@ country = {
 			primary_culture = roman
 			religion = chalcedonian
 			diplomatic_stance=trading_stance
-			monarchy_military_reforms = work_for_the_best
+			monarchy_military_reforms = standing_army_law
 			capital = 1453
 			
 			poptype_rights = { 
@@ -2433,17 +2433,17 @@ country = {
 			}
 			poptype_rights = { 
 				{
-					culture = greek ##I don't know if I should use Macedonian or Greek yet
+					culture = greek
 					type = citizen
 				}
 			}
 			
 			
 			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
+				military_tech={ level=3 progress=0 }
+				civic_tech={ level=3 progress=0 }
+				oratory_tech={ level=3 progress=0 }
+				religious_tech= { level=3 progress=0  }
 			}
 		
 			own_control_core = 	{
@@ -2666,11 +2666,31 @@ country = {
 			primary_culture = pasargadi
 			religion = zoroaster
 			capital = 912
+			diplomatic_stance=warmongering_stance
+			monarchy_military_reforms = standing_army_law
 			poptype_rights = { 
 				{
 					culture = median 
 					type = citizen
 				}
+			}
+			poptype_rights = { 
+				{
+					culture = assyrian 
+					type = citizen
+				}
+			}
+			poptype_rights = { 
+				{
+					culture = parthian 
+					type = citizen
+				}
+			}
+			technology={
+				military_tech={ level=3 progress=0 }
+				civic_tech={ level=3 progress=0 }
+				oratory_tech={ level=3 progress=0 }
+				religious_tech= { level=3 progress=0  }
 			}
 			own_control_core = {
 				3435 6727 7222 7223  #New
@@ -2740,6 +2760,12 @@ country = {
 				483 4037
 				1728 1756 1753 1752 1587 1586 1702 1755 1754 1697 1701
 				1609 1607 1610 1686 1677 3432 7723
+			}
+			pantheon = {
+				{ deity = 300 }
+				{ deity = 305 }
+				{ deity = 302 }
+				{ deity = 306 }
 			}
 		}
 #AFRICA

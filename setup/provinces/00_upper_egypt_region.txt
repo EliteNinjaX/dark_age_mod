@@ -10,7 +10,7 @@
 		amount=1
 	}
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}

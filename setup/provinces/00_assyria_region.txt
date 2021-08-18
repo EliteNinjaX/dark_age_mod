@@ -377,7 +377,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	citizen={

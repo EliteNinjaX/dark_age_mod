@@ -65,7 +65,7 @@
 	trade_goods="fish"
 	citizen=
 	{
-		amount=1
+		amount=2
 	}
 	freemen=
 	{
@@ -73,7 +73,7 @@
 	}
 	slaves=
 	{
-		amount=2
+		amount=4
 	}
 }
 #Salmydessos

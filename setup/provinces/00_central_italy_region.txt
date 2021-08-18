@@ -8,7 +8,7 @@
 	court_building=1
 	library_building=3
 	barbarian_power=0
-	province_rank="city_metropolis"
+	province_rank="city"
 	citizen={
 		culture="hebrew"
 		religion="judaism"

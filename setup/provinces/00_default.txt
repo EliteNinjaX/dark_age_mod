@@ -1049,7 +1049,7 @@
 
 5067={ #
 	terrain="impassable_terrain"
-	culture="epirote"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1059,7 +1059,7 @@
 
 5068={ #Upper Epirus
 	terrain="impassable_terrain"
-	culture="epirote"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=10
@@ -1079,7 +1079,7 @@
 
 5070={ #
 	terrain="impassable_terrain"
-	culture="epirote"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1099,7 +1099,7 @@
 
 5072={ #
 	terrain="impassable_terrain"
-	culture="macedonian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1109,7 +1109,7 @@
 
 5073={ #
 	terrain="impassable_terrain"
-	culture="macedonian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1119,7 +1119,7 @@
 
 5074={ #
 	terrain="impassable_terrain"
-	culture="macedonian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1349,7 +1349,7 @@
 
 5097={ #
 	terrain="impassable_terrain"
-	culture="macedonian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1359,7 +1359,7 @@
 
 5098={ #
 	terrain="impassable_terrain"
-	culture="macedonian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1369,7 +1369,7 @@
 
 5099={ #
 	terrain="impassable_terrain"
-	culture="macedonian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1379,7 +1379,7 @@
 
 5100={ #
 	terrain="impassable_terrain"
-	culture="macedonian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0

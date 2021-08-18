@@ -1030,7 +1030,7 @@
 
 6815={ #Patala
 	terrain="plains"
-	culture="macedonian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=40

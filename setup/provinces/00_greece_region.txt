@@ -375,7 +375,7 @@
 		amount=3
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -515,7 +515,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		amount=5
 	}
 	slaves={

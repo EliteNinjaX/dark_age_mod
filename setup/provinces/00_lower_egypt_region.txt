@@ -853,7 +853,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=2
 	}

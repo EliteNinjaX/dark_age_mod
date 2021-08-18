@@ -85,7 +85,7 @@
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -245,7 +245,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -696,7 +696,7 @@
 		amount=2
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -719,7 +719,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -754,7 +754,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -765,7 +765,7 @@
 		amount=10
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=2
 	}
@@ -774,7 +774,7 @@
 		amount=1
 	}
 	slaves={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -795,7 +795,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=2
 	}
@@ -803,7 +803,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -812,7 +812,7 @@
 		amount=1
 	}
 	slaves={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -972,7 +972,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
@@ -987,7 +987,7 @@
 		amount=1
 	}
 	freemen={
-		culture="macedonian"
+		culture="greek"
 		religion="chalcedonian"
 		amount=1
 	}
