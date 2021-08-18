@@ -46,7 +46,7 @@ roman_heritage = {
 persian_heritage = {
 	modifier = {
 		#good
-		land_morale_modifier = 0.05
+		army_maintenance_cost = -0.1
 		discipline = 0.05
 		
 		#bad
