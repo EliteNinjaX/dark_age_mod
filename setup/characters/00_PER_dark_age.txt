@@ -4,9 +4,10 @@
 		first_name="Khosrow"
 		family = c:PER.fam:Sasan
 		birth_date=495.10.8
-		culture="median"
+		culture="pasargadi"
 		religion="zoroaster"
 		no_stats=yes
+		father="char:13"
 		add_martial=12
 		add_charisma=9
 		add_finesse=10
@@ -15,6 +16,7 @@
 		add_trait="tactician"
 		add_trait="victorious"
 		add_trait="scholar"
+		add_trait="sassanid"
 		add_gold=400
 		add_popularity=90
 		dna="GOsY652anZq03LTcAU4BTgKFAoUCawJrAm0CbQKNAo0CcwJzAmwCbAJzAnMCggKCAnMCcwKIAogCpwKnApcClwAyADIClwKXAn8CfwJwAnAE0ATQApYClgJnAmcCbQJtAoACgAJnAmcChQKFAVABUAJvAm8CgAKAAmYCZgFgAWACcAJwApUClQFXAVcChAKEAm8CbwJ5AnkCiwKLAnsCewKZApkCgAKAApkCmQOkA6QCjQKNApQClAOcA5wCgwKDAVQBVAKNAo0ClAKUAoECgQKqAqoCmAKYAVIBUgJsAmwChgKGAnMCcwJcAlwAZwBnApcClwCKAIoBNgE2AJkAmQArACsAogCiAUoBSgBGAEYBcgFyANEA0QAAAAAA9QD1AL8AvwFzAXMArgCuAQcBBwEVARUDXANcAMQAxAAAAAAAqwCrAEoASgAXABcBXAFcAGAAYAK2ArYC3gLeA2wDbACfAJ8BbgFuATsBOwJ2AnYD8APwAAAAAAWcBZwGDgYOASMBIwPmA+YE8gTyAZoBmgAAAAAAAAAAAAAAAA=="
@@ -23,7 +25,7 @@
 		first_name="Kavad"
 		family = c:PER.fam:Sasan
 		birth_date=471.12.11
-		culture="median"
+		culture="pasargadi"
 		religion="zoroaster"
 		no_stats=yes
 		add_martial=8
@@ -34,13 +36,100 @@
 		add_trait="tactician"
 		add_trait="victorious"
 		add_trait="scholar"
-		add_gold=400
+		add_gold=4000
 		add_popularity=90
 		c:PER={
 			set_as_ruler=char:13
 		}
+		add_trait="sassanid"
 		dna="E+kT6ZiZmJnJi8mLAVIBUgFSAVICdQJ1Ao4CjgJqAmoCaAJoAn8CfwOvA68CkQKRAnwCfAOZA5kBcAFwAoYChgOjA6MCdwJ3AnECcQKPAo8CcAJwAo4CjgJxAnECjgKOAn8CfwFUAVQCjgKOAVoBWgKSApIBXAFcApICkgJ8AnwCeAJ4AnMCcwJuAm4CaQJpAocChwJ1AnUClgKWAm0CbQJmAmYCcQJxAmsCawJ7AnsCmQKZAmYCZgKUApQDpgOmApkCmQJ9An0ChAKEApkCmQKLAosCawJrAm4CbgKOAo4CbQJtAoACgACaAJoABAAEAEUARQBPAE8ATABMALcAtwEWARYAhwCHAJ8AnwD+AP4AYABgAU0BTQAAAAAApwCnAAkACQBUAFQBZQFlAJMAkwEyATICLgIuADsAOwAAAAAA9QD1ASIBIgKNAo0AJAAkASEBIQDlAOUBYAFgAFgAWAFbAVsBfgF+ABoAGgEuAS4CrgKuAAAAAAV5BXkGmQaZAZQBlANNA00EogSiAb0BvQAAAAAAAAAAAAAAAA=="
 	}
+		58={
+		first_name="Kawus"
+		family = c:PER.fam:Sasan
+		birth_date=491.1.1
+		father="char:13"
+		culture="pasargadi"
+		religion="zoroaster"
+		no_stats=yes
+		add_martial=9
+		add_charisma=7
+		add_finesse=11
+		add_zeal=9
+		no_traits=yes
+		add_trait="scholar"
+		add_trait="founder"
+		add_trait="sassanid"
+		add_gold=1200
+		add_popularity=90
+		dna="F+kT6ZiZmJnJi8mLAVIBUgFSAVICdQJ1Ao4CjgJqAmoCaAJoAn8CfwOvA68CkQKRAnwCfAOZA5kBcAFwAoYChgOjA6MCdwJ3AnECcQKPAo8CcAJwAo4CjgJxAnECjgKOAn8CfwFUAVQCjgKOAVoBWgKSApIBXAFcApICkgJ8AnwCeAJ4AnMCcwJuAm4CaQJpAocChwJ1AnUClgKWAm0CbQJmAmYCcQJxAmsCawJ7AnsCmQKZAmYCZgKUApQDpgOmApkCmQJ9An0ChAKEApkCmQKLAosCawJrAm4CbgKOAo4CbQJtAoACgACaAJoABAAEAEUARQBPAE8ATABMALcAtwEWARYAhwCHAJ8AnwD+AP4AYABgAU0BTQAAAAAApwCnAAkACQBUAFQBZQFlAJMAkwEyATICLgIuADsAOwAAAAAA9QD1ASIBIgKNAo0AJAAkASEBIQDlAOUBYAFgAFgAWAFbAVsBfgF+ABoAGgEuAS4CrgKuAAAAAAV5BXkGmQaZAZQBlANNA00EogSiAb0BvQAAAAAAAAAAAAAAAA=="
+	}
+		59={
+		first_name="Jamasp"
+		family = c:PER.fam:Sasan
+		birth_date=492.1.1
+		father="char:13"
+		culture="pasargadi"
+		religion="zoroaster"
+		no_stats=yes
+		add_martial=14
+		add_charisma=3
+		add_finesse=8
+		add_zeal=8
+		no_traits=yes
+		add_trait="tactician"
+		add_trait="victorious"
+		add_trait="brave"
+		add_trait="disciplined"
+		add_trait="one_eyed"
+		add_trait="sassanid"
+		add_gold=800
+		add_popularity=15
+		dna="G+kT6ZiZmJnJi8mLAVIBUgFSAVICdQJ1Ao4CjgJqAmoCaAJoAn8CfwOvA68CkQKRAnwCfAOZA5kBcAFwAoYChgOjA6MCdwJ3AnECcQKPAo8CcAJwAo4CjgJxAnECjgKOAn8CfwFUAVQCjgKOAVoBWgKSApIBXAFcApICkgJ8AnwCeAJ4AnMCcwJuAm4CaQJpAocChwJ1AnUClgKWAm0CbQJmAmYCcQJxAmsCawJ7AnsCmQKZAmYCZgKUApQDpgOmApkCmQJ9An0ChAKEApkCmQKLAosCawJrAm4CbgKOAo4CbQJtAoACgACaAJoABAAEAEUARQBPAE8ATABMALcAtwEWARYAhwCHAJ8AnwD+AP4AYABgAU0BTQAAAAAApwCnAAkACQBUAFQBZQFlAJMAkwEyATICLgIuADsAOwAAAAAA9QD1ASIBIgKNAo0AJAAkASEBIQDlAOUBYAFgAFgAWAFbAVsBfgF+ABoAGgEuAS4CrgKuAAAAAAV5BXkGmQaZAZQBlANNA00EogSiAb0BvQAAAAAAAAAAAAAAAA=="
+	}
+		60={
+		first_name="Xerxes"
+		family = c:PER.fam:Sasan
+		birth_date=493.1.1
+		father="char:13"
+		culture="pasargadi"
+		religion="zoroaster"
+		no_stats=yes
+		add_martial=11
+		add_charisma=7
+		add_finesse=9
+		add_zeal=9
+		no_traits=yes
+		add_trait="tactician"
+		add_trait="victorious"
+		add_trait="brave"
+		add_trait="prominent"
+		add_trait="sassanid"
+		add_gold=1000
+		add_popularity=90
+		dna="E+kT6ZiZmJnJi8mLAVIBUgFSAVICdQJ1Ao4CjgJqAmoCaAJoAn8CfwOvA68CkQKRAnwCfAOZA5kBcAFwAoYChgOjA6MCdwJ3AnECcQKPAo8CcAJwAo4CjgJxAnECjgKOAn8CfwFUAVQCjgKOAVoBWgKSApIBXAFcApICkgJ8AnwCeAJ4AnMCcwJuAm4CaQJpAocChwJ1AnUClgKWAm0CbQJmAmYCcQJxAmsCawJ7AnsCmQKZAmYCZgKUApQDpgOmApkCmQJ9An0ChAKEApkCmQKLAosCawJrAm4CbgKOAo4CbQJtAoACgACaAJoABAAEAEUARQBPAE8ATABMALcAtwEWARYAhwCHAJ8AnwD+AP4AYABgAU0BTQAAAAAApwCnAAkACQBUAFQBZQFlAJMAkwEyATICLgIuADsAOwAAAAAA9QD1ASIBIgKNAo0AJAAkASEBIQDlAOUBYAFgAFgAWAFbAVsBfgF+ABoAGgEuAS4CrgKuAAAAAAV5BXkGmQaZAZQBlANNA00EogSiAb0BvQAAAAAAAAAAAAAAAA=="
+	}
+	#	61={
+	#	first_name="Khosrow"
+	#	family = c:PER.fam:Sasan
+	#	birth_date=495.1.1
+	#	father="char:13"
+	#	culture="pasargadi"
+	#	religion="zoroaster"
+	#	no_stats=yes
+	#	add_martial=7
+	#	add_charisma=7
+	#	add_finesse=7
+	#	add_zeal=13
+	#	no_traits=yes
+	#	add_trait="tactician"
+	#	add_trait="victorious"
+	#	add_trait="brave"
+	#	add_trait="prominent"
+	#	add_gold=1000
+	#	add_popularity=90
+	#	dna="L+kT6ZiZmJnJi8mLAVIBUgFSAVICdQJ1Ao4CjgJqAmoCaAJoAn8CfwOvA68CkQKRAnwCfAOZA5kBcAFwAoYChgOjA6MCdwJ3AnECcQKPAo8CcAJwAo4CjgJxAnECjgKOAn8CfwFUAVQCjgKOAVoBWgKSApIBXAFcApICkgJ8AnwCeAJ4AnMCcwJuAm4CaQJpAocChwJ1AnUClgKWAm0CbQJmAmYCcQJxAmsCawJ7AnsCmQKZAmYCZgKUApQDpgOmApkCmQJ9An0ChAKEApkCmQKLAosCawJrAm4CbgKOAo4CbQJtAoACgACaAJoABAAEAEUARQBPAE8ATABMALcAtwEWARYAhwCHAJ8AnwD+AP4AYABgAU0BTQAAAAAApwCnAAkACQBUAFQBZQFlAJMAkwEyATICLgIuADsAOwAAAAAA9QD1ASIBIgKNAo0AJAAkASEBIQDlAOUBYAFgAFgAWAFbAVsBfgF+ABoAGgEuAS4CrgKuAAAAAAV5BXkGmQaZAZQBlANNA00EogSiAb0BvQAAAAAAAAAAAAAAAA=="
+	#}
 	29={
 		first_name="Zoroaster"
 		family_name="Spitama"

@@ -399,8 +399,8 @@
 
 516={ #Alexandria
 	terrain="farmland"
-	culture="egyptian"
-	religion="miaphysite"
+	culture="greek"
+	religion="chalcedonian"
 	trade_goods="glass"
 	civilization_value=65
 	barbarian_power=0

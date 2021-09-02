@@ -642,6 +642,16 @@ provinces = {
 	954 = {
 		fortress_building = 1
 	}
+	#Perisa
+	830 = { #Nisibis 
+		fortress_building = 2
+	}
+	831 = { #Singara 
+		fortress_building = 1
+	}
+	843 = { #843 
+		fortress_building = 2
+	}
 	868 = {
 		fortress_building = 1
 	}

@@ -1,2 +1,0 @@
-the game wount let me change the irish in the other cultures_l_english.yml for some reason. sure I can add cultures to that file , but not change them? 
-Some one needs to go thought and make sure the one in ashes only has the new cultures. I guess every update we have to redo this, fun right?

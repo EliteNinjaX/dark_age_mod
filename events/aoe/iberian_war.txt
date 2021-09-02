@@ -27,21 +27,21 @@ iberian_war.1 = {
 			target = IBR
 		}
 		hidden_effect = {
-			create_unit = {
-				name = "Persian Army"
-				location = p:902
-				while = {
-					count = 10
-					add_subunit = horse_archers
-				}
-				while = {
-					count = 5
-					add_subunit = heavy_cavalry
-				}
-				while = {
-					count = 10
-					add_subunit = light_infantry
-				}
+			#create_unit = {
+			#	name = "Persian Army"
+			#	location = p:902
+			#	while = {
+			#		count = 10
+			#		add_subunit = horse_archers
+			#	}
+			#	while = {
+			#		count = 5
+			#		add_subunit = heavy_cavalry
+			#	}
+			#	while = {
+			#		count = 10
+			#		add_subunit = light_infantry
+			#	}
 			}
 			c:ERE = {
 				trigger_event = {
