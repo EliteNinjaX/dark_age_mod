@@ -1316,7 +1316,7 @@
 
 7828={ #Manoia
 	terrain="forest"
-	culture="aestian"
+	culture="polanes"
 	religion="slavic"
 	trade_goods="cattle"
 	civilization_value=5

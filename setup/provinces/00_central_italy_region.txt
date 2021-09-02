@@ -1922,7 +1922,7 @@
 
 3507={ #Rhoubra
 	terrain="plains"
-	culture="corsian"
+	culture="vandal"
 	religion="arian"
 	trade_goods="fish"
 	civilization_value=40
