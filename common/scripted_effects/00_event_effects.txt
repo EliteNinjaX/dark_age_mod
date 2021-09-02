@@ -10269,7 +10269,7 @@ remove_espionage_variables_effect = {  #cScope
 #Roman Legion
 rome_legion_setup_effect = {
 	char:24 = { remove_all_positions = yes }
-	capital_scope.governorship = {
+	p:790.governorship = {
 		raise_legion = {
 			create_unit = {
 				name = "Bucellarii"
@@ -10314,7 +10314,7 @@ rome_legion_setup_effect = {
 persian_legion_setup_effect = {
 	char:60 = { remove_all_positions = yes }
 	#capital_scope.governorship = {
-	assyria_region_scope.governorship = {
+	p:830.governorship = {
 		raise_legion = {
 			create_unit = {
 				name = "Prince's army"

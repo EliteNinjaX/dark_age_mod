@@ -32,6 +32,7 @@ aoe_startup_events.1 = {
 			target = OGO
 			duration = 1825
 		}
+		change_law = standing_army_law
 			}
 	}
 }
@@ -53,9 +54,6 @@ aoe_startup_events.2 = {
 	immediate = {
 		set_variable = {
 			name = persia_1_flag
-		}
-		hidden_effect = {
-			perisa_flavor_event_claim_effect = yes
 		}
 	}
 	
@@ -79,7 +77,13 @@ aoe_startup_events.2 = {
 				id = iberian_war.1
 				days = 10
 			}
+			change_law = standing_army_law
+			perisa_flavor_event_claim_effect = yes
 		}
+		hidden_effect = {
+			perisa_flavor_event_claim_effect = yes
+		}
+		
 	}
 }
  

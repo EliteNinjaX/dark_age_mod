@@ -1333,7 +1333,7 @@
 		amount=3
 	}
 	slaves={
-		culture="elamite"
+		culture="pasargadi"
 		amount=1
 	}
 	slaves={
@@ -1655,7 +1655,7 @@
 
 969={ #Darak
 	terrain="marsh"
-	culture="elamite"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="dates"
 	civilization_value=40
@@ -1812,7 +1812,7 @@
 		amount=6
 	}
 	freemen={
-		culture="median"
+		culture="pasargadi"
 		religion="zoroaster"
 		amount=2
 	}

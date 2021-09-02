@@ -1729,7 +1729,7 @@
 	}
 	tribesmen=
 	{
-		amount=4
+		amount=1
 	}
 }
 #Markellai
@@ -1774,12 +1774,12 @@
 	culture="greek"
 	holy_site="omen_sabazios"
 	province_rank="settlement"
-	religion="shamanism"
+	religion="roman_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	tribesmen=
+	freemen=
 	{
-		amount=1
+		amount=3
 	}
 }
 #Parambole
