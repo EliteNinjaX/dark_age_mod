@@ -2862,7 +2862,7 @@ country = {
 			capital = 3122
 
 			own_control_core = 	{
-				3141 3135 3142 3132 3131 3130 3129 3137 3138 3136 #Machuria
+				3141 3135 3142 3132 3131 3130 3129 3137 3136 #Machuria
 				3126 3120 3121 3122 3124 3123 #Iolia
 				3143 3151 3157 3139 3134 3133 #Numidiia
 			}
@@ -3078,7 +3078,7 @@ country = {
 			capital = 2022
 
 			own_control_core = 	{
-				2028 2029 2030 2036 2038 2042 2027 2018 2022 2051
+				2028 2029 2034 2036 2038 2042 2027 2018 2022 2051
 			}
 		}
 
@@ -3090,7 +3090,7 @@ country = {
 			capital = 2032
 
 			own_control_core = 	{
-				2031 2032 2033 2035 2037 2052 2034
+				2031 2032 2033 2035 2037 2052 2030
 			}
 		}
 
@@ -3476,6 +3476,12 @@ country = {
 			religion = arian
 			diplomatic_stance=trading_stance
 			capital = 142 
+			poptype_rights = { 
+				{
+					culture = roman
+					type = citizen
+				}
+			}
 		
 			own_control_core = 	{
 				1 2 3 4 5 6 7 8 15 16 18 19 20 24 25 26 27 31 37 40 36 39 50 14 
@@ -3582,6 +3588,13 @@ country = {
 			government = despotic_monarchy
 			primary_culture = gothonic
 			religion = arian
+			
+			poptype_rights = { 
+				{
+					culture = roman
+					type = citizen
+				}
+			}
 			
 			capital = 1009
 			

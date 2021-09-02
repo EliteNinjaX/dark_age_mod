@@ -58,7 +58,7 @@
 2003={ #Escanceaster
 	terrain="plains"
 	culture="brittania"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="base_metals"
 	civilization_value=35
 	barbarian_power=0
@@ -422,7 +422,7 @@
 }
 
 2021={ #Cair Ceint
-	terrain="plains"
+	terrain="farmland"
 	culture="anglosaxon"
 	religion="germanic_religion"
 	trade_goods="hemp"
@@ -445,20 +445,24 @@
 	culture="brittania"
 	religion="chalcedonian"
 	trade_goods="glass"
-	civilization_value=35
+	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles=
+	{
+		amount=3
+	}
 	citizen={
-		amount=8
+		amount=9
 	}
 	freemen={
-		amount=6
+		amount=8
 	}
 	tribesmen={
-		amount=5
+		amount=7
 	}
 	slaves={
-		amount=12
+		amount=14
 	}
 }
 
@@ -564,24 +568,28 @@
 }
 
 2028={ #Cair Colun
-	terrain="forest"
+	terrain="farmland"
 	culture="brittania"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="earthware"
-	civilization_value=35
+	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles=
+	{
+		amount=2
+	}
 	citizen={
-		amount=3
+		amount=6
 	}
 	freemen={
-		amount=1
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=14
 	}
 	tribesmen={
-		amount=7
+		amount=5
 	}
 }
 
@@ -609,8 +617,8 @@
 
 2030={ #Eastseaxe
 	terrain="plains"
-	culture="brittania"
-	religion="chalcedonian"
+	culture="anglosaxon"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=35
 	barbarian_power=0
@@ -685,8 +693,8 @@
 
 2034={ #Elge
 	terrain="marsh"
-	culture="anglosaxon"
-	religion="germanic_religion"
+	culture="brittania"
+	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=35
 	barbarian_power=0

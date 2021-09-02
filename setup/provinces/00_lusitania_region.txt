@@ -67,8 +67,8 @@
 
 1050={ #Aquae Flaviae
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -89,8 +89,8 @@
 
 1051={ #Braga
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -111,8 +111,8 @@
 
 1153={ #Salacia Aebocosia
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -127,8 +127,8 @@
 
 1156={ #Vicus Vagornicensis
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -143,8 +143,8 @@
 
 1157={ #Baniensium
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -239,8 +239,9 @@
 
 1163={ #Zoelarum
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
+	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -255,8 +256,8 @@
 
 1164={ #Veniatia
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -271,8 +272,8 @@
 
 1167={ #Zoelia
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -287,8 +288,8 @@
 
 1172={ #Vicus Aquarius
 	terrain="plains"
-	culture="asturian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -498,8 +499,8 @@
 
 1288={ #Lamecum
 	terrain="hills"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -514,8 +515,8 @@
 
 1289={ #Tongobriga
 	terrain="plains"
-	culture="callaecian"
-	religion="animism"
+	culture="suebian"
+	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0

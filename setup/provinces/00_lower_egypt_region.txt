@@ -820,15 +820,6 @@
 	slaves={
 		amount=1
 	}
-	slaves={
-		culture="roman"
-		amount=2
-	}
-	tribesmen={
-		culture="roman"
-		religion="chalcedonian"
-		amount=2
-	}
 }
 
 536={ #Babilonia Aegypti

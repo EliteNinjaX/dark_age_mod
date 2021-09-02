@@ -979,6 +979,8 @@
 		brittania = {}
 		africa = {}	
 		illyria = {}
+		sardonian = {}
+		corsian = {}
 
 	}
 	
