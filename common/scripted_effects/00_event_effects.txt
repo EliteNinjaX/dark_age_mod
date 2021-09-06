@@ -6513,6 +6513,27 @@ diadochi_flavor_1_region_claim_effect = {
 		add_claim = ROOT
 	}
 }
+diadochi_flavor_event_claim_effect = {
+	region:greece_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:thrace_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:macedonia_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:syria_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:asia_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:cilicia_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:galatia_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:assyria_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:persis_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:palestine_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:mesopotamia_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:lower_egypt_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:upper_egypt_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:cappadocia_region = { diadochi_flavor_1_region_claim_effect = yes }
+}
+diadochi_flavor_lose_claim_effect = {
+	every_region_province = {
+		remove_claim = root
+	}
+}
 #Mod
 frank_flavor_1_region_claim_effect = {
 	every_region_province = {
@@ -6533,6 +6554,7 @@ frank_flavor_1_region_claim_effect = {
 		add_claim = ROOT
 	}
 }
+
 frank_flavor_event_claim_effect = {
 	region:aquitaine_region = { frank_flavor_1_region_claim_effect = yes }
 	region:armorica_region = { frank_flavor_1_region_claim_effect = yes }
@@ -6543,22 +6565,11 @@ frank_flavor_event_claim_effect = {
 	region:germania_region = { frank_flavor_1_region_claim_effect = yes }
 	region:rhaetia_region = { frank_flavor_1_region_claim_effect = yes }
 }
-#Mod
-diadochi_flavor_event_claim_effect = {
-	region:greece_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:thrace_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:macedonia_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:syria_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:asia_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:cilicia_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:galatia_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:assyria_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:persis_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:palestine_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:mesopotamia_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:lower_egypt_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:upper_egypt_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:cappadocia_region = { diadochi_flavor_1_region_claim_effect = yes }
+
+perisa_flavor_1_region_claim_effect = {
+	every_region_province = {
+		add_claim = ROOT
+	}
 }
 perisa_flavor_event_claim_effect = {
 	region:greece_region = { perisa_flavor_1_region_claim_effect = yes }
@@ -6579,12 +6590,6 @@ perisa_flavor_event_claim_effect = {
 	region:albania_region = { perisa_flavor_1_region_claim_effect = yes }
 	region:colchis_region = { perisa_flavor_1_region_claim_effect = yes }
 	region:phrygia_region = { perisa_flavor_1_region_claim_effect = yes }
-}
-
-diadochi_flavor_lose_claim_effect = {
-	every_region_province = {
-		remove_claim = root
-	}
 }
 
 fe_66_percent_food_var_effect = {
