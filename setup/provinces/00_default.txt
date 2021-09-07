@@ -7690,7 +7690,7 @@
 7911={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7700,7 +7700,7 @@
 7912={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7760,7 +7760,7 @@
 7919={ #
 	terrain="impassable_terrain"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7800,7 +7800,7 @@
 7923={ #
 	terrain="impassable_terrain"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7810,7 +7810,7 @@
 7924={ #
 	terrain="impassable_terrain"
 	culture="lydian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7820,7 +7820,7 @@
 7925={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7830,7 +7830,7 @@
 7926={ #
 	terrain="impassable_terrain"
 	culture="lydian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7840,7 +7840,7 @@
 7927={ #
 	terrain="impassable_terrain"
 	culture="lydian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7850,7 +7850,7 @@
 7928={ #
 	terrain="impassable_terrain"
 	culture="lydian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7860,7 +7860,7 @@
 7929={ #
 	terrain="impassable_terrain"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7870,7 +7870,7 @@
 7930={ #
 	terrain="impassable_terrain"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7880,7 +7880,7 @@
 7931={ #
 	terrain="impassable_terrain"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7890,7 +7890,7 @@
 7932={ #
 	terrain="impassable_terrain"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7910,7 +7910,7 @@
 7940={ #
 	terrain="impassable_terrain"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7920,7 +7920,7 @@
 7943={ #
 	terrain="impassable_terrain"
 	culture="lycian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7930,7 +7930,7 @@
 7944={ #
 	terrain="impassable_terrain"
 	culture="cabalian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7940,7 +7940,7 @@
 7945={ #
 	terrain="impassable_terrain"
 	culture="milyadian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7950,7 +7950,7 @@
 7946={ #
 	terrain="impassable_terrain"
 	culture="lycian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7960,7 +7960,7 @@
 7950={ #
 	terrain="impassable_terrain"
 	culture="lycian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7970,7 +7970,7 @@
 7952={ #
 	terrain="impassable_terrain"
 	culture="pisidian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7980,7 +7980,7 @@
 7953={ #
 	terrain="impassable_terrain"
 	culture="lycian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -7990,7 +7990,7 @@
 7955={ #
 	terrain="impassable_terrain"
 	culture="pisidian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8000,7 +8000,7 @@
 7957={ #
 	terrain="impassable_terrain"
 	culture="pisidian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8010,7 +8010,7 @@
 7959={ #
 	terrain="impassable_terrain"
 	culture="oroandian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8020,7 +8020,7 @@
 7960={ #
 	terrain="impassable_terrain"
 	culture="isaurian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8030,7 +8030,7 @@
 7965={ #
 	terrain="impassable_terrain"
 	culture="oroandian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8040,7 +8040,7 @@
 7966={ #
 	terrain="impassable_terrain"
 	culture="isaurian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8050,7 +8050,7 @@
 7967={ #
 	terrain="impassable_terrain"
 	culture="isaurian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8060,7 +8060,7 @@
 7969={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8070,7 +8070,7 @@
 7970={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8080,7 +8080,7 @@
 7972={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8090,7 +8090,7 @@
 7973={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8100,7 +8100,7 @@
 7974={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8110,7 +8110,7 @@
 7975={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8120,7 +8120,7 @@
 7976={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8130,7 +8130,7 @@
 7977={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8140,7 +8140,7 @@
 7978={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8150,7 +8150,7 @@
 7979={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8160,7 +8160,7 @@
 7980={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8170,7 +8170,7 @@
 7982={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8180,7 +8180,7 @@
 7983={ #
 	terrain="impassable_terrain"
 	culture="armenian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8200,7 +8200,7 @@
 7987={ #
 	terrain="impassable_terrain"
 	culture="kennataian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8230,7 +8230,7 @@
 7992={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8240,7 +8240,7 @@
 7993={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8250,7 +8250,7 @@
 7995={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8260,7 +8260,7 @@
 7996={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8270,7 +8270,7 @@
 7997={ #
 	terrain="impassable_terrain"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8340,7 +8340,7 @@
 8012={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8350,7 +8350,7 @@
 8013={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8440,7 +8440,7 @@
 8056={ #
 	terrain="impassable_terrain"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8450,7 +8450,7 @@
 8057={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8460,7 +8460,7 @@
 8058={ #
 	terrain="impassable_terrain"
 	culture="mysian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8470,7 +8470,7 @@
 8059={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8480,7 +8480,7 @@
 8060={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8490,7 +8490,7 @@
 8061={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -8500,7 +8500,7 @@
 8062={ #
 	terrain="impassable_terrain"
 	culture="phrygian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

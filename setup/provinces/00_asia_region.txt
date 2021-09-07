@@ -1919,12 +1919,12 @@
 	}
 	slaves={
 		culture="carian"
-		religion="anatolian_religion"
+		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
 		culture="carian"
-		religion="anatolian_religion"
+		religion="roman_pantheon"
 		amount=1
 	}
 }
@@ -1948,11 +1948,11 @@
 		amount=2
 	}
 	slaves={
-		religion="anatolian_religion"
+		religion="roman_pantheon"
 		amount=2
 	}
 	tribesmen={
-		religion="anatolian_religion"
+		religion="roman_pantheon"
 		amount=2
 	}
 }
@@ -1995,7 +1995,7 @@
 7938={ #Bargasa
 	terrain="hills"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=24
 	barbarian_power=0
@@ -2018,7 +2018,7 @@
 7939={ #Hyllarima
 	terrain="mountain"
 	culture="carian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=22
 	barbarian_power=0
@@ -2051,7 +2051,7 @@
 		amount=1
 	}
 	freemen={
-		religion="anatolian_religion"
+		religion="roman_pantheon"
 		amount=1
 	}
 	freemen={
@@ -2059,16 +2059,16 @@
 		amount=1
 	}
 	slaves={
-		religion="anatolian_religion"
+		religion="roman_pantheon"
 		amount=2
 	}
 	tribesmen={
 		culture="lydian"
-		religion="anatolian_religion"
+		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
-		religion="anatolian_religion"
+		religion="roman_pantheon"
 		amount=1
 	}
 }

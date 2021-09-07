@@ -1720,7 +1720,7 @@
 7961={ #Kagrai
 	terrain="hills"
 	culture="oroandian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=13
 	barbarian_power=0
@@ -1747,7 +1747,7 @@
 7963={ #Adrasos
 	terrain="hills"
 	culture="lalasian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=13
 	barbarian_power=0
@@ -1770,7 +1770,7 @@
 7964={ #Koropissos
 	terrain="mountain"
 	culture="isaurian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=11
 	barbarian_power=0

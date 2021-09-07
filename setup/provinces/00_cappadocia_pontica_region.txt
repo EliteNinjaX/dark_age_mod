@@ -1210,7 +1210,7 @@
 7994={ #Kizari
 	terrain="hills"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=9
 	barbarian_power=0
@@ -1234,7 +1234,7 @@
 7998={ #Gazioura
 	terrain="hills"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=9
 	barbarian_power=0
@@ -1253,7 +1253,7 @@
 7999={ #Sermousa
 	terrain="hills"
 	culture="cappadocian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=9
 	barbarian_power=0

@@ -720,17 +720,17 @@
 
 856={ #Sardeoua
 	terrain="plains"
-	culture="assyrian"
-	religion="zoroaster"
-	trade_goods="grain"
+	culture="roman"
+	religion="chalcedonian"
+	trade_goods="dates"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		religion="chalcedonian"
+		religion="nestorian"
 		amount=1
 	}
 	freemen={
@@ -741,13 +741,13 @@
 		amount=1
 	}
 	slaves={
-		amount=1
-	}
-	tribesmen={
-		amount=1
+		amount=2
+		culture="assyrian"
+		religion="zoroaster"
 	}
 	tribesmen={
 		culture="armenian"
+		religion="zoroaster"
 		amount=1
 	}
 }
@@ -1232,7 +1232,7 @@
 	terrain="plains"
 	culture="armenian"
 	religion="zoroaster"
-	trade_goods="dates"
+	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
@@ -1732,7 +1732,7 @@
 6397={ #Barzala
 	terrain="hills"
 	culture="armenian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1745,7 +1745,7 @@
 8007={ #Halouras
 	terrain="hills"
 	culture="armenian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=29
 	barbarian_power=0
@@ -1758,7 +1758,7 @@
 8008={ #Palios
 	terrain="hills"
 	culture="armenian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=18
 	barbarian_power=0
@@ -1775,7 +1775,7 @@
 8009={ #Balisbiga
 	terrain="hills"
 	culture="armenian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=29
 	barbarian_power=0
@@ -1797,7 +1797,7 @@
 8010={ #Koloua
 	terrain="hills"
 	culture="armenian"
-	religion="anatolian_religion"
+	religion="roman_pantheon"
 	trade_goods="base_metals"
 	civilization_value=18
 	barbarian_power=0
