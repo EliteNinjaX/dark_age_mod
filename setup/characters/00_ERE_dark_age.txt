@@ -1,54 +1,5 @@
 ﻿"ERE"={
 	country="ERE"
-	0={
-		first_name="Flavius"
-		family = c:ERE.fam:Justinian
-		birth_date=501.9.22
-		culture="illyria"
-		religion="chalcedonian"
-		marry_character=char:14
-		father="char:28"
-		no_stats=yes
-		add_martial=7
-		add_charisma=10
-		add_finesse=14
-		add_zeal=6
-		no_traits=yes
-		add_trait="ambitious"
-		add_trait="intelligent"
-		add_trait="energentic"
-		add_trait="tolerant"
-		add_gold=3000
-		add_popularity=80
-		c:ERE={
-			set_as_ruler=char:0
-		}
-		dna="Os06zYd1h3Xfld+VA6UDpQJvAm8CdwJ3Am4CbgJuAm4CbgJuAoMCgwJ9An0CcwJzApECkQKQApACiwKLApQClAJ/An8DrQOtAnACcAJ/An8ChQKFAmkCaQJtAm0CggKCAnQCdAKVApUCdQJ1AnwCfAJqAmoCbAJsAoACgAKAAoACdwJ3AooCigJzAnMCeAJ4AnoCegJzAnMCaQJpAnsCewJoAmgCbgJuAnoCegJ7AnsChQKFApcClwKDAoMCgAKAA5wDnAJqAmoCcQJxAnkCeQKXApcCawJrAngCeAKMAowCawJrAnUCdQKpAqkADQANAL8AvwAcABwBdwF3AMMAwwBLAEsCrgKuArYCtgCeAJ4DJwMnAp8CnwAAAAAAZwBnAPkA+QDwAPAACQAJAKIAogLsAuwDdgN2ApICkgAAAAABcgFyAGIAYgAaABoBHAEcAMwAzATTBNMAMgAyAJEAkQKWApYDAQMBAPEA8QTwBPADoQOhAAAAAAKsAqwBXgFeAFIAUglJCUkBKwErAOoA6gAAAAAAAAAAAAAAAA=="
-	}
-	24={
-		first_name="Flavius"
-		family_name="Belisarius"
-		birth_date=499.11.27
-		culture="roman"
-		religion="chalcedonian"
-		no_stats=yes
-		add_martial=16
-		add_charisma=12
-		add_finesse=5
-		add_zeal=3
-		no_traits=yes
-		add_trait="brave"
-		add_trait="confident"
-		add_trait"tactician"
-		add_trait="prominent"
-		add_trait="good_natured"
-		add_trait="energentic"
-		add_trait="ambitious"
-		add_trait="trusting"
-		add_gold=200
-		add_popularity=70
-		dna="RuJG4oNrg2vW69brAocChwKLAosClQKVApECkQJuAm4CmAKYAoACgAKTApMCcwJzAVEBUQJ7AnsClAKUAosCiwJ7AnsChQKFApACkAKAAoACkQKRAWUBZQKBAoECaAJoAn4CfgKIAogCbQJtAmsCawJmAmYCfAJ8AWYBZgKUApQCeQJ5AoUChQJ/An8CdwJ3AVMBUwOfA58CdwJ3AoACgAJ/An8CiwKLBMwEzAKIAogARwBHAocChwKMAowChwKHAnMCcwJ1AnUChgKGAogCiAKLAosChAKEAmwCbAKBAoECigKKAoECgQIbAhsAKgAqAIEAgQAfAB8A2ADYAUABQAA1ADUBKgEqAWwBbABDAEMCVAJUAMoAygAAAAAAwgDCAroCugA9AD0AyADIADcANwBsAGwCSgJKAUoBSgAAAAAAsACwADMAMwC9AL0BdAF0AVYBVgCJAIkARgBGALQAtACPAI8BCgEKAToBOgF3AXcLaQtpAAAAAAHeAd4BigGKAJ4AnglWCVYBGwEbAM0AzQAAAAAAAAAAAAAAAA=="
-	}
 	14={
 		first_name="Theodora"
 		family_name="Augusta"
@@ -56,7 +7,7 @@
 		birth_date=499.11.27
 		culture="greek"
 		religion="miaphysite"
-		marry_character=char:0
+		marry_character=char:64
 		no_stats=yes
 		add_martial=2
 		add_charisma=8
@@ -121,14 +72,98 @@
 		add_popularity=70
 		dna="A/kD+Y+Aj4Dx/vH+AnwCfAJzAnMBWgFaApICkgJ2AnYCeAJ4A5sDmwKHAocCaQJpAo4CjgKWApYChgKGAocChwAdAB0CbgJuAU4BTgOZA5kCewJ7AnwCfAKBAoECkgKSAngCeAKXApcCdAJ0AmgCaAKAAoACkwKTAnwCfAKSApICawJrApQClAJxAnECdQJ1BM0EzQJ/An8AIwAjAnsCewJ6AnoDnQOdAn4CfgJpAmkCgAKAAmgCaAKDAoMBZAFkAm8CbwJqAmoClQKVAo8CjwKUApQEwwTDAnkCeQJuAm4CbAJsAoUChQIOAg4AKAAoAQ0BDQDgAOABbgFuACkAKQB6AHoAEwATAscCxwA5ADkAwQDBACYAJgAAAAAAKwArANcA1wBRAFEAtAC0AAUABQAbABsAnQCdABYAFgAAAAAA4QDhAE8ATwArACsBdgF2AX8BfwNRA1EACgAKBIoEigAWABYBXQFdACsAKwMAAwAB0QHRAAAAAASMBIwFFgUWAA8ADwUbBRsC7wLvAmQCZAAAAAAAAAAAAAAAAA=="
 	}
-	19={
-		first_name="Germanus"
-		family = c:ERE.fam:Justinian
-		birth_date=505.1.19
+	0={
+		first_name="Anastasius I"
+		birth_date=431.1.1
+		death_date=518.5.27
 		culture="illyria"
 		religion="chalcedonian"
 		no_stats=yes
-		add_martial=9
+		add_martial=7
+		add_charisma=7
+		add_finesse=35
+		add_zeal=1
+		no_traits=yes
+		add_gold=0
+		add_popularity=0
+		dna="GuYa5sZzxnPvk++TAn4CfgSzBLMCegJ6AngCeAJ0AnQCigKKAowCjAKMAowDrAOsAngCeAJxAnECkgKSAoUChQAzADMCkQKRAngCeAFUAVQCeQJ5AmkCaQKNAo0CiAKIAoQChAJnAmcCbQJtAnYCdgJ5AnkDnAOcAmoCagKOAo4CaQJpApYClgKVApUBTgFOAWUBZQKGAoYCkQKRAnICcgJ/An8CfgJ+A58DnwOjA6MCcAJwAWYBZgJ1AnUCcAJwAoECgQKMAowCkgKSAnkCeQJ9An0CcgJyAoECgQKHAocCigKKAoMCgwKYApgApgCmADkAOQEwATAA5ADkAvQC9AAUABQBFgEWAPEA8QDbANsAoQChAWcBZwB/AH8AAQABAUMBQwDdAN0APwA/AFwAXADZANkAIwAjAEkASQB/AH8AUQBRACMAIwB8AHwBdwF3ABYAFgMaAxoAWABYA1oDWgB6AHoBcwFzAVwBXADhAOEBWAFYAH8AfwTgBOABugG6ALUAtQmYCZgBTQFNAOkA6QAAAAAAAAAAAAAAAA=="
+	}
+	19={
+		first_name="Justin I"
+		family = c:ERE.fam:Justinian
+		birth_date=450.2.2
+		death_date=527.8.1
+		father="char:0"
+		culture="illyria"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=3
+		add_charisma=7
+		add_finesse=7
+		add_zeal=24
+		no_traits=yes
+		add_gold=0
+		add_popularity=0
+		dna="GuYa5sZzxnPvk++TAn4CfgSzBLMCegJ6AngCeAJ0AnQCigKKAowCjAKMAowDrAOsAngCeAJxAnECkgKSAoUChQAzADMCkQKRAngCeAFUAVQCeQJ5AmkCaQKNAo0CiAKIAoQChAJnAmcCbQJtAnYCdgJ5AnkDnAOcAmoCagKOAo4CaQJpApYClgKVApUBTgFOAWUBZQKGAoYCkQKRAnICcgJ/An8CfgJ+A58DnwOjA6MCcAJwAWYBZgJ1AnUCcAJwAoECgQKMAowCkgKSAnkCeQJ9An0CcgJyAoECgQKHAocCigKKAoMCgwKYApgApgCmADkAOQEwATAA5ADkAvQC9AAUABQBFgEWAPEA8QDbANsAoQChAWcBZwB/AH8AAQABAUMBQwDdAN0APwA/AFwAXADZANkAIwAjAEkASQB/AH8AUQBRACMAIwB8AHwBdwF3ABYAFgMaAxoAWABYA1oDWgB6AHoBcwFzAVwBXADhAOEBWAFYAH8AfwTgBOABugG6ALUAtQmYCZgBTQFNAOkA6QAAAAAAAAAAAAAAAA=="
+	}
+	28={
+		first_name="Vigilantia"
+		family = c:ERE.fam:Justinian
+		birth_date=452.1.1
+		father="char:0"
+		female=yes
+		culture="illyria"
+		religion="chalcedonian"
+		add_gold=200
+		add_popularity=90
+		dna="Heod6rh3uHdkW2RbAogCiAJmAmYCjwKPAnYCdgJuAm4CagJqA5oDmgJ8AnwBXQFdAnsCewJmAmYCiwKLAo8CjwKRApECcAJwAo0CjQJ1AnUCZwJnAo8CjwKZApkCfAJ8AVABUATXBNcCZwJnApUClQKVApUChgKGApkCmQKHAocCjQKNAoMCgwJzAnMCfQJ9AoUChQKGAoYCcAJwAngCeAA3ADcCggKCAmcCZwKZApkCfAJ8ApgCmAKLAosCZgJmAVsBWwJuAm4CZgJmAVMBUwJ0AnQCaAJoAogCiAKXApcClQKVAn8CfwJdAl0C7wLvAC0ALQLYAtgBYwFjAIsAiwElASUBXgFeAVQBVAF3AXcA+QD5AQEBAQAAAAAC2ALYAI4AjgCBAIEAJwAnAFgAWABEAEQAVgBWAPAA8AAAAAAA/wD/AQkBCQAxADEBdgF2AN4A3gMWAxYCugK6BIkEiQB0AHQBUAFQAM8AzwERAREF4wXjAAAAAANhA2EBlwGXANYA1gkyCTIBXwFfAF8AXwAAAAAAAAAAAAAAAA=="
+	}
+	61={
+		first_name="Fratrem"
+		family = c:ERE.fam:Justinian
+		father="char:0"
+		birth_date=480.1.19
+		death_date=500.1.1
+		culture="illyria"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=7
+		add_charisma=7
+		add_finesse=7
+		add_zeal=7
+		no_traits=yes
+		add_gold=0
+		add_popularity=0
+		dna="GuYa5sZzxnPvk++TAn4CfgSzBLMCegJ6AngCeAJ0AnQCigKKAowCjAKMAowDrAOsAngCeAJxAnECkgKSAoUChQAzADMCkQKRAngCeAFUAVQCeQJ5AmkCaQKNAo0CiAKIAoQChAJnAmcCbQJtAnYCdgJ5AnkDnAOcAmoCagKOAo4CaQJpApYClgKVApUBTgFOAWUBZQKGAoYCkQKRAnICcgJ/An8CfgJ+A58DnwOjA6MCcAJwAWYBZgJ1AnUCcAJwAoECgQKMAowCkgKSAnkCeQJ9An0CcgJyAoECgQKHAocCigKKAoMCgwKYApgApgCmADkAOQEwATAA5ADkAvQC9AAUABQBFgEWAPEA8QDbANsAoQChAWcBZwB/AH8AAQABAUMBQwDdAN0APwA/AFwAXADZANkAIwAjAEkASQB/AH8AUQBRACMAIwB8AHwBdwF3ABYAFgMaAxoAWABYA1oDWgB6AHoBcwFzAVwBXADhAOEBWAFYAH8AfwTgBOABugG6ALUAtQmYCZgBTQFNAOkA6QAAAAAAAAAAAAAAAA=="
+	}
+	62={
+		first_name="Boraides"
+		family = c:ERE.fam:Justinian
+		birth_date=507.1.19
+		father="char:61"
+		culture="illyria"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=10
+		add_charisma=15
+		add_finesse=8
+		add_zeal=8
+		no_traits=yes
+		add_trait="brave"
+		add_trait="ambitious"
+		add_gold=200
+		add_popularity=90
+		dna="GuYa5sZzxnPvk++TAn4CfgSzBLMCegJ6AngCeAJ0AnQCigKKAowCjAKMAowDrAOsAngCeAJxAnECkgKSAoUChQAzADMCkQKRAngCeAFUAVQCeQJ5AmkCaQKNAo0CiAKIAoQChAJnAmcCbQJtAnYCdgJ5AnkDnAOcAmoCagKOAo4CaQJpApYClgKVApUBTgFOAWUBZQKGAoYCkQKRAnICcgJ/An8CfgJ+A58DnwOjA6MCcAJwAWYBZgJ1AnUCcAJwAoECgQKMAowCkgKSAnkCeQJ9An0CcgJyAoECgQKHAocCigKKAoMCgwKYApgApgCmADkAOQEwATAA5ADkAvQC9AAUABQBFgEWAPEA8QDbANsAoQChAWcBZwB/AH8AAQABAUMBQwDdAN0APwA/AFwAXADZANkAIwAjAEkASQB/AH8AUQBRACMAIwB8AHwBdwF3ABYAFgMaAxoAWABYA1oDWgB6AHoBcwFzAVwBXADhAOEBWAFYAH8AfwTgBOABugG6ALUAtQmYCZgBTQFNAOkA6QAAAAAAAAAAAAAAAA=="
+	}
+	63={
+		first_name="Germanus"
+		family = c:ERE.fam:Justinian
+		birth_date=505.1.19
+		father="char:61"
+		culture="illyria"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=12
 		add_charisma=8
 		add_finesse=8
 		add_zeal=8
@@ -138,6 +173,30 @@
 		add_gold=200
 		add_popularity=90
 		dna="WeNZ4694r3jXq9erAmsCawKTApMCggKCAVsBWwKXApcClgKWA6ADoAKUApQCeQJ5AogCiAJoAmgCiwKLAo8CjwOaA5oBYgFiAnUCdQFQAVACggKCApECkQJ4AngCZgJmAoICggJ+An4CdAJ0AnICcgKXApcCfAJ8ApkCmQBHAEcCkAKQAnoCegJ3AncCeAJ4AEsASwJmAmYChAKEAo4CjgKAAoACfAJ8ApYClgKVApUCbgJuApUClQJ4AngCkAKQAoQChAKGAoYBUwFTAo8CjwKQApACcgJyAEgASAJ1AnUClQKVApQClAKpAqkAnwCfAIYAhgDiAOIAawBrAWkBaQK/Ar8BdwF3AvsC+wB8AHwDGwMbAroCugAAAAAAmgCaAK8ArwCsAKwAnACcAWwBbABhAGECHgIeAAIAAgAAAAABBQEFAM0AzQAtAC0ChAKEAL8AvwCzALMC+gL6ACoAKgBlAGUABAAEAEwATAFSAVIL0QvRAAAAAADwAPABIAEgAJsAmwmtCa0BFgEWAMsAywAAAAAAAAAAAAAAAA=="
+	}
+	24={
+		first_name="Flavius"
+		family_name="Belisarius"
+		birth_date=499.11.27
+		culture="roman"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=16
+		add_charisma=12
+		add_finesse=5
+		add_zeal=3
+		no_traits=yes
+		add_trait="brave"
+		add_trait="confident"
+		add_trait"tactician"
+		add_trait="prominent"
+		add_trait="good_natured"
+		add_trait="energentic"
+		add_trait="ambitious"
+		add_trait="trusting"
+		add_gold=200
+		add_popularity=70
+		dna="RuJG4oNrg2vW69brAocChwKLAosClQKVApECkQJuAm4CmAKYAoACgAKTApMCcwJzAVEBUQJ7AnsClAKUAosCiwJ7AnsChQKFApACkAKAAoACkQKRAWUBZQKBAoECaAJoAn4CfgKIAogCbQJtAmsCawJmAmYCfAJ8AWYBZgKUApQCeQJ5AoUChQJ/An8CdwJ3AVMBUwOfA58CdwJ3AoACgAJ/An8CiwKLBMwEzAKIAogARwBHAocChwKMAowChwKHAnMCcwJ1AnUChgKGAogCiAKLAosChAKEAmwCbAKBAoECigKKAoECgQIbAhsAKgAqAIEAgQAfAB8A2ADYAUABQAA1ADUBKgEqAWwBbABDAEMCVAJUAMoAygAAAAAAwgDCAroCugA9AD0AyADIADcANwBsAGwCSgJKAUoBSgAAAAAAsACwADMAMwC9AL0BdAF0AVYBVgCJAIkARgBGALQAtACPAI8BCgEKAToBOgF3AXcLaQtpAAAAAAHeAd4BigGKAJ4AnglWCVYBGwEbAM0AzQAAAAAAAAAAAAAAAA=="
 	}
 	27={
 		first_name="Justin"
@@ -158,25 +217,89 @@
 		add_popularity=90
 		dna="DPAM8LxmvGYZkhmSAnsCewJqAmoChAKEAn0CfQKOAo4BXgFeAmwCbAJtAm0DmgOaAo4CjgKGAoYCbAJsAoYChgJrAmsCgQKBAn8CfwAcABwCewJ7BLUEtQJrAmsCZwJnAooCigJvAm8CiQKJBMIEwgKNAo0ClwKXApUClQJvAm8CkwKTAm0CbQKJAokCeAJ4AoMCgwKXApcASwBLAn0CfQKJAokCZgJmAm0CbQJyAnICgwKDAmcCZwKTApMCfAJ8AVUBVQKWApYCmAKYA6ADoAKGAoYCZwJnAnYCdgJwAnACfQJ9ApUClQKZApkACgAKAq8CrwEBAQEAcQBxAJEAkQBbAFsAOwA7AOUA5QCVAJUDGQMZAGUAZQAAAAABNwE3AtEC0QKNAo0BOAE4AMUAxQByAHIB0AHQAQMBAwAAAAABKgEqAKgAqAAZABkBAQEBAQEBAQFxAXEA9QD1AEMAQwAMAAwA6QDpAzcDNwCqAKoHeAd4AAAAAAHnAecBYAFgACYAJgk1CTUBOwE7ALEAsQAAAAAAAAAAAAAAAA=="
 	}
-#I don't know why but this does not work.
-#	28={
-#		first_name="Justin"
-#		family = c:ERE.fam:Justinian
-#		birth_date=450.2.2
-#		death_date=527.8.1
-#		culture="illyria"
-#		religion="chalcedonian"
-#		dna="Fv8W/7ptum3i7uLuAoUChQJ8AnwCfgJ+AnoCegJyAnICdwJ3AnwCfAJ+An4ChwKHAocChwKTApMCagJqAmcCZwKTApMCeAJ4AoQChAJrAmsCfAJ8AnECcQJyAnICgAKAAm0CbQKTApMBYQFhAmcCZwJ0AnQCbwJvAnMCcwFiAWICdQJ1AmsCawJpAmkCkgKSA5kDmQJsAmwCawJrAo0CjQJwAnACgQKBAoMCgwJ0AnQCcQJxApgCmASzBLMCawJrAn8CfwKEAoQCjAKMAnwCfAJpAmkCZgJmApECkQJxAnECaAJoAmoCagJrAmsASwBLAuQC5AE6AToC9wL3AV0BXQA/AD8BeAF4AN4A3gBMAEwAHgAeAUkBSQAAAAABeAF4AB4AHgKxArEACgAKAvgC+ACnAKcB4wHjATgBOAAAAAAAcQBxAXEBcQF7AXsBfwF/AVkBWQKKAooCigKKAGEAYQAAAAAE2wTbAIIAggDnAOcKZgpmAAAAAAEnAScBoAGgAL4AvgkfCR8BPQE9AL4AvgAAAAAAAAAAAAAAAA=="
-#	}
-	28={
-		first_name="Vigilantia"
+	64={
+		first_name="Flavius"
 		family = c:ERE.fam:Justinian
-		birth_date=452.1.1
-		female=yes
+		birth_date=501.9.22
+		mother="char:28"
 		culture="illyria"
 		religion="chalcedonian"
-		add_gold=200
-		add_popularity=90
-		dna="Heod6rh3uHdkW2RbAogCiAJmAmYCjwKPAnYCdgJuAm4CagJqA5oDmgJ8AnwBXQFdAnsCewJmAmYCiwKLAo8CjwKRApECcAJwAo0CjQJ1AnUCZwJnAo8CjwKZApkCfAJ8AVABUATXBNcCZwJnApUClQKVApUChgKGApkCmQKHAocCjQKNAoMCgwJzAnMCfQJ9AoUChQKGAoYCcAJwAngCeAA3ADcCggKCAmcCZwKZApkCfAJ8ApgCmAKLAosCZgJmAVsBWwJuAm4CZgJmAVMBUwJ0AnQCaAJoAogCiAKXApcClQKVAn8CfwJdAl0C7wLvAC0ALQLYAtgBYwFjAIsAiwElASUBXgFeAVQBVAF3AXcA+QD5AQEBAQAAAAAC2ALYAI4AjgCBAIEAJwAnAFgAWABEAEQAVgBWAPAA8AAAAAAA/wD/AQkBCQAxADEBdgF2AN4A3gMWAxYCugK6BIkEiQB0AHQBUAFQAM8AzwERAREF4wXjAAAAAANhA2EBlwGXANYA1gkyCTIBXwFfAF8AXwAAAAAAAAAAAAAAAA=="
+		marry_character=char:14
+		no_stats=yes
+		add_martial=7
+		add_charisma=10
+		add_finesse=14
+		add_zeal=6
+		no_traits=yes
+		add_trait="ambitious"
+		add_trait="intelligent"
+		add_trait="energentic"
+		add_trait="tolerant"
+		add_gold=3000
+		add_popularity=80
+		c:ERE={
+			set_as_ruler=char:64
+		}
+		dna="Os06zYd1h3Xfld+VA6UDpQJvAm8CdwJ3Am4CbgJuAm4CbgJuAoMCgwJ9An0CcwJzApECkQKQApACiwKLApQClAJ/An8DrQOtAnACcAJ/An8ChQKFAmkCaQJtAm0CggKCAnQCdAKVApUCdQJ1AnwCfAJqAmoCbAJsAoACgAKAAoACdwJ3AooCigJzAnMCeAJ4AnoCegJzAnMCaQJpAnsCewJoAmgCbgJuAnoCegJ7AnsChQKFApcClwKDAoMCgAKAA5wDnAJqAmoCcQJxAnkCeQKXApcCawJrAngCeAKMAowCawJrAnUCdQKpAqkADQANAL8AvwAcABwBdwF3AMMAwwBLAEsCrgKuArYCtgCeAJ4DJwMnAp8CnwAAAAAAZwBnAPkA+QDwAPAACQAJAKIAogLsAuwDdgN2ApICkgAAAAABcgFyAGIAYgAaABoBHAEcAMwAzATTBNMAMgAyAJEAkQKWApYDAQMBAPEA8QTwBPADoQOhAAAAAAKsAqwBXgFeAFIAUglJCUkBKwErAOoA6gAAAAAAAAAAAAAAAA=="
+	}
+		65={
+		first_name="Helios"
+		birth_date=500.1.1
+		culture="roman"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=7
+		add_charisma=7
+		add_finesse=7
+		add_zeal=7
+		no_traits=yes
+		add_gold=0
+		add_popularity=0
+		dna="RuJG4oNrg2vW69brAocChwKLAosClQKVApECkQJuAm4CmAKYAoACgAKTApMCcwJzAVEBUQJ7AnsClAKUAosCiwJ7AnsChQKFApACkAKAAoACkQKRAWUBZQKBAoECaAJoAn4CfgKIAogCbQJtAmsCawJmAmYCfAJ8AWYBZgKUApQCeQJ5AoUChQJ/An8CdwJ3AVMBUwOfA58CdwJ3AoACgAJ/An8CiwKLBMwEzAKIAogARwBHAocChwKMAowChwKHAnMCcwJ1AnUChgKGAogCiAKLAosChAKEAmwCbAKBAoECigKKAoECgQIbAhsAKgAqAIEAgQAfAB8A2ADYAUABQAA1ADUBKgEqAWwBbABDAEMCVAJUAMoAygAAAAAAwgDCAroCugA9AD0AyADIADcANwBsAGwCSgJKAUoBSgAAAAAAsACwADMAMwC9AL0BdAF0AVYBVgCJAIkARgBGALQAtACPAI8BCgEKAToBOgF3AXcLaQtpAAAAAAHeAd4BigGKAJ4AnglWCVYBGwEbAM0AzQAAAAAAAAAAAAAAAA=="
+	}
+		66={
+		first_name="Solomon"
+		birth_date=500.1.1
+		culture="roman"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=7
+		add_charisma=7
+		add_finesse=7
+		add_zeal=7
+		no_traits=yes
+		add_gold=0
+		add_popularity=0
+		dna="RuJG4oNrg2vW69brAocChwKLAosClQKVApECkQJuAm4CmAKYAoACgAKTApMCcwJzAVEBUQJ7AnsClAKUAosCiwJ7AnsChQKFApACkAKAAoACkQKRAWUBZQKBAoECaAJoAn4CfgKIAogCbQJtAmsCawJmAmYCfAJ8AWYBZgKUApQCeQJ5AoUChQJ/An8CdwJ3AVMBUwOfA58CdwJ3AoACgAJ/An8CiwKLBMwEzAKIAogARwBHAocChwKMAowChwKHAnMCcwJ1AnUChgKGAogCiAKLAosChAKEAmwCbAKBAoECigKKAoECgQIbAhsAKgAqAIEAgQAfAB8A2ADYAUABQAA1ADUBKgEqAWwBbABDAEMCVAJUAMoAygAAAAAAwgDCAroCugA9AD0AyADIADcANwBsAGwCSgJKAUoBSgAAAAAAsACwADMAMwC9AL0BdAF0AVYBVgCJAIkARgBGALQAtACPAI8BCgEKAToBOgF3AXcLaQtpAAAAAAHeAd4BigGKAJ4AnglWCVYBGwEbAM0AzQAAAAAAAAAAAAAAAA=="
+	}
+		67={
+		first_name="John"
+		birth_date=500.1.1
+		culture="roman"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=7
+		add_charisma=7
+		add_finesse=7
+		add_zeal=7
+		no_traits=yes
+		add_gold=0
+		add_popularity=0
+		dna="RuJG4oNrg2vW69brAocChwKLAosClQKVApECkQJuAm4CmAKYAoACgAKTApMCcwJzAVEBUQJ7AnsClAKUAosCiwJ7AnsChQKFApACkAKAAoACkQKRAWUBZQKBAoECaAJoAn4CfgKIAogCbQJtAmsCawJmAmYCfAJ8AWYBZgKUApQCeQJ5AoUChQJ/An8CdwJ3AVMBUwOfA58CdwJ3AoACgAJ/An8CiwKLBMwEzAKIAogARwBHAocChwKMAowChwKHAnMCcwJ1AnUChgKGAogCiAKLAosChAKEAmwCbAKBAoECigKKAoECgQIbAhsAKgAqAIEAgQAfAB8A2ADYAUABQAA1ADUBKgEqAWwBbABDAEMCVAJUAMoAygAAAAAAwgDCAroCugA9AD0AyADIADcANwBsAGwCSgJKAUoBSgAAAAAAsACwADMAMwC9AL0BdAF0AVYBVgCJAIkARgBGALQAtACPAI8BCgEKAToBOgF3AXcLaQtpAAAAAAHeAd4BigGKAJ4AnglWCVYBGwEbAM0AzQAAAAAAAAAAAAAAAA=="
+	}
+		68={
+		first_name="Tribonian"
+		birth_date=500.1.1
+		culture="roman"
+		religion="chalcedonian"
+		no_stats=yes
+		add_martial=7
+		add_charisma=7
+		add_finesse=7
+		add_zeal=7
+		no_traits=yes
+		add_gold=0
+		add_popularity=0
+		dna="RuJG4oNrg2vW69brAocChwKLAosClQKVApECkQJuAm4CmAKYAoACgAKTApMCcwJzAVEBUQJ7AnsClAKUAosCiwJ7AnsChQKFApACkAKAAoACkQKRAWUBZQKBAoECaAJoAn4CfgKIAogCbQJtAmsCawJmAmYCfAJ8AWYBZgKUApQCeQJ5AoUChQJ/An8CdwJ3AVMBUwOfA58CdwJ3AoACgAJ/An8CiwKLBMwEzAKIAogARwBHAocChwKMAowChwKHAnMCcwJ1AnUChgKGAogCiAKLAosChAKEAmwCbAKBAoECigKKAoECgQIbAhsAKgAqAIEAgQAfAB8A2ADYAUABQAA1ADUBKgEqAWwBbABDAEMCVAJUAMoAygAAAAAAwgDCAroCugA9AD0AyADIADcANwBsAGwCSgJKAUoBSgAAAAAAsACwADMAMwC9AL0BdAF0AVYBVgCJAIkARgBGALQAtACPAI8BCgEKAToBOgF3AXcLaQtpAAAAAAHeAd4BigGKAJ4AnglWCVYBGwEbAM0AzQAAAAAAAAAAAAAAAA=="
 	}
 }
