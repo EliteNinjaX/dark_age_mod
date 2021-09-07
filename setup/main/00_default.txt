@@ -93,7 +93,7 @@ family={
 		}
 diplomacy = {
 
-	dependency = { first = ERE second = LAZ subject_type = feudatory }
+	dependency = { first = ERE second = LAZ subject_type = client_state }
 	alliance = { first = ERE second = IBR }
 	alliance = { first = UTI second = GTH }
 	dependency = { first = PER second = ALB subject_type = feudatory }
@@ -210,8 +210,11 @@ provinces = {
 	4787 = {
 		barracks_building = 1
 	}
-	829 = { #Dara
+	856 = { #Dara
 		fortress_building = 2
+	}
+	829 = {
+		fortress_building = 1
 	}
 	872 = {
 		fortress_building = 1
