@@ -22,6 +22,7 @@
 			}
 			set_variable = me_ant_start_flag
 			rome_legion_setup_effect = yes
+			rome_legion_2_setup_effect = yes
 		#	add_opinion = { target = c:MAC modifier = diadochi_rivals }
 		#	add_opinion = { target = c:TRE modifier = diadochi_rivals }
 		#	add_opinion = { target = c:EGY modifier = diadochi_rivals }

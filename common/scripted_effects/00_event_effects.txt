@@ -10303,14 +10303,76 @@ rome_legion_setup_effect = {
 				add_subunit = horse_archers 
 				add_subunit = horse_archers 
 				add_subunit = horse_archers
-				add_subunit = horse_archers					
-				add_subunit = supply_train
-				add_subunit = supply_train
+				add_subunit = horse_archers
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = light_infantry
+				add_subunit = light_infantry
+				add_subunit = light_infantry
+				add_subunit = light_infantry
 				add_subunit = supply_train
 				add_subunit = supply_train
 			}
 			char:24 = { add_to_legion = PREV } 
 			random_legion_unit = { set_as_commander = char:24 }
+		}
+	}
+}
+rome_legion_2_setup_effect = {
+	char:69 = { remove_all_positions = yes }
+	p:1854.governorship = {
+		raise_legion = {
+			create_unit = {
+				name = "Bucellarii II"
+				location = p:1854
+				sub_unit = heavy_cavalry
+				save_scope_as = legion_scope
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = heavy_cavalry
+				add_subunit = horse_archers 
+				add_subunit = horse_archers 
+				add_subunit = horse_archers 
+				add_subunit = horse_archers
+				add_subunit = horse_archers
+				add_subunit = horse_archers 
+				add_subunit = horse_archers 
+				add_subunit = horse_archers 
+				add_subunit = horse_archers
+				add_subunit = horse_archers
+				add_subunit = archers
+				add_subunit = archers
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = heavy_infantry
+				add_subunit = light_infantry
+				add_subunit = light_infantry
+				add_subunit = light_infantry
+				add_subunit = light_infantry
+				add_subunit = supply_train
+				add_subunit = supply_train
+			}
+			char:69 = { add_to_legion = PREV } 
+			random_legion_unit = { set_as_commander = char:69 }
 		}
 	}
 }
