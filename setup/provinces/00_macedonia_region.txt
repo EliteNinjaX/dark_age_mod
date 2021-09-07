@@ -142,20 +142,44 @@
 373={ #Thessalonica
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="glass"
 	port_building=2
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+	}
+	nobles={
+		amount=5
+		religion="chalcedonian"
+	}
+	nobles={
+		amount=1
+		culture="illyria"
+		religion="chalcedonian"
+	}
 	citizen={
-		amount=13
+		amount=8
+		religion="chalcedonian"
+	}
+	citizen={
+		amount=8
 	}
 	freemen={
-		amount=10
+		amount=6
+	}
+	freemen={
+		amount=5
+		culture="illyria"
 	}
 	slaves={
-		amount=10
+		amount=13
+		religion="chalcedonian"
+	}
+	slaves={
+		amount=4
 	}
 }
 
@@ -228,7 +252,7 @@
 		amount=2
 	}
 	citizen={
-		culture="athenian"
+		culture="greek"
 		amount=2
 	}
 	freemen={
@@ -245,16 +269,16 @@
 379={ #Pella
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=7
+		amount=3
 	}
 	freemen={
-		amount=8
+		amount=4
 	}
 	slaves={
 		amount=7
@@ -453,16 +477,20 @@
 391={ #Pagasai
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
-	trade_goods="grain"
+	religion="roman_pantheon"
+	trade_goods="wine"
 	civilization_value=40
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	port_building=1
 	citizen={
-		amount=2
+		amount=5
 	}
 	freemen={
-		amount=2
+		amount=5
+	}
+	slaves={
+		amount=3
 	}
 }
 
@@ -510,17 +538,11 @@
 394={ #Pharsalus
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=5
-	}
+	province_rank="settlement"
 	slaves={
 		amount=2
 	}
@@ -530,7 +552,7 @@
 	terrain="farmland"
 	culture="greek"
 	religion="chalcedonian"
-	trade_goods="wine"
+	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
@@ -852,19 +874,19 @@
 428={ #Methone
 	terrain="plains"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=5
+		amount=3
 	}
 	freemen={
-		amount=4
+		amount=2
 	}
 	slaves={
-		amount=3
+		amount=6
 	}
 }
 

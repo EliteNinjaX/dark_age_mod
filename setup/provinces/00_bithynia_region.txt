@@ -146,7 +146,7 @@
 		amount=6
 	}
 	freemen={
-		culture="athenian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1098,7 +1098,7 @@
 		amount=3
 	}
 	citizen={
-		culture="athenian"
+		culture="greek"
 		amount=2
 	}
 	freemen={
@@ -1172,7 +1172,7 @@
 		amount=7
 	}
 	citizen={
-		culture="athenian"
+		culture="greek"
 		amount=2
 	}
 	freemen={

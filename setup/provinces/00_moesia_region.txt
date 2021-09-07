@@ -280,7 +280,7 @@
 	}
 }
 
-4197={ #Moesiana
+4197={ #bulgarsana
 	terrain="plains"
 	culture="illyria"
 	religion="chalcedonian"
@@ -337,7 +337,7 @@
 	}
 }
 
-4200={ #Viminacium Moesiacum
+4200={ #Viminacium bulgarsacum
 	terrain="forest"
 	culture="thracian"
 	religion="chalcedonian"
@@ -629,7 +629,7 @@
 	}
 }
 
-4216={ #Bononia Moesiaca
+4216={ #Bononia bulgarsaca
 	terrain="farmland"
 	culture="thracian"
 	religion="chalcedonian"
