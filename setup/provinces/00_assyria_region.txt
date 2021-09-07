@@ -687,7 +687,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
 		amount=1
@@ -725,7 +725,10 @@
 	trade_goods="dates"
 	civilization_value=40
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
 	}
