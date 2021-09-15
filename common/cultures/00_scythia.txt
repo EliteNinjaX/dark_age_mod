@@ -56,7 +56,22 @@
 		agathyrsian = {}
 		#New shit
 		avars = {}
-		bulgars = {}
+		bulgars = {
+			male_names = {
+                Avitohol Anzi Asparuh Aspar Almush Alcek Alusian Ahtum Asen Aydar Bayan Boyan Boris Bars Boril,
+                Bezmer Balik Biser Varakur Vineh Banand Velegnev Vetam Voyteh Gostun Gavra Ditseng Dokum Dragshan Dargamer
+                Darman Dox Elemag Enravota Ziezi Zabergan Zent Isbul Irnik Irata Kubrat Kardam Kuber Krum Kormisosh Krakra
+                Korsis Mostich Marmias Mavar Negavon Nebul Omurtag Ohsi Okorsis Organa Persian Pseru Pagan Polemarh Rasate Radivoy
+                Sondoke Sandilh Sabin Sigritsa Sevar Sursuvul Setit Sulab Telerig Tiradin Toktu Turdach Tervel Telets Traval
+                Turto Umor Hunol Hinialon Hars Horbat Herushin Tsok Chelbir Chisyun Shambat
+			}
+			female_names = {
+				Algara Huba Pagane Kalya Persika Roksana Ahinora Kubra Bisera Asparina Asmara Modra Mavruda Himara 
+			}
+			family = { 
+				Kubiar Kurigir Ermi Dulo Vokil Ukil Krum Chakarar Ugain Ashina Bulgar Pagan Kotrag Bagatur Suvar Isbul 
+			}
+		}
 		alans = {}
 		turks = {}
 		hephthalites = {}
