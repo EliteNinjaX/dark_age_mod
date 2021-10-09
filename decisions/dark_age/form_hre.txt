@@ -2,17 +2,14 @@
 	# Form HRE
 	form_hre = {
 		potential = {
-			OR = {
-				country_culture_group = germanic
-				country_culture_group = gaul
-				country_culture_group = hispania
-			}
+			country_culture_group = germanic
 			NOT = {
 				tag = HRE
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
 			}
+			NOT = { has_global_variable = hre_unite_decision_flag }
 		}
 		highlight = {
 			scope:province = {
@@ -44,9 +41,8 @@
 			change_country_name = "HRE_NAME"
 			hidden_effect = {
 				change_country_adjective = "HRE_ADJECTIVE"
-				change_country_color = "hre_color"
+				change_country_color =  "dark_grey"
 				change_country_tag = HRE
-				change_country_flag = HRE_FLAG
 			}
 			capital_scope = {
 				capital_formable_large_effect = yes

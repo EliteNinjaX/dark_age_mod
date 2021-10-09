@@ -4,7 +4,6 @@
 	form_francia = {
 		
 		potential = {
-			num_of_cities >= 1
 			country_culture = franks
 			NOR = {
 				tag = FRA
@@ -78,5 +77,5 @@
 		}
 	}
 
-} 
+}
 
