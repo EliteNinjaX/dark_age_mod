@@ -46,7 +46,7 @@
 #Francia
  formable_not_francia_exists:0 "#Y Francia#! must NOT exist."
  form_francia:0 "Form Francia"
- form_francia_desc:0 "Clovis built a mighty kingdom by uniting the Franks. If one of his successors is able to do so, they will create a kingdom capable of dominating the new Europe."
+ form_francia_desc:0 "Clovis built a mighty kingdom by uniting the Franks. However unit was short lived but if one of his successors is able to unit the lands once more, they would create a kingdom capable of dominating Europe and beyond."
  FRANCIA_NAME:0 "Francia"
  FRANCIA_ADJECTIVE:0 "Frankish"
  FRA:0 "Francia"
@@ -55,7 +55,7 @@
  #Holy Roman Empire
  formable_not_hre_exists:0 "#Y Holy Roman Empire#! must NOT exist."
  form_hre:0 "Form Holy Roman Empire"
- form_hre_desc:0 "The latin Western Roman Empire is dead. With the blessing of the pope, a new germanic empire will take its place."
+ form_hre_desc:0 "Sicne the sacking of Rome by the Valdals, the Empire in the West has been in tatters, and the legacy of Caesar Augustus shattered by this cruel fate. It would take a strong, and godly ruler to return Rome's imperial dignity. And with the blessing of the pope of course."
  HRE_NAME:0 "Holy Roman Empire"
  HRE_ADJECTIVE:0 "Holy Roman"
  HRE:0 "Holy Roman Empire"

@@ -5,7 +5,7 @@
 		
 		potential = {
 			num_of_cities >= 1
-			country_culture = anglosaxon
+			primary_culture = anglosaxon
 			NOT = {
 				is_endgame_tag_trigger = yes
 			}

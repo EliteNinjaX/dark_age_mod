@@ -5,7 +5,7 @@
 		
 		potential = {
 			num_of_cities >= 1
-			country_culture = brittania
+			primary_culture = brittania
 			NOR = {
 				tag = BRA
 				tag = HRE
