@@ -61,6 +61,7 @@
  HRE:0 "Holy Roman Empire"
  HRE_ADJ:0 "Holy Roman"
  form_HRE_claims_tooltip:0 "The Holy Roman Empire will gain Claims in Gaul, Italia and Germania."
+ HREVSFRANCIA_tooltip:0 "#R Forming Francia and The Holy Roman Empire are Mutual Excluive! #!"
  #Arabia
  formable_not_arabia_exists:0 "#Y Arabia#! must NOT exist."
  form_arabia:0 "Form Arab Empire"

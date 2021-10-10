@@ -13,12 +13,14 @@
 			NOT = {
 				is_endgame_tag_trigger = yes
 			}
+			NOT = { has_variable = formed_hre }
+			NOT = { has_variable = formed_FRA }
 		}
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 1 #Rome
-					province_id = 142 #Ravenna
+					is_in_region = germania_superior_region
+					is_in_region = germania_region
 				}
 			}
 		}
@@ -34,13 +36,14 @@
 			}
 			is_monarchy = yes
 			religion = chalcedonian
-			owns = 1 #Rome
-			owns = 142 #Ravenna
+			owns_or_subject_owns_region = germania_superior_region
+			owns_or_subject_owns_region = germania_region
 			num_of_cities >= 500
 		}
 		
 		effect = {
 			custom_tooltip = "tier_3_formable_tooltip"
+			custom_tooltip = "HREVSFRANCIA_tooltip"
 			change_country_name = "HRE_NAME"
 			hidden_effect = {
 				change_country_adjective = "HRE_ADJECTIVE"
@@ -79,6 +82,7 @@
 				set_global_variable = {    
 					name = hre_unite_decision_flag
 				}
+				set_variable = formed_HRE
 			}
 			add_3_free_province_investments = yes
 		}		
