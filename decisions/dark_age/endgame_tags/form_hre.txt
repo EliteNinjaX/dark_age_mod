@@ -12,6 +12,9 @@
 			NOT = {
 				is_endgame_tag_trigger = yes
 			}
+			NOT = {
+				tag = GBR
+			}
 			NOT = { has_variable = formed_hre }
 			NOT = { has_variable = formed_FRA }
 		}

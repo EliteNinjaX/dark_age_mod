@@ -3185,7 +3185,7 @@ FRA_FLAG = {
 	}
 }
 k_england = {
-	pattern = "pattern_solid.dds"
+	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "white"
 	colored_emblem = {
@@ -3195,14 +3195,26 @@ k_england = {
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
 }
+ALBION_TEMP_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_bow_01.dds"
+		color1 = "roman_red"
+		color2= "roman_gold"
+		instance = { scale = { 0.9 0.9 }  }
+	}
+}
 k_denmark = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 	color2 = "blue"
 	colored_emblem = {
 		texture = "ce_heart.dds"
-		color1 = "red"
-		color2 = "red"
+		color1 = "ck3_red"
+		color2 = "ck3_red"
 		instance = { position = { 0.840 0.115 } scale = { 0.09 0.09 }  }
 		instance = { position = { 0.425 0.060 } scale = { 0.09 0.09 }  }
 		instance = { position = { 0.157 0.193 } scale = { 0.09 0.09 }  }
@@ -3227,7 +3239,7 @@ k_denmark = {
 	colored_emblem = {
 		texture = "ce_leopard_passant_guardant.dds"
 		color1 = "blue"
-		color2 = "red"
+		color2 = "ck3_red"
 		instance = { position = { 0.5 0.16 } scale = { 0.83 0.81 }  }
 		instance = { position = { 0.5 0.415 } scale = { 0.83 0.81 }  }
 		instance = { position = { 0.5 0.67 } scale = { 0.83 0.81 }  }
