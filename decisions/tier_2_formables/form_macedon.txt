@@ -6,7 +6,7 @@
 		potential = {
 			num_of_cities >= 1
 			OR = {
-				country_culture = macedonian
+				primary_culture = macedonian
 			}
 			is_republic = no
 			capital_scope = {
@@ -78,7 +78,7 @@
 			}
 			if = {
 				limit = {
-					NOT = { country_culture = macedonian }
+					NOT = { primary_culture = macedonian }
 				}
 				set_primary_culture = macedonian
 			}

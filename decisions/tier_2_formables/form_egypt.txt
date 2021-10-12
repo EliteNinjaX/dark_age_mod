@@ -6,8 +6,8 @@
 		potential = {
 			num_of_cities >= 1
 			OR = {
-				country_culture_group = north_african
-				country_culture_group = meroitic_group
+				primary_culture_group = north_african
+				primary_culture_group = meroitic_group
 			}
 			is_monarchy = yes
 			NOT = {

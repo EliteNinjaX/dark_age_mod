@@ -5,7 +5,7 @@
 		
 		potential = {
 			num_of_cities >= 1
-			country_culture = pict
+			primary_culture = pict
 			NOT = {
 				tag = PIC
 			}

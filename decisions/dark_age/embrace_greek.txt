@@ -2,7 +2,7 @@
 	embrace_greek = {
 		potential = {
 				tag = ERE
-				country_culture_group = latin
+				primary_culture_group = latin
 		}
 		allow = {
 			stability >= 15

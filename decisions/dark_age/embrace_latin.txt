@@ -12,7 +12,7 @@
 				tag = OGO
 			}
 			NOT = {
-				country_culture_group = latin
+				primary_culture_group = latin
 				tag = HRE
 				tag = FRA
 			}

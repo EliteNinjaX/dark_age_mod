@@ -4,7 +4,7 @@
 	form_sardinia = {
 		potential = { # TRIGGER FIELD - Conditions for the decision to be shown
 			num_of_cities >= 1 # TRIGGER - Check that the country owns at least 1 territory
-			country_culture = nuragic # TRIGGER - Check that the country has the Nuragic culture
+			primary_culture = nuragic # TRIGGER - Check that the country has the Nuragic culture
 			NOT = { # BOOLEAN OPERATOR - Check that the following is not true
 				tag = SAR # TRIGGER - The country has the following tag
 			} # END OF BOOLEAN OPERATOR

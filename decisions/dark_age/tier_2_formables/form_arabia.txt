@@ -5,7 +5,7 @@
 		
 		potential = {
 			num_of_cities >= 1
-			country_culture_group = south_levantine
+			primary_culture_group = south_levantine
 			NOT = {
 				tag = ARA
 			}

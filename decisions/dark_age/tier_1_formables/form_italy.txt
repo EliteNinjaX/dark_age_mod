@@ -4,7 +4,7 @@
 	form_italy = {		
 	
 		potential = {
-			country_culture = lombards
+			primary_culture = lombards
 			NOR = {
 				tag = ITY
 				tag = HRE
