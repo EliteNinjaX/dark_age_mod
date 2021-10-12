@@ -15,6 +15,9 @@
 				primary_culture_group = latin
 			}
 			NOT = {
+			country_culture_group = latin
+			}
+			NOT = {
 				tag = FRA
 				}
 		}

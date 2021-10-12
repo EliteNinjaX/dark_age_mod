@@ -1,7 +1,8 @@
 colors = {
 	aoe_purple = rgb { 102 2 85 }
 	aoe_caliphate_green = rgb { 27 86 23 }
-	hre_color = { 255 255 255 }
+	hre_color = { 212 175 55 }
+	WRE_color = { 139 16 13 }
 	#ck3
 	red 		= hsv {		0.02 	0.8 	0.45 	}
 	blue 		= hsv {		0.58 	0.8 	0.4 	}

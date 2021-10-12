@@ -3046,7 +3046,7 @@ CAB = {
 	}
 }
 
-# New Shit
+# New Shit / mod
 
 ERE = {
 	pattern = "pattern_solid.tga"
@@ -3135,6 +3135,40 @@ HRE_FLAG = {
 		color1 = "black"
 		color2 = "red"
 		instance = { position = { 0.5 0.5 } scale = { 0.9 1.0 }  }
+	}
+}
+HRE_RED_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "black"
+		instance = { position = { 0.42 0.155 } scale = { 0.256 0.256 }  }
+		instance = { position = { 0.58 0.155 } scale = { 0.256 0.256 }  }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		instance = { position = { 0.42 0.155 } scale = { 0.24 0.24 }  }
+		instance = { position = { 0.58 0.155 } scale = { 0.24 0.24 }  }
+	}
+	colored_emblem = {
+		texture = "ce_eagle_double.dds"
+		color1 = "black"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 1.0 }  }
+	}
+}
+ROM_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_roman_eagle.dds"
+		color1 = "roman_gold"
 	}
 }
 FRA_FLAG = {

@@ -2,10 +2,7 @@
 	# last_roman
 	last_roman = {
 		potential = {
-			OR = {
-				country_culture_group = germanic
-				country_culture_group = latin
-			}
+			country_culture_group = latin
 			NOT = {
 				tag = ERE
 			}
@@ -21,24 +18,37 @@
 		}
 		
 		allow = {
-		#	owns_region = central_italy_region
-		#	owns_region = cisalpine_gaul_region
-		#	custom_tooltip = {
-		#		text = formable_not_rom_exists
-		#		NOT = {
-		#			any_country = {
-		#				tag = HRE
-		#			}
-		#		}
-		#	}
+			owns_region = central_italy_region
+			owns_region = cisalpine_gaul_region
+			custom_tooltip = {
+				text = formable_not_rom_exists
+				NOT = {
+					any_country = {
+						tag = HRE
+					}
+				}
+			}
+		trigger_if = {
+				limit = {
+					is_ai = no #AI won't know to integrate this culture just for the decision
+					NOT = { primary_culture = roman }
+					any_country_culture = {
+						is_culture = roman
+					}
+				}
+				any_country_culture = {
+					is_integrated = yes
+					is_culture = roman
+				}
+			}
 		}
 		
 		effect = {
 			change_country_name = "ROM_NAME"
 			hidden_effect = {
 				change_country_adjective = "ROM_ADJ"
-				change_country_color = "ROM_color"
-				change_country_flag = HRE_FLAG
+				change_country_color = "WRE_color"
+				change_country_flag = ROM_FLAG
 			}
 				set_capital = 1
 				hidden_effect = {
