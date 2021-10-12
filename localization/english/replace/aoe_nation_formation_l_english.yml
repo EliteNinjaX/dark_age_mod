@@ -168,13 +168,13 @@
  ERE_ADJECTIVE:0 "East Roman"
   #Western Roman Empire
  formable_not_rom_exists:0 "#Y Roman Empire#! must NOT exist."
- form_rom:0 "Reform the Roman Empire"
- form_rom_desc:0 "Since Theodosius the first, the Roman Empire has been split in two. If a nation is able to reunite the core territories of the west and east, then the empire will be united."
+ last_roman:0 "The Last Roman"
+ last_roman_desc:0 "Since Theodosius I, the Roman Empire has been divided in half. With the Fall of the West by barbarians, the now East claims to be the last true sons of Rome, but they sink of Easten mischief and "Greek Love" However if the west can is able to reunite the core territories of the both East and West, then the empire will be united, and we can finnaly scoff at whatever the pretenders in Constantinople may claim."
  ROM_NAME:0 "Roman Empire"
  ROM_ADJECTIVE:0 "Roman"
  ROM:0 "Roman Empire"
  ROM_ADJ:0 "Roman"
- form_ROM_claims_tooltip:0 "The Roman Empire will gain Claims in Gaul, Italia, Africa, Hispania and Britannia!"
+ form_ROM_claims_tooltip:0 "The Roman Empire will gain Claims in Gaul, Italia, Africa, Hispania, Syria, Palestine, Egypt, and Greece!"
  #Caliphate
  UMY_NAME:0 "Umayyad Caliphate"
  UMY_ADJECTIVE:0 "Umayyad"

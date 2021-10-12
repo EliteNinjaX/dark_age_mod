@@ -4,8 +4,7 @@
 		potential = {
 			OR = {
 				country_culture_group = germanic
-				country_culture_group = gaul
-				country_culture_group = hispania
+				country_culture_group = latin
 			}
 			NOT = {
 				tag = HRE

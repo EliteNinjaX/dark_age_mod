@@ -13,9 +13,10 @@
 			}
 			NOT = {
 				primary_culture_group = latin
-				tag = HRE
-				tag = FRA
 			}
+			NOT = {
+				tag = FRA
+				}
 		}
 		allow = {
 			stability >= 30
