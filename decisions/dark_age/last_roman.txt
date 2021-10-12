@@ -24,7 +24,7 @@
 				text = formable_not_rom_exists
 				NOT = {
 					any_country = {
-						tag = HRE
+						tag = ERE
 					}
 				}
 			}
