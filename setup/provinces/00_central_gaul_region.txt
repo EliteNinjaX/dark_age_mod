@@ -1343,14 +1343,14 @@
 	}
 }
 
-2474={ #Paris
+2474={ #Nanterre
 	terrain="plains"
 	culture="franks"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=15
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=5
 	}
@@ -1362,14 +1362,17 @@
 	}
 }
 
-2475={ #Lutetia
+2475={ #Paris
 	terrain="plains"
 	culture="gaul"
 	religion="chalcedonian"
 	trade_goods="earthware"
-	civilization_value=15
+	civilization_value=20
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=3
+	}
 	citizen={
 		culture="franks"
 		amount=2
@@ -1379,16 +1382,19 @@
 	}
 	freemen={
 		amount=3
+		religion="roman_pantheon"
 	}
 	freemen={
 		culture="franks"
 		amount=2
 	}
 	slaves={
-		amount=2
+		amount=5
+		religion="roman_pantheon"
 	}
 	tribesmen={
-		amount=9
+		amount=4
+		culture="franks"
 	}
 }
 

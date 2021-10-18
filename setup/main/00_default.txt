@@ -3456,7 +3456,7 @@ country = {
 			primary_culture = franks
 			religion = chalcedonian
 
-			capital = 2474
+			capital = 2475
 
 			own_control_core = 	{
 				2347 2368 2367 2412 2414 2416 2408 2407 2411 2406 2410 2409 2377 2381 2380

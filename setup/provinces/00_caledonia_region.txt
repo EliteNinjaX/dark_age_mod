@@ -485,7 +485,7 @@
 }
 
 2161={ #Iverni
-	terrain="marsh"
+	terrain="plains"
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
@@ -499,19 +499,25 @@
 		religion="chalcedonian"
 		amount=4
 	}
+	slaves={
+		amount=5
+	}
 	tribesmen={
-		amount=3
+		amount=4
 	}
 }
 
 2162={ #Corcach
-	terrain="forest"
+	terrain="farmland"
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="city"
+	nobles = {
+		amount=5
+	}
 	citizen={
 		amount=4
 	}
@@ -522,7 +528,7 @@
 		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 }
 
@@ -751,7 +757,7 @@
 }
 
 2177={ #Dáirine
-	terrain="marsh"
+	terrain="plains"
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
@@ -799,7 +805,7 @@
 }
 
 2180={ #Sliabh Luachra
-	terrain="marsh"
+	terrain="plains"
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="grain"
@@ -882,7 +888,7 @@
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
-	trade_goods="wood"
+	trade_goods="fur"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
@@ -895,7 +901,7 @@
 }
 
 2186={ #Dún Garbhán
-	terrain="forest"
+	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="fish"
@@ -912,6 +918,9 @@
 		religion="chalcedonian"
 		amount=4
 	}
+	slaves={
+		amount=6
+	}
 }
 
 2187={ #Éile
@@ -925,13 +934,16 @@
 	citizen={
 		amount=2
 	}
-	tribesmen={
+	freemen={
+		amount=3
+	}
+	slaves={
 		amount=6
 	}
 }
 
 2188={ #Cheinnselaig
-	terrain="marsh"
+	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
@@ -942,7 +954,7 @@
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=8
 	}
 }
 
@@ -963,24 +975,27 @@
 }
 
 2190={ #Duibhlinn
-	terrain="forest"
+	terrain="farmland"
 	culture="hibernian"
 	religion="chalcedonian"
 	trade_goods="incense"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="city"
-	citizen={
+	nobles = {
 		amount=4
 	}
+	citizen={
+		amount=6
+	}
 	freemen={
-		amount=9
+		amount=10
 	}
 	slaves={
 		amount=9
 	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 }
 
@@ -1011,8 +1026,11 @@
 	citizen={
 		amount=2
 	}
+	slaves={
+		amount=2
+	}
 	tribesmen={
-		amount=3
+		amount=6
 	}
 }
 
@@ -1025,10 +1043,16 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=4
 	}
 	tribesmen={
-		amount=4
+		amount=8
 	}
 }
 
@@ -1041,7 +1065,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		amount=3
+	}
+	freemen={
 		amount=2
+	}
+	slaves={
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -1049,14 +1079,23 @@
 }
 
 2195={ #Dún Droma Dáirine
-	terrain="forest"
+	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
 	trade_goods="cattle"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		amount=1
+	}
 	citizen={
+		amount=3
+	}
+	freemen={
+		amount=1
+	}
+	slaves={
 		amount=2
 	}
 	tribesmen={
@@ -1081,22 +1120,28 @@
 }
 
 2197={ #Fiachrach Muaidhe
-	terrain="marsh"
+	terrain="plains"
 	culture="hibernian"
 	religion="chalcedonian"
-	trade_goods="fur"
+	trade_goods="glass"
 	civilization_value=20
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=1
+	}	
 	citizen={
-		amount=2
+		amount=5
 	}
 	freemen={
 		religion="chalcedonian"
 		amount=4
 	}
-	tribesmen={
+	slaves{
 		amount=4
+	}
+	tribesmen={
+		amount=8
 	}
 }
 

@@ -622,10 +622,10 @@
 		amount=1
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 }
 
@@ -647,7 +647,7 @@
 		amount=9
 	}
 	tribesmen={
-		amount=20
+		amount=10
 	}
 }
 
@@ -877,13 +877,13 @@
 		amount=9
 	}
 	citizen={
-		amount=31
+		amount=20
 	}
 	freemen={
 		amount=8
 	}
 	slaves={
-		amount=5
+		amount=15
 	}
 	tribesmen={
 		amount=10

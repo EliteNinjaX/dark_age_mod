@@ -739,7 +739,7 @@
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=13
 	}
 }
 
@@ -767,32 +767,21 @@
 	culture="assyrian"
 	religion="nestorian"
 	trade_goods="earthware"
-	civilization_value=50
+	civilization_value=59
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		amount=5
 	}
 	citizen={
-		culture="hebrew"
-		religion="judaism"
-		amount=4
-	}
-	citizen={
-		amount=19
+		amount=10
 	}
 	freemen={
 		amount=11
 	}
 	slaves={
-		culture="hebrew"
-		religion="judaism"
-		amount=4
+		amount=15
 	}
-	slaves={
-		amount=13
-	}
-	holy_site=omen_marduk
 }
 
 919={ #Borsippa
@@ -950,7 +939,7 @@
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=15
 	}
 }
 
@@ -966,7 +955,7 @@
 		amount=1
 	}
 	slaves={
-		amount=3
+		amount=13
 	}
 }
 
@@ -1634,21 +1623,7 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=5
-	}
-	freemen={
-		religion="arabian_pantheon"
-		amount=1
-	}
-	freemen={
-		amount=3
-	}
 	slaves={
-		amount=4
-	}
-	slaves={
-		religion="arabian_pantheon"
 		amount=3
 	}
 }
@@ -1984,14 +1959,8 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=5
-	}
-	freemen={
-		amount=4
-	}
 	slaves={
-		amount=9
+		amount=5
 	}
 }
 

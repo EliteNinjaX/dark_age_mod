@@ -459,7 +459,7 @@
 	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
-	trade_goods="leather"
+	trade_goods="vegetables"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
@@ -1122,7 +1122,7 @@
 }
 
 4788={ #Hieratis
-	terrain="desert"
+	terrain="plains"
 	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="camel"
@@ -1429,10 +1429,10 @@
 }
 
 4955={ #Oarakta
-	terrain="desert"
+	terrain="plains"
 	culture="utian"
 	religion="zoroaster"
-	trade_goods="vegetables"
+	trade_goods="gems"
 	civilization_value=30
 	barbarian_power=0
 	province_rank="settlement"
