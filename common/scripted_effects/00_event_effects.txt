@@ -6591,7 +6591,18 @@ perisa_flavor_event_claim_effect = {
 	region:colchis_region = { perisa_flavor_1_region_claim_effect = yes }
 	region:phrygia_region = { perisa_flavor_1_region_claim_effect = yes }
 }
-
+ere_flavor_event_claim_effect = {
+	every_region_province = {
+		add_claim = ROOT
+	}
+}
+ere_flavor_event_claim_effect = {
+	region:central_italy_region = { ere_flavor_1_region_claim_effect = yes }
+	region:cisalpine_gaul_region = { ere_flavor_1_region_claim_effect = yes }
+	region:mesopotamia_region = { ere_flavor_1_region_claim_effect = yes }
+	region:assyria_region = { ere_flavor_1_region_claim_effect = yes }
+	region:armenia_region = { ere_flavor_1_region_claim_effect = yes }
+}
 fe_66_percent_food_var_effect = {
 	set_variable = {
 		name = fe_66_percent_food_var

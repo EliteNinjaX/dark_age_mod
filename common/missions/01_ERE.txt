@@ -1,0 +1,115 @@
+﻿ere_mission_01_matter_of_cutlure = { #
+	icon = phrygia_2
+	header = mission_image_phrygia
+	
+	repeatable = no
+
+    chance = {
+		factor = 10
+	}
+	
+	ai_chance = { factor = 10 }
+
+	potential = { 
+		NOT = { has_variable = ere_mission_01_matter_of_cutlure }
+		NOT = { has_variable = justinian_death }
+		tag = ERE
+		is_monarchy = yes
+		is_subject = no
+		has_civil_war = no
+	}
+	
+	abort = {
+		OR = {
+			is_monarchy = no
+			NOR = {
+				tag = ERE
+				has_variable = justinian_death
+			}
+			custom_tooltip = {
+				text = antigonid_01_vision_abort_tt
+				has_global_variable = antigonus_the_failure
+			}
+			ai_mission_back_out_trigger = yes
+		}
+	}
+
+    on_start = {
+    	start_mission_ai_effect = yes
+    	save_scope_as = me_antigonids_scope
+    	show_as_tooltip = {
+    		add_country_modifier = {
+	            name = me_ant_1_cmod
+	            duration = 3650 # 10 years
+	        }
+    	}
+    	trigger_event = { id = me_antigonid_1_vision.1 }
+    }
+
+    on_abort = {
+    	custom_tooltip = ant_1_mission_cooldown_tt
+    	if = {
+	    	limit = { has_country_modifier = me_ant_1_cmod }
+    		remove_country_modifier = me_ant_1_cmod
+	    }
+		set_variable = {
+			name = ere_mission_01_matter_of_cutlure
+			days = 7300
+		}
+    }
+
+    on_completion = {
+    	show_as_tooltip = {
+    		add_country_modifier = {
+    			name = me_ant_1_end_cmod
+    			duration = 7300 # 20 years
+    		}
+    	}
+    	complete_mission_effect = yes #
+    	trigger_event = { id = me_antigonid_1_vision.2 }
+    }
+	
+	eastern_capital = { # Eastern Capital
+		icon = task_economical
+		duration = 730
+		monthly_on_action = antigonid_01_vision_1_on_action
+
+		allow = {
+			owns = 1453
+			treasury >= 250
+		}
+
+		highlight = {
+			scope:province = { province_id = 1453 }
+		}
+
+		on_start = {
+			trigger_event = { id = me_antigonid_1_vision.11 }
+			set_variable = {
+				name = antigonid_01_vision_1_start
+				days = 730
+			}
+			show_as_tooltip = { add_treasury = -250 }
+		}
+
+		on_completion = {
+			trigger_event = { id = me_antigonid_1_vision.12 }
+			show_as_tooltip = {
+				current_ruler = {
+					add_popularity = popularity_medium
+					if = {
+						limit = { number_of_traits <= 5 }
+						add_trait = founder
+					}
+				}
+				p:790 = {
+					add_province_modifier = {
+						name = ant_01_1_pmod
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+	
+}

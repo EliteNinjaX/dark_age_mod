@@ -3050,13 +3050,23 @@ CAB = {
 
 ERE = {
 	pattern = "pattern_solid.tga"
-	color1 = "ck2_purple"
-	color2 = "roman_gold"
+	color1 = "red"
+	color2 = "yellow"
 
 	colored_emblem = {
 		texture = "ce_chi_rho.dds"
-		color1 = "roman_gold"
+		color1 = "yellow"
+		color2 = "yellow"
 	}
+#	colored_emblem = {
+#		texture = "ce_beta.dds"
+#		color1 = "yellow"
+#		color2 = "yellow"
+#		instance = { position = { 0.735 0.22 } scale = { 0.55 0.55 }  }
+#		instance = { position = { 0.265 0.22 } scale = { -0.55 0.55 }  }
+#		instance = { position = { 0.265 0.715 } scale = { -0.45 0.45 }  }
+#		instance = { position = { 0.735 0.715 } scale = { 0.45 0.45 }  }
+#	}
 }
 
 ERE_REVOLT = {
