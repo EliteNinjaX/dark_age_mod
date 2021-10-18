@@ -1,4 +1,6 @@
-﻿color = rgb { 155 26 131 }
+﻿color =  hsv{ 0.9 1 0.3 } #hsv{ 0.73 0.8 0.4 }  #hsv{ 0.77 0.8 0.6 } #{ 143 12 125 }
+#color = rgb { 143 12 125 } #From ck2
+
 
 ship_names = {
 	"Acqui Terme" Aemilia Albintimilium Alsium "Ante Amnem" Apollo Ardelica Arilica Ariolica Asti
