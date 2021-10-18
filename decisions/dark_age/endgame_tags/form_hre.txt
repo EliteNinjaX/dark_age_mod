@@ -10,6 +10,9 @@
 				tag = HRE
 			}
 			NOT = {
+				tag = ERE
+			}
+			NOT = {
 				is_endgame_tag_trigger = yes
 			}
 			NOT = {

@@ -33,7 +33,10 @@ aoe_startup_events.1 = {
 			duration = 1825
 		}
 		change_law = standing_army_law
-			}
+		}
+		hidden_effect = {
+		ere_flavor_event_claim_effect = yes
+		}
 	}
 }
 
@@ -285,7 +288,7 @@ aoe_startup_events.6 = {
 						is_in_area = west_sicily_area
 					}
 				}
-				add_claim = root
+				add_claim = ERE
 			}
 		}
 	}
