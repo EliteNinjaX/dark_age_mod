@@ -81,7 +81,6 @@ aoe_startup_events.2 = {
 				days = 10
 			}
 			change_law = standing_army_law
-			perisa_flavor_event_claim_effect = yes
 		}
 		hidden_effect = {
 			perisa_flavor_event_claim_effect = yes

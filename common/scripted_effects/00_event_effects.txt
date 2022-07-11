@@ -6572,9 +6572,8 @@ perisa_flavor_1_region_claim_effect = {
 	}
 }
 perisa_flavor_event_claim_effect = {
-	region:greece_region = { perisa_flavor_1_region_claim_effect = yes }
-	region:thrace_region = { perisa_flavor_1_region_claim_effect = yes }
-	region:macedonia_region = { perisa_flavor_1_region_claim_effect = yes }
+	region:cappadocia_pontica_region = { perisa_flavor_1_region_claim_effect = yes }
+	region:bithynia_region = { perisa_flavor_1_region_claim_effect = yes }
 	region:syria_region = { perisa_flavor_1_region_claim_effect = yes }
 	region:asia_region = { perisa_flavor_1_region_claim_effect = yes }
 	region:cilicia_region = { perisa_flavor_1_region_claim_effect = yes }
@@ -6590,8 +6589,9 @@ perisa_flavor_event_claim_effect = {
 	region:albania_region = { perisa_flavor_1_region_claim_effect = yes }
 	region:colchis_region = { perisa_flavor_1_region_claim_effect = yes }
 	region:phrygia_region = { perisa_flavor_1_region_claim_effect = yes }
+#	area:ammon_area = { add_claim = ROOT }
 }
-ere_flavor_event_claim_effect = {
+ere_flavor_1_region_claim_effect = {
 	every_region_province = {
 		add_claim = ROOT
 	}
@@ -6602,6 +6602,8 @@ ere_flavor_event_claim_effect = {
 	region:mesopotamia_region = { ere_flavor_1_region_claim_effect = yes }
 	region:assyria_region = { ere_flavor_1_region_claim_effect = yes }
 	region:armenia_region = { ere_flavor_1_region_claim_effect = yes }
+	region:colchis_region = { ere_flavor_1_region_claim_effect = yes }
+	region:cyrenaica_region = { ere_flavor_1_region_claim_effect = yes }
 }
 fe_66_percent_food_var_effect = {
 	set_variable = {
