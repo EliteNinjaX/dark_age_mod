@@ -1,10 +1,10 @@
 ﻿l_english:
  ### Matter of Cuture
  ere_mission_01_matter_of_cutlure:0 "Cultural Matter"
- antigonid_01_vision_BUTTON_TOOLTIP:1 "With grit and shrewdness, [GetCharacter('(int32)37').GetPraenomen] has turned his meager satrapy of [GetProvince('(int32)1936').GetArea.GetRegion.GetName] into the most powerful Diadochi kingdom and founded a dynasty which is sure to rule for centuries."
- antigonid_01_vision_BUTTON_DETAILS:0 ""
- antigonid_01_vision_DESCRIPTION:1 "The glorious achievements of [GetCharacter('(int32)37').GetPraenomen] have put the other Successors to shame, and the state he has carved out of [GetCharacter('(int32)39').GetPraenomen]'s empire is set to become the most powerful Diadochi kingdom, dominating the Mediterranean."
- antigonid_01_vision_CRITERIA_DESCRIPTION:0 "Protect the legacy of [GetCharacter('(int32)37').GetPraenomen] and secure the [GetCountry('PRY').GetName]'s future as a hegemonic eastern power."
+ ere_mission_01_matter_of_cutlure_BUTTON_TOOLTIP:1 "With grit and shrewdness, [GetCharacter('(int32)37').GetPraenomen] has turned his meager satrapy of [GetProvince('(int32)1936').GetArea.GetRegion.GetName] into the most powerful Diadochi kingdom and founded a dynasty which is sure to rule for centuries."
+ ere_mission_01_matter_of_cutlure_BUTTON_DETAILS:0 ""
+ ere_mission_01_matter_of_cutlure_DESCRIPTION:1 "While we are the Roman Empire, it is indisputible that most of our subjects are Greeks and not Latins. Since the conquest of Greece, Greek culture has played a huge role in our nation. Still, we are on the path of fully embracing Greek culture, and many nobles are fear that we won't be able to maintan good Roman culture."
+ ere_mission_01_matter_of_cutlure_CRITERIA_DESCRIPTION:0 "Protect the legacy of Rome and secure the Eastern Empire future as a hegemonic power."
  antigonid_01_vision_REWARD_DESCRIPTION:0 "Prevention of the destruction of [GetCharacter('(int32)37').GetPraenomen]' legacy."
  antigonid_01_vision_abort_tt:0 "@[me_antigonids_scope.GetFlag]! [me_antigonids_scope.GetName|Y] has splintered upon the death of [GetCharacter('(int32)37').GetName|Y]."
  antigonid_01_vision_wavers_abort_tt:0 "The mission '#Y $antigonid_01_vision$#!' will be #R Aborted#!!"
