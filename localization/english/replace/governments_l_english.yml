@@ -123,7 +123,7 @@
  #
  SUCC_ELECTIVE_MONARCHY:0 "Elective Monarchy"
  #Mod
- roman_imperium:0 "Imperium"
- roman_imperium_desc:0 "An Imperator wields absolute power over the state, and usually holds sovereignty over lesser kings and nobles."
+ roman_imperium:0 "Dominate"
+ roman_imperium_desc:0 "The late Roman government. The Imperator wields absolute power over the state, and usually his power was regarded as having divine origin. The Senate has ceased to have real political and legislative authority but remaines as an honorary council with titular members, resembling an emergency or ceremonial meeting made up of powerful Nobles, friends and relatives of the Imperator. "
  roman_imperium_ruler:0 "Imperator"
  roman_imperium_consort:0 "Consort"

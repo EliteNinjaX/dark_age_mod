@@ -1,0 +1,27 @@
+namespace = on_his_neeks
+on_his_neeks.ere.1 = {
+	
+	type = country_event
+	title = "on_his_neeks.ere.t"
+	desc = "on_his_neeks.ere.desc"
+	picture = crucifixion
+	goto_location = root
+	trigger = {
+		tag = ERE
+		NOT = {
+			has_variable = ere_on_his_neeks_flag
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = ere_on_his_neeks_flag
+		}
+	}
+	
+	option = {
+		name = on_his_neeks.ere.a
+		custom_tooltip = on_his_neeks.ere.b
+		add_stability = -5
+	}
+}

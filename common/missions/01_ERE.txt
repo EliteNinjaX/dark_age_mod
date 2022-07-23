@@ -1,4 +1,4 @@
-﻿ere_mission_01_matter_of_cutlure = { #
+﻿ere_mission_01_matter_of_cutlure = {
 	icon = phrygia_2
 	header = mission_image_phrygia
 	
@@ -35,48 +35,48 @@
 	}
 
     on_start = {
-    	start_mission_ai_effect = yes
-    	save_scope_as = me_antigonids_scope
-    	show_as_tooltip = {
-    		add_country_modifier = {
-	            name = me_ant_1_cmod
-	            duration = 3650 # 10 years
-	        }
-    	}
-    	trigger_event = { id = me_antigonid_1_vision.1 }
+    #	start_mission_ai_effect = yes
+    #	save_scope_as = me_antigonids_scope
+    #	show_as_tooltip = {
+    #		add_country_modifier = {
+	#            name = me_ant_1_cmod
+	#           duration = 3650 # 10 years
+	#       }
+	#	}
+	# 	trigger_event = { id = me_antigonid_1_vision.1 }
     }
 
     on_abort = {
-    	custom_tooltip = ant_1_mission_cooldown_tt
-    	if = {
-	    	limit = { has_country_modifier = me_ant_1_cmod }
-    		remove_country_modifier = me_ant_1_cmod
-	    }
-		set_variable = {
-			name = ere_mission_01_matter_of_cutlure
-			days = 7300
-		}
-    }
+   # 	custom_tooltip = ant_1_mission_cooldown_tt
+   # 	if = {
+   #	    	limit = { has_country_modifier = me_ant_1_cmod }
+   # 		remove_country_modifier = me_ant_1_cmod
+   #    }
+   #	set_variable = {
+   #			name = ere_mission_01_matter_of_cutlure
+   #		days = 7300
+   #	}
+   }
 
     on_completion = {
-    	show_as_tooltip = {
-    		add_country_modifier = {
-    			name = me_ant_1_end_cmod
-    			duration = 7300 # 20 years
-    		}
-    	}
-    	complete_mission_effect = yes #
-    	trigger_event = { id = me_antigonid_1_vision.2 }
+    #	show_as_tooltip = {
+    #		add_country_modifier = {
+    #			name = me_ant_1_end_cmod
+    #			duration = 7300 # 20 years
+    #		}
+    #	}
+    #	complete_mission_effect = yes #
+    #	trigger_event = { id = me_antigonid_1_vision.2 }
     }
 	
-	eastern_capital = { # Eastern Capital
+	impero_perfetto = {
 		icon = task_economical
-		duration = 730
-		monthly_on_action = antigonid_01_vision_1_on_action
+		duration = 120
+	
 
 		allow = {
-			owns = 1453
-			treasury >= 250
+			NOT = { primary_culture = greek }
+			primary_culture = roman
 		}
 
 		highlight = {
@@ -93,7 +93,6 @@
 		}
 
 		on_completion = {
-			trigger_event = { id = me_antigonid_1_vision.12 }
 			show_as_tooltip = {
 				current_ruler = {
 					add_popularity = popularity_medium
@@ -102,14 +101,23 @@
 						add_trait = founder
 					}
 				}
+				
 				p:790 = {
-					add_province_modifier = {
-						name = ant_01_1_pmod
-						duration = -1
-					}
+					if = {
+							limit = {
+								any_pops_in_province = {
+									NOT = {
+										culture= greek
+									}
+								}
+							}
+							custom_tooltip = assimilate_15_tt
+								hidden_effect = {
+									set_pop_culture = greek
+								}
+							}
+						}
 				}
 			}
 		}
-	}
-	
 }
