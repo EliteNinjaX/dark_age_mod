@@ -54,7 +54,8 @@
  PROV1147:0 "Lugo" # Formerly Lougia
  #PROV1211:0 "Reccopolis" # Formerly Ocules. This is an approximate location.
  PROV1314:0 "Santarem" # Formerly Scallabis
- PROV1344:0 "Gades" # Formerly Gadir. Modern name of "Cadiz" comes after Arabic rule.
+ PROV1344:0 "Gades"
+ ## Formerly Gadir. Modern name of "Cadiz" comes after Arabic rule.
  #PROV1355:0 "Hispalis" # Game reflects name during this period. Modern name is Seville.
  PROV1400:0 "Merida" # Formerly Augusta Emerita
  # The important Spanish city of Madrid was founded under Arab rule 
