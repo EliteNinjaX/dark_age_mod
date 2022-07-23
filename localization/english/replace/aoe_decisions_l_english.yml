@@ -14,7 +14,10 @@
 
  embrace_chalcedonian:0 "Abandon Arian Christianity"
  embrace_chalcedonian_desc:0 "As we settle these new lands, our Arian faith is a source of tension with the people we rule. If we embrace the Christianity of our subjects we will increase our appeal but also anger those of us who wish to stay true to our roots."
-
+ embrace_arian:0 "Embrace Arian Christianity"
+ embrace_arian_desc:0 "A part of our people has converted to Arianism. The idea of only one god seems strange, but their ideas are becoming increasingly popular among our people. If we do not convert, our country might fall into religious turmoil."
+ embrace_chalcedonian_as_pagan:0 "Embrace Chalcedonian Christianity"
+ embrace_chalcedonian_as_pagan_desc:0 "A part of our people has converted to Chalcedonian. The idea of only one god seems strange, but this might just be the direction the world is going to."
  embrace_islam:0 "Embrace Islam"
  embrace_islam_desc:0 "A new faith has emerged among our people. By embracing it we have the potential to unite the Arab tribes and create a mighty empire."
 
