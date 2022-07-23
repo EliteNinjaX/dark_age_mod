@@ -3494,9 +3494,15 @@ country = {
 		LTG = {
 			government = tribal_chiefdom
 			primary_culture = lombards
-			religion = germanic_religion
-			centralization=-50
-
+			religion = arian
+			centralization=-80
+			
+			diplomatic_stance=warmongering_stance
+			
+			tribal_religious_law = syncretization_law_tribal
+			tribal_autonomy_laws = local_hierarchs
+			tribal_centralization_law = right_of_might_law_tribal
+			
 			capital = 3814
 
 			own_control_core = 	{

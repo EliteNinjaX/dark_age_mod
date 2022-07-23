@@ -43,7 +43,7 @@
 		Atropatid.Atropatid.Atropatids.Atropatid
 		Mithridatid.Mithridatid.Mithridatids.Mithridatid
 		Artiaxid.Artiaxid.Artiaxids.Artiaxid
-		Sassanid.Sassanid.Sassanids.Sassanid
+	#	Sassanid.Sassanid.Sassanids.Sassanid  #I don't want other Sassanids to pop up
 		Mihranid.Mihranid.Mihranids.Mihranid
 		Chosroid.Chosroid.Chosroids.Chosroid
 		Artashid.Artashid.Artashids.Artashid
