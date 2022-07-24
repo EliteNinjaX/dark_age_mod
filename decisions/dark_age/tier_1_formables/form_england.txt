@@ -65,17 +65,17 @@
 				change_country_tag = ENG
 				change_country_flag = k_england
 			}
-			if = {
-				limit = {
-					NOT = {
-						capital_scope = {
-							province_id = 2022
-						}
-					}
-				}
-				set_capital = 2022
-			}
-			p:2022 = {
+		#	if = {
+		#		limit = {
+		#			NOT = {
+		#				capital_scope = {
+		#					province_id = 2022
+		#				}
+		#			}
+		#		}
+		#		set_capital = 2022
+		#	}
+			capital_scope = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

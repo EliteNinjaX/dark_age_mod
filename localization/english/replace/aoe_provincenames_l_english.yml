@@ -100,8 +100,13 @@
  #
  # Britannia
  #
- PROV2095:0 "Cair Guorthigirn" #Cair refers to a town that was fortified according to Saint Bede and Gildas
- PROV2013:0 "Cair Guinntguic"  #There were 28 towns during this time that are referred as Cair according to Bebe
+ #Cair refers to a town that was fortified according to Saint Bede and Gildas
+ #There were 28 towns during this time that are referred as Cair according to Bebe
+ ### Update 2022
+ ### I think it's best to use more mordern/Anglo-Saxon names, as this was of the futrure. Besides Londinium. Perhaps latter I could add diffrent location based on cutlure?
+ ### If I change something without any coment, it is because I can't find anything the city, and I use both ck3/ and the internet to find names that make more sence.
+ PROV2095:0 "Cair Guorthigirn" 
+ PROV2013:0 "Winchester"  #Cair Guinntguic
  PROV2027:0 "Cair Mincip"
  PROV2083:0 "Cair Ligualid"
  PROV2046:0 "Cair Meguaid"
@@ -111,10 +116,10 @@
  PROV2098:0 "Cair Caratauc"
  PROV2051:0 "Cair Grauth"
  PROV2070:0 "Cair Maunguid"
- PROV2021:0 "Cair Ceint"
+ PROV2021:0 "Canterbury" #Cair Ceint
  PROV2023:0 "Ægelesthrep"
  PROV2049:0 "Cair Guiragon"
- PROV2014:0 "Cair Peris"
+ PROV2014:0 "Carisbrooke" #Cair Peris
  PROV2067:0 "Cair Daun"
  PROV2047:0 "Cair Legion"
  PROV2059:0 "Cair Guricon"
@@ -128,8 +133,8 @@
  PROV2007:0 "Cair Urnarc"
  PROV2016:0 "Cair Celemion"
  PROV2056:0 "Cair Luit Coyt"
- PROV2020:0 "Hastingas"
- PROV2019:0 "Portus Ladda"
+ PROV2020:0 "Dover" #Hastingas is a bit too small compaired to Dover
+ PROV2019:0 "Lewes" #Portus Ladda
  PROV2017:0 "Cissa"
  PROV2011:0 "Searoburh"
  PROV2010:0 "Blæge"
@@ -166,7 +171,7 @@
  PROV2045:0 "Northantone"
  PROV2043:0 "Buccingaham"
  PROV2018:0 "Suþrige"
- PROV2038:0 "Herutford"
+ PROV2038:0 "Rochester"
  PROV2042:0 "Lygea-Byrig"
  PROV2030:0 "Eastseaxe"
  PROV2029:0 "Gipeswic"
@@ -177,7 +182,7 @@
  PROV2035:0 "Suþfloc"
  PROV2037:0 "Llyn"
  PROV2052:0 "Godmundcestre"
- PROV2034:0 "Elge"
+ PROV2034:0 "Herutford" #Elge
  PROV2053:0 "Medyhæmstede"
  PROV2044:0 "Tofeceaster"
  PROV2055:0 "Hinckleáh"

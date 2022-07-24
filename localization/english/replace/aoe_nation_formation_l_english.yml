@@ -29,12 +29,13 @@
  #Italy
  formable_not_italy_exists:0 "#Y Italy#! must NOT exist."
  form_italy:0 "Form Italy"
- form_italyy_desc:0 "Italy is ripe for conquest. If we can unite the core of northern Italy, we can create a new kingdom of Italy."
+ form_italy_desc:0 "Italy is ripe for conquest. If we can unite the core of northern Italy, we can create a new kingdom of Italy."
  ITALY_NAME:0 "Italy"
  ITALY_ADJECTIVE:0 "Italian"
  ITY:0 "Italy"
  ITY_ADJ:0 "Italian"
  form_italy_claims_tooltip:0 "Italy will gain claims in all of Italia."
+ ITALY_CAPITAL_tooltip:0 "You must have a capital in Italy."
  #Pictland
  formable_not_pictland_exists:0 "#Y Pictland#! must NOT exist."
  PICTLAND_NAME:0 "Pictland"
