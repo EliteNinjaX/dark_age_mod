@@ -3,9 +3,6 @@
 		potential = {
 				tag = ERE
 				primary_culture_group = latin
-		}
-		allow = {
-			stability >= 15
 			NOT = {
 				has_variable = manintain_latin_passed
 			}
@@ -13,12 +10,15 @@
 				has_variable = embrace_greek_passed
 			}
 		}
+		allow = {
+			stability >= 15
+		}
 		effect = {
 			add_stability = -15
 			add_political_influence = -75
-			set_primary_culture = greek
-			set_variable = {
-				name = embrace_greek_passed
+			set_primary_culture_cleanup_effect = {
+				NEW_PRIMARY_CULTURE = greek
+				MAKE_OLD_CULTURE_INTEGRATED = yes
 			}
 		}		
 		ai_will_do = {
