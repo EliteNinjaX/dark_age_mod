@@ -69,7 +69,58 @@
     #	trigger_event = { id = me_antigonid_1_vision.2 }
     }
 	
-	impero_perfetto = {
+	its_all_greek_to_me = {
+		icon = task_economical
+		duration = 120
+	
+
+		allow = {
+			NOT = { primary_culture = greek }
+			primary_culture = roman
+		}
+
+		highlight = {
+			scope:province = { province_id = 1453 }
+		}
+
+		on_start = {
+			trigger_event = { id = me_antigonid_1_vision.11 }
+			set_variable = {
+				name = antigonid_01_vision_1_start
+				days = 730
+			}
+			show_as_tooltip = { add_treasury = -250 }
+		}
+
+		on_completion = {
+			show_as_tooltip = {
+				current_ruler = {
+					add_popularity = popularity_medium
+					if = {
+						limit = { number_of_traits <= 5 }
+						add_trait = founder
+					}
+				}
+				
+				p:790 = {
+					if = {
+							limit = {
+								any_pops_in_province = {
+									NOT = {
+										culture= greek
+									}
+								}
+							}
+							custom_tooltip = assimilate_15_tt
+								hidden_effect = {
+									set_pop_culture = greek
+								}
+							}
+						}
+				}
+			}
+		}
+		its_all_greek_to_me = {
 		icon = task_economical
 		duration = 120
 	

@@ -365,7 +365,7 @@
 }
 
 2018={ #Suþrige
-	terrain="marsh"
+	terrain="farmland"
 	culture="brittania"
 	religion="chalcedonian"
 	trade_goods="grain"
@@ -380,6 +380,9 @@
 	}
 	tribesmen={
 		amount=2
+	}
+	slaves={
+		amount=10
 	}
 }
 
@@ -450,19 +453,16 @@
 	province_rank="city"
 	nobles=
 	{
-		amount=3
+		amount=6
 	}
 	citizen={
-		amount=9
+		amount=5
 	}
 	freemen={
-		amount=8
-	}
-	tribesmen={
-		amount=7
+		amount=5
 	}
 	slaves={
-		amount=14
+		amount=4
 	}
 }
 
@@ -554,16 +554,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=3
 	}
 	freemen={
 		amount=2
 	}
 	slaves={
-		amount=2
-	}
-	tribesmen={
-		amount=3
+		amount=5
 	}
 }
 
@@ -577,20 +574,18 @@
 	province_rank="city"
 	nobles=
 	{
-		amount=2
+		amount=4
 	}
 	citizen={
-		amount=6
-	}
-	freemen={
-		amount=10
-	}
-	slaves={
-		amount=14
-	}
-	tribesmen={
 		amount=5
 	}
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+
 }
 
 2029={ #Gipeswic

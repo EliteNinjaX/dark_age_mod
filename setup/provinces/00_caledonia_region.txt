@@ -533,10 +533,10 @@
 }
 
 2163={ #Velaboria Australis
-	terrain="forest"
+	terrain="farmland"
 	culture="hibernian"
 	religion="chalcedonian"
-	trade_goods="base_metals"
+	trade_goods="grain"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
@@ -872,7 +872,7 @@
 	terrain="plains"
 	culture="hibernian"
 	religion="druidism"
-	trade_goods="wood"
+	trade_goods="horses"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
@@ -1146,10 +1146,10 @@
 }
 
 2198={ #Sliabh Lugha
-	terrain="plains"
+	terrain="farmland"
 	culture="hibernian"
 	religion="druidism"
-	trade_goods="horses"
+	trade_goods="grain"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
@@ -1226,10 +1226,10 @@
 }
 
 2203={ #Leitirceanainn
-	terrain="forest"
+	terrain="hills"
 	culture="hibernian"
 	religion="druidism"
-	trade_goods="fish"
+	trade_goods="marble"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"

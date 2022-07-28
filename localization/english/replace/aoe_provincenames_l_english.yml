@@ -249,7 +249,6 @@
  PROV2130:0 "Ywst"
  PROV2129:0 "Hærri"
  PROV2167:0 "Áth Truim"
- PROV2178:0 "Les Mór"
  PROV2177:0 "Dáirine"
  PROV2162:0 "Corcach"
  PROV2186:0 "Dún Garbhán"
@@ -259,13 +258,8 @@
  PROV2190:0 "Duibhlinn"
  PROV2161:0 "Iverni"
  PROV2195:0 "Dún Droma Dáirine"
- PROV2182:0 "Dún Eochair Maigue"
- PROV2183:0 "Fhidgeinte"
  PROV2166:0 "Ariu"
- PROV2183:0 "Inis Sibhtonn"
- PROV2180:0 "Sliabh Luachra"
  PROV2176:0 "Innisfallen"
- PROV2179:0 "An Cheallúnach"
  PROV2181:0 "Cromadh"
  PROV2187:0 "Éile"
  PROV2164:0 "Cill Chainnigh"
@@ -296,6 +290,14 @@
  PROV2194:0 "Cairbre"
  PROV2196:0 "Dairtre"
  PROV2201:0 "Breifne"
+ #Ireland
+ PROV2163:0 "Kilmallock"
+ PROV2179:0 "Luimneach"
+ PROV2183:0 "Ennis"
+ PROV2180:0 "Sliabh Luachra"
+ PROV2182:0 "Uí Fidgenti"
+ PROV2178:0 "Lios Mór"
+ #PROV2183:0 
  #Cyprus
  PROV331:0 "Salamis Constantia"
  #Thrace

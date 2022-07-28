@@ -65,6 +65,7 @@ STR = "setup/countries/britain/strathelyde.txt"
 SUS = "setup/countries/britain/sussex.txt"
 ULA = "setup/countries/britain/ulaid.txt"
 WES = "setup/countries/britain/wessex.txt"
+ESX = "setup/countries/britain/essex.txt"
 
 #INDIA
 ALC = "setup/countries/india/alchonhunxionites.txt"

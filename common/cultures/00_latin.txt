@@ -976,7 +976,7 @@
 		#New Shit
 		hispania = {}
 		gaul = {}
-		brittania = {}
+		brittania = { levy_template = levy_roman_british }
 		africa = {}	
 		illyria = {}
 		sardonian = {}

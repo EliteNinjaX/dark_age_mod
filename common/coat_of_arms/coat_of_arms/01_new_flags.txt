@@ -12,3 +12,11 @@ BRA = {
 		texture = "BRA.png"
 	}
 }
+###Ireland
+MUN = {
+#	color1 = green
+#	color2 = green
+	textured_emblem = {
+		texture = "MUN.png"
+	}
+}

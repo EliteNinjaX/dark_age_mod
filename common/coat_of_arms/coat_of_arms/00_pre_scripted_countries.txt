@@ -3194,29 +3194,6 @@ FRA_FLAG = {
 		instance = { position = { 0.5 0.66 } scale = { 0.45 0.45 }  }
 	}
 }
-k_england = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
-	colored_emblem = {
-		texture = "ce_dragon.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
-	}
-}
-ALBION_TEMP_FLAG = {
-	pattern = "pattern_solid.tga"
-	color1 = "roman_red"
-	color2 = "roman_gold"
-
-	colored_emblem = {
-		texture = "ce_bow_01.dds"
-		color1 = "roman_red"
-		color2= "roman_gold"
-		instance = { scale = { 0.9 0.9 }  }
-	}
-}
 k_denmark = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -3255,3 +3232,46 @@ k_denmark = {
 		instance = { position = { 0.5 0.67 } scale = { 0.83 0.81 }  }
 	}
 }
+###British Isles
+k_england = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_dragon.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+ALBION_TEMP_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_red"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_bow_01.dds"
+		color1 = "roman_red"
+		color2= "roman_gold"
+		instance = { scale = { 0.9 0.9 }  }
+	}
+}
+LON = {
+	pattern = "pattern_solid.tga"
+	color1 = "athens_blue"
+	color2 = "sun_yellow"
+
+	colored_emblem = {
+		texture = "ce_hellenic_2.dds"
+		color1 = "light_green"
+		instance = { scale = { 1.2 1.2 }  }
+	}
+
+#	colored_emblem = {
+#		texture = "ce_argead_empire.dds"
+#		color1 = "sun_yellow"
+#		instance = { scale = { 0.6 0.6 }  }
+#	}
+}
+###Ireland
+

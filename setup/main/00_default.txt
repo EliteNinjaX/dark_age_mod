@@ -307,6 +307,12 @@ provinces = {
 	345 = {
 		port_building = 1
 	}
+	2022 = {
+		port_building = 1
+	}
+	2162 = {
+		port_building = 1
+	}
 	354 = {
 		port_building = 1
 	}
@@ -795,9 +801,6 @@ provinces = {
 		fortress_building = 1
 	}
 	#Ireland
-	2161 = {
-		fortress_building = 1
-	}
 	2162 = {
 		workshop_building = 1
 		commerce_building = 1
@@ -2977,15 +2980,15 @@ country = {
 			capital = 2170
 
 			own_control_core = 	{
-			2170 2205 2172
+			2170 2205 2172 2173 2208 2195
 			}
 		}
 
 		CON = {
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = hibernian
 			religion = chalcedonian
-			centralization=50
+			centralization=70
 
 			capital = 2197
 
@@ -2996,10 +2999,10 @@ country = {
 
 		MUN = {
 			family = 11
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = hibernian
 			religion = chalcedonian
-
+			centralization=75
 			capital = 2162
 
 			own_control_core = 	{
@@ -3037,10 +3040,10 @@ country = {
 			religion = druidism
 			centralization=50
 
-			capital = 2195
+			capital = 2203
 
 			own_control_core = 	{
-				2195 2208 2173 2207 2174 2203 2204 2175 2171 2202 2206
+			 2207 2174 2203 2204 2175 2171 2202 2206
 			}
 		}	
 
@@ -3080,12 +3083,25 @@ country = {
 			own_control_core = 	{
 				2039 2041 2049 2061 2025 2026 2043 2045 2015 2016
 			}
-		}		
+		}
+			
+		LON = {
+			government = despotic_monarchy
+			primary_culture = brittania
+			religion = chalcedonian
+			
+
+			capital = 2022
+
+			own_control_core = 	{
+			 2027 2018 2022
+			}
+		}
  		
 #Germanic Britain
 
 		LIN = {
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
 
@@ -3097,40 +3113,38 @@ country = {
 		}
 
 		SUS = {
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
 			centralization=50
 			capital = 2020
 
 			own_control_core = 	{
-				2020 2019
+				2020 2019 2042
 			}
 		}
-
-		
-		LON = {
-			government = despotic_monarchy
-			primary_culture = brittania
-			religion = chalcedonian
-			
-
-			capital = 2022
+		ESX = {
+			government = tribal_federation
+			primary_culture = anglosaxon
+			religion = germanic_religion
+			centralization=50
+			capital = 2030
 
 			own_control_core = 	{
-				2028 2029 2034 2036 2038 2042 2027 2018 2022 2051
+				2028 2029 2030
 			}
 		}
 
 		EAN = {
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
 
 			capital = 2032
 
 			own_control_core = 	{
-				2031 2032 2033 2035 2037 2052 2030
+				2031 2032 2033 2035 2037 2052
+				2036 2034 2051
 			}
 		}
 
@@ -3303,7 +3317,7 @@ country = {
 			capital = 2023
 
 			own_control_core = 	{
-				2023 2021
+				2023 2021 2038
 			}
 		}
 		
@@ -3376,6 +3390,17 @@ country = {
 
 			own_control_core = 	{
 				2120 2131 2122 2121 2129 2130 2128 2119 2118 2127 2126 2117 6311 7739 2132
+			}
+		}
+		MAN = {
+			government = tribal_kingdom
+			primary_culture = manavian
+			religion = druidism
+			centralization=25
+			capital = 2108
+
+			own_control_core = 	{
+				2108
 			}
 		}
 		#GAUL
