@@ -709,15 +709,21 @@
 }
 
 2174={ #Doire Calgach
-	terrain="marsh"
+	terrain="farmland"
 	culture="hibernian"
 	religion="druidism"
-	trade_goods="fish"
+	trade_goods="marble"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"
+	nobles={
+		amount=1
+	}
 	citizen={
 		amount=2
+	}
+	slaves={
+		amount=1
 	}
 	tribesmen={
 		amount=4
@@ -1226,10 +1232,10 @@
 }
 
 2203={ #Leitirceanainn
-	terrain="hills"
+	terrain="forest"
 	culture="hibernian"
 	religion="druidism"
-	trade_goods="marble"
+	trade_goods="vegetables"
 	civilization_value=20
 	barbarian_power=0
 	province_rank="settlement"

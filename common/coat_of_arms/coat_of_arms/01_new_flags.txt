@@ -12,6 +12,15 @@ BRA = {
 		texture = "BRA.png"
 	}
 }
+MCA = {
+	pattern = "pattern_solid.dds"
+	color1 = blue
+	color2 = yellow
+	colored_emblem = {
+		texture = "ce_ordinary_saltire_5.dds"
+		color1 = "yellow"
+	}
+}
 ###Ireland
 MUN = {
 #	color1 = green

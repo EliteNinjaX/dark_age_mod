@@ -1,0 +1,18 @@
+test.29 = {
+	type = country_event
+	title = "exterminatus"
+	desc = "grim_darkness"
+	
+	option = {
+		name = "what_have_i_done"
+		every_owned_province = {
+			is_culture = greek
+			every_pops_in_province = {
+				kill_pop = yes
+			}
+		create_state_pop = freemen
+		create_state_pop = freemen
+		create_state_pop = freemen
+		}
+	}
+}

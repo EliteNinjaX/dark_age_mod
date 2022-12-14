@@ -3040,7 +3040,7 @@ country = {
 			religion = druidism
 			centralization=50
 
-			capital = 2203
+			capital = 2174
 
 			own_control_core = 	{
 			 2207 2174 2203 2204 2175 2171 2202 2206
