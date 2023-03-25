@@ -1,5 +1,5 @@
 ﻿#color = rgb { 51 200 12 }
-color = { 200 30 0 }
+color = { 0 76 153 }
 color2 = { 255 255 255 }
 
 ship_names = {

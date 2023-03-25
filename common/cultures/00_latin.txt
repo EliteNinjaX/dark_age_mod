@@ -973,7 +973,7 @@
 		siculian = {}
 		bruttian = {}
 		lucanian = {}
-		#New Shit
+		#Roman sub-cultures
 		hispania = {}
 		gaul = {}
 		brittania = { levy_template = levy_roman_british }

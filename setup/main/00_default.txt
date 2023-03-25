@@ -3049,17 +3049,7 @@ country = {
 
 #BRITAIN
 
-		WES = {
-			government = despotic_monarchy
-			primary_culture = anglosaxon
-			religion = germanic_religion
-
-			capital = 2007
-
-			own_control_core = 	{
-				2007 2010 2013 2014 2011 2017
-			}
-		}
+	#Latin Britain
 		
 		DUM = {
 			government = despotic_monarchy
@@ -3097,13 +3087,38 @@ country = {
 			 2027 2018 2022
 			}
 		}
+		
+		CRN = {
+			government = despotic_monarchy
+			primary_culture = brittania
+			religion = chalcedonian
+
+			capital = 2002
+
+			own_control_core = 	{
+				2000 2001 2002 2003 2004
+			}
+		}
+
+		LUI = {
+			government = despotic_monarchy
+			primary_culture = brittania
+			religion = druidism
+
+			capital = 5433
+
+			own_control_core = 	{
+				2065 5433 2066 2064 2056
+			}
+		}
  		
-#Germanic Britain
+	#Germanic Britain
 
 		LIN = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			centralization=50
 
 			capital = 3057
 
@@ -3128,6 +3143,7 @@ country = {
 			primary_culture = anglosaxon
 			religion = germanic_religion
 			centralization=50
+			
 			capital = 2030
 
 			own_control_core = 	{
@@ -3139,6 +3155,7 @@ country = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			centralization=50
 
 			capital = 2032
 
@@ -3147,14 +3164,68 @@ country = {
 				2036 2034 2051
 			}
 		}
+		
+		KEN = {
+			government = tribal_federation
+			primary_culture = anglosaxon
+			religion = germanic_religion
+			centralization=50
 
-#Midlands
+			capital = 2023
+
+			own_control_core = 	{
+				2023 2021 2038
+			}
+		}
+		
+		MCA = {
+			government = tribal_federation
+			primary_culture = anglosaxon
+			religion = germanic_religion
+			centralization=50
+
+			capital = 2054
+
+			own_control_core = 	{
+				2055 2054 2044 2053 2062
+			}
+		}
+		
+		WES = {
+			government = tribal_federation
+			primary_culture = anglosaxon
+			religion = germanic_religion
+			centralization=50
+
+			capital = 2007
+
+			own_control_core = 	{
+				2007 2010 2013 2014 2011 2017
+			}
+		}
+
+	#Celtic Britain
+	
+		BRY = {
+			government = tribal_kingdom
+			primary_culture = briton
+			religion = druidism
+			centralization=25
+
+			capital = 2085
+
+			own_control_core = 	{
+				2087 2085
+			}
+		}
+		
+		#Midlands
 
 		EBR = {
 			government = tribal_kingdom
 			primary_culture = briton
 			religion = druidism
-			centralization=50
+			centralization=25
 
 			capital = 2076
 
@@ -3176,7 +3247,7 @@ country = {
 			}
 		}
 		
-#Picts
+		#Picts
 
 		BER = {
 			government = tribal_kingdom
@@ -3230,13 +3301,13 @@ country = {
 			}
 		}
 		
-#Wales
+		#Wales
 
 		GWE = {
 			government = tribal_kingdom
 			primary_culture = briton
 			religion = chalcedonian
-			centralization=50
+			centralization=25
 
 			capital = 2040
 
@@ -3249,7 +3320,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = briton
 			religion = chalcedonian
-			centralization=50
+			centralization=25
 
 			capital = 2095
 
@@ -3262,7 +3333,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = briton
 			religion = chalcedonian
-			centralization=50
+			centralization=25
 
 			capital = 2103
 
@@ -3275,7 +3346,7 @@ country = {
 			government = tribal_kingdom
 			primary_culture = briton
 			religion = chalcedonian
-			centralization=50
+			centralization=25
 
 			capital = 2106
 
@@ -3288,72 +3359,12 @@ country = {
 			government = tribal_kingdom
 			primary_culture = briton
 			religion = chalcedonian
-			centralization=50
+			centralization=25
 
 			capital = 2102
 
 			own_control_core = 	{
 				2107 2102 2101 2050 2048 2060 2059 2046 2100
-			}
-		}
-		
-		CRN = {
-			government = despotic_monarchy
-			primary_culture = brittania
-			religion = chalcedonian
-
-			capital = 2002
-
-			own_control_core = 	{
-				2000 2001 2002 2003 2004
-			}
-		}
-
-		KEN = {
-			government = despotic_monarchy
-			primary_culture = anglosaxon
-			religion = germanic_religion
-
-			capital = 2023
-
-			own_control_core = 	{
-				2023 2021 2038
-			}
-		}
-		
-		MCA = {
-			government = despotic_monarchy
-			primary_culture = anglosaxon
-			religion = germanic_religion
-
-			capital = 2054
-
-			own_control_core = 	{
-				2055 2054 2044 2053 2062
-			}
-		}
-
-		LUI = {
-			government = despotic_monarchy
-			primary_culture = brittania
-			religion = druidism
-
-			capital = 5433
-
-			own_control_core = 	{
-				2065 5433 2066 2064 2056
-			}
-		}
-		
-		BRY = {
-			government = despotic_monarchy
-			primary_culture = briton
-			religion = druidism
-
-			capital = 2085
-
-			own_control_core = 	{
-				2087 2085
 			}
 		}
 		
@@ -3396,14 +3407,14 @@ country = {
 			government = tribal_kingdom
 			primary_culture = manavian
 			religion = druidism
-			centralization=25
+			centralization=0
 			capital = 2108
 
 			own_control_core = 	{
 				2108
 			}
 		}
-		#GAUL
+#GAUL
 
 		BRI = {
 			government = tribal_kingdom

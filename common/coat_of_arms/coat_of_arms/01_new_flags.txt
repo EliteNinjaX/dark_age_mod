@@ -13,12 +13,15 @@ BRA = {
 	}
 }
 MCA = {
-	pattern = "pattern_solid.dds"
-	color1 = blue
-	color2 = yellow
+	pattern = "pattern_solid.tga"
+	color1 = "athens_blue"
+	color2 = "sun_yellow"
+	
 	colored_emblem = {
 		texture = "ce_ordinary_saltire_5.dds"
-		color1 = "yellow"
+		color1 = "sun_yellow"
+		color2= "roman_gold"
+		instance = { scale = { 1 1 }  }
 	}
 }
 ###Ireland

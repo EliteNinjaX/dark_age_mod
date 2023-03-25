@@ -137,7 +137,7 @@ visigoth_heritage = {
 	}
 }
 
-test1_heritage = {
+munster_heritage = {
 	modifier = {
 		#good
 		global_pop_conversion_speed_modifier = 0.25
@@ -149,6 +149,22 @@ test1_heritage = {
 	
 	trigger = {
 		tag = MUN
+	}
+}
+
+irish_heritage = {
+	modifier = {
+		#good
+		global_pop_conversion_speed_modifier = 0.25
+		global_commerce_modifier = 0.1
+		
+		#bad
+		increase_legitimacy_cost_modifier = 0.15
+	}
+	
+	trigger = {
+		primary_culture = hibernian
+		NOT = { tag = MUN }
 	}
 }
 
@@ -221,7 +237,7 @@ slavic_heritage = {
 	}
 }
 
-LON_heritage = {
+britannian_heritage = {
 	modifier = {
 		#good
 		build_cost = -0.1
@@ -232,17 +248,11 @@ LON_heritage = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = LON
-			tag = CEL
-			tag = DUM
-			tag = CRN
-			tag = LUI
-		}
+		primary_culture = brittania
 	}
 }
 
-SAX_heritage = {
+saxon_heritage = {
 	modifier = {
 		#good
 		recruit_mercenary_cost_modifier = -0.05
@@ -253,15 +263,22 @@ SAX_heritage = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = CHC
-			tag = KEN
-			tag = WES
-			tag = MCA
-			tag = LIN
-			tag = EAN
-			tag = SUS
-		}
+		primary_culture = saxonian
+	}
+}
+
+anglo-saxon_heritage = {
+	modifier = {
+		#good
+		global_pop_assimilation_speed_modifier = 0.15
+		build_cost = -0.1
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		primary_culture = anglosaxon
 	}
 }
 
