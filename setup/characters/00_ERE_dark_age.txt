@@ -346,7 +346,6 @@
 		first_name="Georgie"
 		family = "Pangolin"
 		nickname="'Dislikes Christianity'"
-	#	family = c:ERE.fam:Justinian
 		birth_date=480.5.5
 		culture="egyptian"
 		religion="egyptian_pantheon"

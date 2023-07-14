@@ -1,0 +1,27 @@
+﻿namespace = londinium_events
+	londinium_events.1 = {
+	
+	type = country_event
+	title = "londinium_events.1.t"
+	desc = "londinium_events.1.desc"
+	picture = looting  
+	goto_location = root
+	trigger = {
+		tag = LON
+		
+		NOT = {
+			has_variable = londinium_startup
+		}
+	}
+	
+	immediate = {
+		set_variable = {    
+			name = londinium_startup
+		}
+	}
+	
+	option = {
+		name = londinium_events.1.a
+	}
+
+}

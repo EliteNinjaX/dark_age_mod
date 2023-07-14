@@ -1,7 +1,7 @@
 family={
 	families={
 		#Numbers do not have to appear in numerical order but do have to be unique:
-		#Current first free ID 11.
+		#Current first free ID 13.
 		#Eastern Roman Families on Start:
 		0={
 			key="Justinian"
@@ -89,8 +89,17 @@ family={
 			prestige=300
 			color = 0
 		}
+		#LON
+		12={
+			key="Aurelianus"
+			owner=LON
+			culture = brittania
+			prestige=300
+			color = 0
 		}
-		}
+	}
+}
+		
 diplomacy = {
 
 	dependency = { first = ERE second = LAZ subject_type = client_state }
@@ -3076,6 +3085,7 @@ country = {
 		}
 			
 		LON = {
+			family = 12
 			government = despotic_monarchy
 			primary_culture = brittania
 			religion = chalcedonian
