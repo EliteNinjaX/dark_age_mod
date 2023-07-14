@@ -1,0 +1,25 @@
+﻿"LON"={
+	country="LON"
+	72={
+		first_name="Ambrosius"
+		family = c:LON.fam:Aurelianus
+		birth_date=456.5.5
+		culture="brittania"
+		religion="chalcedonian"
+		add_martial=12
+		add_charisma=12
+		add_finesse=6
+		add_zeal=6
+		no_stats=yes
+		no_traits=yes
+		add_trait="brave"
+		add_trait="confident"
+		add_trait="ambitious"
+		add_gold=200
+		add_popularity=100
+		dna="OMw4zKp9qn31lfWVAm0CbQKSApICagJqAm4CbgJmAmYCkgKSAnACcAJyAnICfQJ9AnsCewJ0AnQCkQKRBNwE3AKUApQCkAKQA50DnQKIAogCggKCAokCiQKUApQClQKVA5UDlQJ1AnUCegJ6AokCiQKKAooCiwKLA50DnQOkA6QClQKVAo8CjwKJAokChwKHAWABYAKHAocCcwJzApkCmQJpAmkDrwOvAnECcQKSApIBWgFaAnACcAJmAmYChgKGAosCiwJuAm4DogOiAUwBTAKWApYClAKUApYClgJnAmcCfAJ8AmYCZgJeAl4ArQCtATQBNABcAFwBVAFUAK4ArgCJAIkAqgCqABsAGwCwALABNQE1AKAAoAB/AH8BKQEpALEAsQAkACQACAAIAFMAUwBuAG4AgACAAQ0BDQB/AH8C8ALwAH0AfQLZAtkCqAKoAREBEQMlAyUAMwAzBMEEwQAiACIATABMAXYBdgDoAOgC3gLeAH8AfwDzAPMBTQFNAFwAXAl2CXYBIQEhAMYAxgAAAAAAAAAAAAAAAA=="
+		c:LON={
+			set_as_ruler=char:72
+		}
+	}
+}
