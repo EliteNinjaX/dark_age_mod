@@ -118,16 +118,6 @@ aoe_startup_events.3 = {
 		custom_tooltip = aoe_startup_events.3.b
 		custom_tooltip = aoe_startup_events.3.c
 		hidden_effect = {
-			#every_province = {
-			#	limit = {
-			#		dominant_province_culture = franks
-			#		NOT = { 
-			#			owned_or_subject_owned = ROOT
-			#		}
-			#		exists = owner
-			#}
-			#	add_claim = ROOT
-			#}
 			frank_flavor_event_claim_effect = yes
 		}
 	}
