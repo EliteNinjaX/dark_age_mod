@@ -6,6 +6,7 @@
 	desc = "londinium_events.1.desc"
 	picture = looting  
 	goto_location = root
+	left_portrait = current_ruler
 	trigger = {
 		tag = LON
 		
