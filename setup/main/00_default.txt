@@ -943,8 +943,7 @@ road_network = {
 	4983 = 3382 #Baaka
 	3382 = 3394 #Tarkhan
 	3394 = 4991 #Rhagai
-	4991 = 4992 #Portae
-	4992 = 4993 #Apameia
+	4991 = 4993 #Rey to Khuvar
 	4993 = 4994 #Semnon
 	4994 = 4998 #Shirga
 	4998 = 4997 #Sedracarta
@@ -1016,51 +1015,6 @@ road_network = {
 	879 = 844 #Antiocha Arabis
 	844 = 855 #Siphrios
 	855 = 871 #Marde (joins together with other route).
-	
-	#Syrian route
-	790 = 791 # Antiocha - Darkus
-	791 = 787 #Lysias
-	787 = 782 #Apamea
-	782 = 781 #Larissa
-	781 = 777 #Amathe
-	777 = 774 #Hemesa
-	774 = 772 #Laodicea
-	772 = 761 #Triparadeisos
-	761 = 762 #Conna
-	762 = 763 #Heliopolis
-	763 = 765 #Berothe
-	765 = 752 #Gerra
-	752 = 751 #Chalybdon
-	751 = 750 #Damascus
-	750 = 753 #Segeira
-	753 = 740 #Dan
-	740 = 742 #Kadassa
-	742 = 745 #Gelil
-	745 = 743 #Tyrus
-	743 = 744 #Hammon
-	744 = 670 #Ake-Ptolemais
-	670 = 666 #Sykamina
-	666 = 668 #Boukolonpolis
-	668 = 667 #Dora
-	667 = 665 #Stratanos Pyrgos
-	665 = 664 #Appolonia
-	664 = 663 #Ioppe
-	663 = 662 #Iamneia
-	662 = 661 #Ahsdod
-	661 = 660 #Asqelon
-	660 = 659 #Gaza
-	659 = 658 #Raphia
-	658 = 657 #Bitylion
-	657 = 656 #Rinokoloura
-	656 = 535 #Ostrakine
-	535 = 509 #Pelusium
-	509 = 525 # Sile
-	525 = 511 #Phakoussai
-	511 = 503 #Bubastis
-	503 = 507 #Leontopolis
-	507 = 501 #Heliopolis
-	501 = 536 #Babylon (Egypt)
-	536 = 500 #Memphis
 	
 	#Euphrat route
 	793 = 798 #Gindaros - Beroia
@@ -1579,6 +1533,57 @@ road_network = {
 	3542 = 3522
 	3522 = 3529
 
+#Roman Roads Syria
+	769 = 771
+	771 = 779
+	779 = 8011
+	8011 = 772
+	765 = 751 
+	765 = 749
+	749 = 748
+	#Syrian route
+	790 = 791 # Antiocha - Darkus
+	791 = 787 #Lysias
+	787 = 782 #Apamea
+	782 = 781 #Larissa
+	781 = 777 #Amathe
+	777 = 774 #Hemesa
+	774 = 772 #Laodicea
+	772 = 761 #Triparadeisos
+	761 = 762 #Conna
+	762 = 763 #Heliopolis
+	763 = 765 #Berothe
+	751 = 750 #Damascus
+	750 = 753 #Segeira
+	753 = 740 #Dan
+	740 = 742 #Kadassa
+	742 = 745 #Gelil
+	745 = 743 #Tyrus
+	743 = 744 #Hammon
+	744 = 670 #Ake-Ptolemais
+	670 = 666 #Sykamina
+	666 = 668 #Boukolonpolis
+	668 = 667 #Dora
+	667 = 665 #Stratanos Pyrgos
+	665 = 664 #Appolonia
+	664 = 663 #Ioppe
+	663 = 662 #Iamneia
+	662 = 661 #Ahsdod
+	661 = 660 #Asqelon
+	660 = 659 #Gaza
+	659 = 658 #Raphia
+	658 = 657 #Bitylion
+	657 = 656 #Rinokoloura
+	656 = 535 #Ostrakine
+	535 = 509 #Pelusium
+	509 = 525 # Sile
+	525 = 511 #Phakoussai
+	511 = 503 #Bubastis
+	503 = 507 #Leontopolis
+	507 = 501 #Heliopolis
+	501 = 536 #Babylon (Egypt)
+	536 = 500 #Memphis
+
 #Roman Roads East
 	658 = 696
 	696 = 698
@@ -1861,6 +1866,8 @@ road_network = {
 	4074 = 4073
 	4073 = 4041
 	4041 = 4038
+	4038 = 4039
+	4039 = 4028
 	4028 = 4027
 	4027 = 4024
 	4024 = 4026
@@ -1932,8 +1939,6 @@ road_network = {
 	468 = 426
 	426 = 406
 	406 = 402
-	#402 = 7896
-	#7896 = 399
 	399 = 398
 	398 = 390
 	390 = 392
@@ -1969,6 +1974,7 @@ road_network = {
 	384 = 379
 	379 = 428
 	4099 = 4100
+	4099 = 4095
 	4100 = 4119
 	4119 = 4120
 	4120 = 4206
@@ -2466,24 +2472,32 @@ road_network = {
 	525 = 509
 	519 = 520
 	520 = 521
-	7689 = 534
+	528 = 519
+	528 = 527
+	504 = 528
+	504 = 534
 	534 = 508
+	534 = 7689
 	508 = 510
 	510 = 7688
 	7688 = 509
 	
 	#Roman Roads - Crete
 	368 = 370
-	370 = 372
+	370 = 8016
+	8016 = 372
 	372 = 361
-	361 = 355
+	361 = 8018
+	8018 = 358
+	8018 = 355
 	
 	#Roman Roads - Cyprus
+	6431 = 334
+	334 = 7990
+	7990 = 338
 	338 = 332
 	332 = 331
-	338 = 6431
-	6431 = 334
-	334 = 338
+
 }		
 
 country = {
@@ -3107,10 +3121,17 @@ country = {
 			
 		LON = {
 			family = 12
-			government = despotic_monarchy
+			government = stratocratic_monarchy
 			primary_culture = brittania
 			religion = chalcedonian
+			monarchy_military_reforms = work_for_the_best
 			
+			poptype_rights = { 
+				{
+					culture = briton 
+					type = citizen
+				}
+			}
 
 			capital = 2022
 
@@ -3149,6 +3170,7 @@ country = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			diplomatic_stance=warmongering_stance
 			centralization=50
 
 			capital = 3057
@@ -3162,6 +3184,7 @@ country = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			diplomatic_stance=warmongering_stance
 			centralization=50
 			capital = 2020
 
@@ -3173,6 +3196,7 @@ country = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			diplomatic_stance=warmongering_stance
 			centralization=50
 			
 			capital = 2030
@@ -3186,6 +3210,7 @@ country = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			diplomatic_stance=warmongering_stance
 			centralization=50
 
 			capital = 2032
@@ -3200,6 +3225,7 @@ country = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			diplomatic_stance=warmongering_stance
 			centralization=50
 
 			capital = 2023
@@ -3213,6 +3239,7 @@ country = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			diplomatic_stance=warmongering_stance
 			centralization=50
 
 			capital = 2054
@@ -3226,6 +3253,7 @@ country = {
 			government = tribal_federation
 			primary_culture = anglosaxon
 			religion = germanic_religion
+			diplomatic_stance=warmongering_stance
 			centralization=50
 
 			capital = 2007

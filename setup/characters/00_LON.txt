@@ -15,6 +15,7 @@
 		add_trait="brave"
 		add_trait="confident"
 		add_trait="ambitious"
+		add_trait="ambrosius"
 		add_gold=200
 		add_popularity=100
 		dna="OMw4zKp9qn31lfWVAm0CbQKSApICagJqAm4CbgJmAmYCkgKSAnACcAJyAnICfQJ9AnsCewJ0AnQCkQKRBNwE3AKUApQCkAKQA50DnQKIAogCggKCAokCiQKUApQClQKVA5UDlQJ1AnUCegJ6AokCiQKKAooCiwKLA50DnQOkA6QClQKVAo8CjwKJAokChwKHAWABYAKHAocCcwJzApkCmQJpAmkDrwOvAnECcQKSApIBWgFaAnACcAJmAmYChgKGAosCiwJuAm4DogOiAUwBTAKWApYClAKUApYClgJnAmcCfAJ8AmYCZgJeAl4ArQCtATQBNABcAFwBVAFUAK4ArgCJAIkAqgCqABsAGwCwALABNQE1AKAAoAB/AH8BKQEpALEAsQAkACQACAAIAFMAUwBuAG4AgACAAQ0BDQB/AH8C8ALwAH0AfQLZAtkCqAKoAREBEQMlAyUAMwAzBMEEwQAiACIATABMAXYBdgDoAOgC3gLeAH8AfwDzAPMBTQFNAFwAXAl2CXYBIQEhAMYAxgAAAAAAAAAAAAAAAA=="
@@ -23,11 +24,33 @@
 		}
 	}
 	73={
-		first_name="Uther"
+		first_name="Caninus"
 		family = c:LON.fam:Aurelianus
-		birth_date=467.10.16
+		birth_date=477.7.2
 		culture="brittania"
 		religion="chalcedonian"
+		father="char:72"
+		add_martial=4
+		add_charisma=3
+		add_finesse=5
+		add_zeal=1
+		no_stats=yes
+		no_traits=yes
+		add_trait="cruel"
+		add_trait="lustful"
+		add_trait="submissive"
+		add_trait="ambrosius"
+		add_gold=200
+		add_popularity=10
+		dna="Q+FD4atdq13Kt8q3ABwAHAJ9An0CdwJ3A68DrwJ4AngCggKCAmwCbAKBAoECigKKAn0CfQKQApADqAOoAoYChgJ9An0CbAJsAnICcgBJAEkCggKCAoYChgJxAnECgwKDAWMBYwKPAo8CgwKDAo4CjgKNAo0CZwJnAo8CjwFQAVACfgJ+An8CfwFRAVEChgKGAokCiQKXApcCjQKNAokCiQKYApgCegJ6AV4BXgJoAmgChQKFAm4CbgTZBNkCkgKSAmwCbAKGAoYCdgJ2A6MDowJoAmgCgQKBA6EDoQKJAokClAKUAncCdwLhAuEAhwCHARwBHAEIAQgCigKKAFsAWwK7ArsA6wDrAGwAbAKsAqwANQA1ABYAFgB/AH8CpAKkARQBFALGAsYAAwADAHkAeQF9AX0A6QDpAPMA8wB/AH8A9gD2AL8AvwKdAp0BMgEyAEkASQMVAxUBJQElAy0DLQE6AToA+QD5AQ0BDQK7ArsCuQK5AH8AfwGzAbMBNwE3AIMAgwmWCZYBmQGZAD8APwAAAAAAAAAAAAAAAA=="
+	}
+	74={
+		first_name="Uther"
+		family = c:LON.fam:Aurelianus
+		birth_date=497.10.16
+		culture="brittania"
+		religion="chalcedonian"
+		father="char:73"
 		add_martial=9
 		add_charisma=4
 		add_finesse=8
@@ -35,16 +58,18 @@
 		no_stats=yes
 		no_traits=yes
 		add_trait="confident"
+		add_trait="ambrosius"
 		add_gold=50
 		add_popularity=50
 		dna="cuBy4J9rn2vX6dfpAm4CbgKNAo0CbAJsAoACgAJ+An4ChQKFA6sDqwOxA7ECkgKSApECkQJ9An0CiQKJAo8CjwKWApYCiwKLAnYCdgKOAo4ClAKUAooCigJ4AngCdAJ0AooCigJqAmoCkAKQAm0CbQKCAoIDpAOkAo0CjQKAAoACmAKYAWUBZQJ1AnUCgwKDAWIBYgKJAokCjgKOAokCiQJnAmcCaQJpAncCdwKXApcClwKXAosCiwJ5AnkBWQFZAnQCdAJ9An0CkwKTAo0CjQKBAoECigKKAVgBWAJ8AnwCegJ6AnoCegI3AjcAfgB+APgA+AAbABsAagBqAAwADAEZARkC/wL/ADIAMgBpAGkBaAFoARsBGwB/AH8AVABUANYA1gE/AT8AXgBeArwCvADsAOwCXQJdAK4ArgB/AH8BXgFeAXQBdAEQARAAQgBCABsAGwACAAIAMwAzBLoEugBcAFwAXwBfAQ8BDwM7AzsD9wP3AH8AfwBUAFQBeAF4ACcAJwluCW4BTQFNADAAMAAAAAAAAAAAAAAAAA=="
 	}
-	74={
+	75={
 		first_name="Arthur"
 		family = c:LON.fam:Aurelianus
-		birth_date=512.8.9
+		birth_date=518.8.9
 		culture="brittania"
 		religion="chalcedonian"
+		father="char:74"
 		add_martial=10
 		add_charisma=9
 		add_finesse=6
@@ -53,6 +78,7 @@
 		no_traits=yes
 		add_trait="brave"
 		add_trait="ambitious"
+		add_trait="ambrosius"
 		add_gold=25
 		add_popularity=50
 		dna="SlNKU397f3vN5c3lApYClgKNAo0CgQKBApQClAFkAWQChAKEAnICcgKAAoACjQKNAmsCawKQApAClQKVApECkQOnA6cClgKWA64DrgKXApcCggKCAmsCawKKAooDsAOwAmcCZwJuAm4BXQFdA6QDpAKTApMCcgJyADEAMQKZApkClQKVAn8CfwKLAosCjgKOBMgEyAKOAo4BXQFdAmwCbAOjA6MCeQJ5A6IDogJ7AnsCeQJ5A6wDrAKOAo4AGgAaAnUCdQJ6AnoCdAJ0AnwCfAJ8AnwCawJrApcClwKTApMCkQKRAooCigJvAm8ABwAHAIIAggLkAuQBDAEMAGUAZQLWAtYBSAFIAocChwKsAqwAQQBBAQEBAQB/AH8AHgAeAssCywCiAKIBMAEwAWoBagEMAQwAPgA+AUYBRgB/AH8AMAAwAMIAwgAvAC8AcgByAJUAlQBPAE8AUQBRAF8AXwCwALABMwEzAQcBBwSPBI8L/wv/AH8AfwJkAmQBKwErAI4AjgmNCY0BDwEPAOkA6QAAAAAAAAAAAAAAAA=="

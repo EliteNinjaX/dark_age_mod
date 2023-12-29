@@ -323,10 +323,9 @@
 		first_name="Londoninium"
 		family = c:ERE.fam:Justinian
 		birth_date=500.5.27
-	#	mother="char:28"
+#		father="char:70"
 		culture="brittania"
 		religion="chalcedonian"
-	#	marry_character=char:14
 		no_stats=yes
 		add_martial=10
 		add_charisma=10

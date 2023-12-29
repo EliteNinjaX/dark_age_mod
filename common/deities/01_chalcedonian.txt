@@ -42,10 +42,7 @@ deity_mark = {
 	deity_category = culture #This Deity uses a Culture Slot
 	
 	on_activate = {
-		add_research = {
-			technology = religious_tech
-			value = 10					  
-		}
+		culture_apotheosis_civic_tech_effect = yes
 	}
 	
 	deification_trigger = {
@@ -58,18 +55,14 @@ deity_constantine = {
 		religion = chalcedonian
 	}
 	icon = deity_war
-	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
-	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
 
-	on_activate = {
-		military_apotheosis_capital_freemen_effect = yes
-	}
-	religion = chalcedonian
-	deity_category = war #This Deity uses a War slot.
-	
 	on_activate = {
 		add_1_free_province_investments = yes
 	}
+	religion = chalcedonian
+	deity_category = war #This Deity uses a War slot.
 	
 	deification_trigger = {
 		can_deify_trigger = yes
@@ -132,6 +125,30 @@ deity_peter = {
 	
 ### jphiloponus additions ###
 
+deity_ephraim = {
+	trigger = {
+	OR = {
+			religion = chalcedonian
+			religion = miaphysite
+			religion = nestorian
+			religion = arian
+		}
+	}
+	icon = deity_war
+	passive_modifier = { oratory_tech_investment = deity_oratory_tech_investment_svalue }
+	omen = { fort_maintenance_cost = omen_fort_maintenance_cost_svalue } #Bonus from Omen
+	religion = chalcedonian
+	deity_category = economy #This Deity uses an Economy Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
 deity_george = {
 	trigger = {
 	OR = {
@@ -146,7 +163,7 @@ deity_george = {
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 
 	on_activate = {
-		military_apotheosis_military_experience_effect = yes
+		add_military_experience = 15
 	}
 	
 	religion = chalcedonian
@@ -156,37 +173,6 @@ deity_george = {
 		can_deify_trigger = yes
 	}
 }
-
-#deity_michael = {
-#	trigger = {
-#	OR = {
-#			religion = chalcedonian
-#			religion = miaphysite
-#			religion = nestorian
-#			religion = arian
-#		}
-#	}
-#	icon = deity_war
-#	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
-#	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
-#
-#	on_activate = {
-#		if = {
-#			limit = { manpower_percentage < 0.8 }
-#			add_manpower = 1.5
-#		}
-#		else = {
-#			add_military_experience = 2
-#		}
-#	}
-#	
-#	religion = chalcedonian
-#	deity_category = war #This Deity uses a War slot.
-#	
-#	deification_trigger = {
-#		can_deify_trigger = yes
-#	}
-#}
 
 deity_augustine = {
 	trigger = {
@@ -198,15 +184,12 @@ deity_augustine = {
 	}
 	
 	icon = deity_war
-	passive_modifier = { agressive_expansion_impact = deity_aggressive_expansion_impact_svalue }
-	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue } #Bonus from Omen
+	passive_modifier = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue }
+	omen = { agressive_expansion_impact = -0.15 }  #Bonus from Omen
 	religion = chalcedonian
 	deity_category = war #This Deity uses a War Slot
 	on_activate = {
-		add_research = {
-			technology = religious_tech
-			value = 10
-		}
+		culture_apotheosis_capital_effect = yes
 	}
 
 	deification_trigger = {
@@ -259,30 +242,6 @@ deity_john_chrysostom = {
 	
 	deification_trigger = {
 		can_deify_trigger = yes
-	}
-}
-
-deity_ephraim = {
-	trigger = {
-	OR = {
-			religion = chalcedonian
-			religion = miaphysite
-			religion = nestorian
-			religion = arian
-		}
-	}
-	icon = deity_wealth
-	passive_modifier = { oratory_tech_investment = deity_oratory_tech_investment_svalue }
-	omen = { fort_maintenance_cost = omen_fort_maintenance_cost_svalue } #Bonus from Omen
-	religion = chalcedonian
-	deity_category = economy #This Deity uses an Economy Slot
-	
-	deification_trigger = {
-		can_deify_trigger = yes
-	}
-	
-	on_activate = {
-		military_apotheosis_defensive_effect = yes
 	}
 }
 
@@ -407,33 +366,6 @@ deity_simeon_the_stylite = {
 		military_apotheosis_manpower_effect = yes
 	}
 }
-#Whom?
-#deity_anne = {
-#	trigger = {
-#	OR = {
-#			religion = chalcedonian
-#			religion = miaphysite
-#			religion = nestorian
-#			religion = arian
-#		}
-#	}
-#	
-#	icon = deity_love
-#	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
-#	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
-#	religion = chalcedonian
-#	deity_category = fertility #This Deity uses a Fertility Slot
-#	
-#	
-#	on_activate = {
-#		culture_apotheosis_assimilate_effect = yes
-#	}
-#	
-#	deification_trigger = {
-#		can_deify_trigger = yes
-#	}
-#}
-
 
 deity_mary_of_egypt = {
 	trigger = {

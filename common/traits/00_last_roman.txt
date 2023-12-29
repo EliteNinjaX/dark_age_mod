@@ -15,3 +15,16 @@ sassanid = {
 	}
 	
 }
+
+ambrosius = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	finesse = 1
+	charisma = 1
+	country = {
+		monthly_legitimacy = 0.05
+	}
+	
+}

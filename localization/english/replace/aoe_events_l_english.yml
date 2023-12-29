@@ -33,8 +33,10 @@
  londinium_events.1.t:0 "[GetCountry('LON').GetName] in ruin"
  londinium_events.1.desc:0 "The withdrawal of Roman troops in 410 threw the province of Brittania into chaos. Always somewhat of a backwater, Brittania languished when it was disconnected from Roman trade networks. Invasions by Saxons, Jutes and Angles only made the situation worse.\n\nAfter the Battle of Crecganford in 457, many britons fled to the safty of [GetCountry('LON').GetName]'s walls; thought nothing further is said of the city for quite some time. Historically it is unclear how much of the city is left in 527 if any remain at all; however dreams, myths and legends have picked up the slack. Some say it's just a largely an uninhabited ruin at this point. \n\nThough others whisper of an old war leader named Ambrosius Aurelianus. Once called "The Last Roman" Ambrosius is said to have achieved the first military victory over the Saxon invaders, though it's uncertain if he is even a real person. Perhaps, there is hope left for Brittania yet?."
  londinium_events.1.a:0 "Make this man, Rex!"
- londinium_events.1.b:0 "Make this man, Consul!"
- londinium_events.1.c:0 "Sadly, the Saxons have aready won."
+ londinium_events.1.b:0 "At his age, let's just hope he can live to see another day."
+ londinium_events.1.c:0 "Make this man, Consul!"
+ londinium_events.1.d:0 "We all might wish this Mythology was real, but sadly, the Saxons have aready won."
+ game_over_custom_tooltip.tt:0 "#R This will give us a Game Over!"
 ##PLAGUE EVENTS
  plague_events.1.t:0 "The Plague Hits Alexandria"
  plague_events.1.desc:0 "Beginning in 541, the Mediterranean world was ravaged by a major outbreak of plague. While the exact figures are unknown, it is estimated that tens of millions of people died, which greatly weakened the resurgent Roman Empire. Some point to this as a transition point between the world of Antiquity and the Middle Ages."

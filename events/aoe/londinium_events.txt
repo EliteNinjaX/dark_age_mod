@@ -23,6 +23,48 @@
 	
 	option = {
 		name = londinium_events.1.a
+		add_stability_effect = yes
+	}
+	option = {
+		name = londinium_events.1.b
+		
+		current_ruler = {
+			add_nickname = NICKNAME_LAST_ROMAN
+			add_character_modifier = {
+				name = peismatikos_charmod
+				duration = -1
+			}
+			custom_tooltip = diadochi_flavor.1.b.tt
+			hidden_effect = {	
+				add_martial = -9
+				add_finesse = -1
+				add_charisma = -7
+			}
+			ai_chance = {
+				factor = 5
+			}
+		}
+	}
+	
+	
+	option = {
+		name = londinium_events.1.c
+		
+		change_government = aristocratic_republic
+        switch_government_type_event_clearup_effect = yes
+        ai_chance = {
+            factor = 5
+        }
+	} 
+	option = {
+		name = londinium_events.1.d
+		custom_tooltip = game_over_custom_tooltip.tt
+		every_owned_province = {
+					set_owned_by = ESX
+				}
+		ai_chance = {
+            factor = 10
+        }
 	}
 
 }

@@ -453,16 +453,35 @@
 	province_rank="city"
 	nobles=
 	{
-		amount=6
+		amount=4
 	}
 	citizen={
-		amount=5
+		amount=3
+	}
+	citizen={
+		culture="hebrew"
+		religion="judaism"
+		amount=1
+	}
+	citizen={
+		culture="briton"
+		religion="druidism"
+		amount=2
 	}
 	freemen={
-		amount=5
+		amount=3
+	}
+	freemen={
+		amount=1
+		religion="roman_pantheon"
+	}
+	freemen={
+		culture="briton"
+		religion="druidism"
+		amount=3
 	}
 	slaves={
-		amount=4
+		amount=3
 	}
 }
 

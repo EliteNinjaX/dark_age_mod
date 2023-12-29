@@ -38,3 +38,5 @@
  desc_vulnerable_modifier:0 "Due to internal problems we are vulnerable to collapse for a period of time."
  exarch_modifier:0 "Exarch"
  desc_exarch_modifier:0 "Administrative unit in the reconquered western provinces of the Roman Empire."
+ peismatikos_charmod:0 "The Last Roman Ambrosius"
+ desc_peismatikos_charmod:0 "Ambrosius has mythical health and vigor for a man his age, refusing to give up the good old Roman ways and the ghost at all costs."

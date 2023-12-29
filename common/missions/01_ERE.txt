@@ -69,7 +69,7 @@
     #	trigger_event = { id = me_antigonid_1_vision.2 }
     }
 	
-	its_all_greek_to_me = {
+	romanitas = {
 		icon = task_economical
 		duration = 120
 	
@@ -78,6 +78,8 @@
 			NOT = { primary_culture = greek }
 			primary_culture = roman
 		}
+		
+		prevented_by = { greekification }
 
 		highlight = {
 			scope:province = { province_id = 1453 }
@@ -120,7 +122,8 @@
 				}
 			}
 		}
-		its_all_greek_to_me = {
+		
+		greekification  = {
 		icon = task_economical
 		duration = 120
 	
@@ -129,7 +132,9 @@
 			NOT = { primary_culture = greek }
 			primary_culture = roman
 		}
-
+		
+		prevented_by = { romanitas }
+		
 		highlight = {
 			scope:province = { province_id = 1453 }
 		}
