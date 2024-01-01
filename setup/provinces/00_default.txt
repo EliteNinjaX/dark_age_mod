@@ -889,7 +889,7 @@
 
 5051={ #
 	terrain="impassable_terrain"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -909,7 +909,7 @@
 
 5053={ #
 	terrain="impassable_terrain"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -4839,7 +4839,7 @@
 
 5977={ #
 	terrain="impassable_terrain"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -4849,7 +4849,7 @@
 
 5978={ #
 	terrain="impassable_terrain"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -4869,7 +4869,7 @@
 
 5980={ #
 	terrain="impassable_terrain"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0

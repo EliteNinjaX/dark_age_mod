@@ -1,10 +1,12 @@
 ﻿l_english:
  ### Matter of Cuture
  ere_mission_01_matter_of_cutlure:0 "Cultural Matter"
- ere_mission_01_matter_of_cutlure_BUTTON_TOOLTIP:1 "With grit and shrewdness, [GetCharacter('(int32)37').GetPraenomen] has turned his meager satrapy of [GetProvince('(int32)1936').GetArea.GetRegion.GetName] into the most powerful Diadochi kingdom and founded a dynasty which is sure to rule for centuries."
+ ere_mission_01_matter_of_cutlure_BUTTON_TOOLTIP:1 "Emperor Justinian I, Last of the Latin rulers of Rome, left a lasting legacy through legal reforms, architectural achievements, and military campaigns."
  ere_mission_01_matter_of_cutlure_BUTTON_DETAILS:0 ""
- ere_mission_01_matter_of_cutlure_DESCRIPTION:1 "While we are the Roman Empire, it is indisputible that most of our subjects are Greeks and not Latins. Since the conquest of Greece, Greek culture has played a huge role in our nation. Still, we are on the path of fully embracing Greek culture, and many nobles are fear that we won't be able to maintan good Roman culture."
+ ere_mission_01_matter_of_cutlure_DESCRIPTION:1 "While we proudly bear the title of the Roman Empire, the undeniable reality is that a substantial portion of our subjects speaks Greek rather than Latin. Since the conquest of Greece, the profound imprint of Greek culture has shaped our nation. We find ourselves traversing a path toward a more complete embrace of Greek culture. Nonetheless, among the nobility, concerns linger that this shift may pose challenges in maintaining the rich tapestry of Roman traditions."
  ere_mission_01_matter_of_cutlure_CRITERIA_DESCRIPTION:0 "Protect the legacy of Rome and secure the Eastern Empire future as a hegemonic power."
  antigonid_01_vision_REWARD_DESCRIPTION:0 "Prevention of the destruction of [GetCharacter('(int32)37').GetPraenomen]' legacy."
  antigonid_01_vision_abort_tt:0 "@[me_antigonids_scope.GetFlag]! [me_antigonids_scope.GetName|Y] has splintered upon the death of [GetCharacter('(int32)37').GetName|Y]."
  antigonid_01_vision_wavers_abort_tt:0 "The mission '#Y $antigonid_01_vision$#!' will be #R Aborted#!!"
+ romanitas:0 "Romanitas"
+ greekification:0 "Greekification"

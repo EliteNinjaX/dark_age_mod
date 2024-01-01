@@ -3094,30 +3094,6 @@ country = {
 #BRITAIN
 
 	#Latin Britain
-		
-		DUM = {
-			government = despotic_monarchy
-			primary_culture = brittania
-			religion = druidism
-
-			capital = 2006
-
-			own_control_core = 	{
-				2005 2006 2008 2012 2009 2024
-			}
-		}
-		
-		CEL = {
-			government = despotic_monarchy
-			primary_culture = brittania
-			religion = druidism
-
-			capital = 2039
-
-			own_control_core = 	{
-				2039 2041 2049 2061 2025 2026 2043 2045 2015 2016
-			}
-		}
 			
 		LON = {
 			family = 12
@@ -3128,7 +3104,7 @@ country = {
 			
 			poptype_rights = { 
 				{
-					culture = briton 
+					culture = welsh 
 					type = citizen
 				}
 			}
@@ -3137,30 +3113,6 @@ country = {
 
 			own_control_core = 	{
 			 2027 2018 2022
-			}
-		}
-		
-		CRN = {
-			government = despotic_monarchy
-			primary_culture = brittania
-			religion = chalcedonian
-
-			capital = 2002
-
-			own_control_core = 	{
-				2000 2001 2002 2003 2004
-			}
-		}
-
-		LUI = {
-			government = despotic_monarchy
-			primary_culture = brittania
-			religion = druidism
-
-			capital = 5433
-
-			own_control_core = 	{
-				2065 5433 2066 2064 2056
 			}
 		}
  		
@@ -3265,9 +3217,61 @@ country = {
 
 	#Celtic Britain
 	
+		#Cornwall
+		
+		CRN = {
+			government = despotic_monarchy
+			primary_culture = cornish
+			religion = chalcedonian
+
+			capital = 2002
+
+			own_control_core = 	{
+				2000 2001 2002 2003 2004
+			}
+		}
+		
+		DUM = {
+			government = despotic_monarchy
+			primary_culture = cornish
+			religion = druidism
+
+			capital = 2006
+
+			own_control_core = 	{
+				2005 2006 2008 2012 2009 2024
+			}
+		}
+		
+		#Britaina
+		
+		LUI = {
+			government = despotic_monarchy
+			primary_culture = welsh
+			religion = chalcedonian
+
+			capital = 5433
+
+			own_control_core = 	{
+				2065 5433 2066 2064 2056
+			}
+		}
+		
+		CEL = {
+			government = despotic_monarchy
+			primary_culture = welsh
+			religion = chalcedonian
+
+			capital = 2039
+
+			own_control_core = 	{
+				2039 2041 2049 2061 2025 2026 2043 2045 2015 2016
+			}
+		}
+		
 		BRY = {
 			government = tribal_kingdom
-			primary_culture = briton
+			primary_culture = welsh
 			religion = druidism
 			centralization=25
 
@@ -3277,12 +3281,10 @@ country = {
 				2087 2085
 			}
 		}
-		
-		#Midlands
 
 		EBR = {
 			government = tribal_kingdom
-			primary_culture = briton
+			primary_culture = welsh
 			religion = druidism
 			centralization=25
 
@@ -3295,8 +3297,8 @@ country = {
 		
 		RHD = {
 			government = tribal_kingdom
-			primary_culture = briton
-			religion = druidism
+			primary_culture = welsh
+			religion = chalcedonian
 			centralization=25
 
 			capital = 2077
@@ -3364,8 +3366,8 @@ country = {
 
 		GWE = {
 			government = tribal_kingdom
-			primary_culture = briton
-			religion = chalcedonian
+			primary_culture = welsh
+			religion = druidism
 			centralization=25
 
 			capital = 2040
@@ -3377,8 +3379,8 @@ country = {
 
 		DYF = {
 			government = tribal_kingdom
-			primary_culture = briton
-			religion = chalcedonian
+			primary_culture = welsh
+			religion = druidism
 			centralization=25
 
 			capital = 2095
@@ -3390,8 +3392,8 @@ country = {
 
 		CER = {
 			government = tribal_kingdom
-			primary_culture = briton
-			religion = chalcedonian
+			primary_culture = welsh
+			religion = druidism
 			centralization=25
 
 			capital = 2103
@@ -3403,8 +3405,8 @@ country = {
 
 		GWY = {
 			government = tribal_kingdom
-			primary_culture = briton
-			religion = chalcedonian
+			primary_culture = welsh
+			religion = druidism
 			centralization=25
 
 			capital = 2106
@@ -3416,8 +3418,8 @@ country = {
 
 		POW = {
 			government = tribal_kingdom
-			primary_culture = briton
-			religion = chalcedonian
+			primary_culture = welsh
+			religion = druidism
 			centralization=25
 
 			capital = 2102
@@ -3477,11 +3479,11 @@ country = {
 
 		BRI = {
 			government = tribal_kingdom
-			primary_culture = briton
-			religion = druidism
+			primary_culture = breton
+			religion = chalcedonian
 			centralization=50
 
-			capital = 2150 
+			capital = 2141
 
 			own_control_core = 	{
 				2150 2155 2152 2151 2160 2158 2159 2157

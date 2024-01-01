@@ -9,6 +9,7 @@
 	primary_navy = tetrere
 	secondary_navy = hexere
 	flank_navy = liburnian
+
 	color = hsv { 0.57 0.7 0.4 }
 
 	male_names = {
@@ -54,25 +55,26 @@
 	}
 
 	culture = {
-		#Britannic
-		britannic = {} #deprecated
-		caledonian = {}
-		iceni = {}
-		trinovantian = {}
-		cantian = {}
-		durotrigan = {}
-		dumnonian = {}
-		dobunnian = {}
-		demetian = {}
-		ordovitian = {}
-		coritani = {}
-		cornovian = {}
-		brigantic = {}
-		votadinian = {}
-		damnonian = {}
-		taexalian = {}
-		briton = {}
+		welsh = {}
+	#	briton = {}
 		pict = {} 
+		cornish = {}
+		breton = {}
+#		caledonian = {}
+#		iceni = {}
+#		trinovantian = {}
+#		cantian = {}
+#		durotrigan = {}
+#		dumnonian = {}
+#		dobunnian = {}
+#		demetian = {}
+#		ordovitian = {}
+#		coritani = {}
+#		cornovian = {}
+#		brigantic = {}
+#		votadinian = {}
+#		damnonian = {}
+#		taexalian = {}
 	}
 	
 	barbarian_names = { ANCALITES ATTACOTTI BIBROCI HORESTI CASSI GABRANTOVICES GANGANI NOVANTAE LOPOCARES SEGONTIACI SELGOVAE }

@@ -1,6 +1,6 @@
 ﻿2000={ #Cornubia
 	terrain="forest"
-	culture="brittania"
+	culture="cornish"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=35
@@ -17,11 +17,11 @@
 	}
 }
 
-2001={ #Defnas
-	terrain="forest"
-	culture="brittania"
+2001={ #Devonshire
+	terrain="plains"
+	culture="cornish"
 	religion="chalcedonian"
-	trade_goods="wood"
+	trade_goods="grain"
 	civilization_value=35
 	barbarian_power=0
 	province_rank="settlement"
@@ -38,7 +38,7 @@
 
 2002={ #Herculis Promontorium
 	terrain="forest"
-	culture="brittania"
+	culture="cornish"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=35
@@ -79,7 +79,7 @@
 
 2004={ #Bedeford
 	terrain="forest"
-	culture="brittania"
+	culture="cornish"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=35
@@ -98,7 +98,7 @@
 
 2005={ #Cair Draitou
 	terrain="forest"
-	culture="brittania"
+	culture="cornish"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
@@ -117,7 +117,7 @@
 
 2006={ #Tone Tun
 	terrain="farmland"
-	culture="brittania"
+	culture="cornish"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=35
@@ -158,7 +158,7 @@
 
 2008={ #Cair Pensa vel Coyt
 	terrain="plains"
-	culture="brittania"
+	culture="cornish"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=35
@@ -177,7 +177,7 @@
 
 2009={ #Acemannesceastre
 	terrain="farmland"
-	culture="brittania"
+	culture="cornish"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=35
@@ -238,7 +238,7 @@
 2012={ #Cippanhamme
 	terrain="plains"
 	culture="brittania"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=35
 	barbarian_power=0
@@ -464,7 +464,7 @@
 		amount=1
 	}
 	citizen={
-		culture="briton"
+		culture="welsh"
 		religion="druidism"
 		amount=2
 	}
@@ -476,7 +476,7 @@
 		religion="roman_pantheon"
 	}
 	freemen={
-		culture="briton"
+		culture="welsh"
 		religion="druidism"
 		amount=3
 	}
@@ -506,7 +506,7 @@
 
 2024={ #Thornbyrig
 	terrain="plains"
-	culture="brittania"
+	culture="cornish"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
@@ -821,7 +821,7 @@
 
 2040={ #Cair Guent
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=10
@@ -935,7 +935,7 @@
 
 2046={ #Cair Meguaid
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="earthware"
 	civilization_value=10
@@ -954,7 +954,7 @@
 
 2047={ #Cair Legion
 	terrain="farmland"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=10
@@ -1014,7 +1014,7 @@
 
 2050={ #Hludhlaw
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="wild_game"
 	civilization_value=10
@@ -1128,7 +1128,7 @@
 
 2056={ #Cair Luit Coyt
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
@@ -1185,7 +1185,7 @@
 
 2059={ #Cair Guricon
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="grain"
 	civilization_value=10
@@ -1204,7 +1204,7 @@
 
 2060={ #Pengwern
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="wild_game"
 	civilization_value=10
@@ -1280,7 +1280,7 @@
 
 2064={ #Mildestwyc
 	terrain="farmland"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=10
@@ -1299,7 +1299,7 @@
 
 2065={ #Norþworþig
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=10
@@ -1318,7 +1318,7 @@
 
 2066={ #Buccstán
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1394,7 +1394,7 @@
 
 2070={ #Cair Maunguid
 	terrain="farmland"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
@@ -1413,7 +1413,7 @@
 
 2071={ #Trewigan
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=10
@@ -1432,7 +1432,7 @@
 
 2072={ #Ribceaster
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1451,7 +1451,7 @@
 
 2073={ #Fleotwudu
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=10
@@ -1470,7 +1470,7 @@
 
 2074={ #Ilecliue
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1489,7 +1489,7 @@
 
 2075={ #Cair Ebrauc
 	terrain="marsh"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=35
@@ -1508,7 +1508,7 @@
 
 2076={ #Elmeslac
 	terrain="marsh"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=35
@@ -1527,7 +1527,7 @@
 
 2077={ #Aldburh
 	terrain="marsh"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1549,7 +1549,7 @@
 
 2078={ #Dæl
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1568,7 +1568,7 @@
 
 2079={ #Streanæshealh
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=35
@@ -1587,7 +1587,7 @@
 
 2080={ #Loneceaster
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
@@ -1606,7 +1606,7 @@
 
 2081={ #Ulurestun
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
@@ -1628,7 +1628,7 @@
 
 2082={ #Wurcingtun
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=10
@@ -1647,7 +1647,7 @@
 
 2083={ #Cair Ligualid
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
@@ -1666,7 +1666,7 @@
 
 2084={ #Penrhyd
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1685,7 +1685,7 @@
 
 2085={ #Dearthingtun
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=10
@@ -1704,7 +1704,7 @@
 
 2087={ #Heruteu
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
@@ -1723,7 +1723,7 @@
 
 2088={ #Virosidum
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
@@ -1745,7 +1745,7 @@
 
 2092={ #Cair Usic
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1764,7 +1764,7 @@
 
 2093={ #Glywysing
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=10
@@ -1783,7 +1783,7 @@
 
 2094={ #Ystrad Tywi
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10
@@ -1802,7 +1802,7 @@
 
 2095={ #Cair Guorthigirn
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=10
@@ -1821,7 +1821,7 @@
 
 2096={ #Llanddewi Brefi
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=10
@@ -1840,7 +1840,7 @@
 
 2097={ #Brychan
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=10
@@ -1859,7 +1859,7 @@
 
 2098={ #Cair Caratauc
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=10
@@ -1878,7 +1878,7 @@
 
 2099={ #Dyfed
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10
@@ -1897,7 +1897,7 @@
 
 2100={ #Garth Madrun
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=10
@@ -1916,7 +1916,7 @@
 
 2101={ #Leintwardine
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=10
@@ -1935,7 +1935,7 @@
 
 2102={ #Mathratal
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1954,7 +1954,7 @@
 
 2103={ #Ceredigon
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1976,7 +1976,7 @@
 
 2104={ #Meirionydd
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="wood"
 	civilization_value=10
@@ -1995,7 +1995,7 @@
 
 2105={ #Cair Segeint
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -2014,7 +2014,7 @@
 
 2106={ #Rhos
 	terrain="plains"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="hemp"
 	civilization_value=10
@@ -2033,7 +2033,7 @@
 
 2107={ #Llangollen
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -2052,7 +2052,7 @@
 
 3057={ #Ceaster
 	terrain="marsh"
-	culture="briton"
+	culture="welsh"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=10
@@ -2071,7 +2071,7 @@
 
 3058={ #Táda
 	terrain="forest"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="horses"
 	civilization_value=10
@@ -2090,7 +2090,7 @@
 
 3059={ #Kirkebythore
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
@@ -2109,7 +2109,7 @@
 
 3060={ #Coria
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
@@ -2128,7 +2128,7 @@
 
 5432={ #Bogas
 	terrain="mountain"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -2150,7 +2150,7 @@
 
 5433={ #Ecclesbourne
 	terrain="hills"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=10
@@ -2169,7 +2169,7 @@
 
 5434={ #Aldclif
 	terrain="mountain"
-	culture="briton"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="wild_game"
 	civilization_value=10

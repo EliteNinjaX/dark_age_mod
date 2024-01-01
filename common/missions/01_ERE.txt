@@ -27,8 +27,8 @@
 				has_variable = justinian_death
 			}
 			custom_tooltip = {
-				text = antigonid_01_vision_abort_tt
-				has_global_variable = antigonus_the_failure
+			#	text = antigonid_01_vision_abort_tt
+			#	has_global_variable = antigonus_the_failure
 			}
 			ai_mission_back_out_trigger = yes
 		}
@@ -59,20 +59,12 @@
    }
 
     on_completion = {
-    #	show_as_tooltip = {
-    #		add_country_modifier = {
-    #			name = me_ant_1_end_cmod
-    #			duration = 7300 # 20 years
-    #		}
-    #	}
-    #	complete_mission_effect = yes #
-    #	trigger_event = { id = me_antigonid_1_vision.2 }
     }
 	
 	romanitas = {
 		icon = task_economical
 		duration = 120
-	
+		final = yes
 
 		allow = {
 			NOT = { primary_culture = greek }
@@ -82,7 +74,7 @@
 		prevented_by = { greekification }
 
 		highlight = {
-			scope:province = { province_id = 1453 }
+			scope:province = { province_id = 416 }
 		}
 
 		on_start = {
@@ -103,19 +95,25 @@
 						add_trait = founder
 					}
 				}
+			add_stability = -30
+			add_political_influence = 50
+			add_country_modifier = {
+				name = manintain_latin_modifier
+				duration = -1
+			}
 				
-				p:790 = {
+				p:416 = {
 					if = {
 							limit = {
 								any_pops_in_province = {
 									NOT = {
-										culture= greek
+										culture= roman
 									}
 								}
 							}
 							custom_tooltip = assimilate_15_tt
 								hidden_effect = {
-									set_pop_culture = greek
+									set_pop_culture = roman
 								}
 							}
 						}
@@ -123,10 +121,10 @@
 			}
 		}
 		
-		greekification  = {
+	greekification  = {
 		icon = task_economical
 		duration = 120
-	
+		final = yes
 
 		allow = {
 			NOT = { primary_culture = greek }
@@ -150,30 +148,20 @@
 
 		on_completion = {
 			show_as_tooltip = {
-				current_ruler = {
-					add_popularity = popularity_medium
-					if = {
-						limit = { number_of_traits <= 5 }
-						add_trait = founder
+				add_stability = -15
+				add_political_influence = -75
+					set_primary_culture_cleanup_effect = {
+						NEW_PRIMARY_CULTURE = greek
+						MAKE_OLD_CULTURE_INTEGRATED = yes
+					}
+					current_ruler = {
+						add_popularity = popularity_medium
+						if = {
+							limit = { number_of_traits <= 5 }
+							add_trait = founder
+						}
 					}
 				}
-				
-				p:790 = {
-					if = {
-							limit = {
-								any_pops_in_province = {
-									NOT = {
-										culture= greek
-									}
-								}
-							}
-							custom_tooltip = assimilate_15_tt
-								hidden_effect = {
-									set_pop_culture = greek
-								}
-							}
-						}
-				}
-			}
 		}
+	}
 }

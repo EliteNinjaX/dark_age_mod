@@ -16,7 +16,7 @@
 
 1020={ #Aracillum
 	terrain="hills"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="glass"
 	civilization_value=20
@@ -200,7 +200,7 @@
 
 1103={ #Segisama Iulia
 	terrain="plains"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="olive"
 	civilization_value=10
@@ -238,7 +238,7 @@
 
 1109={ #Maggiaviensium
 	terrain="plains"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="marble"
 	civilization_value=10
@@ -254,7 +254,7 @@
 
 1110={ #Camarica
 	terrain="plains"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
@@ -270,7 +270,7 @@
 
 1111={ #Equosera
 	terrain="plains"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
@@ -292,7 +292,7 @@
 
 1112={ #Caiellum
 	terrain="hills"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=10
@@ -308,7 +308,7 @@
 
 1113={ #Pallontion
 	terrain="hills"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="fur"
 	civilization_value=10
@@ -340,7 +340,7 @@
 
 1115={ #Ad Mare
 	terrain="hills"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=10
@@ -1200,7 +1200,7 @@
 
 1185={ #Camala
 	terrain="plains"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=10

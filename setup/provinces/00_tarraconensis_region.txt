@@ -184,7 +184,7 @@
 
 1010={ #Ilerda
 	terrain="forest"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="dye"
 	civilization_value=10
@@ -200,7 +200,7 @@
 
 1011={ #Celsa
 	terrain="plains"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="marble"
 	civilization_value=10
@@ -568,7 +568,7 @@
 
 1064={ #Keresos
 	terrain="forest"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="horses"
 	civilization_value=10
@@ -584,7 +584,7 @@
 
 1065={ #Caum
 	terrain="plains"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=10
@@ -600,7 +600,7 @@
 
 1066={ #Mendiculeia
 	terrain="forest"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=10
@@ -616,7 +616,7 @@
 
 1067={ #Labitolosa
 	terrain="hills"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=10
@@ -648,7 +648,7 @@
 
 1069={ #Ager
 	terrain="hills"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=10
@@ -664,7 +664,7 @@
 
 1070={ #Gallika Phlaouia
 	terrain="forest"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=10
@@ -680,7 +680,7 @@
 
 1071={ #Presuina
 	terrain="plains"
-	culture="ilergetian"
+	culture="vasconian"
 	religion="roman_pantheon"
 	trade_goods="grain"
 	civilization_value=10
@@ -911,7 +911,7 @@
 
 1086={ #Tritium Magallum
 	terrain="plains"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=25
@@ -1038,7 +1038,7 @@
 
 1094={ #Auca
 	terrain="plains"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="cloth"
 	civilization_value=25
@@ -1060,7 +1060,7 @@
 
 1095={ #Atiliana
 	terrain="plains"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=25
@@ -1076,7 +1076,7 @@
 
 1096={ #Vindeleia
 	terrain="plains"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=25
@@ -1092,7 +1092,7 @@
 
 1097={ #Salionka
 	terrain="plains"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="wine"
 	civilization_value=10
@@ -1108,7 +1108,7 @@
 
 1098={ #Veleia
 	terrain="hills"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="iron"
 	civilization_value=25
@@ -1124,7 +1124,7 @@
 
 1099={ #Gebala
 	terrain="hills"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=25
@@ -1140,7 +1140,7 @@
 
 1100={ #Tritium
 	terrain="plains"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="horses"
 	civilization_value=25
@@ -1156,7 +1156,7 @@
 
 1101={ #Belegia
 	terrain="hills"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=25
@@ -1172,7 +1172,7 @@
 
 1102={ #Bravum
 	terrain="plains"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="olive"
 	civilization_value=10
@@ -1188,7 +1188,7 @@
 
 1104={ #Segontia Paramika
 	terrain="hills"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="stone"
 	civilization_value=10
@@ -1207,7 +1207,7 @@
 
 1105={ #Ouxama Barka
 	terrain="hills"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1226,7 +1226,7 @@
 
 1106={ #Flaviobriga
 	terrain="hills"
-	culture="autrigonian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="leather"
 	civilization_value=25
@@ -1245,7 +1245,7 @@
 
 1107={ #Brigensium
 	terrain="hills"
-	culture="cantabrian"
+	culture="vasconian"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=10

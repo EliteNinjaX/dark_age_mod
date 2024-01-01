@@ -177,13 +177,13 @@
 }
 
 2141={ #Reginca
-	terrain="plains"
-	culture="briton"
-	religion="druidism"
+	terrain="farmland"
+	culture="breton"
+	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=15
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=1
 	}
@@ -200,7 +200,7 @@
 
 2142={ #Fanum Martis
 	terrain="plains"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="vegetables"
 	civilization_value=15
@@ -293,9 +293,9 @@
 
 2146={ #Matriniaca
 	terrain="farmland"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
-	trade_goods="leather"
+	trade_goods="grain"
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
@@ -309,7 +309,7 @@
 
 2147={ #Duretie
 	terrain="plains"
-	culture="gaul"
+	culture="breton"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=15
@@ -335,13 +335,16 @@
 }
 
 2148={ #Dariorigum
-	terrain="plains"
-	culture="briton"
-	religion="druidism"
-	trade_goods="fish"
+	terrain="farmland"
+	culture="breton"
+	religion="chalcedonian"
+	trade_goods="iron"
 	civilization_value=15
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=2
+	}
 	freemen={
 		amount=1
 	}
@@ -352,9 +355,9 @@
 
 2149={ #Sulis
 	terrain="plains"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
-	trade_goods="hemp"
+	trade_goods="leather"
 	civilization_value=15
 	barbarian_power=0
 	province_rank="settlement"
@@ -368,12 +371,12 @@
 
 2150={ #Vorgium
 	terrain="plains"
-	culture="briton"
-	religion="druidism"
+	culture="breton"
+	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=15
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	freemen={
 		amount=1
 	}
@@ -384,7 +387,7 @@
 
 2151={ #Vorganium
 	terrain="forest"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="amber"
 	civilization_value=15
@@ -403,7 +406,7 @@
 
 2152={ #Gesoscribate
 	terrain="forest"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=15
@@ -419,8 +422,8 @@
 
 2153={ #Grannona
 	terrain="plains"
-	culture="gaul"
-	religion="chalcedonian"
+	culture="breton"
+	religion="druidism"
 	trade_goods="precious_metals"
 	civilization_value=15
 	barbarian_power=0
@@ -446,7 +449,7 @@
 
 2154={ #Pollicum
 	terrain="plains"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=15
@@ -462,7 +465,7 @@
 
 2155={ #Agritore
 	terrain="plains"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=15
@@ -478,7 +481,7 @@
 
 2156={ #Coriosolitum
 	terrain="farmland"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="woad"
 	civilization_value=15
@@ -494,7 +497,7 @@
 
 2157={ #Osismetum
 	terrain="plains"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="base_metals"
 	civilization_value=15
@@ -510,8 +513,8 @@
 
 2158={ #Tregoritum
 	terrain="forest"
-	culture="briton"
-	religion="druidism"
+	culture="breton"
+	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=15
 	barbarian_power=0
@@ -529,7 +532,7 @@
 
 2159={ #Goelloria
 	terrain="plains"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="woad"
 	civilization_value=15
@@ -545,7 +548,7 @@
 
 2160={ #Leonitia
 	terrain="forest"
-	culture="briton"
+	culture="breton"
 	religion="druidism"
 	trade_goods="fish"
 	civilization_value=15
@@ -641,13 +644,13 @@
 }
 
 2212={ #Nantes
-	terrain="plains"
-	culture="gaul"
+	terrain="farmland"
+	culture="breton"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=15
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		culture="franks"
 		amount=2

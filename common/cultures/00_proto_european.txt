@@ -43,12 +43,11 @@
 	culture = {
 		vasconian = {}
 		aquitani = {}
-		nuragic = { levy_template = levy_sardinian }
-		autrigonian = {}
-		ilergetian = {}
-	#	corsian = { levy_template = levy_sardinian }
-		cantabrian = {}
-		talaiotic = { levy_template = levy_sardinian }
+	#	nuragic = { levy_template = levy_sardinian }
+	#	autrigonian = {}
+	#	ilergetian = {}
+	#	cantabrian = {}
+	#	talaiotic = { levy_template = levy_sardinian }
 	}
 	
 	barbarian_names = { BERONES VESCETANI CERETES CONVENI SOTIATES ELUSATES VASATES BELATONES CERVINI LICININI TIBULATI EUTHICANI ACCONITI CARENSES CELSITANI CORACENSES }

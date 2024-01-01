@@ -526,17 +526,17 @@
 	freemen=
 	{
 		amount=1
-		culture="bulgars"
+		culture="thracian"
 	}
 	slaves=
 	{
 		amount=2
-		culture="bulgars"
+		culture="thracian"
 	}
 	tribesmen=
 	{
 		amount=3
-		culture="bulgars"
+		culture="thracian"
 		religion="roman_pantheon"
 	}
 }
@@ -563,7 +563,7 @@
 	tribesmen=
 	{
 		amount=1
-		culture="bulgars"
+		culture="thracian"
 		religion="roman_pantheon"
 	}
 }
@@ -614,7 +614,7 @@
 	tribesmen=
 	{
 		amount=2
-		culture="bulgars"
+		culture="thracian"
 		religion="roman_pantheon"
 	}
 }
@@ -1081,7 +1081,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1100,7 +1100,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1119,7 +1119,7 @@
 {
 	barbarian_power=0
 	civilization_value=10
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1146,7 +1146,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"
@@ -1161,7 +1161,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1180,7 +1180,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1203,7 +1203,7 @@
 {
 	barbarian_power=0
 	civilization_value=10
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1226,7 +1226,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1253,7 +1253,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1280,7 +1280,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1303,7 +1303,7 @@
 {
 	barbarian_power=0
 	civilization_value=10
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1326,7 +1326,7 @@
 {
 	barbarian_power=0
 	civilization_value=10
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1345,7 +1345,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"
@@ -1372,7 +1372,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1391,7 +1391,7 @@
 {
 	barbarian_power=0
 	civilization_value=26
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1438,17 +1438,17 @@
 	freemen=
 	{
 		amount=1
-		culture="bulgars"
+		culture="thracian"
 	}
 	slaves=
 	{
 		amount=1
-		culture="bulgars"
+		culture="thracian"
 	}
 	tribesmen=
 	{
 		amount=6
-		culture="bulgars"
+		culture="thracian"
 		religion="roman_pantheon"
 	}
 }
@@ -1457,7 +1457,7 @@
 {
 	barbarian_power=0
 	civilization_value=31
-	culture="bulgars"
+	culture="thracian"
 	province_rank="city"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1487,7 +1487,7 @@
 {
 	barbarian_power=0
 	civilization_value=26
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1511,7 +1511,7 @@
 {
 	barbarian_power=0
 	civilization_value=10
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1534,7 +1534,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1553,7 +1553,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1576,7 +1576,7 @@
 {
 	barbarian_power=0
 	civilization_value=31
-	culture="greek"
+	culture="thracian"
 	port_building=1
 	province_rank="city"
 	religion="roman_pantheon"
@@ -1601,12 +1601,12 @@
 	slaves=
 	{
 		amount=2
-		culture="bulgars"
+		culture="thracian"
 	}
 	tribesmen=
 	{
 		amount=6
-		culture="bulgars"
+		culture="thracian"
 		religion="roman_pantheon"
 	}
 }
@@ -1631,12 +1631,12 @@
 	slaves=
 	{
 		amount=1
-		culture="bulgars"
+		culture="thracian"
 	}
 	tribesmen=
 	{
 		amount=3
-		culture="bulgars"
+		culture="thracian"
 		religion="roman_pantheon"
 	}
 }
@@ -1645,7 +1645,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1668,7 +1668,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1691,7 +1691,7 @@
 {
 	barbarian_power=0
 	civilization_value=8
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"
@@ -1710,7 +1710,7 @@
 {
 	barbarian_power=0
 	civilization_value=10
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
@@ -1868,7 +1868,7 @@
 {
 	barbarian_power=0
 	civilization_value=24
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1904,17 +1904,17 @@
 	freemen=
 	{
 		amount=1
-		culture="bulgars"
+		culture="thracian"
 	}
 	slaves=
 	{
 		amount=2
-		culture="bulgars"
+		culture="thracian"
 	}
 	tribesmen=
 	{
 		amount=5
-		culture="bulgars"
+		culture="thracian"
 		religion="roman_pantheon"
 	}
 }
@@ -1923,7 +1923,7 @@
 {
 	barbarian_power=0
 	civilization_value=22
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="marsh"
@@ -1939,7 +1939,7 @@
 {
 	barbarian_power=0
 	civilization_value=24
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1959,7 +1959,7 @@
 {
 	barbarian_power=0
 	civilization_value=29
-	culture="bulgars"
+	culture="thracian"
 	province_rank="city"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -1989,7 +1989,7 @@
 {
 	barbarian_power=0
 	civilization_value=24
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="forest"
@@ -2013,7 +2013,7 @@
 {
 	barbarian_power=0
 	civilization_value=22
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="marsh"
@@ -2040,7 +2040,7 @@
 {
 	barbarian_power=0
 	civilization_value=24
-	culture="bulgars"
+	culture="thracian"
 	port_building=1
 	province_rank="settlement"
 	religion="roman_pantheon"
@@ -2069,7 +2069,7 @@
 {
 	barbarian_power=0
 	civilization_value=22
-	culture="bulgars"
+	culture="thracian"
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="marsh"

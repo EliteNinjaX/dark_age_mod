@@ -909,7 +909,7 @@
 2186={ #Dún Garbhán
 	terrain="plains"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0

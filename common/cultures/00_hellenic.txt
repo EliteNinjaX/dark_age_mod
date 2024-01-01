@@ -117,7 +117,6 @@
 		massalian = {}
 		hellenistic = { }
 		#new stuff
-		###lydian = {} #?
 		greek = { levy_template = levy_macedonian }
 		cappadocian = {}
 		phrygian = {}

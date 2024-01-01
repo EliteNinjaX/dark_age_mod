@@ -68,7 +68,7 @@
 1050={ #Aquae Flaviae
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -90,7 +90,7 @@
 1051={ #Braga
 	terrain="hills"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -112,7 +112,7 @@
 1153={ #Salacia Aebocosia
 	terrain="hills"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
@@ -128,7 +128,7 @@
 1156={ #Vicus Vagornicensis
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -144,7 +144,7 @@
 1157={ #Baniensium
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -240,8 +240,8 @@
 1163={ #Zoelarum
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
-	religion="germanic_religion"
+	religion="arian"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -257,7 +257,7 @@
 1164={ #Veniatia
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -273,7 +273,7 @@
 1167={ #Zoelia
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -289,7 +289,7 @@
 1172={ #Vicus Aquarius
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="wine"
 	civilization_value=10
 	barbarian_power=0
@@ -500,7 +500,7 @@
 1288={ #Lamecum
 	terrain="hills"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -516,7 +516,7 @@
 1289={ #Tongobriga
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -532,7 +532,7 @@
 1290={ #Aravorum
 	terrain="forest"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -548,7 +548,7 @@
 1291={ #Langobriga
 	terrain="forest"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="dye"
 	civilization_value=20
 	barbarian_power=0
@@ -564,7 +564,7 @@
 1292={ #Visseria
 	terrain="forest"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -580,7 +580,7 @@
 1293={ #Aeminium
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0
@@ -596,7 +596,7 @@
 1294={ #Conimbriga
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0
@@ -618,7 +618,7 @@
 1295={ #Areocelum
 	terrain="forest"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -634,7 +634,7 @@
 1296={ #Elboconis
 	terrain="hills"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -650,7 +650,7 @@
 1297={ #Collippo
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=20
 	barbarian_power=0
@@ -666,7 +666,7 @@
 1298={ #Sellium
 	terrain="hills"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -682,7 +682,7 @@
 1299={ #Centum Cellas
 	terrain="hills"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -906,7 +906,7 @@
 1313={ #Tubucci
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -922,7 +922,7 @@
 1314={ #Santarem
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="base_metals"
 	civilization_value=20
 	barbarian_power=0
@@ -957,7 +957,7 @@
 1316={ #Eburobrittium
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=20
 	barbarian_power=0
@@ -973,7 +973,7 @@
 1317={ #Arabriga
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="base_metals"
 	civilization_value=20
 	barbarian_power=0
@@ -1005,7 +1005,7 @@
 1319={ #Olisipo
 	terrain="plains"
 	culture="suebian"
-	religion="germanic_religion"
+	religion="arian"
 	trade_goods="fish"
 	civilization_value=10
 	barbarian_power=0
