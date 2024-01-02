@@ -3234,7 +3234,7 @@ country = {
 		DUM = {
 			government = despotic_monarchy
 			primary_culture = cornish
-			religion = druidism
+			religion = chalcedonian
 
 			capital = 2006
 

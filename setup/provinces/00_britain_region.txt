@@ -802,13 +802,15 @@
 
 2039={ #Cyrneceastre
 	terrain="plains"
-	culture="brittania"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="brittania"
+		religion="chalcedonian"
 		amount=2
 	}
 	freemen={
@@ -992,13 +994,15 @@
 
 2049={ #Cair Guiragon
 	terrain="plains"
-	culture="brittania"
+	culture="welsh"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
+		culture="brittania"
+		religion="chalcedonian"
 		amount=2
 	}
 	freemen={
