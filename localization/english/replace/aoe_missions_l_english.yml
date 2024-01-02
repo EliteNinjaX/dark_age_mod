@@ -10,3 +10,5 @@
  antigonid_01_vision_wavers_abort_tt:0 "The mission '#Y $antigonid_01_vision$#!' will be #R Aborted#!!"
  romanitas:0 "Romanitas"
  greekification:0 "Greekification"
+ ###Londinium
+londinium_mission_01_political:0 "Imperium Coniugatio Londinii"

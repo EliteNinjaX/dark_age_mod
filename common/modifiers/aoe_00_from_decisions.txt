@@ -2,3 +2,9 @@
 	happiness_for_wrong_culture_group_modifier = -0.05
 	global_pop_assimilation_speed = 2
 }
+last_roman_modifier = {
+	culture_happiness_modifier = 0.1
+	monthly_legitimacy = 0.1
+	stability_monthly_change = 0.1
+	war_exhaustion = -0.1
+}

@@ -3,11 +3,11 @@
  embrace_latin:0 "Embrace Latin Culture"
  embrace_latin_desc:0 "As we settle these new lands, the rich Latin cultural heritage appeals to us. If we embrace Latin culture we will appeal to our many subjects, but also anger those of us who wish to stay true to our roots. This will also allow us to recreate the Western Roman Empire if we wish."
 
- embrace_greek:0 "Embrace Greek Culture"
- embrace_greek_desc:0 "While we are the Roman Empire, it is indisputible that most of our subjects are more Greek than Latin. By embracing Greek culture we can rule in a way that's more closely aligned with our people."
+# embrace_greek:0 "Embrace Greek Culture"
+# embrace_greek_desc:0 "While we are the Roman Empire, it is indisputible that most of our subjects are more Greek than Latin. By embracing Greek culture we can rule in a way that's more closely aligned with our people."
  
- manintain_latin:0 "Manintain Latin Culture"
- manintain_latin_desc:0 "We are the Roman Empire, it is silly to think that some people want us to embrace the barbarus Greeks. We should take time to assimilate them, though they may not like this."
+# manintain_latin:0 "Manintain Latin Culture"
+# manintain_latin_desc:0 "We are the Roman Empire, it is silly to think that some people want us to embrace the barbarus Greeks. We should take time to assimilate them, though they may not like this."
 
  western_claims:0 "Reassert Western Claims"
  western_claims_desc:0 "While the western empire has been lost for generations, now might be the time to strike and reclaim this territory. The place to start is the rich province of Africa."
@@ -23,3 +23,10 @@
 
 
  convert_chalcedonian:0 "#G Any Character with 60 or higher loyalty will convert to Chalcedonian"
+#ERE Decisions
+last_roman_east:0 "Reclaim The Empire"
+last_roman_east_desc:0 "If the Empire can just retake Italy, we could gain much legitmacy in our conquests."
+last_roman:0 "Last Roman"
+last_roman_desc:0 "It's time we reunited this Empire, and become the last man standing."
+restore_the_western_roman_empire:0 "Restore The Western Roman Empire"
+restore_the_western_roman_empire_desc:0 "If Italy were to be reclaimed by a Latin state, we might have grounds to assert the Western Empire title for ourselves. However, it's essential to acknowledge that Constantinople could express dissatisfaction, to say the least."

@@ -16,6 +16,9 @@
 				is_endgame_tag_trigger = yes
 			}
 			NOT = {
+				tag = WRE
+			}
+			NOT = {
 				tag = GBR
 			}
 			NOT = { has_variable = formed_hre }
@@ -89,7 +92,7 @@
 				}
 				set_variable = formed_HRE
 			}
-			add_3_free_province_investments = yes
+			add_5_free_province_investments = yes
 		}		
 		ai_will_do = {
 			base = 1

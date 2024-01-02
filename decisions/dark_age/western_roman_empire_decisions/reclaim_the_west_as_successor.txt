@@ -1,30 +1,34 @@
 ﻿country_decisions = {
-	# last_roman
-	last_roman = {
+	restore_the_western_roman_empire = {
 		potential = {
 			country_culture_group = latin
 			NOT = {
 				tag = ERE
 			}
-			NOT = { has_variable = last_roman }
+			NOT = {
+				tag = WRE
+			}
+			NOT = { has_variable = western_roman_empire }
 		}
 		highlight = {
-			scope:province = {
-				OR = {
-					is_in_region = central_italy_region
-					is_in_region = cisalpine_gaul_region
+				scope:province = {
+					OR = {
+						is_in_region = central_italy_region
+						is_in_region = cisalpine_gaul_region
+						is_in_region = magna_graecia_region
+					}
 				}
 			}
-		}
 		
 		allow = {
 			owns_region = central_italy_region
 			owns_region = cisalpine_gaul_region
+			owns_region = magna_graecia_region
 			custom_tooltip = {
-				text = formable_not_rom_exists
+				text = formable_not_wre_exists
 				NOT = {
 					any_country = {
-						tag = ERE
+						tag = WRE
 					}
 				}
 			}
@@ -44,11 +48,11 @@
 		}
 		
 		effect = {
-			change_country_name = "ROM_NAME"
+			change_country_name = "WRE_NAME"
 			hidden_effect = {
-				change_country_adjective = "ROM_ADJ"
-				change_country_color = "WRE_color"
-				change_country_flag = ROM_FLAG
+				change_country_adjective = "WRE_ADJ"
+				change_country_color = "HRE_color"
+				change_country_flag = HRE_FLAG
 			}
 				set_capital = 1
 				hidden_effect = {
@@ -92,9 +96,19 @@
 					}
 					add_claim = ROOT
 				}
-				set_variable = last_roman
+				set_variable = western_roman_empire
+				trigger_event = { id = restore_the_western_roman_empire.1 }
 			}
-			add_3_free_province_investments = yes
+			add_5_free_province_investments = yes
+			custom_tooltip = "tier_3_formable_tooltip"
+			capital_scope = {
+				capital_formable_large_effect = yes
+				formable_capital_modifier_large_effect = yes
+			}
+			add_country_modifier = {
+				name = formable_country_huge_modifier
+				duration = 7600
+			}
 		}		
 		ai_will_do = {
 			base = 1

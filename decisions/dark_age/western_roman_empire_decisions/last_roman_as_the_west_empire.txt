@@ -3,23 +3,36 @@
 	last_roman = {
 		potential = {
 			country_culture_group = latin
-			NOT = {
-				tag = ERE
+			OR = {
+			tag = WRE
+			has_variable = western_roman_empire
 			}
 			NOT = { has_variable = last_roman }
 		}
 		highlight = {
 			scope:province = {
 				OR = {
-					is_in_region = central_italy_region
-					is_in_region = cisalpine_gaul_region
+						is_in_region = central_italy_region
+						is_in_region = greece_region
+						is_in_region = thrace_region
+						is_in_region = macedonia_region
+						is_in_region = syria_region
+						is_in_region = palestine_region
+						is_in_region = lower_egypt_region
+						is_in_region = upper_egypt_region
 				}
 			}
 		}
 		
 		allow = {
 			owns_region = central_italy_region
-			owns_region = cisalpine_gaul_region
+			owns_region = greece_region
+			owns_region = thrace_region
+			owns_region = macedonia_region
+			owns_region = syria_region
+			owns_region = palestine_region
+			owns_region = lower_egypt_region
+			owns_region = upper_egypt_region
 			custom_tooltip = {
 				text = formable_not_rom_exists
 				NOT = {
@@ -94,7 +107,7 @@
 				}
 				set_variable = last_roman
 			}
-			add_3_free_province_investments = yes
+			add_5_free_province_investments = yes
 		}		
 		ai_will_do = {
 			base = 1
