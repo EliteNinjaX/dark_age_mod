@@ -199,3 +199,10 @@
  slavs_events.1.t:0 "The Slavs Penetrate The Balkans"
  slavs_events.1.desc:0 "The territory beyond the Danube has been in chaos since the arrival of the Avars. With the Roman Empire distracted by external threats, Slavic tribes have taken the opportunity to invade and settle the Balkans. They must be driven back before their foothold becomes too strong."
  slavs_events.1.a:0 "We must strike back"
+#Western Roman Empire
+restore_the_western_roman_empire.1.t:0"Resurrected Western Roman Empire"
+restore_the_western_roman_empire.1.desc:0"News of a remarkable development in the West. A powerful Latin state, having reclaimed Italy, now boldly asserts the restoration of the Western Roman Empire. Their ruler, proclaiming the title of Emperor in the West, seeks recognition and peaceful coexistence, at least for now. This unforeseen resurrection of the Western Empire carries implications for our own illustrious Empire. We were the sole Roman Empire, however now we find ourselves in the east alone. The once-dormant rivalry between East and West may be rekindled."
+restore_the_western_roman_empire.1.a:0 "Pursue Diplomacy"
+restore_the_western_roman_empire.1.b:0 "Assert Eastern Supremacy"
+restore_the_western_roman_empire.1.a.1:0 "We have had enough civil wars!"
+restore_the_western_roman_empire.1.b.1:0 "We must destroy them before they destroy us!"

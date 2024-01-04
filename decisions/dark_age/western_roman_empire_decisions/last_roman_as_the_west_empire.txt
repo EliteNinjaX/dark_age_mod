@@ -17,9 +17,9 @@
 						is_in_region = thrace_region
 						is_in_region = macedonia_region
 						is_in_region = syria_region
-						is_in_region = palestine_region
+			#			is_in_region = palestine_region
 						is_in_region = lower_egypt_region
-						is_in_region = upper_egypt_region
+			#			is_in_region = upper_egypt_region
 				}
 			}
 		}
@@ -30,9 +30,9 @@
 			owns_region = thrace_region
 			owns_region = macedonia_region
 			owns_region = syria_region
-			owns_region = palestine_region
+		#	owns_region = palestine_region
 			owns_region = lower_egypt_region
-			owns_region = upper_egypt_region
+		#	owns_region = upper_egypt_region
 			custom_tooltip = {
 				text = formable_not_rom_exists
 				NOT = {
@@ -64,11 +64,11 @@
 				change_country_flag = ROM_FLAG
 			}
 				set_capital = 1
-				hidden_effect = {
-					p:1.state = {
-						set_state_capital = 1
-					}
+			hidden_effect = {
+				p:1.state = {
+					set_state_capital = 1
 				}
+			}
 			monarchy_republic_into_imperium_formable_effect = yes
 			custom_tooltip = "form_ROM_claims_tooltip"
 			hidden_effect = {
@@ -108,6 +108,10 @@
 				set_variable = last_roman
 			}
 			add_5_free_province_investments = yes
+			add_country_modifier = {
+				name = last_roman_modifier
+				duration = 7300
+			}
 		}		
 		ai_will_do = {
 			base = 1
