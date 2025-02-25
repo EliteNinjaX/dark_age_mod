@@ -53,7 +53,7 @@
 			change_country_name = "WRE_NAME"
 			hidden_effect = {
 				change_country_adjective = "WRE_ADJ"
-				change_country_color = "ROM_color"
+				change_country_color = "WRE_color"
 				change_country_flag = ROM_FLAG
 			}
 			set_capital = 1

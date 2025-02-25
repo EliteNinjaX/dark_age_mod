@@ -47,15 +47,15 @@
 	}
 	
 	
-	option = {
-		name = londinium_events.1.c
-		
-		change_government = aristocratic_republic
-        switch_government_type_event_clearup_effect = yes
-        ai_chance = {
-            factor = 5
-        }
-	} 
+#	option = {
+#		name = londinium_events.1.c
+#		
+#		change_government = aristocratic_republic
+#       switch_government_type_event_clearup_effect = yes
+#      ai_chance = {
+#           factor = 5
+#       }
+#	} 
 	option = {
 		name = londinium_events.1.d
 		custom_tooltip = game_over_custom_tooltip.tt

@@ -1,0 +1,79 @@
+londinium_mission_01_political = {
+    header = "mission_image_athens"
+    icon = "athens_2"
+
+    repeatable = no
+
+    chance = {
+    	factor = 3
+    }
+
+    potential = {
+    #	NOT = { has_variable = londinium_mission_01_political }
+        tag = LON
+    	is_republic = no
+    	is_subject = no
+        has_civil_war = no
+    }
+
+    abort = {
+    	OR = {
+            is_republic = yes
+            ai_mission_back_out_trigger = yes
+        }
+    }
+
+    on_start = {
+        start_mission_ai_effect = yes
+    }
+
+    on_abort = {
+    	custom_tooltip = general_mission_cooldown_tt
+    }
+
+    on_completion = {
+    	complete_mission_effect = yes
+    }
+	
+    londinium_mission_01_political_task_1 = { # Improving the Council
+        icon = "task_economical"
+
+        prevented_by = { athenian_mission_03_political_task_10 }
+
+        allow = {
+        	trigger_if = {
+        		limit = {
+        			NOT = {
+        				any_character = {
+        					has_office = office_praetor
+        				}
+        			}
+        		}
+        		custom_tooltip = {
+        			text = "athenian_mission_03_political_task_1_trigger_censor_check"
+        			always = no
+        		}
+        	}
+    		custom_tooltip = {
+        		text = athenian_mission_03_political_task_1_trigger_tt
+        		any_character = {
+	        		has_office = office_praetor
+	        		character_experience >= athenian_mission_03_political_task_1_statesmanship_total
+	        		loyalty >= athenian_mission_03_political_task_1_loyalty_total
+	        	}
+        	}
+        	political_influence >= 10
+        }
+
+        on_completion = {
+        	trigger_event = me_athens_03_political.1
+        	add_political_influence = -10
+        	capital_scope = {
+        		add_province_modifier = {
+        			name = athenian_mission_03_council_modifier
+        			duration = -1
+        		}
+        	}
+        }
+    }
+}
