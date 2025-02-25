@@ -152,7 +152,7 @@
 		amount=1
 	}
 	nobles={
-		amount=5
+		amount=4
 		religion="chalcedonian"
 	}
 	nobles={
@@ -165,7 +165,7 @@
 		religion="chalcedonian"
 	}
 	citizen={
-		amount=8
+		amount=4
 	}
 	freemen={
 		amount=6

@@ -935,7 +935,7 @@
 
 2325={ #Marseille
 	terrain="plains"
-	culture="massalian"
+	culture="gaul"
 	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=40
@@ -1035,7 +1035,7 @@
 
 3517={ #Tauroention
 	terrain="forest"
-	culture="massalian"
+	culture="gaul"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=20
@@ -1394,7 +1394,7 @@
 3540={ #Pergantion
 	terrain="forest"
 	culture="gaul"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=20
 	barbarian_power=0
@@ -1413,7 +1413,7 @@
 3541={ #Agathom
 	terrain="forest"
 	culture="roman"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0
@@ -1453,7 +1453,7 @@
 
 3543={ #Antibes
 	terrain="plains"
-	culture="massalian"
+	culture="roman"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=15

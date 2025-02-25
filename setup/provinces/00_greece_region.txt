@@ -455,24 +455,36 @@
 416={ #Athenae
 	terrain="farmland"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=55
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		culture="roman"
+		religion="chalcedonian"
+		amount=5
+	
+	}
+	citizen={
+		culture="hebrew"
+		religion="chalcedonian"
+		amount=3
+	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	citizen={
 		amount=2
+		religion="roman_pantheon"
 	}
 	freemen={
 		amount=4
 	}
 	slaves={
-		amount=3
+		amount=4
 	}
 }
 
@@ -498,28 +510,32 @@
 418={ #Corinthus
 	terrain="hills"
 	culture="greek"
-	religion="roman_pantheon"
+	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	nobles={
 		amount=1
+		culture="roman"
+	}
+	nobles={
+		amount=2
 	}
 	citizen={
-		amount=3
+		amount=+
 	}
 	freemen={
 		culture="hebrew"
 		religion="judaism"
-		amount=1
+		amount=2
 	}
 	freemen={
 		culture="greek"
-		amount=5
+		amount=10
 	}
 	slaves={
-		amount=3
+		amount=6
 	}
 }
 
@@ -564,19 +580,19 @@
 426={ #Thebae
 	terrain="plains"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=8
+		amount=4
 	}
 	freemen={
-		amount=7
+		amount=4
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 }
 
@@ -588,17 +604,11 @@
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -749,19 +759,13 @@
 436={ #Megalopolis
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=40
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=2
-	}
-	citizen={
-		amount=5
-	}
+	province_rank="settlement"
 	freemen={
-		amount=6
+		amount=3
 	}
 	slaves={
 		amount=2
@@ -819,19 +823,19 @@
 439={ #Olympia
 	terrain="forest"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=2
+		amount=4
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 }
 
@@ -1297,7 +1301,7 @@
 
 471={ #Kythera
 	terrain="hills"
-	culture="peloponnesian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="wine"
 	civilization_value=40
@@ -1508,7 +1512,7 @@
 7803={ #Oeniadae
 	terrain="farmland"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="olive"
 	civilization_value=40
 	barbarian_power=0
@@ -1526,7 +1530,7 @@
 
 7889={ #Taenarus
 	terrain="hills"
-	culture="peloponnesian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=40
@@ -1802,7 +1806,7 @@
 
 8003={ #Sicyon
 	terrain="plains"
-	culture="achaean"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="earthware"
 	civilization_value=31
