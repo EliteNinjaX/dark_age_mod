@@ -1,9 +1,9 @@
 ﻿l_english:
 ###Start events
  aoe_startup_events.1.t:0 "A New Emperor"
- aoe_startup_events.1.desc:0 "It has been 50 years since the final emperor in the west was overthrown by traitorous barbarians, but the Roman Empire endures. In the east, Justinian has been crowned. He begins his reign facing threats from all sides, but also unique opportunities. \n\nIn the east, a long-lasting peace with Persia is about to end. In the north, migratory hordes threaten the Balkan frontier. Yet while these threats are real, there are also opportunities. Hilderic, the Vandal King, and Amalasuintha, the Ostrogothic queen are friendly, and they might come to Rome peacefully. If not, well the sccessors of Theodoric and Gaiseric are weak anyways. Italy and Africa - two of the richest provinces of the old western empire, are ripe for the taking. \n\nThe empire that endured Hannibal, Mithradites, Shapur and Attila will not just survive - it will thrive!"
- aoe_startup_events.1.a:0 "A new world."
- aoe_startup_events.1.b:0 "#R Due to our Imperator's friendship with Hilderic, the Vandal King, and Amalasuintha, the Ostrogothic queen we have a truce with the Vandals and Ostrogoths until ether Justinian, or they die and events unfold."
+ aoe_startup_events.1.desc:0 "It has been 50 years since the final emperor in the west was cast down by traitorous barbarian usurpers, but the Roman Empire endures. In Constantinople, Justinian has been crowned. He begins his reign facing threats from all sides, but also unique opportunities. \n\nTo the east, Khosrow I, the ambitious Shahanshah of Sassanian Persia, eyes Roman territories with lustful desire. Along the Danube frontier, restless migratory hordes, threaten to breach the imperial defenses. Yet while these threats are real, there are also opportunities. The Vandal Kingdom and the Ostrogothic Kingdom are weakened by internal strife, and may crumble before the might of Famed General Belisarius and the Roman legions.  \n\nThe empire that endured Hannibal, Mithradites, Shapur and Attila will not just survive - it will thrive!"
+ aoe_startup_events.1.a:0 "Time to make history."
+ aoe_startup_events.1.b:0 "#R War with Persia will come soon!"
  aoe_startup_events.2.t:0 "Persia's Golden Century"
  aoe_startup_events.2.desc:0 "Since Shapur poured molten gold down the throat of the captured emperor Valerian, Sassanid Persia has been the great eastern foe of the Roman Empire.\n\nHowever, since 440 both empires have been occupied by external threats. The Romans lost their western territories while Persia struggled against steppe tribes in the north. With both empires stable, a renewed cycle of war appears to be inevitable.\n\nWith rich lands, a might army and the backing of the Ahura Mazda, Persia will triumph and take its rightful place as the dominant power in Asia."
  aoe_startup_events.2.a:0 "Persia shall triumph."
@@ -203,6 +203,6 @@
 restored_the_western_roman_empire.1.t:0"Resurrected Western Roman Empire!"
 restore_the_western_roman_empire.1.desc:0"News of a remarkable development in the West. A powerful Latin state, having reclaimed Italy, now boldly asserts the restoration of the Western Roman Empire. Their ruler, proclaiming the title of Emperor in the West, seeks recognition and peaceful coexistence with Constantinople, at least for now. This unforeseen resurrection of the Western Empire carries implications for our own illustrious Empire. The once-dormant rivalry between East and West may be rekindled."
 restore_the_western_roman_empire.1.a:0 "Pursue Diplomacy"
-restore_the_western_roman_empire.1.b:0 "Assert Eastern Supremacy"
+restore_the_western_roman_empire.1.b:0 "Assert Supremacy"
 restore_the_western_roman_empire.1.a.1:0 "We have had enough civil wars!"
-restore_the_western_roman_empire.1.b.1:0 "We must destroy them before they destroy us! Claim the title of both East and West now!"
+restore_the_western_roman_empire.1.b.1:0 "We are the only Roman Empire! Claim all their land!"
