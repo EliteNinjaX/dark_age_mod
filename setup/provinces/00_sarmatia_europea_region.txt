@@ -89,7 +89,7 @@
 
 4525={ #Tyras
 	terrain="marsh"
-	culture="bosporan"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=25
@@ -251,7 +251,7 @@
 
 4918={ #Lepton
 	terrain="forest"
-	culture="south_slavs"
+	culture="antes"
 	religion="slavic"
 	trade_goods="cattle"
 	civilization_value=10

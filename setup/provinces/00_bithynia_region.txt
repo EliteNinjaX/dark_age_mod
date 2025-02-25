@@ -35,7 +35,7 @@
 		amount=2
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -312,7 +312,7 @@
 		amount=3
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -379,14 +379,14 @@
 		amount=2
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	slaves={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -451,7 +451,7 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	citizen={
@@ -480,7 +480,7 @@
 		amount=2
 	}
 	citizen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -490,7 +490,7 @@
 		amount=4
 	}
 	slaves={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -510,14 +510,14 @@
 		amount=7
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=3
 	}
 	slaves={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 }
@@ -1320,7 +1320,7 @@
 
 7763={ #Sophon Pass
 	terrain="mountain"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -1352,7 +1352,7 @@
 
 7914={ #Modra Pass
 	terrain="mountain"
-	culture="bithynian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0

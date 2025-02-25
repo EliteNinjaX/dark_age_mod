@@ -1,6 +1,6 @@
 ﻿4530={ #Hippolaou Akra
 	terrain="forest"
-	culture="bosporan"
+	culture="greek"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=25
@@ -13,7 +13,7 @@
 
 4531={ #Borysthenia
 	terrain="forest"
-	culture="bosporan"
+	culture="greek"
 	religion="tengri"
 	trade_goods="fish"
 	civilization_value=25
@@ -174,7 +174,7 @@
 
 4539={ #Charax
 	terrain="hills"
-	culture="bosporan"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=25
@@ -196,7 +196,7 @@
 
 4540={ #Lampas
 	terrain="hills"
-	culture="bosporan"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=25
@@ -215,7 +215,7 @@
 
 4541={ #Aloustou Phrourion
 	terrain="hills"
-	culture="bosporan"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
@@ -259,7 +259,7 @@
 
 4543={ #Athenaion
 	terrain="plains"
-	culture="bosporan"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=25
@@ -281,7 +281,7 @@
 
 4544={ #Theodosia
 	terrain="forest"
-	culture="bosporan"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=25
@@ -391,7 +391,7 @@
 
 4549={ #Panticapaeum
 	terrain="forest"
-	culture="bosporan"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=25
@@ -413,7 +413,7 @@
 
 4550={ #Cimmericum
 	terrain="forest"
-	culture="bosporan"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
@@ -564,7 +564,7 @@
 
 4557={ #Tanais
 	terrain="marsh"
-	culture="khazars"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="steppe_horses"
 	civilization_value=10

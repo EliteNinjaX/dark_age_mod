@@ -1969,7 +1969,7 @@
 
 5159={ #
 	terrain="impassable_terrain"
-	culture="ionian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
@@ -7359,7 +7359,7 @@
 
 7753={ #Tempsis Mons
 	terrain="impassable_terrain"
-	culture="ionian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7429,7 +7429,7 @@
 
 7761={ #Sophon Mons
 	terrain="impassable_terrain"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7439,7 +7439,7 @@
 
 7762={ #
 	terrain="impassable_terrain"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7449,7 +7449,7 @@
 
 7764={ #
 	terrain="impassable_terrain"
-	culture="bithynian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
@@ -7709,7 +7709,7 @@
 
 7913={ #
 	terrain="impassable_terrain"
-	culture="bithynian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7739,7 +7739,7 @@
 
 7917={ #
 	terrain="impassable_terrain"
-	culture="bithynian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7749,7 +7749,7 @@
 
 7918={ #
 	terrain="impassable_terrain"
-	culture="bithynian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7779,7 +7779,7 @@
 
 7921={ #
 	terrain="impassable_terrain"
-	culture="bithynian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7859,7 +7859,7 @@
 
 7929={ #
 	terrain="impassable_terrain"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7869,7 +7869,7 @@
 
 7930={ #
 	terrain="impassable_terrain"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7879,7 +7879,7 @@
 
 7931={ #
 	terrain="impassable_terrain"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7889,7 +7889,7 @@
 
 7932={ #
 	terrain="impassable_terrain"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7899,7 +7899,7 @@
 
 7933={ #
 	terrain="impassable_terrain"
-	culture="ionian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7909,7 +7909,7 @@
 
 7940={ #
 	terrain="impassable_terrain"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7919,7 +7919,7 @@
 
 7943={ #
 	terrain="impassable_terrain"
-	culture="lycian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7929,7 +7929,7 @@
 
 7944={ #
 	terrain="impassable_terrain"
-	culture="cabalian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7949,7 +7949,7 @@
 
 7946={ #
 	terrain="impassable_terrain"
-	culture="lycian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7959,7 +7959,7 @@
 
 7950={ #
 	terrain="impassable_terrain"
-	culture="lycian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7969,7 +7969,7 @@
 
 7952={ #
 	terrain="impassable_terrain"
-	culture="pisidian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7979,7 +7979,7 @@
 
 7953={ #
 	terrain="impassable_terrain"
-	culture="lycian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7989,7 +7989,7 @@
 
 7955={ #
 	terrain="impassable_terrain"
-	culture="pisidian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -7999,7 +7999,7 @@
 
 7957={ #
 	terrain="impassable_terrain"
-	culture="pisidian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -8009,7 +8009,7 @@
 
 7959={ #
 	terrain="impassable_terrain"
-	culture="oroandian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -8029,7 +8029,7 @@
 
 7965={ #
 	terrain="impassable_terrain"
-	culture="oroandian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0
@@ -8189,7 +8189,7 @@
 
 7984={ #
 	terrain="impassable_terrain"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods=""
 	civilization_value=0

@@ -1326,14 +1326,14 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		culture="aegean"
+		culture="greek"
 		amount=1
 	}
 	citizen={
 		amount=3
 	}
 	freemen={
-		culture="aegean"
+		culture="greek"
 		amount=1
 	}
 	freemen={
@@ -1362,7 +1362,7 @@
 		amount=4
 	}
 	freemen={
-		culture="aegean"
+		culture="greek"
 		amount=1
 	}
 	freemen={

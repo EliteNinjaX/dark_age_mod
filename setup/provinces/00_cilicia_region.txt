@@ -1475,7 +1475,7 @@
 
 7942={ #Daidala
 	terrain="hills"
-	culture="ionian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="hemp"
 	civilization_value=26
@@ -1488,7 +1488,7 @@
 		amount=2
 	}
 	freemen={
-		culture="lycian"
+		culture="greek"
 		religion="roman_pantheon"
 		amount=1
 	}
@@ -1496,12 +1496,12 @@
 		amount=1
 	}
 	slaves={
-		culture="lycian"
+		culture="greek"
 		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
-		culture="cabalian"
+		culture="greek"
 		religion="roman_pantheon"
 		amount=1
 	}
@@ -1509,7 +1509,7 @@
 
 7947={ #Balboura
 	terrain="hills"
-	culture="cabalian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=13
@@ -1522,7 +1522,7 @@
 		amount=2
 	}
 	freemen={
-		culture="lycian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1539,7 +1539,7 @@
 
 7948={ #Kadyanda
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=24
@@ -1555,7 +1555,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="cabalian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1566,7 +1566,7 @@
 
 7949={ #Kandyba
 	terrain="hills"
-	culture="lycian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="vegetables"
 	civilization_value=24
@@ -1606,7 +1606,7 @@
 		amount=1
 	}
 	freemen={
-		culture="lycian"
+		culture="greek"
 		religion="roman_pantheon"
 		amount=1
 	}
@@ -1614,7 +1614,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="pisidian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1635,21 +1635,21 @@
 		amount=1
 	}
 	slaves={
-		culture="pisidian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
 		amount=2
 	}
 	tribesmen={
-		culture="pisidian"
+		culture="greek"
 		amount=1
 	}
 }
 
 7956={ #Ariassos
 	terrain="hills"
-	culture="pisidian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="cloth"
 	civilization_value=24
@@ -1673,7 +1673,7 @@
 
 7958={ #Kotenna
 	terrain="hills"
-	culture="pisidian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=13
@@ -1704,7 +1704,7 @@
 
 7962={ #Ano Kotradis
 	terrain="hills"
-	culture="lalasian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=13
@@ -1722,7 +1722,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="pisidian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1763,7 +1763,7 @@
 
 7971={ #Eriza Karias
 	terrain="hills"
-	culture="cabalian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=13

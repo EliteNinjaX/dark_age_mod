@@ -312,7 +312,7 @@
 		amount=8
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -508,7 +508,7 @@
 
 202={ #Dudusa
 	terrain="plains"
-	culture="cappadocian"
+	culture="phrygian"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=25
@@ -527,7 +527,7 @@
 
 204={ #Aspona
 	terrain="hills"
-	culture="greco_pontic"
+	culture="phrygian"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=25
@@ -562,7 +562,7 @@
 		amount=2
 	}
 	tribesmen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -589,7 +589,7 @@
 		amount=1
 	}
 	slaves={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -612,7 +612,7 @@
 		amount=2
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=2
 	}
 	slaves={
@@ -886,7 +886,7 @@
 		amount=3
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -915,7 +915,7 @@
 		amount=2
 	}
 	slaves={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -938,14 +938,14 @@
 		amount=3
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
 		amount=2
 	}
 	tribesmen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -997,7 +997,7 @@
 		amount=2
 	}
 	slaves={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1719,7 +1719,7 @@
 
 7961={ #Kagrai
 	terrain="hills"
-	culture="oroandian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=13
@@ -1735,7 +1735,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="pisidian"
+		culture="greek"
 		amount=1
 	}
 	tribesmen={
@@ -1746,7 +1746,7 @@
 
 7963={ #Adrasos
 	terrain="hills"
-	culture="lalasian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="leather"
 	civilization_value=13

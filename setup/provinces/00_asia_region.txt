@@ -13,7 +13,7 @@
 		amount=1
 	}
 	freemen={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -341,7 +341,7 @@
 
 266={ #Rhodus
 	terrain="hills"
-	culture="aegean"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="glass"
 	civilization_value=40
@@ -1122,14 +1122,14 @@
 		amount=2
 	}
 	slaves={
-		culture="bithynian"
+		culture="greek"
 		amount=1
 	}
 }
 
 310={ #Lerus
 	terrain="hills"
-	culture="aegean"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -1210,7 +1210,7 @@
 
 1653={ #Calymnus
 	terrain="hills"
-	culture="aegean"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -1267,7 +1267,7 @@
 1830={ #Lindos
 	terrain="hills"
 	culture="greek"
-	religion="chalcedonian"
+	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=25
 	barbarian_power=0
@@ -1285,7 +1285,7 @@
 
 1876={ #Physkos
 	terrain="hills"
-	culture="cilician"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -1301,7 +1301,7 @@
 
 1884={ #Symi
 	terrain="hills"
-	culture="cilician"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -1356,14 +1356,14 @@
 		amount=1
 	}
 	citizen={
-		culture="ionian"
+		culture="greek"
 		amount=1
 	}
 	freemen={
 		amount=1
 	}
 	freemen={
-		culture="ionian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1412,7 +1412,7 @@
 		amount=1
 	}
 	freemen={
-		culture="ionian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -1600,7 +1600,7 @@
 
 1970={ #Cos
 	terrain="hills"
-	culture="aegean"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="silk"
 	civilization_value=40
@@ -1667,7 +1667,7 @@
 
 1974={ #Samus
 	terrain="hills"
-	culture="aegean"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
@@ -1864,7 +1864,7 @@
 
 1996={ #Astypalaea
 	terrain="hills"
-	culture="aegean"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=40
@@ -1883,7 +1883,7 @@
 
 7908={ #Antigoneia Kyzikene
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=24
@@ -1902,7 +1902,7 @@
 
 7934={ #Keramos
 	terrain="hills"
-	culture="ionian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=24
@@ -1918,12 +1918,12 @@
 		amount=1
 	}
 	slaves={
-		culture="carian"
+		culture="greek"
 		religion="roman_pantheon"
 		amount=1
 	}
 	tribesmen={
-		culture="carian"
+		culture="greek"
 		religion="roman_pantheon"
 		amount=1
 	}
@@ -1931,7 +1931,7 @@
 
 7935={ #Bargylia
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="dye"
 	civilization_value=29
@@ -1944,7 +1944,7 @@
 		amount=3
 	}
 	freemen={
-		culture="ionian"
+		culture="greek"
 		amount=2
 	}
 	slaves={
@@ -1959,7 +1959,7 @@
 
 7936={ #Nisyros
 	terrain="hills"
-	culture="aegean"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=24
@@ -1978,7 +1978,7 @@
 
 7937={ #Telos
 	terrain="hills"
-	culture="aegean"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="cloth"
 	civilization_value=24
@@ -1994,7 +1994,7 @@
 
 7938={ #Bargasa
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=24
@@ -2010,14 +2010,14 @@
 		amount=1
 	}
 	tribesmen={
-		culture="cabalian"
+		culture="greek"
 		amount=2
 	}
 }
 
 7939={ #Hyllarima
 	terrain="mountain"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="wood"
 	civilization_value=22
@@ -2030,14 +2030,14 @@
 		amount=3
 	}
 	tribesmen={
-		culture="cabalian"
+		culture="greek"
 		amount=1
 	}
 }
 
 7941={ #Antiochia ad Maeandrum
 	terrain="hills"
-	culture="carian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="cloth"
 	civilization_value=24
@@ -2055,7 +2055,7 @@
 		amount=1
 	}
 	freemen={
-		culture="ionian"
+		culture="greek"
 		amount=1
 	}
 	slaves={
@@ -2075,7 +2075,7 @@
 
 8015={ #Kameiros
 	terrain="mountain"
-	culture="aegean"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="fish"
 	civilization_value=22

@@ -1,6 +1,6 @@
 ﻿235={ #Tomisa
 	terrain="hills"
-	culture="bithynian"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=40

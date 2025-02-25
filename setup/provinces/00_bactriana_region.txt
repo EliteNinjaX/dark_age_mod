@@ -1232,7 +1232,7 @@
 		amount=2
 	}
 	freemen={
-		culture="ionian"
+		culture="greek"
 		religion="zoroaster"
 		amount=2
 	}

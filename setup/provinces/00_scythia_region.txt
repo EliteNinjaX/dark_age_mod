@@ -1827,8 +1827,8 @@
 
 8050={ #Uyra
 	terrain="marsh"
-	culture="thyssagetaen"
-	religion="indo_iranian_religion"
+	culture="khazars"
+	religion="tengri"
 	trade_goods="fish"
 	civilization_value=0
 	barbarian_power=0
