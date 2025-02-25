@@ -4021,7 +4021,7 @@ country = {
 		ALB = {
 			government = tribal_chiefdom
 			primary_culture = albanian
-			religion = chalcedonian
+			religion = zoroaster
 
 			capital = 1636
 
@@ -4199,7 +4199,7 @@ DEN= {
 
 		AUL = {
 			government = tribal_kingdom
-			primary_culture = magadhi
+			primary_culture = avanti
 			religion = hindu
 			diplomatic_stance=appeasement_stance
 			capital = 4378 # Pataliputra
@@ -4387,7 +4387,7 @@ DEN= {
 			}
 		}
 		GUP = {
-			government = aristocratic_monarchy
+			government = imperium
 			primary_culture = magadhi
 			religion = hindu
 			capital = 7400
@@ -4406,21 +4406,23 @@ DEN= {
 			7080 7083 7081 7172 7082 7085 7171 7137 7138
 			7170 7167 7173 7174 7179 7180 7181 7086 7100
 			7339 7341 7342 7347 7348 7349 7350 7351 7352 7353 7354 7355 #kamarupa_region
-			}
-		}
-		
-		VAR = {
-			government = tribal_kingdom
-			primary_culture = shauraseni
-			religion = hindu
-			centralization=50
-			capital = 4451
-		
-			own_control_core = 	{ 
 			4437 4451 4455 7374 7379 7380 7382 7482 7483 7484 4424 4453 4456 7377 7378 7381 7403 7405
 			7406 7407
 			}
 		}
+		
+#		VAR = {
+#			government = tribal_kingdom
+#			primary_culture = shauraseni
+#			religion = hindu
+#			centralization=50
+#			capital = 4451
+#		
+#			own_control_core = 	{ 
+#			4437 4451 4455 7374 7379 7380 7382 7482 7483 7484 4424 4453 4456 7377 7378 7381 7403 7405
+#			7406 7407
+#			}
+#		}
 		
 		ALC = {
 			government = tribal_kingdom
@@ -4470,7 +4472,7 @@ DEN= {
 		ALA = {
 			government = tribal_kingdom
 			primary_culture = alans
-			religion = indo_iranian_religion
+			religion = tengri
 			centralization = 75
 			
 			capital = 7611

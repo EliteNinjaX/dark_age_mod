@@ -199,14 +199,13 @@
 4959={ #Karmana
 	terrain="hills"
 	culture="carmanian"
-	religion="zoroaster"
+	religion="nestorian"
 	trade_goods="wood"
 	civilization_value=44
 	barbarian_power=0
 	province_rank="city"
 	citizen={
 		culture="pasargadi"
-		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
@@ -218,7 +217,6 @@
 	}
 	freemen={
 		culture="pasargadi"
-		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
@@ -472,7 +470,7 @@
 6541={ #Alexandropolis
 	terrain="desert"
 	culture="pasargadi"
-	religion="roman_pantheon"
+	religion="nestorian"
 	trade_goods="honey"
 	civilization_value=33
 	barbarian_power=0
@@ -752,7 +750,6 @@
 	province_rank="settlement"
 	citizen={
 		culture="pasargadi"
-		religion="roman_pantheon"
 		amount=2
 	}
 	citizen={
@@ -760,7 +757,6 @@
 	}
 	freemen={
 		culture="pasargadi"
-		religion="roman_pantheon"
 		amount=2
 	}
 	freemen={
@@ -944,7 +940,7 @@
 
 6572={ #Cotrica
 	terrain="hills"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="steppe_horses"
 	civilization_value=19

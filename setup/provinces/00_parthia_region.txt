@@ -1733,7 +1733,7 @@
 
 7639={ #Salus
 	terrain="hills"
-	culture="cadusian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="fish"
 	civilization_value=35

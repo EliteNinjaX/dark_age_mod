@@ -630,7 +630,7 @@
 
 6533={ #Rhamna
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=20
@@ -649,7 +649,7 @@
 
 6534={ #Zetis
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="hemp"
 	civilization_value=20
@@ -665,7 +665,7 @@
 
 6535={ #Oscana
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="fur"
 	civilization_value=20
@@ -706,7 +706,7 @@
 
 6537={ #Soxetra
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=20
@@ -725,7 +725,7 @@
 
 6538={ #Badara
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=20
@@ -744,7 +744,7 @@
 
 6539={ #Musarna
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="marble"
 	civilization_value=20
@@ -760,7 +760,7 @@
 
 6540={ #Cottabura
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="wood"
 	civilization_value=20
@@ -779,7 +779,7 @@
 
 6571={ #Pharsaga
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="fur"
 	civilization_value=20
@@ -944,7 +944,7 @@
 
 6616={ #Choarene
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="horses"
 	civilization_value=20
@@ -960,7 +960,7 @@
 
 6617={ #Pardiae
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="marble"
 	civilization_value=20
@@ -979,7 +979,7 @@
 
 6618={ #Oltus
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="cattle"
 	civilization_value=20
@@ -995,7 +995,7 @@
 
 6619={ #Arbia
 	terrain="mountain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods="leather"
 	civilization_value=20

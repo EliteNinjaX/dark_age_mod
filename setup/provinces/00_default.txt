@@ -2539,7 +2539,7 @@
 
 5216={ #
 	terrain="impassable_terrain"
-	culture="cadusian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -2547,9 +2547,9 @@
 	province_rank=""
 }
 
-5217={ #Cadusian Highland
+5217={ #pasargadi Highland
 	terrain="impassable_terrain"
-	culture="cadusian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -2559,7 +2559,7 @@
 
 5218={ #
 	terrain="impassable_terrain"
-	culture="cadusian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -2579,7 +2579,7 @@
 
 5220={ #
 	terrain="impassable_terrain"
-	culture="cadusian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -2589,7 +2589,7 @@
 
 5221={ #
 	terrain="impassable_terrain"
-	culture="cadusian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -2759,7 +2759,7 @@
 
 5238={ #
 	terrain="impassable_terrain"
-	culture="cadusian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -3409,7 +3409,7 @@
 
 5303={ #Mesopotamian Desert
 	terrain="impassable_terrain"
-	culture="babylonian"
+	culture="qedarite"
 	religion="nestorian"
 	trade_goods=""
 	civilization_value=0
@@ -3849,7 +3849,7 @@
 
 5347={ #
 	terrain="impassable_terrain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -5219,7 +5219,7 @@
 
 6060={ #Siwi
 	terrain="impassable_terrain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -5239,7 +5239,7 @@
 
 6062={ #Parecania
 	terrain="impassable_terrain"
-	culture="parecanian"
+	culture="pasargadi"
 	religion="zoroaster"
 	trade_goods=""
 	civilization_value=0
@@ -5247,7 +5247,7 @@
 	province_rank=""
 }
 
-6063={ #Parecaniana
+6063={ #pasargadia
 	terrain="impassable_terrain"
 	culture="gedrosian"
 	religion="zoroaster"
@@ -7239,7 +7239,7 @@
 
 7649={ #
 	terrain="impassable_terrain"
-	culture="babylonian"
+	culture="qedarite"
 	religion="arabian_pantheon"
 	trade_goods=""
 	civilization_value=0

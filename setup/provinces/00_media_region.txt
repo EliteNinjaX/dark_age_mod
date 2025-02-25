@@ -422,7 +422,7 @@
 1574={ #Pylai Kelishinias
 	terrain="mountain"
 	culture="median"
-	religion="zoroaster"
+	religion="miaphysite"
 	trade_goods="cattle"
 	civilization_value=35
 	barbarian_power=0
@@ -441,7 +441,7 @@
 1593={ #Miyana
 	terrain="plains"
 	culture="median"
-	religion="zoroaster"
+	religion="miaphysite"
 	trade_goods="honey"
 	civilization_value=35
 	barbarian_power=0
