@@ -1500,11 +1500,11 @@
 6987={ #Colapattinam
 	terrain="plains"
 	culture="tamil"
-	religion="hindu"
-	trade_goods="hemp"
+	religion="nestorian"
+	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
 		amount=1
 	}
@@ -1698,8 +1698,8 @@
 6999={ #Mayurasattapattinam
 	terrain="plains"
 	culture="tamil"
-	religion="hindu"
-	trade_goods="leather"
+	religion="nestorian"
+	trade_goods="glass"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"

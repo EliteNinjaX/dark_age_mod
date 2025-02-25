@@ -543,6 +543,12 @@ provinces = {
 	1081 = {
 		fortress_building = 1
 	}
+	1076 = {
+		fortress_building = 1
+	}
+	2256 = {
+		fortress_building = 1
+	}
 	1101 = {
 		fortress_building = 1
 	}
