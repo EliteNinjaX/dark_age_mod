@@ -305,5 +305,19 @@
  #Thrace
  PROV347:0 "Resistos"
  PROV348:0 "Arcadiopolis"
-#Assyria
-PROV856:0 "Dara"
+ #Assyria
+ PROV856:0 "Dara"
+ #Crimea
+ PROV4537:0 "Kalamita"  
+ PROV4538:0 "Cherson"  
+ PROV4539:0 "Theodoro"  
+ PROV4540:0 "Charax"  
+ PROV4541:0 "Yalita"  
+ PROV4543:0 "Alusta"  
+ PROV4544:0 "Soldaia"  
+ PROV4549:0 "Vosporo"  #
+ PROV4550:0 "Theodosia"  #
+ PROV4548:0 "Symbolon"
+ PROV4542:0 "Sugdaea"
+# PROV4549:0 "Symbolon"
+# PROV4550:0 "Sugdaea"

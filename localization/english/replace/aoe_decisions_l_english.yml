@@ -12,17 +12,15 @@
  western_claims:0 "Reassert Western Claims"
  western_claims_desc:0 "While the western empire has been lost for generations, now might be the time to strike and reclaim this territory. The place to start is the rich province of Africa."
 
- embrace_chalcedonian:0 "Embrace Chalcedonian Christianity"
+ embrace_chalcedonian:0 "Embrace Ecumenical Christianity"
  embrace_chalcedonian_desc:0 "As we settle these new lands, our Arian faith is a source of tension with the people we rule. If we embrace the Christianity of our subjects we will increase our appeal but also anger those of us who wish to stay true to our roots."
- embrace_arian:0 "Embrace Arian Christianity"
- embrace_arian_desc:0 "A part of our people has converted to Arianism. The idea of only one god seems strange, but their ideas are becoming increasingly popular among our people. If we do not convert, our country might fall into religious turmoil."
- embrace_chalcedonian_as_pagan:0 "Embrace Chalcedonian Christianity"
- embrace_chalcedonian_as_pagan_desc:0 "A part of our people has converted to Chalcedonian. The idea of only one god seems strange, but this might just be the direction the world is going to."
+ embrace_arian:0 "Embrace the Arian Heresy"
+ embrace_arian_desc:0 "A part of our people has converted to Arianism. The Arian doctrine, while deemed heretical by the Council of Nicaea, has gained significant traction. Who cares what the Romans think anyways? If I had been there with my brave army, the Romans would not have killed Christ!"
+ embrace_chalcedonian_as_pagan:0 "Embrace Ecumenical Christianity"
+ embrace_chalcedonian_as_pagan_desc:0 "A part of our people has converted to Christianity. The idea of only one God seems strange, but this might just be the direction the world is going to."
  embrace_islam:0 "Embrace Islam"
  embrace_islam_desc:0 "A new faith has emerged among our people. By embracing it we have the potential to unite the Arab tribes and create a mighty empire."
 
-
- convert_chalcedonian:0 "#G Any Character with 60 or higher loyalty will convert to Chalcedonian"
 #ERE Decisions
 last_roman_east:0 "Reclaim The Empire"
 last_roman_east_desc:0 "If the Empire can just retake Italy, we could gain much legitmacy in our conquests."
@@ -30,3 +28,7 @@ last_roman:0 "Last Roman"
 last_roman_desc:0 "It's time we reunited this Empire, and become the last man standing."
 restore_the_western_roman_empire:0 "Restore The Western Roman Empire"
 restore_the_western_roman_empire_desc:0 "If Italy were to be reclaimed by a Latin state, we might have grounds to assert the Western Empire title for ourselves. However, it's essential to acknowledge that Constantinople could express dissatisfaction, to say the least."
+
+#Conversions
+convert_chalcedonian:0 "#G Any Character with 60 or higher loyalty will convert to Christianity"
+convert_arian:0 "#G Any Character with 60 or higher loyalty will convert to the Arian Heresy!"

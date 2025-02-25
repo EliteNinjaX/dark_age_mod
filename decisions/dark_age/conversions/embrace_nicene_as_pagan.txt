@@ -1,18 +1,9 @@
 ﻿country_decisions = {
 	embrace_chalcedonian_as_pagan = {
 	potential = {
-			OR = {
-			religion = roman_pantheon
-			religion = egyptian_pantheon
-			religion = carthaginian_pantheon
-			religion = druidism
-			religion = germanic_religion
-			religion = slavic
-			religion = tengri
-			}
-			num_of_cities >= 20
-			NOT = {
-			has_variable = no_chalcedonian
+			num_of_cities >= 1
+			potential_change_religion_trigger = {
+				RELIGION = chalcedonian
 			}
 		}
 	allow = {
