@@ -4189,7 +4189,7 @@
 
 5381={ #Thule
 	terrain="impassable_terrain"
-	culture="rugian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -4589,7 +4589,7 @@
 
 5952={ #
 	terrain="impassable_terrain"
-	culture="suiones"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -4599,7 +4599,7 @@
 
 5953={ #
 	terrain="impassable_terrain"
-	culture="rugian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -4809,7 +4809,7 @@
 
 5974={ #
 	terrain="impassable_terrain"
-	culture="bastarnae"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -4819,7 +4819,7 @@
 
 5975={ #
 	terrain="impassable_terrain"
-	culture="bastarnae"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -4829,7 +4829,7 @@
 
 5976={ #
 	terrain="impassable_terrain"
-	culture="suiones"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -7179,7 +7179,7 @@
 
 7642={ #Sylvana
 	terrain="impassable_terrain"
-	culture="bastarnae"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0
@@ -7189,7 +7189,7 @@
 
 7643={ #Fennia
 	terrain="impassable_terrain"
-	culture="bastarnae"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods=""
 	civilization_value=0

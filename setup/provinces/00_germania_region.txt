@@ -1034,7 +1034,7 @@
 
 3896={ #Ruticlia
 	terrain="plains"
-	culture="pomeranian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods="wood"
 	civilization_value=5
@@ -1047,7 +1047,7 @@
 
 3897={ #Virunia
 	terrain="plains"
-	culture="pomeranian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=5
@@ -1063,7 +1063,7 @@
 
 3898={ #Pharodenia
 	terrain="plains"
-	culture="pomeranian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=5
@@ -1079,7 +1079,7 @@
 
 3899={ #Lemovia
 	terrain="marsh"
-	culture="pomeranian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=5
@@ -1108,7 +1108,7 @@
 
 3901={ #Maryanus
 	terrain="plains"
-	culture="pomeranian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods="fur"
 	civilization_value=5
@@ -1124,7 +1124,7 @@
 
 3902={ #Avgreeka
 	terrain="plains"
-	culture="pomeranian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods="woad"
 	civilization_value=5
@@ -1137,7 +1137,7 @@
 
 3903={ #Sciria
 	terrain="plains"
-	culture="pomeranian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=5
@@ -1156,7 +1156,7 @@
 
 3904={ #Sidenia
 	terrain="plains"
-	culture="pomeranian"
+	culture="norse"
 	religion="germanic_religion"
 	trade_goods="amber"
 	civilization_value=5

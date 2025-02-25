@@ -356,7 +356,7 @@
 	}
 }
 
-4764={ #Helveconiana
+4764={ #norsea
 	terrain="forest"
 	culture="slavic"
 	religion="slavic"
