@@ -1,6 +1,6 @@
 ﻿134={ #Florentia
 	terrain="farmland"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -66,7 +66,7 @@
 
 137={ #Luna
 	terrain="plains"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=40
@@ -151,7 +151,7 @@
 
 143={ #Brundulum
 	terrain="marsh"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="salt"
 	civilization_value=20
@@ -404,7 +404,7 @@
 3544={ #Nice
 	terrain="plains"
 	culture="roman"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="hemp"
 	civilization_value=15
 	barbarian_power=0
@@ -546,7 +546,7 @@
 3551={ #Taurinorum
 	terrain="forest"
 	culture="roman"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="olive"
 	civilization_value=10
 	barbarian_power=0
@@ -843,7 +843,7 @@
 3565={ #Laumellum
 	terrain="farmland"
 	culture="roman"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=15
 	barbarian_power=0
@@ -983,8 +983,8 @@
 
 3571={ #Mediolanum
 	terrain="forest"
-	culture="roman"
-	religion="chalcedonian"
+	culture="gothonic"
+	religion="arian"
 	trade_goods="vegetables"
 	civilization_value=15
 	barbarian_power=0
@@ -1008,7 +1008,7 @@
 3572={ #Papia
 	terrain="plains"
 	culture="roman"
-	religion="chalcedonian"
+	religion="gothonic"
 	trade_goods="vegetables"
 	civilization_value=15
 	barbarian_power=0
@@ -1031,7 +1031,7 @@
 
 3573={ #Lambrum
 	terrain="farmland"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=15
@@ -1076,7 +1076,7 @@
 
 3575={ #Placentia
 	terrain="forest"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=20
@@ -1095,7 +1095,7 @@
 
 3576={ #Florentiola
 	terrain="forest"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=20
@@ -1114,7 +1114,7 @@
 
 3577={ #Forum Licinii
 	terrain="forest"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=15
@@ -1130,7 +1130,7 @@
 
 3578={ #Argentea
 	terrain="plains"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=15
@@ -1165,7 +1165,7 @@
 
 3580={ #Laus Insubrum
 	terrain="forest"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=15
@@ -1232,7 +1232,7 @@
 
 3583={ #Sirmio
 	terrain="forest"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=15
@@ -1328,7 +1328,7 @@
 
 3587={ #Brixellum
 	terrain="forest"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="earthware"
 	civilization_value=20
@@ -1477,7 +1477,7 @@
 
 3594={ #Patavium
 	terrain="plains"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=20
@@ -1589,7 +1589,7 @@
 
 3599={ #Tarvisium
 	terrain="forest"
-	culture="roman"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=20
