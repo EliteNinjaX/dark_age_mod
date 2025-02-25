@@ -4056,7 +4056,7 @@ country = {
 		
 		POM = {
 			government = tribal_chiefdom
-			primary_culture = pomeranian
+			primary_culture = norse
 			religion = germanic_religion
 			centralization=-50
 			
@@ -4070,7 +4070,7 @@ country = {
 #Jutes		
 		CMB = {
 			government = tribal_chiefdom
-			primary_culture = jutes
+			primary_culture = norse
 			religion = germanic_religion
 			centralization=75
 			
@@ -4100,7 +4100,7 @@ country = {
 	#Denmark
 DEN= {
 			government = tribal_chiefdom
-			primary_culture = herulian
+			primary_culture = norse
 			religion = germanic_religion
 			centralization=75
 			

@@ -8,14 +8,15 @@ restored_the_western_roman_empire.1 = {
 	goto_location = root
 	trigger = {
 		tag = ERE
-		NOT = {
-			has_variable = restored_the_western_roman_empire
-		}
-		limit = {
-    			p:1 = {
-    				owned_or_subject_owned = c:WRE
-    			}
-    	}
+		has_variable = western_roman_empire_is_back
+#		NOT = {
+#			has_variable = restored_the_western_roman_empire
+#		}
+#		limit = {
+#    			p:1 = {
+#    				owned_or_subject_owned = c:WRE
+#    			}
+#    	}
 	}
 	
 	immediate = {

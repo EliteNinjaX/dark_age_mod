@@ -93,17 +93,9 @@
 	culture = {
 		saxonian = {}
 		anglian = {}
-		reudingian = {}
-		teutonian = {}
-		cimbrian = {}
-		herulian = {}
-		rugian = {}
-		helveconian = {}
-		bastarnae = {}
-		gutones = {}
-		suiones = {}
+		anglosaxon = {}
+		norse = {}
 		vandal = {}
-		raumarician = {}
 		irminonic = {}
 		istvaeonic = {}
 		ingvaeonic = {}
@@ -114,12 +106,21 @@
 		franks = {}
 		burgundian = {}
 		alamanni = {}
-		jutes = {}
 		lombards = {}
 		gepids = {}
-		pomeranian = {}
-		anglosaxon = {}
 		bavarii = {}
+	#	reudingian = {}
+	#	teutonian = {}
+	#	cimbrian = {}
+	#	herulian = {}
+	#	rugian = {}
+	#	helveconian = {}
+	#	bastarnae = {}
+	#	gutones = {}
+	#	jutes = {}
+	#	suiones = {}
+	#   raumarician = {}
+	#   pomeranian = {}
 	}
 	barbarian_names = { AMBRONES ANGLII ANGRIVARII AUIONES BATAVI BRUCTERI CALUCONES CHATTI CHAUCI CHERUSCI CIMBRI DULGUMNII FRISII HERMUNDURI INGVAEONES LANGOBARDI LUGII MARCOMANNI QUADI SEMNONES SUGAMBRI TENCTERI TEUTONES UBII USIPI VARISTI }
 	

@@ -23,29 +23,29 @@
 	
 	option = {
 		name = londinium_events.1.a
-		add_stability_effect = yes
-	}
-	option = {
-		name = londinium_events.1.b
-		
+		add_stability = 10
 		current_ruler = {
 			add_nickname = NICKNAME_LAST_ROMAN
 			add_character_modifier = {
 				name = peismatikos_charmod
 				duration = -1
 			}
-			custom_tooltip = diadochi_flavor.1.b.tt
-			hidden_effect = {	
-				add_martial = -9
-				add_finesse = -1
-				add_charisma = -7
-			}
+		#	custom_tooltip = uther_custom_tooltip.tt
+		#	custom_tooltip = diadochi_flavor.1.b.tt
+		#	hidden_effect = {	
+		#		add_martial = -9
+		#		add_finesse = -1
+		#		add_charisma = -7
+		#	}
 			ai_chance = {
 				factor = 5
 			}
 		}
 	}
-	
+#	option = {
+#		name = londinium_events.1.b
+#		custom_tooltip = uther_custom_tooltip.tt
+#	}
 	
 #	option = {
 #		name = londinium_events.1.c
