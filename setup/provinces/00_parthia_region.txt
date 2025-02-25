@@ -1102,7 +1102,7 @@
 6556={ #Godana
 	terrain="plains"
 	culture="parthian"
-	religion="zoroaster"
+	religion="chalcedonian"
 	trade_goods="camel"
 	civilization_value=30
 	barbarian_power=0

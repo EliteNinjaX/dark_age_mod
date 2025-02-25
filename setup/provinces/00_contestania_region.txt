@@ -19,14 +19,17 @@
 
 1024={ #Toledo
 	terrain="plains"
-	culture="hispania"
-	religion="chalcedonian"
+	culture="gothonic"
+	religion="arian"
 	trade_goods="precious_metals"
 	civilization_value=10
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=2
+	}
+	citizen={
+		amount=5
 	}
 	freemen={
 		amount=1

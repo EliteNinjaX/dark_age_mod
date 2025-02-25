@@ -661,8 +661,8 @@
 4344={ #Chhamb
 	terrain="marsh"
 	culture="himalayan"
-	religion="hindu"
-	trade_goods="elephants"
+	religion="buddhism"
+	trade_goods="grain"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="settlement"
@@ -702,8 +702,8 @@
 4346={ #Madra
 	terrain="farmland"
 	culture="gandhari"
-	religion="hindu"
-	trade_goods="grain"
+	religion="nestorian"
+	trade_goods="elephants"
 	civilization_value=40
 	barbarian_power=0
 	province_rank="city"

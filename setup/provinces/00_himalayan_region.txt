@@ -1,7 +1,7 @@
 ﻿5557={ #Khyunglung
 	terrain="hills"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -23,7 +23,7 @@
 5558={ #Achuk
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -36,7 +36,7 @@
 5559={ #Tachok Dzong
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -49,7 +49,7 @@
 5560={ #Sindhu
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -65,7 +65,7 @@
 5561={ #Ladakh
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -81,7 +81,7 @@
 5562={ #Rutok
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -97,7 +97,7 @@
 5563={ #Rabzhi Senge Dzong
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -110,7 +110,7 @@
 5564={ #Echen Khar
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -126,7 +126,7 @@
 5565={ #Aparing
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="iron"
 	civilization_value=10
 	barbarian_power=0
@@ -142,7 +142,7 @@
 5566={ #Lashang
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -164,7 +164,7 @@
 5567={ #Tiret
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -180,7 +180,7 @@
 5568={ #Mune
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -196,7 +196,7 @@
 5569={ #Tsaparang
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -212,7 +212,7 @@
 5570={ #Khayu
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -228,7 +228,7 @@
 5571={ #Nghulmo Khar
 	terrain="hills"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="vegetables"
 	civilization_value=10
 	barbarian_power=0
@@ -247,7 +247,7 @@
 5572={ #Upper Terai
 	terrain="mountain"
 	culture="himalayan"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -266,7 +266,7 @@
 5573={ #Terai
 	terrain="forest"
 	culture="himalayan"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="hemp"
 	civilization_value=10
 	barbarian_power=0
@@ -309,7 +309,7 @@
 5575={ #Gyangri
 	terrain="hills"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="gems"
 	civilization_value=10
 	barbarian_power=0
@@ -328,7 +328,7 @@
 5576={ #Kailash
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="stone"
 	civilization_value=10
 	barbarian_power=0
@@ -347,7 +347,7 @@
 5577={ #Nguot
 	terrain="hills"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cloth"
 	civilization_value=10
 	barbarian_power=0
@@ -366,7 +366,7 @@
 5582={ #Sangya
 	terrain="hills"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -385,7 +385,7 @@
 5591={ #Leh
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="wild_game"
 	civilization_value=10
 	barbarian_power=0
@@ -404,7 +404,7 @@
 5592={ #Skardo
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="leather"
 	civilization_value=10
 	barbarian_power=0
@@ -417,7 +417,7 @@
 5593={ #Darada
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="woad"
 	civilization_value=10
 	barbarian_power=0
@@ -436,7 +436,7 @@
 5594={ #Gilgit
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -452,7 +452,7 @@
 5595={ #Hunza
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -468,7 +468,7 @@
 5596={ #Druzhiya
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="wood"
 	civilization_value=10
 	barbarian_power=0
@@ -484,7 +484,7 @@
 5597={ #Kargah
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -500,7 +500,7 @@
 5598={ #Mulbek
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
@@ -516,7 +516,7 @@
 5599={ #Teclas
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="base_metals"
 	civilization_value=10
 	barbarian_power=0
@@ -529,7 +529,7 @@
 5600={ #Parsni
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -548,7 +548,7 @@
 5601={ #Kusta
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="cattle"
 	civilization_value=10
 	barbarian_power=0
@@ -564,7 +564,7 @@
 5602={ #Gondogoro Pass
 	terrain="mountain"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods=""
 	civilization_value=10
 	barbarian_power=0
@@ -584,7 +584,7 @@
 5604={ #Gondogoro Pass
 	terrain="mountain"
 	culture="turks"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -594,7 +594,7 @@
 5614={ #Ormogang
 	terrain="hills"
 	culture="zhangzhung"
-	religion="bon_religion"
+	religion="buddhism"
 	trade_goods="grain"
 	civilization_value=10
 	barbarian_power=0

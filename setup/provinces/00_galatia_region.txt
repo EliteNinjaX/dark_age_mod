@@ -23,7 +23,7 @@
 174={ #Congussus
 	terrain="plains"
 	culture="cappadocian"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="salt"
 	civilization_value=40
 	barbarian_power=0
@@ -61,7 +61,7 @@
 176={ #Ekdaoumaoua
 	terrain="plains"
 	culture="cappadocian"
-	religion="zoroaster"
+	religion="arian"
 	trade_goods="horses"
 	civilization_value=40
 	barbarian_power=0
@@ -120,7 +120,7 @@
 179={ #Oceni
 	terrain="marsh"
 	culture="phrygian"
-	religion="chalcedonian"
+	religion="arian"
 	trade_goods="wood"
 	civilization_value=40
 	barbarian_power=0
@@ -142,7 +142,7 @@
 180={ #Keissia
 	terrain="plains"
 	culture="cappadocian"
-	religion="zoroaster"
+	religion="arian"
 	trade_goods="leather"
 	civilization_value=40
 	barbarian_power=0

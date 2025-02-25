@@ -394,7 +394,7 @@
 1820={ #Odogra
 	terrain="plains"
 	culture="cappadocian"
-	religion="zoroaster"
+	religion="roman_pantheon"
 	trade_goods="cattle"
 	civilization_value=25
 	barbarian_power=0

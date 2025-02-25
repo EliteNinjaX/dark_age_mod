@@ -602,7 +602,7 @@
 6552={ #Alexandreia Sakastenes
 	terrain="desert"
 	culture="pasargadi"
-	religion="roman_pantheon"
+	religion="nestorian"
 	trade_goods="cloth"
 	civilization_value=43
 	barbarian_power=0
@@ -694,7 +694,7 @@
 6558={ #Alexandreia Areia
 	terrain="hills"
 	culture="pasargadi"
-	religion="roman_pantheon"
+	religion="nestorian"
 	trade_goods="cloth"
 	civilization_value=44
 	barbarian_power=0
@@ -745,7 +745,7 @@
 6560={ #Zranka
 	terrain="desert"
 	culture="carmanian"
-	religion="zoroaster"
+	religion="nestorian"
 	trade_goods="vegetables"
 	civilization_value=28
 	barbarian_power=0

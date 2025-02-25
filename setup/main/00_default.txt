@@ -2994,7 +2994,7 @@ country = {
 			primary_culture = gothonic
 			religion = germanic_religion
 			
-			capital = 4547
+			capital = 4538
 			
 			own_control_core = {
 				4538 4537 4536 4534 4542 4548 4546 4545 4535 4547 4533 
@@ -3008,7 +3008,7 @@ country = {
 		OSR = {
 			government = tribal_kingdom
 			primary_culture = hibernian
-			religion = chalcedonian
+			religion = druidism
 			centralization=50
 
 			capital = 2186
@@ -3021,7 +3021,7 @@ country = {
 		ORI = {
 			government = tribal_kingdom
 			primary_culture = hibernian
-			religion = druidism
+			religion = chalcedonian
 			centralization=50
 
 			capital = 2170
@@ -3034,7 +3034,7 @@ country = {
 		CON = {
 			government = tribal_federation
 			primary_culture = hibernian
-			religion = chalcedonian
+			religion = druidism
 			centralization=70
 
 			capital = 2197
@@ -3084,7 +3084,7 @@ country = {
 		ULA = {
 			government = tribal_kingdom
 			primary_culture = hibernian
-			religion = druidism
+			religion = chalcedonian
 			centralization=50
 
 			capital = 2174
@@ -3218,7 +3218,7 @@ country = {
 			}
 		}
 
-	#Celtic Britain
+	#Celtic Britain Britaina
 	
 		#Cornwall
 		
@@ -3246,8 +3246,6 @@ country = {
 			}
 		}
 		
-		#Britaina
-		
 		LUI = {
 			government = despotic_monarchy
 			primary_culture = welsh
@@ -3268,7 +3266,7 @@ country = {
 			capital = 2039
 
 			own_control_core = 	{
-				2039 2041 2049 2061 2025 2026 2043 2045 2015 2016
+				2039 2041 2061 2025 2026 2043 2045 2015 2016
 			}
 		}
 		
@@ -3281,7 +3279,7 @@ country = {
 			capital = 2085
 
 			own_control_core = 	{
-				2087 2085
+				2087 2085 2089 2086
 			}
 		}
 
@@ -3294,7 +3292,7 @@ country = {
 			capital = 2076
 
 			own_control_core = 	{
-				2075 2076 2079 3058 2078
+				2075 2076 2079 3058 2078 2077 2088 5434
 			}
 		}
 		
@@ -3304,10 +3302,10 @@ country = {
 			religion = chalcedonian
 			centralization=25
 
-			capital = 2077
+			capital = 2080
 
 			own_control_core = 	{
-				2070 2071 2072 2073 2074 2077 2080 2081 2088 5434 2047 2082 2084 2083 5432 3059 3060
+				2070 2071 2072 2073 2074 2080 2081 2047 2082 2084 2083 5432 3059 3060
 			}
 		}
 		
@@ -3322,7 +3320,7 @@ country = {
 			capital = 2111
 
 			own_control_core = 	{
-				2111 2090 2089 2086 2114
+				2111 2090 2114
 			}
 		}
 		
@@ -3376,7 +3374,7 @@ country = {
 			capital = 2040
 
 			own_control_core = 	{
-				2040 2092 2093 2098 2097
+				2040 2092 2093 2098 2097 2049
 			}
 		}
 
@@ -3420,10 +3418,10 @@ country = {
 		}
 
 		POW = {
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = welsh
 			religion = druidism
-			centralization=25
+			centralization=40
 
 			capital = 2102
 
@@ -3457,10 +3455,10 @@ country = {
 		}
 
 		CAI = {
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = pict
 			religion = druidism
-			centralization=25
+			centralization=50
 			capital = 2131
 
 			own_control_core = 	{
@@ -4324,7 +4322,7 @@ DEN= {
 			own_control_core = 	{ 
 				7122 7123 7134 7135 7136 7141 7176
 				7166 7169 7175 7140 7095 7096
-				7130 7132 7068 7139 7455 7131 7168
+				7130 7132 7068 7139 7455 7131 7168 5442
 				}
 		}
 		

@@ -167,9 +167,12 @@
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=2
+	}
+	citizen={
+		amount=5
 	}
 	freemen={
 		amount=2

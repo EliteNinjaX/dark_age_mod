@@ -42,15 +42,12 @@
 
 4533={ #Taphros
 	terrain="forest"
-	culture="gothonic"
+	culture="bulgars"
 	religion="tengri"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
 		amount=3
 	}
@@ -65,7 +62,7 @@
 4534={ #Kalos Limen
 	terrain="plains"
 	culture="gothonic"
-	religion="chalcedonian"
+	religion="germanic_religion"
 	trade_goods="fish"
 	civilization_value=25
 	barbarian_power=0
@@ -87,7 +84,7 @@
 4535={ #Masella
 	terrain="forest"
 	culture="gothonic"
-	religion="tengri"
+	religion="germanic_religion"
 	trade_goods="salt"
 	civilization_value=10
 	barbarian_power=0
@@ -115,13 +112,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=4
+		amount=6
 	}
 	freemen={
 		amount=6
 	}
 	slaves={
-		amount=3
+		amount=5
 	}
 	tribesmen={
 		amount=4
@@ -131,7 +128,7 @@
 4537={ #Parthenion
 	terrain="plains"
 	culture="gothonic"
-	religion="chalcedonian"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -165,18 +162,18 @@
 		amount=9
 	}
 	slaves={
-		amount=4
+		amount=6
 	}
 	tribesmen={
 		amount=3
 	}
 }
 
-4539={ #Charax
+4539={ #Charax/Theodoro
 	terrain="hills"
 	culture="greek"
 	religion="chalcedonian"
-	trade_goods="leather"
+	trade_goods="glass"
 	civilization_value=25
 	barbarian_power=0
 	province_rank="city"
@@ -238,7 +235,7 @@
 4542={ #Neapolis Taurike
 	terrain="plains"
 	culture="gothonic"
-	religion="chalcedonian"
+	religion="germanic_religion"
 	trade_goods="cloth"
 	civilization_value=25
 	barbarian_power=0
@@ -304,7 +301,7 @@
 4545={ #Cimus
 	terrain="forest"
 	culture="gothonic"
-	religion="tengri"
+	religion="germanic_religion"
 	trade_goods="cloth"
 	civilization_value=10
 	barbarian_power=0
@@ -326,7 +323,7 @@
 4546={ #Urgat
 	terrain="forest"
 	culture="gothonic"
-	religion="tengri"
+	religion="germanic_religion"
 	trade_goods="earthware"
 	civilization_value=10
 	barbarian_power=0
@@ -348,7 +345,7 @@
 4547={ #Taurica
 	terrain="forest"
 	culture="gothonic"
-	religion="chalcedonian"
+	religion="germanic_religion"
 	trade_goods="grain"
 	civilization_value=25
 	barbarian_power=0
@@ -370,7 +367,7 @@
 4548={ #Kimmeria
 	terrain="forest"
 	culture="gothonic"
-	religion="chalcedonian"
+	religion="germanic_religion"
 	trade_goods="steppe_horses"
 	civilization_value=25
 	barbarian_power=0

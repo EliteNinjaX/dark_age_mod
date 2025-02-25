@@ -1498,7 +1498,7 @@
 
 1847={ #Bithias
 	terrain="plains"
-	culture="greco_pontic"
+	culture="roman"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=25
@@ -1566,7 +1566,7 @@
 
 1860={ #Perrhe
 	terrain="hills"
-	culture="cappadocian"
+	culture="roman"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=25
@@ -1764,7 +1764,6 @@
 		amount=1
 	}
 	tribesmen={
-		religion="armenian_religion"
 		amount=2
 	}
 }
@@ -1800,10 +1799,6 @@
 	barbarian_power=0
 	province_rank="settlement"
 	tribesmen={
-		amount=1
-	}
-	tribesmen={
-		religion="armenian_religion"
 		amount=2
 	}
 }

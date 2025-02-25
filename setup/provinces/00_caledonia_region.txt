@@ -679,7 +679,7 @@
 2172={ #Ardboe
 	terrain="forest"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=20
 	barbarian_power=0
@@ -695,7 +695,7 @@
 2173={ #Ráth Mór
 	terrain="forest"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=20
 	barbarian_power=0
@@ -711,7 +711,7 @@
 2174={ #Doire Calgach
 	terrain="farmland"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=20
 	barbarian_power=0
@@ -733,7 +733,7 @@
 2175={ #Béal Átha Seanaidh
 	terrain="forest"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=20
 	barbarian_power=0
@@ -1250,7 +1250,7 @@
 2204={ #Tír Conaill
 	terrain="forest"
 	culture="hibernian"
-	religion="druidism"
+	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=20
 	barbarian_power=0

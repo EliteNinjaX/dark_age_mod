@@ -1,6 +1,6 @@
 ﻿1019={ #Clunia
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
@@ -35,7 +35,7 @@
 
 1021={ #Palantia
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -54,7 +54,7 @@
 
 1022={ #Segovia
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="fur"
 	civilization_value=10
@@ -70,7 +70,7 @@
 
 1041={ #Intercatia
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=10
@@ -178,7 +178,7 @@
 
 1093={ #Nova Augusta
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="cloth"
 	civilization_value=10
@@ -216,7 +216,7 @@
 
 1108={ #Veseiasueca
 	terrain="hills"
-	culture="hispania"
+	culture="gothonic"
 	religion="roman_pantheon"
 	trade_goods="gems"
 	civilization_value=25
@@ -1075,7 +1075,7 @@
 
 1174={ #Amallobriga
 	terrain="forest"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1091,7 +1091,7 @@
 
 1175={ #Septimanca
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=10
@@ -1107,7 +1107,7 @@
 
 1177={ #Cauca
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=10
@@ -1139,7 +1139,7 @@
 
 1181={ #Gella
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
@@ -1155,7 +1155,7 @@
 
 1182={ #Balneos
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1171,7 +1171,7 @@
 
 1183={ #Vaccaeia Deserta
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
@@ -1187,7 +1187,7 @@
 
 1184={ #Vaccaeia Relicta
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="marble"
 	civilization_value=10
@@ -1216,7 +1216,7 @@
 
 1186={ #Viminacium
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=10
@@ -1232,7 +1232,7 @@
 
 1187={ #Lacobriga
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=10
@@ -1248,7 +1248,7 @@
 
 1189={ #Lateremum
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="precious_metals"
 	civilization_value=10
@@ -1264,7 +1264,7 @@
 
 1190={ #Pampligua
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1280,7 +1280,7 @@
 
 1191={ #Rauda
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
@@ -1296,7 +1296,7 @@
 
 1192={ #Pintia
 	terrain="plains"
-	culture="hispania"
+	culture="gothonic"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=10
@@ -1312,8 +1312,8 @@
 
 1193={ #Confluentia
 	terrain="plains"
-	culture="hispania"
-	religion="chalcedonian"
+	culture="gothonic"
+	religion="arian"
 	trade_goods="fur"
 	civilization_value=10
 	barbarian_power=0
