@@ -7,17 +7,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="greek"
-		amount=2
-	}
-	citizen={
-		amount=8
+		amount=10
 	}
 	freemen={
-		amount=6
+		amount=7
 	}
 	slaves={
-		amount=9
+		amount=10
 	}
 }
 
@@ -30,13 +26,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=2
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 }
 
@@ -239,13 +235,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=4
+		amount=8
 	}
 }
 
@@ -258,13 +254,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}
 	freemen={
-		amount=1
+		amount=2
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 }
 
@@ -277,16 +273,16 @@
 	barbarian_power=0
 	province_rank="city"
 	nobles={
-		amount=2
+		amount=4
 	}
 	citizen={
-		amount=3
+		amount=6
 	}
 	freemen={
-		amount=8
+		amount=16
 	}
 	slaves={
-		amount=6
+		amount=12
 	}
 }
 
@@ -463,28 +459,28 @@
 	nobles={
 		culture="roman"
 		religion="chalcedonian"
-		amount=5
+		amount=10
 	
 	}
 	citizen={
 		culture="hebrew"
 		religion="chalcedonian"
-		amount=3
+		amount=6
 	}
 	citizen={
 		culture="hebrew"
 		religion="judaism"
-		amount=2
+		amount=4
 	}
 	citizen={
-		amount=2
+		amount=4
 		religion="roman_pantheon"
 	}
 	freemen={
-		amount=4
+		amount=10
 	}
 	slaves={
-		amount=4
+		amount=12
 	}
 }
 
@@ -497,13 +493,13 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		amount=8
+		amount=10
 	}
 	freemen={
-		amount=6
+		amount=8
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 }
 

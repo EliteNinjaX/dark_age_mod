@@ -415,7 +415,7 @@
 
 795={ #Alexandria ad Issum
 	terrain="plains"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=40
@@ -434,7 +434,7 @@
 
 796={ #Issus
 	terrain="plains"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -466,7 +466,7 @@
 
 1872={ #Panormus
 	terrain="mountain"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -486,7 +486,7 @@
 
 1873={ #Erana
 	terrain="hills"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="honey"
 	civilization_value=40
@@ -505,7 +505,7 @@
 
 1874={ #Viniandus
 	terrain="farmland"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -524,7 +524,7 @@
 
 1875={ #Kastabala
 	terrain="plains"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="cattle"
 	civilization_value=40
@@ -543,7 +543,7 @@
 
 1877={ #Anazarbos
 	terrain="plains"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -562,7 +562,7 @@
 
 1878={ #Pindenisson
 	terrain="hills"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="iron"
 	civilization_value=40
@@ -589,7 +589,7 @@
 
 1879={ #Aegeae
 	terrain="plains"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -605,7 +605,7 @@
 
 1880={ #Mopsouestia
 	terrain="farmland"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="grain"
 	civilization_value=40
@@ -621,7 +621,7 @@
 
 1881={ #Mallus
 	terrain="farmland"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=40
@@ -640,7 +640,7 @@
 
 1882={ #Adanus
 	terrain="plains"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="olive"
 	civilization_value=40
@@ -659,7 +659,7 @@
 
 1883={ #Tarsus
 	terrain="plains"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=40
@@ -698,7 +698,7 @@
 
 1887={ #Soli
 	terrain="hills"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="wine"
 	civilization_value=40
@@ -717,7 +717,7 @@
 
 1889={ #Magarsa
 	terrain="marsh"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods="fish"
 	civilization_value=40
@@ -743,7 +743,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="cilician"
+		culture="armenian"
 		amount=1
 	}
 	citizen={
@@ -757,7 +757,7 @@
 		amount=3
 	}
 	slaves={
-		culture="cilician"
+		culture="armenian"
 		amount=1
 	}
 	slaves={
@@ -774,7 +774,7 @@
 	barbarian_power=0
 	province_rank="city"
 	citizen={
-		culture="cilician"
+		culture="armenian"
 		amount=2
 	}
 	citizen={
@@ -784,7 +784,7 @@
 		amount=1
 	}
 	freemen={
-		culture="cilician"
+		culture="armenian"
 		amount=2
 	}
 	slaves={
@@ -830,11 +830,11 @@
 		amount=4
 	}
 	freemen={
-		culture="cilician"
+		culture="armenian"
 		amount=2
 	}
 	slaves={
-		culture="cilician"
+		culture="armenian"
 		amount=1
 	}
 	slaves={
@@ -1532,7 +1532,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="milyadian"
+		culture="greek"
 		amount=1
 	}
 }
@@ -1559,7 +1559,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="milyadian"
+		culture="greek"
 		amount=1
 	}
 }
@@ -1579,7 +1579,7 @@
 		amount=2
 	}
 	freemen={
-		culture="milyadian"
+		culture="greek"
 		religion="roman_pantheon"
 		amount=1
 	}
@@ -1587,7 +1587,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="milyadian"
+		culture="greek"
 		religion="roman_pantheon"
 		amount=1
 	}
@@ -1618,14 +1618,14 @@
 		amount=1
 	}
 	tribesmen={
-		culture="milyadian"
+		culture="greek"
 		amount=1
 	}
 }
 
 7954={ #Kormasa
 	terrain="hills"
-	culture="milyadian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="wild_game"
 	civilization_value=24
@@ -1733,7 +1733,7 @@
 
 7968={ #Kyinda
 	terrain="mountain"
-	culture="cilician"
+	culture="armenian"
 	religion="roman_pantheon"
 	trade_goods="base_metals"
 	civilization_value=22
@@ -1783,7 +1783,7 @@
 		amount=1
 	}
 	tribesmen={
-		culture="milyadian"
+		culture="greek"
 		amount=1
 	}
 }
@@ -1848,7 +1848,7 @@
 	province_rank=""
 }
 
-8022={ #Cilician Gates
+8022={ #armenian Gates
 	terrain="mountain"
 	culture="kennataian"
 	religion="roman_pantheon"

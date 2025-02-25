@@ -337,7 +337,7 @@ provinces = {
 		fortress_building = 1
 		commerce_building = 1
 		town_hall_building = 1
-		aqueduct_building = 1
+		aqueduct_building = 5
 	}
 	3278 = {
 		fortress_building = 1
@@ -691,6 +691,9 @@ provinces = {
 		fortress_building = 1
 	}
 	#Perisa
+	919 = { #Borsippa
+		aqueduct_building = 2
+	}
 	830 = { #Nisibis 
 		fortress_building = 2
 	}

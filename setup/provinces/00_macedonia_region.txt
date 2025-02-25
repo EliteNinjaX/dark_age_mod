@@ -1054,7 +1054,7 @@
 
 499={ #Spinopara
 	terrain="farmland"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="leather"
 	civilization_value=10
@@ -1374,7 +1374,7 @@
 
 4096={ #Scupi
 	terrain="farmland"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10
@@ -1393,7 +1393,7 @@
 
 4097={ #Germania
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1415,7 +1415,7 @@
 
 4098={ #Ulpiana
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="hemp"
 	civilization_value=10
@@ -1453,7 +1453,7 @@
 
 4108={ #Vizinia
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
@@ -1472,7 +1472,7 @@
 
 4109={ #Anausaro
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="stone"
 	civilization_value=10
@@ -1491,7 +1491,7 @@
 
 4110={ #Tauresium
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1510,7 +1510,7 @@
 
 4113={ #Vindenis
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="wood"
 	civilization_value=10
@@ -1529,7 +1529,7 @@
 
 4114={ #Ad Fines Dardaniae
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1548,7 +1548,7 @@
 
 4117={ #Pautalia
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="base_metals"
 	civilization_value=10
@@ -1567,7 +1567,7 @@
 
 4152={ #Tranupara
 	terrain="farmland"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="woad"
 	civilization_value=10
@@ -1662,7 +1662,7 @@
 
 4305={ #Bylazora
 	terrain="hills"
-	culture="thracian"
+	culture="greek"
 	religion="chalcedonian"
 	trade_goods="vegetables"
 	civilization_value=10

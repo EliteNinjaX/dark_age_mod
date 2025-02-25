@@ -1769,7 +1769,7 @@
 
 7964={ #Koropissos
 	terrain="mountain"
-	culture="isaurian"
+	culture="greek"
 	religion="roman_pantheon"
 	trade_goods="stone"
 	civilization_value=11
@@ -1783,10 +1783,6 @@
 	}
 	tribesmen={
 		amount=2
-	}
-	tribesmen={
-		culture="isaurian"
-		amount=1
 	}
 }
 

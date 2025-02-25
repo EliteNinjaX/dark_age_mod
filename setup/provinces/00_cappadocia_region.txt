@@ -1068,7 +1068,7 @@
 		amount=2
 	}
 	freemen={
-		culture="cilician"
+		culture="armenian"
 		amount=1
 	}
 	tribesmen={

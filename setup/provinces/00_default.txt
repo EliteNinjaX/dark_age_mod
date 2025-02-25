@@ -2039,7 +2039,7 @@
 
 5166={ #
 	terrain="impassable_terrain"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
@@ -2049,7 +2049,7 @@
 
 5167={ #
 	terrain="impassable_terrain"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
@@ -2059,7 +2059,7 @@
 
 5168={ #
 	terrain="impassable_terrain"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
@@ -2179,7 +2179,7 @@
 
 5180={ #
 	terrain="impassable_terrain"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
@@ -2189,7 +2189,7 @@
 
 5181={ #
 	terrain="impassable_terrain"
-	culture="cilician"
+	culture="armenian"
 	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=50
@@ -7939,8 +7939,8 @@
 
 7945={ #
 	terrain="impassable_terrain"
-	culture="milyadian"
-	religion="roman_pantheon"
+	culture="greek"
+	religion="chalcedonian"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
